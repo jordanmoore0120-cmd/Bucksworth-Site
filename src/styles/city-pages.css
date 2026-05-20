@@ -1,0 +1,95 @@
+/* ===== City Page Styles ===== */
+
+/* Header */
+.header {
+  position: sticky; top: 0; z-index: 100;
+  background: #fff; border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.header-inner {
+  max-width: 1200px; margin: 0 auto; padding: 12px 24px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.logo img { height: 42px; width: auto; }
+.nav { display: flex; gap: 24px; align-items: center; font-weight: 500; font-size: 15px; }
+.nav a { transition: color .15s; }
+.nav a:hover { color: #c0392b; }
+.nav-phone { color: #c0392b !important; font-weight: 700; white-space: nowrap; }
+
+/* City Hero */
+.city-hero {
+  background: linear-gradient(135deg, #0b1a2e 0%, #1a3a5c 100%);
+  color: #fff; padding: 80px 24px; text-align: center;
+}
+.city-hero-inner { max-width: 720px; margin: 0 auto; }
+.city-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 16px; }
+.city-hero p { font-size: 1.15rem; opacity: .9; margin-bottom: 32px; }
+.city-hero-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+/* Buttons */
+.btn-primary {
+  display: inline-block; padding: 14px 28px; background: #c0392b;
+  color: #fff; border-radius: 8px; font-weight: 700; font-size: 1.05rem;
+  transition: background .2s;
+}
+.btn-primary:hover { background: #a93226; }
+.btn-secondary {
+  display: inline-block; padding: 14px 28px; border: 2px solid #fff;
+  color: #fff; border-radius: 8px; font-weight: 600; font-size: 1.05rem;
+  transition: all .2s;
+}
+.btn-secondary:hover { background: rgba(255,255,255,.1); }
+
+/* Services Grid */
+.city-services { padding: 64px 24px; max-width: 1200px; margin: 0 auto; text-align: center; }
+.city-services h2 { font-size: 2rem; margin-bottom: 40px; }
+.service-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px; text-align: left;
+}
+.service-card {
+  border: 1px solid #e8e8e8; border-radius: 12px; padding: 28px;
+  transition: box-shadow .2s;
+}
+.service-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,.08); }
+.service-card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.service-icon { font-size: 2rem; }
+.service-card h3 { font-size: 1.2rem; }
+.service-card ul { list-style: none; margin-bottom: 16px; }
+.service-card li { padding: 6px 0; font-size: .95rem; color: #555; }
+.service-card li::before { content: "●"; color: #c0392b; margin-right: 8px; font-size: .6rem; vertical-align: middle; }
+.service-link { color: #c0392b; font-weight: 600; font-size: .95rem; }
+.service-link:hover { text-decoration: underline; }
+
+/* Service Area */
+.city-area { padding: 48px 24px; max-width: 800px; margin: 0 auto; }
+.city-area h2 { font-size: 1.6rem; margin-bottom: 16px; }
+.city-area p { margin-bottom: 12px; color: #444; }
+
+/* CTA */
+.city-cta {
+  background: #0b1a2e; color: #fff; padding: 64px 24px;
+  text-align: center; margin-top: 48px;
+}
+.city-cta h2 { font-size: 2rem; margin-bottom: 12px; }
+.city-cta p { font-size: 1.1rem; opacity: .85; margin-bottom: 28px; }
+
+/* Footer */
+.footer { background: #111; color: #ccc; padding: 48px 24px; }
+.footer-grid {
+  max-width: 1200px; margin: 0 auto;
+  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px;
+}
+.footer h4 { color: #fff; margin-bottom: 12px; font-size: 1rem; }
+.footer a { display: block; padding: 4px 0; font-size: .9rem; transition: color .15s; }
+.footer a:hover { color: #fff; }
+.footer-bottom {
+  max-width: 1200px; margin: 24px auto 0; padding-top: 24px;
+  border-top: 1px solid #333; font-size: .85rem; text-align: center; color: #777;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav { display: none; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
+}

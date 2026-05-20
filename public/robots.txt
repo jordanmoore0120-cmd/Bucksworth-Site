@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://getyourbucksworth.com/sitemap.xml
+Sitemap: https://bucksworth-site.vercel.app/sitemap.xml

@@ -2,6 +2,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CITIES, getCityBySlug } from "@/lib/cities";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import "@/styles/city-pages.css";
 
 interface PageProps {
   params: Promise<{ city: string }>;
@@ -57,72 +60,76 @@ export default async function CityPage({ params }: PageProps) {
   ];
 
   return (
-    <main>
-      {/* Hero */}
-      <section className="city-hero">
-        <div className="city-hero-inner">
-          <h1>Home Services in {city.name}, Arizona</h1>
-          <p>{city.description}</p>
-          <div className="city-hero-actions">
-            <a href={phoneHref} className="btn-primary">
-              Call {phone}
-            </a>
-            <Link href="/contact" className="btn-secondary">
-              Get Free Quote
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Services */}
-      <section className="city-services">
-        <h2>Our Services in {city.name}</h2>
-        <div className="service-grid">
-          {serviceCards.map((svc) => (
-            <div key={svc.title} className="service-card">
-              <div className="service-card-header">
-                <span className="service-icon">{svc.icon}</span>
-                <h3>{svc.title}</h3>
-              </div>
-              <ul>
-                {svc.items.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-              <Link href={svc.href} className="service-link">
-                Learn More
+    <>
+      <Header />
+      <main>
+        {/* Hero */}
+        <section className="city-hero">
+          <div className="city-hero-inner">
+            <h1>Home Services in {city.name}, Arizona</h1>
+            <p>{city.description}</p>
+            <div className="city-hero-actions">
+              <a href={phoneHref} className="btn-primary">
+                Call {phone}
+              </a>
+              <Link href="/contact" className="btn-secondary">
+                Get Free Quote
               </Link>
             </div>
-          ))}
-        </div>
-      </section>
+          </div>
+        </section>
 
-      {/* Service Area */}
-      <section className="city-area">
-        <h2>Serving {city.name} &amp; Surrounding Areas</h2>
-        <p>
-          We proudly serve {city.name} (population {city.population}) and neighboring
-          communities. ZIP codes include: {city.zipCodes.join(", ")}.
-        </p>
-        <p>
-          <strong>{city.branch === "phoenix" ? "Phoenix Branch" : "Tucson Branch"}</strong> —{" "}
-          <a href={phoneHref}>{phone}</a>
-        </p>
-      </section>
+        {/* Services */}
+        <section className="city-services">
+          <h2>Our Services in {city.name}</h2>
+          <div className="service-grid">
+            {serviceCards.map((svc) => (
+              <div key={svc.title} className="service-card">
+                <div className="service-card-header">
+                  <span className="service-icon">{svc.icon}</span>
+                  <h3>{svc.title}</h3>
+                </div>
+                <ul>
+                  {svc.items.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+                <Link href={svc.href} className="service-link">
+                  Learn More
+                </Link>
+              </div>
+            ))}
+          </div>
+        </section>
 
-      {/* CTA */}
-      <section className="city-cta">
-        <h2>Ready to Get Started?</h2>
-        <p>Join thousands of {city.name} homeowners who trust Bucksworth.</p>
-        <div className="city-hero-actions">
-          <a href={phoneHref} className="btn-primary">
-            Call Now: {phone}
-          </a>
-          <Link href="/contact" className="btn-secondary">
-            Schedule Online
-          </Link>
-        </div>
-      </section>
-    </main>
+        {/* Service Area */}
+        <section className="city-area">
+          <h2>Serving {city.name} &amp; Surrounding Areas</h2>
+          <p>
+            We proudly serve {city.name} (population {city.population}) and neighboring
+            communities. ZIP codes include: {city.zipCodes.join(", ")}.
+          </p>
+          <p>
+            <strong>{city.branch === "phoenix" ? "Phoenix Branch" : "Tucson Branch"}</strong> —{" "}
+            <a href={phoneHref}>{phone}</a>
+          </p>
+        </section>
+
+        {/* CTA */}
+        <section className="city-cta">
+          <h2>Ready to Get Started?</h2>
+          <p>Join thousands of {city.name} homeowners who trust Bucksworth.</p>
+          <div className="city-hero-actions">
+            <a href={phoneHref} className="btn-primary">
+              Call Now: {phone}
+            </a>
+            <Link href="/contact" className="btn-secondary">
+              Schedule Online
+            </Link>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
   );
 }

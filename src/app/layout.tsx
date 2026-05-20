@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -16,11 +14,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <head>
+        <link
+          rel="preload"
+          as="image"
+          href="https://getyourbucksworth.com/wp-content/uploads/bucksworth2-e1759741638670.png"
+        />
+      </head>
+      <body>{children}</body>
     </html>
   );
 }
