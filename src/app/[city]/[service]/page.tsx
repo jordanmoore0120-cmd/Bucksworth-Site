@@ -4,8 +4,6 @@ import Link from "next/link";
 import { CITIES, getCityBySlug, getPhoneForBranch, getPhoneForBranchRaw } from "@/lib/cities";
 import { SERVICES, getServiceBySlug } from "@/lib/services";
 import { getNeighborhoods } from "@/lib/neighborhoods";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import CityBar from "@/components/CityBar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
@@ -98,7 +96,6 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <Header />
       <CityBar currentCity={city} />
       <main id="main-content">
       <div className="container">
@@ -233,7 +230,6 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
       <CTASection city={city} variant="secondary" hideEstimate={service.slug === "plumbing-and-water-heaters"} />
 
       </main>
-      <Footer />
     </>
   );
 }

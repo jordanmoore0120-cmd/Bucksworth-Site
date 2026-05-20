@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import "@/styles/site.css";
 
 export const metadata: Metadata = {
@@ -101,7 +99,6 @@ export default function TermiteWarrantyPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Header />
 
       <main id="main-content">
         {/* Hero */}
@@ -480,7 +477,6 @@ export default function TermiteWarrantyPage() {
         </section>
       </main>
 
-      <Footer />
     </>
   );
 }

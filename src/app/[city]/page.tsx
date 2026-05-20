@@ -4,8 +4,6 @@ import Link from "next/link";
 import { CITIES, getCityBySlug, getPhoneForBranch, getPhoneForBranchRaw } from "@/lib/cities";
 import { SERVICES } from "@/lib/services";
 import { getNeighborhoods } from "@/lib/neighborhoods";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import CityBar from "@/components/CityBar";
 import ServiceCard from "@/components/ServiceCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -130,7 +128,6 @@ export default async function CityPage({ params }: CityPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <Header />
       <CityBar currentCity={city} />
       <main id="main-content">
       <div className="container">
@@ -340,7 +337,6 @@ export default async function CityPage({ params }: CityPageProps) {
       <NearbyCities currentCity={city} />
 
       </main>
-      <Footer />
     </>
   );
 }

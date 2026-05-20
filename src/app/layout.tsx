@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 import { Oswald } from "next/font/google";
 import WebMCPTools from "@/components/WebMCPTools";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const oswald = Oswald({
   subsets: ["latin"],
@@ -136,7 +138,9 @@ export default function RootLayout({
           Skip to main content
         </a>
         <WebMCPTools />
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
