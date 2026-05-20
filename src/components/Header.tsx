@@ -183,7 +183,7 @@ export default function Header() {
               </svg>
               (480) 422-8388
             </a>
-            <a href="/#estimate-form" className="nav-cta-btn">
+            <a href="https://portal.hero.demand-iq.com" target="_blank" rel="noopener" className="nav-cta-btn">
               Free Estimate
             </a>
           </nav>
@@ -290,7 +290,7 @@ export default function Header() {
                 About
               </Link>
               <a
-                href="/#estimate-form"
+                href="https://portal.hero.demand-iq.com" target="_blank" rel="noopener"
                 className="mobile-cta"
                 onClick={() => setMobileOpen(false)}
               >

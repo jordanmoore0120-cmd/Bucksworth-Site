@@ -161,7 +161,7 @@ export default async function CityPage({ params }: CityPageProps) {
               </svg>
               Call {phone}
             </a>
-            <a href="/#estimate-form" className="btn-estimate">
+            <a href="https://portal.hero.demand-iq.com" target="_blank" rel="noopener" className="btn-estimate">
               Get Free Estimate &rarr;
             </a>
           </div>

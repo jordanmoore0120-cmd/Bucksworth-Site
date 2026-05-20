@@ -129,7 +129,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
               </svg>
               Call {phone}
             </a>
-            <a href="/#estimate-form" className="btn-estimate">
+            <a href="https://portal.hero.demand-iq.com" target="_blank" rel="noopener" className="btn-estimate">
               Get Free Estimate &rarr;
             </a>
           </div>
@@ -172,7 +172,8 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
         city={city}
         variant="primary"
         headline={`Need ${service.name} in ${city.name}?`}
-        subtext={`Same-day service available. Free inspections. Call ${phone} or get an online estimate.`}
+        subtext={`Same-day service available. Free inspections. Call ${phone}${service.slug !== "plumbing-and-water-heaters" ? " or get an online estimate." : "."}`}
+        hideEstimate={service.slug === "plumbing-and-water-heaters"}
       />
 
       {/* SEO content */}
@@ -225,7 +226,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
       </section>
 
       {/* Bottom CTA */}
-      <CTASection city={city} variant="secondary" />
+      <CTASection city={city} variant="secondary" hideEstimate={service.slug === "plumbing-and-water-heaters"} />
 
       </main>
       <Footer />

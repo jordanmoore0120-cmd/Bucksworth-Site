@@ -163,7 +163,7 @@ export default async function SubServicePage({
               </svg>
               Call {phone}
             </a>
-            <a href="/#estimate-form" className="btn-estimate">
+            <a href="https://portal.hero.demand-iq.com" target="_blank" rel="noopener" className="btn-estimate">
               Get Free Estimate &rarr;
             </a>
           </div>
@@ -196,7 +196,8 @@ export default async function SubServicePage({
         city={city}
         variant="primary"
         headline={`Need ${sub.name} in ${city.name}?`}
-        subtext={`Same-day service. Free inspections. Call ${phone} or book online.`}
+        subtext={`Same-day service. Free inspections. Call ${phone}${service.slug !== "plumbing-and-water-heaters" ? " or book online." : "."}`}
+        hideEstimate={service.slug === "plumbing-and-water-heaters"}
       />
 
       {/* FAQ */}
@@ -243,7 +244,7 @@ export default async function SubServicePage({
       </section>
 
       {/* Bottom CTA */}
-      <CTASection city={city} variant="secondary" />
+      <CTASection city={city} variant="secondary" hideEstimate={service.slug === "plumbing-and-water-heaters"} />
 
       </main>
       <Footer />

@@ -16,6 +16,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
   });
 
+  /* Static pages */
+  entries.push({
+    url: `${BASE}/termite-warranty`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.8,
+  });
+
   /* City pages */
   for (const city of CITIES) {
     entries.push({
