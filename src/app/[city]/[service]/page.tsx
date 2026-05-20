@@ -11,7 +11,6 @@ import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
 import NearbyCities from "@/components/NearbyCities";
 import OtherServices from "@/components/OtherServices";
-import "@/styles/site.css";
 
 interface ServiceHubProps {
   params: Promise<{ city: string; service: string }>;

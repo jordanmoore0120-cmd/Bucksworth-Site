@@ -11,7 +11,6 @@ import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
 import NearbyCities from "@/components/NearbyCities";
-import "@/styles/site.css";
 
 interface CityPageProps {
   params: Promise<{ city: string }>;

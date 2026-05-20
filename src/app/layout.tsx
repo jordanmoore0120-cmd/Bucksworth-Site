@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
+import "@/styles/site.css";
 import { Oswald } from "next/font/google";
 import WebMCPTools from "@/components/WebMCPTools";
 import Header from "@/components/Header";

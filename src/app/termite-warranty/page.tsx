@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import "@/styles/site.css";
 
 export const metadata: Metadata = {
   title: "Termite Warranty Registration | Transfer Your Builder Warranty",

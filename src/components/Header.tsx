@@ -1,14 +1,16 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { CITIES } from "@/lib/cities";
 import { SERVICES } from "@/lib/services";
 
 export default function Header() {
+  const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
-  const [locationsOpen, setLocationsOpen] = useState(false);
+  const megaRef = useRef<HTMLDivElement>(null);
 
   const phxCities = CITIES.filter((c) => c.branch === "phoenix").sort((a, b) =>
     a.name.localeCompare(b.name)
@@ -16,6 +18,17 @@ export default function Header() {
   const tucCities = CITIES.filter((c) => c.branch === "tucson").sort((a, b) =>
     a.name.localeCompare(b.name)
   );
+
+  /* Close mega menu on outside click */
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (megaRef.current && !megaRef.current.contains(e.target as Node)) {
+        setServicesOpen(false);
+      }
+    }
+    if (servicesOpen) document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, [servicesOpen]);
 
   return (
     <>
@@ -51,26 +64,18 @@ export default function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className="desk-nav" role="navigation" aria-label="Main">
-            {/* Services dropdown */}
-            <div className="nav-dd">
+          <nav className="desk-nav" role="navigation" aria-label="Main Navigation">
+            {/* Home Services mega dropdown */}
+            <div className="nav-dd" ref={megaRef}>
               <button
                 className="nav-dd-btn"
                 aria-expanded={servicesOpen}
                 aria-haspopup="true"
-                aria-label="Services menu"
-                onClick={() => {
-                  setServicesOpen(!servicesOpen);
-                  setLocationsOpen(false);
-                }}
+                aria-label="Home Services menu"
+                onClick={() => setServicesOpen(!servicesOpen)}
               >
-                Services{" "}
-                <svg
-                  width="10"
-                  height="10"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
+                Home Services{" "}
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                   <path d="M7 10l5 5 5-5z" />
                 </svg>
               </button>
@@ -109,76 +114,41 @@ export default function Header() {
                       </div>
                     ))}
                   </div>
-                </div>
-              )}
-            </div>
 
-            {/* Locations dropdown */}
-            <div className="nav-dd">
-              <button
-                className="nav-dd-btn"
-                aria-expanded={locationsOpen}
-                aria-haspopup="true"
-                aria-label="Locations menu"
-                onClick={() => {
-                  setLocationsOpen(!locationsOpen);
-                  setServicesOpen(false);
-                }}
-              >
-                Locations{" "}
-                <svg
-                  width="10"
-                  height="10"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M7 10l5 5 5-5z" />
-                </svg>
-              </button>
-              {locationsOpen && (
-                <div className="nav-mega nav-mega--locs">
-                  <div className="mega-loc-grid">
-                    <div>
-                      <h4 className="mega-branch-title">Phoenix Metro (24 Cities)</h4>
-                      <div className="mega-city-grid">
-                        {phxCities.map((c) => (
+                  {/* City quick-links inside the mega menu */}
+                  <div className="mega-cities-bar">
+                    <span className="mega-cities-label">Choose your city:</span>
+                    <div className="mega-cities-chips">
+                      {["Phoenix", "Scottsdale", "Mesa", "Gilbert", "Chandler", "Tempe", "Surprise", "Tucson"].map((name) => {
+                        const city = CITIES.find((c) => c.name === name);
+                        if (!city) return null;
+                        return (
                           <Link
-                            key={c.slug}
-                            href={`/${c.slug}`}
-                            className="mega-city-link"
-                            onClick={() => setLocationsOpen(false)}
+                            key={city.slug}
+                            href={`/${city.slug}`}
+                            className="mega-city-chip"
+                            onClick={() => setServicesOpen(false)}
                           >
-                            {c.name}
+                            {city.name}
                           </Link>
-                        ))}
-                      </div>
-                    </div>
-                    <div>
-                      <h4 className="mega-branch-title">Tucson Metro (9 Cities)</h4>
-                      <div className="mega-city-grid">
-                        {tucCities.map((c) => (
-                          <Link
-                            key={c.slug}
-                            href={`/${c.slug}`}
-                            className="mega-city-link"
-                            onClick={() => setLocationsOpen(false)}
-                          >
-                            {c.name}
-                          </Link>
-                        ))}
-                      </div>
+                        );
+                      })}
+                      <Link href="/#find-city" className="mega-city-chip mega-city-chip--all" onClick={() => setServicesOpen(false)}>
+                        All 33 Cities &darr;
+                      </Link>
                     </div>
                   </div>
                 </div>
               )}
             </div>
 
-            <Link href="/reviews" className="nav-link" onClick={() => { setServicesOpen(false); setLocationsOpen(false); }}>
+            <Link href="/job-site-work" className="nav-link">
+              Job Site Work
+            </Link>
+            <Link href="/reviews" className="nav-link">
               Reviews
             </Link>
-            <Link href="/about" className="nav-link" onClick={() => { setServicesOpen(false); setLocationsOpen(false); }}>
-              About
-            </Link>
+
             <a
               href="tel:4804228388"
               className="nav-phone-btn"
@@ -246,6 +216,7 @@ export default function Header() {
                 &#128222; (520) 284-9930
               </a>
 
+              <span className="mobile-section-label" style={{ marginTop: 16 }}>Home Services</span>
               {SERVICES.map((svc) => (
                 <div key={svc.slug} className="mobile-section">
                   <Link
@@ -259,7 +230,14 @@ export default function Header() {
                 </div>
               ))}
 
-              <div className="mobile-section">
+              <Link href="/job-site-work" className="mobile-link" onClick={() => setMobileOpen(false)}>
+                &#128248; Job Site Work
+              </Link>
+              <Link href="/reviews" className="mobile-link" onClick={() => setMobileOpen(false)}>
+                &#11088; Reviews
+              </Link>
+
+              <div className="mobile-section" style={{ marginTop: 12 }}>
                 <span className="mobile-section-label">Phoenix Areas</span>
                 <div className="mobile-city-list">
                   {phxCities.slice(0, 8).map((city) => (
@@ -290,12 +268,6 @@ export default function Header() {
                 </div>
               </div>
 
-              <Link href="/reviews" className="mobile-link" onClick={() => setMobileOpen(false)}>
-                Reviews
-              </Link>
-              <Link href="/about" className="mobile-link" onClick={() => setMobileOpen(false)}>
-                About
-              </Link>
               <a
                 href="https://portal.hero.demand-iq.com" target="_blank" rel="noopener"
                 className="mobile-cta"

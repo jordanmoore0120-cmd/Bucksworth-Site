@@ -19,7 +19,6 @@ import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
 import OtherServices from "@/components/OtherServices";
-import "@/styles/site.css";
 
 interface SubServicePageProps {
   params: Promise<{ city: string; service: string; subservice: string }>;

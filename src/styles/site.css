@@ -1797,3 +1797,49 @@ img { max-width: 100%; height: auto; }
   font-size: 1.2rem;
   font-weight: 700;
 }
+
+/* ── Mega Menu City Bar ── */
+.mega-cities-bar {
+  border-top: 1px solid #eee;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: #fafafa;
+}
+.mega-cities-label {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #1a1a2e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+.mega-cities-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.mega-city-chip {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: #f0f0f0;
+  color: #1a1a2e;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+.mega-city-chip:hover {
+  background: #b91c1c;
+  color: white;
+}
+.mega-city-chip--all {
+  background: #1a1a2e;
+  color: white;
+}
+.mega-city-chip--all:hover {
+  background: #b91c1c;
+}
