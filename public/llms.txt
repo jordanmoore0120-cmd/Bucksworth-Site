@@ -1,60 +1,79 @@
 # Bucksworth Home Services
 
-> Family-owned pest control, HVAC, plumbing, and home services company serving Phoenix and Tucson, Arizona since 2013.
+> Arizona's trusted home services company providing pest control, air conditioning, heating, plumbing, water heaters, weed control, and lawn care across Phoenix and Tucson metro areas. Family-owned since 2013. AZ ROC #343924. Google Guaranteed.
 
-Bucksworth Home Services was founded by Jordan and Taylor Moore in 2013 and provides residential pest control, HVAC/air conditioning, plumbing, insulation, and weed control services across 34 cities in the Phoenix metro and Tucson areas.
+## Company Overview
+
+Bucksworth Home Services is a family-owned home services company founded in 2013 by Jordan and Taylor Moore, serving 33 cities across Phoenix and Tucson, Arizona. We specialize in pest and termite control, air conditioning and heating, plumbing and water heaters, and weed and lawn care.
+
+- Phone (Phoenix): (480) 422-8388
+- Phone (Tucson): (520) 284-9930
+- Website: https://getyourbucksworth.com
+- Service Area: Phoenix Metro (24 cities), Tucson Metro (9 cities)
+- Licenses: AZ ROC #343924, AG License #9613
+- Reviews: 4.84 stars, 50+ Google reviews, 100% reply rate
 
 ## Services
 
-- Pest & Termite Control (scorpions, termites, rodents, spiders, ants, roaches, bed bugs, bees, mosquitoes, snakes, and more)
-- Weed Control (pre-emergent, post-emergent, rock yard treatments)
-- HVAC / Air Conditioning (repair, installation, maintenance, mini-splits, heat pumps, furnaces, duct work, air quality)
-- Plumbing (water heaters, tankless, drain cleaning, slab leak repair, gas lines, repiping, water filtration)
-- Insulation (blow-in, pest guard, duct insulation, attic insulation)
+### Pest & Termite Control
+- Scorpion Control
+- Termite Treatment
+- Termite Warranty Registration
+- Roach Elimination
+- Ant Control
+- Spider Prevention
+- Rodent Exclusion
+- Bed Bug Treatment
+- Mosquito Control
+- Bee & Wasp Removal
+
+### Air Conditioning & Heating
+- AC Repair (same-day emergency service)
+- AC Installation (financing available)
+- AC Maintenance
+- Heating Repair
+- Ductwork
+- Mini Split Systems
+- Smart Thermostat Installation
+- Indoor Air Quality
+- Attic Insulation
+- Spray Foam Insulation
+- Radiant Barrier
+
+### Plumbing & Water Heaters
+- Water Heater Installation (tank & tankless)
+- Water Heater Repair
+- Leak Detection & Repair
+- Drain Cleaning
+- Sewer Line Services
+- Re-Piping
+- Fixture Installation
+- Water Softener
+- Gas Line Services
+
+### Weed & Lawn Care
+- Pre-Emergent Weed Control
+- Post-Emergent Weed Treatment
+- Gravel & Rock Yard Maintenance
+- Lawn Fertilization
+- Bermuda Grass Control
+- Overseeding
+- Weed & Feed Program
 
 ## Service Areas
 
-### Phoenix Branch — (480) 422-8388
-Ahwatukee, Anthem, Apache Junction, Buckeye, Casa Grande, Chandler, Coolidge, Florence, Fountain Hills, Gilbert, Glendale, Gold Canyon, Goodyear, Laveen, Litchfield Park, Maricopa, Mesa, Paradise Valley, Peoria, Phoenix, Queen Creek, San Tan Valley, Scottsdale, Surprise, Tempe
+### Phoenix Metro (24 Cities)
+Ahwatukee, Anthem, Apache Junction, Buckeye, Chandler, El Mirage, Fountain Hills, Gilbert, Glendale, Goodyear, Laveen, Litchfield Park, Maricopa, Mesa, Paradise Valley, Peoria, Phoenix, Queen Creek, San Tan Valley, Scottsdale, Sun City, Surprise, Tempe, Tolleson
 
-### Tucson Branch — (520) 284-9930
-Catalina Foothills, Green Valley, Marana, Oro Valley, Red Rock, Sahuarita, Tucson, Vail, Valencia West
+### Tucson Metro (9 Cities)
+Catalina Foothills, Casas Adobes, Marana, Oro Valley, Sahuarita, South Tucson, Tanque Verde, Tucson, Vail
 
-Note: Tucson branch provides pest control and weed control services only. Phoenix branch provides all service verticals.
-
-## Pricing
-
-- Gold Pest Plan: $39/month (foundation perimeter, doors & windows, cobweb removal, free re-services)
-- Platinum Pest Plan: $49/month (Gold + curb-to-fenceline, sidewalk & driveway, wall injections, defense dust)
-- Termite Protection Add-On: $29/month
-- Mosquito Control Add-On: $89/month
-- 3-year price guarantee on all plans
-- Free termite inspections for existing customers
-
-## Contact
-
-- Website: https://getyourbucksworth.com
-- Phoenix: (480) 422-8388
-- Tucson: (520) 284-9930
-- Hours: Monday-Saturday 7:00 AM - 7:00 PM
-
-## Licensing & Trust
-
-- AZ ROC License: #343924
-- AG License: #9613
-- Google Guaranteed
-- BBB Accredited
-- NPMA Member
-- 4.8-star average rating (50+ reviews)
+## Key Differentiators
 - Family-owned and operated since 2013
-
-## Links
-
-- [Home](https://getyourbucksworth.com/)
-- [Pest & Termite Control](https://getyourbucksworth.com/pest-control-az/)
-- [HVAC / Air Conditioning](https://getyourbucksworth.com/hvac/)
-- [Plumbing](https://getyourbucksworth.com/plumbing/)
-- [Insulation](https://getyourbucksworth.com/insulation/)
-- [Reviews](https://getyourbucksworth.com/reviews/)
-- [Contact](https://getyourbucksworth.com/contact/)
-- [Full Details](https://getyourbucksworth.com/llms-full.txt)
+- Google Guaranteed badge
+- Same-day and emergency service available
+- Free inspections and estimates
+- Licensed, bonded, and insured
+- NATE-certified HVAC technicians
+- Satisfaction guarantee on all work
+- Financing available for major installations
