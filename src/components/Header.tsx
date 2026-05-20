@@ -245,6 +245,9 @@ export default function Header() {
               <Link href="/about" className="mobile-link" onClick={() => setMobileOpen(false)}>
                 &#128100; About Us
               </Link>
+              <Link href="/blog" className="mobile-link" onClick={() => setMobileOpen(false)}>
+                &#128221; Blog
+              </Link>
 
               <div className="mobile-section" style={{ marginTop: 12 }}>
                 <span className="mobile-section-label">Phoenix Areas</span>
