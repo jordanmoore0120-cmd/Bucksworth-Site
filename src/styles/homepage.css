@@ -3,20 +3,11 @@
 body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:1.6;background:var(--white)}
 .container{max-width:1200px;margin:0 auto;padding:0 24px}
 
-
 /* SITE HEADER */
-.site-header{background:var(--white);padding:12px 0;border-bottom:2px solid var(--g200);position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.06)}
-.main-nav{display:flex;flex-direction:row;align-items:center;gap:16px;flex-wrap:nowrap}
-.main-nav a{color:var(--navy);text-decoration:none;font-weight:600;font-size:14px;letter-spacing:.3px;text-transform:uppercase}
-.main-nav a:hover{color:var(--red)}
 .nav-phone{background:var(--red);color:white!important;padding:8px 16px;border-radius:6px;font-family:'Oswald',sans-serif;letter-spacing:.5px}
 .nav-phone:hover{background:var(--red-light)!important}
 
 /* TOP BAR */
-.top-bar{background:var(--navy-dark);color:var(--white);padding:8px 0;font-size:13px;border-bottom:3px solid var(--red)}
-.top-bar .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
-.top-bar a{color:var(--orange);text-decoration:none;font-weight:600}
-.top-bar .badge{background:var(--red);color:white;padding:3px 12px;border-radius:4px;font-size:11px;font-weight:700;letter-spacing:.5px}
 .phones{display:flex;gap:20px}
 
 /* HERO */
@@ -113,7 +104,6 @@ body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:
 .play-btn{width:72px;height:72px;background:var(--red);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;z-index:1;color:white}
 .gigi-video span{z-index:1;font-size:14px;color:rgba(255,255,255,.8);font-weight:600}
 
-
 /* FAMILY SECTION */
 .family-section{padding:72px 0;background:var(--g50);border-top:1px solid var(--g200)}
 .family-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;align-items:center}
@@ -209,37 +199,10 @@ body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:
 }
 
 /* MEGA NAV &#8212; ABC-STYLE SILO NAVIGATION */
-.main-nav { display: flex; flex-direction: row; align-items: center; gap: 16px; flex-wrap: nowrap; }
-.nav-dropdown { position: relative; }
-.nav-btn {
-    background: none; border: none; color: #0A1628; font-weight: 700;
-    font-size: 0.9rem; letter-spacing: 0.05em; text-transform: uppercase;
-    padding: 10px 18px; cursor: pointer; font-family: inherit;
-    transition: color 0.2s;
-}
-.nav-btn:hover, .nav-btn:focus { color: #C41E3A; }
 /* REMOVED - conflicts with Next.js nav */
 /* .nav-link {... */
 
 /* Mega dropdown */
-.nav-mega {
-    display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
-    background: white; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.15);
-    padding: 28px 32px; z-index: 1000; min-width: 700px;
-    grid-template-columns: 1fr 1fr 200px; gap: 24px;
-}
-.nav-dropdown:hover .nav-mega,
-.nav-dropdown:focus-within .nav-mega { display: grid; }
-
-.mega-col h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; color: #C41E3A; margin: 0 0 6px 0; font-weight: 800; }
-.mega-phone { margin: 0 0 10px 0; }
-.mega-phone a { color: #0A1628; font-weight: 700; text-decoration: none; font-size: 0.85rem; }
-.mega-cities { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 12px; }
-.mega-cities a {
-    color: #444; text-decoration: none; font-size: 0.8rem; padding: 3px 0;
-    transition: color 0.15s;
-}
-.mega-cities a:hover { color: #C41E3A; }
 
 .mega-services { display: flex; flex-direction: column; gap: 8px; border-left: 2px solid #eee; padding-left: 20px; }
 .mega-services a {
@@ -249,18 +212,6 @@ body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:
 .mega-services a:hover { color: #C41E3A; }
 
 /* Sub dropdown (About) */
-.nav-sub {
-    display: none; position: absolute; top: 100%; left: 0;
-    background: white; border-radius: 8px; box-shadow: 0 10px 40px rgba(0,0,0,0.12);
-    padding: 12px 0; z-index: 1000; min-width: 200px;
-}
-.nav-dropdown:hover .nav-sub,
-.nav-dropdown:focus-within .nav-sub { display: block; }
-.nav-sub a {
-    display: block; padding: 8px 20px; color: #333; text-decoration: none;
-    font-size: 0.85rem; font-weight: 500; transition: background 0.15s;
-}
-.nav-sub a:hover { background: #f5f5f5; color: #C41E3A; }
 
 /* ACCESSIBILITY */
 a:focus, button:focus { outline: 2px solid #C41E3A; outline-offset: 2px; }
@@ -277,9 +228,7 @@ a:focus, button:focus { outline: 2px solid #C41E3A; outline-offset: 2px; }
     overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
 }
 
-
 /* V6: DUAL PHONE BUTTONS */
-.nav-phones { display: flex; gap: 8px; align-items: center; }
 .nav-phone-phx {
     background: #C41E3A !important; color: white !important;
     padding: 8px 16px !important; border-radius: 8px; font-weight: 700;
@@ -307,10 +256,8 @@ a:focus, button:focus { outline: 2px solid #C41E3A; outline-offset: 2px; }
 .zip-warn { background: #FFF8E1; color: #E65100; border: 1px solid #E65100; }
 
 @media (max-width: 768px) {
-    .nav-phones { flex-direction: column; gap: 4px; }
     .nav-phone-phx, .nav-phone-tuc { font-size: 0.72rem; padding: 6px 10px !important; }
 }
-
 
 /* V6: FAMILY STORY SECTION */
 .family-story-layout {
@@ -341,7 +288,6 @@ a:focus, button:focus { outline: 2px solid #C41E3A; outline-offset: 2px; }
     .family-stats-row { gap: 16px; }
 }
 
-
 @media (max-width: 768px) {
     .footer-grid { grid-template-columns: 1fr 1fr; }
 }
@@ -358,57 +304,9 @@ a:focus, button:focus { outline: 2px solid #C41E3A; outline-offset: 2px; }
     transition: background 0.2s;
 }
 .mobile-phone-btn:hover { background: var(--red-dark); }
-.hamburger-btn {
-    background: none; border: none; cursor: pointer; padding: 8px;
-    display: flex; flex-direction: column; gap: 5px; width: 36px;
-}
-.hamburger-btn span {
-    display: block; height: 3px; width: 100%; background: var(--navy);
-    border-radius: 2px; transition: all 0.3s;
-}
-.hamburger-btn.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
-.hamburger-btn.active span:nth-child(2) { opacity: 0; }
-.hamburger-btn.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
 
 /* Mobile overlay menu */
-.mobile-nav-overlay {
-    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-    background: white; z-index: 9999; overflow-y: auto; padding-top: 80px;
-}
-.mobile-nav-overlay.active { display: block; }
-.mobile-nav-close {
-    position: absolute; top: 20px; right: 20px; background: none;
-    border: none; font-size: 28px; cursor: pointer; color: var(--navy);
-    width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
-}
-.mobile-nav-header {
-    position: absolute; top: 0; left: 0; right: 0; height: 70px;
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 0 20px; border-bottom: 3px solid var(--red); background: white;
-}
-.mobile-nav-body { padding: 0 20px 40px; }
-.mobile-nav-phones {
-    display: flex; gap: 10px; padding: 20px 0; border-bottom: 1px solid #eee;
-}
-.mobile-nav-phones a {
-    flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px;
-    padding: 14px; border-radius: 10px; font-weight: 700; font-size: 15px;
-    text-decoration: none; color: white;
-}
-.mobile-nav-phones .phx-btn { background: var(--red); }
-.mobile-nav-phones .tuc-btn { background: #1E5BA4; }
 
-.mobile-nav-item {
-    border-bottom: 1px solid #eee;
-}
-.mobile-nav-toggle {
-    width: 100%; display: flex; justify-content: space-between; align-items: center;
-    padding: 16px 0; background: none; border: none; cursor: pointer;
-    font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 700;
-    color: var(--navy); text-transform: uppercase; letter-spacing: 0.05em;
-}
-.mobile-nav-toggle .arrow { transition: transform 0.3s; font-size: 14px; }
-.mobile-nav-toggle.active .arrow { transform: rotate(180deg); }
 .mobile-nav-panel { display: none; padding: 0 0 16px; }
 .mobile-nav-panel.active { display: block; }
 .mobile-nav-panel a {
@@ -430,26 +328,16 @@ a:focus, button:focus { outline: 2px solid #C41E3A; outline-offset: 2px; }
 /* V8: Mobile nav &#8212; widened breakpoint + overflow fix */
 html, body { overflow-x: hidden; }
 @media (max-width: 1099px) {
-    .main-nav .nav-dropdown,
-    .main-nav .nav-link,
-    .main-nav .nav-phones { display: none !important; }
     .mobile-controls { display: flex !important; }
-    .site-header .container { max-width: 100vw; overflow: hidden; }
 }
 @media (min-width: 1100px) {
-    .mobile-nav-overlay { display: none !important; }
 }
 
-
-
 /* V10: Force horizontal nav */
-.nav-dropdown { display: inline-flex; position: relative; }
-.nav-btn { white-space: nowrap; }
 /* REMOVED - conflicts with Next.js nav */
 /* .nav-link { white-space: nowrap; }... */
 
 /* V9: single phone number, mega nav single list */
-.nav-phones { display: flex; }
 .nav-phone { font-weight: 700; }
 .mega-city-link { display: inline-block; padding: 3px 8px; margin: 2px; border-radius: 4px; font-size: 0.85rem; }
 .mega-city-link:hover { background: rgba(255,156,0,0.15); }
