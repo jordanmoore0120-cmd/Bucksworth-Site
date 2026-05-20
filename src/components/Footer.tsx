@@ -5,6 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-grid">
         <div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://getyourbucksworth.com/wp-content/uploads/bucksworth2-e1759741638670.png"
             alt="Bucksworth Home Services"

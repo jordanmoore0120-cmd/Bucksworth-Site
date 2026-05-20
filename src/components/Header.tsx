@@ -5,6 +5,7 @@ export default function Header() {
     <header className="header">
       <div className="header-inner">
         <Link href="/" className="logo">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://getyourbucksworth.com/wp-content/uploads/bucksworth2-e1759741638670.png"
             alt="Bucksworth Home Services"
