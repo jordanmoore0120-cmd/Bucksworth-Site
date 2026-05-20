@@ -12,6 +12,7 @@ import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
 import NearbyCities from "@/components/NearbyCities";
+import OtherServices from "@/components/OtherServices";
 import "@/styles/site.css";
 
 interface ServiceHubProps {
@@ -113,7 +114,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
       <section className="svc-hub-hero">
         <div className="svc-hub-hero-bg">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={service.heroImage} alt={`${service.name} in ${city.name}`} />
+          <img src={service.heroImage} alt={`${service.name} in ${city.name}`} width={1200} height={800} loading="eager" />
         </div>
         <div className="svc-hub-hero-overlay" />
         <div className="svc-hub-hero-content">
@@ -224,6 +225,9 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
           ))}
         </div>
       </section>
+
+      {/* Other services in this city */}
+      <OtherServices city={city} currentServiceSlug={service.slug} />
 
       {/* Bottom CTA */}
       <CTASection city={city} variant="secondary" hideEstimate={service.slug === "plumbing-and-water-heaters"} />

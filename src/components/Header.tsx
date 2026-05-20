@@ -28,7 +28,7 @@ export default function Header() {
           </span>
           <div className="util-right">
             <span className="util-lic">AZ ROC #343924</span>
-            <a href="tel:4804228388" className="util-phone">
+            <a href="tel:4804228388" className="util-phone" aria-label="Call Bucksworth at (480) 422-8388">
               (480) 422-8388
             </a>
           </div>
@@ -46,6 +46,7 @@ export default function Header() {
               width={200}
               height={228}
               className="logo-img"
+              fetchPriority="high"
             />
           </Link>
 
@@ -56,6 +57,8 @@ export default function Header() {
               <button
                 className="nav-dd-btn"
                 aria-expanded={servicesOpen}
+                aria-haspopup="true"
+                aria-label="Services menu"
                 onClick={() => {
                   setServicesOpen(!servicesOpen);
                   setLocationsOpen(false);
@@ -115,6 +118,8 @@ export default function Header() {
               <button
                 className="nav-dd-btn"
                 aria-expanded={locationsOpen}
+                aria-haspopup="true"
+                aria-label="Locations menu"
                 onClick={() => {
                   setLocationsOpen(!locationsOpen);
                   setServicesOpen(false);
@@ -177,13 +182,14 @@ export default function Header() {
             <a
               href="tel:4804228388"
               className="nav-phone-btn"
+              aria-label="Call Bucksworth at (480) 422-8388"
             >
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.72 11.72 0 003.66.59 1 1 0 011 1v3.59a1 1 0 01-1 1A17 17 0 013 4.92a1 1 0 011-1h3.59a1 1 0 011 1 11.72 11.72 0 00.59 3.66 1 1 0 01-.24 1.01l-2.2 2.2z" />
               </svg>
               (480) 422-8388
             </a>
-            <a href="https://portal.hero.demand-iq.com" target="_blank" rel="noopener" className="nav-cta-btn">
+            <a href="https://portal.hero.demand-iq.com" target="_blank" rel="noopener" className="nav-cta-btn" aria-label="Get a free estimate for home services">
               Free Estimate
             </a>
           </nav>
@@ -191,7 +197,7 @@ export default function Header() {
           {/* Mobile controls */}
           <div className="mobile-ctrls">
             <a href="tel:4804228388" className="mobile-phone-ic" aria-label="Call us">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="white" aria-hidden="true">
                 <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.72 11.72 0 003.66.59 1 1 0 011 1v3.59a1 1 0 01-1 1A17 17 0 013 4.92a1 1 0 011-1h3.59a1 1 0 011 1 11.72 11.72 0 00.59 3.66 1 1 0 01-.24 1.01l-2.2 2.2z" />
               </svg>
             </a>
@@ -219,9 +225,10 @@ export default function Header() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/bucksworth-mascot-clean.jpg"
-                alt="Bucksworth"
+                alt="Bucksworth Home Services"
                 width={150}
                 height={171}
+                loading="lazy"
               />
               <button
                 className="mobile-close"

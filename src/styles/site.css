@@ -1741,3 +1741,59 @@ img { max-width: 100%; height: auto; }
   border-color: #1a1a2e;
   background: rgba(0,0,0,0.03);
 }
+
+/* ═══════════════════════════════════════════════
+   Other Services Cross-Linking Component
+   ═══════════════════════════════════════════════ */
+
+.other-services {
+  padding: 48px 24px;
+  background: #f8fafc;
+}
+.other-services-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.other-services-heading {
+  font-family: var(--font-oswald, "Oswald", sans-serif);
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.other-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.other-service-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #1a1a2e;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.other-service-card:hover {
+  border-color: #b91c1c;
+  box-shadow: 0 4px 12px rgba(185, 28, 28, 0.1);
+}
+.other-service-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+.other-service-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  flex: 1;
+}
+.other-service-arrow {
+  color: #b91c1c;
+  font-size: 1.2rem;
+  font-weight: 700;
+}

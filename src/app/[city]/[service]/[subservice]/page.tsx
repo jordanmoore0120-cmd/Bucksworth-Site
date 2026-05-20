@@ -20,6 +20,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
+import OtherServices from "@/components/OtherServices";
 import "@/styles/site.css";
 
 interface SubServicePageProps {
@@ -242,6 +243,9 @@ export default async function SubServicePage({
           ))}
         </div>
       </section>
+
+      {/* Other services in this city */}
+      <OtherServices city={city} currentServiceSlug={service.slug} />
 
       {/* Bottom CTA */}
       <CTASection city={city} variant="secondary" hideEstimate={service.slug === "plumbing-and-water-heaters"} />

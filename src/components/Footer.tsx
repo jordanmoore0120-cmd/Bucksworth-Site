@@ -11,7 +11,7 @@ export default function Footer() {
   );
 
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" role="contentinfo">
       {/* Main footer grid */}
       <div className="container">
         <div className="footer-main">
@@ -24,6 +24,7 @@ export default function Footer() {
               width={120}
               height={137}
               className="footer-logo"
+              loading="lazy"
             />
             <p className="footer-brand-text">
               Family-owned pest control, AC &amp; heating, plumbing, and weed &amp; lawn care serving
