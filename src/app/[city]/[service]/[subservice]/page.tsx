@@ -129,7 +129,7 @@ export default async function SubServicePage({
       />
       <Header />
       <CityBar currentCity={city} />
-
+      <main id="main-content">
       <div className="container">
         <Breadcrumbs
           crumbs={[
@@ -245,6 +245,7 @@ export default async function SubServicePage({
       {/* Bottom CTA */}
       <CTASection city={city} variant="secondary" />
 
+      </main>
       <Footer />
     </>
   );

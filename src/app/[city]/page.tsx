@@ -132,7 +132,7 @@ export default async function CityPage({ params }: CityPageProps) {
       />
       <Header />
       <CityBar currentCity={city} />
-
+      <main id="main-content">
       <div className="container">
         <Breadcrumbs crumbs={[{ label: city.name }]} />
       </div>
@@ -339,6 +339,7 @@ export default async function CityPage({ params }: CityPageProps) {
       {/* Nearby cities */}
       <NearbyCities currentCity={city} />
 
+      </main>
       <Footer />
     </>
   );

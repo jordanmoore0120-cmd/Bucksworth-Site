@@ -21,21 +21,12 @@ export default function Footer() {
             <img
               src="/images/bucksworth-mascot-clean.jpg"
               alt="Bucksworth Home Services"
-              width={150}
-              height={45}
+              width={120}
+              height={137}
               className="footer-logo"
             />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/images/bucksworth-mascot.jpg"
-              alt="Bucksworth Buck Mascot with Arizona Flag"
-              width={80}
-              height={80}
-              className="footer-mascot"
-              style={{ borderRadius: "50%", marginTop: "12px" }}
-            />
             <p className="footer-brand-text">
-              Family-owned pest control, HVAC, plumbing &amp; insulation serving
+              Family-owned pest control, AC &amp; heating, plumbing, and weed &amp; lawn care serving
               Phoenix and Tucson, Arizona since 2013. We treat every home like
               it&apos;s Gigi&apos;s.
             </p>

@@ -253,23 +253,33 @@ export default function Header() {
               ))}
 
               <div className="mobile-section">
-                <span className="mobile-section-label">Top Locations</span>
+                <span className="mobile-section-label">Phoenix Areas</span>
                 <div className="mobile-city-list">
-                  {["phoenix-az", "scottsdale-az", "mesa-az", "chandler-az", "gilbert-az", "tempe-az", "tucson-az"].map(
-                    (slug) => {
-                      const city = CITIES.find((c) => c.slug === slug);
-                      return city ? (
-                        <Link
-                          key={slug}
-                          href={`/${slug}`}
-                          className="mobile-city-chip"
-                          onClick={() => setMobileOpen(false)}
-                        >
-                          {city.name}
-                        </Link>
-                      ) : null;
-                    }
-                  )}
+                  {phxCities.slice(0, 8).map((city) => (
+                    <Link
+                      key={city.slug}
+                      href={`/${city.slug}`}
+                      className="mobile-city-chip"
+                      onClick={() => setMobileOpen(false)}
+                    >
+                      {city.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+              <div className="mobile-section">
+                <span className="mobile-section-label">Tucson Areas</span>
+                <div className="mobile-city-list">
+                  {tucCities.map((city) => (
+                    <Link
+                      key={city.slug}
+                      href={`/${city.slug}`}
+                      className="mobile-city-chip"
+                      onClick={() => setMobileOpen(false)}
+                    >
+                      {city.name}
+                    </Link>
+                  ))}
                 </div>
               </div>
 

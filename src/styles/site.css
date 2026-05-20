@@ -1020,7 +1020,7 @@ img { max-width: 100%; height: auto; }
   opacity: 0.7;
   margin-top: 14px;
 }
-.footer-mascot { border: 2px solid rgba(255,255,255,0.1); }
+/* .footer-mascot removed — single logo only */
 .footer-phones { margin-top: 16px; }
 .footer-phone {
   display: block;
@@ -1259,11 +1259,20 @@ img { max-width: 100%; height: auto; }
   height: 72px;
   width: auto;
   object-fit: contain;
+  border-radius: 8px;
+  mix-blend-mode: multiply;
+  background: transparent;
 }
 .mobile-drawer-top img {
   height: 60px;
   width: auto;
   object-fit: contain;
+  border-radius: 8px;
+}
+.footer-logo {
+  mix-blend-mode: screen;
+  background: transparent;
+  border-radius: 8px;
 }
 
 /* ── Underlined city & zip links ── */
