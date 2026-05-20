@@ -69,7 +69,9 @@ export default function Footer() {
             <Link href="/reviews" className="footer-link">Reviews</Link>
             <Link href="/careers" className="footer-link">Careers</Link>
             <Link href="/contact" className="footer-link">Contact</Link>
+            <Link href="/job-site-work" className="footer-link">Job Site Work</Link>
             <Link href="/termite-warranty" className="footer-link">Termite Warranty</Link>
+            <Link href="/sitemap-page" className="footer-link">Sitemap</Link>
             <a
               href="https://www.instagram.com/bucksworth.homeservices/"
               target="_blank"

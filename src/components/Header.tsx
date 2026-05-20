@@ -148,6 +148,9 @@ export default function Header() {
             <Link href="/reviews" className="nav-link">
               Reviews
             </Link>
+            <Link href="/about" className="nav-link">
+              About
+            </Link>
 
             <a
               href="tel:4804228388"
@@ -235,6 +238,9 @@ export default function Header() {
               </Link>
               <Link href="/reviews" className="mobile-link" onClick={() => setMobileOpen(false)}>
                 &#11088; Reviews
+              </Link>
+              <Link href="/about" className="mobile-link" onClick={() => setMobileOpen(false)}>
+                &#128100; About Us
               </Link>
 
               <div className="mobile-section" style={{ marginTop: 12 }}>
