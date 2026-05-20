@@ -1,50 +1,148 @@
 import Link from "next/link";
+import { CITIES } from "@/lib/cities";
+import { SERVICES } from "@/lib/services";
 
 export default function Footer() {
+  const phxCities = CITIES.filter((c) => c.branch === "phoenix").sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
+  const tucCities = CITIES.filter((c) => c.branch === "tucson").sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
+
   return (
-    <footer className="footer">
-      <div className="footer-grid">
-        <div>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="https://getyourbucksworth.com/wp-content/uploads/bucksworth2-e1759741638670.png"
-            alt="Bucksworth Home Services"
-            width={140}
-            height={42}
-          />
-          <p style={{ marginTop: "12px", lineHeight: 1.6 }}>
-            Family-owned pest control, HVAC, plumbing, and home services serving
-            Phoenix and Tucson, Arizona since 2013.
-          </p>
-        </div>
-        <div>
-          <h4>Services</h4>
-          <Link href="/pest-control">Pest &amp; Termite Control</Link>
-          <Link href="/hvac">HVAC / Air Conditioning</Link>
-          <Link href="/plumbing">Plumbing</Link>
-          <Link href="/insulation">Insulation</Link>
-        </div>
-        <div>
-          <h4>Company</h4>
-          <Link href="/about">About Us</Link>
-          <Link href="/reviews">Reviews</Link>
-          <Link href="/careers">Careers</Link>
-          <Link href="/contact">Contact</Link>
-        </div>
-        <div>
-          <h4>Top Locations</h4>
-          <Link href="/phoenix-az">Phoenix</Link>
-          <Link href="/scottsdale-az">Scottsdale</Link>
-          <Link href="/mesa-az">Mesa</Link>
-          <Link href="/gilbert-az">Gilbert</Link>
-          <Link href="/tucson-az">Tucson</Link>
+    <footer className="site-footer">
+      {/* Main footer grid */}
+      <div className="container">
+        <div className="footer-main">
+          {/* Brand column */}
+          <div className="footer-brand">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://getyourbucksworth.com/wp-content/uploads/bucksworth2-e1759741638670.png"
+              alt="Bucksworth Home Services"
+              width={150}
+              height={45}
+              className="footer-logo"
+            />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/bucksworth-mascot.jpg"
+              alt="Bucksworth Buck Mascot with Arizona Flag"
+              width={80}
+              height={80}
+              className="footer-mascot"
+              style={{ borderRadius: "50%", marginTop: "12px" }}
+            />
+            <p className="footer-brand-text">
+              Family-owned pest control, HVAC, plumbing &amp; insulation serving
+              Phoenix and Tucson, Arizona since 2013. We treat every home like
+              it&apos;s Gigi&apos;s.
+            </p>
+            <div className="footer-phones">
+              <a href="tel:4804228388" className="footer-phone">
+                Phoenix: (480) 422-8388
+              </a>
+              <a href="tel:5202849930" className="footer-phone">
+                Tucson: (520) 284-9930
+              </a>
+            </div>
+          </div>
+
+          {/* Services column */}
+          <div className="footer-col">
+            <h4 className="footer-heading">Services</h4>
+            {SERVICES.map((svc) => (
+              <div key={svc.slug} className="footer-svc-group">
+                <Link href={`/${svc.slug}`} className="footer-svc-title">
+                  {svc.name}
+                </Link>
+                {svc.subServices.slice(0, 4).map((sub) => (
+                  <Link
+                    key={sub.slug}
+                    href={`/phoenix-az/${svc.slug}/${sub.slug}`}
+                    className="footer-sub-link"
+                  >
+                    {sub.name}
+                  </Link>
+                ))}
+              </div>
+            ))}
+          </div>
+
+          {/* Company column */}
+          <div className="footer-col">
+            <h4 className="footer-heading">Company</h4>
+            <Link href="/about" className="footer-link">About Us</Link>
+            <Link href="/reviews" className="footer-link">Reviews</Link>
+            <Link href="/careers" className="footer-link">Careers</Link>
+            <Link href="/contact" className="footer-link">Contact</Link>
+            <Link href="/termite-warranty" className="footer-link">Termite Warranty</Link>
+            <a
+              href="https://www.instagram.com/bucksworth.homeservices/"
+              target="_blank"
+              rel="noopener"
+              className="footer-link"
+            >
+              Instagram
+            </a>
+          </div>
+
+          {/* Locations column */}
+          <div className="footer-col">
+            <h4 className="footer-heading">Phoenix Metro</h4>
+            <div className="footer-city-list">
+              {phxCities.map((c) => (
+                <Link key={c.slug} href={`/${c.slug}`} className="footer-city-link">
+                  {c.name}
+                </Link>
+              ))}
+            </div>
+            <h4 className="footer-heading" style={{ marginTop: "20px" }}>
+              Tucson Metro
+            </h4>
+            <div className="footer-city-list">
+              {tucCities.map((c) => (
+                <Link key={c.slug} href={`/${c.slug}`} className="footer-city-link">
+                  {c.name}
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
+
+      {/* Footer sitemap bar (for Google) */}
+      <div className="footer-sitemap">
+        <div className="container">
+          <h4 className="footer-sitemap-title">Sitemap</h4>
+          <div className="footer-sitemap-links">
+            <Link href="/">Home</Link>
+            {SERVICES.map((svc) => (
+              <Link key={svc.slug} href={`/${svc.slug}`}>
+                {svc.name}
+              </Link>
+            ))}
+            {CITIES.map((c) => (
+              <Link key={c.slug} href={`/${c.slug}`}>
+                {c.name}, AZ
+              </Link>
+            ))}
+            <Link href="/about">About</Link>
+            <Link href="/reviews">Reviews</Link>
+            <Link href="/contact">Contact</Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom bar */}
       <div className="footer-bottom">
-        <p>
-          &copy; 2026 Bucksworth Home Services LLC. All rights reserved. AZ ROC
-          #343924 | AG License #9613
-        </p>
+        <div className="container">
+          <p>
+            &copy; 2026 Bucksworth Home Services LLC. All rights reserved. AZ
+            ROC #343924 | AG License #9613
+          </p>
+        </div>
       </div>
     </footer>
   );
