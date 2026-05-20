@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CITIES, getCityBySlug, getPhoneForBranch, getPhoneForBranchRaw } from "@/lib/cities";
 import { SERVICES, getServiceBySlug } from "@/lib/services";
+import { getNeighborhoods } from "@/lib/neighborhoods";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CityBar from "@/components/CityBar";
@@ -23,7 +24,7 @@ export async function generateStaticParams() {
     const services =
       city.branch === "phoenix"
         ? SERVICES
-        : SERVICES.filter((s) => s.slug === "pest-control");
+        : SERVICES.filter((s) => s.slug === "pest-and-termite" || s.slug === "weed-and-lawn-care");
     for (const svc of services) {
       combos.push({ city: city.slug, service: svc.slug });
     }
@@ -64,8 +65,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
   const nearbyCities = CITIES.filter(
     (c) =>
       c.branch === city.branch &&
-      c.slug !== city.slug &&
-      (city.branch === "phoenix" || service.slug === "pest-control")
+      c.slug !== city.slug
   );
 
   // Schema

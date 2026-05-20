@@ -1157,3 +1157,135 @@ img { max-width: 100%; height: auto; }
 
   .city-bar-link { width: calc(50% - 4px); }
 }
+
+/* ── Neighborhood Section ── */
+.neighborhood-section { background: #f8f8f8; }
+.neighborhood-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 24px 0 32px;
+}
+.neighborhood-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 20px;
+  transition: box-shadow 0.2s;
+}
+.neighborhood-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.neighborhood-card h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  margin: 0 0 4px;
+  color: #1a1a2e;
+}
+.neighborhood-zips {
+  font-size: 0.8rem;
+  color: #dc2626;
+  font-weight: 600;
+  margin: 0 0 8px;
+  letter-spacing: 0.5px;
+}
+.neighborhood-card p:last-child {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ── ZIP Code Grid ── */
+.zip-section { background: #fff; }
+.zip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0 24px;
+}
+.zip-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1a1a2e;
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 20px;
+  min-width: 100px;
+}
+.zip-code {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.zip-area {
+  font-size: 0.7rem;
+  color: #aaa;
+  margin-top: 2px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .neighborhood-grid {
+    grid-template-columns: 1fr;
+  }
+  .zip-grid {
+    gap: 8px;
+  }
+  .zip-card {
+    min-width: 80px;
+    padding: 8px 14px;
+  }
+}
+
+/* ── Brand Color Overrides ── */
+/* Stick to logo colors: Red #b91c1c, Navy #1a1a2e, Blue #1e3a5f, Copper #c07830 */
+.util-bar { background: #1a1a2e; }
+.city-hero { background: #1a1a2e; }
+.city-hero .orange, .svc-hub-hero-content span { color: #b91c1c; }
+.btn-call { background: #b91c1c; color: #fff; }
+.btn-call:hover { background: #991b1b; }
+.btn-estimate { border-color: #b91c1c; color: #b91c1c; }
+.btn-estimate:hover { background: #b91c1c; color: #fff; }
+.nav-cta-btn { background: #b91c1c; }
+.nav-cta-btn:hover { background: #991b1b; }
+.svc-card-toggle { color: #b91c1c; }
+.city-hero-badge { border-color: rgba(185,28,28,0.3); }
+.process-step-num { background: #b91c1c; }
+
+/* ── Logo sizing ── */
+.logo-img {
+  height: 72px;
+  width: auto;
+  object-fit: contain;
+}
+.mobile-drawer-top img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ── Underlined city & zip links ── */
+.nearby-link,
+.mega-city-link,
+.mobile-city-chip,
+.zip-card {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.nearby-link:hover,
+.mega-city-link:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* ── Internal link styling ── */
+.svc-hub-content a,
+.neighborhood-card a {
+  color: #b91c1c;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.svc-hub-content a:hover {
+  color: #991b1b;
+}

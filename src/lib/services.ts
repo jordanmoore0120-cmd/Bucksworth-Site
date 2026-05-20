@@ -1,14 +1,18 @@
 /* ──────────────────────────────────────────────
    services.ts — Complete service data layer
-   4 verticals × sub-services, all with SEO content
+   4 verticals restructured per Jordan's direction:
+   1. Pest & Termite
+   2. Air Conditioning & Heating (includes insulation)
+   3. Plumbing & Water Heaters
+   4. Weed & Lawn Care (new standalone vertical)
    ────────────────────────────────────────────── */
 
 export interface SubService {
   name: string;
   slug: string;
-  icon: string; // SVG path or emoji-safe HTML entity
+  icon: string;
   shortDesc: string;
-  longDesc: string; // 2-3 sentences for service hub cards
+  longDesc: string;
 }
 
 export interface ServiceVertical {
@@ -17,9 +21,9 @@ export interface ServiceVertical {
   tagline: string;
   icon: string;
   heroImage: string;
-  color: string; // accent color
+  color: string;
   phone: { phoenix: string; tucson: string };
-  description: string; // SEO paragraph for hub page
+  description: string;
   subServices: SubService[];
   process: { step: number; title: string; desc: string }[];
   faqs: { q: string; a: string }[];
@@ -27,15 +31,15 @@ export interface ServiceVertical {
 
 export const SERVICES: ServiceVertical[] = [
   /* ═══════════════════════════════════════════
-     1. PEST & TERMITE CONTROL
+     1. PEST & TERMITE
      ═══════════════════════════════════════════ */
   {
-    name: "Pest & Termite Control",
-    slug: "pest-control",
-    tagline: "Arizona's Most Trusted Pest Experts",
+    name: "Pest & Termite",
+    slug: "pest-and-termite",
+    tagline: "Arizona's Most Trusted Pest & Termite Experts",
     icon: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z",
     heroImage: "/images/pest-damage-leaves.jpg",
-    color: "#16a34a",
+    color: "#b91c1c",
     phone: { phoenix: "(480) 422-8388", tucson: "(520) 284-9930" },
     description:
       "Bucksworth Home Services provides comprehensive pest and termite control for homes and businesses across Phoenix and Tucson, Arizona. Our licensed technicians use EPA-approved treatments to eliminate scorpions, termites, roaches, ants, spiders, rodents, bed bugs, and more. With same-day service, free inspections, and a satisfaction guarantee, we protect Arizona families from the desert's toughest pests year-round.",
@@ -55,6 +59,14 @@ export const SERVICES: ServiceVertical[] = [
         shortDesc: "Subterranean & drywood termite elimination",
         longDesc:
           "Arizona termites cause millions in damage annually. Our termite programs include Sentricon baiting systems, liquid barrier treatments (Termidor), spot treatments for drywood termites, and pre-construction treatments for new builds. Every treatment includes a warranty and annual re-inspection.",
+      },
+      {
+        name: "Termite Warranty Registration",
+        slug: "termite-warranty",
+        icon: "shield",
+        shortDesc: "New construction warranty transfer & pest bundle",
+        longDesc:
+          "Purchased a new-construction home with a Bucksworth pre-treat? Register your termite warranty here and lock in our Termite & Pest Control bundle starting at $49/month with a 3-year price guarantee. Transfer your builder warranty seamlessly and add ongoing protection.",
       },
       {
         name: "Roach Elimination",
@@ -94,7 +106,7 @@ export const SERVICES: ServiceVertical[] = [
         icon: "bedbug",
         shortDesc: "Heat treatment & chemical elimination",
         longDesc:
-          "Our bed bug program uses a combination of heat treatments and targeted chemical applications to eliminate all life stages — eggs, nymphs, and adults. We treat mattresses, furniture, baseboards, and wall voids. Follow-up inspections ensure complete eradication.",
+          "Our bed bug program uses a combination of heat treatments and targeted chemical applications to eliminate all life stages \u2014 eggs, nymphs, and adults. We treat mattresses, furniture, baseboards, and wall voids. Follow-up inspections ensure complete eradication.",
       },
       {
         name: "Mosquito Control",
@@ -103,14 +115,6 @@ export const SERVICES: ServiceVertical[] = [
         shortDesc: "Yard fogging & breeding site elimination",
         longDesc:
           "Arizona's monsoon season creates ideal mosquito breeding conditions. Our mosquito program includes backyard fogging, larvicide treatments in standing water, and barrier sprays on vegetation where mosquitoes rest. Enjoy your outdoor spaces without the bites.",
-      },
-      {
-        name: "Weed Control",
-        slug: "weed-control",
-        icon: "weed",
-        shortDesc: "Pre & post-emergent lawn & gravel treatments",
-        longDesc:
-          "Desert weeds like spurge, puncture vine, and bermuda grass invade Arizona yards year-round. Our weed control program includes pre-emergent barriers that prevent germination and post-emergent treatments that eliminate existing weeds. We treat gravel, rock, and turf landscapes.",
       },
       {
         name: "Bee & Wasp Removal",
@@ -132,23 +136,24 @@ export const SERVICES: ServiceVertical[] = [
       { q: "Is pest control safe for kids and pets?", a: "Yes. We use EPA-approved products and apply them strategically in cracks, crevices, and exterior perimeters. We recommend staying off treated exterior areas for 30 minutes after service. Interior treatments are placed in areas away from children and pets." },
       { q: "Do you offer free pest inspections?", a: "Absolutely. Every new customer receives a free, no-obligation inspection. Our technician will identify current pest activity, potential entry points, and risk factors, then recommend a customized treatment plan." },
       { q: "How quickly can you respond to a pest emergency?", a: "We offer same-day and next-day service for urgent pest situations including scorpion infestations, bee/wasp nests near doorways, and rodent sightings. Call us and we will get a technician to your home as quickly as possible." },
-      { q: "What is your termite warranty?", a: "Our termite treatments include a renewable warranty. We perform annual re-inspections and retreatments as needed at no additional cost during the warranty period. We also offer termite warranties for new construction pre-treatments." },
+      { q: "What is your termite warranty?", a: "Our termite treatments include a renewable warranty. We perform annual re-inspections and retreatments as needed at no additional cost during the warranty period. We also offer termite warranties for new construction pre-treatments that can be transferred when you buy a home." },
     ],
   },
 
   /* ═══════════════════════════════════════════
-     2. HVAC / AIR CONDITIONING
+     2. AIR CONDITIONING & HEATING
+     (includes insulation sub-services)
      ═══════════════════════════════════════════ */
   {
-    name: "HVAC / Air Conditioning",
-    slug: "hvac",
-    tagline: "Keep Your Home Cool When Arizona Heats Up",
+    name: "Air Conditioning & Heating",
+    slug: "air-conditioning-and-heating",
+    tagline: "Keep Your Home Comfortable When Arizona Gets Extreme",
     icon: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z",
     heroImage: "/images/hvac-rooftop-install.jpg",
-    color: "#2563eb",
+    color: "#1e3a5f",
     phone: { phoenix: "(480) 422-8388", tucson: "(520) 284-9930" },
     description:
-      "Bucksworth Home Services is a licensed HVAC contractor serving Phoenix and Tucson, Arizona. When summer temperatures hit 115°F, your AC is not a luxury — it is a lifeline. Our NATE-certified technicians install, repair, and maintain all major brands including Daikin, Trane, Carrier, Lennox, and Goodman. From emergency AC repairs to full system replacements with financing, we keep Arizona homes comfortable year-round. AZ ROC #343924.",
+      "Bucksworth Home Services is a licensed HVAC contractor serving Phoenix and Tucson, Arizona. When summer temperatures hit 115\u00B0F, your AC is not a luxury \u2014 it is a lifeline. Our NATE-certified technicians install, repair, and maintain all major brands including Daikin, Trane, Carrier, Lennox, and Goodman. From emergency AC repairs to full system replacements, insulation upgrades, and energy audits, we keep Arizona homes comfortable year-round. AZ ROC #343924.",
     subServices: [
       {
         name: "AC Repair",
@@ -156,7 +161,7 @@ export const SERVICES: ServiceVertical[] = [
         icon: "wrench",
         shortDesc: "Same-day emergency AC repair service",
         longDesc:
-          "When your AC goes out in Arizona summer, every minute matters. Our technicians diagnose and repair all makes and models — compressor failures, refrigerant leaks, capacitor replacements, fan motor issues, and thermostat problems. Same-day service available 7 days a week.",
+          "When your AC goes out in Arizona summer, every minute matters. Our technicians diagnose and repair all makes and models \u2014 compressor failures, refrigerant leaks, capacitor replacements, fan motor issues, and thermostat problems. Same-day service available 7 days a week.",
       },
       {
         name: "AC Installation",
@@ -188,7 +193,7 @@ export const SERVICES: ServiceVertical[] = [
         icon: "duct",
         shortDesc: "Duct repair, sealing & replacement",
         longDesc:
-          "Leaky ductwork wastes up to 30% of your cooling energy in Arizona attics where temperatures exceed 150°F. We inspect, seal, repair, and replace ductwork to improve efficiency, reduce energy bills, and improve indoor air quality throughout your home.",
+          "Leaky ductwork wastes up to 30% of your cooling energy in Arizona attics where temperatures exceed 150\u00B0F. We inspect, seal, repair, and replace ductwork to improve efficiency, reduce energy bills, and improve indoor air quality throughout your home.",
       },
       {
         name: "Mini Split Systems",
@@ -215,43 +220,76 @@ export const SERVICES: ServiceVertical[] = [
           "Arizona's dry, dusty air creates indoor air quality challenges. We install HEPA filtration systems, UV germicidal lights, whole-home humidifiers, and air purifiers that remove dust, allergens, bacteria, and VOCs from your indoor environment.",
       },
       {
-        name: "Insulation",
-        slug: "insulation",
-        icon: "insulation",
-        shortDesc: "Attic & wall insulation for energy savings",
+        name: "Attic Insulation",
+        slug: "attic-insulation",
+        icon: "attic",
+        shortDesc: "Blown-in fiberglass & cellulose to R-38+",
         longDesc:
-          "Proper insulation is critical in Arizona where attic temperatures exceed 160°F in summer. We install blown-in fiberglass, cellulose, and spray foam insulation in attics, walls, and crawl spaces. Most homes see 20-40% reduction in cooling costs after insulation upgrades.",
+          "Your attic is the biggest source of heat gain in an Arizona home. We install blown-in fiberglass and cellulose insulation to R-38 or higher, creating a thermal barrier that keeps your home cool in summer and warm in winter while reducing AC strain and energy bills by 20-40%.",
+      },
+      {
+        name: "Spray Foam Insulation",
+        slug: "spray-foam-insulation",
+        icon: "sprayfoam",
+        shortDesc: "Open & closed cell spray foam",
+        longDesc:
+          "Spray foam insulation provides the highest R-value per inch and creates an air-tight seal that stops heat transfer and air leakage. We install open-cell and closed-cell spray foam in attics, walls, rim joists, and crawl spaces for maximum energy efficiency.",
+      },
+      {
+        name: "Radiant Barrier",
+        slug: "radiant-barrier",
+        icon: "barrier",
+        shortDesc: "Reflective attic barrier installation",
+        longDesc:
+          "Radiant barriers reflect up to 97% of radiant heat in your attic, reducing attic temperatures by 20-30\u00B0F. Combined with insulation, a radiant barrier is one of the most cost-effective upgrades for Arizona homes, paying for itself in energy savings within 2-3 years.",
       },
     ],
     process: [
-      { step: 1, title: "Diagnostic Call", desc: "We listen to your symptoms, check your system history, and schedule a visit — often same-day for emergencies." },
-      { step: 2, title: "Full Inspection", desc: "Our technician inspects your entire system — indoor unit, outdoor unit, ductwork, thermostat, and electrical connections." },
+      { step: 1, title: "Diagnostic Call", desc: "We listen to your symptoms, check your system history, and schedule a visit \u2014 often same-day for emergencies." },
+      { step: 2, title: "Full Inspection", desc: "Our technician inspects your entire system \u2014 indoor unit, outdoor unit, ductwork, thermostat, insulation, and electrical connections." },
       { step: 3, title: "Honest Estimate", desc: "We explain exactly what is wrong, show you the options, and give you upfront pricing before any work begins." },
-      { step: 4, title: "Expert Repair", desc: "Our NATE-certified techs complete the repair with quality parts and back everything with our satisfaction guarantee." },
+      { step: 4, title: "Expert Service", desc: "Our NATE-certified techs complete the repair or installation with quality parts and back everything with our satisfaction guarantee." },
     ],
     faqs: [
       { q: "How much does AC repair cost in Phoenix?", a: "Most AC repairs in Phoenix range from $150-$600 depending on the issue. Common repairs like capacitor replacement are on the lower end, while compressor or coil replacements are higher. We provide upfront pricing before starting any work." },
       { q: "When should I replace my AC instead of repairing it?", a: "Consider replacement if your system is 15+ years old, uses R-22 refrigerant (phased out), needs a compressor replacement, or repair costs exceed 50% of a new system. We help you weigh the options honestly." },
       { q: "How long does a new AC installation take?", a: "Most residential AC installations are completed in one day (6-8 hours). Complex installations involving ductwork modification or multi-zone systems may take 2 days. We schedule around your availability." },
       { q: "Do you offer financing for new AC systems?", a: "Yes. We offer financing through multiple lenders with options including 0% APR for qualified buyers, low monthly payments starting at $89/month, and same-as-cash options for 12-18 months." },
-      { q: "How often should I service my AC in Arizona?", a: "We recommend bi-annual maintenance — once in spring before cooling season and once in fall before heating season. Arizona systems work harder than anywhere in the country, so regular maintenance is essential for longevity and efficiency." },
+      { q: "How much can insulation save on my energy bill?", a: "Most Arizona homeowners see a 20-40% reduction in cooling costs after proper insulation. The exact savings depend on your home's current insulation levels, HVAC efficiency, and home size. Many insulation upgrades pay for themselves within 2-3 years." },
+      { q: "How often should I service my AC in Arizona?", a: "We recommend bi-annual maintenance \u2014 once in spring before cooling season and once in fall before heating season. Arizona systems work harder than anywhere in the country, so regular maintenance is essential for longevity and efficiency." },
     ],
   },
 
   /* ═══════════════════════════════════════════
-     3. PLUMBING
+     3. PLUMBING & WATER HEATERS
      ═══════════════════════════════════════════ */
   {
-    name: "Plumbing",
-    slug: "plumbing",
+    name: "Plumbing & Water Heaters",
+    slug: "plumbing-and-water-heaters",
     tagline: "Honest Plumbing That Won't Drain Your Wallet",
     icon: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z",
     heroImage: "/images/hvac-soldering.jpg",
-    color: "#0891b2",
+    color: "#1a1a2e",
     phone: { phoenix: "(480) 422-8388", tucson: "(520) 284-9930" },
     description:
-      "Bucksworth Home Services provides licensed plumbing services for homes and businesses across Phoenix and Tucson, Arizona. From emergency leak repairs to full re-pipes and water heater installations, our plumbers handle it all with upfront pricing and no hidden fees. Arizona's hard water, extreme heat, and aging infrastructure create unique plumbing challenges that our experienced team knows how to solve. AZ ROC #343924.",
+      "Bucksworth Home Services provides licensed plumbing and water heater services for homes and businesses across Phoenix and Tucson, Arizona. From emergency leak repairs to full re-pipes, tankless water heater installations, and water softener systems, our plumbers handle it all with upfront pricing and no hidden fees. Arizona's hard water, extreme heat, and aging infrastructure create unique plumbing challenges that our experienced team knows how to solve. AZ ROC #343924.",
     subServices: [
+      {
+        name: "Water Heater Installation",
+        slug: "water-heater-installation",
+        icon: "waterheater",
+        shortDesc: "Tank & tankless water heater installation",
+        longDesc:
+          "Arizona's hard water shortens water heater life to 8-10 years. We install tank and tankless water heaters from Rheem, AO Smith, Rinnai, and Navien. Tankless units provide endless hot water and save up to 30% on energy costs. Same-day installation available for emergency replacements.",
+      },
+      {
+        name: "Water Heater Repair",
+        slug: "water-heater-repair",
+        icon: "wrench",
+        shortDesc: "Same-day water heater diagnosis & repair",
+        longDesc:
+          "No hot water? We diagnose and repair all water heater types \u2014 gas, electric, tankless, and heat pump models. Common repairs include thermocouple replacement, element replacement, pilot light issues, and sediment flush. We carry common parts on our trucks for same-day fixes.",
+      },
       {
         name: "Leak Detection & Repair",
         slug: "leak-detection-repair",
@@ -259,14 +297,6 @@ export const SERVICES: ServiceVertical[] = [
         shortDesc: "Electronic leak detection & slab leak repair",
         longDesc:
           "Arizona slab foundations make leak detection critical. We use electronic listening equipment and thermal imaging to locate hidden leaks under slabs, in walls, and underground without unnecessary demolition. Once found, we repair or reroute lines with minimal disruption.",
-      },
-      {
-        name: "Water Heater Services",
-        slug: "water-heater-services",
-        icon: "waterheater",
-        shortDesc: "Tank & tankless water heater repair/install",
-        longDesc:
-          "Arizona's hard water shortens water heater life to 8-10 years. We install and repair tank and tankless water heaters from Rheem, AO Smith, Rinnai, and Navien. Tankless units provide endless hot water and save up to 30% on energy costs.",
       },
       {
         name: "Drain Cleaning",
@@ -306,7 +336,7 @@ export const SERVICES: ServiceVertical[] = [
         icon: "softener",
         shortDesc: "Hard water treatment systems",
         longDesc:
-          "Phoenix water hardness averages 15-25 grains per gallon — among the hardest in the nation. We install whole-home water softeners, reverse osmosis systems, and filtration units that protect your plumbing, extend appliance life, and improve water taste.",
+          "Phoenix water hardness averages 15-25 grains per gallon \u2014 among the hardest in the nation. We install whole-home water softeners, reverse osmosis systems, and filtration units that protect your plumbing, extend appliance life, and improve water taste.",
       },
       {
         name: "Gas Line Services",
@@ -318,7 +348,7 @@ export const SERVICES: ServiceVertical[] = [
       },
     ],
     process: [
-      { step: 1, title: "Call or Book Online", desc: "Describe your plumbing issue and we will schedule a visit — same-day available for emergencies like leaks and backups." },
+      { step: 1, title: "Call or Book Online", desc: "Describe your plumbing issue and we will schedule a visit \u2014 same-day available for emergencies like leaks and no hot water." },
       { step: 2, title: "Diagnose the Problem", desc: "Our plumber inspects the issue, explains what is wrong in plain language, and provides an upfront written estimate." },
       { step: 3, title: "Fix It Right", desc: "We complete the repair or installation using quality materials and back our work with a satisfaction guarantee." },
       { step: 4, title: "Prevent Future Issues", desc: "We inspect connected systems, recommend preventive measures, and make sure everything is working properly before we leave." },
@@ -327,69 +357,94 @@ export const SERVICES: ServiceVertical[] = [
       { q: "How much does a plumber cost in Phoenix?", a: "Service calls in Phoenix typically range from $89-$150 for the diagnostic visit, with repairs ranging from $150-$800 depending on complexity. We always provide an upfront written estimate before starting any work." },
       { q: "Do you offer emergency plumbing service?", a: "Yes. We provide same-day emergency plumbing service for active leaks, sewer backups, no hot water, and burst pipes. Call us anytime and we will get a plumber to your home as quickly as possible." },
       { q: "How long do water heaters last in Arizona?", a: "Tank water heaters typically last 8-12 years in Arizona due to hard water mineral buildup. Tankless units last 15-20 years with proper maintenance. We recommend annual flushing to extend the life of any water heater." },
+      { q: "Should I get a tankless water heater?", a: "If you want endless hot water and 30% energy savings, yes. Tankless units cost more upfront ($2,500-$4,500 installed) but last nearly twice as long as tank models in Arizona. They are especially valuable for larger families." },
       { q: "Should I get a water softener in Phoenix?", a: "We strongly recommend it. Phoenix has some of the hardest water in the country (15-25 GPG). Hard water damages pipes, water heaters, dishwashers, and fixtures. A water softener pays for itself by extending the life of your plumbing system." },
-      { q: "What is the cost of a whole-home re-pipe?", a: "Whole-home re-pipes in Phoenix typically range from $4,000-$10,000 depending on home size, number of fixtures, and pipe material (copper vs PEX). We provide free estimates and financing options for larger projects." },
     ],
   },
 
   /* ═══════════════════════════════════════════
-     4. INSULATION
+     4. WEED & LAWN CARE
      ═══════════════════════════════════════════ */
   {
-    name: "Insulation",
-    slug: "insulation",
-    tagline: "Cut Your Energy Bills by Up to 40%",
+    name: "Weed & Lawn Care",
+    slug: "weed-and-lawn-care",
+    tagline: "Arizona Yards That Look as Good as They Should",
     icon: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z",
-    heroImage: "/images/bigger-equipment.jpg",
-    color: "#d97706",
+    heroImage: "/images/weeds-control.jpg",
+    color: "#b91c1c",
     phone: { phoenix: "(480) 422-8388", tucson: "(520) 284-9930" },
     description:
-      "Bucksworth Home Services installs professional insulation for homes across Phoenix and Tucson, Arizona. With attic temperatures exceeding 160°F in summer, proper insulation is the single most impactful upgrade for reducing energy costs and improving comfort. Our insulation services include attic insulation, wall insulation, spray foam, and radiant barriers — all designed for Arizona's extreme climate.",
+      "Bucksworth Home Services provides professional weed control and lawn care services for homes across Phoenix and Tucson, Arizona. Desert weeds like spurge, puncture vine, and bermuda grass invade Arizona yards year-round, damaging curb appeal and property value. Our licensed technicians use targeted pre-emergent barriers, post-emergent treatments, and ongoing lawn care programs that keep your yard looking clean and weed-free all year.",
     subServices: [
       {
-        name: "Attic Insulation",
-        slug: "attic-insulation",
-        icon: "attic",
-        shortDesc: "Blown-in fiberglass & cellulose",
+        name: "Pre-Emergent Weed Control",
+        slug: "pre-emergent-weed-control",
+        icon: "shield",
+        shortDesc: "Prevent weeds before they germinate",
         longDesc:
-          "Your attic is the biggest source of heat gain in an Arizona home. We install blown-in fiberglass and cellulose insulation to R-38 or higher, creating a thermal barrier that keeps your home cool in summer and warm in winter while reducing AC strain and energy bills.",
+          "Pre-emergent treatments create an invisible barrier in your soil that prevents weed seeds from germinating. Applied in early fall and late winter in Arizona, pre-emergents are the most effective way to stop weeds before they start. We use commercial-grade products that last 3-4 months per application.",
       },
       {
-        name: "Spray Foam Insulation",
-        slug: "spray-foam",
-        icon: "sprayfoam",
-        shortDesc: "Open & closed cell spray foam",
+        name: "Post-Emergent Weed Treatment",
+        slug: "post-emergent-weed-treatment",
+        icon: "spray",
+        shortDesc: "Kill existing weeds at the root",
         longDesc:
-          "Spray foam insulation provides the highest R-value per inch and creates an air-tight seal that stops heat transfer and air leakage. We install open-cell and closed-cell spray foam in attics, walls, rim joists, and crawl spaces for maximum energy efficiency.",
+          "For weeds that have already sprouted, our post-emergent treatments kill them at the root without damaging surrounding plants or turf. We identify weed species and use targeted herbicides \u2014 broadleaf treatments for dandelions and spurge, selective treatments for bermuda grass in turf, and non-selective treatments for gravel areas.",
       },
       {
-        name: "Radiant Barrier",
-        slug: "radiant-barrier",
-        icon: "barrier",
-        shortDesc: "Reflective attic barrier installation",
+        name: "Gravel & Rock Yard Maintenance",
+        slug: "gravel-rock-yard-maintenance",
+        icon: "rock",
+        shortDesc: "Weed-free gravel & desert landscape care",
         longDesc:
-          "Radiant barriers reflect up to 97% of radiant heat in your attic, reducing attic temperatures by 20-30°F. Combined with insulation, a radiant barrier is one of the most cost-effective upgrades for Arizona homes, paying for itself in energy savings within 2-3 years.",
+          "Arizona gravel and rock yards look great when maintained but quickly become eyesores when weeds push through. Our gravel yard program combines pre-emergent barriers with targeted post-emergent sprays to keep your rock landscape clean. We treat driveways, walkways, and entire rock yards.",
       },
       {
-        name: "Wall Insulation",
-        slug: "wall-insulation",
-        icon: "wall",
-        shortDesc: "Retrofit injection foam for existing walls",
+        name: "Lawn Fertilization",
+        slug: "lawn-fertilization",
+        icon: "leaf",
+        shortDesc: "Seasonal feeding for green, healthy turf",
         longDesc:
-          "Many Arizona homes have uninsulated or under-insulated walls. We use injection foam that fills wall cavities without removing drywall. This retrofit solution improves comfort, reduces noise, and can lower energy bills by 15-25%.",
+          "Arizona lawns need specialized feeding schedules that account for extreme heat, alkaline soil, and overseeding cycles. Our fertilization program provides the right nutrients at the right time \u2014 iron and nitrogen for summer bermuda, starter fertilizer for winter rye, and micronutrients for year-round health.",
+      },
+      {
+        name: "Bermuda Grass Control",
+        slug: "bermuda-grass-control",
+        icon: "grass",
+        shortDesc: "Stop bermuda grass from invading flower beds",
+        longDesc:
+          "Bermuda grass is Arizona's most aggressive turf invader. It sends runners into flower beds, rock yards, and pavement cracks, and standard mowing only makes it spread faster. Our bermuda grass control program uses selective herbicides and root barrier treatments to contain or eliminate bermuda from areas where it does not belong.",
+      },
+      {
+        name: "Overseeding",
+        slug: "overseeding",
+        icon: "seed",
+        shortDesc: "Winter rye grass for year-round green lawn",
+        longDesc:
+          "Arizona bermuda grass goes dormant and turns brown in winter. Overseeding with perennial ryegrass in October gives you a lush green lawn through March. Our overseeding service includes scalping, seeding, topdressing, and a watering schedule that ensures even germination and a beautiful winter lawn.",
+      },
+      {
+        name: "Weed & Feed Program",
+        slug: "weed-and-feed-program",
+        icon: "calendar",
+        shortDesc: "Year-round weed prevention + lawn nutrition",
+        longDesc:
+          "Our comprehensive weed and feed program combines weed control and lawn nutrition into a year-round service plan. We apply pre-emergent barriers in fall and late winter, targeted post-emergent treatments as needed, seasonal fertilizer applications, and micronutrient supplements \u2014 keeping your yard weed-free and green all year.",
       },
     ],
     process: [
-      { step: 1, title: "Energy Assessment", desc: "We inspect your current insulation levels, identify heat gain sources, and measure R-values throughout your home." },
-      { step: 2, title: "Custom Recommendation", desc: "Based on your home, budget, and goals, we recommend the most cost-effective insulation solution with projected savings." },
-      { step: 3, title: "Professional Install", desc: "Our trained crew installs insulation efficiently and cleanly, typically completing most homes in one day." },
-      { step: 4, title: "Energy Savings", desc: "Most homeowners see a 20-40% reduction in cooling costs within the first month. We follow up to ensure you are seeing results." },
+      { step: 1, title: "Free Yard Assessment", desc: "We inspect your yard, identify weed species and turf health, and assess your landscape type (rock, turf, or mixed)." },
+      { step: 2, title: "Custom Plan", desc: "We design a treatment plan based on your yard type, weed pressure, and goals \u2014 whether that is a weed-free gravel yard or a lush green lawn." },
+      { step: 3, title: "Professional Treatment", desc: "Our licensed technicians apply commercial-grade products with precision, protecting desired plants while targeting weeds." },
+      { step: 4, title: "Ongoing Maintenance", desc: "Scheduled service visits maintain your weed barrier and keep your lawn fed and healthy through Arizona\u2019s extreme seasons." },
     ],
     faqs: [
-      { q: "How much can insulation save on my energy bill?", a: "Most Arizona homeowners see a 20-40% reduction in cooling costs after proper insulation. The exact savings depend on your home's current insulation levels, HVAC efficiency, and home size. Many insulation upgrades pay for themselves within 2-3 years." },
-      { q: "What R-value do I need in Arizona?", a: "The Department of Energy recommends R-38 to R-60 for Arizona attics (Climate Zone 2). Most existing Arizona homes have R-19 or less. We measure your current levels and bring them up to recommended standards." },
-      { q: "How long does insulation installation take?", a: "Most attic insulation jobs are completed in 4-6 hours. Spray foam installations typically take one full day. Wall insulation retrofit can take 1-2 days depending on home size. We work around your schedule." },
-      { q: "Is spray foam worth the extra cost?", a: "Spray foam costs more upfront but provides the highest R-value per inch, creates an air-tight seal, and lasts the lifetime of your home without settling or degrading. For Arizona attics, it provides superior performance over blown-in insulation." },
+      { q: "How often do I need weed control in Arizona?", a: "We recommend service every 6-8 weeks year-round. Arizona weeds grow in every season \u2014 winter weeds like London rocket and prickly lettuce, summer weeds like spurge and puncture vine. Consistent pre-emergent applications are the key to long-term weed prevention." },
+      { q: "Can you treat weeds in gravel yards?", a: "Absolutely. Gravel and rock yards are our specialty. We apply pre-emergent barriers that prevent germination in rock landscapes and targeted post-emergent sprays for any weeds that break through. Most gravel yards stay clean with bi-monthly service." },
+      { q: "When should I overseed my lawn in Arizona?", a: "The ideal overseeding window in the Phoenix metro is October 1-20. In Tucson, it is slightly later due to warmer fall temps. We handle the full process: scalping, seeding, topdressing, and provide a watering schedule for successful germination." },
+      { q: "Is weed control safe for kids and pets?", a: "Yes. We use EPA-approved herbicides and apply them carefully to targeted areas. We recommend keeping kids and pets off treated areas until the product dries (typically 30-60 minutes). All products we use are labeled safe for residential use." },
+      { q: "Do you offer free weed control estimates?", a: "Yes. Every new customer receives a free yard assessment where we identify weed species, assess your landscape, and recommend a treatment plan with transparent pricing. Call us or use our online estimator to get started." },
     ],
   },
 ];

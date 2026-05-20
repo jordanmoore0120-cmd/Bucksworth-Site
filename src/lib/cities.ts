@@ -11,17 +11,17 @@ export interface City {
   county: string;
   zipCodes: string[];
   description: string;
-  services: ("pest" | "hvac" | "plumbing" | "insulation" | "weed")[];
+  services: ("pest-and-termite" | "air-conditioning-and-heating" | "plumbing-and-water-heaters" | "weed-and-lawn-care")[];
   nearbyNote?: string; // e.g. "Minutes from downtown Phoenix"
 }
 
 /* ── Phoenix branch ── */
-const PHX_SERVICES: City["services"] = ["pest", "hvac", "plumbing", "insulation", "weed"];
+const PHX_SERVICES: City["services"] = ["pest-and-termite", "air-conditioning-and-heating", "plumbing-and-water-heaters", "weed-and-lawn-care"];
 const PHX_PHONE = "(480) 422-8388";
 const TUC_PHONE = "(520) 284-9930";
 
 /* Tucson branch — pest + weed only unless noted */
-const TUC_SERVICES: City["services"] = ["pest", "weed"];
+const TUC_SERVICES: City["services"] = ["pest-and-termite", "weed-and-lawn-care"];
 
 export const CITIES: City[] = [
   // ── PHOENIX BRANCH (24) ──────────────────

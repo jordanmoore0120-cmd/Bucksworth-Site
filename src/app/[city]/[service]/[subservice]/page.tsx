@@ -12,6 +12,7 @@ import {
   getServiceBySlug,
   getSubServiceBySlug,
 } from "@/lib/services";
+import { getNeighborhoods } from "@/lib/neighborhoods";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CityBar from "@/components/CityBar";
@@ -32,7 +33,7 @@ export async function generateStaticParams() {
     const verticals =
       city.branch === "phoenix"
         ? SERVICES
-        : SERVICES.filter((s) => s.slug === "pest-control");
+        : SERVICES.filter((s) => s.slug === "pest-and-termite" || s.slug === "weed-and-lawn-care");
     for (const svc of verticals) {
       for (const sub of svc.subServices) {
         combos.push({
@@ -80,8 +81,11 @@ export default async function SubServicePage({
   const phoneRaw = getPhoneForBranchRaw(city.branch);
   const branch = city.branch === "phoenix" ? "Phoenix" : "Tucson";
 
+  // Get neighborhood data for hyper-local content
+  const nd = getNeighborhoods(cSlug);
+
   // Build contextual content blocks for 1200+ word target
-  const content = buildContent(sub.name, sub.longDesc, city.name, branch, city.county, phone, service.name, city.zipCodes, city.population);
+  const content = buildContent(sub.name, sub.longDesc, city.name, branch, city.county, phone, service.name, city.zipCodes, city.population, nd.neighborhoods, nd.landmarks);
 
   // Related sub-services (same vertical, excluding current)
   const relatedSubs = service.subServices.filter((s) => s.slug !== ssSlug);
@@ -91,7 +95,7 @@ export default async function SubServicePage({
     (c) =>
       c.branch === city.branch &&
       c.slug !== city.slug &&
-      (city.branch === "phoenix" || service.slug === "pest-control")
+      true
   );
 
   // FAQs
@@ -264,17 +268,37 @@ function buildContent(
   phone: string,
   verticalName: string,
   zipCodes: string[],
-  population: string
+  population: string,
+  neighborhoods: { name: string; zips: string[]; desc: string }[],
+  landmarks: string[]
 ): ContentBlock[] {
   const zips = zipCodes.length > 0 ? zipCodes.join(", ") : "";
+  const n0 = neighborhoods[0];
+  const n1 = neighborhoods[1];
+  const n2 = neighborhoods[2];
+  const topNhoods = neighborhoods.slice(0, 5).map((n) => n.name);
 
   return [
     {
       heading: `Professional ${subName} in ${cityName}, Arizona`,
       paragraphs: [
-        `${longDesc} Bucksworth Home Services has been the trusted choice for ${subName.toLowerCase()} in ${cityName} and the greater ${branch} metro area since 2013. Our licensed, insured technicians bring years of Arizona-specific experience to every job.`,
+        `${longDesc} Bucksworth Home Services has been the trusted choice for ${subName.toLowerCase()} in ${cityName} and the greater ${branch} metro area since 2013. Our licensed, insured technicians bring years of Arizona-specific experience to every job \u2014 from ${n0 ? n0.name : "established neighborhoods"} to ${n1 ? n1.name : "new subdivisions"} and everywhere in between.`,
         `${cityName} homeowners face unique challenges that generic solutions cannot address. With a population of approximately ${population} residents across ${county} County, the demand for expert ${subName.toLowerCase()} continues to grow. Bucksworth meets that demand with same-day service availability, transparent pricing, and a satisfaction guarantee on every job.`,
         `Whether you are dealing with an emergency situation or planning preventive maintenance, our ${cityName} ${subName.toLowerCase()} team is ready to help. Call ${phone} for a free inspection and upfront estimate with no hidden fees or surprise charges.`,
+      ],
+    },
+    {
+      heading: `${subName} Across ${cityName} Neighborhoods`,
+      paragraphs: [
+        neighborhoods.length > 0
+          ? `Every ${cityName} neighborhood has its own ${subName.toLowerCase()} challenges. ${n0 ? `In ${n0.name} (zip ${n0.zips[0] || ""}), ${n0.desc.toLowerCase()}` : ""} ${n1 ? `Over in ${n1.name} (zip ${n1.zips[0] || ""}), ${n1.desc.toLowerCase()}` : ""} Our technicians understand these differences and customize their approach for each area.`
+          : `Different areas of ${cityName} face different ${subName.toLowerCase()} challenges based on their proximity to the desert, construction era, and landscaping style. Our technicians customize their approach for each neighborhood.`,
+        n2
+          ? `${n2.name} residents often deal with different issues than those in ${n0 ? n0.name : cityName + " proper"}. ${n2.desc} That is why Bucksworth does not offer one-size-fits-all solutions. When our technician arrives at your ${cityName} home, they assess your specific property, your neighborhood's unique characteristics, and the local environment before recommending a plan.`
+          : `Our technicians do not offer one-size-fits-all solutions. When they arrive at your ${cityName} home, they assess your specific property, your neighborhood's unique characteristics, and the local environment before recommending a plan.`,
+        landmarks.length > 0
+          ? `Whether your home is near ${landmarks[0]}${landmarks.length > 1 ? `, ${landmarks[1]}` : ""}, or anywhere else in ${cityName}, Bucksworth delivers expert ${subName.toLowerCase()} tailored to your location. We service all ${cityName} zip codes: ${zips || "call for coverage"}.`
+          : `We service all ${cityName} zip codes: ${zips || "call for coverage"}. No matter which neighborhood you call home, Bucksworth delivers expert ${subName.toLowerCase()} tailored to your specific location and needs.`,
       ],
     },
     {
@@ -282,7 +306,7 @@ function buildContent(
       paragraphs: [
         `Arizona's extreme climate creates conditions that make ${subName.toLowerCase()} essential for every homeowner. Summer temperatures in ${cityName} routinely exceed 110 degrees Fahrenheit, while the monsoon season brings sudden moisture that compounds existing problems. These environmental factors make proactive ${subName.toLowerCase()} not just a convenience but a necessity for protecting your home and family.`,
         `The Sonoran Desert environment surrounding ${cityName} brings additional challenges. Desert wildlife, extreme UV exposure, mineral-heavy water, and dramatic temperature swings between day and night all take a toll on residential systems. Bucksworth technicians are trained specifically for these Arizona conditions and use materials and methods proven to perform in our harsh climate.`,
-        `Many ${cityName} neighborhoods were built during different construction eras, each with its own set of common issues. Whether you live in a newer subdivision or an established community, our technicians understand the specific challenges your home faces and tailor our ${subName.toLowerCase()} approach accordingly.`,
+        `Many ${cityName} neighborhoods were built during different construction eras, each with its own set of common issues. ${n0 ? `Newer communities like ${n0.name} face different challenges than established areas` : "Whether you live in a newer subdivision or an established community"}, and our technicians understand these differences. We tailor our ${subName.toLowerCase()} approach based on your home's age, construction type, landscaping, and proximity to the desert.`,
       ],
     },
     {
@@ -294,19 +318,18 @@ function buildContent(
       ],
     },
     {
-      heading: `Serving All of ${cityName} & ${county} County`,
+      heading: `Serving ${topNhoods.length > 0 ? topNhoods.join(", ") : "All of " + cityName} & Beyond`,
       paragraphs: [
-        `Bucksworth Home Services provides ${subName.toLowerCase()} throughout all of ${cityName} and the surrounding ${branch} metro area.${zips ? ` Our service area in ${cityName} covers zip codes ${zips} and all adjacent communities.` : ""} No matter which neighborhood you call home, we deliver the same level of expert service and attention to detail.`,
-        `We understand that every area of ${cityName} has its own characteristics that affect home maintenance needs. From the landscaping styles to the soil composition to the typical construction methods used in each neighborhood, our technicians factor in all of these local variables when providing ${subName.toLowerCase()} services.`,
+        `Bucksworth Home Services provides ${subName.toLowerCase()} throughout all of ${cityName} and the surrounding ${branch} metro area.${zips ? ` Our service area in ${cityName} covers zip codes ${zips} and all adjacent communities.` : ""}${topNhoods.length > 0 ? ` We serve neighborhoods including ${topNhoods.join(", ")}${neighborhoods.length > 5 ? `, and ${neighborhoods.length - 5} more` : ""}.` : ""}`,
         `Our ${branch} dispatch center ensures quick response times throughout ${cityName}. When you call ${phone}, we can typically schedule a same-day or next-day appointment. For emergencies, we prioritize getting a technician to your home as quickly as possible.`,
       ],
     },
     {
       heading: `Why Choose Bucksworth for ${subName}`,
       paragraphs: [
-        `Bucksworth Home Services is family-owned and operated, founded right here in Arizona in 2013 by Jordan and Taylor Moore. We treat every home like it is our Gigi's, which means honest work, quality materials, and genuine care for our customers. That philosophy has earned us a 4.8-star rating across thousands of reviews from Arizona homeowners.`,
-        `We are Google Guaranteed, meaning Google has independently verified our business licenses, insurance coverage, and employee background checks. When you hire Bucksworth for ${subName.toLowerCase()} in ${cityName}, you are hiring a company that one of the world's largest technology companies trusts enough to back with their own guarantee.`,
-        `Our credentials include Arizona ROC License #343924 and AG License #9613. Every technician is fully licensed, insured, and undergoes ongoing training to stay current with the latest ${subName.toLowerCase()} techniques, materials, and industry best practices. We invest in our team so we can deliver the best possible results for your home.`,
+        `Bucksworth Home Services is family-owned and operated, founded right here in Arizona in 2013 by Jordan and Taylor Moore. We treat every home like it is our Gigi's, which means honest work, quality materials, and genuine care for our customers. That philosophy has earned us a 4.8-star rating across 2,000+ reviews from Arizona homeowners, including many of your neighbors right here in ${cityName}.`,
+        `We are Google Guaranteed, meaning Google has independently verified our business licenses, insurance coverage, and employee background checks. When you hire Bucksworth for ${subName.toLowerCase()} in ${cityName}, you are hiring a company that Google trusts enough to back with their own guarantee.`,
+        `Our credentials include Arizona ROC License #343924 and AG License #9613. Every technician is fully licensed, insured, and undergoes ongoing training to stay current with the latest ${subName.toLowerCase()} techniques, materials, and industry best practices.`,
         `Ready to schedule your free ${subName.toLowerCase()} inspection in ${cityName}? Call us today at ${phone} or use our online estimator to get started. Same-day service is available, and we never charge for estimates or inspections.`,
       ],
     },

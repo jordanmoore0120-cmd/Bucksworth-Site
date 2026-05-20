@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="footer-brand">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://getyourbucksworth.com/wp-content/uploads/bucksworth2-e1759741638670.png"
+              src="/images/bucksworth-mascot-clean.jpg"
               alt="Bucksworth Home Services"
               width={150}
               height={45}

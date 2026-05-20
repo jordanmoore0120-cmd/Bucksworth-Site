@@ -41,10 +41,10 @@ export default function Header() {
           <Link href="/" className="logo-link">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://getyourbucksworth.com/wp-content/uploads/bucksworth2-e1759741638670.png"
+              src="/images/bucksworth-mascot-clean.jpg"
               alt="Bucksworth Home Services"
-              width={160}
-              height={48}
+              width={200}
+              height={228}
               className="logo-img"
             />
           </Link>
@@ -77,7 +77,7 @@ export default function Header() {
                     {SERVICES.map((svc) => (
                       <div key={svc.slug} className="mega-svc-col">
                         <Link
-                          href={`/${svc.slug}`}
+                          href={`/phoenix-az/${svc.slug}`}
                           className="mega-svc-title"
                           style={{ color: svc.color }}
                           onClick={() => setServicesOpen(false)}
@@ -218,10 +218,10 @@ export default function Header() {
             <div className="mobile-drawer-top">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://getyourbucksworth.com/wp-content/uploads/bucksworth2-e1759741638670.png"
+                src="/images/bucksworth-mascot-clean.jpg"
                 alt="Bucksworth"
-                width={130}
-                height={39}
+                width={150}
+                height={171}
               />
               <button
                 className="mobile-close"
@@ -242,7 +242,7 @@ export default function Header() {
               {SERVICES.map((svc) => (
                 <div key={svc.slug} className="mobile-section">
                   <Link
-                    href={`/${svc.slug}`}
+                    href={`/phoenix-az/${svc.slug}`}
                     className="mobile-section-title"
                     style={{ color: svc.color }}
                     onClick={() => setMobileOpen(false)}

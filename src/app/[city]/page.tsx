@@ -1,7 +1,9 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { CITIES, getCityBySlug, getPhoneForBranch, getPhoneForBranchRaw } from "@/lib/cities";
 import { SERVICES } from "@/lib/services";
+import { getNeighborhoods } from "@/lib/neighborhoods";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CityBar from "@/components/CityBar";
@@ -27,6 +29,9 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
   if (!city) return {};
 
   const phone = getPhoneForBranch(city.branch);
+  const nd = getNeighborhoods(slug);
+  const topAreas = nd.neighborhoods.slice(0, 3).map((n) => n.name).join(", ");
+
   const svcList =
     city.branch === "phoenix"
       ? "pest control, HVAC, plumbing & insulation"
@@ -34,7 +39,7 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
 
   return {
     title: `${city.name}, AZ Home Services | ${svcList} | Bucksworth`,
-    description: `Bucksworth Home Services in ${city.name}, Arizona. ${svcList} with same-day service, free inspections, and a satisfaction guarantee. Call ${phone}.`,
+    description: `Bucksworth Home Services in ${city.name}, Arizona \u2014 serving ${topAreas} and all neighborhoods. ${svcList} with same-day service, free inspections. Call ${phone}.`,
     alternates: { canonical: `https://bucksworth-site.vercel.app/${slug}` },
   };
 }
@@ -46,41 +51,46 @@ export default async function CityPage({ params }: CityPageProps) {
 
   const phone = getPhoneForBranch(city.branch);
   const phoneRaw = getPhoneForBranchRaw(city.branch);
+  const nd = getNeighborhoods(slug);
+  const branch = city.branch === "phoenix" ? "Phoenix" : "Tucson";
 
   // Filter services available in this city's branch
   const availableServices =
     city.branch === "phoenix"
       ? SERVICES
-      : SERVICES.filter((s) => s.slug === "pest-control");
+      : SERVICES.filter((s) => s.slug === "pest-and-termite" || s.slug === "weed-and-lawn-care");
 
+  // Build neighborhood-enriched FAQs
+  const topAreas = nd.neighborhoods.slice(0, 5).map((n) => n.name);
   const cityFaqs = [
+    {
+      q: `What neighborhoods in ${city.name} does Bucksworth serve?`,
+      a: `We serve every neighborhood in ${city.name}, including ${topAreas.join(", ")}${nd.neighborhoods.length > 5 ? `, and ${nd.neighborhoods.length - 5} more` : ""}. Whether you live near ${nd.landmarks[0] || city.name + " proper"} or on the other side of town, our technicians know your area and can typically arrive the same day.`,
+    },
     {
       q: `What home services does Bucksworth offer in ${city.name}?`,
       a:
         city.branch === "phoenix"
-          ? `In ${city.name}, we offer comprehensive pest & termite control, HVAC/air conditioning repair and installation, plumbing services, insulation, and weed control. All services include free inspections and same-day availability.`
-          : `In ${city.name}, we provide expert pest & termite control and weed control services. Both include free inspections and same-day availability. Call ${phone} to schedule.`,
+          ? `In ${city.name}, we offer comprehensive pest & termite control, HVAC/air conditioning repair and installation, plumbing services, insulation, and weed control. All services include free inspections and same-day availability across all ${city.name} zip codes: ${city.zipCodes.join(", ")}.`
+          : `In ${city.name}, we provide expert pest & termite control and weed control services. Both include free inspections and same-day availability across zip codes ${city.zipCodes.join(", ")}. Call ${phone} to schedule.`,
     },
     {
       q: `How quickly can Bucksworth respond in ${city.name}?`,
-      a: `We offer same-day and next-day service throughout ${city.name} and the surrounding ${city.branch === "phoenix" ? "Phoenix" : "Tucson"} metro area. For emergencies like AC failures or active pest infestations, we prioritize getting a technician to your home as quickly as possible.`,
+      a: `We offer same-day and next-day service throughout ${city.name} and the ${branch} metro area. Our ${branch} dispatch center is strategically located to reach all ${city.name} neighborhoods quickly. For emergencies like AC failures or active pest infestations, we prioritize rapid response.`,
     },
     {
       q: `Is Bucksworth licensed and insured in Arizona?`,
-      a: `Yes. Bucksworth Home Services is fully licensed (AZ ROC #343924, AG License #9613), bonded, and insured. We are Google Guaranteed, meaning Google has verified our licenses and insurance. We have maintained a 4.8+ star rating across 2,000+ reviews.`,
+      a: `Yes. Bucksworth Home Services is fully licensed (AZ ROC #343924, AG License #9613), bonded, and insured. We are Google Guaranteed, meaning Google has verified our licenses and insurance. We have maintained a 4.8+ star rating across 2,000+ reviews from homeowners throughout ${city.name} and the ${branch} metro.`,
     },
     {
       q: `Does Bucksworth offer free estimates in ${city.name}?`,
-      a: `Absolutely. Every new customer in ${city.name} receives a free, no-obligation inspection and estimate. We believe in transparent, upfront pricing with no hidden fees or surprise charges. Call ${phone} or use our online estimator to get started.`,
+      a: `Absolutely. Every customer in ${city.name} receives a free, no-obligation inspection and estimate. We provide transparent, upfront pricing with no hidden fees or surprise charges. Call ${phone} or use our online estimator to get started.`,
     },
     {
-      q: `What areas near ${city.name} do you serve?`,
-      a: `We serve all of ${city.county} County and the surrounding ${city.branch === "phoenix" ? "Phoenix" : "Tucson"} metro area, including ${
-        CITIES.filter((c) => c.branch === city.branch && c.slug !== city.slug)
-          .slice(0, 5)
-          .map((c) => c.name)
-          .join(", ")
-      }, and more. We cover 33 cities across Arizona.`,
+      q: `What makes ${city.name} homes unique for pest control?`,
+      a: nd.neighborhoods.length > 0
+        ? `${city.name} faces specific challenges that generic providers miss. For example, ${nd.neighborhoods[0].desc} Our technicians understand these neighborhood-level differences and customize their approach for each area of ${city.name}.`
+        : `${city.name} is surrounded by the Sonoran Desert, which creates unique pest pressures that generic providers cannot address. Our technicians are trained specifically for Arizona conditions and customize their approach for every home.`,
     },
   ];
 
@@ -98,14 +108,18 @@ export default async function CityPage({ params }: CityPageProps) {
       addressRegion: "AZ",
       addressCountry: "US",
     },
-    areaServed: {
-      "@type": "City",
-      name: city.name,
-    },
+    areaServed: [
+      { "@type": "City", name: city.name },
+      ...nd.neighborhoods.map((n) => ({
+        "@type": "Neighborhood" as const,
+        name: n.name,
+        containedInPlace: { "@type": "City" as const, name: city.name },
+      })),
+    ],
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.84",
-      reviewCount: "50",
+      reviewCount: "2000",
     },
     priceRange: "$$",
   };
@@ -127,8 +141,7 @@ export default async function CityPage({ params }: CityPageProps) {
       <section className="city-hero">
         <div className="city-hero-inner">
           <p className="city-hero-eyebrow">
-            {city.branch === "phoenix" ? "Phoenix" : "Tucson"} Metro &bull;{" "}
-            {city.county} County
+            {branch} Metro &bull; {city.county} County
           </p>
           <h1>
             Home Services in{" "}
@@ -158,9 +171,7 @@ export default async function CityPage({ params }: CityPageProps) {
       {/* Service Cards Section */}
       <section className="svc-cards-section">
         <div className="container">
-          <h2 className="section-title">
-            Our Services in {city.name}
-          </h2>
+          <h2 className="section-title">Our Services in {city.name}</h2>
           {availableServices.map((svc, i) => (
             <ServiceCard
               key={svc.slug}
@@ -171,6 +182,76 @@ export default async function CityPage({ params }: CityPageProps) {
           ))}
         </div>
       </section>
+
+      {/* ═══════════════════════════════════════════
+          NEIGHBORHOOD & ZIP CODE SECTION
+          ═══════════════════════════════════════════ */}
+      {nd.neighborhoods.length > 0 && (
+        <section className="svc-hub-content neighborhood-section">
+          <div className="svc-hub-content-inner">
+            <h2>Neighborhoods We Serve in {city.name}</h2>
+            <p>
+              Bucksworth provides expert home services to every corner of {city.name}. 
+              Our technicians don&apos;t just know {city.name} &mdash; they know your specific 
+              neighborhood and the challenges that come with it. Here are some of the 
+              communities we serve:
+            </p>
+
+            <div className="neighborhood-grid">
+              {nd.neighborhoods.map((n) => (
+                <div key={n.name} className="neighborhood-card">
+                  <h3>{n.name}</h3>
+                  <p className="neighborhood-zips">
+                    {n.zips.length > 0 && <>ZIP: {n.zips.join(", ")}</>}
+                  </p>
+                  <p>{n.desc}</p>
+                </div>
+              ))}
+            </div>
+
+            {nd.landmarks.length > 0 && (
+              <>
+                <h3>Local Landmarks &amp; Areas We Cover</h3>
+                <p>
+                  Whether you live near {nd.landmarks.slice(0, -1).join(", ")}
+                  {nd.landmarks.length > 1 ? `, or ${nd.landmarks[nd.landmarks.length - 1]}` : nd.landmarks[0]} &mdash; 
+                  Bucksworth has technicians who know your area and can be at your door 
+                  the same day you call {phone}.
+                </p>
+              </>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* ZIP Code Coverage */}
+      {city.zipCodes.length > 0 && (
+        <section className="svc-hub-content zip-section">
+          <div className="svc-hub-content-inner">
+            <h2>{city.name} ZIP Codes We Service</h2>
+            <div className="zip-grid">
+              {city.zipCodes.map((zip) => {
+                const matchingNeighborhood = nd.neighborhoods.find((n) =>
+                  n.zips.includes(zip)
+                );
+                return (
+                  <div key={zip} className="zip-card">
+                    <span className="zip-code">{zip}</span>
+                    {matchingNeighborhood && (
+                      <span className="zip-area">{matchingNeighborhood.name}</span>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+            <p>
+              Don&apos;t see your zip code listed? We likely still serve your area. 
+              Bucksworth covers all of {city.name} and the surrounding {branch} metro area. 
+              Call {phone} to confirm service availability at your address.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* Process */}
       <ProcessSteps
@@ -187,32 +268,55 @@ export default async function CityPage({ params }: CityPageProps) {
       {/* Mid-page CTA */}
       <CTASection city={city} variant="primary" />
 
-      {/* SEO content body */}
+      {/* Deep SEO Content with neighborhood context */}
       <section className="svc-hub-content">
         <div className="svc-hub-content-inner">
           <h2>Why {city.name} Homeowners Choose Bucksworth</h2>
           <p>
-            {city.name} sits in {city.county} County with a population of approximately {city.population} residents. {city.description} Bucksworth Home Services has been serving {city.name} families since 2013 with honest, reliable home services that protect your biggest investment.
+            {city.name} sits in {city.county} County with a population of approximately {city.population} residents. {city.description} Bucksworth Home Services has been the trusted choice for {city.name} families since 2013 with honest, reliable home services that protect your biggest investment.
           </p>
           <p>
-            Every Bucksworth technician is licensed, insured, and trained specifically for Arizona&apos;s unique challenges. From the extreme summer heat that pushes HVAC systems to their limits, to the year-round pest pressure from scorpions, termites, and rodents, we understand what {city.name} homes need because we live here too.
-          </p>
-
-          <h2>Serving All of {city.name}</h2>
-          <p>
-            We serve every neighborhood in {city.name} and the surrounding areas.{" "}
-            {city.zipCodes.length > 0 && (
+            What sets Bucksworth apart in {city.name} is our neighborhood-level knowledge. 
+            {nd.neighborhoods.length > 2 && (
               <>
-                Our service area in {city.name} includes zip codes{" "}
-                {city.zipCodes.join(", ")}.{" "}
+                {" "}A home in {nd.neighborhoods[0].name} faces completely different challenges than one in {nd.neighborhoods[1].name}. {nd.neighborhoods[0].desc} Meanwhile, in {nd.neighborhoods[1].name}, {nd.neighborhoods[1].desc.toLowerCase()} Our technicians understand these differences and tailor every service call to your specific situation.
               </>
             )}
-            Whether you&apos;re in a newer subdivision or an established neighborhood, Bucksworth provides the same level of expert service and attention to detail.
+          </p>
+
+          <h2>Arizona&apos;s Climate and Your {city.name} Home</h2>
+          <p>
+            Arizona&apos;s extreme environment creates conditions that demand expert home services. Summer temperatures in {city.name} regularly exceed 110&deg;F, stressing HVAC systems that were designed for moderate climates. The monsoon season brings sudden moisture that can drive scorpions and termites indoors, cause plumbing backups from flash flooding, and overwhelm aging insulation. Winter temperature swings between day and night create expansion and contraction cycles that open cracks in foundations &mdash; entry points for pests and causes of plumbing leaks.
+          </p>
+          <p>
+            {nd.neighborhoods.length > 0 && (
+              <>
+                These challenges intensify in specific {city.name} neighborhoods. Near {nd.landmarks[0] || "the desert edge"}, the natural landscape pushes wildlife directly into residential areas. In established communities like {nd.neighborhoods[nd.neighborhoods.length > 2 ? 2 : 0].name}, aging construction means more entry points for pests, older HVAC ductwork that leaks conditioned air, and plumbing systems approaching their lifespan limits.
+              </>
+            )}
+          </p>
+
+          <h2>Complete Zip Code Coverage Across {city.name}</h2>
+          <p>
+            Our {branch} dispatch center ensures fast response times across all of {city.name}.
+            {city.zipCodes.length > 0 && (
+              <> We actively service zip codes {city.zipCodes.join(", ")} and all adjacent areas.</>
+            )}
+            {" "}When you call {phone}, we typically schedule same-day or next-day appointments. For HVAC emergencies during Arizona&apos;s extreme summers, or active scorpion infestations, we prioritize getting a technician to your {city.name} home as quickly as possible.
+          </p>
+          <p>
+            No matter which {city.name} neighborhood you call home &mdash; whether it&apos;s a newer master-planned community, an established neighborhood with mature landscaping, or a custom home on the desert&apos;s edge &mdash; Bucksworth delivers the same level of expert service, transparent pricing, and satisfaction guarantee.
           </p>
 
           <h2>Arizona Licensed &amp; Google Guaranteed</h2>
           <p>
-            Bucksworth Home Services holds Arizona ROC License #343924 and AG License #9613. We are Google Guaranteed, meaning Google has verified our business licenses, insurance, and background checks. When you hire Bucksworth in {city.name}, you&apos;re hiring a company that Google trusts enough to back with their own guarantee.
+            Bucksworth Home Services is family-owned by Jordan and Taylor Moore, founded right here in Arizona in 2013. We treat every home like it&apos;s Gigi&apos;s &mdash; with honest work, quality materials, and genuine care. That philosophy has earned us a 4.8-star rating across 2,000+ reviews from Arizona homeowners, including many of your neighbors right here in {city.name}.
+          </p>
+          <p>
+            We hold Arizona ROC License #343924 and AG License #9613. We are Google Guaranteed, meaning Google has independently verified our business licenses, insurance coverage, and employee background checks. Every technician is fully licensed, insured, and undergoes ongoing training to stay current with the latest techniques, materials, and industry best practices.
+          </p>
+          <p>
+            Ready to protect your {city.name} home? Call us today at {phone} or use our online estimator. Free inspections, same-day service, no contracts, no gimmicks, no bait-and-switch. Just honest, expert home services from your Arizona neighbors.
           </p>
         </div>
       </section>
