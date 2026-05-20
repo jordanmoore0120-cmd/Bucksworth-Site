@@ -218,12 +218,8 @@ body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:
     transition: color 0.2s;
 }
 .nav-btn:hover, .nav-btn:focus { color: #C41E3A; }
-.nav-link {
-    color: #0A1628; font-weight: 700; font-size: 0.9rem; letter-spacing: 0.05em;
-    text-transform: uppercase; padding: 10px 18px; text-decoration: none;
-    transition: color 0.2s;
-}
-.nav-link:hover { color: #C41E3A; }
+/* REMOVED - conflicts with Next.js nav */
+/* .nav-link {... */
 
 /* Mega dropdown */
 .nav-mega {
@@ -449,7 +445,8 @@ html, body { overflow-x: hidden; }
 /* V10: Force horizontal nav */
 .nav-dropdown { display: inline-flex; position: relative; }
 .nav-btn { white-space: nowrap; }
-.nav-link { white-space: nowrap; }
+/* REMOVED - conflicts with Next.js nav */
+/* .nav-link { white-space: nowrap; }... */
 
 /* V9: single phone number, mega nav single list */
 .nav-phones { display: flex; }
