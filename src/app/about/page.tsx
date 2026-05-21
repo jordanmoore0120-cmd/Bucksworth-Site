@@ -122,15 +122,18 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Business Model with photo */}
+          {/* One Company, Every Service */}
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px", alignItems: "center", margin: "0 0 48px" }}>
             <div>
-              <h2>Our Business Model</h2>
+              <h2>One Company for Everything Your Home Needs</h2>
               <p>
-                We built Bucksworth on a simple idea: acquire customers through affordable pest control, then earn their trust with great service so they choose us for everything else their home needs. When your pest technician does an incredible job month after month, you are going to call us first when your AC goes out or your water heater leaks. That is not a sales tactic &mdash; it is a relationship built on trust and consistent performance.
+                Most homeowners juggle three or four different companies just to keep their home running &mdash; one for pest control, another for AC, someone else for plumbing, and a separate crew for the yard. That is a lot of phone numbers, a lot of strangers in your house, and a lot of hoping the next company is as good as the last one.
               </p>
               <p>
-                This model allows us to offer pest control at competitive rates while building a long-term relationship with each customer. Our average customer stays with us for years, not months, because we deliver real value on every visit. We cross-sell and upsell only when it genuinely benefits the homeowner, never to hit a quota.
+                Bucksworth exists so you never have to roll those dice. One company, one phone number, one team that already knows your home and your family. Our technicians are trained across multiple trades, and every service we provide is backed by the same Gigi Promise. When you trust us with your pest control, you already know the kind of work we do &mdash; so when your AC goes out at 2 AM in July or your water heater starts leaking, you know exactly who to call.
+              </p>
+              <p>
+                That is the whole point. We want to be the only home services company you will ever need.
               </p>
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
