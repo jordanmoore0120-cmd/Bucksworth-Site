@@ -10,6 +10,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
+import CitySync from "@/components/CitySync";
 import NearbyCities from "@/components/NearbyCities";
 
 interface CityPageProps {
@@ -127,6 +128,7 @@ export default async function CityPage({ params }: CityPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      <CitySync branch={city.branch} city={city.name} slug={city.slug} />
       <CityBar currentCity={city} />
       <main id="main-content">
       <div className="container">
@@ -166,7 +168,7 @@ export default async function CityPage({ params }: CityPageProps) {
               </svg>
               Call {phone}
             </a>
-            <a href="/request-service" className="btn-estimate">
+            <a href={`/request-service?city=${city.slug}`} className="btn-estimate">
               Get Free Estimate &rarr;
             </a>
           </div>

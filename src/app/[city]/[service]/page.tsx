@@ -9,6 +9,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
+import CitySync from "@/components/CitySync";
 import NearbyCities from "@/components/NearbyCities";
 import OtherServices from "@/components/OtherServices";
 
@@ -220,6 +221,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <CitySync branch={city.branch} city={city.name} slug={city.slug} />
       <CityBar currentCity={city} />
       <main id="main-content">
         <div className="container">

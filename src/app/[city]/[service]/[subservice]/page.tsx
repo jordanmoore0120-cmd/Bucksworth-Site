@@ -18,6 +18,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
+import CitySync from "@/components/CitySync";
 import OtherServices from "@/components/OtherServices";
 
 interface SubServicePageProps {
@@ -125,6 +126,7 @@ export default async function SubServicePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      <CitySync branch={city.branch} city={city.name} slug={city.slug} />
       <CityBar currentCity={city} />
       <main id="main-content">
       <div className="container">
