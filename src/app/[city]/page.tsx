@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
 
   return {
     title: `${city.name}, AZ Home Services | ${svcList} | Bucksworth`,
-    description: `Bucksworth Home Services in ${city.name}, Arizona \u2014 serving ${topAreas} and all neighborhoods. ${svcList} with same-day service, free inspections. Call ${phone}.`,
+    description: `Bucksworth Home Services in ${city.name}, Arizona — serving ${topAreas} and all neighborhoods. ${svcList} with same-day service, free inspections. Call ${phone}.`,
     alternates: { canonical: `https://bucksworth-site.vercel.app/${slug}` },
   };
 }

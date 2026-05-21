@@ -283,7 +283,7 @@ function buildContent(
     {
       heading: `Professional ${subName} in ${cityName}, Arizona`,
       paragraphs: [
-        `${longDesc} Bucksworth Home Services has been the trusted choice for ${subName.toLowerCase()} in ${cityName} and the greater ${branch} metro area since 2013. Our licensed, insured technicians bring years of Arizona-specific experience to every job \u2014 from ${n0 ? n0.name : "established neighborhoods"} to ${n1 ? n1.name : "new subdivisions"} and everywhere in between.`,
+        `${longDesc} Bucksworth Home Services has been the trusted choice for ${subName.toLowerCase()} in ${cityName} and the greater ${branch} metro area since 2013. Our licensed, insured technicians bring years of Arizona-specific experience to every job — from ${n0 ? n0.name : "established neighborhoods"} to ${n1 ? n1.name : "new subdivisions"} and everywhere in between.`,
         `${cityName} homeowners face unique challenges that generic solutions cannot address. With a population of approximately ${population} residents across ${county} County, the demand for expert ${subName.toLowerCase()} continues to grow. Bucksworth meets that demand with same-day service availability, transparent pricing, and a satisfaction guarantee on every job.`,
         `Whether you are dealing with an emergency situation or planning preventive maintenance, our ${cityName} ${subName.toLowerCase()} team is ready to help. Call ${phone} for a free inspection and upfront estimate with no hidden fees or surprise charges.`,
       ],
