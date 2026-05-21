@@ -24,6 +24,7 @@ export interface ServiceVertical {
   color: string;
   phone: { phoenix: string; tucson: string };
   description: string;
+  galleryImages?: string[];
   subServices: SubService[];
   process: { step: number; title: string; desc: string }[];
   faqs: { q: string; a: string }[];

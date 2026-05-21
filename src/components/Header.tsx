@@ -167,8 +167,8 @@ export default function Header() {
               </svg>
               (480) 422-8388
             </a>
-            <a href="https://portal.hero.demand-iq.com" target="_blank" rel="noopener" className="nav-cta-btn" aria-label="Get a free estimate for home services">
-              Free Estimate
+            <a href="/request-service" className="nav-cta-btn" aria-label="Schedule a service">
+              Request Service
             </a>
           </nav>
 
@@ -325,9 +325,7 @@ export default function Header() {
 
               {/* CTA */}
               <a
-                href="https://portal.hero.demand-iq.com"
-                target="_blank"
-                rel="noopener"
+                href="/request-service"
                 className="mobile-cta"
                 onClick={() => setMobileOpen(false)}
               >
