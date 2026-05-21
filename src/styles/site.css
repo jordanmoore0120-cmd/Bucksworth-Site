@@ -1579,15 +1579,35 @@ img { max-width: 100%; height: auto; }
   color: #fff;
 }
 .tw-bundle h2 { color: #fff; }
-.tw-bundle-card {
-  max-width: 600px;
+.tw-bundle-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 900px;
   margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .tw-bundle-row {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+.tw-bundle-card {
   text-align: center;
-  padding: 48px 36px;
+  padding: 48px 28px;
   background: rgba(255,255,255,0.05);
   border: 2px solid rgba(255,255,255,0.1);
   border-radius: 16px;
   position: relative;
+}
+.tw-bundle-card--alt {
+  background: rgba(255,255,255,0.03);
+  border-color: rgba(255,255,255,0.08);
+}
+.tw-bundle-subtitle {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin: -8px 0 0;
 }
 .tw-bundle-badge {
   position: absolute;
@@ -1602,6 +1622,10 @@ img { max-width: 100%; height: auto; }
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+.tw-bundle-badge--secondary {
+  background: var(--copper, #c96a2c);
 }
 .tw-price {
   margin: 24px 0 8px;

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Termite Warranty & Protection | Bucksworth Home Services",
   description:
-    "Complete termite protection for Arizona homeowners. Register your new construction pre-treatment warranty, schedule annual inspections, explore treatment options, or bundle with pest control starting at $49/mo. AZ ROC #343924 | AG License #9613.",
+    "Complete termite protection for Arizona homeowners. Register your new construction pre-treatment warranty, schedule annual inspections, explore treatment options, or add termite monitoring to your pest plan for just $29/mo. AZ ROC #343924 | AG License #9613.",
   alternates: {
     canonical: "https://bucksworth-site.vercel.app/termite-warranty",
   },
@@ -31,14 +31,24 @@ const warrantySchema = {
   ],
   description:
     "Complete termite warranty, treatment, and inspection services for Arizona homes. Pre-treatment warranty registration, annual inspections, and pest control bundles.",
-  offers: {
-    "@type": "Offer",
-    name: "Termite & Pest Control Bundle",
-    price: "49",
-    priceCurrency: "USD",
-    description:
-      "Bundle termite warranty with pest control for just $49/month. Termite renewal fees waived for life.",
-  },
+  offers: [
+    {
+      "@type": "Offer",
+      name: "Termite & Pest Bundle — New Construction",
+      price: "49",
+      priceCurrency: "USD",
+      description:
+        "Complete pest + termite warranty bundle for new construction homes pre-treated by Bucksworth with Premise or Bora-Care. $49/mo includes full pest control, termite warranty, and annual inspections.",
+    },
+    {
+      "@type": "Offer",
+      name: "Termite Monitoring Add-On",
+      price: "29",
+      priceCurrency: "USD",
+      description:
+        "Add termite monitoring and protection to any existing Bucksworth pest control plan for just $29/mo.",
+    },
+  ],
 };
 
 const faqSchema = {
@@ -79,10 +89,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What does the $49/month termite & pest bundle include?",
+      name: "How much does the termite & pest bundle cost?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For $49/month you get full pest control service (scorpions, roaches, ants, spiders, rodents) PLUS your termite repair and retreat warranty with annual inspections. Termite renewal fees are waived for life as long as you maintain the bundle.",
+        text: "If you already have a Bucksworth pest control plan, you can add termite monitoring and protection for just $29/month. If you bought a new construction home that Bucksworth pre-treated with Premise or Bora-Care, the full pest + termite warranty bundle is $49/month — which includes pest control, termite warranty, annual inspections, and renewal fees waived for life.",
       },
     },
     {
@@ -162,7 +172,7 @@ export default function TermiteWarrantyPage() {
               <a href="#bundle" className="tw-nav-card tw-nav-card--featured">
                 <span className="tw-nav-icon">&#11088;</span>
                 <h3>Pest + Termite Bundle</h3>
-                <p>$49/mo — full pest control plus termite warranty with renewal fees waived for life.</p>
+                <p>Add termite protection to any pest plan for just $29/mo — or $49/mo for new construction pre-treat homes.</p>
               </a>
             </div>
           </div>
@@ -280,9 +290,15 @@ export default function TermiteWarrantyPage() {
                     </p>
                   </div>
                   <div className="tw-renewal-option tw-renewal-option--featured">
-                    <h4>Bundle &amp; Save (Recommended)</h4>
+                    <h4>Add Termite to Your Pest Plan (Recommended)</h4>
                     <p>
-                      Add pest control for just $49/mo total. Your termite renewal fees are <strong>waived for life</strong> — saving you hundreds every year while also protecting against scorpions, roaches, ants, and more.
+                      Already have a Bucksworth pest plan? Add termite monitoring and protection for just <strong>$29/mo</strong>. Your termite renewal fees are <strong>waived for life</strong> — saving you hundreds every year.
+                    </p>
+                  </div>
+                  <div className="tw-renewal-option">
+                    <h4>New Construction Bundle</h4>
+                    <p>
+                      Bought a new construction home we pre-treated with Premise or Bora-Care? Get full pest control + termite warranty for <strong>$49/mo</strong> total — everything bundled.
                     </p>
                   </div>
                 </div>
@@ -347,50 +363,87 @@ export default function TermiteWarrantyPage() {
         {/* Bundle deal */}
         <section className="tw-section tw-bundle" id="bundle">
           <div className="tw-container">
-            <div className="tw-bundle-card">
-              <div className="tw-bundle-badge">Best Value</div>
-              <h2>Termite &amp; Pest Control Bundle</h2>
-              <div className="tw-price">
-                <span className="tw-price-amount">$49</span>
-                <span className="tw-price-period">/month</span>
+            <div className="tw-bundle-row">
+              {/* $29 add-on */}
+              <div className="tw-bundle-card">
+                <div className="tw-bundle-badge">Most Popular</div>
+                <h2>Add Termite Protection</h2>
+                <p className="tw-bundle-subtitle">To any existing pest control plan</p>
+                <div className="tw-price">
+                  <span className="tw-price-amount">$29</span>
+                  <span className="tw-price-period">/month</span>
+                </div>
+                <p className="tw-price-note">Added to your current pest plan</p>
+                <ul className="tw-bundle-features">
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Termite monitoring &amp; protection
+                  </li>
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Annual termite inspection included
+                  </li>
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Termite renewal fees waived for life
+                  </li>
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Retreat coverage if termites appear
+                  </li>
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Works with any Bucksworth pest plan
+                  </li>
+                </ul>
+                <div className="tw-bundle-ctas">
+                  <a href="tel:4804228388" className="tw-btn tw-btn--primary tw-btn--lg">
+                    Call to Add: (480) 422-8388
+                  </a>
+                </div>
               </div>
-              <p className="tw-price-note">3-year price guarantee</p>
-              <ul className="tw-bundle-features">
-                <li>
-                  <span className="tw-check" aria-hidden="true">&#10003;</span>
-                  Full pest control service (interior &amp; exterior)
-                </li>
-                <li>
-                  <span className="tw-check" aria-hidden="true">&#10003;</span>
-                  Termite repair &amp; retreat warranty
-                </li>
-                <li>
-                  <span className="tw-check" aria-hidden="true">&#10003;</span>
-                  Annual termite inspection included
-                </li>
-                <li>
-                  <span className="tw-check" aria-hidden="true">&#10003;</span>
-                  Termite renewal fees waived for life
-                </li>
-                <li>
-                  <span className="tw-check" aria-hidden="true">&#10003;</span>
-                  Scorpion, roach, ant, spider, rodent coverage
-                </li>
-                <li>
-                  <span className="tw-check" aria-hidden="true">&#10003;</span>
-                  Same-day service when you need it
-                </li>
-              </ul>
-              <p className="tw-bundle-waiver">
-                <strong>Waive your termite renewal fees for life</strong> — just bundle with any other Bucksworth service.
-              </p>
-              <div className="tw-bundle-ctas">
-                <a href="tel:4804228388" className="tw-btn tw-btn--primary tw-btn--lg">
-                  Call to Bundle: (480) 422-8388
-                </a>
-                <a href="#register" className="tw-btn tw-btn--outline">
-                  Register Warranty First &darr;
-                </a>
+
+              {/* $49 new construction bundle */}
+              <div className="tw-bundle-card tw-bundle-card--alt">
+                <div className="tw-bundle-badge tw-bundle-badge--secondary">New Construction</div>
+                <h2>Full Pest + Termite Bundle</h2>
+                <p className="tw-bundle-subtitle">For homes we pre-treated with Premise or Bora-Care</p>
+                <div className="tw-price">
+                  <span className="tw-price-amount">$49</span>
+                  <span className="tw-price-period">/month</span>
+                </div>
+                <p className="tw-price-note">Everything in one plan</p>
+                <ul className="tw-bundle-features">
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Full pest control (interior &amp; exterior)
+                  </li>
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Termite repair &amp; retreat warranty
+                  </li>
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Annual termite inspection included
+                  </li>
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Termite renewal fees waived for life
+                  </li>
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Scorpion, roach, ant, spider, rodent coverage
+                  </li>
+                  <li>
+                    <span className="tw-check" aria-hidden="true">&#10003;</span>
+                    Same-day service when you need it
+                  </li>
+                </ul>
+                <div className="tw-bundle-ctas">
+                  <a href="#register" className="tw-btn tw-btn--primary tw-btn--lg">
+                    Register My Warranty &darr;
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -471,14 +524,14 @@ export default function TermiteWarrantyPage() {
                     <option value="warranty-transfer">Transfer my builder&apos;s warranty</option>
                     <option value="annual-inspection">Schedule annual inspection</option>
                     <option value="termite-treatment">I have a termite problem</option>
-                    <option value="bundle-info">Tell me about the $49/mo bundle</option>
+                    <option value="bundle-info">Tell me about the termite bundle</option>
                     <option value="other">Something else</option>
                   </select>
                 </div>
                 <div className="tw-form-group tw-form-group--full">
                   <label className="tw-checkbox-label">
                     <input type="checkbox" name="bundle_interest" value="yes" />
-                    <span>I&apos;m interested in the $49/mo Termite &amp; Pest bundle (waive renewal fees for life)</span>
+                    <span>I&apos;m interested in adding termite protection to my pest plan ($29/mo add-on)</span>
                   </label>
                 </div>
                 <button type="submit" className="tw-btn tw-btn--primary tw-btn--lg tw-submit">
