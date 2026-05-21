@@ -54,28 +54,12 @@ export const SERVICES: ServiceVertical[] = [
           "Arizona bark scorpions are the most venomous scorpion in North America. Our targeted scorpion control program includes blacklight inspections, perimeter sealing, and residual treatments that create a protective barrier around your home. We eliminate existing populations and prevent new ones from entering.",
       },
       {
-        name: "Termite Treatment",
+        name: "Termite Control",
         slug: "termite-treatment",
         icon: "termite",
-        shortDesc: "Subterranean & drywood termite elimination",
+        shortDesc: "Treatment, warranties & inspections",
         longDesc:
-          "Arizona termites cause millions in damage annually. Our termite programs include Sentricon baiting systems, liquid barrier treatments (Termidor), spot treatments for drywood termites, and pre-construction treatments for new builds. Every treatment includes a warranty and annual re-inspection.",
-      },
-      {
-        name: "Termite Warranty Registration",
-        slug: "termite-warranty",
-        icon: "shield",
-        shortDesc: "New construction warranty transfer & pest bundle",
-        longDesc:
-          "Purchased a new-construction home with a Bucksworth pre-treat? Register your termite warranty here and lock in our Termite & Pest Control bundle starting at $49/month with a 3-year price guarantee. Transfer your builder warranty seamlessly and add ongoing protection.",
-      },
-      {
-        name: "Termite Builder Warranty",
-        slug: "termite-builder-warranty",
-        icon: "building",
-        shortDesc: "Builder warranty programs for new construction",
-        longDesc:
-          "Bucksworth provides termite builder warranty programs for general contractors, home builders, and developers across Arizona. Our pre-construction termite treatment meets all ARS 32-2301 requirements and includes one-year builder warranties that seamlessly transfer to new homeowners at closing. We offer volume pricing for subdivisions, dedicated account management, and priority scheduling to keep your builds on track. Contact us to set up a builder account.",
+          "Arizona termites cause millions in damage annually. Bucksworth provides complete termite protection — from Sentricon baiting systems and liquid barrier treatments (Termidor) to pre-construction treatments for builders. Every treatment includes a warranty and annual re-inspection. New homeowner? If your builder hired Bucksworth for the pre-treatment, your home already has warranty coverage — register it to keep it active. AZ law (R3-8-309) mandates a minimum 3-year retreatment guarantee on all pre-treatments.",
       },
       {
         name: "Roach Elimination",

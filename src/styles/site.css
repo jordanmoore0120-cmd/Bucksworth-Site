@@ -2528,3 +2528,133 @@ img { max-width: 100%; height: auto; }
   .rs-card-img { height: 80px; }
   .rs-card-label { font-size: 13px; padding: 8px 10px; }
 }
+
+/* ══════════════════════════════════════════════
+   TERMITE WARRANTY PAGE — additional styles
+   ══════════════════════════════════════════════ */
+.tw-nav-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 8px;
+}
+.tw-nav-card {
+  display: block;
+  padding: 24px 20px;
+  background: white;
+  border: 2px solid var(--g200);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--navy);
+  transition: all 0.2s;
+}
+.tw-nav-card:hover {
+  border-color: var(--az-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.tw-nav-card--featured {
+  border-color: var(--copper);
+  background: linear-gradient(135deg, #fffbf5, white);
+}
+.tw-nav-card--featured:hover { border-color: var(--copper); }
+.tw-nav-icon {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 8px;
+}
+.tw-nav-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--navy);
+}
+.tw-nav-card p {
+  font-size: 13px;
+  color: var(--g500);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.tw-section-intro {
+  font-size: 16px;
+  color: var(--g500);
+  line-height: 1.6;
+  margin: -8px 0 24px;
+  max-width: 640px;
+}
+
+.tw-treatment-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.tw-treatment-card {
+  background: white;
+  border: 1px solid var(--g200);
+  border-radius: 12px;
+  padding: 24px;
+}
+.tw-treatment-card h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0 0 4px;
+}
+.tw-treatment-brand {
+  font-size: 13px;
+  color: var(--copper);
+  font-weight: 600;
+  margin: 0 0 12px;
+}
+.tw-treatment-card p {
+  font-size: 14px;
+  color: var(--g600);
+  line-height: 1.6;
+}
+.tw-treatment-specs {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  font-size: 13px;
+}
+.tw-treatment-specs li {
+  padding: 4px 0;
+  color: var(--g600);
+}
+.tw-treatment-specs strong { color: var(--navy); }
+
+.tw-inspection-cta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.tw-inspection-note {
+  font-size: 14px;
+  color: var(--g500);
+}
+.tw-inspection-note a { color: var(--navy); font-weight: 600; text-decoration: none; }
+
+.tw-highlight-note {
+  font-size: 13px;
+  color: var(--g500);
+  line-height: 1.5;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--g200);
+}
+.tw-highlight-note a { color: var(--navy); font-weight: 600; text-decoration: none; }
+
+.tw-builder-section {
+  max-width: 640px;
+}
+
+@media (max-width: 768px) {
+  .tw-nav-cards { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .tw-treatment-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .tw-nav-cards { grid-template-columns: 1fr; }
+}
