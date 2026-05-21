@@ -69,6 +69,14 @@ export const SERVICES: ServiceVertical[] = [
           "Purchased a new-construction home with a Bucksworth pre-treat? Register your termite warranty here and lock in our Termite & Pest Control bundle starting at $49/month with a 3-year price guarantee. Transfer your builder warranty seamlessly and add ongoing protection.",
       },
       {
+        name: "Termite Builder Warranty",
+        slug: "termite-builder-warranty",
+        icon: "building",
+        shortDesc: "Builder warranty programs for new construction",
+        longDesc:
+          "Bucksworth provides termite builder warranty programs for general contractors, home builders, and developers across Arizona. Our pre-construction termite treatment meets all ARS 32-2301 requirements and includes one-year builder warranties that seamlessly transfer to new homeowners at closing. We offer volume pricing for subdivisions, dedicated account management, and priority scheduling to keep your builds on track. Contact us to set up a builder account.",
+      },
+      {
         name: "Roach Elimination",
         slug: "roach-elimination",
         icon: "roach",
