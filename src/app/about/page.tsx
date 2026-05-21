@@ -11,9 +11,18 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main id="main-content">
-      {/* Hero */}
-      <section className="city-hero">
-        <div className="city-hero-inner">
+      {/* Hero with background image */}
+      <section className="city-hero" style={{ position: "relative", overflow: "hidden" }}>
+        <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
+          <img
+            src="/images/photos/truck-construction-site.jpg"
+            alt="Bucksworth Home Services truck at a construction site in Phoenix, Arizona"
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+            loading="eager"
+          />
+          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(26,26,46,0.85) 0%, rgba(26,26,46,0.6) 100%)" }} />
+        </div>
+        <div className="city-hero-inner" style={{ position: "relative", zIndex: 1 }}>
           <p className="city-hero-eyebrow">Our Story</p>
           <h1>
             About <span className="orange">Bucksworth Home Services</span>
@@ -24,25 +33,63 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Story */}
+      {/* Photo + Story split */}
       <section className="svc-hub-content">
         <div className="svc-hub-content-inner">
-          <h2>Our Story</h2>
-          <p>
-            Bucksworth Home Services was founded in 2013 by Jordan and Taylor Moore with a simple mission: provide Arizona homeowners with honest, reliable home services at fair prices. What started as a small pest control operation serving a handful of Phoenix neighborhoods has grown into a full-service home services company covering 33 cities across the Phoenix and Tucson metro areas.
-          </p>
-          <p>
-            The name &ldquo;Bucksworth&rdquo; comes from our family &mdash; and our mascot, the buck with the Arizona flag, represents everything we stand for: strength, pride in our state, and a commitment to protecting Arizona homes. We are not a franchise. We are not a national corporation with a call center in another state. We are a real Arizona family serving real Arizona families.
-          </p>
-          <p>
-            Our grandmother, Gigi, taught us that the way you treat people matters more than anything else. That is why we say we treat every home like it&apos;s Gigi&apos;s. It means honest work, no shortcuts, no hidden fees, and genuine care for the people we serve. It is not just a slogan &mdash; it is how we run our business every single day.
-          </p>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px", alignItems: "center", margin: "0 0 48px" }}>
+            <div>
+              <h2>Our Story</h2>
+              <p>
+                Bucksworth Home Services was founded in 2013 by Jordan and Taylor Moore with a simple mission: provide Arizona homeowners with honest, reliable home services at fair prices. What started as a small pest control operation serving a handful of Phoenix neighborhoods has grown into a full-service home services company covering 33 cities across the Phoenix and Tucson metro areas.
+              </p>
+              <p>
+                The name &ldquo;Bucksworth&rdquo; comes from our family &mdash; and our mascot, the buck with the Arizona flag, represents everything we stand for: strength, pride in our state, and a commitment to protecting Arizona homes. We are not a franchise. We are not a national corporation with a call center in another state. We are a real Arizona family serving real Arizona families.
+              </p>
+            </div>
+            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
+              <img
+                src="/images/photos/tech-chuck-with-truck.jpg"
+                alt="Bucksworth technician Chuck standing next to our branded service truck"
+                style={{ width: "100%", height: "auto", display: "block" }}
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          {/* Gigi Promise with photo */}
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px", alignItems: "center", margin: "0 0 48px" }}>
+            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
+              <img
+                src="/images/photos/tech-backyard-service.jpg"
+                alt="Bucksworth technician performing pest control at a customer home in Arizona"
+                style={{ width: "100%", height: "auto", display: "block" }}
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <h2>The Gigi Promise</h2>
+              <p>
+                Our grandmother, Gigi, taught us that the way you treat people matters more than anything else. That is why we say we treat every home like it&apos;s Gigi&apos;s. It means honest work, no shortcuts, no hidden fees, and genuine care for the people we serve. It is not just a slogan &mdash; it is how we run our business every single day.
+              </p>
+              <ul style={{ margin: "12px 0 20px 20px", lineHeight: "2.2" }}>
+                <li>We show up on time, every time</li>
+                <li>We explain what we are doing and why before we start</li>
+                <li>We provide written prices before any work begins</li>
+                <li>We clean up after ourselves</li>
+                <li>We stand behind our work with a satisfaction guarantee</li>
+                <li>We never recommend services you do not need</li>
+              </ul>
+              <p>
+                If we would not do it in Gigi&apos;s house, we do not do it in yours. It is that simple.
+              </p>
+            </div>
+          </div>
 
           <h2>What We Do</h2>
           <p>
             Bucksworth Home Services provides four core services to homes and businesses throughout Arizona:
           </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px", margin: "20px 0" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px", margin: "20px 0 40px" }}>
             {[
               { name: "Pest & Termite Control", desc: "Scorpions, termites, roaches, ants, spiders, rodents, bed bugs, mosquitoes, bees, and wasps. Monthly and bi-monthly plans with same-day emergency service.", href: "/phoenix-az/pest-and-termite", color: "#b91c1c" },
               { name: "Air Conditioning & Heating", desc: "AC repair, installation, maintenance, duct cleaning, insulation, and energy audits. All major brands including Daikin, Trane, Carrier, Lennox, and Goodman.", href: "/phoenix-az/air-conditioning-and-heating", color: "#1e3a5f" },
@@ -56,13 +103,39 @@ export default function AboutPage() {
             ))}
           </div>
 
-          <h2>Our Business Model</h2>
-          <p>
-            We built Bucksworth on a simple idea: acquire customers through affordable pest control, then earn their trust with great service so they choose us for everything else their home needs. When your pest technician does an incredible job month after month, you are going to call us first when your AC goes out or your water heater leaks. That is not a sales tactic &mdash; it is a relationship built on trust and consistent performance.
-          </p>
-          <p>
-            This model allows us to offer pest control at competitive rates while building a long-term relationship with each customer. Our average customer stays with us for years, not months, because we deliver real value on every visit. We cross-sell and upsell only when it genuinely benefits the homeowner, never to hit a quota.
-          </p>
+          {/* Photo gallery strip */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "16px", margin: "0 0 48px" }}>
+            <div style={{ borderRadius: "10px", overflow: "hidden", aspectRatio: "16/9" }}>
+              <img src="/images/photos/truck-driving-phoenix.jpg" alt="Bucksworth truck driving through Phoenix neighborhood" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+            </div>
+            <div style={{ borderRadius: "10px", overflow: "hidden", aspectRatio: "16/9" }}>
+              <img src="/images/photos/tech-pretreat-framing.jpg" alt="Bucksworth technician applying termite pre-treatment to new construction framing" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+            </div>
+            <div style={{ borderRadius: "10px", overflow: "hidden", aspectRatio: "16/9" }}>
+              <img src="/images/photos/tech-residential-service.jpg" alt="Bucksworth technician performing residential pest control service" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+            </div>
+          </div>
+
+          {/* Business Model with photo */}
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px", alignItems: "center", margin: "0 0 48px" }}>
+            <div>
+              <h2>Our Business Model</h2>
+              <p>
+                We built Bucksworth on a simple idea: acquire customers through affordable pest control, then earn their trust with great service so they choose us for everything else their home needs. When your pest technician does an incredible job month after month, you are going to call us first when your AC goes out or your water heater leaks. That is not a sales tactic &mdash; it is a relationship built on trust and consistent performance.
+              </p>
+              <p>
+                This model allows us to offer pest control at competitive rates while building a long-term relationship with each customer. Our average customer stays with us for years, not months, because we deliver real value on every visit. We cross-sell and upsell only when it genuinely benefits the homeowner, never to hit a quota.
+              </p>
+            </div>
+            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
+              <img
+                src="/images/photos/tech-at-work.jpg"
+                alt="Bucksworth technician performing service work on site"
+                style={{ width: "100%", height: "auto", display: "block" }}
+                loading="lazy"
+              />
+            </div>
+          </div>
 
           <h2>Our Service Area</h2>
           <p>
@@ -97,22 +170,6 @@ export default function AboutPage() {
             <li><strong>Family Owned &amp; Operated</strong> &mdash; Not a franchise, not a corporation</li>
           </ul>
 
-          <h2>The Gigi Promise</h2>
-          <p>
-            Every Bucksworth employee knows the Gigi Promise: treat every home like it is our grandmother&apos;s home. That means:
-          </p>
-          <ul style={{ margin: "12px 0 20px 20px", lineHeight: "2.2" }}>
-            <li>We show up on time, every time</li>
-            <li>We explain what we are doing and why before we start</li>
-            <li>We provide written prices before any work begins</li>
-            <li>We clean up after ourselves</li>
-            <li>We stand behind our work with a satisfaction guarantee</li>
-            <li>We never recommend services you do not need</li>
-          </ul>
-          <p>
-            If we would not do it in Gigi&apos;s house, we do not do it in yours. It is that simple.
-          </p>
-
           <h2>Contact Us</h2>
           <p>
             Ready to experience the Bucksworth difference? Call us today for a free inspection and estimate:
@@ -124,6 +181,18 @@ export default function AboutPage() {
           </p>
         </div>
       </section>
+
+      {/* Responsive overrides for about page grids */}
+      <style>{`
+        @media (max-width: 768px) {
+          .svc-hub-content-inner > div[style*="grid-template-columns: 1fr 1fr"] {
+            grid-template-columns: 1fr !important;
+          }
+          .svc-hub-content-inner > div[style*="grid-template-columns: repeat(3"] {
+            grid-template-columns: 1fr !important;
+          }
+        }
+      `}</style>
     </main>
   );
 }

@@ -38,7 +38,7 @@ export const SERVICES: ServiceVertical[] = [
     slug: "pest-and-termite",
     tagline: "Arizona's Most Trusted Pest & Termite Experts",
     icon: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z",
-    heroImage: "/images/pest-damage-leaves.jpg",
+    heroImage: "/images/photos/tech-pretreat-backpack.jpg",
     color: "#b91c1c",
     phone: { phoenix: "(480) 422-8388", tucson: "(520) 284-9930" },
     description:
@@ -150,6 +150,7 @@ export const SERVICES: ServiceVertical[] = [
     tagline: "Keep Your Home Comfortable When Arizona Gets Extreme",
     icon: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z",
     heroImage: "/images/hvac-rooftop-install.jpg",
+    galleryImages: ["/images/photos/truck-construction-site.jpg", "/images/photos/tech-chuck-with-truck.jpg"],
     color: "#1e3a5f",
     phone: { phoenix: "(480) 422-8388", tucson: "(520) 284-9930" },
     description:

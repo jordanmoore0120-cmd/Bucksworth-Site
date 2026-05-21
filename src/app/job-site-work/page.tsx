@@ -11,9 +11,18 @@ export const metadata: Metadata = {
 export default function JobSiteWorkPage() {
   return (
     <main id="main-content">
-      {/* Hero */}
-      <section className="city-hero">
-        <div className="city-hero-inner">
+      {/* Hero with real photo background */}
+      <section className="city-hero" style={{ position: "relative", overflow: "hidden" }}>
+        <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
+          <img
+            src="/images/photos/tech-pretreat-framing.jpg"
+            alt="Bucksworth technician applying termite pre-treatment to new construction framing in Arizona"
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+            loading="eager"
+          />
+          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(26,26,46,0.85) 0%, rgba(26,26,46,0.6) 100%)" }} />
+        </div>
+        <div className="city-hero-inner" style={{ position: "relative", zIndex: 1 }}>
           <p className="city-hero-eyebrow">Commercial &amp; New Construction</p>
           <h1>
             <span className="orange">Job Site Work</span> &amp; Builder Services
@@ -34,6 +43,26 @@ export default function JobSiteWorkPage() {
               </svg>
               Call (480) 422-8388
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Photo strip showing real job site work */}
+      <section style={{ background: "var(--g50)", padding: "40px 0" }}>
+        <div className="container">
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "16px" }}>
+            <div style={{ borderRadius: "10px", overflow: "hidden", aspectRatio: "16/10" }}>
+              <img src="/images/photos/tech-pretreat-backpack.jpg" alt="Technician with backpack sprayer at job site" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+            </div>
+            <div style={{ borderRadius: "10px", overflow: "hidden", aspectRatio: "16/10" }}>
+              <img src="/images/photos/truck-construction-site.jpg" alt="Bucksworth truck at new construction site" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+            </div>
+            <div style={{ borderRadius: "10px", overflow: "hidden", aspectRatio: "16/10" }}>
+              <img src="/images/photos/tech-spraying-detail.jpg" alt="Close up of pest pre-treatment application" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+            </div>
+            <div style={{ borderRadius: "10px", overflow: "hidden", aspectRatio: "16/10" }}>
+              <img src="/images/photos/tech-chuck-with-truck.jpg" alt="Bucksworth technician with service vehicle" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+            </div>
           </div>
         </div>
       </section>
@@ -61,32 +90,54 @@ export default function JobSiteWorkPage() {
         </div>
       </section>
 
-      {/* SEO content */}
+      {/* Feature photo + content: Termite Pre-Treatment */}
       <section className="svc-hub-content">
         <div className="svc-hub-content-inner">
-          <h2>New Construction Services Across Arizona</h2>
-          <p>
-            Bucksworth Home Services partners with builders and general contractors throughout the Phoenix and Tucson metro areas to provide essential pre-construction and construction-phase services. From termite pre-treatment before the concrete pour to final HVAC system start-up and plumbing trim-out, we handle every phase of the build on your schedule.
-          </p>
-          <p>
-            We understand that builders work on tight timelines. Our job site teams are trained to coordinate with other trades, work within construction schedules, and complete each phase on time so you never have to hold up production waiting on us. We maintain dedicated builder scheduling lines and assign account managers to each builder relationship.
-          </p>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px", alignItems: "center", margin: "0 0 48px" }}>
+            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
+              <img
+                src="/images/photos/tech-pretreat-framing.jpg"
+                alt="Bucksworth technician spraying borate termite pre-treatment on new construction wall studs"
+                style={{ width: "100%", height: "auto", display: "block" }}
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <h2>Termite Pre-Treatment for New Construction</h2>
+              <p>
+                Arizona law requires termite pre-treatment on all new residential construction. Bucksworth provides both soil pre-treatment and Sentricon barrier system installation that meets all Arizona Department of Agriculture and Structural Pest Control Commission requirements. Our pre-treatments include:
+              </p>
+              <ul style={{ margin: "12px 0 20px 20px", lineHeight: "2" }}>
+                <li>Sub-slab soil treatment before concrete pour</li>
+                <li>Perimeter barrier treatment after foundation</li>
+                <li>Sentricon baiting station installation</li>
+                <li>Builder warranty documentation and filing</li>
+                <li>Homeowner warranty transfer at closing</li>
+                <li>Annual re-inspection included in warranty</li>
+              </ul>
+            </div>
+          </div>
 
-          <h2>Termite Pre-Treatment for New Construction</h2>
-          <p>
-            Arizona law requires termite pre-treatment on all new residential construction. Bucksworth provides both soil pre-treatment and Sentricon barrier system installation that meets all Arizona Department of Agriculture and Structural Pest Control Commission requirements. Our pre-treatments include:
-          </p>
-          <ul style={{ margin: "12px 0 20px 20px", lineHeight: "2" }}>
-            <li>Sub-slab soil treatment before concrete pour</li>
-            <li>Perimeter barrier treatment after foundation</li>
-            <li>Sentricon baiting station installation</li>
-            <li>Builder warranty documentation and filing</li>
-            <li>Homeowner warranty transfer at closing</li>
-            <li>Annual re-inspection included in warranty</li>
-          </ul>
-          <p>
-            Our termite pre-treatment warranty transfers directly to the new homeowner at closing. We handle all the paperwork and set up the new homeowner with our warranty registration system so they can easily convert to an ongoing pest and termite protection plan.
-          </p>
+          {/* Feature photo + content: On the road */}
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px", alignItems: "center", margin: "0 0 48px" }}>
+            <div>
+              <h2>New Construction Services Across Arizona</h2>
+              <p>
+                Bucksworth Home Services partners with builders and general contractors throughout the Phoenix and Tucson metro areas to provide essential pre-construction and construction-phase services. From termite pre-treatment before the concrete pour to final HVAC system start-up and plumbing trim-out, we handle every phase of the build on your schedule.
+              </p>
+              <p>
+                We understand that builders work on tight timelines. Our job site teams are trained to coordinate with other trades, work within construction schedules, and complete each phase on time so you never have to hold up production waiting on us. We maintain dedicated builder scheduling lines and assign account managers to each builder relationship.
+              </p>
+            </div>
+            <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
+              <img
+                src="/images/photos/truck-driving-phoenix.jpg"
+                alt="Bucksworth Home Services truck on the road in Phoenix, Arizona"
+                style={{ width: "100%", height: "auto", display: "block" }}
+                loading="lazy"
+              />
+            </div>
+          </div>
 
           <h2>Builder Warranty Program</h2>
           <p>
@@ -124,6 +175,18 @@ export default function JobSiteWorkPage() {
           </p>
         </div>
       </section>
+
+      {/* Responsive */}
+      <style>{`
+        @media (max-width: 768px) {
+          .svc-hub-content-inner > div[style*="grid-template-columns: 1fr 1fr"] {
+            grid-template-columns: 1fr !important;
+          }
+          div[style*="grid-template-columns: repeat(4"] {
+            grid-template-columns: 1fr 1fr !important;
+          }
+        }
+      `}</style>
     </main>
   );
 }

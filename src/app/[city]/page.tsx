@@ -133,9 +133,18 @@ export default async function CityPage({ params }: CityPageProps) {
         <Breadcrumbs crumbs={[{ label: city.name }]} />
       </div>
 
-      {/* Hero */}
-      <section className="city-hero">
-        <div className="city-hero-inner">
+      {/* Hero with real photo background */}
+      <section className="city-hero" style={{ position: "relative", overflow: "hidden" }}>
+        <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
+          <img
+            src={city.branch === "phoenix" ? "/images/photos/truck-driving-phoenix.jpg" : "/images/photos/tech-outdoor-service.jpg"}
+            alt={`Bucksworth Home Services in ${city.name}, Arizona`}
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+            loading="eager"
+          />
+          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(26,26,46,0.88) 0%, rgba(26,26,46,0.65) 100%)" }} />
+        </div>
+        <div className="city-hero-inner" style={{ position: "relative", zIndex: 1 }}>
           <p className="city-hero-eyebrow">
             {branch} Metro &bull; {city.county} County
           </p>
