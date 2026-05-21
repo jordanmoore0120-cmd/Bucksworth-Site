@@ -61,6 +61,7 @@ export default function Header() {
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [mobileBranch, setMobileBranch] = useState<"phoenix" | "tucson">("phoenix");
   const [detectedCity, setDetectedCity] = useState<string | null>(null);
+  const [detectedCitySlug, setDetectedCitySlug] = useState<string | null>(null);
   const [cityPickerOpen, setCityPickerOpen] = useState(false);
   const megaRef = useRef<HTMLDivElement>(null);
 
@@ -75,8 +76,9 @@ export default function Header() {
     mobileBranch === "phoenix" ? "(480) 422-8388" : "(520) 284-9930";
   const branchPhoneRaw =
     mobileBranch === "phoenix" ? "4804228388" : "5202849930";
+  /* Use the detected city slug for nav links; fall back to branch default */
   const branchCitySlug =
-    mobileBranch === "phoenix" ? "phoenix-az" : "tucson-az";
+    detectedCitySlug ?? (mobileBranch === "phoenix" ? "phoenix-az" : "tucson-az");
   const branchCities = mobileBranch === "phoenix" ? phxCities : tucCities;
 
   /* The label shown in the branch bar — shows detected city name if available */
@@ -87,6 +89,41 @@ export default function Header() {
     mobileBranch === "tucson"
       ? SERVICES.filter((s) => TUCSON_SERVICES.has(s.slug))
       : SERVICES;
+
+  /* ── Hydrate from localStorage first (instant), then upgrade with live geo ── */
+  useEffect(() => {
+    try {
+      const savedBranch = localStorage.getItem("bsw_branch") as "phoenix" | "tucson" | null;
+      const savedCity = localStorage.getItem("bsw_city");
+      const savedSlug = localStorage.getItem("bsw_city_slug");
+      if (savedBranch && savedCity && savedSlug) {
+        setMobileBranch(savedBranch);
+        setDetectedCity(savedCity);
+        setDetectedCitySlug(savedSlug);
+      }
+    } catch (_) { /* private browsing */ }
+
+    /* Listen for localStorage changes from other components (e.g. homepage zip lookup) */
+    const onStorage = () => {
+      try {
+        const b = localStorage.getItem("bsw_branch") as "phoenix" | "tucson" | null;
+        const c = localStorage.getItem("bsw_city");
+        const sl = localStorage.getItem("bsw_city_slug");
+        if (b && c && sl) {
+          setMobileBranch(b);
+          setDetectedCity(c);
+          setDetectedCitySlug(sl);
+        }
+      } catch (_) {}
+    };
+    window.addEventListener("storage", onStorage);
+    /* Also listen for a custom event (same-tab localStorage updates don't fire "storage") */
+    window.addEventListener("bsw-city-update", onStorage);
+    return () => {
+      window.removeEventListener("storage", onStorage);
+      window.removeEventListener("bsw-city-update", onStorage);
+    };
+  }, []);
 
   /* ── Auto-detect nearest city on mount ── */
   useEffect(() => {
@@ -107,6 +144,7 @@ export default function Header() {
         if (city) {
           setMobileBranch(city.branch);
           setDetectedCity(city.name);
+          setDetectedCitySlug(city.slug);
           /* Persist to localStorage so other pages can read it */
           try {
             localStorage.setItem("bsw_branch", city.branch);
@@ -213,7 +251,7 @@ export default function Header() {
                     {SERVICES.map((svc) => (
                       <div key={svc.slug} className="mega-svc-col">
                         <Link
-                          href={`/phoenix-az/${svc.slug}`}
+                          href={`/${branchCitySlug}/${svc.slug}`}
                           className="mega-svc-title"
                           style={{ color: svc.color }}
                           onClick={() => setServicesOpen(false)}
@@ -223,7 +261,7 @@ export default function Header() {
                         {svc.subServices.slice(0, 6).map((sub) => (
                           <Link
                             key={sub.slug}
-                            href={`/phoenix-az/${svc.slug}/${sub.slug}`}
+                            href={`/${branchCitySlug}/${svc.slug}/${sub.slug}`}
                             className="mega-sub-link"
                             onClick={() => setServicesOpen(false)}
                           >
@@ -433,6 +471,8 @@ export default function Header() {
                   onClick={() => {
                     setMobileBranch("phoenix");
                     setDetectedCity(null);
+                    setDetectedCitySlug(null);
+                    try { localStorage.setItem("bsw_branch", "phoenix"); localStorage.removeItem("bsw_city"); localStorage.removeItem("bsw_city_slug"); } catch (_) {}
                     setCityPickerOpen(false);
                   }}
                 >
@@ -447,6 +487,8 @@ export default function Header() {
                   onClick={() => {
                     setMobileBranch("tucson");
                     setDetectedCity(null);
+                    setDetectedCitySlug(null);
+                    try { localStorage.setItem("bsw_branch", "tucson"); localStorage.removeItem("bsw_city"); localStorage.removeItem("bsw_city_slug"); } catch (_) {}
                     setCityPickerOpen(false);
                   }}
                 >
