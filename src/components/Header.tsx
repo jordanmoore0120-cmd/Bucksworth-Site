@@ -357,6 +357,15 @@ export default function Header() {
               (480) 422-8388
             </a>
             <a
+              href="https://bucksworth.pestportals.com/landing/index"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-pay-btn"
+              aria-label="Pay your bill"
+            >
+              Pay Bill
+            </a>
+            <a
               href="/request-service"
               className="nav-cta-btn"
               aria-label="Schedule a service"
@@ -395,18 +404,33 @@ export default function Header() {
         </div>
       </header>
 
-      {/* ===== STICKY MOBILE BOOK NOW BAR ===== */}
+      {/* ===== STICKY MOBILE ACTION BAR (4 buttons) ===== */}
       {!mobileOpen && (
-        <div className="sticky-book-bar">
-          <a href={`tel:${branchPhoneRaw}`} className="sticky-book-call" aria-label="Call now">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <div className="sticky-action-bar">
+          <a href={`tel:${branchPhoneRaw}`} className="sticky-action-btn sticky-action-call" aria-label="Call now">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.72 11.72 0 003.66.59 1 1 0 011 1v3.59a1 1 0 01-1 1A17 17 0 013 4.92a1 1 0 011-1h3.59a1 1 0 011 1 11.72 11.72 0 00.59 3.66 1 1 0 01-.24 1.01l-2.2 2.2z" />
             </svg>
-            Call Now
+            <span>Call</span>
           </a>
-          <Link href="/request-service" className="sticky-book-btn">
-            Book Now &rarr;
+          <Link href="/request-service" className="sticky-action-btn sticky-action-quote">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M13 10h-3V7H8v3H5v2h3v3h2v-3h3v-2zm6-4h-2V4a2 2 0 00-2-2H5a2 2 0 00-2 2v16l4-4h10a2 2 0 002-2v-1h2a2 2 0 002-2V8a2 2 0 00-2-2zm-4 8H6.83L5 15.17V4h10v10zm4-4h-2V8h-8V6h10v4z"/>
+            </svg>
+            <span>Quote</span>
           </Link>
+          <Link href="/request-service" className="sticky-action-btn sticky-action-book">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zm-7 5h5v5h-5v-5z"/>
+            </svg>
+            <span>Book</span>
+          </Link>
+          <a href="https://bucksworth.pestportals.com/landing/index" target="_blank" rel="noopener noreferrer" className="sticky-action-btn sticky-action-pay" aria-label="Pay your bill">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2zm-6 7h4v2h-4v-2z"/>
+            </svg>
+            <span>Pay</span>
+          </a>
         </div>
       )}
 
