@@ -1,5 +1,5 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--red:#d4192c;--red-dark:#b5131f;--red-light:#e8283b;--navy:#002664;--navy-dark:#001a47;--navy-light:#04449c;--orange:#ff9c00;--orange-light:#ffb833;--gold:#fed700;--white:#FFF;--g50:#F8F9FA;--g100:#F1F3F5;--g200:#E9ECEF;--g300:#DEE2E6;--g500:#868E96;--g700:#495057;--g900:#212529}
+:root{--red:#d4192c;--red-dark:#b5131f;--red-light:#e8283b;--navy:#002664;--navy-dark:#001a47;--navy-light:#04449c;--orange:#ff9c00;--orange-light:#ffb833;--gold:#fed700;--white:#FFF;--g50:#F8F9FA;--g100:#F1F3F5;--g200:#E9ECEF;--g300:#DEE2E6;--g500:#4b5563;--g700:#495057;--g900:#212529}
 body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:1.6;background:var(--white)}
 .container{max-width:1200px;margin:0 auto;padding:0 24px}
 

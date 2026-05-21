@@ -456,57 +456,27 @@ export default function Header() {
               </svg>
             </button>
 
-            {/* City picker dropdown */}
+            {/* City picker dropdown — flat list, no branch toggle */}
             {cityPickerOpen && (
-              <div className="mobile-city-picker">
+              <div className="mobile-city-picker" style={{ maxHeight: "50vh", overflowY: "auto" }}>
                 <p className="mobile-city-picker-label">
-                  Choose a Location Near You:
+                  Choose Your City:
                 </p>
-                <button
-                  className={`mobile-city-option ${
-                    mobileBranch === "phoenix"
-                      ? "mobile-city-option--active"
-                      : ""
-                  }`}
-                  onClick={() => {
-                    setMobileBranch("phoenix");
-                    setDetectedCity(null);
-                    setDetectedCitySlug(null);
-                    try { localStorage.setItem("bsw_branch", "phoenix"); localStorage.removeItem("bsw_city"); localStorage.removeItem("bsw_city_slug"); } catch (_) {}
-                    setCityPickerOpen(false);
-                  }}
-                >
-                  Phoenix Metro
-                </button>
-                <button
-                  className={`mobile-city-option ${
-                    mobileBranch === "tucson"
-                      ? "mobile-city-option--active"
-                      : ""
-                  }`}
-                  onClick={() => {
-                    setMobileBranch("tucson");
-                    setDetectedCity(null);
-                    setDetectedCitySlug(null);
-                    try { localStorage.setItem("bsw_branch", "tucson"); localStorage.removeItem("bsw_city"); localStorage.removeItem("bsw_city_slug"); } catch (_) {}
-                    setCityPickerOpen(false);
-                  }}
-                >
-                  Tucson Metro
-                </button>
-                <div className="mobile-city-picker-divider" />
-                <p
-                  className="mobile-city-picker-label"
-                  style={{ marginTop: 8 }}
-                >
-                  {mobileBranch === "phoenix" ? "Phoenix" : "Tucson"} Cities:
-                </p>
-                {branchCities.map((city) => (
+                {[...phxCities, ...tucCities].sort((a, b) => a.name.localeCompare(b.name)).map((city) => (
                   <Link
                     key={city.slug}
                     href={`/${city.slug}`}
-                    className="mobile-city-option"
+                    className={`mobile-city-option${detectedCitySlug === city.slug ? " mobile-city-option--active" : ""}`}
                     onClick={() => {
+                      setMobileBranch(city.branch);
+                      setDetectedCity(city.name);
+                      setDetectedCitySlug(city.slug);
+                      try {
+                        localStorage.setItem("bsw_branch", city.branch);
+                        localStorage.setItem("bsw_city", city.name);
+                        localStorage.setItem("bsw_city_slug", city.slug);
+                        window.dispatchEvent(new Event("bsw-city-update"));
+                      } catch (_) {}
                       setCityPickerOpen(false);
                       setMobileOpen(false);
                     }}
