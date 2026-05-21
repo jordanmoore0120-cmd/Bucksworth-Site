@@ -154,19 +154,24 @@ export default function RequestServicePage() {
 
   const activeVertical = SERVICES.find((s) => s.slug === selectedService);
 
-  function handleBranchSwitch(newBranch: BranchKey) {
-    setBranch(newBranch);
-    setDetectedCity(null);
+  /* All cities sorted alphabetically for the picker */
+  const allCities = [...CITIES].sort((a, b) => a.name.localeCompare(b.name));
+
+  function handleCitySelect(city: typeof CITIES[number]) {
+    setBranch(city.branch);
+    setDetectedCity(city.name);
     setShowBranchPicker(false);
+    setGeoStatus("done");
     /* Clear service selection if switching to Tucson and current service isn't available */
-    if (newBranch === "tucson" && selectedService && !TUCSON_SERVICES.has(selectedService)) {
+    if (city.branch === "tucson" && selectedService && !TUCSON_SERVICES.has(selectedService)) {
       setSelectedService(null);
       setSelectedSub(null);
     }
     try {
-      localStorage.setItem("bsw_branch", newBranch);
-      localStorage.removeItem("bsw_city");
-      localStorage.removeItem("bsw_city_slug");
+      localStorage.setItem("bsw_branch", city.branch);
+      localStorage.setItem("bsw_city", city.name);
+      localStorage.setItem("bsw_city_slug", city.slug);
+      window.dispatchEvent(new Event("bsw-city-update"));
     } catch (_) { /* */ }
   }
 
@@ -197,9 +202,7 @@ export default function RequestServicePage() {
   }
 
   /* Build the location display string */
-  const locationLabel = detectedCity
-    ? `${detectedCity} (${branchInfo.label} Metro)`
-    : branchInfo.label;
+  const locationLabel = detectedCity || branchInfo.label;
 
   return (
     <main className="rs-page">
@@ -242,21 +245,19 @@ export default function RequestServicePage() {
           )}
         </div>
 
-        {/* Only show branch toggle if: geo denied, idle, or user clicked "Change" */}
+        {/* City picker — shown when geo denied, idle, or user clicked "Change" */}
         {(geoStatus === "denied" || geoStatus === "idle" || showBranchPicker) && (
-          <div className="rs-branch-toggle">
-            <button
-              className={`rs-branch-btn ${branch === "phoenix" ? "rs-branch-btn--active" : ""}`}
-              onClick={() => handleBranchSwitch("phoenix")}
-            >
-              Phoenix Metro
-            </button>
-            <button
-              className={`rs-branch-btn ${branch === "tucson" ? "rs-branch-btn--active" : ""}`}
-              onClick={() => handleBranchSwitch("tucson")}
-            >
-              Tucson Metro
-            </button>
+          <div className="rs-branch-toggle" style={{ flexWrap: "wrap", gap: "6px" }}>
+            {allCities.map((city) => (
+              <button
+                key={city.slug}
+                className={`rs-branch-btn ${detectedCity === city.name ? "rs-branch-btn--active" : ""}`}
+                onClick={() => handleCitySelect(city)}
+                style={{ fontSize: "13px", padding: "6px 12px" }}
+              >
+                {city.name}
+              </button>
+            ))}
           </div>
         )}
       </section>

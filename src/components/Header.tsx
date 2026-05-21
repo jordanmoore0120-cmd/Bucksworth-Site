@@ -125,8 +125,14 @@ export default function Header() {
     };
   }, []);
 
-  /* ── Auto-detect nearest city on mount ── */
+  /* ── Auto-detect nearest city on mount — ONLY if no city saved yet ── */
   useEffect(() => {
+    /* If user already picked a city (via zip, city picker, or previous GPS),
+       respect that choice. GPS only runs for first-time visitors. */
+    try {
+      if (localStorage.getItem("bsw_city_slug")) return;
+    } catch (_) { /* private browsing */ }
+
     if (!("geolocation" in navigator)) return;
     navigator.geolocation.getCurrentPosition(
       (pos) => {
