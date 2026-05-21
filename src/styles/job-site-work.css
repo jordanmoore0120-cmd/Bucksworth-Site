@@ -1,0 +1,406 @@
+/* ════════════════════════════════════════════════
+   JOB SITE WORK — Interactive Map Portfolio
+   ════════════════════════════════════════════════ */
+
+.jsw-page {
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+/* Hero */
+.jsw-hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  color: white;
+  text-align: center;
+  padding: 72px 24px 48px;
+}
+.jsw-hero h1 {
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  margin: 0 0 12px;
+}
+.jsw-hero-rule {
+  width: 60px;
+  height: 3px;
+  background: var(--copper, #c96a2c);
+  margin: 0 auto 16px;
+  border-radius: 2px;
+}
+.jsw-hero p {
+  font-size: 17px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+/* Filter bar */
+.jsw-filters {
+  display: flex;
+  gap: 8px;
+  padding: 16px 24px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background: white;
+  border-bottom: 1px solid #e2e8f0;
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  scrollbar-width: none;
+}
+.jsw-filters::-webkit-scrollbar { display: none; }
+
+.jsw-filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 999px;
+  background: white;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+.jsw-filter-btn:hover {
+  border-color: #94a3b8;
+  color: #0f172a;
+}
+.jsw-filter-btn--active {
+  background: #0f172a;
+  border-color: #0f172a !important;
+  color: white !important;
+}
+.jsw-filter-icon { font-size: 15px; }
+.jsw-filter-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.08);
+  font-size: 11px;
+  font-weight: 700;
+}
+.jsw-filter-btn--active .jsw-filter-count {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Map */
+.jsw-map-section {
+  height: 55vh;
+  min-height: 400px;
+  max-height: 600px;
+  position: relative;
+}
+.jsw-map-placeholder {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f5f9;
+  color: #94a3b8;
+  font-size: 15px;
+}
+.jsw-leaflet-map {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/* Leaflet popup override */
+.jsw-popup {
+  text-align: center;
+  max-width: 200px;
+}
+.jsw-popup-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.jsw-popup strong {
+  display: block;
+  font-size: 13px;
+  color: #0f172a;
+  margin-bottom: 2px;
+}
+.jsw-popup span {
+  font-size: 11px;
+  color: #64748b;
+}
+
+/* Selected job detail card */
+.jsw-detail {
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+  animation: jsw-slideUp 0.3s ease;
+}
+@keyframes jsw-slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.jsw-detail-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.04);
+  position: relative;
+}
+.jsw-detail-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: background 0.2s;
+}
+.jsw-detail-close:hover { background: rgba(0,0,0,0.7); }
+
+.jsw-detail-media {
+  position: relative;
+  min-height: 300px;
+}
+.jsw-detail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.jsw-detail-info {
+  padding: 28px 28px 28px 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.jsw-detail-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  width: fit-content;
+  margin-bottom: 12px;
+}
+.jsw-detail-info h2 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 6px;
+  line-height: 1.2;
+}
+.jsw-detail-location {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0 0 12px;
+}
+.jsw-detail-desc {
+  font-size: 14px;
+  line-height: 1.65;
+  color: #334155;
+  margin: 0 0 16px;
+}
+.jsw-detail-date {
+  font-size: 12px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Grid gallery */
+.jsw-gallery {
+  padding: 40px 24px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.jsw-gallery-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.jsw-gallery-header h2 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0;
+}
+.jsw-gallery-header h2 span {
+  color: #64748b;
+  font-weight: 500;
+}
+.jsw-gallery-count {
+  font-size: 13px;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.jsw-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.jsw-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.jsw-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+.jsw-card--active {
+  border-color: var(--copper, #c96a2c);
+  box-shadow: 0 0 0 3px rgba(201,106,44,0.15);
+}
+
+.jsw-card-img {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.jsw-card-cat {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.jsw-card-body {
+  padding: 12px 14px 14px;
+}
+.jsw-card-body h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 4px;
+  line-height: 1.3;
+}
+.jsw-card-loc {
+  font-size: 12px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+/* CTA */
+.jsw-cta {
+  text-align: center;
+  padding: 56px 24px 72px;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: white;
+  margin-top: 40px;
+}
+.jsw-cta h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 8px;
+}
+.jsw-cta p {
+  color: #94a3b8;
+  font-size: 16px;
+  margin: 0 0 24px;
+}
+.jsw-cta-btns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.jsw-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.jsw-cta-btn--primary {
+  background: var(--copper, #c96a2c);
+  color: white;
+}
+.jsw-cta-btn--primary:hover { filter: brightness(1.1); }
+.jsw-cta-btn--outline {
+  border: 2px solid rgba(255,255,255,0.3);
+  color: white;
+}
+.jsw-cta-btn--outline:hover { border-color: rgba(255,255,255,0.6); }
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .jsw-hero { padding: 56px 20px 36px; }
+  .jsw-filters { padding: 12px 16px; gap: 6px; }
+  .jsw-filter-btn { padding: 6px 12px; font-size: 12px; }
+
+  .jsw-map-section {
+    height: 45vh;
+    min-height: 300px;
+  }
+
+  .jsw-detail-inner {
+    grid-template-columns: 1fr;
+  }
+  .jsw-detail-media {
+    min-height: 220px;
+    max-height: 260px;
+  }
+  .jsw-detail-info {
+    padding: 20px;
+  }
+
+  .jsw-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .jsw-card-img { height: 130px; }
+  .jsw-card-body { padding: 10px 12px 12px; }
+  .jsw-card-body h3 { font-size: 13px; }
+
+  .jsw-gallery { padding: 24px 16px 16px; }
+  .jsw-gallery-header h2 { font-size: 18px; }
+}
+
+@media (max-width: 380px) {
+  .jsw-grid { grid-template-columns: 1fr; }
+}

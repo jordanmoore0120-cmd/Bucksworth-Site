@@ -23,6 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly",
     priority: 0.8,
   });
+  entries.push({
+    url: `${BASE}/job-site-work`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  });
 
   /* City pages */
   for (const city of CITIES) {
