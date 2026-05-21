@@ -243,7 +243,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
                 Call {phone}
               </a>
               {service.slug !== "plumbing-and-water-heaters" && (
-                <a href="https://portal.hero.demand-iq.com" target="_blank" rel="noopener" className="btn-estimate">Get Online Estimate &rarr;</a>
+                <a href="/request-service" className="btn-estimate">Get Online Estimate &rarr;</a>
               )}
             </div>
           </div>

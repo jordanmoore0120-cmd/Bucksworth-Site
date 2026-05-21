@@ -10,6 +10,8 @@
   --red: #dc2626;
   --red-dark: #b91c1c;
   --orange: #ff9c00;
+  --copper: #c96a2c;
+  --az-blue: #002868;
   --green: #16a34a;
   --blue: #2563eb;
   --cyan: #0891b2;
@@ -325,7 +327,7 @@ img { max-width: 100%; height: auto; }
   justify-content: space-between;
   width: 100%;
   padding: 12px 20px;
-  background: var(--red);
+  background: var(--az-blue);
   color: white;
   font-size: 15px;
   font-weight: 600;
@@ -363,12 +365,12 @@ img { max-width: 100%; height: auto; }
 }
 .mobile-city-option:hover { background: var(--g100); }
 .mobile-city-option--active {
-  background: var(--red);
+  background: var(--az-blue);
   color: white;
   font-weight: 700;
   border-radius: 4px;
 }
-.mobile-city-option--active:hover { background: var(--red); }
+.mobile-city-option--active:hover { background: var(--az-blue); }
 .mobile-city-picker-divider {
   height: 1px;
   background: var(--g300);
@@ -2237,7 +2239,7 @@ img { max-width: 100%; height: auto; }
   width: 14px;
   height: 14px;
   border: 2px solid var(--g300);
-  border-top-color: var(--red);
+  border-top-color: var(--az-blue);
   border-radius: 50%;
   animation: rs-spin 0.8s linear infinite;
 }
@@ -2253,7 +2255,7 @@ img { max-width: 100%; height: auto; }
   cursor: pointer;
   transition: all 0.2s;
 }
-.rs-geo-btn:hover { border-color: var(--red); color: var(--red); }
+.rs-geo-btn:hover { border-color: var(--copper); color: var(--copper); }
 
 .rs-branch-toggle {
   display: flex;
@@ -2274,7 +2276,7 @@ img { max-width: 100%; height: auto; }
   transition: all 0.2s;
 }
 .rs-branch-btn--active {
-  background: var(--red);
+  background: var(--az-blue);
   color: white;
 }
 
@@ -2314,8 +2316,8 @@ img { max-width: 100%; height: auto; }
   padding: 0;
 }
 .rs-card:hover { border-color: var(--g400); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-.rs-card--selected { border-color: var(--red); box-shadow: 0 0 0 2px rgba(185,28,28,0.2); }
-.rs-card--selected:hover { border-color: var(--red); }
+.rs-card--selected { border-color: var(--copper); box-shadow: 0 0 0 2px rgba(201,106,44,0.2); }
+.rs-card--selected:hover { border-color: var(--copper); }
 .rs-card-img {
   height: 100px;
   background-size: cover;
@@ -2333,7 +2335,7 @@ img { max-width: 100%; height: auto; }
   right: 8px;
   width: 24px;
   height: 24px;
-  background: var(--red);
+  background: var(--copper);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -2405,8 +2407,8 @@ img { max-width: 100%; height: auto; }
 .rs-field input:focus,
 .rs-field select:focus {
   outline: none;
-  border-color: var(--red);
-  box-shadow: 0 0 0 3px rgba(185,28,28,0.1);
+  border-color: var(--az-blue);
+  box-shadow: 0 0 0 3px rgba(0,40,104,0.1);
 }
 .rs-field input::placeholder { color: var(--g400); }
 .rs-field--full { grid-column: 1 / -1; }
@@ -2448,7 +2450,7 @@ img { max-width: 100%; height: auto; }
   transition: border-color 0.2s;
 }
 .rs-radio input:checked + .rs-radio-dot {
-  border-color: var(--red);
+  border-color: var(--copper);
 }
 .rs-radio input:checked + .rs-radio-dot::after {
   content: "";
@@ -2458,14 +2460,14 @@ img { max-width: 100%; height: auto; }
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: var(--red);
+  background: var(--copper);
 }
 
 /* Submit */
 .rs-submit {
   width: 100%;
   padding: 16px;
-  background: var(--red);
+  background: var(--navy);
   color: white;
   border: none;
   border-radius: 8px;
@@ -2475,7 +2477,7 @@ img { max-width: 100%; height: auto; }
   transition: background 0.2s;
   margin-top: 8px;
 }
-.rs-submit:hover { background: #991b1b; }
+.rs-submit:hover { background: var(--az-blue); }
 .rs-disclaimer {
   font-size: 12px;
   color: var(--g400);

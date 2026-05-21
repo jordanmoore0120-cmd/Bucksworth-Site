@@ -355,7 +355,7 @@ export default function TermiteWarrantyPage() {
               </p>
               <form
                 className="tw-form"
-                action="https://portal.hero.demand-iq.com"
+                action="/request-service"
                 method="get"
                 // @ts-expect-error WebMCP attributes not in React types yet
                 toolname="register_termite_warranty"
