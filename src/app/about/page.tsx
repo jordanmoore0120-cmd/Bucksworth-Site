@@ -11,16 +11,16 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main id="main-content">
-      {/* Hero with background image */}
+      {/* Hero with family photo */}
       <section className="city-hero" style={{ position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
           <img
-            src="/images/photos/truck-construction-site.jpg"
-            alt="Bucksworth Home Services truck at a construction site in Phoenix, Arizona"
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+            src="/images/photos/family-portrait.jpg"
+            alt="Jordan and Taylor Moore with their family — founders of Bucksworth Home Services"
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 20%" }}
             loading="eager"
           />
-          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(26,26,46,0.85) 0%, rgba(26,26,46,0.6) 100%)" }} />
+          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(26,26,46,0.82) 0%, rgba(26,26,46,0.5) 100%)" }} />
         </div>
         <div className="city-hero-inner" style={{ position: "relative", zIndex: 1 }}>
           <p className="city-hero-eyebrow">Our Story</p>
@@ -48,8 +48,8 @@ export default function AboutPage() {
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
               <img
-                src="/images/photos/tech-chuck-with-truck.jpg"
-                alt="Bucksworth technician Chuck standing next to our branded service truck"
+                src="/images/photos/crew-on-site.jpg"
+                alt="Ryan, a Bucksworth Home Services technician in uniform, ready to serve customers"
                 style={{ width: "100%", height: "auto", display: "block" }}
                 loading="lazy"
               />
@@ -60,8 +60,8 @@ export default function AboutPage() {
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px", alignItems: "center", margin: "0 0 48px" }}>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
               <img
-                src="/images/photos/tech-backyard-service.jpg"
-                alt="Bucksworth technician performing pest control at a customer home in Arizona"
+                src="/images/photos/tech-service-action.jpg"
+                alt="Bucksworth technician treating the perimeter of an Arizona home"
                 style={{ width: "100%", height: "auto", display: "block" }}
                 loading="lazy"
               />
@@ -103,16 +103,16 @@ export default function AboutPage() {
             ))}
           </div>
 
-          {/* Photo gallery strip */}
+          {/* Photo gallery strip — branded truck, pre-treat, HVAC tech */}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "16px", margin: "0 0 48px" }}>
             <div style={{ borderRadius: "10px", overflow: "hidden", aspectRatio: "16/9" }}>
-              <img src="/images/photos/truck-driving-phoenix.jpg" alt="Bucksworth truck driving through Phoenix neighborhood" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+              <img src="/images/photos/branded-truck-home.jpg" alt="Bucksworth branded truck parked in front of a beautiful Arizona home" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
             </div>
             <div style={{ borderRadius: "10px", overflow: "hidden", aspectRatio: "16/9" }}>
-              <img src="/images/photos/tech-pretreat-framing.jpg" alt="Bucksworth technician applying termite pre-treatment to new construction framing" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+              <img src="/images/photos/tech-spraying-detail.jpg" alt="Bucksworth technician applying termite pre-treatment to new construction framing" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
             </div>
             <div style={{ borderRadius: "10px", overflow: "hidden", aspectRatio: "16/9" }}>
-              <img src="/images/photos/tech-residential-service.jpg" alt="Bucksworth technician performing residential pest control service" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+              <img src="/images/photos/hvac-tech-soldering.jpg" alt="Bucksworth HVAC technician soldering copper refrigerant lines" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
             </div>
           </div>
 
@@ -129,8 +129,8 @@ export default function AboutPage() {
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
               <img
-                src="/images/photos/tech-at-work.jpg"
-                alt="Bucksworth technician performing service work on site"
+                src="/images/photos/tech-hvac-rooftop.jpg"
+                alt="Bucksworth HVAC technician inspecting rooftop condenser units"
                 style={{ width: "100%", height: "auto", display: "block" }}
                 loading="lazy"
               />

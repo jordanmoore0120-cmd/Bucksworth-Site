@@ -137,7 +137,7 @@ export default async function CityPage({ params }: CityPageProps) {
       <section className="city-hero" style={{ position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
           <img
-            src={city.branch === "phoenix" ? "/images/photos/truck-driving-phoenix.jpg" : "/images/photos/tech-outdoor-service.jpg"}
+            src={city.branch === "phoenix" ? "/images/photos/branded-truck-home.jpg" : "/images/photos/tech-service-action.jpg"}
             alt={`Bucksworth Home Services in ${city.name}, Arizona`}
             style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
             loading="eager"
