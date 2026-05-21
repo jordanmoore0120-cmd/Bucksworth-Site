@@ -6,6 +6,7 @@ import { Oswald } from "next/font/google";
 import WebMCPTools from "@/components/WebMCPTools";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import DemandIQ from "@/components/DemandIQ";
 
 const oswald = Oswald({
   subsets: ["latin"],
@@ -140,6 +141,7 @@ export default function RootLayout({
           Skip to main content
         </a>
         <WebMCPTools />
+        <DemandIQ />
         <Header />
         {children}
         <Footer />

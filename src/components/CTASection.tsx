@@ -12,7 +12,7 @@ interface CTASectionProps {
   estimateUrl?: string;
 }
 
-const DEMAND_IQ_URL = "https://portal.hero.demand-iq.com";
+const DEMAND_IQ_URL = "/request-service";
 
 export default function CTASection({
   city,
@@ -52,12 +52,10 @@ export default function CTASection({
           {!hideEstimate && (
             <a
               href={estUrl}
-              target="_blank"
-              rel="noopener"
               className="cta-btn cta-btn--estimate"
               aria-label="Get a free online estimate"
             >
-              Get Online Estimate &rarr;
+              Get Free Estimate &rarr;
             </a>
           )}
         </div>

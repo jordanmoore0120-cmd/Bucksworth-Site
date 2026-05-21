@@ -160,7 +160,7 @@ export default async function SubServicePage({
               </svg>
               Call {phone}
             </a>
-            <a href="/request-service" className="btn-estimate">
+            <a href={`/request-service?city=${city.slug}&service=${service.slug}`} className="btn-estimate">
               Get Free Estimate &rarr;
             </a>
           </div>

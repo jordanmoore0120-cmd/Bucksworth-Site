@@ -12,12 +12,52 @@ const BRANCHES = {
 
 type BranchKey = keyof typeof BRANCHES;
 
+/* Tucson-only service slugs */
+const TUCSON_SERVICES = new Set(["pest-and-termite", "weed-and-lawn-care"]);
+
 /* ── Service images mapped to slugs ── */
 const SERVICE_IMAGES: Record<string, string> = {
   "pest-and-termite": "/images/photos/tech-spraying-detail.jpg",
   "air-conditioning-and-heating": "/images/photos/tech-hvac-rooftop.jpg",
   "plumbing-and-water-heaters": "/images/photos/tech-detail-work.jpg",
   "weed-and-lawn-care": "/images/weeds-control.jpg",
+};
+
+/* ── City coords for fine-grained geo (same as Header) ── */
+const CITY_COORDS: Record<string, { lat: number; lng: number }> = {
+  "ahwatukee-az": { lat: 33.3384, lng: -111.9838 },
+  "anthem-az": { lat: 33.8644, lng: -112.1468 },
+  "apache-junction-az": { lat: 33.4151, lng: -111.5496 },
+  "buckeye-az": { lat: 33.3703, lng: -112.5838 },
+  "casa-grande-az": { lat: 32.8795, lng: -111.7574 },
+  "catalina-foothills-az": { lat: 32.2988, lng: -110.9186 },
+  "chandler-az": { lat: 33.3062, lng: -111.8413 },
+  "coolidge-az": { lat: 32.9776, lng: -111.5174 },
+  "florence-az": { lat: 33.0314, lng: -111.3873 },
+  "fountain-hills-az": { lat: 33.6117, lng: -111.7174 },
+  "gilbert-az": { lat: 33.3528, lng: -111.789 },
+  "gold-canyon-az": { lat: 33.3737, lng: -111.4421 },
+  "goodyear-az": { lat: 33.4353, lng: -112.3577 },
+  "green-valley-az": { lat: 31.8543, lng: -111.0002 },
+  "laveen-az": { lat: 33.362, lng: -112.1674 },
+  "litchfield-park-az": { lat: 33.4934, lng: -112.3577 },
+  "marana-az": { lat: 32.4366, lng: -111.2253 },
+  "maricopa-az": { lat: 33.0581, lng: -112.0476 },
+  "mesa-az": { lat: 33.4152, lng: -111.8315 },
+  "oro-valley-az": { lat: 32.3909, lng: -110.9665 },
+  "paradise-valley-az": { lat: 33.531, lng: -111.9426 },
+  "peoria-az": { lat: 33.5806, lng: -112.2374 },
+  "phoenix-az": { lat: 33.4484, lng: -112.074 },
+  "queen-creek-az": { lat: 33.2487, lng: -111.6343 },
+  "red-rock-az": { lat: 32.5975, lng: -111.2541 },
+  "sahuarita-az": { lat: 31.9576, lng: -110.9554 },
+  "san-tan-valley-az": { lat: 33.2007, lng: -111.5584 },
+  "scottsdale-az": { lat: 33.4942, lng: -111.9261 },
+  "surprise-az": { lat: 33.6292, lng: -112.368 },
+  "tempe-az": { lat: 33.4255, lng: -111.94 },
+  "tucson-az": { lat: 32.2226, lng: -110.9747 },
+  "vail-az": { lat: 32.0478, lng: -110.7104 },
+  "valencia-west-az": { lat: 32.1344, lng: -111.1113 },
 };
 
 function haversine(lat1: number, lng1: number, lat2: number, lng2: number) {
@@ -30,45 +70,114 @@ function haversine(lat1: number, lng1: number, lat2: number, lng2: number) {
 
 export default function RequestServicePage() {
   const [branch, setBranch] = useState<BranchKey>("phoenix");
+  const [detectedCity, setDetectedCity] = useState<string | null>(null);
   const [geoStatus, setGeoStatus] = useState<"idle" | "detecting" | "done" | "denied">("idle");
+  const [showBranchPicker, setShowBranchPicker] = useState(false);
   const [selectedService, setSelectedService] = useState<string | null>(null);
   const [selectedSub, setSelectedSub] = useState<string | null>(null);
   const [formData, setFormData] = useState({ firstName: "", lastName: "", phone: "", email: "", address: "", contactMethod: "phone" as "email" | "text" | "phone", howHeard: "" });
   const [submitted, setSubmitted] = useState(false);
   const formRef = useRef<HTMLDivElement>(null);
 
-  /* ── Auto-detect location on mount ── */
+  /* ── Read location context from localStorage or URL params on mount ── */
   useEffect(() => {
-    if ("geolocation" in navigator) {
-      setGeoStatus("detecting");
-      navigator.geolocation.getCurrentPosition(
-        (pos) => {
-          const { latitude, longitude } = pos.coords;
-          const dPhx = haversine(latitude, longitude, BRANCHES.phoenix.lat, BRANCHES.phoenix.lng);
-          const dTuc = haversine(latitude, longitude, BRANCHES.tucson.lat, BRANCHES.tucson.lng);
-          setBranch(dTuc < dPhx ? "tucson" : "phoenix");
+    /* Priority 1: URL params (from clicking CTA on a city/service page) */
+    const params = new URLSearchParams(window.location.search);
+    const urlCity = params.get("city");
+    const urlService = params.get("service");
+
+    if (urlCity) {
+      const city = CITIES.find((c) => c.slug === urlCity);
+      if (city) {
+        setBranch(city.branch);
+        setDetectedCity(city.name);
+        setGeoStatus("done");
+      }
+    }
+    if (urlService) {
+      setSelectedService(urlService);
+    }
+
+    /* Priority 2: localStorage (from Header geo-detection on any previous page) */
+    if (!urlCity) {
+      try {
+        const savedBranch = localStorage.getItem("bsw_branch") as BranchKey | null;
+        const savedCity = localStorage.getItem("bsw_city");
+        if (savedBranch && (savedBranch === "phoenix" || savedBranch === "tucson")) {
+          setBranch(savedBranch);
+          if (savedCity) setDetectedCity(savedCity);
           setGeoStatus("done");
-        },
-        () => setGeoStatus("denied"),
-        { timeout: 8000 }
-      );
+          return; /* skip fresh geo since we already have context */
+        }
+      } catch (_) { /* private browsing */ }
+
+      /* Priority 3: Fresh geolocation if nothing else available */
+      if ("geolocation" in navigator) {
+        setGeoStatus("detecting");
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            const { latitude, longitude } = pos.coords;
+            let bestSlug = "phoenix-az";
+            let bestDist = Infinity;
+            for (const [slug, coords] of Object.entries(CITY_COORDS)) {
+              const d = haversine(latitude, longitude, coords.lat, coords.lng);
+              if (d < bestDist) {
+                bestDist = d;
+                bestSlug = slug;
+              }
+            }
+            const city = CITIES.find((c) => c.slug === bestSlug);
+            if (city) {
+              setBranch(city.branch);
+              setDetectedCity(city.name);
+              try {
+                localStorage.setItem("bsw_branch", city.branch);
+                localStorage.setItem("bsw_city", city.name);
+                localStorage.setItem("bsw_city_slug", city.slug);
+              } catch (_) { /* private browsing */ }
+            }
+            setGeoStatus("done");
+          },
+          () => setGeoStatus("denied"),
+          { timeout: 8000 }
+        );
+      }
     }
   }, []);
 
   const branchInfo = BRANCHES[branch];
+
+  /* Filter services for Tucson — only pest + weed */
+  const visibleServices = branch === "tucson"
+    ? SERVICES.filter((s) => TUCSON_SERVICES.has(s.slug))
+    : SERVICES;
+
   const activeVertical = SERVICES.find((s) => s.slug === selectedService);
+
+  function handleBranchSwitch(newBranch: BranchKey) {
+    setBranch(newBranch);
+    setDetectedCity(null);
+    setShowBranchPicker(false);
+    /* Clear service selection if switching to Tucson and current service isn't available */
+    if (newBranch === "tucson" && selectedService && !TUCSON_SERVICES.has(selectedService)) {
+      setSelectedService(null);
+      setSelectedSub(null);
+    }
+    try {
+      localStorage.setItem("bsw_branch", newBranch);
+      localStorage.removeItem("bsw_city");
+      localStorage.removeItem("bsw_city_slug");
+    } catch (_) { /* */ }
+  }
 
   function handleServiceClick(slug: string) {
     setSelectedService(slug === selectedService ? null : slug);
     setSelectedSub(null);
-    // Scroll form into view after a tick
     setTimeout(() => formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 150);
   }
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    // In production this would POST to FieldRoutes / Demand IQ / email webhook
-    // For now show confirmation
     setSubmitted(true);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -87,6 +196,11 @@ export default function RequestServicePage() {
     );
   }
 
+  /* Build the location display string */
+  const locationLabel = detectedCity
+    ? `${detectedCity} (${branchInfo.label} Metro)`
+    : branchInfo.label;
+
   return (
     <main className="rs-page">
       {/* ── Hero ── */}
@@ -99,7 +213,7 @@ export default function RequestServicePage() {
         </p>
       </section>
 
-      {/* ── Branch selector ── */}
+      {/* ── Smart Location Bar ── */}
       <section className="rs-branch">
         <div className="rs-branch-bar">
           {geoStatus === "detecting" && (
@@ -109,56 +223,49 @@ export default function RequestServicePage() {
           )}
           {geoStatus === "done" && (
             <span className="rs-geo-status rs-geo-found">
-              📍 We detected you near <strong>{branchInfo.label}</strong>
+              📍 <strong>{locationLabel}</strong>
+              {!showBranchPicker && (
+                <button
+                  className="rs-branch-change-link"
+                  onClick={() => setShowBranchPicker(true)}
+                >
+                  Change
+                </button>
+              )}
             </span>
           )}
           {geoStatus === "denied" && (
             <span className="rs-geo-status">Select your area below</span>
           )}
           {geoStatus === "idle" && (
-            <button
-              className="rs-geo-btn"
-              onClick={() => {
-                if ("geolocation" in navigator) {
-                  setGeoStatus("detecting");
-                  navigator.geolocation.getCurrentPosition(
-                    (pos) => {
-                      const dPhx = haversine(pos.coords.latitude, pos.coords.longitude, BRANCHES.phoenix.lat, BRANCHES.phoenix.lng);
-                      const dTuc = haversine(pos.coords.latitude, pos.coords.longitude, BRANCHES.tucson.lat, BRANCHES.tucson.lng);
-                      setBranch(dTuc < dPhx ? "tucson" : "phoenix");
-                      setGeoStatus("done");
-                    },
-                    () => setGeoStatus("denied"),
-                    { timeout: 8000 }
-                  );
-                }
-              }}
-            >
-              📍 Use Your Location
-            </button>
+            <span className="rs-geo-status">Select your area below</span>
           )}
         </div>
-        <div className="rs-branch-toggle">
-          <button
-            className={`rs-branch-btn ${branch === "phoenix" ? "rs-branch-btn--active" : ""}`}
-            onClick={() => setBranch("phoenix")}
-          >
-            Phoenix Metro
-          </button>
-          <button
-            className={`rs-branch-btn ${branch === "tucson" ? "rs-branch-btn--active" : ""}`}
-            onClick={() => setBranch("tucson")}
-          >
-            Tucson Metro
-          </button>
-        </div>
+
+        {/* Only show branch toggle if: geo denied, idle, or user clicked "Change" */}
+        {(geoStatus === "denied" || geoStatus === "idle" || showBranchPicker) && (
+          <div className="rs-branch-toggle">
+            <button
+              className={`rs-branch-btn ${branch === "phoenix" ? "rs-branch-btn--active" : ""}`}
+              onClick={() => handleBranchSwitch("phoenix")}
+            >
+              Phoenix Metro
+            </button>
+            <button
+              className={`rs-branch-btn ${branch === "tucson" ? "rs-branch-btn--active" : ""}`}
+              onClick={() => handleBranchSwitch("tucson")}
+            >
+              Tucson Metro
+            </button>
+          </div>
+        )}
       </section>
 
-      {/* ── Service cards ── */}
+      {/* ── Service cards (filtered for branch) ── */}
       <section className="rs-services">
         <h2 className="rs-section-title">How can we help?</h2>
         <div className="rs-cards">
-          {SERVICES.map((svc) => (
+          {visibleServices.map((svc) => (
             <button
               key={svc.slug}
               className={`rs-card ${selectedService === svc.slug ? "rs-card--selected" : ""}`}
@@ -172,13 +279,13 @@ export default function RequestServicePage() {
         </div>
       </section>
 
-      {/* ── Sub-service selector (optional, shows after picking a vertical) ── */}
+      {/* ── Sub-service selector ── */}
       {activeVertical && (
         <section className="rs-subs">
           <h3 className="rs-section-subtitle">What specifically? <span className="rs-optional">(optional)</span></h3>
           <div className="rs-sub-grid">
             {activeVertical.subServices
-              .filter((sub) => !sub.slug.includes("warranty")) // hide warranty items from request flow
+              .filter((sub) => !sub.slug.includes("warranty"))
               .map((sub) => (
               <button
                 key={sub.slug}

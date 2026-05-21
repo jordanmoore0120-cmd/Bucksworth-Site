@@ -107,6 +107,12 @@ export default function Header() {
         if (city) {
           setMobileBranch(city.branch);
           setDetectedCity(city.name);
+          /* Persist to localStorage so other pages can read it */
+          try {
+            localStorage.setItem("bsw_branch", city.branch);
+            localStorage.setItem("bsw_city", city.name);
+            localStorage.setItem("bsw_city_slug", city.slug);
+          } catch (_) { /* private browsing */ }
         }
       },
       () => {
