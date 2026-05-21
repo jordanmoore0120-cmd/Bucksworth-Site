@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Complete termite protection for Arizona homeowners. Register your new construction pre-treatment warranty, schedule annual inspections, explore treatment options, or add termite monitoring to your pest plan for just $29/mo. AZ ROC #343924 | AG License #9613.",
   alternates: {
-    canonical: "https://bucksworth-site.vercel.app/termite-warranty",
+    canonical: "https://getyourbucksworth.com/termite-warranty",
   },
 };
 

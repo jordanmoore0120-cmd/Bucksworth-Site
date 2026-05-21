@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { CITIES } from "@/lib/cities";
 import { SERVICES } from "@/lib/services";
 
-const BASE = "https://bucksworth-site.vercel.app";
+const BASE = "https://getyourbucksworth.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();

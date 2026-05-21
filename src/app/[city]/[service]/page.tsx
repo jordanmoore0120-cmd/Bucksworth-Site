@@ -39,9 +39,9 @@ export async function generateMetadata({ params }: ServiceHubProps): Promise<Met
 
   const phone = getPhoneForBranch(city.branch);
   return {
-    title: `${service.name} in ${city.name}, AZ | Bucksworth Home Services`,
-    description: `Professional ${service.name.toLowerCase()} in ${city.name}, Arizona. ${service.tagline}. Same-day service, free inspections. Call ${phone}. AZ ROC #343924.`,
-    alternates: { canonical: `https://bucksworth-site.vercel.app/${citySlug}/${svcSlug}` },
+    title: `${service.name} in ${city.name}, AZ | Bucksworth`,
+    description: `${service.name} in ${city.name}, AZ. ${service.tagline}. Same-day service, free inspections. Call ${phone}.`,
+    alternates: { canonical: `https://getyourbucksworth.com/${citySlug}/${svcSlug}` },
   };
 }
 

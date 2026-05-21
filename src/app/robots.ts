@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/_next/"],
       },
     ],
-    sitemap: "https://bucksworth-site.vercel.app/sitemap.xml",
+    sitemap: "https://getyourbucksworth.com/sitemap.xml",
   };
 }

@@ -16,14 +16,14 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bucksworth-site.vercel.app"),
+  metadataBase: new URL("https://getyourbucksworth.com"),
   title: {
     default:
-      "Bucksworth Home Services | Pest Control, HVAC, Plumbing & Weed Control in Phoenix & Tucson AZ",
+      "Pest Control, HVAC & Plumbing | Bucksworth Home Services",
     template: "%s | Bucksworth Home Services",
   },
   description:
-    "Family-owned pest control, AC & heating, plumbing, water heaters, and weed & lawn care serving 33 cities across Phoenix and Tucson, Arizona since 2013. Google Guaranteed. Same-day service. AZ ROC #343924. Call (480) 422-8388.",
+    "Family-owned pest control, AC, plumbing & weed control serving 33 cities in Phoenix & Tucson AZ since 2013. Google Guaranteed. Call (480) 422-8388.",
   keywords: [
     "pest control Phoenix",
     "AC repair Phoenix",
@@ -36,27 +36,27 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://bucksworth-site.vercel.app",
+    url: "https://getyourbucksworth.com",
     siteName: "Bucksworth Home Services",
     title:
-      "Bucksworth Home Services | Pest Control, HVAC, Plumbing & Weed Control in Phoenix & Tucson AZ",
+      "Pest Control, HVAC & Plumbing | Bucksworth Home Services",
     description:
-      "Family-owned home services company serving 33 cities across Phoenix and Tucson, Arizona since 2013. Pest control, AC & heating, plumbing, water heaters, and weed & lawn care.",
+      "Family-owned pest control, AC, plumbing & weed control serving 33 cities in Phoenix & Tucson AZ since 2013.",
     images: [
       {
-        url: "/images/bucksworth-mascot-clean.jpg",
-        width: 400,
-        height: 400,
-        alt: "Bucksworth Home Services mascot",
+        url: "/images/og-default.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Bucksworth Home Services — Pest Control, HVAC, Plumbing & Weed Control in Arizona",
       },
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Bucksworth Home Services",
     description:
       "Pest control, AC, plumbing & weed control in Phoenix & Tucson AZ",
-    images: ["/images/bucksworth-mascot-clean.jpg"],
+    images: ["/images/og-default.jpg"],
   },
   robots: {
     index: true,
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://bucksworth-site.vercel.app",
+    canonical: "https://getyourbucksworth.com",
   },
 };
 
@@ -78,11 +78,11 @@ export const metadata: Metadata = {
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
-  "@id": "https://bucksworth-site.vercel.app/#organization",
+  "@id": "https://getyourbucksworth.com/#organization",
   name: "Bucksworth Home Services",
-  url: "https://bucksworth-site.vercel.app",
-  logo: "https://bucksworth-site.vercel.app/images/bucksworth-mascot-clean.jpg",
-  image: "https://bucksworth-site.vercel.app/images/bucksworth-mascot-clean.jpg",
+  url: "https://getyourbucksworth.com",
+  logo: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
+  image: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
   description:
     "Family-owned pest control, AC & heating, plumbing, water heaters, and weed & lawn care serving Phoenix and Tucson, Arizona since 2013.",
   foundingDate: "2013",
@@ -91,16 +91,47 @@ const orgSchema = {
     { "@type": "Person", name: "Taylor Moore" },
   ],
   telephone: "(480) 422-8388",
+  priceRange: "$$",
   address: {
     "@type": "PostalAddress",
+    streetAddress: "Phoenix, AZ",
     addressLocality: "Phoenix",
     addressRegion: "AZ",
+    postalCode: "85001",
     addressCountry: "US",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 33.4484,
+    longitude: -112.074,
+  },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      opens: "07:00",
+      closes: "18:00",
+    },
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.84",
+    reviewCount: "50",
+    bestRating: "5",
+    worstRating: "1",
   },
   areaServed: [
     { "@type": "State", name: "Arizona" },
     { "@type": "City", name: "Phoenix" },
     { "@type": "City", name: "Tucson" },
+    { "@type": "City", name: "Mesa" },
+    { "@type": "City", name: "Chandler" },
+    { "@type": "City", name: "Gilbert" },
+    { "@type": "City", name: "Scottsdale" },
+    { "@type": "City", name: "Tempe" },
+    { "@type": "City", name: "Peoria" },
+    { "@type": "City", name: "Surprise" },
+    { "@type": "City", name: "Goodyear" },
   ],
   sameAs: [
     "https://www.instagram.com/bucksworth.homeservices/",
@@ -126,6 +157,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={oswald.variable}>
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#c8102e" />
         <link
           rel="preload"
           as="image"

@@ -25,7 +25,7 @@ export async function generateMetadata({
     title: `${title} | Bucksworth Blog`,
     description,
     alternates: {
-      canonical: `https://bucksworth-site.vercel.app/blog/${slug}`,
+      canonical: `https://getyourbucksworth.com/blog/${slug}`,
     },
     openGraph: {
       title,
@@ -67,12 +67,12 @@ export default async function BlogPost({ params }: BlogPostProps) {
       name: "Bucksworth Home Services",
       logo: {
         "@type": "ImageObject",
-        url: "https://bucksworth-site.vercel.app/images/bucksworth-mascot-clean.jpg",
+        url: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
       },
     },
     ...(featImg ? { image: featImg } : {}),
     description: stripHtml(post.excerpt.rendered).slice(0, 155),
-    mainEntityOfPage: `https://bucksworth-site.vercel.app/blog/${slug}`,
+    mainEntityOfPage: `https://getyourbucksworth.com/blog/${slug}`,
   };
 
   return (

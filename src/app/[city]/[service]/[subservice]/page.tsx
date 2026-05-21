@@ -58,10 +58,10 @@ export async function generateMetadata({
 
   const phone = getPhoneForBranch(city.branch);
   return {
-    title: `${sub.name} in ${city.name}, AZ | ${service.name} | Bucksworth`,
-    description: `Professional ${sub.name.toLowerCase()} in ${city.name}, Arizona. ${sub.shortDesc} Same-day service, free inspections. Call ${phone}.`,
+    title: `${sub.name} in ${city.name}, AZ | Bucksworth`,
+    description: `${sub.name} in ${city.name}, AZ. ${sub.shortDesc} Same-day service. Call ${phone}.`,
     alternates: {
-      canonical: `https://bucksworth-site.vercel.app/${cSlug}/${sSlug}/${ssSlug}`,
+      canonical: `https://getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}`,
     },
   };
 }

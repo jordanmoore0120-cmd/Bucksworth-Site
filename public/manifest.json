@@ -1,0 +1,15 @@
+{
+  "name": "Bucksworth Home Services",
+  "short_name": "Bucksworth",
+  "description": "Pest control, AC & heating, plumbing, and weed control in Phoenix & Tucson AZ. Family-owned since 2013.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c8102e",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ],
+  "categories": ["home services", "pest control", "hvac", "plumbing"]
+}

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Sitemap | Bucksworth Home Services",
   description:
     "Complete sitemap for Bucksworth Home Services. Browse all service pages, city pages, and resources for pest control, HVAC, plumbing, and weed control across Arizona.",
-  alternates: { canonical: "https://bucksworth-site.vercel.app/sitemap-page" },
+  alternates: { canonical: "https://getyourbucksworth.com/sitemap-page" },
 };
 
 export default function SitemapPage() {

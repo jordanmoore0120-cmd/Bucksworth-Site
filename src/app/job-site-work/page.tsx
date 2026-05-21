@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Browse real Bucksworth job sites across Phoenix and Tucson. See our pest control, AC, plumbing, and lawn care work on an interactive map. Photos and videos from actual Arizona homes we've serviced.",
   alternates: {
-    canonical: "https://bucksworth-site.vercel.app/job-site-work",
+    canonical: "https://getyourbucksworth.com/job-site-work",
   },
 };
 

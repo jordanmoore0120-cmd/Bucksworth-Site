@@ -36,9 +36,9 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
       : "pest control & weed control";
 
   return {
-    title: `${city.name}, AZ Home Services | ${svcList} | Bucksworth`,
-    description: `Bucksworth Home Services in ${city.name}, Arizona — serving ${topAreas} and all neighborhoods. ${svcList} with same-day service, free inspections. Call ${phone}.`,
-    alternates: { canonical: `https://bucksworth-site.vercel.app/${slug}` },
+    title: `${city.name} ${svcList} | Bucksworth`,
+    description: `Bucksworth Home Services in ${city.name}, AZ — ${svcList}. Same-day service, free inspections. Call ${phone}.`,
+    alternates: { canonical: `https://getyourbucksworth.com/${slug}` },
   };
 }
 
@@ -99,7 +99,7 @@ export default async function CityPage({ params }: CityPageProps) {
     name: `Bucksworth Home Services - ${city.name}`,
     description: city.description,
     telephone: phone,
-    url: `https://bucksworth-site.vercel.app/${slug}`,
+    url: `https://getyourbucksworth.com/${slug}`,
     address: {
       "@type": "PostalAddress",
       addressLocality: city.name,

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Blog | Pest Control, HVAC & Home Tips | Bucksworth Home Services",
   description:
     "Expert home services tips from Bucksworth. Read about pest control, AC maintenance, plumbing, and weed control specific to Arizona homes across Phoenix and Tucson.",
-  alternates: { canonical: "https://bucksworth-site.vercel.app/blog" },
+  alternates: { canonical: "https://getyourbucksworth.com/blog" },
 };
 
 export const revalidate = 3600; // ISR: rebuild every hour

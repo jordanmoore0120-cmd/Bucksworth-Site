@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Customer Reviews | Bucksworth Home Services | 4.8★ Rating",
   description:
     "Read what Arizona homeowners say about Bucksworth Home Services. 4.8-star rating across 2,000+ reviews. Google Guaranteed pest control, HVAC, plumbing, and weed control.",
-  alternates: { canonical: "https://bucksworth-site.vercel.app/reviews" },
+  alternates: { canonical: "https://getyourbucksworth.com/reviews" },
 };
 
 /* ── Featured reviews pulled from GMB ── */

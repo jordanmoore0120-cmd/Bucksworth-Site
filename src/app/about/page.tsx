@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "About Bucksworth Home Services | Family-Owned Since 2013",
   description:
     "Meet the family behind Bucksworth Home Services. Founded by Jordan & Taylor Moore in 2013, we serve 33 cities across Phoenix and Tucson with pest control, HVAC, plumbing, and weed control.",
-  alternates: { canonical: "https://bucksworth-site.vercel.app/about" },
+  alternates: { canonical: "https://getyourbucksworth.com/about" },
 };
 
 export default function AboutPage() {

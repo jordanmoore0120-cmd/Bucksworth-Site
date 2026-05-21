@@ -181,10 +181,36 @@ export default function RequestServicePage() {
     setTimeout(() => formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 150);
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  const [submitting, setSubmitting] = useState(false);
+
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    setSubmitted(true);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    if (submitting) return;
+    setSubmitting(true);
+    try {
+      const res = await fetch("/api/request-service", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          service: activeVertical?.name || "",
+          subService: activeVertical?.subServices.find((s) => s.slug === selectedSub)?.name || "",
+          city: detectedCity || branchInfo.label,
+          branch,
+        }),
+      });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({ error: "Unknown error" }));
+        alert(err.error || "Something went wrong. Please call us instead.");
+        setSubmitting(false);
+        return;
+      }
+      setSubmitted(true);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } catch {
+      alert("Connection error. Please call us at " + branchInfo.phone);
+      setSubmitting(false);
+    }
   }
 
   if (submitted) {
@@ -308,26 +334,26 @@ export default function RequestServicePage() {
           <div className="rs-form-row">
             <div className="rs-field">
               <label htmlFor="rs-fn">First Name<span className="rs-req">*</span></label>
-              <input id="rs-fn" type="text" required value={formData.firstName} onChange={(e) => setFormData({ ...formData, firstName: e.target.value })} placeholder="First name" />
+              <input id="rs-fn" name="firstName" type="text" required value={formData.firstName} onChange={(e) => setFormData({ ...formData, firstName: e.target.value })} placeholder="First name" />
             </div>
             <div className="rs-field">
               <label htmlFor="rs-ln">Last Name<span className="rs-req">*</span></label>
-              <input id="rs-ln" type="text" required value={formData.lastName} onChange={(e) => setFormData({ ...formData, lastName: e.target.value })} placeholder="Last name" />
+              <input id="rs-ln" name="lastName" type="text" required value={formData.lastName} onChange={(e) => setFormData({ ...formData, lastName: e.target.value })} placeholder="Last name" />
             </div>
           </div>
           <div className="rs-form-row">
             <div className="rs-field">
               <label htmlFor="rs-ph">Phone<span className="rs-req">*</span></label>
-              <input id="rs-ph" type="tel" required value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} placeholder="(000) 000-0000" />
+              <input id="rs-ph" name="phone" type="tel" required value={formData.phone} onChange={(e) => setFormData({ ...formData, phone: e.target.value })} placeholder="(000) 000-0000" />
             </div>
             <div className="rs-field">
               <label htmlFor="rs-em">Email<span className="rs-req">*</span></label>
-              <input id="rs-em" type="email" required value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} placeholder="email@example.com" />
+              <input id="rs-em" name="email" type="email" required value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} placeholder="email@example.com" />
             </div>
           </div>
           <div className="rs-field rs-field--full">
             <label htmlFor="rs-addr">Home Address<span className="rs-req">*</span></label>
-            <input id="rs-addr" type="text" required value={formData.address} onChange={(e) => setFormData({ ...formData, address: e.target.value })} placeholder="Street address, city, AZ" />
+            <input id="rs-addr" name="address" type="text" required value={formData.address} onChange={(e) => setFormData({ ...formData, address: e.target.value })} placeholder="Street address, city, AZ" />
             <span className="rs-field-hint">We&apos;ll confirm we service your area</span>
           </div>
 
@@ -346,7 +372,7 @@ export default function RequestServicePage() {
 
           <div className="rs-field rs-field--full">
             <label htmlFor="rs-how">How did you hear about us?</label>
-            <select id="rs-how" value={formData.howHeard} onChange={(e) => setFormData({ ...formData, howHeard: e.target.value })}>
+            <select id="rs-how" name="howHeard" value={formData.howHeard} onChange={(e) => setFormData({ ...formData, howHeard: e.target.value })}>
               <option value="">Select an answer</option>
               <option value="google">Google Search</option>
               <option value="referral">Friend / Neighbor Referral</option>
@@ -359,8 +385,8 @@ export default function RequestServicePage() {
             </select>
           </div>
 
-          <button type="submit" className="rs-submit">
-            Request Service →
+          <button type="submit" className="rs-submit" disabled={submitting}>
+            {submitting ? "Sending…" : "Request Service →"}
           </button>
           <p className="rs-disclaimer">By submitting, you agree to be contacted by Bucksworth Home Services regarding your service request. We never share your information.</p>
         </form>
