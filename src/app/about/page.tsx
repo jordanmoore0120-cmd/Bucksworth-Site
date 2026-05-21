@@ -69,18 +69,24 @@ export default function AboutPage() {
             <div>
               <h2>The Gigi Promise</h2>
               <p>
-                Our grandmother, Gigi, taught us that the way you treat people matters more than anything else. That is why we say we treat every home like it&apos;s Gigi&apos;s. It means honest work, no shortcuts, no hidden fees, and genuine care for the people we serve. It is not just a slogan &mdash; it is how we run our business every single day.
+                We all come into this world the same way &mdash; completely dependent on the people who love us most. And if we are fortunate enough to grow old, we leave this life the same way: relying on others to take care of us. That truth sits at the center of everything we do at Bucksworth.
+              </p>
+              <p>
+                When you call us, it is because you need help. When you choose us over every other option, it is because you are trusting us to show up and serve you the right way. We do not take that lightly. Our goal is simple: treat every customer the way we would treat our own grandmother. Not as a transaction. Not as a number on a route sheet. As someone who deserves honesty, respect, and work done right &mdash; every single time.
+              </p>
+              <p>
+                That is the Gigi Promise. It is why we:
               </p>
               <ul style={{ margin: "12px 0 20px 20px", lineHeight: "2.2" }}>
-                <li>We show up on time, every time</li>
-                <li>We explain what we are doing and why before we start</li>
-                <li>We provide written prices before any work begins</li>
-                <li>We clean up after ourselves</li>
-                <li>We stand behind our work with a satisfaction guarantee</li>
-                <li>We never recommend services you do not need</li>
+                <li>Show up on time, every time</li>
+                <li>Explain what we are doing and why before we start</li>
+                <li>Provide written prices before any work begins</li>
+                <li>Clean up after ourselves like it is our own home</li>
+                <li>Stand behind our work with a satisfaction guarantee</li>
+                <li>Never recommend services you do not need</li>
               </ul>
               <p>
-                If we would not do it in Gigi&apos;s house, we do not do it in yours. It is that simple.
+                If we would not do it in Gigi&apos;s house, we do not do it in yours.
               </p>
             </div>
           </div>
