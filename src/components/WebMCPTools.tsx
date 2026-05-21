@@ -53,7 +53,7 @@ export default function WebMCPTools() {
           },
         },
         handler: () => {
-          window.location.href = "/request-service";
+          window.open("https://portal.hero.demand-iq.com", "_blank");
         },
       });
 
