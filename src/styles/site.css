@@ -2682,3 +2682,68 @@ img { max-width: 100%; height: auto; }
 @media (max-width: 480px) {
   .tw-nav-cards { grid-template-columns: 1fr; }
 }
+
+/* ══════════════════════════════════════════
+   STICKY MOBILE BOOK NOW BAR
+   ══════════════════════════════════════════ */
+.sticky-book-bar {
+  display: none; /* hidden on desktop */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: var(--navy, #0a1628);
+  padding: 10px 16px;
+  gap: 10px;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.25);
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .sticky-book-bar {
+    display: flex;
+  }
+  /* Add bottom padding to body so content isn't hidden behind sticky bar */
+  body { padding-bottom: 64px; }
+}
+.sticky-book-call {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.3);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background 0.2s;
+}
+.sticky-book-call:hover {
+  background: rgba(255,255,255,0.1);
+}
+.sticky-book-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: var(--red, #c0392b);
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background 0.2s;
+}
+.sticky-book-btn:hover {
+  background: #a93226;
+}
