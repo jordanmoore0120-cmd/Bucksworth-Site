@@ -413,12 +413,25 @@ export default function Header() {
             </svg>
             <span>Call</span>
           </a>
-          <Link href="/request-service" className="sticky-action-btn sticky-action-quote">
+          <button
+            className="sticky-action-btn sticky-action-quote"
+            onClick={() => {
+              /* Open the Demand IQ journey via shadow-DOM button */
+              const host = document.getElementById("demand-iq-journey");
+              const shadow = host?.shadowRoot;
+              const btn = shadow?.querySelector<HTMLButtonElement>(
+                "button[id*='stickybanner'], button.MuiButton-root"
+              );
+              if (btn) { btn.click(); return; }
+              /* Fallback: navigate to request-service */
+              window.location.href = "/request-service";
+            }}
+          >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M13 10h-3V7H8v3H5v2h3v3h2v-3h3v-2zm6-4h-2V4a2 2 0 00-2-2H5a2 2 0 00-2 2v16l4-4h10a2 2 0 002-2v-1h2a2 2 0 002-2V8a2 2 0 00-2-2zm-4 8H6.83L5 15.17V4h10v10zm4-4h-2V8h-8V6h10v4z"/>
             </svg>
             <span>Quote</span>
-          </Link>
+          </button>
           <Link href="/request-service" className="sticky-action-btn sticky-action-book">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2zm-7 5h5v5h-5v-5z"/>
