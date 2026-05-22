@@ -8,6 +8,7 @@ import WebMCPTools from "@/components/WebMCPTools";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EstimatorProvider from "@/components/EstimatorProvider";
+import Analytics from "@/components/Analytics";
 
 const oswald = Oswald({
   subsets: ["latin"],
@@ -259,6 +260,16 @@ export default function RootLayout({
         />
       </head>
       <body>
+        {/* GTM noscript fallback */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NKT8JLJD"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+        <Analytics />
         <a href="#main-content" className="skip-link">
           Skip to main content
         </a>
