@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Bucksworth Home Services | Family-Owned Since 2013",
   description:
-    "Meet Jordan & Taylor Moore — blue-collar kids who fell in love with solving homeowners' problems. Since 2013, Bucksworth Home Services has grown to serve 33 cities across Phoenix and Tucson with pest control, HVAC, plumbing, and weed control.",
+    "Meet the Moores — the Arizona family behind Bucksworth Home Services. Pest control, HVAC, plumbing & weed control across 33 cities in Phoenix and Tucson since 2013.",
   alternates: { canonical: "https://getyourbucksworth.com/about" },
 };
 
@@ -40,13 +40,13 @@ export default function AboutPage() {
             <div>
               <h2>Our Story</h2>
               <p>
-                Jordan and Taylor Moore grew up blue collar, raised in the trades. They went to college &mdash; Jordan for accounting, Taylor for education &mdash; but in the summer of 2011, both were recruited to sell and run the office of a pest control company. That summer changed everything. They realized they loved what they were doing, were grateful for every customer they worked with, and thought: this wouldn&rsquo;t be a bad career at all.
+                We grew up in the trades, went to college, and got recruited to run a pest control office in the summer of 2011. Fell in love with it. Loved the customers, loved solving problems, and thought &mdash; yeah, we could do this forever.
               </p>
               <p>
-                In 2013, they launched Bucksworth Home Services with a truth that still drives the company today: people don&rsquo;t call us because they want to &mdash; they call because they have a problem. We get to solve it and make them happy. It&rsquo;s that simple. What started as a small pest control operation serving a handful of Phoenix neighborhoods has grown into a full-service home services company covering 33 cities across the Phoenix and Tucson metro areas.
+                So in 2013 we started Bucksworth. The idea was simple: people don&rsquo;t call us because they want to &mdash; they call because they have a problem. We get to fix it and make them happy. That&rsquo;s still what gets us up in the morning.
               </p>
               <p>
-                The name &ldquo;Bucksworth&rdquo; comes from our family &mdash; and our mascot, the buck with the Arizona flag, represents everything we stand for: strength, pride in our state, and a commitment to protecting Arizona homes. We are not a franchise. We are not a national corporation with a call center in another state. We are a real Arizona family serving real Arizona families.
+                Not a franchise. Not a corporation. Just a real Arizona family taking care of real Arizona families &mdash; 33 cities and counting.
               </p>
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
