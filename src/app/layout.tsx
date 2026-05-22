@@ -77,7 +77,13 @@ export const metadata: Metadata = {
 /* ── Organization JSON-LD (site-wide) ── */
 const orgSchema = {
   "@context": "https://schema.org",
-  "@type": "HomeAndConstructionBusiness",
+  "@type": "LocalBusiness",
+  "additionalType": [
+    "https://schema.org/PestControlService",
+    "https://schema.org/HVACBusiness",
+    "https://schema.org/Plumber",
+    "https://schema.org/LandscapingBusiness"
+  ],
   "@id": "https://getyourbucksworth.com/#organization",
   name: "Bucksworth Home Services",
   url: "https://getyourbucksworth.com",

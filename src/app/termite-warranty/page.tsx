@@ -15,7 +15,7 @@ const warrantySchema = {
   "@type": "Service",
   name: "Termite Warranty & Protection",
   provider: {
-    "@type": "HomeAndConstructionBusiness",
+    "@type": "PestControlService",
     name: "Bucksworth Home Services",
     telephone: "(480) 422-8388",
     address: {

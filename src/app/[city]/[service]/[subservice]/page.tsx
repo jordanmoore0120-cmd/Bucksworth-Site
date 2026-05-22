@@ -107,7 +107,7 @@ export default async function SubServicePage({
     name: `${sub.name} - ${city.name}, AZ`,
     description: sub.longDesc,
     provider: {
-      "@type": "LocalBusiness",
+      "@type": ({"pest-and-termite":"PestControlService","air-conditioning-and-heating":"HVACBusiness","plumbing-and-water-heaters":"Plumber","weed-and-lawn-care":"LandscapingBusiness"} as Record<string,string>)[service.slug] || "LocalBusiness",
       name: "Bucksworth Home Services",
       telephone: phone,
       address: {
