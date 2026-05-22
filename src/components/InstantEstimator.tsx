@@ -117,20 +117,54 @@ const QUESTIONS: Record<ServiceKey, Question[]> = {
       type: "single",
       options: [
         { label: "AC Repair", value: "repair", icon: "🔧" },
-        { label: "New System", value: "replace", icon: "🆕" },
+        { label: "New AC System", value: "replace_ac", icon: "❄️" },
+        { label: "New Heat Pump", value: "replace_hp", icon: "🔄" },
         { label: "Tune-Up", value: "tuneup", icon: "✅" },
-        { label: "Heating", value: "heating", icon: "🔥" },
+        { label: "Heating / Furnace", value: "heating", icon: "🔥" },
+      ],
+    },
+    {
+      id: "system_type",
+      label: "What type of system do you currently have?",
+      type: "single",
+      options: [
+        { label: "Central AC + Furnace", value: "split_furnace", icon: "🏠" },
+        { label: "Heat Pump (heats & cools)", value: "heat_pump", icon: "🔄" },
+        { label: "Package Unit (rooftop)", value: "package", icon: "📦" },
+        { label: "Not sure", value: "unsure", icon: "❓" },
+      ],
+    },
+    {
+      id: "has_furnace",
+      label: "Do you have a gas furnace?",
+      type: "single",
+      options: [
+        { label: "Yes — gas furnace", value: "yes", icon: "🔥" },
+        { label: "No — electric / heat pump only", value: "no", icon: "⚡" },
+        { label: "Not sure", value: "unsure", icon: "❓" },
+      ],
+    },
+    {
+      id: "system_age",
+      label: "How old is your current system?",
+      type: "single",
+      options: [
+        { label: "Under 5 years", value: "new", icon: "✨" },
+        { label: "5 – 10 years", value: "mid", icon: "⏱️" },
+        { label: "10 – 15 years", value: "aging", icon: "⚠️" },
+        { label: "15+ years / Don't know", value: "old", icon: "🔴" },
       ],
     },
     {
       id: "sqft",
-      label: "Home size?",
+      label: "How big is your home?",
       type: "single",
       options: [
-        { label: "Under 1,500 sq ft", value: "small" },
-        { label: "1,500 – 2,500 sq ft", value: "medium" },
-        { label: "2,500 – 4,000 sq ft", value: "large" },
-        { label: "4,000+ sq ft", value: "xlarge" },
+        { label: "Under 1,200 sq ft", value: "xs" },
+        { label: "1,200 – 1,800 sq ft", value: "small" },
+        { label: "1,800 – 2,500 sq ft", value: "medium" },
+        { label: "2,500 – 3,500 sq ft", value: "large" },
+        { label: "3,500+ sq ft", value: "xlarge" },
       ],
     },
   ],
@@ -150,13 +184,35 @@ const QUESTIONS: Record<ServiceKey, Question[]> = {
   ],
   weed: [
     {
-      id: "lotsize",
-      label: "How big is your yard?",
+      id: "service_type",
+      label: "What do you need?",
       type: "single",
       options: [
-        { label: "Small (under 5,000 sq ft)", value: "small" },
-        { label: "Standard (5,000 – 10,000 sq ft)", value: "medium" },
-        { label: "Large (10,000+ sq ft)", value: "large" },
+        { label: "Weed Control", value: "weed", icon: "🌿" },
+        { label: "Full Lawn Care", value: "lawn", icon: "🏡" },
+        { label: "Weed + Lawn Combo", value: "combo", icon: "✨" },
+      ],
+    },
+    {
+      id: "lotsize",
+      label: "What's your lot size?",
+      type: "single",
+      options: [
+        { label: "Small — under 5,000 sq ft", value: "xs" },
+        { label: "Standard — 5,000 – 7,500 sq ft", value: "small" },
+        { label: "Mid — 7,500 – 10,000 sq ft", value: "medium" },
+        { label: "Large — 10,000 – 15,000 sq ft", value: "large" },
+        { label: "XL — 15,000+ sq ft", value: "xlarge" },
+      ],
+    },
+    {
+      id: "yard_area",
+      label: "Which areas need treatment?",
+      type: "single",
+      options: [
+        { label: "Front yard only", value: "front", icon: "🏠" },
+        { label: "Back yard only", value: "back", icon: "🌳" },
+        { label: "Full property", value: "full", icon: "🏡" },
       ],
     },
     {
@@ -165,9 +221,9 @@ const QUESTIONS: Record<ServiceKey, Question[]> = {
       type: "single",
       options: [
         { label: "Just a few weeds", value: "light", icon: "🌱" },
-        { label: "Moderate — noticeable weeds", value: "moderate", icon: "🌿" },
+        { label: "Moderate — noticeable", value: "moderate", icon: "🌿" },
         { label: "Heavy — weeds everywhere", value: "heavy", icon: "🌾" },
-        { label: "Prevention only", value: "prevention", icon: "🛡️" },
+        { label: "Prevention only (no weeds yet)", value: "prevention", icon: "🛡️" },
       ],
     },
   ],
@@ -195,14 +251,31 @@ function calculateEstimate(
       if (need === "tuneup") return { low: 69, high: 89, unit: "" };
       if (need === "repair") return { low: 89, high: 350, unit: "" };
       if (need === "heating") return { low: 89, high: 250, unit: "" };
-      // New system
-      const sizeMultiplier = { small: 1, medium: 1.15, large: 1.35, xlarge: 1.6 };
-      const mult = sizeMultiplier[sqft as keyof typeof sizeMultiplier] || 1.15;
-      return {
-        low: Math.round(5500 * mult),
-        high: Math.round(14000 * mult),
-        unit: "",
+      // New system — 3 SEER tiers by tonnage (sqft → tonnage)
+      // xs=1.5T, small=2T, medium=2.5-3T, large=3.5-4T, xlarge=5T
+      const tonnage: Record<string, number> = {
+        xs: 1.5, small: 2, medium: 2.5, large: 3.5, xlarge: 5,
       };
+      const tons = tonnage[sqft] || 2.5;
+      // Price per ton by SEER tier
+      const standardPerTon = [1800, 2200]; // SEER 14-15
+      const midPerTon = [2400, 3000];      // SEER 16-18
+      const highPerTon = [3200, 4200];     // SEER 20+
+      // Return mid-tier range as the primary estimate
+      return {
+        low: Math.round(standardPerTon[0] * tons),
+        high: Math.round(highPerTon[1] * tons),
+        unit: "",
+        // Attach tier breakdown for display
+        ...(need === "replace_ac" || need === "replace_hp" ? {
+          tiers: {
+            standard: { low: Math.round(standardPerTon[0] * tons), high: Math.round(standardPerTon[1] * tons), label: "Standard (14-15 SEER)" },
+            mid: { low: Math.round(midPerTon[0] * tons), high: Math.round(midPerTon[1] * tons), label: "Mid-Range (16-18 SEER)" },
+            high: { low: Math.round(highPerTon[0] * tons), high: Math.round(highPerTon[1] * tons), label: "High Efficiency (20+ SEER)" },
+            tons,
+          },
+        } : {}),
+      } as any;
     }
     case "plumbing": {
       const issue = answers.issue as string;
@@ -218,8 +291,19 @@ function calculateEstimate(
     }
     case "weed": {
       const lot = answers.lotsize as string;
-      const base = { small: [39, 49], medium: [49, 69], large: [69, 99] };
-      const [lo, hi] = base[lot as keyof typeof base] || [49, 69];
+      const area = answers.yard_area as string;
+      const svcType = answers.service_type as string;
+      const base: Record<string, [number, number]> = {
+        xs: [29, 39], small: [39, 49], medium: [49, 59],
+        large: [59, 79], xlarge: [79, 99],
+      };
+      let [lo, hi] = base[lot] || [49, 59];
+      // Front-only discount
+      if (area === "front") { lo = Math.round(lo * 0.7); hi = Math.round(hi * 0.7); }
+      else if (area === "back") { lo = Math.round(lo * 0.75); hi = Math.round(hi * 0.75); }
+      // Combo upcharge
+      if (svcType === "combo") { lo += 15; hi += 20; }
+      else if (svcType === "lawn") { lo += 10; hi += 15; }
       return { low: lo, high: hi, unit: "/mo" };
     }
   }
@@ -368,14 +452,15 @@ export default function InstantEstimator({
       estimate,
       submitting: false,
       submitted: true,
-      step: 5,
+      step: 3 + (state.service ? QUESTIONS[state.service].length : 0) + 1,
     }));
   }, [state]);
 
   /* ── Progress bar ───────────────────────────────────── */
-  const totalSteps = state.service
-    ? 3 + QUESTIONS[state.service].length
-    : 5;
+  const qLen = state.service ? QUESTIONS[state.service].length : 2;
+  const leadCaptureStep = 3 + qLen;
+  const resultStep = leadCaptureStep + 1;
+  const totalSteps = resultStep;
   const progress = Math.min((state.step / totalSteps) * 100, 100);
 
   if (!isOpen) return null;
@@ -528,7 +613,7 @@ export default function InstantEstimator({
 
           {/* STEP 3+: Service-specific questions */}
           {state.step >= 3 &&
-            state.step < 3 + (state.service ? QUESTIONS[state.service].length : 0) &&
+            state.step < leadCaptureStep &&
             state.service && (
               <div className="ie-step ie-fade-in" key={`q-${state.step}`}>
                 <button className="ie-back" onClick={() => goTo(state.step - 1)}>
@@ -579,7 +664,7 @@ export default function InstantEstimator({
                                 if (q.type === "single") {
                                   setTimeout(() => {
                                     if (isLast) {
-                                      goTo(3 + QUESTIONS[state.service!].length);
+                                      goTo(leadCaptureStep);
                                     } else {
                                       goTo(state.step + 1);
                                     }
@@ -600,7 +685,7 @@ export default function InstantEstimator({
                           className="ie-btn ie-btn-primary ie-btn-full"
                           onClick={() => {
                             if (isLast) {
-                              goTo(3 + QUESTIONS[state.service!].length);
+                              goTo(leadCaptureStep);
                             } else {
                               goTo(state.step + 1);
                             }
@@ -617,7 +702,7 @@ export default function InstantEstimator({
 
           {/* STEP: Lead Capture */}
           {state.service &&
-            state.step === 3 + QUESTIONS[state.service].length && (
+            state.step === leadCaptureStep && (
               <div className="ie-step ie-fade-in">
                 <button
                   className="ie-back"
@@ -696,7 +781,7 @@ export default function InstantEstimator({
             )}
 
           {/* STEP 5: Estimate Result + Video */}
-          {state.step === 5 && state.estimate && (
+          {state.step === resultStep && state.estimate && (
             <div className="ie-step ie-fade-in">
               <div className="ie-result">
                 <div className="ie-result-badge" style={{ background: svc?.color }}>
@@ -726,6 +811,42 @@ export default function InstantEstimator({
                     {state.formattedAddress}
                   </p>
                 </div>
+
+                {/* HVAC SEER Tier Breakdown */}
+                {state.service === "hvac" && (state.estimate as any).tiers && (() => {
+                  const t = (state.estimate as any).tiers;
+                  return (
+                    <div className="ie-seer-tiers">
+                      <p className="ie-seer-label">
+                        Estimated {t.tons}-ton system pricing by efficiency:
+                      </p>
+                      <div className="ie-seer-grid">
+                        <div className="ie-seer-card">
+                          <span className="ie-seer-badge ie-seer-standard">Standard</span>
+                          <span className="ie-seer-rating">14–15 SEER</span>
+                          <span className="ie-seer-price">
+                            ${t.standard.low.toLocaleString()} – ${t.standard.high.toLocaleString()}
+                          </span>
+                        </div>
+                        <div className="ie-seer-card ie-seer-featured">
+                          <span className="ie-seer-badge ie-seer-mid">Mid-Range</span>
+                          <span className="ie-seer-rating">16–18 SEER</span>
+                          <span className="ie-seer-price">
+                            ${t.mid.low.toLocaleString()} – ${t.mid.high.toLocaleString()}
+                          </span>
+                          <span className="ie-seer-popular">Most Popular</span>
+                        </div>
+                        <div className="ie-seer-card">
+                          <span className="ie-seer-badge ie-seer-high">High Efficiency</span>
+                          <span className="ie-seer-rating">20+ SEER</span>
+                          <span className="ie-seer-price">
+                            ${t.high.low.toLocaleString()} – ${t.high.high.toLocaleString()}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })()}
 
                 {/* Brand Video */}
                 <div className="ie-video-section">

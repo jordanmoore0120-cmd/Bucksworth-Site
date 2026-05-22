@@ -585,6 +585,98 @@
   }
 }
 
+/* ── HVAC SEER Tier Breakdown ─────────────────────────────── */
+.ie-seer-tiers {
+  margin: 16px 0 8px;
+}
+
+.ie-seer-label {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.ie-seer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+.ie-seer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 8px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.ie-seer-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.ie-seer-featured {
+  border-color: #f97316;
+  background: #fff7ed;
+  position: relative;
+}
+
+.ie-seer-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.ie-seer-standard { background: #64748b; }
+.ie-seer-mid { background: #f97316; }
+.ie-seer-high { background: #15803d; }
+
+.ie-seer-rating {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.ie-seer-price {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #0f2337;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.ie-seer-popular {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #f97316;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 480px) {
+  .ie-seer-grid {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .ie-seer-card {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 14px;
+  }
+  .ie-seer-price {
+    text-align: right;
+  }
+}
+
 /* ── Google autocomplete dropdown override ────────────────── */
 .pac-container {
   z-index: 10001 !important;
