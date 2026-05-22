@@ -364,6 +364,8 @@ export default function InstantEstimator({
   const addressInputRef = useRef<HTMLInputElement>(null);
   const autocompleteRef = useRef<any>(null);
   const modalRef = useRef<HTMLDivElement>(null);
+  const mapContainerRef = useRef<HTMLDivElement>(null);
+  const mapInstanceRef = useRef<any>(null);
 
   /* ── Google Places Autocomplete (when API key present) ── */
   const hasMapsKey = !!mapsApiKey;
@@ -394,6 +396,27 @@ export default function InstantEstimator({
       autocompleteRef.current = ac;
     });
   }, [state.step, isOpen, mapsApiKey, hasMapsKey]);
+
+  /* ── Dynamic satellite map (uses Maps JS API, no billing needed) ── */
+  useEffect(() => {
+    if (!state.lat || !state.lng || !hasMapsKey || !mapContainerRef.current) return;
+    loadGoogleMaps(mapsApiKey).then(() => {
+      const g = (window as any).google;
+      if (!g?.maps) return;
+      const center = { lat: state.lat!, lng: state.lng! };
+      const map = new g.maps.Map(mapContainerRef.current!, {
+        center,
+        zoom: 20,
+        mapTypeId: "satellite",
+        disableDefaultUI: true,
+        zoomControl: false,
+        gestureHandling: "none",
+      });
+      new g.maps.Marker({ position: center, map });
+      mapInstanceRef.current = map;
+    });
+    return () => { mapInstanceRef.current = null; };
+  }, [state.lat, state.lng, hasMapsKey, mapsApiKey]);
 
   /* ── Escape key ─────────────────────────────────────── */
   useEffect(() => {
@@ -602,10 +625,11 @@ export default function InstantEstimator({
                 <>
                   <p className="ie-address-label">{state.formattedAddress}</p>
                   <div className="ie-map-wrap">
-                    <img
-                      src={`https://maps.googleapis.com/maps/api/staticmap?center=${state.lat},${state.lng}&zoom=20&size=600x400&maptype=satellite&markers=color:red%7C${state.lat},${state.lng}&key=${mapsApiKey}`}
-                      alt="Satellite view of your home"
+                    <div
+                      ref={mapContainerRef}
                       className="ie-map-img"
+                      style={{ width: "100%", height: 300, borderRadius: 12 }}
+                      aria-label="Satellite view of your home"
                     />
                   </div>
                   <div className="ie-map-actions">
