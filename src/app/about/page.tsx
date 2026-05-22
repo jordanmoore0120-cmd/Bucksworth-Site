@@ -4,13 +4,68 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Bucksworth Home Services | Family-Owned Since 2013",
   description:
-    "Meet the Moores — the Arizona family behind Bucksworth Home Services. Pest control, HVAC, plumbing & weed control across 33 cities in Phoenix and Tucson since 2013.",
+    "Meet Jordan & Taylor Moore — the Arizona family behind Bucksworth Home Services. Pest control, HVAC, plumbing & weed control across 33 cities in Phoenix and Tucson since 2013. AZ ROC #343924. Google Guaranteed.",
   alternates: { canonical: "https://getyourbucksworth.com/about" },
+  openGraph: {
+    title: "About Bucksworth Home Services | Family-Owned Since 2013",
+    description: "Meet the Moores — the Arizona family behind Bucksworth Home Services. Serving 33 cities since 2013.",
+    url: "https://getyourbucksworth.com/about",
+    type: "website",
+    images: [{ url: "/images/photos/family-portrait.jpg", width: 1200, height: 630, alt: "Jordan and Taylor Moore, founders of Bucksworth Home Services" }],
+  },
 };
+
+/* ── About page schemas ── */
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://getyourbucksworth.com/about#aboutpage",
+  name: "About Bucksworth Home Services",
+  description: "Family-owned pest control, HVAC, plumbing, and weed control company serving 33 cities in Phoenix and Tucson, Arizona since 2013. Founded by Jordan and Taylor Moore.",
+  url: "https://getyourbucksworth.com/about",
+  mainEntity: { "@id": "https://getyourbucksworth.com/#organization" },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://getyourbucksworth.com" },
+    { "@type": "ListItem", position: 2, name: "About", item: "https://getyourbucksworth.com/about" },
+  ],
+};
+
+const videoSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: "Bucksworth Home Services truck at State Farm Stadium, Phoenix AZ",
+    description: "Bucksworth Home Services branded truck driving past State Farm (Cardinals) Stadium in Glendale, Arizona.",
+    thumbnailUrl: "https://getyourbucksworth.com/images/photos/truck-construction-site.jpg",
+    contentUrl: "https://getyourbucksworth.com/videos/truck-statefarm.mp4",
+    uploadDate: "2025-01-01",
+    duration: "PT8S",
+    publisher: { "@id": "https://getyourbucksworth.com/#organization" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: "Bucksworth Home Services truck at Tempe Town Lake, Arizona",
+    description: "Bucksworth Home Services branded truck on the highway near Tempe Town Lake with the Phoenix skyline in the background.",
+    thumbnailUrl: "https://getyourbucksworth.com/images/photos/truck-superstitions.jpg",
+    contentUrl: "https://getyourbucksworth.com/videos/truck-tempetownlake.mp4",
+    uploadDate: "2025-01-01",
+    duration: "PT10S",
+    publisher: { "@id": "https://getyourbucksworth.com/#organization" },
+  },
+];
 
 export default function AboutPage() {
   return (
     <main id="main-content">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }} />
       {/* Hero with family photo */}
       <section className="city-hero" style={{ position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
@@ -144,12 +199,15 @@ export default function AboutPage() {
               </p>
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
-              <img
-                src="/images/photos/tech-hvac-rooftop.jpg"
-                alt="Bucksworth HVAC technician inspecting rooftop condenser units"
-                style={{ width: "100%", height: "auto", display: "block" }}
-                loading="lazy"
-              />
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{ width: "100%", height: "auto", display: "block", borderRadius: "8px" }}
+              >
+                <source src="/videos/truck-tempetownlake.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
 

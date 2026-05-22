@@ -217,10 +217,22 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
     })),
   };
 
+  // BreadcrumbList schema
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://getyourbucksworth.com" },
+      { "@type": "ListItem", position: 2, name: city.name, item: `https://getyourbucksworth.com/${citySlug}` },
+      { "@type": "ListItem", position: 3, name: service.name, item: `https://getyourbucksworth.com/${citySlug}/${svcSlug}` },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <CitySync branch={city.branch} city={city.name} slug={city.slug} />
       <CityBar currentCity={city} />
       <main id="main-content">

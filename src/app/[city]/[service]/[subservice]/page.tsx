@@ -100,32 +100,65 @@ export default async function SubServicePage({
   // FAQs
   const faqs = buildFaqs(sub.name, city.name, phone, service.name, branch);
 
-  // Schema.org
+  // Schema.org Service
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: `${sub.name} - ${city.name}, AZ`,
+    "@id": `https://getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}#service`,
+    name: `${sub.name} – ${city.name}, AZ`,
     description: sub.longDesc,
+    serviceType: sub.name,
     provider: {
       "@type": ({"pest-and-termite":"PestControlService","air-conditioning-and-heating":"HVACBusiness","plumbing-and-water-heaters":"Plumber","weed-and-lawn-care":"LandscapingBusiness"} as Record<string,string>)[service.slug] || "LocalBusiness",
       name: "Bucksworth Home Services",
       telephone: phone,
+      url: "https://getyourbucksworth.com",
       address: {
         "@type": "PostalAddress",
         addressLocality: city.name,
         addressRegion: "AZ",
         addressCountry: "US",
       },
+      geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
+      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.84", reviewCount: "2000", bestRating: "5" },
+      priceRange: "$$",
     },
-    areaServed: { "@type": "City", name: city.name },
+    areaServed: { "@type": "City", name: city.name, containedInPlace: { "@type": "State", name: "Arizona" } },
+    availableChannel: {
+      "@type": "ServiceChannel",
+      serviceUrl: `https://getyourbucksworth.com/request-service`,
+      servicePhone: { "@type": "ContactPoint", telephone: phone, contactType: "customer service" },
+    },
+  };
+
+  // BreadcrumbList schema
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://getyourbucksworth.com" },
+      { "@type": "ListItem", position: 2, name: city.name, item: `https://getyourbucksworth.com/${cSlug}` },
+      { "@type": "ListItem", position: 3, name: service.name, item: `https://getyourbucksworth.com/${cSlug}/${sSlug}` },
+      { "@type": "ListItem", position: 4, name: sub.name, item: `https://getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}` },
+    ],
+  };
+
+  // FAQPage schema for agentic search
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
   };
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <CitySync branch={city.branch} city={city.name} slug={city.slug} />
       <CityBar currentCity={city} />
       <main id="main-content">

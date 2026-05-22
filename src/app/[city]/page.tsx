@@ -92,20 +92,27 @@ export default async function CityPage({ params }: CityPageProps) {
     },
   ];
 
-  // Schema.org LocalBusiness
+  // Schema.org LocalBusiness with multiple types
+  const businessTypes: Record<string, string[]> = {
+    phoenix: ["PestControlService", "HVACBusiness", "Plumber", "LandscapingBusiness"],
+    tucson: ["PestControlService", "LandscapingBusiness"],
+  };
   const schema = {
     "@context": "https://schema.org",
-    "@type": "PestControlService",
-    name: `Bucksworth Home Services - ${city.name}`,
+    "@type": businessTypes[city.branch] || ["PestControlService"],
+    "@id": `https://getyourbucksworth.com/${slug}#localbusiness`,
+    name: `Bucksworth Home Services – ${city.name}`,
     description: city.description,
     telephone: phone,
     url: `https://getyourbucksworth.com/${slug}`,
+    image: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
     address: {
       "@type": "PostalAddress",
       addressLocality: city.name,
       addressRegion: "AZ",
       addressCountry: "US",
     },
+    geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
     areaServed: [
       { "@type": "City", name: city.name },
       ...nd.neighborhoods.map((n) => ({
@@ -118,8 +125,38 @@ export default async function CityPage({ params }: CityPageProps) {
       "@type": "AggregateRating",
       ratingValue: "4.84",
       reviewCount: "2000",
+      bestRating: "5",
+      worstRating: "1",
     },
     priceRange: "$$",
+    openingHoursSpecification: [{
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      opens: "07:00",
+      closes: "18:00",
+    }],
+    parentOrganization: { "@id": "https://getyourbucksworth.com/#organization" },
+  };
+
+  // BreadcrumbList schema
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://getyourbucksworth.com" },
+      { "@type": "ListItem", position: 2, name: city.name, item: `https://getyourbucksworth.com/${slug}` },
+    ],
+  };
+
+  // FAQPage schema for agentic search
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: cityFaqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
   };
 
   return (
@@ -127,6 +164,14 @@ export default async function CityPage({ params }: CityPageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <CitySync branch={city.branch} city={city.name} slug={city.slug} />
       <CityBar currentCity={city} />

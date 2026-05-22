@@ -20,18 +20,22 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://getyourbucksworth.com"),
   title: {
     default:
-      "Pest Control, HVAC & Plumbing | Bucksworth Home Services",
+      "Pest Control, HVAC & Plumbing | Bucksworth Home Services — Phoenix & Tucson AZ",
     template: "%s | Bucksworth Home Services",
   },
   description:
-    "Family-owned pest control, AC, plumbing & weed control serving 33 cities in Phoenix & Tucson AZ since 2013. Google Guaranteed. Call (480) 422-8388.",
+    "Family-owned pest control, AC repair, plumbing & weed control serving 33 cities in Phoenix & Tucson AZ since 2013. Google Guaranteed. AZ ROC #343924. Call (480) 422-8388.",
   keywords: [
     "pest control Phoenix",
+    "pest control near me",
     "AC repair Phoenix",
     "plumbing Phoenix",
     "weed control Phoenix",
     "termite treatment Arizona",
     "HVAC Tucson",
+    "scorpion control Phoenix",
+    "air conditioning repair near me",
+    "plumber near me Phoenix",
     "Bucksworth Home Services",
   ],
   openGraph: {
@@ -42,7 +46,7 @@ export const metadata: Metadata = {
     title:
       "Pest Control, HVAC & Plumbing | Bucksworth Home Services",
     description:
-      "Family-owned pest control, AC, plumbing & weed control serving 33 cities in Phoenix & Tucson AZ since 2013.",
+      "Family-owned pest control, AC, plumbing & weed control serving 33 cities in Phoenix & Tucson AZ since 2013. Google Guaranteed.",
     images: [
       {
         url: "/images/og-default.jpg",
@@ -56,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bucksworth Home Services",
     description:
-      "Pest control, AC, plumbing & weed control in Phoenix & Tucson AZ",
+      "Pest control, AC, plumbing & weed control in Phoenix & Tucson AZ. Family-owned since 2013.",
     images: ["/images/og-default.jpg"],
   },
   robots: {
@@ -73,40 +77,63 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://getyourbucksworth.com",
   },
+  other: {
+    "google-site-verification": "",
+  },
 };
 
-/* ── Organization JSON-LD (site-wide) ── */
+/* ── All 33 service area cities ── */
+const ALL_CITIES = [
+  "Phoenix","Scottsdale","Tempe","Mesa","Chandler","Gilbert","Glendale",
+  "Peoria","Surprise","Goodyear","Buckeye","Avondale","Litchfield Park",
+  "Sun City","Sun City West","Ahwatukee","Fountain Hills","Cave Creek",
+  "Anthem","Queen Creek","San Tan Valley","Apache Junction","Gold Canyon",
+  "Maricopa","Tucson","Oro Valley","Marana","Sahuarita","Green Valley",
+  "Vail","Catalina Foothills","Casas Adobes","Tanque Verde",
+];
+
+/* ── Organization + LocalBusiness JSON-LD (site-wide) ── */
 const orgSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "additionalType": [
-    "https://schema.org/PestControlService",
-    "https://schema.org/HVACBusiness",
-    "https://schema.org/Plumber",
-    "https://schema.org/LandscapingBusiness"
-  ],
+  "@type": ["LocalBusiness", "PestControlService", "HVACBusiness", "Plumber"],
   "@id": "https://getyourbucksworth.com/#organization",
   name: "Bucksworth Home Services",
+  legalName: "Bucksworth Home Services LLC",
   url: "https://getyourbucksworth.com",
   logo: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
   image: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
   description:
-    "Family-owned pest control, AC & heating, plumbing, water heaters, and weed & lawn care serving Phoenix and Tucson, Arizona since 2013.",
+    "Bucksworth Home Services is a family-owned home services company founded in 2013 by Jordan and Taylor Moore. We provide pest control, termite treatment, air conditioning repair and installation, plumbing, water heater services, and weed control across 33 cities in the Phoenix and Tucson metro areas of Arizona. We are Google Guaranteed, licensed by the Arizona Registrar of Contractors (ROC #343924) and the Arizona Department of Agriculture (License #9613).",
   foundingDate: "2013",
   founder: [
-    { "@type": "Person", name: "Jordan Moore" },
-    { "@type": "Person", name: "Taylor Moore" },
+    { "@type": "Person", name: "Jordan Moore", jobTitle: "Co-Founder & CEO" },
+    { "@type": "Person", name: "Taylor Moore", jobTitle: "Co-Founder" },
   ],
   telephone: "(480) 422-8388",
+  email: "info@getyourbucksworth.com",
   priceRange: "$$",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Phoenix, AZ",
-    addressLocality: "Phoenix",
-    addressRegion: "AZ",
-    postalCode: "85001",
-    addressCountry: "US",
-  },
+  currenciesAccepted: "USD",
+  paymentAccepted: "Cash, Credit Card, Debit Card, Check",
+  address: [
+    {
+      "@type": "PostalAddress",
+      name: "Phoenix Branch",
+      addressLocality: "Phoenix",
+      addressRegion: "AZ",
+      postalCode: "85001",
+      addressCountry: "US",
+      telephone: "(480) 422-8388",
+    },
+    {
+      "@type": "PostalAddress",
+      name: "Tucson Branch",
+      addressLocality: "Tucson",
+      addressRegion: "AZ",
+      postalCode: "85701",
+      addressCountry: "US",
+      telephone: "(520) 284-9930",
+    },
+  ],
   geo: {
     "@type": "GeoCoordinates",
     latitude: 33.4484,
@@ -115,7 +142,14 @@ const orgSchema = {
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ],
       opens: "07:00",
       closes: "18:00",
     },
@@ -123,36 +157,70 @@ const orgSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.84",
-    reviewCount: "50",
+    reviewCount: "2000",
     bestRating: "5",
     worstRating: "1",
   },
-  areaServed: [
-    { "@type": "State", name: "Arizona" },
-    { "@type": "City", name: "Phoenix" },
-    { "@type": "City", name: "Tucson" },
-    { "@type": "City", name: "Mesa" },
-    { "@type": "City", name: "Chandler" },
-    { "@type": "City", name: "Gilbert" },
-    { "@type": "City", name: "Scottsdale" },
-    { "@type": "City", name: "Tempe" },
-    { "@type": "City", name: "Peoria" },
-    { "@type": "City", name: "Surprise" },
-    { "@type": "City", name: "Goodyear" },
-  ],
+  areaServed: ALL_CITIES.map((c) => ({ "@type": "City", name: c, containedInPlace: { "@type": "State", name: "Arizona" } })),
   sameAs: [
     "https://www.instagram.com/bucksworth.homeservices/",
-    "https://getyourbucksworth.com",
+    "https://www.google.com/maps/place/Bucksworth+Home+Services",
   ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Home Services",
     itemListElement: [
-      { "@type": "OfferCatalog", name: "Pest & Termite Control" },
-      { "@type": "OfferCatalog", name: "Air Conditioning & Heating" },
-      { "@type": "OfferCatalog", name: "Plumbing & Water Heaters" },
-      { "@type": "OfferCatalog", name: "Weed & Lawn Care" },
+      {
+        "@type": "OfferCatalog",
+        name: "Pest & Termite Control",
+        description: "Scorpions, termites, roaches, ants, spiders, rodents, bed bugs, mosquitoes, bees, and wasps. Monthly and bi-monthly plans.",
+      },
+      {
+        "@type": "OfferCatalog",
+        name: "Air Conditioning & Heating",
+        description: "AC repair, installation, maintenance, duct cleaning, insulation. All major brands including Daikin, Trane, Carrier, Lennox, and Goodman.",
+      },
+      {
+        "@type": "OfferCatalog",
+        name: "Plumbing & Water Heaters",
+        description: "Drain cleaning, water heater repair and replacement, leak detection, re-piping, water softeners, reverse osmosis.",
+      },
+      {
+        "@type": "OfferCatalog",
+        name: "Weed & Lawn Care",
+        description: "Pre-emergent and post-emergent weed control, Bermuda grass maintenance, overseeding, fertilization, and gravel yard treatment.",
+      },
     ],
+  },
+  knowsAbout: [
+    "pest control", "termite treatment", "scorpion control", "bed bug treatment",
+    "HVAC repair", "air conditioning installation", "furnace repair", "duct cleaning",
+    "plumbing repair", "water heater installation", "drain cleaning", "leak detection",
+    "weed control", "lawn care", "pre-emergent treatment",
+    "Arizona pest control", "Phoenix home services",
+  ],
+  slogan: "Treat every customer the way we would treat our own grandmother.",
+  award: ["Google Guaranteed", "AZ ROC Licensed #343924", "AG Licensed #9613"],
+};
+
+/* ── WebSite schema with SearchAction for sitelinks search box ── */
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://getyourbucksworth.com/#website",
+  name: "Bucksworth Home Services",
+  url: "https://getyourbucksworth.com",
+  description:
+    "Bucksworth Home Services provides pest control, HVAC, plumbing, and weed control across 33 cities in Phoenix and Tucson, Arizona.",
+  publisher: { "@id": "https://getyourbucksworth.com/#organization" },
+  inLanguage: "en-US",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://getyourbucksworth.com/sitemap-page?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
   },
 };
 
@@ -165,7 +233,12 @@ export default function RootLayout({
     <html lang="en" className={oswald.variable}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+        <link
+          rel="icon"
+          href="/favicon-32.png"
+          type="image/png"
+          sizes="32x32"
+        />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#c8102e" />
@@ -174,9 +247,15 @@ export default function RootLayout({
           as="image"
           href="/images/bucksworth-mascot-clean.jpg"
         />
+        {/* Organization JSON-LD */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
+        {/* WebSite JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
       <body>
@@ -184,7 +263,9 @@ export default function RootLayout({
           Skip to main content
         </a>
         <WebMCPTools />
-        <EstimatorProvider mapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY || ""}>
+        <EstimatorProvider
+          mapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY || ""}
+        >
           <Header />
           {children}
           <Footer />
