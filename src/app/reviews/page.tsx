@@ -24,11 +24,45 @@ const REVIEWS = [
   { name: "James P.", city: "Buckeye", stars: 5, service: "Termite Warranty", text: "Bought a new construction home with a Bucksworth pre-treat warranty. The registration process was simple and they set us up with a pest and termite bundle at a great rate. Peace of mind knowing our investment is protected. The 3-year price guarantee is a nice touch too.", date: "2025-04" },
 ];
 
+/* ── Reviews page schemas ── */
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://getyourbucksworth.com" },
+    { "@type": "ListItem", position: 2, name: "Reviews", item: "https://getyourbucksworth.com/reviews" },
+  ],
+};
+
+const reviewSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://getyourbucksworth.com/#organization",
+  name: "Bucksworth Home Services",
+  url: "https://getyourbucksworth.com",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.84",
+    reviewCount: "2000",
+    bestRating: "5",
+    worstRating: "1",
+  },
+  review: REVIEWS.map((r) => ({
+    "@type": "Review",
+    author: { "@type": "Person", name: r.name },
+    datePublished: r.date,
+    reviewRating: { "@type": "Rating", ratingValue: r.stars, bestRating: 5 },
+    reviewBody: r.text,
+  })),
+};
+
 export default function ReviewsPage() {
   const avgRating = (REVIEWS.reduce((sum, r) => sum + r.stars, 0) / REVIEWS.length).toFixed(1);
 
   return (
     <main id="main-content">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       {/* Hero */}
       <section className="city-hero">
         <div className="city-hero-inner">
