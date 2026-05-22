@@ -37,7 +37,7 @@ export default function WebMCPTools() {
       mc.registerTool({
         name: "get_online_estimate",
         description:
-          "Start a free online estimate for pest control, HVAC, or other home services via the Demand IQ portal",
+          "Start a free online estimate for pest control, HVAC, plumbing, or weed control services",
         parameters: {
           type: "object",
           properties: {
@@ -46,6 +46,7 @@ export default function WebMCPTools() {
               enum: [
                 "pest-and-termite",
                 "air-conditioning-and-heating",
+                "plumbing-and-water-heaters",
                 "weed-and-lawn-care",
               ],
               description: "Which service to get an estimate for",
@@ -53,7 +54,7 @@ export default function WebMCPTools() {
           },
         },
         handler: () => {
-          window.location.href = "/request-service";
+          window.dispatchEvent(new CustomEvent("open-estimator"));
         },
       });
 

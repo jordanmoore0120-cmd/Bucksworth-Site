@@ -2782,12 +2782,7 @@ img { max-width: 100%; height: auto; }
   background: rgba(255,255,255,0.15);
 }
 
-/* ── Hide Demand IQ's own sticky banner on mobile (our action bar replaces it) ── */
-@media (max-width: 768px) {
-  #demand-iq-journey {
-    bottom: 72px !important; /* Push above our action bar so it doesn't overlap */
-  }
-}
+/* ── Demand IQ removed — replaced by native Instant Estimator ── */
 
 /* ── Request Service: branch change link ── */
 .rs-branch-change-link {

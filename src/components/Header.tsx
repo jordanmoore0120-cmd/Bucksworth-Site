@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { CITIES } from "@/lib/cities";
 import { SERVICES } from "@/lib/services";
+import { openEstimator } from "@/components/EstimatorProvider";
 
 /* ── Approximate city-center coordinates for geo-detection ── */
 const CITY_COORDS: Record<string, { lat: number; lng: number }> = {
@@ -416,15 +417,8 @@ export default function Header() {
           <button
             className="sticky-action-btn sticky-action-quote"
             onClick={() => {
-              /* Open the Demand IQ journey via shadow-DOM button */
-              const host = document.getElementById("demand-iq-journey");
-              const shadow = host?.shadowRoot;
-              const btn = shadow?.querySelector<HTMLButtonElement>(
-                "button[id*='stickybanner'], button.MuiButton-root"
-              );
-              if (btn) { btn.click(); return; }
-              /* Fallback: navigate to request-service */
-              window.location.href = "/request-service";
+              /* Open native Instant Estimator */
+              openEstimator();
             }}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">

@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 import "@/styles/site.css";
 import "@/styles/job-site-work.css";
+import "@/styles/instant-estimator.css";
 import { Oswald } from "next/font/google";
 import WebMCPTools from "@/components/WebMCPTools";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import DemandIQ from "@/components/DemandIQ";
+import EstimatorProvider from "@/components/EstimatorProvider";
 
 const oswald = Oswald({
   subsets: ["latin"],
@@ -183,10 +184,11 @@ export default function RootLayout({
           Skip to main content
         </a>
         <WebMCPTools />
-        <DemandIQ />
-        <Header />
-        {children}
-        <Footer />
+        <EstimatorProvider mapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY || ""}>
+          <Header />
+          {children}
+          <Footer />
+        </EstimatorProvider>
       </body>
     </html>
   );
