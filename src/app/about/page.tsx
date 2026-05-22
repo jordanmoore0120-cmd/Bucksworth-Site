@@ -51,8 +51,8 @@ export default function AboutPage() {
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
               <img
-                src="/images/photos/crew-on-site.jpg"
-                alt="Ryan, a Bucksworth Home Services technician in uniform, ready to serve customers"
+                src="/images/photos/truck-superstitions.jpg"
+                alt="Bucksworth Home Services truck in front of the Superstition Mountains at golden hour in Arizona"
                 style={{ width: "100%", height: "auto", display: "block" }}
                 loading="lazy"
               />
@@ -63,8 +63,8 @@ export default function AboutPage() {
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px", alignItems: "center", margin: "0 0 48px" }}>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
               <img
-                src="/images/photos/tech-service-action.jpg"
-                alt="Bucksworth technician treating the perimeter of an Arizona home"
+                src="/images/photos/truck-construction-site.jpg"
+                alt="Bucksworth Home Services truck at a new construction site showing the full vehicle wrap"
                 style={{ width: "100%", height: "auto", display: "block" }}
                 loading="lazy"
               />
