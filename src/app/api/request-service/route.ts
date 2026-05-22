@@ -29,7 +29,7 @@ export async function POST(request: Request) {
     const data: FormData = await request.json();
 
     // Validate required fields
-    const required = ["firstName", "lastName", "phone", "email", "address"];
+    const required = ["firstName", "lastName", "phone", "email"];
     for (const field of required) {
       if (!data[field as keyof FormData]?.trim()) {
         return NextResponse.json(
