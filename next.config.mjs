@@ -3,7 +3,11 @@ const nextConfig = {
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
   images: {
-    remotePatterns: [{ protocol: "https", hostname: "getyourbucksworth.com" }],
+    remotePatterns: [
+      { protocol: "https", hostname: "getyourbucksworth.com" },
+      { protocol: "https", hostname: "w74.506.myftpupload.com" },
+      { protocol: "https", hostname: "*.myftpupload.com" },
+    ],
     formats: ["image/avif", "image/webp"],
   },
   async headers() {
@@ -31,5 +35,3 @@ const nextConfig = {
 };
 
 export default nextConfig;
-
-// Build cache bust: 1779424881

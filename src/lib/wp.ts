@@ -1,6 +1,6 @@
 /* ── WordPress REST API client ─────────────────────────────────── */
 
-const WP_API = "https://getyourbucksworth.com/wp-json/wp/v2";
+const WP_API = "https://w74.506.myftpupload.com/wp-json/wp/v2";
 
 export interface WPPost {
   id: number;
