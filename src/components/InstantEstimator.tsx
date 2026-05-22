@@ -319,14 +319,24 @@ function loadGoogleMaps(apiKey: string): Promise<void> {
       MAPS_LOADED.current = true;
       return resolve();
     }
-    const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places`;
-    script.async = true;
-    script.onload = () => {
+    /* Hide the "This page can't load Google Maps correctly" overlay */
+    const style = document.createElement("style");
+    style.textContent = `.gm-err-container, .gm-style-mot, .dismissButton, div[style*="background-color: rgb(229, 227, 223)"] { display: none !important; }`;
+    document.head.appendChild(style);
+
+    const cbName = `_gmcb_${Date.now()}`;
+    (window as any)[cbName] = () => {
       MAPS_LOADED.current = true;
+      delete (window as any)[cbName];
       resolve();
     };
-    script.onerror = reject;
+    const script = document.createElement("script");
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&loading=async&callback=${cbName}`;
+    script.async = true;
+    script.onerror = () => {
+      delete (window as any)[cbName];
+      reject();
+    };
     document.head.appendChild(script);
   });
 }
