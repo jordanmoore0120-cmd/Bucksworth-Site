@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Bucksworth Home Services | Family-Owned Since 2013",
   description:
-    "Meet the family behind Bucksworth Home Services. Founded by Jordan & Taylor Moore in 2013, we serve 33 cities across Phoenix and Tucson with pest control, HVAC, plumbing, and weed control.",
+    "Meet Jordan & Taylor Moore — blue-collar kids who fell in love with solving homeowners' problems. Since 2013, Bucksworth Home Services has grown to serve 33 cities across Phoenix and Tucson with pest control, HVAC, plumbing, and weed control.",
   alternates: { canonical: "https://getyourbucksworth.com/about" },
 };
 
@@ -40,7 +40,10 @@ export default function AboutPage() {
             <div>
               <h2>Our Story</h2>
               <p>
-                Bucksworth Home Services was founded in 2013 by Jordan and Taylor Moore with a simple mission: provide Arizona homeowners with honest, reliable home services at fair prices. What started as a small pest control operation serving a handful of Phoenix neighborhoods has grown into a full-service home services company covering 33 cities across the Phoenix and Tucson metro areas.
+                Jordan and Taylor Moore grew up blue collar, raised in the trades. They went to college &mdash; Jordan for accounting, Taylor for education &mdash; but in the summer of 2011, both were recruited to sell and run the office of a pest control company. That summer changed everything. They realized they loved what they were doing, were grateful for every customer they worked with, and thought: this wouldn&rsquo;t be a bad career at all.
+              </p>
+              <p>
+                In 2013, they launched Bucksworth Home Services with a truth that still drives the company today: people don&rsquo;t call us because they want to &mdash; they call because they have a problem. We get to solve it and make them happy. It&rsquo;s that simple. What started as a small pest control operation serving a handful of Phoenix neighborhoods has grown into a full-service home services company covering 33 cities across the Phoenix and Tucson metro areas.
               </p>
               <p>
                 The name &ldquo;Bucksworth&rdquo; comes from our family &mdash; and our mascot, the buck with the Arizona flag, represents everything we stand for: strength, pride in our state, and a commitment to protecting Arizona homes. We are not a franchise. We are not a national corporation with a call center in another state. We are a real Arizona family serving real Arizona families.
