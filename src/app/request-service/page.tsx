@@ -19,7 +19,7 @@ const TUCSON_SERVICES = new Set(["pest-and-termite", "weed-and-lawn-care"]);
 const SERVICE_IMAGES: Record<string, string> = {
   "pest-and-termite": "/images/photos/tech-spraying-detail.jpg",
   "air-conditioning-and-heating": "/images/photos/tech-hvac-rooftop.jpg",
-  "plumbing-and-water-heaters": "/images/photos/tech-detail-work.jpg",
+  "plumbing-and-water-heaters": "/images/photos/plumbing-water-heater.jpg",
   "weed-and-lawn-care": "/images/weeds-control.jpg",
 };
 
