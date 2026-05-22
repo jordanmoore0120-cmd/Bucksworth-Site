@@ -365,9 +365,10 @@ export default function InstantEstimator({
   const autocompleteRef = useRef<any>(null);
   const modalRef = useRef<HTMLDivElement>(null);
 
-  /* ── Google Places Autocomplete ─────────────────────── */
+  /* ── Google Places Autocomplete (when API key present) ── */
+  const hasMapsKey = !!mapsApiKey;
   useEffect(() => {
-    if (state.step !== 2 || !isOpen) return;
+    if (state.step !== 2 || !isOpen || !hasMapsKey) return;
     loadGoogleMaps(mapsApiKey).then(() => {
       if (!addressInputRef.current || autocompleteRef.current) return;
       const ac = new (window as any).google.maps.places.Autocomplete(
@@ -392,7 +393,7 @@ export default function InstantEstimator({
       });
       autocompleteRef.current = ac;
     });
-  }, [state.step, isOpen, mapsApiKey]);
+  }, [state.step, isOpen, mapsApiKey, hasMapsKey]);
 
   /* ── Escape key ─────────────────────────────────────── */
   useEffect(() => {
@@ -568,13 +569,36 @@ export default function InstantEstimator({
                       type="text"
                       className="ie-address-input"
                       placeholder="Start typing your address…"
+                      value={state.address}
+                      onChange={(e) =>
+                        setState((s) => ({
+                          ...s,
+                          address: e.target.value,
+                          formattedAddress: e.target.value,
+                        }))
+                      }
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter" && state.address.length >= 5 && !hasMapsKey) {
+                          goTo(3);
+                        }
+                      }}
                       autoFocus
                     />
                   </div>
+                  {/* Show Next button when no Maps API key (no autocomplete) */}
+                  {!hasMapsKey && state.address.length >= 5 && (
+                    <button
+                      className="ie-btn ie-btn-primary ie-btn-full"
+                      style={{ marginTop: "16px" }}
+                      onClick={() => goTo(3)}
+                    >
+                      Next →
+                    </button>
+                  )}
                 </>
               )}
 
-              {state.lat && state.lng && (
+              {state.lat && state.lng && hasMapsKey && (
                 <>
                   <p className="ie-address-label">{state.formattedAddress}</p>
                   <div className="ie-map-wrap">
