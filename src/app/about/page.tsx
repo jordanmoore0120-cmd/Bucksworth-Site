@@ -62,12 +62,16 @@ export default function AboutPage() {
           {/* Gigi Promise with photo */}
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px", alignItems: "center", margin: "0 0 48px" }}>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
-              <img
-                src="/images/photos/truck-construction-site.jpg"
-                alt="Bucksworth Home Services truck at a new construction site showing the full vehicle wrap"
-                style={{ width: "100%", height: "auto", display: "block" }}
-                loading="lazy"
-              />
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster="/images/photos/truck-construction-site.jpg"
+                style={{ width: "100%", height: "auto", display: "block", borderRadius: "8px" }}
+              >
+                <source src="/videos/truck-statefarm.mp4" type="video/mp4" />
+              </video>
             </div>
             <div>
               <h2>The Gigi Promise</h2>
