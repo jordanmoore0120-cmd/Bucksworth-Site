@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Instant Estimate — Free Online Quote",
   description:
     "Get an instant estimate for pest control, AC repair, plumbing, or weed control in Phoenix & Tucson, AZ. Free, no-obligation quotes in under 60 seconds.",
-  alternates: { canonical: "https://getyourbucksworth.com/instant-estimate" },
+  alternates: { canonical: "https://www.getyourbucksworth.com/instant-estimate" },
 };
 
 /**

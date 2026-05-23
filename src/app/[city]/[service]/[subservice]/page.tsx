@@ -61,7 +61,7 @@ export async function generateMetadata({
     title: `${sub.name} in ${city.name}, AZ | Bucksworth`,
     description: `${sub.name} in ${city.name}, AZ. ${sub.shortDesc} Same-day service. Call ${phone}.`,
     alternates: {
-      canonical: `https://getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}`,
+      canonical: `https://www.getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}`,
     },
   };
 }
@@ -104,7 +104,7 @@ export default async function SubServicePage({
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `https://getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}#service`,
+    "@id": `https://www.getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}#service`,
     name: `${sub.name} – ${city.name}, AZ`,
     description: sub.longDesc,
     serviceType: sub.name,
@@ -112,7 +112,7 @@ export default async function SubServicePage({
       "@type": ({"pest-and-termite":"PestControlService","air-conditioning-and-heating":"HVACBusiness","plumbing-and-water-heaters":"Plumber","weed-and-lawn-care":"LandscapingBusiness"} as Record<string,string>)[service.slug] || "LocalBusiness",
       name: "Bucksworth Home Services",
       telephone: phone,
-      url: "https://getyourbucksworth.com",
+      url: "https://www.getyourbucksworth.com",
       address: {
         "@type": "PostalAddress",
         addressLocality: city.name,
@@ -126,7 +126,7 @@ export default async function SubServicePage({
     areaServed: { "@type": "City", name: city.name, containedInPlace: { "@type": "State", name: "Arizona" } },
     availableChannel: {
       "@type": "ServiceChannel",
-      serviceUrl: `https://getyourbucksworth.com/request-service`,
+      serviceUrl: `https://www.getyourbucksworth.com/request-service`,
       servicePhone: { "@type": "ContactPoint", telephone: phone, contactType: "customer service" },
     },
   };
@@ -136,10 +136,10 @@ export default async function SubServicePage({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://getyourbucksworth.com" },
-      { "@type": "ListItem", position: 2, name: city.name, item: `https://getyourbucksworth.com/${cSlug}` },
-      { "@type": "ListItem", position: 3, name: service.name, item: `https://getyourbucksworth.com/${cSlug}/${sSlug}` },
-      { "@type": "ListItem", position: 4, name: sub.name, item: `https://getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.getyourbucksworth.com" },
+      { "@type": "ListItem", position: 2, name: city.name, item: `https://www.getyourbucksworth.com/${cSlug}` },
+      { "@type": "ListItem", position: 3, name: service.name, item: `https://www.getyourbucksworth.com/${cSlug}/${sSlug}` },
+      { "@type": "ListItem", position: 4, name: sub.name, item: `https://www.getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}` },
     ],
   };
 

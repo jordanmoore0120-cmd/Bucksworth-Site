@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: ServiceHubProps): Promise<Met
   return {
     title: `${service.name} in ${city.name}, AZ | Bucksworth`,
     description: `${service.name} in ${city.name}, AZ. ${service.tagline}. Same-day service, free inspections. Call ${phone}.`,
-    alternates: { canonical: `https://getyourbucksworth.com/${citySlug}/${svcSlug}` },
+    alternates: { canonical: `https://www.getyourbucksworth.com/${citySlug}/${svcSlug}` },
   };
 }
 
@@ -188,7 +188,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
       "@type": ({"pest-and-termite":"PestControlService","air-conditioning-and-heating":"HVACBusiness","plumbing-and-water-heaters":"Plumber","weed-and-lawn-care":"LandscapingBusiness"} as Record<string,string>)[service.slug] || "LocalBusiness",
       name: "Bucksworth Home Services",
       telephone: phone,
-      url: "https://getyourbucksworth.com",
+      url: "https://www.getyourbucksworth.com",
       address: { "@type": "PostalAddress", addressLocality: city.name, addressRegion: "AZ", addressCountry: "US" },
       geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
       areaServed: [{ "@type": "City", name: city.name }, { "@type": "State", name: "Arizona" }],
@@ -222,9 +222,9 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://getyourbucksworth.com" },
-      { "@type": "ListItem", position: 2, name: city.name, item: `https://getyourbucksworth.com/${citySlug}` },
-      { "@type": "ListItem", position: 3, name: service.name, item: `https://getyourbucksworth.com/${citySlug}/${svcSlug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.getyourbucksworth.com" },
+      { "@type": "ListItem", position: 2, name: city.name, item: `https://www.getyourbucksworth.com/${citySlug}` },
+      { "@type": "ListItem", position: 3, name: service.name, item: `https://www.getyourbucksworth.com/${citySlug}/${svcSlug}` },
     ],
   };
 
