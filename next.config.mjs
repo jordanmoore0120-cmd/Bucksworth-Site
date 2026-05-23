@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "getyourbucksworth.com" },
+      { protocol: "https", hostname: "www.getyourbucksworth.com" },
       { protocol: "https", hostname: "w74.506.myftpupload.com" },
       { protocol: "https", hostname: "*.myftpupload.com" },
     ],
@@ -34,6 +35,15 @@ const nextConfig = {
   },
   async redirects() {
     return [
+        // Service root URL redirects (Footer links)
+        { source: "/pest-and-termite", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/air-conditioning-and-heating", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/plumbing-and-water-heaters", destination: "/phoenix-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/weed-and-lawn-care", destination: "/phoenix-az/weed-and-lawn-care", permanent: true },
+        // Legacy page redirects
+        { source: "/contact", destination: "/request-service", permanent: true },
+        { source: "/careers", destination: "/about", permanent: true },
+        // Existing redirects
         { source: "/phoenix/pest-control", destination: "/phoenix-az", permanent: true },
         { source: "/phoenix/hvac-services/residential/ac-services/repair", destination: "/phoenix-az", permanent: true },
         { source: "/phoenix/hvac-services/residential", destination: "/phoenix-az", permanent: true },

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Customer Reviews | Bucksworth Home Services | 4.8★ Rating",
   description:
     "Read what Arizona homeowners say about Bucksworth Home Services. 4.8-star rating across 2,000+ reviews. Google Guaranteed pest control, HVAC, plumbing, and weed control.",
-  alternates: { canonical: "https://getyourbucksworth.com/reviews" },
+  alternates: { canonical: "https://www.getyourbucksworth.com/reviews" },
 };
 
 /* ── Featured reviews pulled from GMB ── */
@@ -29,17 +29,17 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://getyourbucksworth.com" },
-    { "@type": "ListItem", position: 2, name: "Reviews", item: "https://getyourbucksworth.com/reviews" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.getyourbucksworth.com" },
+    { "@type": "ListItem", position: 2, name: "Reviews", item: "https://www.getyourbucksworth.com/reviews" },
   ],
 };
 
 const reviewSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://getyourbucksworth.com/#organization",
+  "@id": "https://www.getyourbucksworth.com/#organization",
   name: "Bucksworth Home Services",
-  url: "https://getyourbucksworth.com",
+  url: "https://www.getyourbucksworth.com",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.84",
@@ -158,9 +158,9 @@ export default function ReviewsPage() {
             Call us today for a free inspection and experience the Bucksworth difference for yourself:
           </p>
           <p style={{ fontSize: "18px", fontWeight: 700 }}>
-            Phoenix: <a href="tel:4804228388" style={{ color: "var(--red)" }}>(480) 422-8388</a>
+            Phoenix: <a href="tel:+14804228388" style={{ color: "var(--red)" }}>(480) 422-8388</a>
             <br />
-            Tucson: <a href="tel:5202849930" style={{ color: "var(--red)" }}>(520) 284-9930</a>
+            Tucson: <a href="tel:+15202849930" style={{ color: "var(--red)" }}>(520) 284-9930</a>
           </p>
         </div>
       </section>

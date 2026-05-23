@@ -26,7 +26,7 @@ export async function generateMetadata({
     title: `${title} | Bucksworth Blog`,
     description,
     alternates: {
-      canonical: `https://getyourbucksworth.com/blog/${slug}`,
+      canonical: `https://www.getyourbucksworth.com/blog/${slug}`,
     },
     openGraph: {
       title,
@@ -56,18 +56,18 @@ export default async function BlogPost({ params }: BlogPostProps) {
       "@type": "Person",
       name: "Jordan Moore",
       jobTitle: "Founder & CEO",
-      url: "https://getyourbucksworth.com/about",
+      url: "https://www.getyourbucksworth.com/about",
     },
     publisher: {
       "@type": "Organization",
       name: "Bucksworth Home Services",
       logo: {
         "@type": "ImageObject",
-        url: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
+        url: "https://www.getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
       },
     },
     description: stripHtml(post.excerpt).slice(0, 155),
-    mainEntityOfPage: `https://getyourbucksworth.com/blog/${slug}`,
+    mainEntityOfPage: `https://www.getyourbucksworth.com/blog/${slug}`,
   };
 
   return (

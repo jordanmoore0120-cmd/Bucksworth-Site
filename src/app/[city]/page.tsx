@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
   return {
     title: `${city.name} ${svcList} | Bucksworth`,
     description: `Bucksworth Home Services in ${city.name}, AZ — ${svcList}. Same-day service, free inspections. Call ${phone}.`,
-    alternates: { canonical: `https://getyourbucksworth.com/${slug}` },
+    alternates: { canonical: `https://www.getyourbucksworth.com/${slug}` },
   };
 }
 
@@ -100,12 +100,12 @@ export default async function CityPage({ params }: CityPageProps) {
   const schema = {
     "@context": "https://schema.org",
     "@type": businessTypes[city.branch] || ["PestControlService"],
-    "@id": `https://getyourbucksworth.com/${slug}#localbusiness`,
+    "@id": `https://www.getyourbucksworth.com/${slug}#localbusiness`,
     name: `Bucksworth Home Services – ${city.name}`,
     description: city.description,
     telephone: phone,
-    url: `https://getyourbucksworth.com/${slug}`,
-    image: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
+    url: `https://www.getyourbucksworth.com/${slug}`,
+    image: "https://www.getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
     address: {
       "@type": "PostalAddress",
       addressLocality: city.name,
@@ -135,7 +135,7 @@ export default async function CityPage({ params }: CityPageProps) {
       opens: "07:00",
       closes: "18:00",
     }],
-    parentOrganization: { "@id": "https://getyourbucksworth.com/#organization" },
+    parentOrganization: { "@id": "https://www.getyourbucksworth.com/#organization" },
   };
 
   // BreadcrumbList schema
@@ -143,8 +143,8 @@ export default async function CityPage({ params }: CityPageProps) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://getyourbucksworth.com" },
-      { "@type": "ListItem", position: 2, name: city.name, item: `https://getyourbucksworth.com/${slug}` },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.getyourbucksworth.com" },
+      { "@type": "ListItem", position: 2, name: city.name, item: `https://www.getyourbucksworth.com/${slug}` },
     ],
   };
 

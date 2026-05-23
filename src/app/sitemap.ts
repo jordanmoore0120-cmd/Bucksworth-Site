@@ -3,7 +3,7 @@ import { CITIES } from "@/lib/cities";
 import { SERVICES } from "@/lib/services";
 import { getAllPostsMeta } from "@/lib/blog";
 
-const BASE = "https://getyourbucksworth.com";
+const BASE = "https://www.getyourbucksworth.com";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date().toISOString();

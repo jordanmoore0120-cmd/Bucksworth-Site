@@ -18,7 +18,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://getyourbucksworth.com"),
+  metadataBase: new URL("https://www.getyourbucksworth.com"),
   title: {
     default:
       "Pest Control, HVAC & Plumbing | Bucksworth Home Services — Phoenix & Tucson AZ",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://getyourbucksworth.com",
+    url: "https://www.getyourbucksworth.com",
     siteName: "Bucksworth Home Services",
     title:
       "Pest Control, HVAC & Plumbing | Bucksworth Home Services",
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://getyourbucksworth.com",
+    canonical: "https://www.getyourbucksworth.com",
   },
 
 };
@@ -95,12 +95,12 @@ const ALL_CITIES = [
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "PestControlService", "HVACBusiness", "Plumber"],
-  "@id": "https://getyourbucksworth.com/#organization",
+  "@id": "https://www.getyourbucksworth.com/#organization",
   name: "Bucksworth Home Services",
   legalName: "Bucksworth Home Services LLC",
-  url: "https://getyourbucksworth.com",
-  logo: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
-  image: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
+  url: "https://www.getyourbucksworth.com",
+  logo: "https://www.getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
+  image: "https://www.getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
   description:
     "Bucksworth Home Services is a family-owned home services company founded in 2013 by Jordan and Taylor Moore. We provide pest control, termite treatment, air conditioning repair and installation, plumbing, water heater services, and weed control across 33 cities in the Phoenix and Tucson metro areas of Arizona. We are Google Guaranteed, licensed by the Arizona Registrar of Contractors (ROC #343924) and the Arizona Department of Agriculture (License #9613).",
   foundingDate: "2013",
@@ -206,18 +206,18 @@ const orgSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://getyourbucksworth.com/#website",
+  "@id": "https://www.getyourbucksworth.com/#website",
   name: "Bucksworth Home Services",
-  url: "https://getyourbucksworth.com",
+  url: "https://www.getyourbucksworth.com",
   description:
     "Bucksworth Home Services provides pest control, HVAC, plumbing, and weed control across 33 cities in Phoenix and Tucson, Arizona.",
-  publisher: { "@id": "https://getyourbucksworth.com/#organization" },
+  publisher: { "@id": "https://www.getyourbucksworth.com/#organization" },
   inLanguage: "en-US",
   potentialAction: {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: "https://getyourbucksworth.com/sitemap-page?q={search_term_string}",
+      urlTemplate: "https://www.getyourbucksworth.com/sitemap-page?q={search_term_string}",
     },
     "query-input": "required name=search_term_string",
   },

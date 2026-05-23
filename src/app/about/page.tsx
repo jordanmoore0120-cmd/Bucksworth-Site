@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: "About Bucksworth Home Services | Family-Owned Since 2013",
   description:
     "Meet Jordan & Taylor Moore — the Arizona family behind Bucksworth Home Services. Pest control, HVAC, plumbing & weed control across 33 cities in Phoenix and Tucson since 2013. AZ ROC #343924. Google Guaranteed.",
-  alternates: { canonical: "https://getyourbucksworth.com/about" },
+  alternates: { canonical: "https://www.getyourbucksworth.com/about" },
   openGraph: {
     title: "About Bucksworth Home Services | Family-Owned Since 2013",
     description: "Meet the Moores — the Arizona family behind Bucksworth Home Services. Serving 33 cities since 2013.",
-    url: "https://getyourbucksworth.com/about",
+    url: "https://www.getyourbucksworth.com/about",
     type: "website",
     images: [{ url: "/images/photos/family-portrait.jpg", width: 1200, height: 630, alt: "Jordan and Taylor Moore, founders of Bucksworth Home Services" }],
   },
@@ -19,19 +19,19 @@ export const metadata: Metadata = {
 const aboutSchema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "@id": "https://getyourbucksworth.com/about#aboutpage",
+  "@id": "https://www.getyourbucksworth.com/about#aboutpage",
   name: "About Bucksworth Home Services",
   description: "Family-owned pest control, HVAC, plumbing, and weed control company serving 33 cities in Phoenix and Tucson, Arizona since 2013. Founded by Jordan and Taylor Moore.",
-  url: "https://getyourbucksworth.com/about",
-  mainEntity: { "@id": "https://getyourbucksworth.com/#organization" },
+  url: "https://www.getyourbucksworth.com/about",
+  mainEntity: { "@id": "https://www.getyourbucksworth.com/#organization" },
 };
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://getyourbucksworth.com" },
-    { "@type": "ListItem", position: 2, name: "About", item: "https://getyourbucksworth.com/about" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.getyourbucksworth.com" },
+    { "@type": "ListItem", position: 2, name: "About", item: "https://www.getyourbucksworth.com/about" },
   ],
 };
 
@@ -41,22 +41,22 @@ const videoSchema = [
     "@type": "VideoObject",
     name: "Bucksworth Home Services truck at State Farm Stadium, Phoenix AZ",
     description: "Bucksworth Home Services branded truck driving past State Farm (Cardinals) Stadium in Glendale, Arizona.",
-    thumbnailUrl: "https://getyourbucksworth.com/images/photos/truck-construction-site.jpg",
-    contentUrl: "https://getyourbucksworth.com/videos/truck-statefarm.mp4",
+    thumbnailUrl: "https://www.getyourbucksworth.com/images/photos/truck-construction-site.jpg",
+    contentUrl: "https://www.getyourbucksworth.com/videos/truck-statefarm.mp4",
     uploadDate: "2025-01-01",
     duration: "PT8S",
-    publisher: { "@id": "https://getyourbucksworth.com/#organization" },
+    publisher: { "@id": "https://www.getyourbucksworth.com/#organization" },
   },
   {
     "@context": "https://schema.org",
     "@type": "VideoObject",
     name: "Bucksworth Home Services truck at Tempe Town Lake, Arizona",
     description: "Bucksworth Home Services branded truck on the highway near Tempe Town Lake with the Phoenix skyline in the background.",
-    thumbnailUrl: "https://getyourbucksworth.com/images/photos/truck-superstitions.jpg",
-    contentUrl: "https://getyourbucksworth.com/videos/truck-tempetownlake.mp4",
+    thumbnailUrl: "https://www.getyourbucksworth.com/images/photos/truck-superstitions.jpg",
+    contentUrl: "https://www.getyourbucksworth.com/videos/truck-tempetownlake.mp4",
     uploadDate: "2025-01-01",
     duration: "PT10S",
-    publisher: { "@id": "https://getyourbucksworth.com/#organization" },
+    publisher: { "@id": "https://www.getyourbucksworth.com/#organization" },
   },
 ];
 
@@ -249,9 +249,9 @@ export default function AboutPage() {
             Ready to experience the Bucksworth difference? Call us today for a free inspection and estimate:
           </p>
           <p style={{ fontSize: "18px", fontWeight: 700 }}>
-            Phoenix: <a href="tel:4804228388" style={{ color: "var(--red)" }}>(480) 422-8388</a>
+            Phoenix: <a href="tel:+14804228388" style={{ color: "var(--red)" }}>(480) 422-8388</a>
             <br />
-            Tucson: <a href="tel:5202849930" style={{ color: "var(--red)" }}>(520) 284-9930</a>
+            Tucson: <a href="tel:+15202849930" style={{ color: "var(--red)" }}>(520) 284-9930</a>
           </p>
         </div>
       </section>

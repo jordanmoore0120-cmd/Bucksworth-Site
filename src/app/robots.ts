@@ -19,6 +19,6 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "Bytespider", allow: "/" },
       { userAgent: "OAI-SearchBot", allow: "/" },
     ],
-    sitemap: "https://getyourbucksworth.com/sitemap.xml",
+    sitemap: "https://www.getyourbucksworth.com/sitemap.xml",
   };
 }

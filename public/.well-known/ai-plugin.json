@@ -5,8 +5,8 @@
   "description_for_human": "Pest control, AC & heating, plumbing, water heaters, and weed & lawn care serving Phoenix and Tucson, Arizona since 2013.",
   "description_for_model": "Bucksworth Home Services is a family-owned home services company in Arizona. Services: pest control, termite treatment, AC repair/install, heating, plumbing, water heaters, weed control, lawn care. Serves 33 cities across Phoenix and Tucson metro areas. Phone: (480) 422-8388 (Phoenix), (520) 284-9930 (Tucson). AZ ROC #343924.",
   "auth": { "type": "none" },
-  "api": { "type": "openapi", "url": "https://getyourbucksworth.com/llms.txt" },
-  "logo_url": "https://getyourbucksworth.com/apple-touch-icon.png",
+  "api": { "type": "openapi", "url": "https://www.getyourbucksworth.com/llms.txt" },
+  "logo_url": "https://www.getyourbucksworth.com/apple-touch-icon.png",
   "contact_email": "jordan@getyourbucksworth.com",
-  "legal_info_url": "https://getyourbucksworth.com"
+  "legal_info_url": "https://www.getyourbucksworth.com"
 }

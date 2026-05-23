@@ -32,10 +32,10 @@ export default function Footer() {
               it&apos;s Gigi&apos;s.
             </p>
             <div className="footer-phones">
-              <a href="tel:4804228388" className="footer-phone">
+              <a href="tel:+14804228388" className="footer-phone">
                 Phoenix: (480) 422-8388
               </a>
-              <a href="tel:5202849930" className="footer-phone">
+              <a href="tel:+15202849930" className="footer-phone">
                 Tucson: (520) 284-9930
               </a>
             </div>
@@ -46,7 +46,7 @@ export default function Footer() {
             <h4 className="footer-heading">Services</h4>
             {SERVICES.map((svc) => (
               <div key={svc.slug} className="footer-svc-group">
-                <Link href={`/${svc.slug}`} className="footer-svc-title">
+                <Link href={`/phoenix-az/${svc.slug}`} className="footer-svc-title">
                   {svc.name}
                 </Link>
                 {svc.subServices.slice(0, 4).map((sub) => (
@@ -67,8 +67,7 @@ export default function Footer() {
             <h4 className="footer-heading">Company</h4>
             <Link href="/about" className="footer-link">About Us</Link>
             <Link href="/reviews" className="footer-link">Reviews</Link>
-            <Link href="/careers" className="footer-link">Careers</Link>
-            <Link href="/contact" className="footer-link">Contact</Link>
+            <Link href="/request-service" className="footer-link">Contact</Link>
             <Link href="/blog" className="footer-link">Blog</Link>
             <Link href="/job-site-work" className="footer-link">Job Site Work</Link>
             <Link href="/termite-warranty" className="footer-link">Termite Warranty</Link>
@@ -125,7 +124,7 @@ export default function Footer() {
             ))}
             <Link href="/about">About</Link>
             <Link href="/reviews">Reviews</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/request-service">Contact</Link>
           </div>
         </div>
       </div>
