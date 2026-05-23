@@ -18,7 +18,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.getyourbucksworth.com"),
+  metadataBase: new URL("https://getyourbucksworth.com"),
   title: {
     default:
       "Pest Control, HVAC & Plumbing | Bucksworth Home Services — Phoenix & Tucson AZ",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.getyourbucksworth.com",
+    url: "https://getyourbucksworth.com",
     siteName: "Bucksworth Home Services",
     title:
       "Pest Control, HVAC & Plumbing | Bucksworth Home Services",
@@ -76,31 +76,33 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.getyourbucksworth.com",
+    canonical: "https://getyourbucksworth.com",
   },
-
+  other: {
+    "google-site-verification": "",
+  },
 };
 
 /* ── All 33 service area cities ── */
 const ALL_CITIES = [
-  "Ahwatukee","Anthem","Apache Junction","Buckeye","Casa Grande","Chandler",
-  "Coolidge","Florence","Fountain Hills","Gilbert","Gold Canyon","Goodyear",
-  "Laveen","Litchfield Park","Maricopa","Mesa","Paradise Valley","Peoria",
-  "Phoenix","Queen Creek","San Tan Valley","Scottsdale","Surprise","Tempe",
-  "Catalina Foothills","Green Valley","Marana","Oro Valley","Red Rock",
-  "Sahuarita","Tucson","Vail","Valencia West",
+  "Phoenix","Scottsdale","Tempe","Mesa","Chandler","Gilbert","Glendale",
+  "Peoria","Surprise","Goodyear","Buckeye","Avondale","Litchfield Park",
+  "Sun City","Sun City West","Ahwatukee","Fountain Hills","Cave Creek",
+  "Anthem","Queen Creek","San Tan Valley","Apache Junction","Gold Canyon",
+  "Maricopa","Tucson","Oro Valley","Marana","Sahuarita","Green Valley",
+  "Vail","Catalina Foothills","Casas Adobes","Tanque Verde",
 ];
 
 /* ── Organization + LocalBusiness JSON-LD (site-wide) ── */
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "PestControlService", "HVACBusiness", "Plumber"],
-  "@id": "https://www.getyourbucksworth.com/#organization",
+  "@id": "https://getyourbucksworth.com/#organization",
   name: "Bucksworth Home Services",
   legalName: "Bucksworth Home Services LLC",
-  url: "https://www.getyourbucksworth.com",
-  logo: "https://www.getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
-  image: "https://www.getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
+  url: "https://getyourbucksworth.com",
+  logo: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
+  image: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
   description:
     "Bucksworth Home Services is a family-owned home services company founded in 2013 by Jordan and Taylor Moore. We provide pest control, termite treatment, air conditioning repair and installation, plumbing, water heater services, and weed control across 33 cities in the Phoenix and Tucson metro areas of Arizona. We are Google Guaranteed, licensed by the Arizona Registrar of Contractors (ROC #343924) and the Arizona Department of Agriculture (License #9613).",
   foundingDate: "2013",
@@ -206,18 +208,18 @@ const orgSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://www.getyourbucksworth.com/#website",
+  "@id": "https://getyourbucksworth.com/#website",
   name: "Bucksworth Home Services",
-  url: "https://www.getyourbucksworth.com",
+  url: "https://getyourbucksworth.com",
   description:
     "Bucksworth Home Services provides pest control, HVAC, plumbing, and weed control across 33 cities in Phoenix and Tucson, Arizona.",
-  publisher: { "@id": "https://www.getyourbucksworth.com/#organization" },
+  publisher: { "@id": "https://getyourbucksworth.com/#organization" },
   inLanguage: "en-US",
   potentialAction: {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: "https://www.getyourbucksworth.com/sitemap-page?q={search_term_string}",
+      urlTemplate: "https://getyourbucksworth.com/sitemap-page?q={search_term_string}",
     },
     "query-input": "required name=search_term_string",
   },
@@ -258,7 +260,7 @@ export default function RootLayout({
         />
       </head>
       <body>
-
+        {/* Agency GTM removed — GA4 + Meta Pixel fire directly via Analytics component */}
         <Analytics />
         <a href="#main-content" className="skip-link">
           Skip to main content
