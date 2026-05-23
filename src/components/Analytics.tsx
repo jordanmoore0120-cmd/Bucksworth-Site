@@ -2,24 +2,20 @@
 
 import Script from "next/script";
 
-const GA_MEASUREMENT_ID = "G-C3DYG0PP8G";
+const GA_MEASUREMENT_ID = "G-ZDL1V7HMVV";
 const META_PIXEL_ID = "1745744873282534";
 
 /**
- * Google Analytics 4 + Meta Pixel (direct tracking)
- * 
- * GTM container (GTM-NKT8JLJD) REMOVED — it was controlled by the previous
- * agency (TopServ Digital) and contained 16 tags sending data to their own
- * analytics accounts (wrong GA4 ID, their FB pixel, their TikTok, etc.).
- * 
- * All tracking now fires directly:
- * - GA4 via gtag.js for pageview + event tracking
- * - Meta Pixel tracks pageviews + conversion events (phone, form, book-now)
+ * Bucksworth Home Services 2026 — Analytics & Tracking
+ * - GA4 via gtag.js (direct, no GTM dependency)
+ * - Meta Pixel for Facebook/Instagram ad tracking
+ * - Phone call click + form submission conversion tracking
+ * - Agency GTM container removed (all 16 agency tags killed)
  */
 export default function Analytics() {
   return (
     <>
-      {/* GA4 via gtag.js (direct — no GTM dependency) */}
+      {/* GA4 via gtag.js (direct — Bucksworth Home Services 2026 property) */}
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
         strategy="afterInteractive"
@@ -46,13 +42,6 @@ export default function Analytics() {
                   event_label: link.href.replace('tel:', ''),
                   value: 1
                 });
-                if (typeof fbq === 'function') {
-                  fbq('track', 'Contact', {
-                    content_name: 'Phone Call',
-                    content_category: 'phone_click',
-                    value: link.href.replace('tel:', '')
-                  });
-                }
               }
             });
 
@@ -65,30 +54,6 @@ export default function Analytics() {
                   event_label: form.id || form.action || 'unknown_form',
                   value: 1
                 });
-                if (typeof fbq === 'function') {
-                  fbq('track', 'Lead', {
-                    content_name: 'Form Submission',
-                    content_category: form.id || 'contact_form'
-                  });
-                }
-              }
-            });
-
-            // Track "Book Now" / CTA button clicks
-            document.addEventListener('click', function(e) {
-              var btn = e.target.closest('a[href*="book"], button[class*="book"], a[href*="schedule"]');
-              if (btn) {
-                gtag('event', 'book_now_click', {
-                  event_category: 'conversion',
-                  event_label: btn.textContent || 'book_now',
-                  value: 1
-                });
-                if (typeof fbq === 'function') {
-                  fbq('track', 'Schedule', {
-                    content_name: 'Book Now Click',
-                    content_category: 'booking'
-                  });
-                }
               }
             });
           `,
@@ -111,6 +76,28 @@ export default function Analytics() {
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '${META_PIXEL_ID}');
             fbq('track', 'PageView');
+
+            // Track phone calls as Meta Lead events
+            document.addEventListener('click', function(e) {
+              var link = e.target.closest('a[href^="tel:"]');
+              if (link) {
+                fbq('track', 'Contact', {
+                  content_name: 'Phone Call',
+                  content_category: link.href.replace('tel:', '')
+                });
+              }
+            });
+
+            // Track form submissions as Meta Lead events
+            document.addEventListener('submit', function(e) {
+              var form = e.target.closest('form');
+              if (form) {
+                fbq('track', 'Lead', {
+                  content_name: form.id || 'contact_form',
+                  content_category: 'Form Submission'
+                });
+              }
+            });
           `,
         }}
       />
