@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate, getCanonicalTarget } from "@/lib/blog";
+import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate, getCanonicalTarget, getRelatedPosts } from "@/lib/blog";
 
 interface BlogPostProps {
   params: Promise<{ slug: string }>;
@@ -135,6 +135,84 @@ export default async function BlogPost({ params }: BlogPostProps) {
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </div>
+
+          {/* Related Articles */}
+          {(() => {
+            const related = getRelatedPosts(slug);
+            if (related.length === 0) return null;
+            return (
+              <div style={{ background: "#f8f9fa", padding: "48px 0" }}>
+                <div className="container" style={{ maxWidth: "800px" }}>
+                  <h2 style={{
+                    color: "var(--navy)",
+                    fontFamily: "'Oswald', sans-serif",
+                    fontSize: "24px",
+                    textTransform: "uppercase",
+                    letterSpacing: "1px",
+                    marginBottom: "24px",
+                    textAlign: "center",
+                  }}>
+                    Related Articles
+                  </h2>
+                  <div style={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+                    gap: "20px",
+                  }}>
+                    {related.map((r) => (
+                      <Link
+                        key={r.slug}
+                        href={`/blog/${r.slug}`}
+                        style={{
+                          display: "block",
+                          background: "white",
+                          borderRadius: "8px",
+                          padding: "20px",
+                          textDecoration: "none",
+                          boxShadow: "0 1px 3px rgba(0,0,0,0.08)",
+                          transition: "box-shadow 0.2s",
+                        }}
+                      >
+                        {r.categories.length > 0 && (
+                          <span style={{
+                            background: "var(--red)",
+                            color: "white",
+                            fontSize: "10px",
+                            fontWeight: 700,
+                            textTransform: "uppercase",
+                            letterSpacing: "1px",
+                            padding: "3px 8px",
+                            borderRadius: "3px",
+                            display: "inline-block",
+                            marginBottom: "8px",
+                          }}>
+                            {r.categories[0]}
+                          </span>
+                        )}
+                        <h3 style={{
+                          fontSize: "16px",
+                          fontWeight: 600,
+                          color: "var(--navy)",
+                          lineHeight: 1.3,
+                          margin: "0 0 8px",
+                        }}
+                          dangerouslySetInnerHTML={{ __html: r.title }}
+                        />
+                        <p style={{
+                          fontSize: "13px",
+                          color: "var(--g600)",
+                          lineHeight: 1.5,
+                          margin: 0,
+                        }}>
+                          {stripHtml(r.excerpt).slice(0, 120)}...
+                        </p>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            );
+          })()}
 
           {/* CTA */}
           <div className="blog-article-cta">

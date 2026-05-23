@@ -33,6 +33,7 @@ export interface BlogIndex {
   categories: string[];
   categorySlugs: string[];
   canonicalTarget?: string;
+  relatedSlugs?: string[];
 }
 
 /* ── Cache (loaded once per build / serverless cold start) ── */
@@ -113,6 +114,16 @@ export function getCanonicalTarget(slug: string): string | null {
   const idx = loadIndex();
   const item = idx.find((p) => p.slug === slug);
   return item?.canonicalTarget || null;
+}
+
+/** Get related posts for a blog post (pre-computed by city + category matching) */
+export function getRelatedPosts(slug: string): BlogIndex[] {
+  const idx = loadIndex();
+  const item = idx.find((p) => p.slug === slug);
+  if (!item?.relatedSlugs?.length) return [];
+
+  const slugSet = new Set(item.relatedSlugs);
+  return idx.filter((p) => slugSet.has(p.slug));
 }
 
 /** Strip HTML tags from string */
