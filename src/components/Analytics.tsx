@@ -4,11 +4,13 @@ import Script from "next/script";
 
 const GA_MEASUREMENT_ID = "G-C3DYG0PP8G";
 const GTM_ID = "GTM-NKT8JLJD";
+const META_PIXEL_ID = "1745744873282534";
 
 /**
- * Google Analytics 4 + Google Tag Manager
+ * Google Analytics 4 + Google Tag Manager + Meta Pixel
  * - GA4 fires directly via gtag.js for reliable pageview + event tracking
  * - GTM container loaded for any additional tags configured in GTM
+ * - Meta Pixel tracks pageviews + conversion events (phone, form, book-now)
  * - Tracks phone click conversions automatically
  */
 export default function Analytics() {
@@ -56,6 +58,14 @@ export default function Analytics() {
                   event_label: link.href.replace('tel:', ''),
                   value: 1
                 });
+                // Also fire Meta Pixel phone call event
+                if (typeof fbq === 'function') {
+                  fbq('track', 'Contact', {
+                    content_name: 'Phone Call',
+                    content_category: 'phone_click',
+                    value: link.href.replace('tel:', '')
+                  });
+                }
               }
             });
 
@@ -68,11 +78,65 @@ export default function Analytics() {
                   event_label: form.id || form.action || 'unknown_form',
                   value: 1
                 });
+                // Also fire Meta Pixel lead event
+                if (typeof fbq === 'function') {
+                  fbq('track', 'Lead', {
+                    content_name: 'Form Submission',
+                    content_category: form.id || 'contact_form'
+                  });
+                }
+              }
+            });
+
+            // Track "Book Now" / CTA button clicks
+            document.addEventListener('click', function(e) {
+              var btn = e.target.closest('a[href*="book"], button[class*="book"], a[href*="schedule"]');
+              if (btn) {
+                gtag('event', 'book_now_click', {
+                  event_category: 'conversion',
+                  event_label: btn.textContent || 'book_now',
+                  value: 1
+                });
+                if (typeof fbq === 'function') {
+                  fbq('track', 'Schedule', {
+                    content_name: 'Book Now Click',
+                    content_category: 'booking'
+                  });
+                }
               }
             });
           `,
         }}
       />
+
+      {/* Meta Pixel */}
+      <Script
+        id="meta-pixel"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '${META_PIXEL_ID}');
+            fbq('track', 'PageView');
+          `,
+        }}
+      />
+      <noscript>
+        <img
+          height="1"
+          width="1"
+          style={{ display: "none" }}
+          src={`https://www.facebook.com/tr?id=${META_PIXEL_ID}&ev=PageView&noscript=1`}
+          alt=""
+        />
+      </noscript>
     </>
   );
 }
