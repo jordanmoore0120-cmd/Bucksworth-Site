@@ -76,7 +76,7 @@ export default function Header() {
   const branchPhone =
     mobileBranch === "phoenix" ? "(480) 422-8388" : "(520) 284-9930";
   const branchPhoneRaw =
-    mobileBranch === "phoenix" ? "4804228388" : "5202849930";
+    mobileBranch === "phoenix" ? "+14804228388" : "+15202849930";
   /* Use the detected city slug for nav links; fall back to branch default */
   const branchCitySlug =
     detectedCitySlug ?? (mobileBranch === "phoenix" ? "phoenix-az" : "tucson-az");
@@ -202,7 +202,7 @@ export default function Header() {
           <div className="util-right">
             <span className="util-lic">AZ ROC #343924</span>
             <a
-              href="tel:4804228388"
+              href="tel:+14804228388"
               className="util-phone"
               aria-label="Call Bucksworth at (480) 422-8388"
             >
@@ -342,7 +342,7 @@ export default function Header() {
             </Link>
 
             <a
-              href="tel:4804228388"
+              href="tel:+14804228388"
               className="nav-phone-btn"
               aria-label="Call Bucksworth at (480) 422-8388"
             >

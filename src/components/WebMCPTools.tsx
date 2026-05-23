@@ -29,7 +29,7 @@ export default function WebMCPTools() {
           },
         },
         handler: ({ branch }: { branch: string }) => {
-          const phone = branch === "tucson" ? "5202849930" : "4804228388";
+          const phone = branch === "tucson" ? "+15202849930" : "+14804228388";
           window.location.href = `tel:${phone}`;
         },
       });

@@ -6,8 +6,8 @@ import { CITIES } from "@/lib/cities";
 
 /* ── Phoenix / Tucson coords for geo-detection ── */
 const BRANCHES = {
-  phoenix: { lat: 33.4484, lng: -112.074, label: "Phoenix", phone: "(480) 422-8388", phoneRaw: "4804228388" },
-  tucson:  { lat: 32.2226, lng: -110.9747, label: "Tucson",  phone: "(520) 284-9930", phoneRaw: "5202849930" },
+  phoenix: { lat: 33.4484, lng: -112.074, label: "Phoenix", phone: "(480) 422-8388", phoneRaw: "+14804228388" },
+  tucson:  { lat: 32.2226, lng: -110.9747, label: "Tucson",  phone: "(520) 284-9930", phoneRaw: "+15202849930" },
 } as const;
 
 type BranchKey = keyof typeof BRANCHES;

@@ -142,7 +142,7 @@ export default function TermiteWarrantyPage() {
               <a href="#inspection" className="tw-btn tw-btn--outline">
                 Schedule Inspection &darr;
               </a>
-              <a href="tel:4804228388" className="tw-btn tw-btn--outline">
+              <a href="tel:+14804228388" className="tw-btn tw-btn--outline">
                 Call (480) 422-8388
               </a>
             </div>
@@ -205,7 +205,7 @@ export default function TermiteWarrantyPage() {
                   <li>Transferable if you sell your home</li>
                 </ul>
                 <p className="tw-highlight-note">
-                  <strong>Not sure if your home was pre-treated by Bucksworth?</strong> Call us at <a href="tel:4804228388">(480) 422-8388</a> and we&apos;ll look up your address.
+                  <strong>Not sure if your home was pre-treated by Bucksworth?</strong> Call us at <a href="tel:+14804228388">(480) 422-8388</a> and we&apos;ll look up your address.
                 </p>
               </div>
             </div>
@@ -277,7 +277,7 @@ export default function TermiteWarrantyPage() {
                   <a href="/request-service" className="tw-btn tw-btn--primary">
                     Schedule an Inspection
                   </a>
-                  <span className="tw-inspection-note">or call <a href="tel:4804228388">(480) 422-8388</a></span>
+                  <span className="tw-inspection-note">or call <a href="tel:+14804228388">(480) 422-8388</a></span>
                 </div>
               </div>
               <div className="tw-col">
@@ -397,7 +397,7 @@ export default function TermiteWarrantyPage() {
                   </li>
                 </ul>
                 <div className="tw-bundle-ctas">
-                  <a href="tel:4804228388" className="tw-btn tw-btn--primary tw-btn--lg">
+                  <a href="tel:+14804228388" className="tw-btn tw-btn--primary tw-btn--lg">
                     Call to Add: (480) 422-8388
                   </a>
                 </div>
@@ -475,9 +475,9 @@ export default function TermiteWarrantyPage() {
               <h2>Register Your Termite Warranty</h2>
               <p className="tw-form-intro">
                 Bought a new construction home that Bucksworth pre-treated? Fill out the form below and our team will verify your pre-treatment and activate your warranty. You can also call us directly at{" "}
-                <a href="tel:4804228388" className="tw-inline-link">(480) 422-8388</a>{" "}
+                <a href="tel:+14804228388" className="tw-inline-link">(480) 422-8388</a>{" "}
                 or{" "}
-                <a href="tel:5202849930" className="tw-inline-link">(520) 284-9930</a>.
+                <a href="tel:+15202849930" className="tw-inline-link">(520) 284-9930</a>.
               </p>
               <form
                 className="tw-form"
@@ -557,7 +557,7 @@ export default function TermiteWarrantyPage() {
                 <li>Warranties transfer seamlessly to homeowners at closing</li>
                 <li>Full compliance with Arizona Structural Pest Control Commission</li>
               </ul>
-              <a href="tel:4804228388" className="tw-btn tw-btn--primary" style={{ marginTop: "16px" }}>
+              <a href="tel:+14804228388" className="tw-btn tw-btn--primary" style={{ marginTop: "16px" }}>
                 Set Up a Builder Account: (480) 422-8388
               </a>
             </div>
@@ -572,10 +572,10 @@ export default function TermiteWarrantyPage() {
               Don&apos;t let your termite warranty lapse. Whether you need to register a new construction warranty, schedule an inspection, or get treatment — we&apos;re here to help.
             </p>
             <div className="tw-hero-ctas">
-              <a href="tel:4804228388" className="tw-btn tw-btn--primary tw-btn--lg">
+              <a href="tel:+14804228388" className="tw-btn tw-btn--primary tw-btn--lg">
                 Phoenix: (480) 422-8388
               </a>
-              <a href="tel:5202849930" className="tw-btn tw-btn--outline tw-btn--lg">
+              <a href="tel:+15202849930" className="tw-btn tw-btn--outline tw-btn--lg">
                 Tucson: (520) 284-9930
               </a>
             </div>

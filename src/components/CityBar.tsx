@@ -12,7 +12,7 @@ interface CityBarProps {
 export default function CityBar({ currentCity }: CityBarProps) {
   const [isOpen, setIsOpen] = useState(false);
   const phone = getPhoneForBranch(currentCity.branch);
-  const phoneRaw = phone.replace(/[^0-9]/g, "");
+  const phoneRaw = phone.replace(/[^0-9+]/g, "");
 
   const phxCities = CITIES.filter((c) => c.branch === "phoenix").sort((a, b) =>
     a.name.localeCompare(b.name)

@@ -85,7 +85,7 @@ export function getPhoneForBranch(branch: "phoenix" | "tucson"): string {
 }
 
 export function getPhoneForBranchRaw(branch: "phoenix" | "tucson"): string {
-  return branch === "phoenix" ? "4804228388" : "5202849930";
+  return branch === "phoenix" ? "+14804228388" : "+15202849930";
 }
 
 export { PHX_PHONE, TUC_PHONE };

@@ -910,7 +910,7 @@ export default function InstantEstimator({
 
                 <div className="ie-result-actions">
                   <a
-                    href={`tel:${state.formattedAddress?.toLowerCase().includes("tucson") ? "5202849930" : "4804228388"}`}
+                    href={`tel:${state.formattedAddress?.toLowerCase().includes("tucson") ? "+15202849930" : "+14804228388"}`}
                     className="ie-btn ie-btn-primary ie-btn-lg"
                   >
                     📞 Call Now

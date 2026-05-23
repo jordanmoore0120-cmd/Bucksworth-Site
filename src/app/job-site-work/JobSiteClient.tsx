@@ -127,7 +127,7 @@ export default function JobSiteClient() {
         <p>Same-day service available. Free inspections. No gimmicks.</p>
         <div className="jsw-cta-btns">
           <a href="/request-service" className="jsw-cta-btn jsw-cta-btn--primary">Request Service →</a>
-          <a href="tel:4804228388" className="jsw-cta-btn jsw-cta-btn--outline">Call (480) 422-8388</a>
+          <a href="tel:+14804228388" className="jsw-cta-btn jsw-cta-btn--outline">Call (480) 422-8388</a>
         </div>
       </section>
     </main>
