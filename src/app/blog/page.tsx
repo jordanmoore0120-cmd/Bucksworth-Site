@@ -1,15 +1,18 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { getPosts, getCategories, stripHtml, formatDate } from "@/lib/wp";
+import { getPosts, getCategories, stripHtml, formatDate } from "@/lib/blog";
 
 export const metadata: Metadata = {
   title: "Blog | Pest Control, HVAC & Home Tips | Bucksworth Home Services",
   description:
     "Expert home services tips from Bucksworth. Read about pest control, AC maintenance, plumbing, and weed control specific to Arizona homes across Phoenix and Tucson.",
   alternates: { canonical: "https://getyourbucksworth.com/blog" },
+  openGraph: {
+    title: "Blog | Pest Control, HVAC & Home Tips",
+    description:
+      "Expert home services tips from Bucksworth. Read about pest control, AC maintenance, plumbing, and weed control specific to Arizona homes.",
+  },
 };
-
-export const revalidate = 3600; // ISR: rebuild every hour
 
 export default async function BlogIndex({
   searchParams,
@@ -21,16 +24,16 @@ export default async function BlogIndex({
   const catSlug = params.category;
 
   // Get categories for sidebar
-  const categories = await getCategories();
+  const categories = getCategories();
   const activeCat = catSlug
     ? categories.find((c) => c.slug === catSlug)
     : undefined;
 
   // Get posts
-  const { posts, total, totalPages } = await getPosts(
+  const { posts, total, totalPages } = getPosts(
     page,
     12,
-    activeCat?.id
+    activeCat?.slug
   );
 
   return (
@@ -75,9 +78,9 @@ export default async function BlogIndex({
               .slice(0, 12)
               .map((cat) => (
                 <Link
-                  key={cat.id}
+                  key={cat.slug}
                   href={`/blog?category=${cat.slug}`}
-                  className={`blog-cat-pill${activeCat?.id === cat.id ? " active" : ""}`}
+                  className={`blog-cat-pill${activeCat?.slug === cat.slug ? " active" : ""}`}
                 >
                   {cat.name} ({cat.count})
                 </Link>
@@ -87,37 +90,22 @@ export default async function BlogIndex({
           {/* Post grid */}
           <div className="blog-grid">
             {posts.map((post) => {
-              const featImg =
-                post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
-              const catNames =
-                post._embedded?.["wp:term"]?.[0]
-                  ?.map((t) => t.name)
-                  .join(", ") || "";
-              const excerpt = stripHtml(post.excerpt.rendered).slice(0, 160);
+              const excerpt = stripHtml(post.excerpt).slice(0, 160);
 
               return (
                 <Link
-                  key={post.id}
+                  key={post.slug}
                   href={`/blog/${post.slug}`}
                   className="blog-card"
                 >
-                  {featImg && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={featImg}
-                      alt={stripHtml(post.title.rendered)}
-                      className="blog-card-img"
-                      loading="lazy"
-                    />
-                  )}
                   <div className="blog-card-body">
-                    {catNames && (
-                      <span className="blog-card-cat">{catNames}</span>
+                    {post.categories.length > 0 && (
+                      <span className="blog-card-cat">{post.categories.join(", ")}</span>
                     )}
                     <h2
                       className="blog-card-title"
                       dangerouslySetInnerHTML={{
-                        __html: post.title.rendered,
+                        __html: post.title,
                       }}
                     />
                     <p className="blog-card-excerpt">{excerpt}&hellip;</p>

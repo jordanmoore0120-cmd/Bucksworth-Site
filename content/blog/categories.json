@@ -1,0 +1,72 @@
+[
+  {
+    "name": "HVAC",
+    "slug": "hvac",
+    "count": 439
+  },
+  {
+    "name": "Plumbing",
+    "slug": "plumbing",
+    "count": 373
+  },
+  {
+    "name": "Pest Control",
+    "slug": "pest-control",
+    "count": 337
+  },
+  {
+    "name": "Scorpion Control",
+    "slug": "scorpion-control",
+    "count": 128
+  },
+  {
+    "name": "Weed Control",
+    "slug": "weed-control",
+    "count": 71
+  },
+  {
+    "name": "Termite Control",
+    "slug": "termite-control",
+    "count": 65
+  },
+  {
+    "name": "Ant Control",
+    "slug": "ant-control",
+    "count": 27
+  },
+  {
+    "name": "Rodent Control",
+    "slug": "rodent-control",
+    "count": 13
+  },
+  {
+    "name": "Heating",
+    "slug": "heating",
+    "count": 11
+  },
+  {
+    "name": "Spider Control",
+    "slug": "spider-control",
+    "count": 7
+  },
+  {
+    "name": "Cooling",
+    "slug": "cooling",
+    "count": 7
+  },
+  {
+    "name": "Cockroach Control",
+    "slug": "cockroach-control",
+    "count": 4
+  },
+  {
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "count": 3
+  },
+  {
+    "name": "Snake Control",
+    "slug": "snake-control",
+    "count": 2
+  }
+]

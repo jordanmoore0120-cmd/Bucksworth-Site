@@ -1,9 +1,9 @@
 import { MetadataRoute } from "next";
 import { CITIES } from "@/lib/cities";
 import { SERVICES } from "@/lib/services";
+import { getAllPostsMeta } from "@/lib/blog";
 
 const BASE = "https://getyourbucksworth.com";
-const BLOG_API = "https://getyourbucksworth.com/wp-json/wp/v2/posts";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date().toISOString();
@@ -75,30 +75,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  /* ── Blog posts (fetch from WP REST API at build time) ── */
-  try {
-    let page = 1;
-    let hasMore = true;
-    while (hasMore && page <= 20) {
-      const res = await fetch(
-        `${BLOG_API}?per_page=100&page=${page}&_fields=slug,modified`,
-        { next: { revalidate: 86400 } }
-      );
-      if (!res.ok) break;
-      const posts: { slug: string; modified: string }[] = await res.json();
-      for (const post of posts) {
-        entries.push({
-          url: `${BASE}/blog/${post.slug}`,
-          lastModified: post.modified,
-          changeFrequency: "monthly",
-          priority: 0.5,
-        });
-      }
-      hasMore = posts.length === 100;
-      page++;
-    }
-  } catch {
-    /* WP API unavailable at build — skip blog entries */
+  /* ── Blog posts (from local static data) ── */
+  const blogPosts = getAllPostsMeta();
+  for (const post of blogPosts) {
+    entries.push({
+      url: `${BASE}/blog/${post.slug}`,
+      lastModified: post.modified,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    });
   }
 
   return entries;

@@ -1,25 +1,26 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPostBySlug, stripHtml, formatDate } from "@/lib/wp";
+import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate } from "@/lib/blog";
 
 interface BlogPostProps {
   params: Promise<{ slug: string }>;
 }
 
-export const revalidate = 3600;
+export async function generateStaticParams() {
+  const slugs = getAllPostSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
 
 export async function generateMetadata({
   params,
 }: BlogPostProps): Promise<Metadata> {
   const { slug } = await params;
-  const post = await getPostBySlug(slug);
+  const post = getPostBySlug(slug);
   if (!post) return {};
 
-  const title = stripHtml(post.title.rendered);
-  const description = stripHtml(post.excerpt.rendered).slice(0, 155);
-  const featImg =
-    post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
+  const title = stripHtml(post.title);
+  const description = stripHtml(post.excerpt).slice(0, 155);
 
   return {
     title: `${title} | Bucksworth Blog`,
@@ -33,25 +34,18 @@ export async function generateMetadata({
       type: "article",
       publishedTime: post.date,
       modifiedTime: post.modified,
-      ...(featImg ? { images: [featImg] } : {}),
     },
   };
 }
 
 export default async function BlogPost({ params }: BlogPostProps) {
   const { slug } = await params;
-  const post = await getPostBySlug(slug);
+  const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const title = stripHtml(post.title.rendered);
-  const catNames =
-    post._embedded?.["wp:term"]?.[0]?.map((t) => t.name) || [];
-  const featImg =
-    post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
-  const featAlt =
-    post._embedded?.["wp:featuredmedia"]?.[0]?.alt_text || title;
+  const title = stripHtml(post.title);
 
-  // Article schema
+  // Article schema — author is Jordan Moore
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -59,8 +53,10 @@ export default async function BlogPost({ params }: BlogPostProps) {
     datePublished: post.date,
     dateModified: post.modified,
     author: {
-      "@type": "Organization",
-      name: "Bucksworth Home Services",
+      "@type": "Person",
+      name: "Jordan Moore",
+      jobTitle: "Founder & CEO",
+      url: "https://getyourbucksworth.com/about",
     },
     publisher: {
       "@type": "Organization",
@@ -70,8 +66,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
         url: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
       },
     },
-    ...(featImg ? { image: featImg } : {}),
-    description: stripHtml(post.excerpt.rendered).slice(0, 155),
+    description: stripHtml(post.excerpt).slice(0, 155),
     mainEntityOfPage: `https://getyourbucksworth.com/blog/${slug}`,
   };
 
@@ -95,9 +90,9 @@ export default async function BlogPost({ params }: BlogPostProps) {
               </nav>
 
               {/* Category badges */}
-              {catNames.length > 0 && (
+              {post.categories.length > 0 && (
                 <div style={{ display: "flex", gap: "8px", marginBottom: "12px", flexWrap: "wrap" }}>
-                  {catNames.map((cat) => (
+                  {post.categories.map((cat) => (
                     <span
                       key={cat}
                       style={{
@@ -119,36 +114,22 @@ export default async function BlogPost({ params }: BlogPostProps) {
 
               <h1
                 className="blog-article-title"
-                dangerouslySetInnerHTML={{ __html: post.title.rendered }}
+                dangerouslySetInnerHTML={{ __html: post.title }}
               />
 
               <div className="blog-article-meta">
                 <time dateTime={post.date}>{formatDate(post.date)}</time>
                 <span>&bull;</span>
-                <span>Bucksworth Home Services</span>
+                <span>Jordan Moore</span>
               </div>
             </div>
           </div>
-
-          {/* Featured image */}
-          {featImg && (
-            <div className="blog-article-hero">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={featImg}
-                alt={featAlt}
-                className="blog-article-hero-img"
-                loading="eager"
-                fetchPriority="high"
-              />
-            </div>
-          )}
 
           {/* Article body */}
           <div className="blog-article-body">
             <div
               className="blog-content"
-              dangerouslySetInnerHTML={{ __html: post.content.rendered }}
+              dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </div>
 
@@ -162,10 +143,10 @@ export default async function BlogPost({ params }: BlogPostProps) {
                 Bucksworth Home Services covers pest control, HVAC, plumbing, and weed control across 33 Arizona cities. Call for a free inspection.
               </p>
               <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
-                <a href="tel:4804228388" className="btn-call">
+                <a href="tel:+14804228388" className="btn-call">
                   Phoenix: (480) 422-8388
                 </a>
-                <a href="tel:5202849930" className="btn-call" style={{ background: "var(--navy)" }}>
+                <a href="tel:+15202849930" className="btn-call" style={{ background: "var(--navy)" }}>
                   Tucson: (520) 284-9930
                 </a>
               </div>

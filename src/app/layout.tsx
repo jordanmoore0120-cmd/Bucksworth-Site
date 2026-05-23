@@ -78,19 +78,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://getyourbucksworth.com",
   },
-  other: {
-    "google-site-verification": "",
-  },
+
 };
 
 /* ── All 33 service area cities ── */
 const ALL_CITIES = [
-  "Phoenix","Scottsdale","Tempe","Mesa","Chandler","Gilbert","Glendale",
-  "Peoria","Surprise","Goodyear","Buckeye","Avondale","Litchfield Park",
-  "Sun City","Sun City West","Ahwatukee","Fountain Hills","Cave Creek",
-  "Anthem","Queen Creek","San Tan Valley","Apache Junction","Gold Canyon",
-  "Maricopa","Tucson","Oro Valley","Marana","Sahuarita","Green Valley",
-  "Vail","Catalina Foothills","Casas Adobes","Tanque Verde",
+  "Ahwatukee","Anthem","Apache Junction","Buckeye","Casa Grande","Chandler",
+  "Coolidge","Florence","Fountain Hills","Gilbert","Gold Canyon","Goodyear",
+  "Laveen","Litchfield Park","Maricopa","Mesa","Paradise Valley","Peoria",
+  "Phoenix","Queen Creek","San Tan Valley","Scottsdale","Surprise","Tempe",
+  "Catalina Foothills","Green Valley","Marana","Oro Valley","Red Rock",
+  "Sahuarita","Tucson","Vail","Valencia West",
 ];
 
 /* ── Organization + LocalBusiness JSON-LD (site-wide) ── */
@@ -260,15 +258,7 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {/* GTM noscript fallback */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-NKT8JLJD"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
+
         <Analytics />
         <a href="#main-content" className="skip-link">
           Skip to main content
