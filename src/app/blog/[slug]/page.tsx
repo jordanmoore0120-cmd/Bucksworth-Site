@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate } from "@/lib/blog";
+import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate, getCanonicalTarget } from "@/lib/blog";
 
 interface BlogPostProps {
   params: Promise<{ slug: string }>;
@@ -21,12 +21,15 @@ export async function generateMetadata({
 
   const title = stripHtml(post.title);
   const description = stripHtml(post.excerpt).slice(0, 155);
+  const canonicalTarget = getCanonicalTarget(slug);
 
   return {
     title: `${title} | Bucksworth Blog`,
     description,
     alternates: {
-      canonical: `https://www.getyourbucksworth.com/blog/${slug}`,
+      canonical: canonicalTarget
+        ? `https://www.getyourbucksworth.com${canonicalTarget}`
+        : `https://www.getyourbucksworth.com/blog/${slug}`,
     },
     openGraph: {
       title,

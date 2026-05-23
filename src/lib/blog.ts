@@ -32,6 +32,7 @@ export interface BlogIndex {
   excerpt: string;
   categories: string[];
   categorySlugs: string[];
+  canonicalTarget?: string;
 }
 
 /* ── Cache (loaded once per build / serverless cold start) ── */
@@ -105,6 +106,13 @@ export function getAllPostSlugs(): string[] {
 /** Get all posts metadata (for sitemap) */
 export function getAllPostsMeta(): { slug: string; modified: string }[] {
   return loadIndex().map((p) => ({ slug: p.slug, modified: p.modified }));
+}
+
+/** Get canonical target for a blog post (if it should point to a service page) */
+export function getCanonicalTarget(slug: string): string | null {
+  const idx = loadIndex();
+  const item = idx.find((p) => p.slug === slug);
+  return item?.canonicalTarget || null;
 }
 
 /** Strip HTML tags from string */
