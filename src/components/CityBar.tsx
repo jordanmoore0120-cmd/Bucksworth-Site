@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { CITIES, getPhoneForBranch } from "@/lib/cities";
+import { CITIES, getPhoneForBranch, getPhoneForBranchRaw } from "@/lib/cities";
 import type { City } from "@/lib/cities";
 
 interface CityBarProps {
@@ -12,7 +12,7 @@ interface CityBarProps {
 export default function CityBar({ currentCity }: CityBarProps) {
   const [isOpen, setIsOpen] = useState(false);
   const phone = getPhoneForBranch(currentCity.branch);
-  const phoneRaw = phone.replace(/[^0-9+]/g, "");
+  const phoneRaw = getPhoneForBranchRaw(currentCity.branch);
 
   const phxCities = CITIES.filter((c) => c.branch === "phoenix").sort((a, b) =>
     a.name.localeCompare(b.name)

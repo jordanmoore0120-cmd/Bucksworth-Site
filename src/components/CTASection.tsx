@@ -1,5 +1,5 @@
 import type { City } from "@/lib/cities";
-import { getPhoneForBranch } from "@/lib/cities";
+import { getPhoneForBranch, getPhoneForBranchRaw } from "@/lib/cities";
 
 interface CTASectionProps {
   city: City;
@@ -23,7 +23,7 @@ export default function CTASection({
   estimateUrl,
 }: CTASectionProps) {
   const phone = getPhoneForBranch(city.branch);
-  const phoneRaw = phone.replace(/[^0-9+]/g, "");
+  const phoneRaw = getPhoneForBranchRaw(city.branch);
 
   const h =
     headline || `Ready to Get Your Bucksworth in ${city.name}?`;
