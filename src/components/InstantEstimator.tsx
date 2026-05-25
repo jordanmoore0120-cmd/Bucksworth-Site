@@ -316,6 +316,8 @@ function loadGoogleMaps(apiKey: string): Promise<void> {
   return new Promise((resolve, reject) => {
     if (typeof window === "undefined") return reject();
     if ((window as any).google?.maps) {
+      /* Check if Places library actually loaded (disabled projects omit it) */
+      if (!(window as any).google.maps.places) return reject();
       MAPS_LOADED.current = true;
       return resolve();
     }
@@ -326,8 +328,13 @@ function loadGoogleMaps(apiKey: string): Promise<void> {
 
     const cbName = `_gmcb_${Date.now()}`;
     (window as any)[cbName] = () => {
-      MAPS_LOADED.current = true;
       delete (window as any)[cbName];
+      /* Verify Places library is available — disabled API projects load the
+         JS shell but omit the Places library entirely */
+      if (!(window as any).google?.maps?.places) {
+        return reject();
+      }
+      MAPS_LOADED.current = true;
       resolve();
     };
     const script = document.createElement("script");
@@ -374,37 +381,48 @@ export default function InstantEstimator({
   const addressInputRef = useRef<HTMLInputElement>(null);
   const autocompleteRef = useRef<any>(null);
   const modalRef = useRef<HTMLDivElement>(null);
+  const [mapsApiFailed, setMapsApiFailed] = useState(false);
 
 
   /* ── Google Places Autocomplete (when API key present) ── */
-  const hasMapsKey = !!mapsApiKey;
+  const hasMapsKey = !!mapsApiKey && !mapsApiFailed;
   useEffect(() => {
-    if (state.step !== 2 || !isOpen || !hasMapsKey) return;
-    loadGoogleMaps(mapsApiKey).then(() => {
-      if (!addressInputRef.current || autocompleteRef.current) return;
-      const ac = new (window as any).google.maps.places.Autocomplete(
-        addressInputRef.current,
-        {
-          types: ["address"],
-          componentRestrictions: { country: "us" },
-          fields: ["formatted_address", "geometry"],
+    if (state.step !== 2 || !isOpen || !mapsApiKey || mapsApiFailed) return;
+    loadGoogleMaps(mapsApiKey)
+      .then(() => {
+        if (!addressInputRef.current || autocompleteRef.current) return;
+        try {
+          const ac = new (window as any).google.maps.places.Autocomplete(
+            addressInputRef.current,
+            {
+              types: ["address"],
+              componentRestrictions: { country: "us" },
+              fields: ["formatted_address", "geometry"],
+            }
+          );
+          ac.addListener("place_changed", () => {
+            const place = ac.getPlace();
+            if (place?.geometry?.location) {
+              setState((s) => ({
+                ...s,
+                address: place.formatted_address || "",
+                formattedAddress: place.formatted_address || "",
+                lat: place.geometry.location.lat(),
+                lng: place.geometry.location.lng(),
+              }));
+            }
+          });
+          autocompleteRef.current = ac;
+        } catch {
+          /* Places API disabled or project suspended — fall back to manual entry */
+          setMapsApiFailed(true);
         }
-      );
-      ac.addListener("place_changed", () => {
-        const place = ac.getPlace();
-        if (place?.geometry?.location) {
-          setState((s) => ({
-            ...s,
-            address: place.formatted_address || "",
-            formattedAddress: place.formatted_address || "",
-            lat: place.geometry.location.lat(),
-            lng: place.geometry.location.lng(),
-          }));
-        }
+      })
+      .catch(() => {
+        /* Google Maps failed to load — fall back to manual entry */
+        setMapsApiFailed(true);
       });
-      autocompleteRef.current = ac;
-    });
-  }, [state.step, isOpen, mapsApiKey, hasMapsKey]);
+  }, [state.step, isOpen, mapsApiKey, mapsApiFailed]);
 
   /* ── Escape key ─────────────────────────────────────── */
   useEffect(() => {
