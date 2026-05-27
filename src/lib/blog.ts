@@ -126,6 +126,21 @@ export function getRelatedPosts(slug: string): BlogIndex[] {
   return idx.filter((p) => slugSet.has(p.slug));
 }
 
+/** Extract first image URL and alt text from post content for schema */
+export function extractFirstImage(content: string): { url: string; alt: string } | null {
+  const match = content.match(/<img[^>]+src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>/i)
+    || content.match(/<img[^>]+alt="([^"]*)"[^>]*src="([^"]+)"[^>]*>/i);
+  if (!match) return null;
+  // First pattern: src is group 1, alt is group 2
+  // Second pattern: alt is group 1, src is group 2
+  const src = match[0].match(/src="([^"]+)"/)?.[1] || "";
+  const alt = match[0].match(/alt="([^"]+)"/)?.[1] || "";
+  if (!src) return null;
+  // Normalize URL
+  const url = src.startsWith("http") ? src : `https://www.getyourbucksworth.com${src}`;
+  return { url, alt };
+}
+
 /** Extract FAQ Q&A pairs from post content for FAQ schema */
 export function extractFaqPairs(content: string): { question: string; answer: string }[] {
   const pairs: { question: string; answer: string }[] = [];
