@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate, getCanonicalTarget, getRelatedPosts } from "@/lib/blog";
+import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate, getCanonicalTarget, getRelatedPosts, extractFaqPairs } from "@/lib/blog";
 
 interface BlogPostProps {
   params: Promise<{ slug: string }>;
@@ -73,12 +73,33 @@ export default async function BlogPost({ params }: BlogPostProps) {
     mainEntityOfPage: `https://www.getyourbucksworth.com/blog/${slug}`,
   };
 
+  // FAQ schema — extract Q&A pairs from content
+  const faqPairs = extractFaqPairs(post.content);
+  const faqSchema = faqPairs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqPairs.map((pair) => ({
+      "@type": "Question",
+      name: pair.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: pair.answer,
+      },
+    })),
+  } : null;
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <main id="main-content">
         <article className="blog-article">
           <div className="blog-article-header">
