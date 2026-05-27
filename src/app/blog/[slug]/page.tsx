@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate, getCanonicalTarget, getRelatedPosts, extractFaqPairs } from "@/lib/blog";
+import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate, getCanonicalTarget, getRelatedPosts, extractFaqPairs, extractFirstImage } from "@/lib/blog";
 
 interface BlogPostProps {
   params: Promise<{ slug: string }>;
@@ -22,6 +22,8 @@ export async function generateMetadata({
   const title = stripHtml(post.title);
   const description = stripHtml(post.excerpt).slice(0, 155);
   const canonicalTarget = getCanonicalTarget(slug);
+  const firstImage = extractFirstImage(post.content);
+  const ogImage = firstImage?.url || "https://www.getyourbucksworth.com/images/bucksworth-mascot-clean.jpg";
 
   return {
     title: `${title} | Bucksworth Blog`,
@@ -37,6 +39,7 @@ export async function generateMetadata({
       type: "article",
       publishedTime: post.date,
       modifiedTime: post.modified,
+      images: [{ url: ogImage, alt: firstImage?.alt || title }],
     },
   };
 }
@@ -49,12 +52,26 @@ export default async function BlogPost({ params }: BlogPostProps) {
   const title = stripHtml(post.title);
 
   // Article schema — author is Jordan Moore
+  const articleImage = extractFirstImage(post.content);
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
     datePublished: post.date,
     dateModified: post.modified,
+    ...(articleImage ? {
+      image: {
+        "@type": "ImageObject",
+        url: articleImage.url,
+        caption: articleImage.alt,
+      },
+    } : {
+      image: {
+        "@type": "ImageObject",
+        url: "https://www.getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
+        caption: "Bucksworth Home Services",
+      },
+    }),
     author: {
       "@type": "Person",
       name: "Jordan Moore",
