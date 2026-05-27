@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://getyourbucksworth.com",
+    canonical: "https://www.getyourbucksworth.com",
   },
   other: {
     "google-site-verification": "",
