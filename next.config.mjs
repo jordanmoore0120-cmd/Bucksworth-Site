@@ -43,22 +43,31 @@ const nextConfig = {
         // Legacy page redirects
         { source: "/contact", destination: "/request-service", permanent: true },
         { source: "/careers", destination: "/about", permanent: true },
-        // Existing redirects
-        { source: "/phoenix/pest-control", destination: "/phoenix-az", permanent: true },
-        { source: "/phoenix/hvac-services/residential/ac-services/repair", destination: "/phoenix-az", permanent: true },
-        { source: "/phoenix/hvac-services/residential", destination: "/phoenix-az", permanent: true },
-        { source: "/phoenix/pest-control/rodent-control", destination: "/phoenix-az", permanent: true },
-        { source: "/centipede-pest-control", destination: "/", permanent: true },
-        { source: "/bed-bug-pest-control", destination: "/", permanent: true },
-        { source: "/silverfish-pest-control", destination: "/", permanent: true },
-        { source: "/phoenix/refrigeration/walk-in-coolers-freezers", destination: "/phoenix-az", permanent: true },
-        { source: "/phoenix/hvac-services/indoor-air-quality/carbon-monoxide-detection", destination: "/phoenix-az", permanent: true },
-        { source: "/phoenix/refrigeration/ice-machines", destination: "/phoenix-az", permanent: true },
-        { source: "/amana", destination: "/", permanent: true },
-        { source: "/bee-pest-control", destination: "/", permanent: true },
-        { source: "/day-night", destination: "/", permanent: true },
-        { source: "/accessibility-statement", destination: "/", permanent: true },
-        { source: "/bird-pest-control", destination: "/", permanent: true },
+        // Old /phoenix/ service pages → specific new pages (fixed: was generic /phoenix-az)
+        { source: "/phoenix/pest-control", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/phoenix/pest-control/rodent-control", destination: "/phoenix-az/pest-and-termite/rodent-exclusion", permanent: true },
+        { source: "/phoenix/hvac-services/residential", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/phoenix/hvac-services/residential/ac-services/repair", destination: "/phoenix-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/phoenix/refrigeration/walk-in-coolers-freezers", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/phoenix/refrigeration/ice-machines", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/phoenix/hvac-services/indoor-air-quality/carbon-monoxide-detection", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        // Old /phoenix/ pages that were 404 → now redirected
+        { source: "/phoenix/lawn-weed-control", destination: "/phoenix-az/weed-and-lawn-care", permanent: true },
+        { source: "/phoenix/plumbing", destination: "/phoenix-az/plumbing-and-water-heaters", permanent: true },
+        // Old generic pest pages → specific pest page
+        { source: "/centipede-pest-control", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/bed-bug-pest-control", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/silverfish-pest-control", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/bee-pest-control", destination: "/phoenix-az/pest-and-termite/bee-wasp-removal", permanent: true },
+        { source: "/bird-pest-control", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        // Old misc pages
+        { source: "/company", destination: "/about", permanent: true },
+        { source: "/amana", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/day-night", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/accessibility-statement", destination: "/about", permanent: true },
+        // Old city-specific pages that were 404
+        { source: "/pest-control-peoria-az", destination: "/peoria-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-apache-junction-az", destination: "/apache-junction-az/pest-and-termite", permanent: true },
         // Phase 2: Old WordPress service page redirects (top broken internal link targets)
         { source: "/pest-control-az", destination: "/phoenix-az/pest-and-termite", permanent: true },
         { source: "/air-conditioning-maintenance", destination: "/phoenix-az/air-conditioning-and-heating/ac-maintenance", permanent: true },
