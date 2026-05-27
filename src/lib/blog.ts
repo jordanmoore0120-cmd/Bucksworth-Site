@@ -126,6 +126,37 @@ export function getRelatedPosts(slug: string): BlogIndex[] {
   return idx.filter((p) => slugSet.has(p.slug));
 }
 
+/** Extract FAQ Q&A pairs from post content for FAQ schema */
+export function extractFaqPairs(content: string): { question: string; answer: string }[] {
+  const pairs: { question: string; answer: string }[] = [];
+  const stripTags = (s: string) => s.replace(/<[^>]+>/g, "").replace(/&[^;]+;/g, " ").replace(/\s+/g, " ").trim();
+
+  // Pattern 1: <h3>Question</h3> <p>Answer</p>
+  const h3Pattern = /<h3[^>]*>(.*?)<\/h3>\s*<p>([\s\S]*?)(?=<h[23]|<\/div|$)/gi;
+  let match;
+  while ((match = h3Pattern.exec(content)) !== null) {
+    const q = stripTags(match[1]);
+    const a = stripTags(match[2]);
+    if (q.length > 10 && a.length > 20 && (q.includes("?") || q.toLowerCase().startsWith("how") || q.toLowerCase().startsWith("what") || q.toLowerCase().startsWith("why") || q.toLowerCase().startsWith("do") || q.toLowerCase().startsWith("can") || q.toLowerCase().startsWith("is") || q.toLowerCase().startsWith("will") || q.toLowerCase().startsWith("are"))) {
+      pairs.push({ question: q, answer: a.slice(0, 500) });
+    }
+  }
+
+  // Pattern 2: <strong>Q: Question</strong> ... A: Answer
+  if (pairs.length === 0) {
+    const qPattern = /<strong>Q:\s*(.*?)<\/strong>[\s\S]*?A:\s*([\s\S]*?)(?=<strong>Q:|<h[23]|<\/div|$)/gi;
+    while ((match = qPattern.exec(content)) !== null) {
+      const q = stripTags(match[1]);
+      const a = stripTags(match[2]);
+      if (q.length > 10 && a.length > 20) {
+        pairs.push({ question: q, answer: a.slice(0, 500) });
+      }
+    }
+  }
+
+  return pairs.slice(0, 10); // Max 10 FAQ items
+}
+
 /** Strip HTML tags from string */
 export function stripHtml(html: string): string {
   return html.replace(/<[^>]+>/g, "").replace(/&[^;]+;/g, " ").trim();
