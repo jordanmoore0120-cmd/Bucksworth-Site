@@ -38,9 +38,13 @@ export async function generateMetadata({ params }: ServiceHubProps): Promise<Met
   if (!city || !service) return {};
 
   const phone = getPhoneForBranch(city.branch);
+  const isAJ = citySlug === "apache-junction-az";
+  const metaDescription = isAJ
+    ? `${service.name} in ${city.name}, AZ — headquartered locally at 2073 W Houston Ave. ${service.tagline}. Same-day service, free inspections. Call ${phone}.`
+    : `${service.name} in ${city.name}, AZ. ${service.tagline}. Same-day service, free inspections. Call ${phone}.`;
   return {
     title: `${service.name} in ${city.name}, AZ | Bucksworth`,
-    description: `${service.name} in ${city.name}, AZ. ${service.tagline}. Same-day service, free inspections. Call ${phone}.`,
+    description: metaDescription,
     alternates: { canonical: `https://www.getyourbucksworth.com/${citySlug}/${svcSlug}` },
   };
 }
@@ -250,7 +254,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
           <div className="svc-hub-hero-content">
             <p className="city-hero-eyebrow">{city.branch === "phoenix" ? "Phoenix Metro" : "Tucson Metro"} &bull; {city.county} County</p>
             <h1>{service.name} in <span>{city.name}, Arizona</span></h1>
-            <p>{service.tagline}. Bucksworth Home Services provides professional {service.name.toLowerCase()} for homes and businesses throughout {city.name} and the greater {metro} metro area. Licensed, insured, and Google Guaranteed.</p>
+            <p>{service.tagline}. Bucksworth Home Services provides professional {service.name.toLowerCase()} for homes and businesses throughout {city.name} and the greater {metro} metro area.{city.slug === "apache-junction-az" ? " Headquartered right here in Apache Junction." : ""} Licensed, insured, and Google Guaranteed.</p>
             <div className="city-hero-cta" style={{ marginTop: "20px" }}>
               <a href={`tel:${phoneRaw}`} className="btn-call" aria-label={`Call Bucksworth at ${phone}`}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.72 11.72 0 003.66.59 1 1 0 011 1v3.59a1 1 0 01-1 1A17 17 0 013 4.92a1 1 0 011-1h3.59a1 1 0 011 1 11.72 11.72 0 00.59 3.66 1 1 0 01-.24 1.01l-2.2 2.2z" /></svg>
@@ -373,6 +377,24 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
               </div>
               <p>
                 No matter where you are in {city.name} ({city.zipCodes.join(", ")}), we provide the same fast, professional service. Our technicians know {city.name}&apos;s neighborhoods and the specific {service.name.toLowerCase()} challenges each area faces.
+              </p>
+            </div>
+          </section>
+        )}
+
+        {/* ── LOCAL HEADQUARTERS (Apache Junction only) ── */}
+        {city.slug === "apache-junction-az" && (
+          <section className="svc-hub-content" style={{ background: "var(--g50)" }}>
+            <div className="svc-hub-content-inner">
+              <h2>Headquartered Right Here in Apache Junction</h2>
+              <p>
+                Unlike other companies that serve Apache Junction from miles away, <strong>Bucksworth Home Services is headquartered at 2073 W Houston Ave, Suite 101, Apache Junction, AZ 85120</strong>. When you call us, you are calling your neighbors. Our technicians live in the 85118, 85119, and 85120 zip codes, and we know the unique {service.name.toLowerCase()} challenges that come with living at the base of the Superstition Mountains.
+              </p>
+              <p>
+                Because our main office is in Apache Junction, we offer the fastest response times in the area — often arriving same-day for {service.name.toLowerCase()} calls. We have been serving the Superstition Foothills, Gold Canyon, Apache Trail corridor, and surrounding communities since 2013, and our 4.9-star rating with nearly 2,000 reviews from the Apache Junction area speaks for itself.
+              </p>
+              <p>
+                <strong>Call your local team directly: <a href="tel:+14804228388">(480) 422-8388</a></strong>
               </p>
             </div>
           </section>
