@@ -75,9 +75,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: {
-    canonical: "https://www.getyourbucksworth.com",
-  },
+
   other: {
     "google-site-verification": "",
   },
