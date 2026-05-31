@@ -112,6 +112,7 @@ const nextConfig = {
         { source: "/pest-control-chandler-az", destination: "/chandler-az/pest-and-termite", permanent: true },
         { source: "/pest-control-surprise-az", destination: "/surprise-az/pest-and-termite", permanent: true },
         { source: "/pest-control-sun-city-az", destination: "/sun-city-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-marana-az", destination: "/marana-az/pest-and-termite", permanent: true },
         { source: "/plumbing-phoenix", destination: "/phoenix-az/plumbing-and-water-heaters", permanent: true },
         { source: "/insulation-services", destination: "/phoenix-az/air-conditioning-and-heating/attic-insulation", permanent: true },
     ];
