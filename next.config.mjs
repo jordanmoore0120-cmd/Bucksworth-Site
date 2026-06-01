@@ -68,6 +68,7 @@ const nextConfig = {
         // Old city-specific pages that were 404
         { source: "/pest-control-peoria-az", destination: "/peoria-az/pest-and-termite", permanent: true },
         { source: "/pest-control-apache-junction-az", destination: "/apache-junction-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-apache-junction", destination: "/apache-junction-az/pest-and-termite", permanent: true },
         // Phase 2: Old WordPress service page redirects (top broken internal link targets)
         { source: "/pest-control-az", destination: "/phoenix-az/pest-and-termite", permanent: true },
         { source: "/air-conditioning-maintenance", destination: "/phoenix-az/air-conditioning-and-heating/ac-maintenance", permanent: true },
@@ -110,6 +111,7 @@ const nextConfig = {
         { source: "/phoenix-air-conditioning-maintenance", destination: "/phoenix-az/air-conditioning-and-heating/ac-maintenance", permanent: true },
         { source: "/apache-junction-pest-control", destination: "/apache-junction-az/pest-and-termite", permanent: true },
         { source: "/pest-control-chandler-az", destination: "/chandler-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-chandler", destination: "/chandler-az/pest-and-termite", permanent: true },
         { source: "/pest-control-surprise-az", destination: "/surprise-az/pest-and-termite", permanent: true },
         { source: "/pest-control-sun-city-az", destination: "/sun-city-az/pest-and-termite", permanent: true },
         { source: "/pest-control-marana-az", destination: "/marana-az/pest-and-termite", permanent: true },
