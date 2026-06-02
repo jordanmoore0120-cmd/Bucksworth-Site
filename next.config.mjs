@@ -103,6 +103,8 @@ const nextConfig = {
         { source: "/emergency-plumbing-tempe", destination: "/tempe-az/plumbing-and-water-heaters", permanent: true },
         { source: "/pest-control-mesa-az", destination: "/mesa-az/pest-and-termite", permanent: true },
         { source: "/gilbert-pest-control", destination: "/gilbert-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-gilbert-az", destination: "/gilbert-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-gilbert", destination: "/gilbert-az/pest-and-termite", permanent: true },
         { source: "/pest-control-tucson-az", destination: "/tucson-az/pest-and-termite", permanent: true },
         { source: "/mesa-pest-control", destination: "/mesa-az/pest-and-termite", permanent: true },
         { source: "/queen-creek-pest-control", destination: "/queen-creek-az/pest-and-termite", permanent: true },
