@@ -1,5 +1,5 @@
 # Bucksworth Home Services — www.getyourbucksworth.com
-# Last updated: 2026-05-23
+# Last updated: 2026-06-03
 
 User-agent: *
 Allow: /
@@ -35,3 +35,4 @@ User-agent: OAI-SearchBot
 Allow: /
 
 Sitemap: https://www.getyourbucksworth.com/sitemap.xml
+Sitemap: https://www.getyourbucksworth.com/llms.txt

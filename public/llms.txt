@@ -1,79 +1,108 @@
 # Bucksworth Home Services
 
-> Arizona's trusted home services company providing pest control, air conditioning, heating, plumbing, water heaters, weed control, and lawn care across Phoenix and Tucson metro areas. Family-owned since 2013. AZ ROC #343924. Google Guaranteed.
+> Arizona's trusted home services company providing pest control, air conditioning, heating, plumbing, water heaters, weed control, and lawn care across 33 cities in the Phoenix and Tucson metro areas. Family-owned since 2013 by Jordan and Taylor Moore. AZ ROC #343924. Google Guaranteed. 4.84 stars from 2,000+ Google reviews.
 
-## Company Overview
+Bucksworth Home Services serves residential customers across the Phoenix and Tucson metro areas with pest and termite control, air conditioning and heating, plumbing and water heaters, and weed and lawn care. We offer same-day service, free inspections, and a satisfaction guarantee on all work.
 
-Bucksworth Home Services is a family-owned home services company founded in 2013 by Jordan and Taylor Moore, serving 33 cities across Phoenix and Tucson, Arizona. We specialize in pest and termite control, air conditioning and heating, plumbing and water heaters, and weed and lawn care.
-
-- Phone (Phoenix): (480) 422-8388
-- Phone (Tucson): (520) 284-9930
+- Phoenix phone: (480) 422-8388
+- Tucson phone: (520) 284-9930
 - Website: https://www.getyourbucksworth.com
-- Service Area: Phoenix Metro (24 cities), Tucson Metro (9 cities)
-- Licenses: AZ ROC #343924, AG License #9613
-- Reviews: 4.84 stars, 2,000+ Google reviews, 100% reply rate
+- Headquarters: 2073 W Houston Ave Suite 101, Apache Junction, AZ 85120
+- Tucson Office: 3430 E Sunrise Dr Suite 180, Tucson, AZ 85718
+- Licenses: AZ ROC #343924, Agriculture License #9613
+- Founded: 2013
+- Reviews: 4.84 stars, 2,000+ Google reviews
+
+## Core Pages
+
+- [Home](https://www.getyourbucksworth.com/): Main landing page for Bucksworth Home Services
+- [About Us](https://www.getyourbucksworth.com/about): Company history, mission, and team
+- [Reviews](https://www.getyourbucksworth.com/reviews): Customer reviews and testimonials
+- [Request Service](https://www.getyourbucksworth.com/request-service): Schedule a service appointment
+- [Instant Estimate](https://www.getyourbucksworth.com/instant-estimate): Get an instant price estimate
+- [Termite Warranty](https://www.getyourbucksworth.com/termite-warranty): Register your termite warranty
+- [Blog](https://www.getyourbucksworth.com/blog): Home services guides, tips, and local advice
 
 ## Services
 
-### Pest & Termite Control
-- Scorpion Control
-- Termite Treatment
-- Termite Warranty Registration
-- Roach Elimination
-- Ant Control
-- Spider Prevention
-- Rodent Exclusion
-- Bed Bug Treatment
-- Mosquito Control
-- Bee & Wasp Removal
+- [Pest & Termite Control](https://www.getyourbucksworth.com/phoenix-az/pest-and-termite): Pest & Termite Control services across all Phoenix metro cities
+- [Air Conditioning & Heating](https://www.getyourbucksworth.com/phoenix-az/air-conditioning-and-heating): Air Conditioning & Heating services across all Phoenix metro cities
+- [Plumbing & Water Heaters](https://www.getyourbucksworth.com/phoenix-az/plumbing-and-water-heaters): Plumbing & Water Heaters services across all Phoenix metro cities
+- [Weed & Lawn Care](https://www.getyourbucksworth.com/phoenix-az/weed-and-lawn-care): Weed & Lawn Care services across all Phoenix metro cities
 
-### Air Conditioning & Heating
-- AC Repair (same-day emergency service)
-- AC Installation (financing available)
-- AC Maintenance
-- Heating Repair
-- Ductwork
-- Mini Split Systems
-- Smart Thermostat Installation
-- Indoor Air Quality
-- Attic Insulation
-- Spray Foam Insulation
-- Radiant Barrier
+## Phoenix Metro Service Areas (24 Cities)
 
-### Plumbing & Water Heaters
-- Water Heater Installation (tank & tankless)
-- Water Heater Repair
-- Leak Detection & Repair
-- Drain Cleaning
-- Sewer Line Services
-- Re-Piping
-- Fixture Installation
-- Water Softener
-- Gas Line Services
+- [Ahwatukee, AZ](https://www.getyourbucksworth.com/ahwatukee-az): Home services in Ahwatukee
+- [Anthem, AZ](https://www.getyourbucksworth.com/anthem-az): Home services in Anthem
+- [Apache Junction, AZ](https://www.getyourbucksworth.com/apache-junction-az): Home services in Apache Junction
+- [Buckeye, AZ](https://www.getyourbucksworth.com/buckeye-az): Home services in Buckeye
+- [Chandler, AZ](https://www.getyourbucksworth.com/chandler-az): Home services in Chandler
+- [El Mirage, AZ](https://www.getyourbucksworth.com/el-mirage-az): Home services in El Mirage
+- [Fountain Hills, AZ](https://www.getyourbucksworth.com/fountain-hills-az): Home services in Fountain Hills
+- [Gilbert, AZ](https://www.getyourbucksworth.com/gilbert-az): Home services in Gilbert
+- [Glendale, AZ](https://www.getyourbucksworth.com/glendale-az): Home services in Glendale
+- [Goodyear, AZ](https://www.getyourbucksworth.com/goodyear-az): Home services in Goodyear
+- [Laveen, AZ](https://www.getyourbucksworth.com/laveen-az): Home services in Laveen
+- [Litchfield Park, AZ](https://www.getyourbucksworth.com/litchfield-park-az): Home services in Litchfield Park
+- [Maricopa, AZ](https://www.getyourbucksworth.com/maricopa-az): Home services in Maricopa
+- [Mesa, AZ](https://www.getyourbucksworth.com/mesa-az): Home services in Mesa
+- [Paradise Valley, AZ](https://www.getyourbucksworth.com/paradise-valley-az): Home services in Paradise Valley
+- [Peoria, AZ](https://www.getyourbucksworth.com/peoria-az): Home services in Peoria
+- [Phoenix, AZ](https://www.getyourbucksworth.com/phoenix-az): Home services in Phoenix
+- [Queen Creek, AZ](https://www.getyourbucksworth.com/queen-creek-az): Home services in Queen Creek
+- [San Tan Valley, AZ](https://www.getyourbucksworth.com/san-tan-valley-az): Home services in San Tan Valley
+- [Scottsdale, AZ](https://www.getyourbucksworth.com/scottsdale-az): Home services in Scottsdale
+- [Sun City, AZ](https://www.getyourbucksworth.com/sun-city-az): Home services in Sun City
+- [Surprise, AZ](https://www.getyourbucksworth.com/surprise-az): Home services in Surprise
+- [Tempe, AZ](https://www.getyourbucksworth.com/tempe-az): Home services in Tempe
+- [Tolleson, AZ](https://www.getyourbucksworth.com/tolleson-az): Home services in Tolleson
 
-### Weed & Lawn Care
-- Pre-Emergent Weed Control
-- Post-Emergent Weed Treatment
-- Gravel & Rock Yard Maintenance
-- Lawn Fertilization
-- Bermuda Grass Control
-- Overseeding
-- Weed & Feed Program
+## Tucson Metro Service Areas (9 Cities)
 
-## Service Areas
+- [Catalina Foothills, AZ](https://www.getyourbucksworth.com/catalina-foothills-az): Home services in Catalina Foothills
+- [Casas Adobes, AZ](https://www.getyourbucksworth.com/casas-adobes-az): Home services in Casas Adobes
+- [Marana, AZ](https://www.getyourbucksworth.com/marana-az): Home services in Marana
+- [Oro Valley, AZ](https://www.getyourbucksworth.com/oro-valley-az): Home services in Oro Valley
+- [Sahuarita, AZ](https://www.getyourbucksworth.com/sahuarita-az): Home services in Sahuarita
+- [South Tucson, AZ](https://www.getyourbucksworth.com/south-tucson-az): Home services in South Tucson
+- [Tanque Verde, AZ](https://www.getyourbucksworth.com/tanque-verde-az): Home services in Tanque Verde
+- [Tucson, AZ](https://www.getyourbucksworth.com/tucson-az): Home services in Tucson
+- [Vail, AZ](https://www.getyourbucksworth.com/vail-az): Home services in Vail
 
-### Phoenix Metro (24 Cities)
-Ahwatukee, Anthem, Apache Junction, Buckeye, Chandler, El Mirage, Fountain Hills, Gilbert, Glendale, Goodyear, Laveen, Litchfield Park, Maricopa, Mesa, Paradise Valley, Peoria, Phoenix, Queen Creek, San Tan Valley, Scottsdale, Sun City, Surprise, Tempe, Tolleson
+## Recent Blog Posts
 
-### Tucson Metro (9 Cities)
-Catalina Foothills, Casas Adobes, Marana, Oro Valley, Sahuarita, South Tucson, Tanque Verde, Tucson, Vail
+- [Sewer Line Cleaning Near Anthem Community Park: Expert Plumbing for Anthem Homes](https://www.getyourbucksworth.com/blog/sewer-line-cleaning-near-anthem-community-park-expert-plumbing-for-anthem-homes): Expert drain cleaning services in Anthem, AZ. Serving Anthem Merrill Ranch and the 85086 area. Call 
+- [Why Bermuda Grass Keeps Coming Back in Anthem — What Anthem Country Club Residents Should Know](https://www.getyourbucksworth.com/blog/why-bermuda-grass-keeps-coming-back-in-anthem-what-anthem-country-club-residents): Expert bermuda grass control services in Anthem, AZ. Serving Anthem Country Club and the 85086 area.
+- [Coolidge Bermuda Grass Control: Protecting Your 85128 Area Gravel Yard](https://www.getyourbucksworth.com/blog/coolidge-bermuda-grass-control-protecting-your-85128-area-gravel-yard): Expert bermuda grass control services in Coolidge, AZ. Serving Coolidge Historic District and the 85
+- [Bermuda Grass Invasion in Florence? Professional Control for Historic Downtown Florence Yards](https://www.getyourbucksworth.com/blog/bermuda-grass-invasion-in-florence-professional-control-for-historic-downtown-fl): Expert bermuda grass control services in Florence, AZ. Serving Historic Downtown Florence and the 85
+- [The Fountain Hills Homeowner's Guide to Sewer Lines — Advice for Eagle Mountain](https://www.getyourbucksworth.com/blog/the-fountain-hills-homeowners-guide-to-sewer-lines-advice-for-eagle-mountain): Expert sewer line services services in Fountain Hills, AZ. Serving Eagle Mountain and the 85268 area
+- [Why Scorpions Love Gilbert Homes (And How to Stop Them) — A Guide for Morrison Ranch](https://www.getyourbucksworth.com/blog/why-scorpions-love-gilbert-homes-and-how-to-stop-them-a-guide-for-morrison-ranch): Expert scorpion control services in Gilbert, AZ. Serving Morrison Ranch and the 85234 area. Call Buc
+- [Ductwork Services in Gold Canyon: Why Mountainbrook Village Homes Need Professional Inspection](https://www.getyourbucksworth.com/blog/ductwork-services-in-gold-canyon-why-mountainbrook-village-homes-need-profession): Expert ductwork services in Gold Canyon, AZ. Serving Mountainbrook Village and the 85118 area. Call 
+- [Getting Rid of Bermuda Grass in Green Valley — A Continental Ranch Homeowner's Guide](https://www.getyourbucksworth.com/blog/getting-rid-of-bermuda-grass-in-green-valley-a-continental-ranch-homeowners-guid): Expert bermuda grass control services in Green Valley, AZ. Serving Continental Ranch and the 85622 a
+- [Laveen Scorpion Control: A Complete Guide for Laveen Meadows Residents](https://www.getyourbucksworth.com/blog/laveen-scorpion-control-a-complete-guide-for-laveen-meadows-residents): Expert scorpion control services in Laveen, AZ. Serving Laveen Meadows and the 85339 area. Call Buck
+- [The Hidden Cost of Bad Ductwork in Mesa — What Lehi Residents Should Know](https://www.getyourbucksworth.com/blog/the-hidden-cost-of-bad-ductwork-in-mesa-what-lehi-residents-should-know): Expert ductwork services in Mesa, AZ. Serving Lehi and the 85208 area. Call Bucksworth Home Services
+- [Peoria Sewer Line Repair: Solutions for 85345 Area Homeowners](https://www.getyourbucksworth.com/blog/peoria-sewer-line-repair-solutions-for-85345-area-homeowners): Expert sewer line services services in Peoria, AZ. Serving Vistancia and the 85345 area. Call Bucksw
+- [Professional Lawn Fertilization in Queen Creek: Building Stronger Cortina Turf](https://www.getyourbucksworth.com/blog/professional-lawn-fertilization-in-queen-creek-building-stronger-cortina-turf): Expert lawn fertilization services in Queen Creek, AZ. Serving Cortina and the 85140 area. Call Buck
+- [Sahuarita Scorpion Prevention — What Every Madera Highlands Family Should Know](https://www.getyourbucksworth.com/blog/sahuarita-scorpion-prevention-what-every-madera-highlands-family-should-know): Expert scorpion control services in Sahuarita, AZ. Serving Madera Highlands and the 85629 area. Call
+- [Why Scorpions Love San Tan Valley Homes (And How to Stop Them) — A Guide for Bella Via](https://www.getyourbucksworth.com/blog/why-scorpions-love-san-tan-valley-homes-and-how-to-stop-them-a-guide-for-bella-v): Expert scorpion control services in San Tan Valley, AZ. Serving Bella Via and the 85140 area. Call B
+- [Bermuda Grass Control in Surprise: Why Surprise Farms Homeowners Are Fighting a Losing Battle Without Help](https://www.getyourbucksworth.com/blog/bermuda-grass-control-in-surprise-why-surprise-farms-homeowners-are-fighting-a-l): Expert bermuda grass control services in Surprise, AZ. Serving Surprise Farms and the 85379 area. Ca
+- [How to Keep Scorpions Out of Your Tucson Home Near Tucson Mountains](https://www.getyourbucksworth.com/blog/how-to-keep-scorpions-out-of-your-tucson-home-near-tucson-mountains): Expert scorpion control services in Tucson, AZ. Serving Marana area and the 85705 area. Call Buckswo
+- [Fountain Hills Scorpion Control: A Complete Guide for Eagle Mountain Residents](https://www.getyourbucksworth.com/blog/fountain-hills-scorpion-control-a-complete-guide-for-eagle-mountain-residents): Expert scorpion control services in Fountain Hills, AZ. Serving Eagle Mountain and the 85268 area. C
+- [The Hidden Cost of Bad Ductwork in Phoenix — What Ahwatukee Foothills Residents Should Know](https://www.getyourbucksworth.com/blog/the-hidden-cost-of-bad-ductwork-in-phoenix-what-ahwatukee-foothills-residents-sh): Expert ductwork services in Phoenix, AZ. Serving Ahwatukee Foothills and the 85086 area. Call Bucksw
+- [The Coolidge Scorpion Season Is Here: Protecting Your Home in Coolidge Historic District](https://www.getyourbucksworth.com/blog/the-coolidge-scorpion-season-is-here-protecting-your-home-in-coolidge-historic-d): Expert scorpion control services in Coolidge, AZ. Serving Coolidge Historic District and the 85128 a
+- [Scorpion-Proofing Your Oro Valley Home: Expert Strategies for Rancho Vistoso](https://www.getyourbucksworth.com/blog/scorpion-proofing-your-oro-valley-home-expert-strategies-for-rancho-vistoso): Expert scorpion control services in Oro Valley, AZ. Serving Rancho Vistoso and the 85755 area. Call 
+- [Catalina Foothills Scorpion Prevention — What Every Ventana Canyon Family Should Know](https://www.getyourbucksworth.com/blog/catalina-foothills-scorpion-prevention-what-every-ventana-canyon-family-should-k): Expert scorpion control services in Catalina Foothills, AZ. Serving Ventana Canyon and the 85718 are
+- [Why Scorpions Love Buckeye Homes (And How to Stop Them) — A Guide for Sienna Hills](https://www.getyourbucksworth.com/blog/why-scorpions-love-buckeye-homes-and-how-to-stop-them-a-guide-for-sienna-hills): Expert scorpion control services in Buckeye, AZ. Serving Sienna Hills and the 85396 area. Call Bucks
+- [Scorpion Control in Surprise: What Surprise Farms Homeowners Need to Know This Summer](https://www.getyourbucksworth.com/blog/scorpion-control-in-surprise-what-surprise-farms-homeowners-need-to-know-this-su): Expert scorpion control services in Surprise, AZ. Serving Surprise Farms and the 85374 area. Call Bu
+- [How to Keep Scorpions Out of Your Red Rock Home Near Saguaro National Park West](https://www.getyourbucksworth.com/blog/how-to-keep-scorpions-out-of-your-red-rock-home-near-saguaro-national-park-west): Expert scorpion control services in Red Rock, AZ. Serving Picture Rocks and the 85745 area. Call Buc
+- [Phoenix Scorpion Control: A Complete Guide for Downtown Residents](https://www.getyourbucksworth.com/blog/phoenix-scorpion-control-a-complete-guide-for-downtown-residents): Expert scorpion control services in Phoenix, AZ. Serving Downtown and the 85008 area. Call Buckswort
+- [Bark Scorpions in Scottsdale — Why 85255 Homes Need Professional Treatment](https://www.getyourbucksworth.com/blog/bark-scorpions-in-scottsdale-why-85255-homes-need-professional-treatment): Expert scorpion control services in Scottsdale, AZ. Serving McDowell Mountain Ranch and the 85255 ar
+- [The Maricopa Scorpion Season Is Here: Protecting Your Home in Glennwilde](https://www.getyourbucksworth.com/blog/the-maricopa-scorpion-season-is-here-protecting-your-home-in-glennwilde): Expert scorpion control services in Maricopa, AZ. Serving Glennwilde and the 85138 area. Call Bucksw
+- [Scorpion-Proofing Your Marana Home: Expert Strategies for Dove Mountain](https://www.getyourbucksworth.com/blog/scorpion-proofing-your-marana-home-expert-strategies-for-dove-mountain): Expert scorpion control services in Marana, AZ. Serving Dove Mountain and the 85658 area. Call Bucks
+- [Apache Junction Scorpion Prevention — What Every Superstition Foothills Family Should Know](https://www.getyourbucksworth.com/blog/apache-junction-scorpion-prevention-what-every-superstition-foothills-family-sho): Expert scorpion control services in Apache Junction, AZ. Serving Superstition Foothills and the 8511
+- [Why Scorpions Love Anthem Homes (And How to Stop Them) — A Guide for Anthem Parkside](https://www.getyourbucksworth.com/blog/why-scorpions-love-anthem-homes-and-how-to-stop-them-a-guide-for-anthem-parkside): Expert scorpion control services in Anthem, AZ. Serving Anthem Parkside and the 85086 area. Call Buc
 
-## Key Differentiators
-- Family-owned and operated since 2013
-- Google Guaranteed badge
-- Same-day and emergency service available
-- Free inspections and estimates
-- Licensed, bonded, and insured
-- NATE-certified HVAC technicians
-- Satisfaction guarantee on all work
-- Financing available for major installations
+## Optional
+
+- [Full Blog Archive](https://www.getyourbucksworth.com/blog): All 2021 blog posts covering pest control, HVAC, plumbing, and lawn care across 33 Arizona cities
+- [Sitemap](https://www.getyourbucksworth.com/sitemap.xml): Complete XML sitemap of all pages
