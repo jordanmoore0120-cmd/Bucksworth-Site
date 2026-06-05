@@ -296,7 +296,7 @@ export const SERVICES: ServiceVertical[] = [
         name: "Drain Cleaning",
         slug: "drain-cleaning",
         icon: "drain",
-        shortDesc: "Hydro jetting & drain snake services",
+        shortDesc: "Clogged drain? Same-day hydro jetting & drain clearing — call now",
         longDesc:
           "Slow drains, clogs, and sewer backups require professional clearing. We use motorized drain snakes for simple clogs and hydro jetting (4,000 PSI) for stubborn blockages, grease buildup, and root intrusion in main sewer lines.",
       },
