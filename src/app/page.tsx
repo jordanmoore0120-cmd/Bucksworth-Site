@@ -1,5 +1,6 @@
 import { Metadata } from "next";
-import HomeClient from "@/components/HomeClient";
+import HomeContent from "@/components/HomeContent";
+import HomeScripts from "@/components/HomeScripts";
 
 export const metadata: Metadata = {
   alternates: {
@@ -182,7 +183,10 @@ export default function HomePage() {
           __html: JSON.stringify(websiteSchema),
         }}
       />
-      <HomeClient />
+      <>
+        <HomeContent />
+        <HomeScripts />
+      </>
     </>
   );
 }

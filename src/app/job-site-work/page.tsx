@@ -1,3 +1,4 @@
+import "@/styles/job-site-work.css";
 import type { Metadata } from "next";
 import JobSiteClient from "./JobSiteClient";
 

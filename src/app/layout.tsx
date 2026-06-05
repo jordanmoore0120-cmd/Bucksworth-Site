@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
 import "@/styles/site.css";
-import "@/styles/job-site-work.css";
-import "@/styles/instant-estimator.css";
 import { Oswald } from "next/font/google";
 import WebMCPTools from "@/components/WebMCPTools";
 import Header from "@/components/Header";
@@ -245,6 +243,12 @@ export default function RootLayout({
           rel="preload"
           as="image"
           href="/images/bucksworth-mascot-clean.jpg"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/images/hp_img_1.jpg"
+          fetchPriority="high"
         />
         {/* Organization JSON-LD */}
         <script

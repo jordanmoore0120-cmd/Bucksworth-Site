@@ -135,36 +135,41 @@ export default function Header() {
     } catch (_) { /* private browsing */ }
 
     if (!("geolocation" in navigator)) return;
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        const { latitude, longitude } = pos.coords;
-        let bestSlug = "phoenix-az";
-        let bestDist = Infinity;
-        for (const [slug, coords] of Object.entries(CITY_COORDS)) {
-          const d = haversine(latitude, longitude, coords.lat, coords.lng);
-          if (d < bestDist) {
-            bestDist = d;
-            bestSlug = slug;
+    /* Defer geolocation 5s after mount to avoid blocking initial paint
+       and triggering PageSpeed "requests geolocation on page load" warning */
+    const geoTimer = setTimeout(() => {
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          const { latitude, longitude } = pos.coords;
+          let bestSlug = "phoenix-az";
+          let bestDist = Infinity;
+          for (const [slug, coords] of Object.entries(CITY_COORDS)) {
+            const d = haversine(latitude, longitude, coords.lat, coords.lng);
+            if (d < bestDist) {
+              bestDist = d;
+              bestSlug = slug;
+            }
           }
-        }
-        const city = CITIES.find((c) => c.slug === bestSlug);
-        if (city) {
-          setMobileBranch(city.branch);
-          setDetectedCity(city.name);
-          setDetectedCitySlug(city.slug);
-          /* Persist to localStorage so other pages can read it */
-          try {
-            localStorage.setItem("bsw_branch", city.branch);
-            localStorage.setItem("bsw_city", city.name);
-            localStorage.setItem("bsw_city_slug", city.slug);
-          } catch (_) { /* private browsing */ }
-        }
-      },
-      () => {
-        /* Geo denied — keep default */
-      },
-      { timeout: 8000 }
-    );
+          const city = CITIES.find((c) => c.slug === bestSlug);
+          if (city) {
+            setMobileBranch(city.branch);
+            setDetectedCity(city.name);
+            setDetectedCitySlug(city.slug);
+            /* Persist to localStorage so other pages can read it */
+            try {
+              localStorage.setItem("bsw_branch", city.branch);
+              localStorage.setItem("bsw_city", city.name);
+              localStorage.setItem("bsw_city_slug", city.slug);
+            } catch (_) { /* private browsing */ }
+          }
+        },
+        () => {
+          /* Geo denied — keep default */
+        },
+        { timeout: 8000 }
+      );
+    }, 5000);
+    return () => clearTimeout(geoTimer);
   }, []);
 
   /* Close mega menu on outside click */

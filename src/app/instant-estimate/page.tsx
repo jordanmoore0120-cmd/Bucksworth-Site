@@ -1,3 +1,4 @@
+import "@/styles/instant-estimator.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
