@@ -1326,7 +1326,7 @@ img { max-width: 100%; height: auto; }
 }
 .zip-area {
   font-size: 0.7rem;
-  color: #aaa;
+  color: #b0b0b0;
   margin-top: 2px;
   text-align: center;
 }
@@ -2798,4 +2798,17 @@ img { max-width: 100%; height: auto; }
 }
 .rs-branch-change-link:hover {
   color: #fff;
+}
+
+/* Accessibility: touch targets min 44x44 */
+@media (pointer: coarse) {
+  a, button, [role="button"], input, select, textarea {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  .nav-link, .footer a, .social-link {
+    padding: 8px 12px;
+    display: inline-flex;
+    align-items: center;
+  }
 }

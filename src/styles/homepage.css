@@ -19,7 +19,7 @@ body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:
 .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,156,0,.15);border:1px solid rgba(255,156,0,.4);padding:6px 16px;border-radius:4px;font-size:13px;color:var(--orange);font-weight:600;letter-spacing:.5px;text-transform:uppercase;margin-bottom:20px}
 .hero h1{font-family:'Oswald',sans-serif;font-size:48px;font-weight:700;line-height:1.05;margin-bottom:16px;letter-spacing:1px;text-transform:uppercase}
 .hero h1 .orange{color:var(--orange)}
-.hero .tagline{font-size:17px;color:rgba(255,255,255,.75);margin-bottom:28px;line-height:1.6}
+.hero .tagline{font-size:17px;color:rgba(255,255,255,.88);margin-bottom:28px;line-height:1.6}
 
 /* ZIP SELECTOR - the key ABC-inspired feature */
 .zip-selector{background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.2);border-radius:12px;padding:24px;margin-bottom:28px}
@@ -29,11 +29,11 @@ body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:
 .zip-input::placeholder{color:var(--g500)}
 .zip-btn{background:var(--red);color:white;border:none;padding:14px 28px;border-radius:8px;font-family:'Oswald',sans-serif;font-size:16px;font-weight:700;text-transform:uppercase;letter-spacing:1px;cursor:pointer;white-space:nowrap}
 .zip-btn:hover{background:var(--red-light)}
-.zip-or{text-align:center;font-size:13px;color:rgba(255,255,255,.5);margin:12px 0;text-transform:uppercase;letter-spacing:1px}
+.zip-or{text-align:center;font-size:13px;color:rgba(255,255,255,.85);margin:12px 0;text-transform:uppercase;letter-spacing:1px}
 .city-quick-links{display:flex;flex-wrap:wrap;gap:6px}
-.city-quick{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:5px 12px;border-radius:5px;font-size:12px;color:rgba(255,255,255,.7);text-decoration:none;font-weight:500;transition:all .2s}
+.city-quick{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:5px 12px;border-radius:5px;font-size:12px;color:rgba(255,255,255,.85);text-decoration:none;font-weight:500;transition:all .2s}
 .city-quick:hover{background:rgba(255,255,255,.15);color:white;border-color:rgba(255,255,255,.3)}
-.hero-proof{display:flex;gap:20px;font-size:13px;color:rgba(255,255,255,.6)}
+.hero-proof{display:flex;gap:20px;font-size:13px;color:rgba(255,255,255,.85)}
 .hero-proof span{display:flex;align-items:center;gap:6px}
 .hero-proof .check{color:var(--orange);font-size:16px}
 
@@ -130,7 +130,7 @@ body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:
 .emergency-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(212,25,44,.2);border:1px solid rgba(212,25,44,.5);color:var(--red-light);padding:6px 16px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px}
 .emergency h2{font-family:'Oswald',sans-serif;color:var(--white);font-size:38px;font-weight:700;margin-bottom:8px;text-transform:uppercase}
 .emergency h2 .orange{color:var(--orange)}
-.emergency p{color:rgba(255,255,255,.7);font-size:15px;max-width:500px}
+.emergency p{color:rgba(255,255,255,.85);font-size:15px;max-width:500px}
 .btn-emergency{background:var(--red);color:white;padding:18px 36px;border-radius:6px;font-family:'Oswald',sans-serif;font-size:20px;font-weight:700;text-decoration:none;text-transform:uppercase;letter-spacing:1px;white-space:nowrap}
 .btn-emergency:hover{background:var(--red-light)}
 
@@ -182,7 +182,7 @@ body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:
 .footer{background:var(--navy-dark);color:rgba(255,255,255,.6);padding:40px 0 20px;font-size:13px}
 .footer-grid{display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:32px}
 .footer h4,.footer-heading{color:white;font-family:'Oswald',sans-serif;font-size:15px;text-transform:uppercase;letter-spacing:1px;margin-bottom:16px}
-.footer a{color:rgba(255,255,255,.6);text-decoration:none;display:block;padding:3px 0}.footer a:hover{color:var(--orange)}
+.footer a{color:rgba(255,255,255,.6);text-decoration:none;display:block;padding:8px 0;min-height:44px;display:flex;align-items:center}.footer a:hover{color:var(--orange)}
 .footer ul{list-style:none}.footer li{padding:3px 0}
 .footer-logo{max-width:200px;margin-bottom:12px}
 .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;display:flex;justify-content:space-between;align-items:center}
@@ -191,7 +191,7 @@ body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:
 .zip-result{display:none;background:var(--white);border:2px solid var(--red);border-radius:8px;padding:14px 20px;margin-top:12px;color:var(--g900);font-size:14px;font-weight:500;box-shadow:0 4px 20px rgba(0,0,0,.2)}
 .zip-result a{color:var(--red);font-weight:700;text-decoration:none;font-size:15px}
 .zip-result.show{display:block}
-.zip-no-match{display:none;margin-top:8px;font-size:13px;color:rgba(255,255,255,.7)}
+.zip-no-match{display:none;margin-top:8px;font-size:13px;color:rgba(255,255,255,.85)}
 .zip-no-match.show{display:block}
 
 @media(max-width:968px){
@@ -351,7 +351,18 @@ html, body { overflow-x: hidden; }
 .nav-phone { font-weight: 700; }
 .mega-city-link { display: inline-block; padding: 3px 8px; margin: 2px; border-radius: 4px; font-size: 0.85rem; }
 .mega-city-link:hover { background: rgba(255,156,0,0.15); }
-.mega-city-link[data-branch="tuc"] { color: #B26900; }
+.mega-city-link[data-branch="tuc"] { color: #7A4800; }
 .mobile-city-link { display: block; padding: 8px 0; border-bottom: 1px solid #eee; }
-.mobile-city-link[data-branch="tuc"] { color: #B26900; }
+.mobile-city-link[data-branch="tuc"] { color: #7A4800; }
 .mobile-nav-phone-main { display: block; text-align: center; padding: 12px; background: var(--red); color: #fff; border-radius: 8px; font-weight: 700; text-decoration: none; margin-bottom: 12px; }
+
+/* Accessibility: link distinguishability */
+.services-grid a:not(.btn-red):not(.btn-orange),
+.areas-section a:not(.city-quick),
+.emergency a:not(.btn-red):not(.btn-orange),
+.reviews-section a,
+.footer-cta a:not(.btn-red):not(.btn-orange) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}

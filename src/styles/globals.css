@@ -8,6 +8,7 @@ body {
   background: #fff;
 }
 a { color: inherit; text-decoration: none; }
+main a:not([class]), main p a, main li a, article a { text-decoration: underline; text-underline-offset: 2px; }
 img { max-width: 100%; height: auto; }
 
 /* Skip to main content — accessibility */
