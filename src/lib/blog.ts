@@ -169,6 +169,23 @@ export function extractFaqPairs(content: string): { question: string; answer: st
     }
   }
 
+  // Pattern 3: FAQ section with <strong>Question?</strong><br />Answer inside <p> tags
+  // Common in older Marblism/WP posts where FAQs use bold questions instead of h3 headings
+  if (pairs.length === 0) {
+    const faqSectionMatch = content.match(/Frequently\s+Asked\s+Questions[^<]*<\/h2>([\s\S]*?)(?=<h2|<\/div class|$)/i);
+    if (faqSectionMatch) {
+      const faqSection = faqSectionMatch[1];
+      const strongQPattern = /<p>\s*<strong>(.*?)<\/strong>\s*(?:<br\s*\/?>)?\s*([\s\S]*?)<\/p>/gi;
+      while ((match = strongQPattern.exec(faqSection)) !== null) {
+        const q = stripTags(match[1]);
+        const a = stripTags(match[2]);
+        if (q.length > 10 && a.length > 20 && q.includes("?")) {
+          pairs.push({ question: q, answer: a.slice(0, 500) });
+        }
+      }
+    }
+  }
+
   return pairs.slice(0, 10); // Max 10 FAQ items
 }
 
