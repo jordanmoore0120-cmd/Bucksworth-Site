@@ -16,7 +16,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://getyourbucksworth.com"),
+  metadataBase: new URL("https://www.getyourbucksworth.com"),
   title: {
     default:
       "Pest Control, HVAC & Plumbing | Bucksworth Home Services — Phoenix & Tucson AZ",
