@@ -5,6 +5,17 @@ import { getAllPostsMeta } from "@/lib/blog";
 
 const BASE = "https://www.getyourbucksworth.com";
 
+/** Ensure date string has timezone for valid sitemap lastmod */
+function normalizeDate(d: string): string {
+  if (!d) return new Date().toISOString();
+  // Already has timezone (Z or +/- offset) → valid
+  if (d.endsWith("Z") || /[+-]\d{2}:\d{2}$/.test(d)) return d;
+  // Has time component but no timezone → append Z (UTC)
+  if (d.includes("T")) return d + "Z";
+  // Date-only (YYYY-MM-DD) → valid per W3C
+  return d;
+}
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date().toISOString();
   const entries: MetadataRoute.Sitemap = [];
@@ -80,7 +91,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const post of blogPosts) {
     entries.push({
       url: `${BASE}/blog/${post.slug}`,
-      lastModified: post.modified,
+      lastModified: normalizeDate(post.modified),
       changeFrequency: "monthly",
       priority: 0.5,
     });

@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
       : "pest control & weed control";
 
   return {
-    title: `${city.name} ${svcList} | Bucksworth`,
+    title: `${city.name} ${svcList}`,
     description: `Bucksworth Home Services in ${city.name}, AZ — ${svcList}. Same-day service, free inspections. Call ${phone}.`,
     alternates: { canonical: `https://www.getyourbucksworth.com/${slug}` },
   };

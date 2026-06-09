@@ -26,7 +26,7 @@ export async function generateMetadata({
   const ogImage = firstImage?.url || "https://www.getyourbucksworth.com/images/bucksworth-mascot-clean.jpg";
 
   return {
-    title: `${title} | Bucksworth Blog`,
+    title: title,
     description,
     alternates: {
       canonical: canonicalTarget
