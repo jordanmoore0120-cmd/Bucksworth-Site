@@ -58,7 +58,7 @@ export async function generateMetadata({
 
   const phone = getPhoneForBranch(city.branch);
   return {
-    title: `${sub.name} in ${city.name}, AZ | Bucksworth`,
+    title: `${sub.name} in ${city.name}, AZ`,
     description: `${sub.name} in ${city.name}, AZ. ${sub.shortDesc} Same-day service. Call ${phone}.`,
     alternates: {
       canonical: `https://www.getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}`,
