@@ -220,8 +220,9 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
       geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
       areaServed: [{ "@type": "City", name: city.name }, { "@type": "State", name: "Arizona" }],
       priceRange: "$$",
-      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.8", reviewCount: "2000" },
+      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.84", reviewCount: "2000", bestRating: "5" },
     },
+    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.84", reviewCount: "2000", bestRating: "5" },
     areaServed: { "@type": "City", name: city.name },
     serviceType: service.name,
     hasOfferCatalog: {
