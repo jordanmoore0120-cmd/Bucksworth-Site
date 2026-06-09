@@ -23,20 +23,16 @@ export default function FAQAccordion({
   return (
     <section className="faq-section">
       <h2 className="faq-heading">{title}</h2>
-      <div className="faq-list" itemScope itemType="https://schema.org/FAQPage">
+      <div className="faq-list">
         {faqs.map((faq, i) => (
           <div
             key={i}
             className={`faq-item ${openIdx === i ? "faq-item--open" : ""}`}
-            itemScope
-            itemProp="mainEntity"
-            itemType="https://schema.org/Question"
           >
             <button
               className="faq-question"
               onClick={() => setOpenIdx(openIdx === i ? null : i)}
               aria-expanded={openIdx === i}
-              itemProp="name"
             >
               {faq.q}
               <svg
@@ -53,13 +49,8 @@ export default function FAQAccordion({
               </svg>
             </button>
             {openIdx === i && (
-              <div
-                className="faq-answer"
-                itemScope
-                itemProp="acceptedAnswer"
-                itemType="https://schema.org/Answer"
-              >
-                <p itemProp="text">{faq.a}</p>
+              <div className="faq-answer">
+                <p>{faq.a}</p>
               </div>
             )}
           </div>
