@@ -124,6 +124,9 @@ const nextConfig = {
         { source: "/weed-control-marana-az", destination: "/marana-az/weed-and-lawn-care", permanent: true },
         { source: "/plumbing-phoenix", destination: "/phoenix-az/plumbing-and-water-heaters", permanent: true },
         { source: "/insulation-services", destination: "/phoenix-az/air-conditioning-and-heating/attic-insulation", permanent: true },
+        // Homepage broken internal links (old WordPress URLs)
+        { source: "/termite-warranty-registration", destination: "/termite-warranty", permanent: true },
+        { source: "/termite-treatment-phoenix-az", destination: "/phoenix-az/pest-and-termite/termite-treatment", permanent: true },
 
         // ── City slugs without -az suffix → canonical -az slugs ──
         { source: "/apache-junction", destination: "/apache-junction-az", permanent: true },
