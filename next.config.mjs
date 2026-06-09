@@ -35,6 +35,10 @@ const nextConfig = {
   },
   async redirects() {
     return [
+        // Old WordPress sitemap redirects → new sitemap.xml
+        { source: "/sitemap_index.xml", destination: "/sitemap.xml", permanent: true },
+        { source: "/page-sitemap.xml", destination: "/sitemap.xml", permanent: true },
+        { source: "/post-sitemap.xml", destination: "/sitemap.xml", permanent: true },
         // Service root URL redirects (Footer links)
         { source: "/pest-and-termite", destination: "/phoenix-az/pest-and-termite", permanent: true },
         { source: "/air-conditioning-and-heating", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
