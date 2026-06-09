@@ -127,6 +127,16 @@ const nextConfig = {
         // Homepage broken internal links (old WordPress URLs)
         { source: "/termite-warranty-registration", destination: "/termite-warranty", permanent: true },
         { source: "/termite-treatment-phoenix-az", destination: "/phoenix-az/pest-and-termite/termite-treatment", permanent: true },
+        // Remaining broken internal links (full site crawl Jun 9)
+        { source: "/financing", destination: "/request-service", permanent: true },
+        { source: "/pest-control-phoenix-az", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/phoenix/air-conditioning", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/phoenix/duct-work", destination: "/phoenix-az/air-conditioning-and-heating/ductwork", permanent: true },
+        { source: "/phoenix/heating", destination: "/phoenix-az/air-conditioning-and-heating/heating-repair", permanent: true },
+        { source: "/phoenix/insulation", destination: "/phoenix-az/air-conditioning-and-heating/attic-insulation", permanent: true },
+        { source: "/phoenix/plumbing-services", destination: "/phoenix-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/phoenix/water-heater", destination: "/phoenix-az/plumbing-and-water-heaters/water-heater-repair", permanent: true },
+        { source: "/terms", destination: "/about", permanent: true },
 
         // ── City slugs without -az suffix → canonical -az slugs ──
         { source: "/apache-junction", destination: "/apache-junction-az", permanent: true },
