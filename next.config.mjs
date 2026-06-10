@@ -42,6 +42,7 @@ const nextConfig = {
         // Service root URL redirects (Footer links)
         { source: "/pest-and-termite", destination: "/phoenix-az/pest-and-termite", permanent: true },
         { source: "/air-conditioning-and-heating", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/air-conditioning", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         { source: "/plumbing-and-water-heaters", destination: "/phoenix-az/plumbing-and-water-heaters", permanent: true },
         { source: "/weed-and-lawn-care", destination: "/phoenix-az/weed-and-lawn-care", permanent: true },
         // Legacy page redirects

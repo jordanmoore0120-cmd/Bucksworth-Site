@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Customer Reviews | Bucksworth Home Services | 4.8★ Rating",
+  title: "Customer Reviews | 4.8-Star Rating",
   description:
     "Read what Arizona homeowners say about Bucksworth Home Services. 4.8-star rating across 2,000+ reviews. Google Guaranteed pest control, HVAC, plumbing, and weed control.",
   alternates: { canonical: "https://www.getyourbucksworth.com/reviews" },

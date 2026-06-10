@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getPosts, getCategories, stripHtml, formatDate } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog | Pest Control, HVAC & Home Tips | Bucksworth Home Services",
+  title: "Blog | Pest Control, HVAC & Home Tips",
   description:
     "Expert home services tips from Bucksworth. Read about pest control, AC maintenance, plumbing, and weed control specific to Arizona homes across Phoenix and Tucson.",
   alternates: { canonical: "https://www.getyourbucksworth.com/blog" },
