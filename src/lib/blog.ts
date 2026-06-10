@@ -80,6 +80,9 @@ export function getPosts(
     all = all.filter((p) => p.categorySlugs.includes(categorySlug));
   }
 
+  // Sort newest-first so the blog listing always shows latest posts on page 1
+  all = [...all].sort((a, b) => b.date.localeCompare(a.date));
+
   const total = all.length;
   const totalPages = Math.ceil(total / perPage);
   const start = (page - 1) * perPage;
