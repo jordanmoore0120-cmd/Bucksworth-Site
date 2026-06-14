@@ -105,6 +105,17 @@ export default async function BlogPost({ params }: BlogPostProps) {
     })),
   } : null;
 
+  // BreadcrumbList schema — matches visual breadcrumbs
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.getyourbucksworth.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.getyourbucksworth.com/blog" },
+      { "@type": "ListItem", position: 3, name: title, item: `https://www.getyourbucksworth.com/blog/${slug}` },
+    ],
+  };
+
   return (
     <>
       <script
@@ -117,6 +128,10 @@ export default async function BlogPost({ params }: BlogPostProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <main id="main-content">
         <article className="blog-article">
           <div className="blog-article-header">
