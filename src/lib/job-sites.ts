@@ -84,6 +84,20 @@ export const JOB_SITES: JobSite[] = [
     description: "Home seal for bark scorpions. Sealed gaps around doors, windows, and utility penetrations. Full exterior barrier with residual product. Customer had 12 scorpions in one week before treatment — zero after.",
     photo: "/images/photos/tech-spraying-early.jpg", date: "2026-01-28",
   },
+  {
+    id: "p9", lat: 33.4255, lng: -111.7399, category: "pest",
+    neighborhood: "Queen Creek", city: "Phoenix",
+    title: "Peak Season Scorpion Barrier — Block Wall Dust Injection",
+    description: "June scorpion season treatment: H-block dust injection with Defense Dust throughout rear block wall perimeter, Defense Dust in garage door thresholds (front and back), full exterior barrier spray. Customer had 6 scorpions in two weeks — zero since treatment.",
+    photo: "/images/photos/tech-spraying-detail.jpg", date: "2026-06-10",
+  },
+  {
+    id: "p10", lat: 33.3062, lng: -111.9295, category: "pest",
+    neighborhood: "Gilbert", city: "Phoenix",
+    title: "Monsoon Prep — Mosquito & Scorpion Combo",
+    description: "Pre-monsoon treatment package: scorpion perimeter barrier, yard baiting for scorpion prey insects, and mosquito fogging of standing water zones. Homeowner prepared for July monsoon season with full property protection.",
+    photo: "/images/photos/tech-backyard-service.jpg", date: "2026-06-12",
+  },
 
   // ─── AC & HEATING ───
   {
@@ -120,6 +134,13 @@ export const JOB_SITES: JobSite[] = [
     title: "Mini-Split Installation",
     description: "Installed Daikin 3-zone mini-split system in 1960s block home with no existing ductwork. Each zone independently controlled. Customer saving $180/mo vs window units.",
     photo: "/images/photos/tech-scene-wide.jpg", date: "2026-03-20",
+  },
+  {
+    id: "a6", lat: 33.4942, lng: -112.0758, category: "ac",
+    neighborhood: "North Phoenix", city: "Phoenix",
+    title: "Emergency AC Repair — 112°F Heat",
+    description: "Same-day emergency call: unit stopped cooling at 4pm in 112°F heat. Diagnosed failed contactor and low refrigerant. Replaced contactor, recharged to spec — home cooling within 25 minutes of arrival. Monsoon season capacitor inspection completed as part of service.",
+    photo: "/images/photos/ac-unit-arizona-backdrop.jpg", date: "2026-06-11",
   },
 
   // ─── PLUMBING ───
