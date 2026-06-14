@@ -74,6 +74,69 @@
 .city-cta h2 { font-size: 2rem; margin-bottom: 12px; }
 .city-cta p { font-size: 1.1rem; opacity: .85; margin-bottom: 28px; }
 
+/* ── Related Blog Posts ── */
+.related-posts-section {
+  padding: 48px 24px;
+  background: #fafafa;
+  border-top: 1px solid #eee;
+}
+.related-posts-intro {
+  text-align: center;
+  color: #666;
+  margin-bottom: 32px;
+  font-size: 1.05rem;
+}
+.related-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.related-post-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 24px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow .2s, transform .15s;
+  display: flex;
+  flex-direction: column;
+}
+.related-post-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,.1);
+  transform: translateY(-2px);
+}
+.related-post-date {
+  font-size: .8rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  margin-bottom: 8px;
+}
+.related-post-card h3 {
+  font-size: 1.05rem;
+  line-height: 1.4;
+  color: #1a1a2e;
+  margin: 0 0 8px;
+}
+.related-post-excerpt {
+  font-size: .9rem;
+  color: #666;
+  line-height: 1.5;
+  flex: 1;
+}
+.related-post-link {
+  margin-top: 12px;
+  font-size: .9rem;
+  font-weight: 600;
+  color: #dc2626;
+}
+.related-post-card:hover .related-post-link {
+  text-decoration: underline;
+}
+
 /* Footer */
 .footer { background: #111; color: #ccc; padding: 48px 24px; }
 .footer-grid {

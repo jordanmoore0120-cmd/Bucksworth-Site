@@ -228,6 +228,49 @@ const nextConfig = {
         { source: "/marana/:path*", destination: "/marana-az/:path*", permanent: true },
         { source: "/oro-valley/:path*", destination: "/oro-valley-az/:path*", permanent: true },
 
+        // ── Priority SEO redirects — competitor-style flat URLs → silo structure ──
+        // Scorpion control (monsoon season 2026 — URGENT)
+        { source: "/scorpion-control-tucson-az", destination: "/tucson-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-marana-az", destination: "/marana-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-oro-valley-az", destination: "/oro-valley-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-phoenix-az", destination: "/phoenix-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-mesa-az", destination: "/mesa-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-gilbert-az", destination: "/gilbert-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-chandler-az", destination: "/chandler-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-scottsdale-az", destination: "/scottsdale-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-tempe-az", destination: "/tempe-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-goodyear-az", destination: "/goodyear-az/pest-and-termite/scorpion-control", permanent: true },
+        // Weed control
+        { source: "/weed-control-goodyear-az", destination: "/goodyear-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-tucson-az", destination: "/tucson-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-oro-valley-az", destination: "/oro-valley-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-phoenix-az", destination: "/phoenix-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-mesa-az", destination: "/mesa-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-gilbert-az", destination: "/gilbert-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-chandler-az", destination: "/chandler-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-scottsdale-az", destination: "/scottsdale-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-surprise-az", destination: "/surprise-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-buckeye-az", destination: "/buckeye-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-peoria-az", destination: "/peoria-az/weed-and-lawn-care", permanent: true },
+        // Pest control (additional cities not already covered)
+        { source: "/pest-control-oro-valley-az", destination: "/oro-valley-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-scottsdale-az", destination: "/scottsdale-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-goodyear-az", destination: "/goodyear-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-tempe-az", destination: "/tempe-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-buckeye-az", destination: "/buckeye-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-queen-creek-az", destination: "/queen-creek-az/pest-and-termite", permanent: true },
+        // Termite control
+        { source: "/termite-control-tucson-az", destination: "/tucson-az/pest-and-termite/termite-treatment", permanent: true },
+        { source: "/termite-control-marana-az", destination: "/marana-az/pest-and-termite/termite-treatment", permanent: true },
+        { source: "/termite-control-oro-valley-az", destination: "/oro-valley-az/pest-and-termite/termite-treatment", permanent: true },
+        // AC repair
+        { source: "/ac-repair-phoenix-az", destination: "/phoenix-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/ac-repair-mesa-az", destination: "/mesa-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/ac-repair-gilbert-az", destination: "/gilbert-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/ac-repair-chandler-az", destination: "/chandler-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/ac-repair-scottsdale-az", destination: "/scottsdale-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/ac-repair-goodyear-az", destination: "/goodyear-az/air-conditioning-and-heating/ac-repair", permanent: true },
+
         // ── Old WordPress standard pages ──
         { source: "/about-us", destination: "/about", permanent: true },
         { source: "/testimonials", destination: "/reviews", permanent: true },

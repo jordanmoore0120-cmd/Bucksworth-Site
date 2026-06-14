@@ -12,6 +12,8 @@ import CTASection from "@/components/CTASection";
 import CitySync from "@/components/CitySync";
 import NearbyCities from "@/components/NearbyCities";
 import OtherServices from "@/components/OtherServices";
+import RelatedPosts from "@/components/RelatedPosts";
+import { getRelatedBlogPostsForServiceHub } from "@/lib/blog-links";
 
 interface ServiceHubProps {
   params: Promise<{ city: string; service: string }>;
@@ -189,6 +191,9 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
   const phoneRaw = getPhoneForBranchRaw(city.branch);
   const neighborhoods = getNeighborhoods(city.slug);
   const metro = city.branch === "phoenix" ? "Phoenix" : "Tucson";
+
+  // Get related blog posts for internal cross-linking
+  const relatedPosts = getRelatedBlogPostsForServiceHub(citySlug, svcSlug, 6);
 
   const localFaqs = service.faqs.map((faq) => ({
     q: faq.q.includes(city.name) ? faq.q : faq.q.replace(/\?$/, ` in ${city.name}?`),
@@ -462,6 +467,13 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
             ))}
           </div>
         </section>
+
+        {/* ── RELATED BLOG POSTS ── */}
+        <RelatedPosts
+          posts={relatedPosts}
+          cityName={city.name}
+          serviceName={service.name}
+        />
 
         {/* ── OTHER SERVICES ── */}
         <OtherServices city={city} currentServiceSlug={service.slug} />

@@ -18,6 +18,8 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
+import RelatedPosts from "@/components/RelatedPosts";
+import { getRelatedBlogPosts } from "@/lib/blog-links";
 import CitySync from "@/components/CitySync";
 import OtherServices from "@/components/OtherServices";
 
@@ -99,6 +101,9 @@ export default async function SubServicePage({
 
   // FAQs
   const faqs = buildFaqs(sub.name, city.name, phone, service.name, branch);
+
+  // Get related blog posts for internal cross-linking
+  const relatedPosts = getRelatedBlogPosts(cSlug, ssSlug, sSlug, 4);
 
   // Schema.org Service
   const schema = {
@@ -235,6 +240,13 @@ export default async function SubServicePage({
 
       {/* FAQ */}
       <FAQAccordion faqs={faqs} title={`${sub.name} FAQ - ${city.name}`} />
+
+      {/* Related blog posts — internal cross-linking for SEO */}
+      <RelatedPosts
+        posts={relatedPosts}
+        cityName={city.name}
+        serviceName={sub.name}
+      />
 
       {/* Related services */}
       <section className="svc-cards-section">
