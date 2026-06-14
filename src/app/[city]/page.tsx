@@ -136,6 +136,7 @@ export default async function CityPage({ params }: CityPageProps) {
       closes: "18:00",
     }],
     parentOrganization: { "@id": "https://www.getyourbucksworth.com/#organization" },
+    dateModified: "2026-06-14",
   };
 
   // BreadcrumbList schema
@@ -338,7 +339,7 @@ export default async function CityPage({ params }: CityPageProps) {
 
           <h2>Arizona&apos;s Climate and Your {city.name} Home</h2>
           <p>
-            Arizona&apos;s extreme environment creates conditions that demand expert home services. Summer temperatures in {city.name} regularly exceed 110&deg;F, stressing HVAC systems that were designed for moderate climates. The monsoon season brings sudden moisture that can drive scorpions and termites indoors, cause plumbing backups from flash flooding, and overwhelm aging insulation. Winter temperature swings between day and night create expansion and contraction cycles that open cracks in foundations &mdash; entry points for pests and causes of plumbing leaks.
+            Arizona&apos;s extreme environment creates conditions that demand expert home services. June through August is Arizona&apos;s most demanding season — scorpion activity peaks, AC units run continuously in temperatures that regularly exceed 110&deg;F in {city.name}, and monsoon storms drive roaches, termites, and crickets indoors seeking shelter. Don&apos;t wait until you have a problem: same-day service is available now. Winter temperature swings between day and night create expansion and contraction cycles that open cracks in foundations &mdash; entry points for pests and causes of plumbing leaks.
           </p>
           <p>
             {nd.neighborhoods.length > 0 && (
