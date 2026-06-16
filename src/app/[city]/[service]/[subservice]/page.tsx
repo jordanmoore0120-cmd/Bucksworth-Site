@@ -13,6 +13,7 @@ import {
   getSubServiceBySlug,
 } from "@/lib/services";
 import { getNeighborhoods } from "@/lib/neighborhoods";
+import { getContentOverride } from "@/lib/content-overrides";
 import CityBar from "@/components/CityBar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
@@ -59,9 +60,10 @@ export async function generateMetadata({
   if (!city || !service || !sub) return {};
 
   const phone = getPhoneForBranch(city.branch);
+  const override = getContentOverride(cSlug, sSlug, ssSlug);
   return {
-    title: `${sub.name} in ${city.name}, AZ — Trusted Local Pros`,
-    description: `${sub.name} in ${city.name}, AZ. ${sub.shortDesc} Licensed & insured. Same-day service available. Call ${phone} for a free estimate.`,
+    title: override?.metaTitle ?? `${sub.name} in ${city.name}, AZ — Trusted Local Pros`,
+    description: override?.metaDescription ?? `${sub.name} in ${city.name}, AZ. ${sub.shortDesc} Licensed & insured. Same-day service available. Call ${phone} for a free estimate.`,
     alternates: {
       canonical: `https://www.getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}`,
     },
@@ -85,8 +87,11 @@ export default async function SubServicePage({
   // Get neighborhood data for hyper-local content
   const nd = getNeighborhoods(cSlug);
 
-  // Build contextual content blocks for 1200+ word target
-  const content = buildContent(sub.name, sub.longDesc, city.name, branch, city.county, phone, service.name, city.zipCodes, city.population, nd.neighborhoods, nd.landmarks);
+  // Check for content override (priority pages with 2000+ unique words)
+  const override = getContentOverride(cSlug, sSlug, ssSlug);
+
+  // Build contextual content blocks — use override if available, else default 1200+ word template
+  const content = override?.content ?? buildContent(sub.name, sub.longDesc, city.name, branch, city.county, phone, service.name, city.zipCodes, city.population, nd.neighborhoods, nd.landmarks);
 
   // Related sub-services (same vertical, excluding current)
   const relatedSubs = service.subServices.filter((s) => s.slug !== ssSlug);
@@ -99,8 +104,8 @@ export default async function SubServicePage({
       true
   );
 
-  // FAQs
-  const faqs = buildFaqs(sub.name, city.name, phone, service.name, branch);
+  // FAQs — use override if available
+  const faqs = override?.faqs ?? buildFaqs(sub.name, city.name, phone, service.name, branch);
 
   // Get related blog posts for internal cross-linking
   const relatedPosts = getRelatedBlogPosts(cSlug, ssSlug, sSlug, 4);
@@ -185,9 +190,13 @@ export default async function SubServicePage({
             {city.name}, Arizona &bull; {service.name}
           </p>
           <h1>
-            <span className="orange">{sub.name}</span> in {city.name}, AZ
+            {override?.heroHeadline ? (
+              <>{override.heroHeadline}</>
+            ) : (
+              <><span className="orange">{sub.name}</span> in {city.name}, AZ</>
+            )}
           </h1>
-          <p className="city-hero-desc">{sub.longDesc}</p>
+          <p className="city-hero-desc">{override?.heroDescription ?? sub.longDesc}</p>
           <div className="city-hero-badges">
             <span className="city-hero-badge">&#9733; 4.8 Stars</span>
             <span className="city-hero-badge">&#10003; Licensed &amp; Insured</span>

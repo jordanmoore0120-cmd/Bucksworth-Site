@@ -301,6 +301,37 @@ const nextConfig = {
         { source: "/coupons", destination: "/", permanent: true },
         { source: "/specials", destination: "/", permanent: true },
 
+        // ── Plumbing flat URL redirects (PHX metro) ──
+        { source: "/plumber-mesa-az", destination: "/mesa-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/plumber-chandler-az", destination: "/chandler-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/plumber-gilbert-az", destination: "/gilbert-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/plumber-scottsdale-az", destination: "/scottsdale-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/plumber-tempe-az", destination: "/tempe-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/plumber-goodyear-az", destination: "/goodyear-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/plumber-surprise-az", destination: "/surprise-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/plumber-peoria-az", destination: "/peoria-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/plumber-buckeye-az", destination: "/buckeye-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/plumber-phoenix-az", destination: "/phoenix-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/plumber-queen-creek-az", destination: "/queen-creek-az/plumbing-and-water-heaters", permanent: true },
+        // ── HVAC flat URL redirects (new cities) ──
+        { source: "/ac-repair-tempe-az", destination: "/tempe-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/ac-repair-surprise-az", destination: "/surprise-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/ac-repair-peoria-az", destination: "/peoria-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/ac-repair-buckeye-az", destination: "/buckeye-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/hvac-phoenix-az", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/hvac-mesa-az", destination: "/mesa-az/air-conditioning-and-heating", permanent: true },
+        { source: "/hvac-chandler-az", destination: "/chandler-az/air-conditioning-and-heating", permanent: true },
+        { source: "/hvac-gilbert-az", destination: "/gilbert-az/air-conditioning-and-heating", permanent: true },
+        { source: "/hvac-scottsdale-az", destination: "/scottsdale-az/air-conditioning-and-heating", permanent: true },
+        // ── Weed control additional cities ──
+        { source: "/weed-control-tempe-az", destination: "/tempe-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-queen-creek-az", destination: "/queen-creek-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-san-tan-valley-az", destination: "/san-tan-valley-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-litchfield-park-az", destination: "/litchfield-park-az/weed-and-lawn-care", permanent: true },
+        { source: "/weed-control-fountain-hills-az", destination: "/fountain-hills-az/weed-and-lawn-care", permanent: true },
+        // ── Pest control additional cities ──
+        { source: "/pest-control-fountain-hills-az", destination: "/fountain-hills-az/pest-and-termite", permanent: true },
+
         // ── Old WordPress service pages ──
         { source: "/pest-control-services", destination: "/phoenix-az/pest-and-termite", permanent: true },
         { source: "/hvac-services", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
