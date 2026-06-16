@@ -153,7 +153,7 @@ export const SERVICES: ServiceVertical[] = [
         name: "AC Repair",
         slug: "ac-repair",
         icon: "wrench",
-        shortDesc: "Same-day emergency AC repair service",
+        shortDesc: "Fast, same-day AC repair for all brands — 24/7 emergency service",
         longDesc:
           "When your AC goes out in Arizona summer, every minute matters. Our technicians diagnose and repair all makes and models \u2014 compressor failures, refrigerant leaks, capacitor replacements, fan motor issues, and thermostat problems. Same-day service available 7 days a week.",
       },
@@ -161,7 +161,7 @@ export const SERVICES: ServiceVertical[] = [
         name: "AC Installation",
         slug: "ac-installation",
         icon: "install",
-        shortDesc: "New system installation with financing",
+        shortDesc: "New AC systems installed by certified pros — free estimates & financing from $89/mo",
         longDesc:
           "We install high-efficiency air conditioning systems from Daikin, Trane, Carrier, and Goodman. Every installation includes a Manual J load calculation, proper ductwork evaluation, and manufacturer warranty registration. Financing options available with payments as low as $89/month.",
       },
@@ -169,7 +169,7 @@ export const SERVICES: ServiceVertical[] = [
         name: "AC Maintenance",
         slug: "ac-maintenance",
         icon: "maintenance",
-        shortDesc: "Bi-annual tune-ups to prevent breakdowns",
+        shortDesc: "Preventive AC tune-ups that extend system life 5-7 years & cut energy bills 20%",
         longDesc:
           "Our AC maintenance program includes coil cleaning, refrigerant level checks, electrical connection inspection, thermostat calibration, and filter replacement. Regular maintenance extends system life by 5-7 years and prevents 95% of emergency breakdowns.",
       },
@@ -177,7 +177,7 @@ export const SERVICES: ServiceVertical[] = [
         name: "Heating Repair",
         slug: "heating-repair",
         icon: "flame",
-        shortDesc: "Heat pump & furnace repair services",
+        shortDesc: "Expert heat pump & furnace repair — fast diagnostics, all brands serviced",
         longDesc:
           "Arizona winter nights can drop into the 30s. We repair heat pumps, gas furnaces, and electric heaters. Common issues include ignitor failures, heat exchanger cracks, blower motor problems, and thermostat malfunctions. Fast response when you need warmth.",
       },

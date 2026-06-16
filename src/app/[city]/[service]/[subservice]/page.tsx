@@ -60,7 +60,7 @@ export async function generateMetadata({
 
   const phone = getPhoneForBranch(city.branch);
   return {
-    title: `${sub.name} in ${city.name}, AZ`,
+    title: `${sub.name} in ${city.name}, AZ — Trusted Local Pros`,
     description: `${sub.name} in ${city.name}, AZ. ${sub.shortDesc} Licensed & insured. Same-day service available. Call ${phone} for a free estimate.`,
     alternates: {
       canonical: `https://www.getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}`,
