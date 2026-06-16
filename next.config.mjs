@@ -268,6 +268,12 @@ const nextConfig = {
         { source: "/pest-control-tempe-az", destination: "/tempe-az/pest-and-termite", permanent: true },
         { source: "/pest-control-buckeye-az", destination: "/buckeye-az/pest-and-termite", permanent: true },
         { source: "/pest-control-queen-creek-az", destination: "/queen-creek-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-queen-creek", destination: "/queen-creek-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-glendale-az", destination: "/glendale-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-glendale", destination: "/glendale-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-scottsdale", destination: "/scottsdale-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-tempe", destination: "/tempe-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-mesa", destination: "/mesa-az/pest-and-termite", permanent: true },
         // Termite control
         { source: "/termite-control-tucson-az", destination: "/tucson-az/pest-and-termite/termite-treatment", permanent: true },
         { source: "/termite-control-marana-az", destination: "/marana-az/pest-and-termite/termite-treatment", permanent: true },
@@ -279,6 +285,8 @@ const nextConfig = {
         { source: "/ac-repair-chandler-az", destination: "/chandler-az/air-conditioning-and-heating/ac-repair", permanent: true },
         { source: "/ac-repair-scottsdale-az", destination: "/scottsdale-az/air-conditioning-and-heating/ac-repair", permanent: true },
         { source: "/ac-repair-goodyear-az", destination: "/goodyear-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/hvac-repair", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/ac-repair", destination: "/phoenix-az/air-conditioning-and-heating/ac-repair", permanent: true },
 
         // ── Old WordPress standard pages ──
         { source: "/about-us", destination: "/about", permanent: true },
