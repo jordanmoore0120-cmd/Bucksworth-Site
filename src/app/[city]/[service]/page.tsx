@@ -394,7 +394,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
         )}
 
         {/* ── NEIGHBORHOODS WE SERVE ── */}
-        {neighborhoods.length > 0 && (
+        {nhoods.length > 0 && (
           <section className="svc-hub-content">
             <div className="svc-hub-content-inner">
               <h2>{service.name} for Every {city.name} Neighborhood</h2>
@@ -402,7 +402,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
                 Our {service.name.toLowerCase()} team serves every neighborhood and community in {city.name}, including:
               </p>
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "6px 16px", margin: "16px 0 20px" }}>
-                {neighborhoods.map((n) => (
+                {nhoods.map((n) => (
                   <span key={n.name} style={{ color: "var(--g700)", fontSize: "14px", padding: "4px 0" }}>&bull; {n.name}</span>
                 ))}
               </div>

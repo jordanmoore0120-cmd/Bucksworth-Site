@@ -1,30 +1,97 @@
 import { Metadata } from "next";
-import Link from "next/link";
 
-export const metadata: Metadata = {
-  title: "Customer Reviews | 4.8-Star Rating",
-  description:
-    "Read what Arizona homeowners say about Bucksworth Home Services. 4.8-star rating across 2,000+ reviews. Google Guaranteed pest control, HVAC, plumbing, and weed control.",
-  alternates: { canonical: "https://www.getyourbucksworth.com/reviews" },
-};
+/* ────────────────────────────────────────────────────────────────
+   LIVE GOOGLE REVIEWS
 
-/* ── Featured reviews pulled from GMB ── */
-const REVIEWS = [
-  { name: "Sarah M.", city: "Gilbert", stars: 5, service: "Pest Control", text: "Bucksworth has been our pest control company for over two years now. They are always on time, professional, and thorough. We had a serious scorpion problem when we first moved in and they eliminated it within two months. Highly recommend them to anyone in Gilbert or the East Valley.", date: "2026-03" },
-  { name: "Mike R.", city: "Chandler", stars: 5, service: "AC Repair", text: "Our AC went out on a Saturday afternoon in July when it was 115 degrees. Called Bucksworth and they had a tech at our house within 3 hours. Turned out to be a bad capacitor. He had the part on his truck and had us up and running in under an hour. Fair price, great service. Will use them for everything going forward.", date: "2026-02" },
-  { name: "Jennifer L.", city: "Phoenix", stars: 5, service: "Termite Treatment", text: "We discovered termite damage during a home inspection. Bucksworth came out the same day for a free inspection, explained everything clearly, and gave us a written quote on the spot. The Sentricon system they installed has been working perfectly. They come back every year for a re-inspection included in the warranty.", date: "2026-01" },
-  { name: "David T.", city: "Mesa", stars: 5, service: "Weed Control", text: "Finally found a weed control company that actually works. Our rock yard was overrun with spurge and puncturevine no matter how many times I pulled them. Bucksworth's pre-emergent program has kept the yard clean for six months straight. Worth every penny.", date: "2025-12" },
-  { name: "Amanda K.", city: "Scottsdale", stars: 5, service: "Plumbing", text: "Had a water heater that was on its last legs. The Bucksworth plumber came out, showed me exactly what was wrong, and gave me options for tank vs tankless. No pressure at all. Went with a tankless Rinnai and could not be happier. They handled the permit and everything.", date: "2025-11" },
-  { name: "Carlos G.", city: "Surprise", stars: 5, service: "Pest Control", text: "Best pest control in the West Valley. We switched from a big national company and the difference is night and day. Bucksworth actually inspects and treats thoroughly instead of just spraying and leaving. Our scorpion problem is gone.", date: "2025-10" },
-  { name: "Lisa W.", city: "Tempe", stars: 5, service: "AC Installation", text: "Bucksworth replaced our 20-year-old Trane with a new Daikin system. The install crew was professional, cleaned up everything, and the new system is incredibly efficient. Our summer electric bill dropped by almost $200 a month. Great experience from estimate to installation.", date: "2025-09" },
-  { name: "Robert H.", city: "Peoria", stars: 5, service: "Rodent Exclusion", text: "Pack rats were destroying wiring in our garage and engine compartments. Bucksworth sealed every entry point, set traps, and the problem has been completely resolved. They even came back a month later to check traps and re-inspect at no charge. That is how you earn customers for life.", date: "2025-08" },
-  { name: "Maria S.", city: "Goodyear", stars: 5, service: "Pest & Weed Bundle", text: "We have the pest and weed bundle and it is the best value in home services. One company handles everything, they come like clockwork every month, and our yard looks amazing. No scorpions, no weeds, no stress. Tell Jordan and Taylor they have built something special.", date: "2025-07" },
-  { name: "Tom B.", city: "Queen Creek", stars: 4, service: "Pest Control", text: "Good service overall. The technician was knowledgeable and thorough. Only reason for 4 stars instead of 5 is the scheduling window was a bit wide. But the actual service quality is top notch. They got rid of our cricket problem that two other companies could not solve.", date: "2025-06" },
-  { name: "Nicole F.", city: "Ahwatukee", stars: 5, service: "AC Maintenance", text: "Have been using Bucksworth for annual AC tune-ups for three years. They are consistent, thorough, and honest. Last visit the tech told me everything looked great and there was nothing additional needed. That kind of honesty is rare in this industry. Highly recommend.", date: "2025-05" },
-  { name: "James P.", city: "Buckeye", stars: 5, service: "Termite Warranty", text: "Bought a new construction home with a Bucksworth pre-treat warranty. The registration process was simple and they set us up with a pest and termite bundle at a great rate. Peace of mind knowing our investment is protected. The 3-year price guarantee is a nice touch too.", date: "2025-04" },
-];
+   This page shows REAL reviews pulled from your Google Business
+   Profile via the Google Places API (New). It only renders ratings,
+   counts, and review schema when that real data is available — so it
+   never claims numbers it can't back up.
 
-/* ── Reviews page schemas ── */
+   TO TURN IT ON, set two environment variables in Vercel:
+     • GOOGLE_PLACE_ID        – your Business Profile's Place ID
+                                 (find it: https://developers.google.com/maps/documentation/places/web-service/place-id)
+     • GOOGLE_PLACES_API_KEY  – a server key with "Places API (New)" ENABLED
+                                 (a separate, unrestricted server key is best;
+                                  if unset, falls back to NEXT_PUBLIC_GOOGLE_MAPS_KEY)
+
+   NOTE: Google's API returns up to ~5 featured reviews plus your true
+   overall rating and total count. To display hundreds of reviews you
+   need a third-party reviews widget/aggregator — the live total/rating
+   here will still be accurate.
+──────────────────────────────────────────────────────────────── */
+
+const PHONE_PHX = "(480) 422-8388";
+const PHONE_TUC = "(520) 284-9930";
+
+interface LiveReview {
+  author: string;
+  rating: number;
+  text: string;
+  when: string;
+  publishTime?: string;
+}
+interface ReviewsData {
+  rating: number;
+  total: number;
+  reviews: LiveReview[];
+}
+
+async function getGoogleReviews(): Promise<ReviewsData | null> {
+  const placeId = process.env.GOOGLE_PLACE_ID;
+  const key = process.env.GOOGLE_PLACES_API_KEY || process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
+  if (!placeId || !key) return null; // not configured → graceful fallback, no fake data
+
+  try {
+    const res = await fetch(`https://places.googleapis.com/v1/places/${placeId}`, {
+      headers: {
+        "X-Goog-Api-Key": key,
+        "X-Goog-FieldMask": "rating,userRatingCount,reviews",
+      },
+      next: { revalidate: 86400 }, // refresh once a day
+    });
+    if (!res.ok) {
+      console.error("Places API error:", res.status, await res.text());
+      return null;
+    }
+    const data = await res.json();
+    if (!data.rating || !data.userRatingCount) return null;
+
+    const reviews: LiveReview[] = (data.reviews || [])
+      .filter((r: { text?: { text?: string } }) => r.text?.text)
+      .map((r: {
+        rating?: number;
+        text?: { text?: string };
+        authorAttribution?: { displayName?: string };
+        relativePublishTimeDescription?: string;
+        publishTime?: string;
+      }) => ({
+        author: r.authorAttribution?.displayName || "Google reviewer",
+        rating: Math.round(r.rating || 5),
+        text: r.text?.text || "",
+        when: r.relativePublishTimeDescription || "",
+        publishTime: r.publishTime,
+      }));
+
+    return { rating: data.rating, total: data.userRatingCount, reviews };
+  } catch (err) {
+    console.error("Failed to fetch Google reviews:", err);
+    return null;
+  }
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  const data = await getGoogleReviews();
+  const ratingPart = data ? `${data.rating.toFixed(1)}-Star Rating` : "Customer Reviews";
+  return {
+    title: `Customer Reviews | ${ratingPart}`,
+    description: data
+      ? `Read what Arizona homeowners say about Bucksworth Home Services — ${data.rating.toFixed(1)} stars across ${data.total.toLocaleString()} Google reviews. Pest control, HVAC, plumbing, and weed control.`
+      : "Read what Arizona homeowners say about Bucksworth Home Services — pest control, HVAC, plumbing, and weed control across Phoenix and Tucson.",
+    alternates: { canonical: "https://www.getyourbucksworth.com/reviews" },
+  };
+}
+
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -34,133 +101,147 @@ const breadcrumbSchema = {
   ],
 };
 
-const reviewSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://www.getyourbucksworth.com/#organization",
-  name: "Bucksworth Home Services",
-  url: "https://www.getyourbucksworth.com",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.84",
-    reviewCount: "2000",
-    bestRating: "5",
-    worstRating: "1",
-  },
-  review: REVIEWS.map((r) => ({
-    "@type": "Review",
-    author: { "@type": "Person", name: r.name },
-    datePublished: r.date,
-    reviewRating: { "@type": "Rating", ratingValue: r.stars, bestRating: 5 },
-    reviewBody: r.text,
-  })),
-};
+export default async function ReviewsPage() {
+  const data = await getGoogleReviews();
 
-export default function ReviewsPage() {
-  const avgRating = (REVIEWS.reduce((sum, r) => sum + r.stars, 0) / REVIEWS.length).toFixed(1);
+  // Build review/rating schema ONLY from real Google data.
+  const reviewSchema = data
+    ? {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://www.getyourbucksworth.com/#organization",
+        name: "Bucksworth Home Services",
+        url: "https://www.getyourbucksworth.com",
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: data.rating.toFixed(2),
+          reviewCount: String(data.total),
+          bestRating: "5",
+          worstRating: "1",
+        },
+        review: data.reviews.map((r) => ({
+          "@type": "Review",
+          author: { "@type": "Person", name: r.author },
+          ...(r.publishTime ? { datePublished: r.publishTime.slice(0, 10) } : {}),
+          reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5 },
+          reviewBody: r.text,
+        })),
+      }
+    : null;
+
+  const ratingLabel = data ? data.rating.toFixed(1) : null;
+  const totalLabel = data ? data.total.toLocaleString() : null;
 
   return (
     <main id="main-content">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+      {reviewSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+      )}
+
       {/* Hero */}
       <section className="city-hero">
         <div className="city-hero-inner">
           <p className="city-hero-eyebrow">Customer Reviews</p>
           <h1>
-            What Arizona Homeowners Say About{" "}
-            <span className="orange">Bucksworth</span>
+            What Arizona Homeowners Say About <span className="orange">Bucksworth</span>
           </h1>
           <p className="city-hero-desc">
-            4.8-star average across 2,000+ verified Google reviews. Read what your neighbors say about our pest control, HVAC, plumbing, and weed control services.
+            {data
+              ? `${ratingLabel}-star average across ${totalLabel} Google reviews. Read what your neighbors say about our pest control, HVAC, plumbing, and weed control services.`
+              : "Read what your neighbors say about our pest control, HVAC, plumbing, and weed control services across Phoenix and Tucson."}
           </p>
           <div className="city-hero-badges">
-            <span className="city-hero-badge">&#9733; {avgRating} Average Rating</span>
+            {data && <span className="city-hero-badge">&#9733; {ratingLabel} Average Rating</span>}
             <span className="city-hero-badge">&#10003; Google Guaranteed</span>
-            <span className="city-hero-badge">2,000+ Reviews</span>
+            {data && <span className="city-hero-badge">{totalLabel} Reviews</span>}
             <span className="city-hero-badge">33 Cities Served</span>
           </div>
         </div>
       </section>
 
-      {/* Stats bar */}
-      <section style={{ background: "var(--navy)", padding: "32px 0" }}>
-        <div className="container" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", gap: "20px", textAlign: "center" }}>
-          {[
-            { value: "4.8", label: "Star Rating" },
-            { value: "2,000+", label: "Total Reviews" },
-            { value: "98%", label: "Would Recommend" },
-            { value: "13+", label: "Years in Business" },
-          ].map((stat) => (
-            <div key={stat.label}>
-              <p style={{ fontSize: "36px", fontWeight: 800, color: "var(--orange)", fontFamily: "'Oswald', sans-serif", margin: 0 }}>{stat.value}</p>
-              <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.7)", margin: 0, textTransform: "uppercase", letterSpacing: "1px" }}>{stat.label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Reviews grid */}
-      <section className="svc-cards-section">
-        <div className="container">
-          <h2 className="section-title">Featured Reviews from Arizona Homeowners</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: "20px", marginTop: "24px" }}>
-            {REVIEWS.map((review, i) => (
-              <div key={i} style={{ background: "white", borderRadius: "12px", padding: "24px", boxShadow: "0 2px 8px rgba(0,0,0,0.06)", border: "1px solid var(--g100)" }}>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>
-                  <div>
-                    <p style={{ fontWeight: 700, color: "var(--navy)", margin: 0, fontSize: "15px" }}>{review.name}</p>
-                    <p style={{ fontSize: "12px", color: "var(--g500)", margin: 0 }}>{review.city}, AZ &bull; {review.service}</p>
-                  </div>
-                  <span style={{ color: "#f59e0b", fontSize: "16px", letterSpacing: "2px" }}>
-                    {"★".repeat(review.stars)}{"☆".repeat(5 - review.stars)}
-                  </span>
-                </div>
-                <p style={{ fontSize: "14px", color: "var(--g700)", lineHeight: "1.6", margin: 0 }}>
-                  &ldquo;{review.text}&rdquo;
-                </p>
+      {/* Stats bar — only shown when we have real numbers */}
+      {data && (
+        <section style={{ background: "var(--navy)", padding: "32px 0" }}>
+          <div className="container" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", gap: "20px", textAlign: "center" }}>
+            {[
+              { value: ratingLabel as string, label: "Star Rating" },
+              { value: totalLabel as string, label: "Google Reviews" },
+              { value: "13+", label: "Years in Business" },
+              { value: "33", label: "Cities Served" },
+            ].map((stat) => (
+              <div key={stat.label}>
+                <p style={{ fontSize: "36px", fontWeight: 800, color: "var(--orange)", fontFamily: "'Oswald', sans-serif", margin: 0 }}>{stat.value}</p>
+                <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.7)", margin: 0, textTransform: "uppercase", letterSpacing: "1px" }}>{stat.label}</p>
               </div>
             ))}
           </div>
-        </div>
-      </section>
+        </section>
+      )}
+
+      {/* Live reviews grid — real Google reviews only */}
+      {data && data.reviews.length > 0 && (
+        <section className="svc-cards-section">
+          <div className="container">
+            <h2 className="section-title">Recent Reviews from Google</h2>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))", gap: "20px", marginTop: "24px" }}>
+              {data.reviews.map((review, i) => (
+                <div key={i} style={{ background: "white", borderRadius: "12px", padding: "24px", boxShadow: "0 2px 8px rgba(0,0,0,0.06)", border: "1px solid var(--g100)" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>
+                    <div>
+                      <p style={{ fontWeight: 700, color: "var(--navy)", margin: 0, fontSize: "15px" }}>{review.author}</p>
+                      {review.when && <p style={{ fontSize: "12px", color: "var(--g500)", margin: 0 }}>{review.when}</p>}
+                    </div>
+                    <span style={{ color: "#f59e0b", fontSize: "16px", letterSpacing: "2px" }}>
+                      {"★".repeat(review.rating)}{"☆".repeat(5 - review.rating)}
+                    </span>
+                  </div>
+                  <p style={{ fontSize: "14px", color: "var(--g700)", lineHeight: "1.6", margin: 0 }}>&ldquo;{review.text}&rdquo;</p>
+                </div>
+              ))}
+            </div>
+            <p style={{ fontSize: "13px", color: "var(--g500)", marginTop: "16px", textAlign: "center" }}>
+              Showing recent reviews from Google. See all {totalLabel} reviews on our{" "}
+              <a href="https://www.google.com/search?q=Bucksworth+Home+Services+reviews" target="_blank" rel="noopener noreferrer" style={{ color: "var(--red)", textDecoration: "underline" }}>
+                Google Business Profile
+              </a>.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* SEO content */}
       <section className="svc-hub-content">
         <div className="svc-hub-content-inner">
           <h2>Why Arizona Homeowners Trust Bucksworth</h2>
           <p>
-            Since 2013, Bucksworth Home Services has earned the trust of thousands of Arizona families across 33 cities in the Phoenix and Tucson metro areas. Our 4.8-star Google rating is not an accident &mdash; it is the result of treating every home like it is our Gigi&apos;s and never cutting corners on quality, communication, or customer care.
+            Since 2013, Bucksworth Home Services has earned the trust of Arizona families across 33 cities in the Phoenix and Tucson metro areas. Our reputation is built on treating every home with care and never cutting corners on quality, communication, or customer service.
           </p>
           <p>
-            We are Google Guaranteed, meaning Google has independently verified our business licenses, insurance, and employee background checks. When you hire Bucksworth, you are hiring a company that Google trusts enough to back with their own guarantee. That level of verification gives our customers confidence that they are working with a legitimate, professional operation.
+            We are Google Guaranteed, meaning Google has independently verified our business licenses, insurance, and employee background checks. When you hire Bucksworth, you are hiring a company that Google trusts enough to back with their own guarantee.
           </p>
 
           <h2>How We Earn 5-Star Reviews</h2>
-          <p>
-            Our review success comes down to a few simple principles that every Bucksworth team member follows:
-          </p>
+          <p>Our review success comes down to a few simple principles that every Bucksworth team member follows:</p>
           <ul style={{ margin: "12px 0 20px 20px", lineHeight: "2" }}>
             <li><strong>Show up on time</strong> &mdash; We respect your schedule and communicate proactively if anything changes</li>
-            <li><strong>Explain before we work</strong> &mdash; No mystery charges, no surprise bills. You know what we are doing and why before we start</li>
-            <li><strong>Do the job right</strong> &mdash; Quality work the first time, every time. No shortcuts, no generic products</li>
-            <li><strong>Follow up</strong> &mdash; We check in after service to make sure you are satisfied and address any concerns</li>
+            <li><strong>Explain before we work</strong> &mdash; No mystery charges, no surprise bills</li>
+            <li><strong>Do the job right</strong> &mdash; Quality work the first time, every time</li>
+            <li><strong>Follow up</strong> &mdash; We check in after service to make sure you are satisfied</li>
             <li><strong>Stand behind our work</strong> &mdash; If pests come back, we come back. Satisfaction guaranteed.</li>
           </ul>
 
           <h2>Review Us on Google</h2>
           <p>
-            Already a Bucksworth customer? We would love to hear about your experience. Your honest feedback helps other Arizona homeowners find reliable home services and helps us continue improving. Leave us a review on Google &mdash; it takes less than a minute and means the world to our team.
+            Already a Bucksworth customer? We would love to hear about your experience. Your honest feedback helps other Arizona homeowners find reliable home services. Leave us a review on Google &mdash; it takes less than a minute and means the world to our team.
           </p>
 
           <h2>Ready to Become Our Next 5-Star Review?</h2>
-          <p>
-            Call us today for a free inspection and experience the Bucksworth difference for yourself:
-          </p>
+          <p>Call us today for a free inspection and experience the Bucksworth difference for yourself:</p>
           <p style={{ fontSize: "18px", fontWeight: 700 }}>
-            Phoenix: <a href="tel:+14804228388" style={{ color: "var(--red)" }}>(480) 422-8388</a>
+            Phoenix: <a href="tel:+14804228388" style={{ color: "var(--red)" }}>{PHONE_PHX}</a>
             <br />
-            Tucson: <a href="tel:+15202849930" style={{ color: "var(--red)" }}>(520) 284-9930</a>
+            Tucson: <a href="tel:+15202849930" style={{ color: "var(--red)" }}>{PHONE_TUC}</a>
           </p>
         </div>
       </section>
