@@ -269,8 +269,8 @@ const nextConfig = {
         { source: "/pest-control-buckeye-az", destination: "/buckeye-az/pest-and-termite", permanent: true },
         { source: "/pest-control-queen-creek-az", destination: "/queen-creek-az/pest-and-termite", permanent: true },
         { source: "/pest-control-queen-creek", destination: "/queen-creek-az/pest-and-termite", permanent: true },
-        { source: "/pest-control-glendale-az", destination: "/glendale-az/pest-and-termite", permanent: true },
-        { source: "/pest-control-glendale", destination: "/glendale-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-glendale-az", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-glendale", destination: "/phoenix-az/pest-and-termite", permanent: true },
         { source: "/pest-control-scottsdale", destination: "/scottsdale-az/pest-and-termite", permanent: true },
         { source: "/pest-control-tempe", destination: "/tempe-az/pest-and-termite", permanent: true },
         { source: "/pest-control-mesa", destination: "/mesa-az/pest-and-termite", permanent: true },
@@ -331,6 +331,23 @@ const nextConfig = {
         { source: "/weed-control-fountain-hills-az", destination: "/fountain-hills-az/weed-and-lawn-care", permanent: true },
         // ── Pest control additional cities ──
         { source: "/pest-control-fountain-hills-az", destination: "/fountain-hills-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-peoria", destination: "/peoria-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-goodyear", destination: "/goodyear-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-surprise", destination: "/surprise-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-maricopa", destination: "/maricopa-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-florence", destination: "/florence-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-buckeye", destination: "/buckeye-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-avondale", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-tolleson", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-avondale-az", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-tolleson-az", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-maricopa-az", destination: "/maricopa-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-florence-az", destination: "/florence-az/pest-and-termite", permanent: true },
+
+        // ── Orphaned blog slugs (old WordPress posts removed from blog data) ──
+        { source: "/9-signs-of-bug-infestation-how-to-tell-if-you-have-a-pest-problem-in-your-home", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/goodyear-plumbing-service-affordable-and-reliable-solutions", destination: "/goodyear-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/tempe-plumbing-solutions-quality-service-for-every-need", destination: "/tempe-az/plumbing-and-water-heaters", permanent: true },
 
         // ── Old WordPress service pages ──
         { source: "/pest-control-services", destination: "/phoenix-az/pest-and-termite", permanent: true },
