@@ -35,6 +35,13 @@ const nextConfig = {
   },
   async redirects() {
     return [
+        // ── Non-www → www redirect (must be first) ──
+        {
+          source: '/:path*',
+          has: [{ type: 'host', value: 'getyourbucksworth.com' }],
+          destination: 'https://www.getyourbucksworth.com/:path*',
+          permanent: true,
+        },
         // Old WordPress sitemap redirects → new sitemap.xml
         { source: "/sitemap_index.xml", destination: "/sitemap.xml", permanent: true },
         { source: "/page-sitemap.xml", destination: "/sitemap.xml", permanent: true },
