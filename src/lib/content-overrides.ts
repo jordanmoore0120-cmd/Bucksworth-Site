@@ -458,6 +458,329 @@ const OVERRIDES: Record<string, ContentOverride> = {
       },
     ],
   },
+
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — MESA
+     Priority: CRITICAL — Green Mango 404'd, Orange Pest dominates
+     map pack, zero organic competition for subservice page
+     ═══════════════════════════════════════════════════════════════ */
+  "mesa-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Mesa AZ — Bark Scorpion Removal & Prevention | Bucksworth",
+    metaDescription: "Expert scorpion control in Mesa, AZ. Bark scorpion removal, blacklight inspections & perimeter sealing for Las Sendas, Red Mountain, Eastmark & East Mesa. Call (480) 422-8388.",
+    heroHeadline: "Mesa Scorpion Control — East Valley Bark Scorpion Experts Since 2013",
+    heroDescription: "Mesa's position between the Usery Mountains and the Superstition Mountains puts more homes in direct scorpion migration paths than almost any other East Valley city. Bucksworth Home Services provides comprehensive scorpion control across every Mesa neighborhood — from blacklight inspections and colony elimination to perimeter sealing that stops bark scorpions before they reach your family.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Mesa, Maricopa County",
+        paragraphs: [
+          "Mesa is Arizona's third-largest city and one of the most scorpion-affected communities in the entire Phoenix metro. The city stretches from established downtown neighborhoods near the 60 freeway all the way east to the Usery Pass and the Superstition Wilderness — a vast expanse of undeveloped desert that serves as one of the largest bark scorpion reservoirs in Maricopa County. This east-west sprawl means that scorpion pressure varies dramatically across Mesa's 130+ square miles, and effective treatment requires neighborhood-specific knowledge.",
+          "Bucksworth Home Services has provided scorpion control across Mesa since 2013. Our licensed technicians understand that a Red Mountain property abutting Usery Mountain Regional Park (85207) faces fundamentally different scorpion challenges than a downtown block wall home near Dobson Ranch (85202). Desert-edge developments like Las Sendas and Eastmark deal with constant scorpion migration from undeveloped land, while older central Mesa neighborhoods contend with scorpions that have colonized block wall cavities and irrigation infrastructure for decades.",
+          "Need scorpion control in Mesa today? Call (480) 422-8388 — our East Valley dispatch offers same-day and next-day appointments across all Mesa zip codes. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why Mesa Has One of the Worst Scorpion Problems in the East Valley",
+        paragraphs: [
+          "Mesa's geography is the primary driver of its severe scorpion problem. The Usery Mountains border Mesa's northeast corner and the Superstition Mountains loom to the east — both ranges harbor massive bark scorpion populations in rocky terrain, packrat nests, and desert washes. As Mesa's eastern developments push closer to these mountains, the displaced scorpion populations have nowhere to go except into residential communities. Las Sendas, Red Mountain, and Eastmark sit directly in this migration corridor.",
+          "The Salt River corridor running along Mesa's northern boundary creates a second scorpion pressure zone. The riparian habitat along the Salt River supports dense insect populations that attract scorpions, and the river channel provides a sheltered migration path connecting mountain scorpion populations to residential neighborhoods in north Mesa. Properties within a half mile of the Salt River — including parts of the Red Mountain area and northeast Mesa — consistently report above-average scorpion activity.",
+          "Mesa's monsoon season (late June through September) transforms scorpion activity from manageable to critical. Desert washes that cross through Mesa — including the many tributaries draining from the Superstitions — flood during monsoon storms and push ground-dwelling scorpions into garages, first-floor rooms, and pool enclosures. The 2026 monsoon season is starting now, and Bucksworth's Mesa call volume has already begun its annual climb.",
+          "A unique factor in Mesa is the city's age and construction diversity. Western Mesa neighborhoods built in the 1960s-80s have block wall construction with dozens of unsealed entry points per home, while eastern developments built in the 2000s-2020s sit on formerly undeveloped desert. Both face severe scorpion pressure — for entirely different reasons. Generic pest control approaches that treat every Mesa home the same simply do not work.",
+        ],
+      },
+      {
+        heading: "Neighborhood Scorpion Control Across Mesa",
+        paragraphs: [
+          "Red Mountain & Northeast Mesa (85207, 85215) — Properties near Usery Mountain Regional Park and along the Red Mountain freeway corridor experience the heaviest sustained scorpion pressure in Mesa. The rocky terrain of the Usery foothills provides ideal bark scorpion habitat — every boulder, retaining wall, and decorative rock feature within a quarter mile of the mountain park is potential scorpion harborage. Our Red Mountain service protocol includes extended perimeter treatments that cover desert-edge boundaries, rock wall treatment, and landscape feature inspection. Homes backing to the Tonto National Forest boundary require our enhanced desert-interface treatment plan.",
+          "Las Sendas (85207) — This upscale golf community is nestled into the foothills at the base of the Usery Mountains, surrounded on three sides by open desert. Las Sendas properties face constant scorpion migration from rocky terrain that is essentially impossible to treat at the source. Our approach for Las Sendas focuses on aggressive perimeter defense — three-zone barrier application, comprehensive exclusion sealing, and targeted treatment of decorative rock features, retaining walls, and pool equipment areas where scorpions aggregate. Many Las Sendas homeowners who switched to Bucksworth from large national chains report dramatic improvement within the first treatment cycle.",
+          "East Mesa & Superstition Springs (85205, 85206, 85208, 85209) — This rapidly growing corridor stretches toward the Superstition Mountains and includes both established neighborhoods and newer construction. Desert washes crossing through this area serve as scorpion highways, connecting wildland populations to residential streets. Properties near the Superstition Freeway (US 60) also see elevated activity due to the undeveloped corridor along the highway. Our East Mesa technicians focus on wash-adjacent treatment, block wall sealing, and garage door exclusion — the three most productive interventions for this area.",
+          "Eastmark (85212) — Mesa's newest master-planned community is built on previously undeveloped desert, meaning displaced scorpion populations are still actively seeking new territory. First-year and second-year homeowners in Eastmark consistently report the highest scorpion encounters because displaced populations have not yet stabilized. Bucksworth's aggressive initial treatment plan for new Eastmark homes establishes perimeter barriers and exclusion seals before scorpions find permanent entry routes into your home.",
+          "Downtown Mesa & Dobson Ranch (85201, 85202, 85210) — Older central Mesa neighborhoods may be miles from the mountains, but they have their own scorpion problems. Block wall construction from the 1970s and 1980s includes hundreds of unsealed weep holes, cracked expansion joints, and deteriorated door sweeps — all entry points bark scorpions exploit. Mature irrigated landscaping sustains cricket and roach populations that attract scorpions year-round. Our downtown Mesa service includes comprehensive entry-point auditing and sealing that newer homes do not need.",
+        ],
+      },
+      {
+        heading: "Understanding Bark Scorpion Behavior in Mesa",
+        paragraphs: [
+          "The Arizona bark scorpion (Centruroides sculpturatus) is the dominant species in Mesa and the most medically significant scorpion in North America. Bark scorpions are uniquely dangerous because they climb — scaling stucco walls, ceilings, textured block, and even smooth tile with ease. This means entry points at any height on your Mesa home, not just ground level, are potential scorpion access routes. In Mesa homes, our technicians regularly find bark scorpions entering through second-story weep holes, attic vents, and gaps around roofline plumbing vents.",
+          "Bark scorpions also exhibit social aggregation behavior — they cluster in groups, sometimes 20-40 at a time, in preferred harborage sites. A single block wall cavity, landscape timber, or expansion joint gap can harbor dozens of scorpions. When our blacklight inspection reveals an aggregation site, direct treatment of that single location eliminates more scorpions than treating an entire untargeted perimeter. This is why professional UV inspection matters — retail treatments applied blindly around a foundation miss the harborage sites that matter most.",
+          "In Mesa, scorpion foraging activity peaks between 8 PM and 2 AM during warm months. Scorpions hunt crickets, small roaches, and other soft-bodied insects — and they are attracted to areas where insects congregate, particularly around exterior lighting. Switching to yellow or amber LED bulbs near entryways, sealing gaps around light fixtures, and reducing ground-level debris that harbors prey insects are all practical steps Mesa homeowners can take between professional treatments.",
+        ],
+      },
+      {
+        heading: "Bucksworth's Mesa Scorpion Elimination Process",
+        paragraphs: [
+          "Every Mesa scorpion control service starts with a professional UV blacklight inspection. Bark scorpions fluoresce bright green-blue under ultraviolet light, allowing our technicians to locate scorpions hiding in block wall cracks, under landscape edging, behind outdoor furniture, inside expansion joints, and in wall voids that visual inspection would miss entirely. We conduct inspections during evening hours when scorpions are actively foraging and most visible.",
+          "Treatment follows a three-zone barrier system tailored to your Mesa property. Zone 1 covers the immediate home perimeter — foundation walls, door thresholds, window frames, garage door tracks, and all utility penetrations. Zone 2 extends to block walls, fence lines, and landscape features within 10 feet of the home. Zone 3 addresses the broader property boundary, focusing on desert-interface areas, wash corridors, and rock features where scorpions stage before approaching your home.",
+          "Exclusion sealing is the most impactful long-term intervention for Mesa homes. Our technicians identify and seal every gap, crack, and opening that bark scorpions can exploit — weep holes in block walls (the single most common entry point in Mesa), gaps around plumbing and electrical penetrations, deteriorated door sweeps, garage door weather-stripping, and concrete expansion joints. A properly sealed Mesa home sees 80-90 percent fewer indoor scorpion sightings even between scheduled treatments.",
+          "We use professional-grade residual insecticides engineered for Arizona conditions — products that maintain effectiveness through Mesa's 115-degree summer heat, intense UV exposure, and monsoon moisture. Retail hardware store products typically degrade within two to three weeks under Mesa sun; our professional formulations maintain barrier integrity for 60-90 days between applications.",
+          "Ongoing maintenance keeps your Mesa property protected year-round. Most Mesa homes benefit from quarterly scorpion service, with bi-monthly treatment during monsoon season recommended for desert-edge properties in Red Mountain, Las Sendas, and Eastmark. Maintenance plan members receive priority scheduling, automatic service reminders, and a dedicated technician who knows your property's specific scorpion history and pressure points.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Protection for Mesa Homes",
+        paragraphs: [
+          "Mesa's monsoon season is the most critical period for scorpion encounters. Monsoon storms bring three conditions that drive scorpions indoors: sudden humidity increases, ground flooding that forces scorpions from underground burrows, and thermal disruption that changes movement patterns. The first major monsoon storms each year trigger the largest scorpion surge — homeowners who wait until after the first storm to schedule treatment face longer wait times and higher scorpion exposure.",
+          "Bucksworth recommends scheduling your pre-monsoon scorpion treatment by mid-June. Our Mesa team increases capacity during monsoon season but pre-season clients always receive priority scheduling. For desert-edge homes in Red Mountain, Las Sendas, and East Mesa, we recommend enhanced monsoon-season service with bi-monthly treatments from June through September.",
+          "Call (480) 422-8388 to schedule your Mesa monsoon scorpion protection or request emergency service. Homes with children, elderly residents, or pets receive priority routing for urgent calls.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: All Mesa Zip Codes",
+        paragraphs: [
+          "Bucksworth serves every Mesa neighborhood — zip codes 85201, 85202, 85204, 85205, 85206, 85207, 85208, 85209, 85210, 85212, and 85215 — plus surrounding East Valley communities including Gilbert, Chandler, Tempe, Scottsdale, and Apache Junction. Our East Valley technicians live in and around Mesa and know the specific scorpion challenges each neighborhood faces.",
+          "Most Mesa scorpion control appointments are available same-day or next-day. Maintenance plan members enjoy priority scheduling, discounted rates, and a dedicated technician assigned to your property. Call (480) 422-8388 to get started.",
+        ],
+      },
+      {
+        heading: "Why Mesa Homeowners Choose Bucksworth for Scorpion Control",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, founded in 2013 with the philosophy of treating every home like it is Gigi's. In Mesa, that means honest assessments — we will not oversell you a premium scorpion package if basic exclusion and a standard barrier will solve your problem. It means we show up on time, explain exactly what we are doing and why, and follow up to make sure it worked.",
+          "We are Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. When you hire Bucksworth for scorpion control in Mesa, the work is backed by both our satisfaction guarantee and Google's.",
+          "Ready for your free scorpion inspection in Mesa? Call (480) 422-8388 today. No trip fees, no hidden charges, no pressure — just a thorough blacklight inspection, honest findings, and a written estimate. Same-day appointments available throughout Mesa.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Mesa, AZ?",
+        a: "Mesa scorpion control pricing depends on your home's size, lot size, construction type, and proximity to desert washes or mountain foothills. Initial treatment includes a blacklight inspection, perimeter sealing assessment, and full barrier application. Bucksworth provides a free on-site inspection and written estimate — no trip fees. Call (480) 422-8388 for your free Mesa estimate.",
+      },
+      {
+        q: "When is scorpion season in Mesa?",
+        a: "Scorpions are active in Mesa year-round due to the mild desert climate, but peak activity runs from late May through October. The worst period is monsoon season (late June through September) when flooding drives scorpions from underground burrows into homes. Pre-monsoon treatment by mid-June provides the best protection.",
+      },
+      {
+        q: "Why are there so many scorpions in Mesa?",
+        a: "Mesa sits between the Usery Mountains and the Superstition Mountains — two of the largest bark scorpion reservoirs in Maricopa County. Eastern Mesa developments are built directly into scorpion migration corridors. Desert washes crossing through the city serve as scorpion highways, and the Salt River corridor on Mesa's north side supports dense scorpion prey populations year-round.",
+      },
+      {
+        q: "Which Mesa neighborhoods have the worst scorpion problems?",
+        a: "Las Sendas, Red Mountain, and Eastmark — all desert-edge communities near the Usery Mountains or Superstition foothills — experience the heaviest scorpion pressure. However, older central Mesa neighborhoods like Downtown Mesa and Dobson Ranch also have significant issues due to block wall construction with unsealed entry points. Bucksworth provides neighborhood-specific treatment across all Mesa zip codes.",
+      },
+      {
+        q: "Can I get same-day scorpion control in Mesa?",
+        a: "Yes. Bucksworth offers same-day and next-day scorpion control throughout Mesa. Emergency situations — homes with children, elderly residents, or active scorpion infestations — receive priority routing. Call (480) 422-8388 to check today's availability.",
+      },
+      {
+        q: "Is Bucksworth licensed for scorpion control in Mesa?",
+        a: "Yes. Bucksworth holds Arizona ROC License #343924, AG License #9613, and is Google Guaranteed — meaning Google independently verified our business licenses, insurance, and employee backgrounds. We carry full commercial liability insurance and every technician passes background checks and ongoing Arizona-specific training.",
+      },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — CHANDLER
+     Priority: HIGH — Green Home rising in map pack, no dedicated
+     organic competitor page. Simply Green dominates pest but not scorpion.
+     ═══════════════════════════════════════════════════════════════ */
+  "chandler-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Chandler AZ — Bark Scorpion Removal & Sealing | Bucksworth",
+    metaDescription: "Professional scorpion control in Chandler, AZ. Bark scorpion elimination, blacklight inspections & perimeter sealing for Ocotillo, Chandler Heights & Sun Groves. Call (480) 422-8388.",
+    heroHeadline: "Chandler Scorpion Control — Protecting East Valley Families Since 2013",
+    heroDescription: "Chandler's southern border meets the Gila River Indian Community and miles of undeveloped desert, funneling bark scorpion populations directly into neighborhoods like Ocotillo, Sun Groves, and Chandler Heights. Bucksworth Home Services provides comprehensive scorpion control across every Chandler neighborhood — from blacklight inspections and colony elimination to exclusion sealing that keeps scorpions out between treatments.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Chandler, Maricopa County",
+        paragraphs: [
+          "Chandler is one of the East Valley's largest and most established cities, home to more than 280,000 residents across neighborhoods ranging from the historic downtown core to sprawling master-planned communities along the city's southern and eastern borders. While Chandler's central neighborhoods benefit from decades of development that has pushed scorpion habitat further from homes, south Chandler communities — Ocotillo, Sun Groves, Chandler Heights — sit directly adjacent to undeveloped desert and agricultural land that harbor dense bark scorpion populations.",
+          "Bucksworth Home Services has served Chandler homeowners since 2013. Our licensed technicians understand that scorpion pressure at an Ocotillo lakefront home (85248) is fundamentally different from what a downtown Chandler homeowner (85225) experiences. Desert-edge properties near the Gila River corridor face constant scorpion migration from untreated wildland, while older central neighborhoods contend with scorpions that have colonized mature landscaping, block wall cavities, and underground utility corridors over decades.",
+          "Need scorpion control in Chandler today? Call (480) 422-8388 — our East Valley dispatch offers same-day and next-day appointments across all Chandler zip codes. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why Chandler's Southern Border Creates Severe Scorpion Pressure",
+        paragraphs: [
+          "Chandler's scorpion problem is driven primarily by its southern geography. The Gila River Indian Community borders Chandler's entire southern edge, consisting of tens of thousands of acres of undeveloped desert, agricultural land, and riparian habitat along the Gila River. This vast untreated territory serves as a permanent bark scorpion reservoir — populations reproduce undisturbed and migrate northward into Chandler's residential neighborhoods, particularly during the warm months.",
+          "The Gila River corridor itself acts as a scorpion highway. The riparian habitat supports dense prey insect populations (crickets, beetles, roaches), and the combination of moisture, shelter, and food creates ideal scorpion habitat extending for miles along the river channel. Properties in south Chandler within a mile of the river corridor — including most of Ocotillo, Sun Groves, and portions of Chandler Heights — sit squarely in this migration path.",
+          "Chandler's construction boom through the 2000s and 2010s pushed residential development to the city's southern limits, placing thousands of homes on formerly agricultural or undeveloped land. Every construction site displaces scorpion populations that have occupied that soil for generations. In newer south Chandler communities, displaced scorpion populations typically take two to five years to stabilize — meaning the first homeowners experience the most intense scorpion activity.",
+          "During monsoon season (late June through September), Chandler's flat southern terrain floods rapidly. Stormwater channels and retention basins throughout south Chandler fill and overflow, forcing ground-dwelling scorpions to the surface and into nearby homes. The first significant monsoon storms each season consistently trigger the sharpest spike in scorpion calls across Chandler — and the 2026 monsoon season is beginning now.",
+        ],
+      },
+      {
+        heading: "Neighborhood Scorpion Control Across Chandler",
+        paragraphs: [
+          "Ocotillo (85248, 85249) — Chandler's premier lakefront community sits at the city's southern edge, bordered by desert and agricultural land. The community's lakes, water features, and lush landscaping create a microclimate that sustains year-round prey insect populations — crickets, water beetles, and roaches that attract scorpions from surrounding desert. Homes on Ocotillo's southern and eastern perimeters face the heaviest pressure due to direct desert adjacency. Our Ocotillo service protocol includes lakeside-specific treatment that addresses the unique moisture-driven pest dynamics of waterfront properties, along with comprehensive block wall sealing and landscape feature treatment.",
+          "Chandler Heights (85249) — This semi-rural area on Chandler's southern border retains large lot sizes, horse properties, and significant desert terrain between homes. The combination of open land, rock features, and outbuildings creates abundant scorpion harborage that requires extended treatment zones beyond a standard residential perimeter. Our Chandler Heights technicians treat not just the home but barns, sheds, pool equipment areas, and decorative rock walls that serve as scorpion aggregation sites. Properties backing to open desert or agricultural land receive our enhanced perimeter plan with extended Zone 3 coverage.",
+          "Sun Groves (85249) — Located in south Chandler near the Gila River Indian Community boundary, Sun Groves properties experience direct scorpion migration from untreated tribal land. The community's proximity to agricultural fields also supports elevated prey insect populations. Our Sun Groves clients typically benefit from bi-monthly treatment during peak season (June through September) rather than standard quarterly service to maintain effective barrier protection against constant desert replenishment.",
+          "Downtown Chandler (85225) — Chandler's historic core features older block construction homes, mature shade trees, and established irrigated landscaping — all factors that support long-term scorpion colonization. While scorpion encounters may be less frequent than in south Chandler, the species found are often the same bark scorpions. Block wall cavities in older downtown Chandler homes can harbor aggregation groups of 20-30 scorpions in a single wall section. Our downtown service focuses on comprehensive entry-point auditing and sealing that these older structures especially need.",
+          "Clemente Ranch & West Chandler (85226, 85286) — Established neighborhoods near the I-10 freeway and Chandler Fashion Center experience moderate scorpion pressure from the freeway corridor (undeveloped shoulders provide scorpion habitat) and older block wall construction. Our west Chandler service emphasizes crack and crevice treatment along expansion joints, garage door exclusion, and weep hole sealing — the highest-impact interventions for this area's housing stock.",
+        ],
+      },
+      {
+        heading: "Understanding Bark Scorpion Behavior in Chandler",
+        paragraphs: [
+          "The Arizona bark scorpion (Centruroides sculpturatus) is the primary species of concern in Chandler and the most venomous scorpion in North America. Its venom is a neurotoxin that causes intense pain, numbness, and muscle twitching at the sting site. In children under five and elderly individuals, bark scorpion stings can cause systemic reactions — difficulty breathing, excessive salivation, and involuntary muscle movements — that require emergency medical attention. The Banner Desert Medical Center in Mesa and Chandler Regional Medical Center both treat scorpion sting patients regularly during peak season.",
+          "Bark scorpions are climbers. Unlike the larger desert hairy scorpion, bark scorpions scale stucco, textured block, wood siding, and even smooth surfaces using microscopic claws. This climbing ability means second-story entry points, attic vents, and roofline gaps are all potential access routes — not just ground-level openings. In Chandler homes, our technicians regularly find bark scorpions entering through second-floor weep holes, bathroom exhaust vents, and gaps around cable TV penetrations that homeowners never suspected.",
+          "Bark scorpions exhibit a behavior called positive thigmotaxis — they press their bodies against surfaces and prefer tight spaces. This is why you find them in shoes, folded towels, stacked boxes, and the undersides of objects rather than out in the open. In Chandler homes, reducing ground-level clutter in garages, storing shoes off the floor, and shaking out clothing and towels are practical steps that reduce sting risk between professional treatments.",
+        ],
+      },
+      {
+        heading: "Bucksworth's Chandler Scorpion Elimination Process",
+        paragraphs: [
+          "Every Chandler scorpion control service begins with a professional UV blacklight inspection. Bark scorpions fluoresce bright green-blue under ultraviolet light, allowing our technicians to locate scorpions hiding in block wall cracks, under landscape edging, behind outdoor furniture, inside expansion joints, and in wall voids. We conduct inspections during evening hours when scorpions are actively foraging — this timing reveals not just where scorpions are hiding but their active entry routes into your home.",
+          "Based on inspection findings, treatment follows our three-zone barrier system. Zone 1: immediate home perimeter — foundation walls, door thresholds, window frames, garage door tracks, and all utility penetrations. Zone 2: block walls, fence lines, and landscape features within 10 feet of the structure. Zone 3: broader property boundary, focusing on desert-interface areas, retention basin edges, and decorative rock features where scorpions stage before approaching your home.",
+          "Exclusion sealing separates effective scorpion control from pest control that does not work. Our technicians identify and seal every gap, crack, and opening bark scorpions exploit: weep holes in block walls, gaps around plumbing and electrical penetrations, deteriorated door sweeps, garage door weather-stripping, and cracked expansion joints. Properly sealed Chandler homes see 80-90 percent fewer indoor scorpion encounters even between treatments — exclusion is the highest-ROI scorpion intervention we perform.",
+          "We use professional-grade residual insecticides selected for Arizona's extreme conditions — products that maintain effectiveness through Chandler's 115-degree summer heat, intense UV exposure, and monsoon moisture. Retail hardware store products break down in weeks under Arizona sun; our professional formulations maintain barrier integrity for 60-90 days.",
+          "Ongoing maintenance keeps your Chandler home protected year-round. Most central Chandler properties benefit from quarterly service. South Chandler homes near Ocotillo, Sun Groves, and Chandler Heights benefit from bi-monthly treatment during monsoon season (June through September). Maintenance plan members receive priority scheduling, automatic reminders, and a dedicated technician familiar with your property's specific conditions.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Protection for Chandler Homes",
+        paragraphs: [
+          "Chandler's monsoon season is the highest-risk period for scorpion encounters inside your home. The flat terrain of south Chandler floods rapidly during monsoon storms, and retention basins throughout communities like Ocotillo and Sun Groves fill to capacity. This flooding forces ground-dwelling scorpions to the surface and into the nearest available shelter — your garage, first-floor rooms, and pool enclosure. Homeowners who wait until after seeing scorpions inside to schedule treatment are already weeks behind.",
+          "Bucksworth recommends scheduling your pre-monsoon scorpion treatment by mid-June to ensure your barrier is fresh and exclusion seals are intact before the first storms arrive. Our Chandler team increases capacity during monsoon season, but pre-season clients always receive priority scheduling.",
+          "Call (480) 422-8388 to schedule your Chandler monsoon scorpion protection or request emergency service. Homes with children, elderly residents, or pets receive priority routing.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: All Chandler Zip Codes",
+        paragraphs: [
+          "Bucksworth serves every Chandler neighborhood — zip codes 85224, 85225, 85226, 85248, 85249, and 85286 — plus surrounding East Valley communities including Gilbert, Mesa, Tempe, and Queen Creek. Our East Valley technicians live in and around Chandler and understand the specific scorpion challenges each neighborhood faces.",
+          "Most Chandler scorpion control appointments are available same-day or next-day. Maintenance plan members enjoy priority scheduling, discounted rates, and a dedicated technician assigned to your property. Call (480) 422-8388 to get started.",
+        ],
+      },
+      {
+        heading: "Why Chandler Families Trust Bucksworth for Scorpion Control",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, founded in 2013 with the philosophy of treating every home like it is Gigi's. In Chandler, that means honest assessments — if basic exclusion and a standard barrier will solve your scorpion problem, we tell you that instead of upselling premium packages. We show up on time, explain what we are doing and why, and follow up to confirm it worked.",
+          "We are Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. When you hire Bucksworth for scorpion control in Chandler, the work is backed by both our satisfaction guarantee and Google's.",
+          "Ready for your free scorpion inspection in Chandler? Call (480) 422-8388 today. No trip fees, no hidden charges, no pressure — just a thorough blacklight inspection, honest findings, and a written estimate. Same-day appointments available throughout Chandler.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Chandler, AZ?",
+        a: "Chandler scorpion control pricing depends on your home's size, lot size, construction type, and proximity to desert or the Gila River corridor. Initial treatment includes a blacklight inspection, perimeter sealing assessment, and full barrier application. Bucksworth provides a free on-site inspection and written estimate — no trip fees. Call (480) 422-8388 for your free Chandler estimate.",
+      },
+      {
+        q: "When is scorpion season in Chandler?",
+        a: "Scorpions are active in Chandler year-round, but peak activity runs from late May through October. The worst period is monsoon season (late June through September) when flooding forces scorpions from underground burrows into homes. Pre-monsoon treatment by mid-June provides the best protection for Chandler families.",
+      },
+      {
+        q: "Why are there so many scorpions in south Chandler?",
+        a: "South Chandler borders the Gila River Indian Community — tens of thousands of acres of undeveloped desert and agricultural land that serve as a permanent bark scorpion reservoir. The Gila River corridor acts as a scorpion migration highway, and newer south Chandler communities were built on land that previously harbored dense scorpion populations. Properties near Ocotillo, Sun Groves, and Chandler Heights experience the highest pressure.",
+      },
+      {
+        q: "Can I get same-day scorpion control in Chandler?",
+        a: "Yes. Bucksworth offers same-day and next-day scorpion control throughout Chandler. Emergency situations — homes with children, elderly residents, or active scorpion sightings — receive priority routing. Call (480) 422-8388 to check today's availability.",
+      },
+      {
+        q: "Which Chandler neighborhoods have the worst scorpion problems?",
+        a: "Ocotillo, Sun Groves, and Chandler Heights in south Chandler experience the heaviest scorpion activity due to desert and agricultural land adjacency. However, older central Chandler neighborhoods also have issues from block wall construction with unsealed entry points. Bucksworth provides neighborhood-specific treatment plans across all Chandler zip codes.",
+      },
+      {
+        q: "Is Bucksworth licensed for scorpion control in Chandler?",
+        a: "Yes. Bucksworth holds Arizona ROC License #343924, AG License #9613, and is Google Guaranteed. We carry full commercial liability insurance and every technician passes background checks and ongoing training in Arizona scorpion biology and treatment methods.",
+      },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — GOODYEAR
+     Priority: CRITICAL — Peak season NOW. Greenleaf has subpage,
+     EFF Bugs & Weeds entered market Oct 2025. BSW has zero presence.
+     ═══════════════════════════════════════════════════════════════ */
+  "goodyear-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Goodyear AZ — Bark Scorpion Removal & Prevention | Bucksworth",
+    metaDescription: "Professional scorpion control in Goodyear, AZ. Bark scorpion removal, blacklight inspections & perimeter sealing for Estrella Mountain Ranch, Palm Valley & Canyon Trails. Call (480) 422-8388.",
+    heroHeadline: "Goodyear Scorpion Control — West Valley Bark Scorpion Experts Since 2013",
+    heroDescription: "Goodyear's explosive growth into the Estrella Mountain foothills has displaced vast bark scorpion populations directly into master-planned communities. Bucksworth Home Services delivers comprehensive scorpion control throughout Goodyear — from blacklight inspections and colony elimination to perimeter sealing that protects your family through monsoon season and beyond.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Goodyear, Maricopa County",
+        paragraphs: [
+          "Goodyear has transformed from a small agricultural community into one of the fastest-growing cities in the United States, with its population more than doubling since 2010. Master-planned communities like Estrella Mountain Ranch, Palm Valley, Canyon Trails, and PebbleCreek now extend from the historic town center south and west into raw Sonoran Desert — directly into territory that has harbored dense bark scorpion populations for millennia. This rapid development is the primary engine driving Goodyear's scorpion problem.",
+          "Bucksworth Home Services has provided scorpion control across Goodyear and the West Valley since 2013. Our licensed technicians understand that scorpion pressure at a desert-edge Estrella Mountain Ranch home (85338) differs fundamentally from a Palm Valley property (85395) surrounded by established landscaping. New construction on former desert faces active displacement migration, while older communities contend with scorpion populations that have adapted to irrigation, block wall cavities, and the prey insect ecosystems that mature neighborhoods sustain.",
+          "Need scorpion control in Goodyear today? Call (480) 422-8388 — our West Valley dispatch offers same-day and next-day appointments across all Goodyear zip codes. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why Goodyear's Growth Is Creating a Scorpion Crisis",
+        paragraphs: [
+          "The Estrella Mountains border Goodyear's southern and western edges, forming a massive wall of rocky desert terrain that serves as one of the largest bark scorpion reservoirs in the West Valley. Estrella Mountain Regional Park alone covers more than 19,000 acres of undeveloped land teeming with scorpion habitat — rocky outcroppings, desert washes, packrat nests, and natural caves. As Goodyear's residential developments push closer to these mountains, displaced scorpion populations migrate directly into new homes.",
+          "Goodyear's construction pace compounds the problem. Every new subdivision, road, and retention basin carved into desert terrain displaces scorpions that have occupied that ground for generations. Unlike Mesa or Chandler where most construction was completed decades ago, Goodyear is actively building thousands of homes per year on raw desert — creating ongoing, large-scale scorpion displacement events that communities like Estrella Mountain Ranch and Canyon Trails absorb directly.",
+          "The Gila River runs along Goodyear's southern boundary, providing a second scorpion pressure vector. The riparian corridor supports dense insect populations and provides sheltered habitat where scorpions thrive. Properties in southern Goodyear near the river corridor experience above-average scorpion activity, particularly during monsoon season when flooding disrupts riverbank habitat.",
+          "Goodyear's monsoon season (late June through September) is especially problematic for scorpion control. The flat agricultural land between mountain foothills and residential areas floods readily during monsoon storms, pushing scorpions from underground burrows into the nearest available shelter. The large retention basins throughout Estrella Mountain Ranch and Canyon Trails fill during storms, forcing scorpions in their vicinity to relocate — often into adjacent homes and garages. The 2026 monsoon season is starting now.",
+        ],
+      },
+      {
+        heading: "Neighborhood Scorpion Control Across Goodyear",
+        paragraphs: [
+          "Estrella Mountain Ranch (85338) — Goodyear's largest master-planned community is backed directly against Estrella Mountain Regional Park, placing thousands of homes within a quarter mile of prime scorpion habitat. Properties on the community's southern and western edges — those backing to the park boundary, desert washes, or undeveloped lots — face the heaviest sustained scorpion pressure in Goodyear. Our Estrella Mountain Ranch service protocol includes extended Zone 3 perimeter treatment that covers the desert-residential interface, rock wall and retaining wall treatment, and landscape feature inspection. The community's golf courses and water features create microhabitats that sustain prey insect populations year-round, attracting scorpions even to interior lots away from the desert edge.",
+          "Palm Valley (85395) — One of Goodyear's most established communities, Palm Valley's mature palm trees, citrus groves, and irrigated landscaping create a different scorpion dynamic than the desert-edge developments. Mature landscapes support robust cricket and roach populations that attract and sustain scorpion colonies. Block wall construction throughout Palm Valley includes weep holes that serve as the primary scorpion entry point — our technicians screen and seal these on every service visit. The community's proximity to agricultural land on Goodyear's eastern side also contributes to pest pressure.",
+          "Canyon Trails (85338) — Located on Goodyear's south side where new construction meets desert, Canyon Trails is experiencing the classic displacement phenomenon seen across Arizona's growth cities. Properties built in the last three to five years sit on land that previously harbored undisturbed scorpion populations, and displaced scorpions actively seek entry into these new homes. Our Canyon Trails service includes aggressive initial treatment plans for newer homes that establish barriers before scorpions find permanent entry routes.",
+          "PebbleCreek (85395) — This active adult community features golf courses, lakes, and lush landscaping that create a green oasis in the desert — and a magnet for prey insects that scorpions follow. While PebbleCreek's interior lots may see lower scorpion activity than desert-edge properties, the community's perimeter homes and those near water features experience consistent scorpion pressure. Our PebbleCreek service is calibrated for the community's older demographic, with particular attention to garage and entryway treatment where scorpion encounters pose the highest sting risk.",
+        ],
+      },
+      {
+        heading: "Understanding Bark Scorpion Behavior in Goodyear",
+        paragraphs: [
+          "The Arizona bark scorpion (Centruroides sculpturatus) is the dominant scorpion species in Goodyear and the most venomous scorpion in North America. Its sting delivers a neurotoxin that causes intense pain, numbness, and swelling at the sting site. Children under five, elderly individuals, and people with compromised immune systems face increased risk of systemic reactions — difficulty breathing, muscle spasms, and elevated heart rate — that require emergency medical attention. West Valley Hospital and Abrazo West Campus both treat scorpion sting cases during peak season.",
+          "Bark scorpions are uniquely dangerous because they climb. They scale stucco walls, cinder block, textured surfaces, and even ceiling drywall using microscopic claws, meaning any gap at any height on your Goodyear home is a potential entry point — not just ground-level cracks. Our technicians regularly find bark scorpions entering Goodyear homes through second-floor weep holes, attic soffit gaps, and openings around roofline plumbing vents that homeowners never suspected.",
+          "In Goodyear's desert-edge communities, bark scorpions exhibit aggregation behavior — clustering in groups of 20-40 in preferred harborage sites. A single landscape timber, expansion joint gap, or block wall cavity can harbor dozens of scorpions. This is why professional UV blacklight inspection matters: it reveals the high-density harborage sites that blind perimeter spraying misses entirely. Direct treatment of one aggregation site can eliminate more scorpions than treating an entire untargeted property line.",
+        ],
+      },
+      {
+        heading: "Bucksworth's Goodyear Scorpion Elimination Process",
+        paragraphs: [
+          "Every Goodyear scorpion service begins with a professional UV blacklight inspection. Bark scorpions fluoresce bright green-blue under ultraviolet light, revealing scorpions hiding in block wall cracks, under decorative rock, behind pool equipment, inside expansion joints, and in wall voids invisible to the naked eye. We conduct inspections at dusk or after dark when scorpions emerge to hunt, revealing not just where they hide but the active routes they use to enter your home.",
+          "Treatment follows our three-zone barrier system customized for your Goodyear property. Zone 1: immediate home perimeter — foundation walls, door thresholds, window frames, garage door tracks, and all utility penetrations. Zone 2: block walls, fence lines, and landscape features within 10 feet of the structure. Zone 3: extended property boundary, focusing on desert-interface areas, retention basin edges, wash corridors, and rock features where scorpions stage before approaching the home.",
+          "Exclusion sealing is the highest-impact long-term intervention for Goodyear homes. Our technicians identify and seal every gap, crack, and opening bark scorpions can exploit: weep holes in block walls, gaps around plumbing and electrical penetrations, deteriorated door sweeps, garage door weather-stripping, and cracked expansion joints. Properly sealed Goodyear homes see 80-90 percent fewer indoor scorpion sightings even between treatments.",
+          "We apply professional-grade residual insecticides engineered for Arizona's extreme environment — products that maintain effectiveness through Goodyear's 115-degree summer heat, intense UV exposure, and monsoon moisture. Hardware store retail products degrade in weeks under West Valley sun; our professional formulations maintain barrier integrity for 60-90 days between applications.",
+          "Ongoing maintenance keeps Goodyear properties protected year-round. Most established Goodyear homes benefit from quarterly service. Desert-edge properties in Estrella Mountain Ranch, Canyon Trails, and homes near the Estrella Mountain Regional Park boundary should consider bi-monthly treatment during peak season (June through September). Maintenance plan members receive priority scheduling, automatic reminders, and a dedicated technician who knows your property's specific conditions.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Protection for Goodyear Homes",
+        paragraphs: [
+          "Goodyear's monsoon season is the most dangerous period for scorpion encounters. The flat terrain between the Estrella Mountains and residential areas floods rapidly during storms, retention basins throughout master-planned communities fill to capacity, and the Gila River corridor overflows — all of which force scorpions from underground burrows and into the nearest available shelter. The first significant monsoon storms each year trigger Goodyear's highest scorpion call volume.",
+          "Bucksworth recommends scheduling your pre-monsoon scorpion treatment by mid-June. Our West Valley team increases capacity during monsoon season, but pre-season clients always receive priority scheduling. For desert-edge homes in Estrella Mountain Ranch and Canyon Trails, enhanced monsoon service with bi-monthly treatments provides the strongest protection through September.",
+          "Call (480) 422-8388 to schedule your Goodyear monsoon scorpion protection or request emergency service. Homes with children, elderly residents, or pets receive priority routing for urgent calls.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: All Goodyear Zip Codes",
+        paragraphs: [
+          "Bucksworth serves every Goodyear neighborhood — zip codes 85338 and 85395 — plus surrounding West Valley communities including Buckeye, Avondale, Litchfield Park, and Surprise. Our West Valley technicians live in and around Goodyear and know the specific scorpion challenges each community faces.",
+          "Most Goodyear scorpion control appointments are available same-day or next-day. Maintenance plan members enjoy priority scheduling, discounted rates, and a dedicated technician assigned to your property. Call (480) 422-8388 to get started.",
+        ],
+      },
+      {
+        heading: "Why Goodyear Homeowners Choose Bucksworth for Scorpion Control",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, founded in 2013 with the philosophy of treating every home like it is Gigi's. In Goodyear, that means honest assessments — we will not upsell a premium scorpion package if basic exclusion and a standard barrier will solve your problem. We show up on time, explain what we are doing and why, and follow up to make sure it worked.",
+          "We are Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. When you hire Bucksworth for scorpion control in Goodyear, the work is backed by both our satisfaction guarantee and Google's.",
+          "Ready for your free scorpion inspection in Goodyear? Call (480) 422-8388 today. No trip fees, no hidden charges, no high-pressure sales — just a thorough blacklight inspection, honest findings, and a written estimate. Same-day appointments available throughout Goodyear.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Goodyear, AZ?",
+        a: "Goodyear scorpion control pricing depends on your home's size, lot size, construction type, and proximity to Estrella Mountain Regional Park or desert washes. Initial treatment includes a blacklight inspection, perimeter sealing assessment, and full barrier application. Bucksworth provides a free on-site inspection and written estimate — no trip fees. Call (480) 422-8388 for your free Goodyear estimate.",
+      },
+      {
+        q: "When is scorpion season in Goodyear?",
+        a: "Scorpions are active in Goodyear year-round, but peak activity runs from late May through October. The worst period is monsoon season (late June through September) when flooding drives scorpions from underground burrows into homes. Scheduling pre-monsoon treatment by mid-June provides the strongest protection for Goodyear families.",
+      },
+      {
+        q: "Why are there so many scorpions in Goodyear?",
+        a: "Goodyear's explosive growth is pushing residential construction directly into the Estrella Mountain foothills — one of the largest bark scorpion reservoirs in the West Valley. Every new subdivision displaces scorpion populations into existing homes. The Gila River corridor along Goodyear's southern edge and active agricultural land provide additional scorpion habitat. Thousands of new homes built on raw desert each year create ongoing displacement events.",
+      },
+      {
+        q: "Which Goodyear neighborhoods have the worst scorpion problems?",
+        a: "Estrella Mountain Ranch and Canyon Trails experience the heaviest scorpion pressure due to direct adjacency to Estrella Mountain Regional Park and undeveloped desert. However, Palm Valley and PebbleCreek also see significant activity from established scorpion populations sustained by mature irrigated landscaping and prey insect ecosystems.",
+      },
+      {
+        q: "Can I get same-day scorpion control in Goodyear?",
+        a: "Yes. Bucksworth offers same-day and next-day scorpion control throughout Goodyear. Emergency situations — homes with children, elderly residents, or active scorpion infestations — receive priority routing. Call (480) 422-8388 to check today's availability.",
+      },
+      {
+        q: "Is Bucksworth licensed for scorpion control in Goodyear?",
+        a: "Yes. Bucksworth holds Arizona ROC License #343924, AG License #9613, and is Google Guaranteed. We carry full commercial liability insurance and every technician passes background checks and ongoing training in Arizona scorpion biology and treatment methods.",
+      },
+    ],
+  },
 };
 
 /**
