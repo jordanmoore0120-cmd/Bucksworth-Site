@@ -223,6 +223,7 @@ const nextConfig = {
         { source: "/phoenix/hvac-services/indoor-air-quality/uv-light-installation", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         { source: "/phoenix/hvac-services/indoor-air-quality/dehumidifiers", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         { source: "/phoenix/hvac-services/indoor-air-quality/uv-air-purifiers", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/phoenix/hvac-services/indoor-air-quality/air-balancing", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         { source: "/phoenix/hvac-services/indoor-air-quality", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         { source: "/phoenix/hvac-services/energy-efficiency", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         { source: "/phoenix/hvac-services", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
