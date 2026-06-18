@@ -339,6 +339,125 @@ const OVERRIDES: Record<string, ContentOverride> = {
       },
     ],
   },
+
+  /* ═══════════════════════════════════════════════════════════════
+     AC INSTALLATION — PHOENIX
+     Priority: CRITICAL — pos 9.1, 449 imp/week, 0 clicks
+     HVAC summer peak: highest-volume commercial keyword
+     ═══════════════════════════════════════════════════════════════ */
+  "phoenix-az/air-conditioning-and-heating/ac-installation": {
+    metaTitle: "AC Installation Phoenix, AZ — Free Estimates, Financing from $89/mo",
+    metaDescription: "Top-rated AC installation in Phoenix, AZ. Daikin, Trane & Carrier systems. Manual J load calculation included. Licensed, insured & Google Guaranteed. Call (602) 962-2879 for a free in-home estimate.",
+    heroHeadline: "Phoenix AC Installation — Beat the Heat with a New High-Efficiency System",
+    heroDescription: "We install high-efficiency air conditioning systems from Daikin, Trane, Carrier, and Goodman. Every installation includes a Manual J load calculation, proper ductwork evaluation, and manufacturer warranty registration. Financing options available with payments as low as $89/month.",
+    content: [
+      {
+        heading: "Why Phoenix Homeowners Choose Bucksworth for AC Installation",
+        paragraphs: [
+          "When your air conditioning system can't keep up with Phoenix's extreme summer heat — with temperatures regularly exceeding 115°F — it's time for a professional replacement. Bucksworth Home Services has installed hundreds of new AC systems across Phoenix, Scottsdale, Tempe, Chandler, and the entire Valley.",
+          "Every installation starts with a comprehensive Manual J load calculation to ensure your new system is properly sized for your home. An oversized unit short-cycles and wastes energy; an undersized unit runs constantly and never reaches target temperature. We get the sizing right the first time.",
+          "We carry top-tier brands including Daikin, Trane, Carrier, and Goodman — each offering 10-year manufacturer warranties and SEER2 ratings up to 24+. Our certified technicians handle everything from permit pulling to final inspection, so you never have to worry about code compliance.",
+        ],
+      },
+      {
+        heading: "What's Included in Our AC Installation",
+        paragraphs: [
+          "Our standard installation includes: removal and recycling of your old unit, Manual J load calculation, new condensing unit and evaporator coil, refrigerant line set (replaced if needed), new disconnect box, new thermostat wire (if needed), system startup and calibration, manufacturer warranty registration, and a post-installation comfort check within 30 days.",
+          "We also evaluate your existing ductwork for leaks, restrictions, and proper sizing. If duct modifications are needed, we'll include them in your estimate upfront — no surprises on installation day.",
+        ],
+      },
+      {
+        heading: "Financing & Pricing",
+        paragraphs: [
+          "We understand a new AC system is a significant investment. That's why we offer flexible financing options with payments starting at $89/month for qualified buyers. We also provide multiple system options at different price points so you can choose the best fit for your budget and comfort needs.",
+          "Every estimate is free, in-home, and pressure-free. Our comfort advisors walk you through options, rebate opportunities, and energy savings projections so you can make an informed decision.",
+        ],
+      },
+      {
+        heading: "Licensed, Insured & Google Guaranteed",
+        paragraphs: [
+          "Bucksworth holds Arizona ROC License #343924 and is fully insured with commercial liability coverage. We're also Google Guaranteed — meaning Google backs our work with up to $2,000 in protection. Every technician passes background checks and ongoing factory training.",
+          "With over 1,900 five-star Google reviews across the Valley, Phoenix homeowners trust Bucksworth for reliable, professional AC installation.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does AC installation cost in Phoenix?",
+        a: "AC installation in Phoenix typically ranges from $4,500 to $12,000+ depending on system size, SEER2 efficiency rating, and whether ductwork modifications are needed. Bucksworth provides free in-home estimates with multiple options at different price points. Financing available from $89/month.",
+      },
+      {
+        q: "How long does AC installation take?",
+        a: "Most residential AC installations are completed in one day (6-8 hours). Complex installations involving ductwork modifications or multi-zone systems may take two days. We schedule installations to minimize disruption and ensure your home has cooling by end of day.",
+      },
+      {
+        q: "What AC brands does Bucksworth install?",
+        a: "We install Daikin, Trane, Carrier, and Goodman systems. All come with manufacturer warranties of 10+ years on parts and compressors. We help you select the right brand and model based on your home's cooling needs, budget, and efficiency goals.",
+      },
+      {
+        q: "Do I need a permit for AC installation in Phoenix?",
+        a: "Yes, Phoenix and most Valley cities require a mechanical permit for AC replacement. Bucksworth handles all permitting and inspections as part of every installation — you don't need to do anything.",
+      },
+      {
+        q: "What size AC do I need for my Phoenix home?",
+        a: "AC sizing depends on square footage, insulation, window exposure, ceiling height, and ductwork. A Manual J load calculation — which we include free with every estimate — determines the exact tonnage your home needs. Typical Phoenix homes range from 3 to 5 tons.",
+      },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     AC MAINTENANCE — PHOENIX
+     Priority: HIGH — "ac maintenance" 1,967 imp/week (pos 61.9)
+     + "air conditioning maintenance" 31 imp (pos 13.3)
+     ═══════════════════════════════════════════════════════════════ */
+  "phoenix-az/air-conditioning-and-heating/ac-maintenance": {
+    metaTitle: "AC Maintenance Phoenix, AZ — $89 Tune-Up, Prevent 95% of Breakdowns",
+    metaDescription: "Professional AC maintenance in Phoenix, AZ. Coil cleaning, refrigerant check, electrical inspection & filter replacement. Extends system life 5-7 years. Licensed & Google Guaranteed. Call (602) 962-2879.",
+    heroHeadline: "Phoenix AC Maintenance — Keep Your System Running at Peak Efficiency",
+    heroDescription: "Our AC maintenance program includes coil cleaning, refrigerant level checks, electrical connection inspection, thermostat calibration, and filter replacement. Regular maintenance extends system life by 5-7 years and prevents 95% of emergency breakdowns.",
+    content: [
+      {
+        heading: "Why AC Maintenance Matters in Phoenix",
+        paragraphs: [
+          "Phoenix's extreme heat puts your AC system under more stress than almost anywhere else in the country. Systems here run 3,000+ hours per year — double the national average. Without annual maintenance, efficiency degrades 5% per year, energy bills climb, and the risk of a mid-summer breakdown skyrockets.",
+          "A professional AC tune-up catches small problems before they become expensive emergencies. Our technicians inspect every critical component: compressor amp draw, refrigerant pressure, capacitor strength, contactor condition, evaporator and condenser coil cleanliness, drain line flow, and thermostat calibration.",
+          "The result? Your system runs cooler, quieter, and cheaper — and lasts 5-7 years longer than an unmaintained unit.",
+        ],
+      },
+      {
+        heading: "What's Included in Our AC Tune-Up",
+        paragraphs: [
+          "Every Bucksworth AC maintenance visit includes: condenser and evaporator coil cleaning, refrigerant level check and top-off, electrical connection tightening and testing, capacitor and contactor inspection, blower motor lubrication, drain line flush, air filter replacement, thermostat calibration, and a full system performance report.",
+          "We also check for early warning signs of compressor failure, refrigerant leaks, and ductwork issues — catching problems when a $150 repair prevents a $5,000 replacement.",
+        ],
+      },
+      {
+        heading: "When to Schedule AC Maintenance in Phoenix",
+        paragraphs: [
+          "The ideal time for AC maintenance in Phoenix is March through May — before summer heat arrives. However, it's never too late. Even a mid-summer tune-up improves performance and reduces the risk of breakdown during the hottest weeks.",
+          "We recommend annual maintenance for systems under 10 years old and twice-yearly checkups for older systems approaching end of life. Our maintenance plans include priority scheduling, discounted repairs, and no overtime charges.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does AC maintenance cost in Phoenix?",
+        a: "A standard AC tune-up starts at $89. Bucksworth offers annual maintenance plans that include the tune-up plus priority scheduling, 15% repair discounts, and no overtime charges. Call (602) 962-2879 for current pricing.",
+      },
+      {
+        q: "How often should I service my AC in Phoenix?",
+        a: "At minimum, once per year — ideally in spring before summer hits. Systems over 10 years old or running 16+ hours per day benefit from twice-yearly maintenance (spring and fall).",
+      },
+      {
+        q: "Does AC maintenance really save money?",
+        a: "Yes. The Department of Energy estimates that regular maintenance reduces energy consumption by 15-25%. On a Phoenix home spending $300/month on summer cooling, that's $45-$75/month in savings — more than paying for the tune-up in one month.",
+      },
+      {
+        q: "What happens if my AC needs repair during the tune-up?",
+        a: "If we find an issue during maintenance, we'll explain the problem, show you the failed component, and provide a repair quote on the spot. Maintenance plan members receive 15% off all repairs. You decide whether to proceed — no pressure.",
+      },
+    ],
+  },
 };
 
 /**
