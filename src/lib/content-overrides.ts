@@ -848,6 +848,304 @@ const OVERRIDES: Record<string, ContentOverride> = {
       },
     ],
   },
+
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — GILBERT
+     Priority: HIGH — Green Mango blog 404'd, East Valley anchor city
+     Competitor: Firehouse Pest (#1 map pack 1,200r), Blue Sky (#2 4,000r)
+     ═══════════════════════════════════════════════════════════════ */
+  "gilbert-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Gilbert AZ — Bark Scorpion Removal & Prevention | Bucksworth",
+    metaDescription: "Expert scorpion control in Gilbert, AZ. Bark scorpion removal, blacklight inspections & perimeter sealing for Power Ranch, Val Vista Lakes & Agritopia. Licensed, Google Guaranteed. Call (480) 422-8388.",
+    heroHeadline: "Gilbert Scorpion Control — East Valley Bark Scorpion Experts Since 2013",
+    heroDescription: "Gilbert's rapid transformation from agricultural farmland into Arizona's fifth-largest city has pushed bark scorpion populations out of their natural habitat and directly into neighborhoods. Bucksworth Home Services provides comprehensive scorpion control across every Gilbert community — from blacklight inspections and direct elimination to exclusion sealing that keeps your family safe through monsoon season and beyond.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Gilbert, Maricopa County",
+        paragraphs: [
+          "Gilbert sits at the intersection of the East Valley's suburban growth corridor and the Sonoran Desert, creating one of the most active bark scorpion zones in the Phoenix metro. The Arizona bark scorpion (Centruroides sculpturatus) thrives in the rocky terrain of nearby San Tan Mountain Regional Park and the desert washes that thread through Gilbert's master-planned communities. As development has replaced cotton fields and citrus groves with residential neighborhoods, displaced scorpion populations have adapted — nesting in block wall cavities, irrigation boxes, expansion joints, and the very construction materials of modern homes.",
+          "Bucksworth Home Services has delivered scorpion control across Gilbert since 2013. Our licensed technicians know that a Power Ranch property (85297) at Gilbert's southeastern desert edge faces fundamentally different scorpion pressure than a Val Vista Lakes home (85295) in the established central corridor. Desert-edge homes experience active migration from undeveloped land, while interior neighborhoods deal with established, breeding populations that have adapted to irrigated landscaping and urban prey insect ecosystems.",
+          "Need scorpion control in Gilbert today? Call (480) 422-8388 — our East Valley dispatch team offers same-day and next-day appointments across all Gilbert zip codes. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why Gilbert Has a Persistent Scorpion Problem",
+        paragraphs: [
+          "Gilbert's scorpion problem is driven by three converging factors. First, San Tan Mountain Regional Park anchors the city's southeast border with more than 10,000 acres of undeveloped desert terrain that serves as a massive bark scorpion reservoir. Rocky washes from the San Tan Mountains flow northwest directly through Gilbert's newest residential developments, carrying scorpion populations from wildland habitat into backyards, garages, and living spaces. These desert corridors function as scorpion highways that no amount of residential development can fully eliminate.",
+          "Second, Gilbert's agricultural history created soil and irrigation conditions that scorpions have exploited for decades. The old canal system, flood irrigation channels, and dense root systems from former orchards provide underground harborage and moisture that bark scorpions need to survive Arizona's extreme heat. Even neighborhoods built 15 to 20 years ago on former farmland still contend with deep-rooted scorpion populations that never fully dispersed during construction.",
+          "Third, the Riparian Preserve at Water Ranch — Gilbert's 110-acre wetland habitat near Greenfield and Guadalupe — creates a unique microclimate in central Gilbert that supports robust prey insect populations. Crickets, roaches, and beetles flourish near the preserve's water features and dense vegetation, and bark scorpions follow their food source directly into the surrounding residential neighborhoods. Homes within a mile of the Riparian Preserve consistently report higher scorpion activity than properties farther away.",
+          "Arizona bark scorpion venom is a neurotoxin that causes severe pain, numbness, and tingling. In children under five and elderly adults, stings can trigger dangerous systemic reactions including difficulty breathing, muscle twitching, and elevated heart rate. Banner Desert Medical Center in Mesa, the closest Level I trauma center serving Gilbert, treats hundreds of scorpion sting cases each monsoon season. This is not a pest you manage with store-bought sprays.",
+        ],
+      },
+      {
+        heading: "Neighborhood-Level Scorpion Control Across Gilbert",
+        paragraphs: [
+          "Power Ranch (85297) — Gilbert's southeast-edge master-planned community borders open desert and agricultural land, placing it in the highest scorpion pressure zone in the city. Homes backing to the Power Ranch trail system or desert washes face constant migration from undeveloped terrain. Our Power Ranch service protocol extends treatment zones beyond the standard home perimeter to include trail-adjacent fencing, desert-facing block walls, and outdoor living areas where scorpions shelter during daylight hours.",
+          "Val Vista Lakes (85295, 85234) — This established lakeside community in central Gilbert has mature landscaping, decorative rock features, and water elements that create ideal scorpion microhabitat. Bark scorpions aggregate around lake edges, decorative boulders, and dense groundcover plantings. Our Val Vista Lakes clients receive targeted treatment of lakeside landscaping, retaining walls, and water feature perimeters in addition to standard home barrier treatment.",
+          "Agritopia (85296) — Gilbert's acclaimed farm-to-table community was built on former agricultural land, and the deep irrigation infrastructure creates underground moisture pockets that scorpions exploit. The community's organic landscaping philosophy and farm areas also sustain prey insect populations that attract scorpions. Our Agritopia treatments use products compatible with the community's agricultural proximity while maintaining full scorpion barrier effectiveness.",
+          "Seville & Higley (85298, 85236) — These eastern Gilbert communities sit closest to San Tan Mountain Regional Park and experience the most direct desert wildlife migration. Seville's gated perimeter provides some protection, but scorpions easily navigate block wall weep holes and gate track gaps. Higley, formerly an unincorporated agricultural area, has deep-rooted scorpion populations in older home foundations. Both areas require aggressive perimeter management and comprehensive exclusion work.",
+          "Cooley Station & Freeman Farms (85233, 85234, 85295) — Central Gilbert's established neighborhoods near the Heritage District have older construction with more entry points than newer builds. Block wall homes from the 1990s and 2000s often have deteriorated door sweeps, unsealed pipe penetrations, and settling cracks in foundations that create dozens of scorpion access points per home. Our central Gilbert protocol prioritizes entry-point identification and sealing alongside chemical barrier treatment.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Eliminates Scorpions in Gilbert Homes",
+        paragraphs: [
+          "Every Gilbert scorpion control job begins with a UV blacklight inspection — the only reliable way to locate bark scorpions on a property. Bark scorpions fluoresce bright green-blue under ultraviolet light, allowing our technicians to find them in wall cracks, under debris, behind expansion joints, and in landscape features that visual inspection would miss entirely. We conduct blacklight inspections at dusk or after dark when scorpions emerge from daytime harborage to hunt.",
+          "Based on inspection findings, your technician develops a three-phase treatment plan. Phase one: direct elimination of all scorpions located during inspection using professional-grade products. Phase two: residual barrier application around the entire home perimeter, foundation walls, door thresholds, window frames, garage door tracks, and all utility penetrations. Phase three: an exclusion plan identifying every gap, crack, and opening that scorpions use to enter your home — weep holes, expansion joints, pipe gaps, and deteriorated weather seals.",
+          "Our technicians use professional-grade residual insecticides specifically formulated for scorpion control — products not available in retail stores that maintain lethal effectiveness through Gilbert's extreme summer UV exposure and monsoon moisture. Interior treatment targets wall voids, closets, utility rooms, and dark areas where scorpions establish indoor harborage. The goal is not just killing visible scorpions but eliminating the invisible network of harborage points that sustains a population.",
+          "Exclusion work is the highest-value long-term scorpion control investment. A properly sealed Gilbert home can reduce scorpion entry by 80 to 90 percent even without chemical treatment. We install copper mesh in weep holes, replace worn door sweeps, seal pipe penetrations with weatherproof caulk, and address settling cracks in foundations and stucco. Combined with our residual barrier, exclusion creates a layered defense that works continuously between scheduled treatments.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Surge — Gilbert's Peak Danger Period",
+        paragraphs: [
+          "Gilbert's monsoon season typically runs from late June through September, and it is the most critical window for scorpion control. Monsoon storms trigger three conditions that dramatically increase scorpion encounters in Gilbert homes: sudden humidity spikes that draw scorpions toward indoor moisture sources, ground saturation that floods shallow burrows and forces scorpions to the surface, and disrupted thermal patterns that change scorpion movement routes through neighborhoods.",
+          "The first major monsoon storm each year triggers the single largest scorpion surge in Gilbert. Homeowners who wait until they find scorpions indoors to schedule service are already weeks behind — by that point, scorpions have established interior harborage, identified reliable entry routes, and may have introduced additional colony members. Bucksworth strongly recommends scheduling pre-monsoon scorpion treatment by mid-June to establish barrier protection before the first storms arrive.",
+          "During monsoon season, our East Valley team extends service hours and increases staffing to handle surge demand. Emergency scorpion calls — especially homes with children, elderly residents, or previous sting incidents — receive priority dispatch. Call (480) 422-8388 to schedule your monsoon-season protection or request emergency scorpion service in Gilbert.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: Every Gilbert Zip Code",
+        paragraphs: [
+          "Bucksworth serves every Gilbert neighborhood and zip code — 85233, 85234, 85236, 85295, 85296, 85297, 85298, and all surrounding areas including Queen Creek, Mesa, Chandler, and San Tan Valley. Our Gilbert-based technicians live in these communities and know the specific scorpion pressures that each neighborhood faces season by season.",
+          "Our East Valley dispatch center at (480) 422-8388 is staffed during business hours. Most Gilbert scorpion appointments are available same-day or next-day. Maintenance plan members receive priority scheduling, discounted service rates, and a dedicated technician who tracks your property's scorpion history and knows your specific pressure points and vulnerabilities.",
+        ],
+      },
+      {
+        heading: "Why Gilbert Families Choose Bucksworth for Scorpion Control",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, who founded the company in 2013 with a simple standard: treat every home like it is Gigi's house. That means honest assessments — we tell you if your scorpion problem requires aggressive treatment or if basic exclusion will solve it — professional-grade materials, transparent pricing, and genuine care for your family's safety.",
+          "We are one of the few Gilbert-area pest control companies that is Google Guaranteed, meaning Google independently verified our licensing, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. We carry full liability insurance, and every technician passes background checks and ongoing training in Arizona scorpion biology, behavior, and treatment methods.",
+          "Ready for your free scorpion inspection in Gilbert? Call (480) 422-8388 today. No trip fees, no hidden charges, no high-pressure sales — just a thorough blacklight inspection, honest findings, and a written estimate you can count on. Same-day appointments available across all Gilbert zip codes.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Gilbert, AZ?",
+        a: "Initial scorpion treatments in Gilbert typically range from $175 to $350 depending on property size, severity of infestation, and exclusion work needed. Ongoing maintenance plans run $99 to $149 per treatment. Every estimate includes a free blacklight inspection. Call (480) 422-8388 for your free quote.",
+      },
+      {
+        q: "How often should I treat my Gilbert home for scorpions?",
+        a: "Most Gilbert homes benefit from quarterly scorpion treatments. Properties at Gilbert's desert edge — Power Ranch, Seville, Higley — often need bi-monthly treatment during monsoon season (July through September). Your technician recommends a schedule based on your property's specific scorpion pressure and inspection findings.",
+      },
+      {
+        q: "Are bark scorpions in Gilbert dangerous?",
+        a: "Yes. The Arizona bark scorpion is the most venomous scorpion in North America. Stings cause severe pain, numbness, and tingling. Children under 5, elderly adults, and individuals with allergies can experience dangerous systemic reactions. If stung, seek medical attention immediately — Banner Desert Medical Center in nearby Mesa is the closest Level I trauma facility.",
+      },
+      {
+        q: "Why do I keep finding scorpions inside my Gilbert home?",
+        a: "Indoor scorpions indicate entry points that need sealing. Common culprits in Gilbert homes include unsealed weep holes in block walls, gaps around plumbing penetrations, worn door sweeps, garage door track gaps, and settling cracks in foundations. Our blacklight inspection identifies exactly where scorpions are entering so we can seal those pathways.",
+      },
+      {
+        q: "Does Bucksworth offer same-day scorpion service in Gilbert?",
+        a: "Yes. Most calls placed before 2 PM receive same-day service. Emergency scorpion calls — homes with children, elderly, or medical concerns — receive priority dispatch. Call (480) 422-8388 to schedule.",
+      },
+      {
+        q: "Can I prevent scorpions naturally in Gilbert?",
+        a: "Helpful measures include removing rock and debris piles from your foundation, trimming vegetation away from exterior walls, sealing entry points, and eliminating standing water. However, given Gilbert's proximity to San Tan Mountain Regional Park and the desert washes that run through the city, natural prevention alone is rarely sufficient. Professional treatment combined with exclusion provides the most reliable protection.",
+      },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — QUEEN CREEK
+     Priority: HIGH — Mojo+Greenleaf split creates entry opening
+     Competitor: Mojo Pest (QC anchor since 2013), Greenleaf (28+ cities)
+     ═══════════════════════════════════════════════════════════════ */
+  "queen-creek-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Queen Creek AZ — Bark Scorpion Removal & Prevention | Bucksworth",
+    metaDescription: "Professional scorpion control in Queen Creek, AZ. Bark scorpion removal, blacklight inspections & perimeter sealing for Sossaman Estates, Encanterra & Hastings Farms. Call (480) 422-8388.",
+    heroHeadline: "Queen Creek Scorpion Control — Southeast Valley Bark Scorpion Experts Since 2013",
+    heroDescription: "Queen Creek's explosive growth from a small farming community into one of Arizona's fastest-growing towns has pushed development deep into prime bark scorpion territory. Bucksworth Home Services delivers comprehensive scorpion control across Queen Creek — from blacklight inspections and direct colony elimination to exclusion sealing that protects your family year-round.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Queen Creek, Maricopa & Pinal Counties",
+        paragraphs: [
+          "Queen Creek straddles the Maricopa-Pinal County line in the heart of Arizona's southeastern growth corridor, surrounded on three sides by undeveloped Sonoran Desert and former agricultural land. This geography makes Queen Creek one of the most scorpion-active communities in the Phoenix metro. The Arizona bark scorpion (Centruroides sculpturatus) thrives in the rocky terrain of San Tan Mountain Regional Park to the north, the open desert south toward Florence, and the agricultural-to-residential transition zones that define Queen Creek's expanding borders.",
+          "Bucksworth Home Services has provided scorpion control across Queen Creek and the Southeast Valley since 2013. Our licensed technicians understand that scorpion pressure at a desert-edge Encanterra property (85140) bordering open state land is fundamentally different from a Sossaman Estates home (85142) surrounded by established horse properties and irrigated agriculture. Each neighborhood creates unique scorpion conditions that demand targeted treatment strategies — not a one-size-fits-all spray.",
+          "Need scorpion control in Queen Creek today? Call (480) 422-8388 — our Southeast Valley dispatch offers same-day and next-day appointments across all Queen Creek zip codes. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why Queen Creek Is Arizona's Next Scorpion Hotspot",
+        paragraphs: [
+          "Queen Creek's scorpion pressure is intensifying for measurable reasons that most homeowners do not fully understand until they are finding bark scorpions indoors weekly. First, the town's population has roughly tripled since 2010, with thousands of new homes built on raw desert and former farmland each year. Every new subdivision displaces scorpion colonies that have inhabited the area for generations — and these displaced scorpions do not leave. They migrate into the nearest available shelter, which is the newly built homes themselves.",
+          "Second, San Tan Mountain Regional Park borders Queen Creek's northern edge with over 10,000 acres of rocky desert that functions as a permanent bark scorpion reservoir. The park's granite outcroppings, desert washes, and dense packrat middens provide ideal scorpion habitat. Queen Creek Wash and its tributaries flow south from the San Tan Mountains directly through residential neighborhoods, creating natural migration corridors that carry scorpion populations from wildland into backyards, garages, and homes.",
+          "Third, Queen Creek retains significant agricultural land — horse properties along Sossaman Road, active farms near Schnepf Farms, and former cotton fields now under development. This agricultural-residential interface creates moisture-rich soil conditions and robust prey insect populations (crickets, roaches, beetles) that bark scorpions depend on. Properties near irrigated agriculture consistently report higher scorpion activity than homes in fully urbanized areas.",
+          "Arizona bark scorpion venom is a neurotoxin that causes intense pain, numbness, and in vulnerable individuals — children under five, elderly adults, and those with compromised immune systems — potentially dangerous systemic reactions requiring emergency medical treatment. Queen Creek families with children should treat scorpion control as a health and safety priority, not just a nuisance issue.",
+        ],
+      },
+      {
+        heading: "Neighborhood-Level Scorpion Control Across Queen Creek",
+        paragraphs: [
+          "Sossaman Estates (85142) — This semi-rural area along Sossaman Road features larger lots, horse properties, and proximity to irrigated agricultural land. The combination of open space, mature trees, hay storage, and livestock areas creates extensive scorpion harborage. Our Sossaman Estates protocol includes expanded perimeter treatment covering barns, outbuildings, fence lines, and hay storage areas where scorpions congregate in large numbers during cooler months.",
+          "Encanterra at Eastmark (85140) — This resort-style community at Queen Creek's eastern boundary borders open state trust land and undeveloped desert. Homes on the community's perimeter face direct desert wildlife migration, including bark scorpions, desert hairy scorpions, and the prey insects that attract them. Our Encanterra service extends treatment to golf course-adjacent areas, trail perimeters, and desert-facing block walls that standard pest companies often neglect.",
+          "Hastings Farms (85142) — This family-oriented community was built on former agricultural land, and the deep irrigation infrastructure left behind creates underground moisture pockets that scorpions exploit for shelter and hydration. The community's central Queen Creek location means scorpion pressure comes from multiple directions — San Tan Mountain drainage to the north, agricultural land to the east, and development-displaced populations from surrounding construction. Our Hastings Farms clients benefit from quarterly interior-exterior treatment cycles that account for seasonal migration patterns.",
+          "Queen Creek Crossing & Cortina (85142) — Queen Creek's commercial growth corridor along Ellsworth Road and Queen Creek Road includes newer residential communities surrounded by active construction. Ongoing development in these areas continuously displaces scorpion populations, creating waves of migration into adjacent established homes. We coordinate with homeowners in these areas to adjust treatment timing around nearby construction activity, which can trigger sudden scorpion surges.",
+          "Rural Queen Creek & South (85142) — Properties south of Riggs Road and east of Ironwood Road remain semi-rural, with acre-plus lots bordering open desert. These homes face the highest per-property scorpion counts in Queen Creek and often require monthly treatment during peak season. Our rural protocol includes extended-reach treatment covering desert-facing property boundaries, well houses, septic areas, and detached structures that standard residential pest plans overlook.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Eliminates Scorpions in Queen Creek Homes",
+        paragraphs: [
+          "Every Queen Creek scorpion control service begins with a UV blacklight inspection — the only reliable method for finding bark scorpions on a property. Bark scorpions fluoresce bright green-blue under ultraviolet light, allowing our technicians to locate them in wall cracks, under rock landscaping, inside electrical boxes, and behind expansion joints that visual inspection cannot detect. We conduct blacklight inspections at dusk or after dark when scorpions are actively hunting and most visible.",
+          "Your technician then builds a targeted treatment plan with three components. First, direct elimination of every scorpion found during the blacklight inspection using professional-grade products. Second, a residual barrier treatment applied to the full home perimeter — foundation walls, door thresholds, window frames, garage door tracks, weep holes, and all utility penetrations. Third, a detailed exclusion assessment identifying every gap, crack, and opening that scorpions use to enter your home.",
+          "We use professional-grade residual insecticides formulated specifically for scorpion control. These are commercial products not available at Home Depot or Lowe's, engineered to maintain lethal effectiveness through Queen Creek's extreme summer temperatures (115°F+) and monsoon moisture. The residual barrier creates a chemical perimeter that kills scorpions on contact as they attempt to cross into your home's protected zone.",
+          "Exclusion sealing is the single most effective long-term scorpion prevention measure. Our technicians install copper mesh in weep holes, replace worn door sweeps with commercial-grade alternatives, seal plumbing and electrical penetrations with weatherproof caulk, and address settling cracks in foundations and stucco walls. A properly sealed Queen Creek home reduces scorpion entry by 80 to 90 percent — even during peak monsoon activity.",
+        ],
+      },
+      {
+        heading: "Monsoon Season in Queen Creek — Peak Scorpion Activity",
+        paragraphs: [
+          "Queen Creek's monsoon season runs from late June through September, bringing the conditions that drive the year's worst scorpion activity. Sudden humidity spikes draw moisture-seeking scorpions toward homes. Ground-saturating storms flood shallow burrows and underground harborage, forcing entire scorpion populations to the surface and into garages, patios, and living spaces. Temperature swings disrupt established scorpion movement patterns, sending them through neighborhoods on unpredictable routes.",
+          "The first major monsoon storm each season triggers Queen Creek's largest scorpion surge. Homeowners who wait to schedule service until they find scorpions indoors are already behind — scorpions discovered inside typically indicate an established entry route and potentially indoor harborage that has been developing for weeks. Bucksworth recommends scheduling pre-monsoon scorpion treatment no later than mid-June to establish full barrier protection before the first storms.",
+          "During monsoon season, our Southeast Valley team increases staffing and extends service hours. Emergency scorpion calls — homes with children, elderly residents, or sting incidents — receive priority dispatch. Call (480) 422-8388 for monsoon-season scheduling or emergency service anywhere in Queen Creek.",
+        ],
+      },
+      {
+        heading: "Complete Queen Creek Scorpion Coverage",
+        paragraphs: [
+          "Bucksworth serves every Queen Creek neighborhood and zip code — 85140, 85142, and all surrounding communities including San Tan Valley, Gilbert, Mesa, Florence, and Apache Junction. Our Southeast Valley technicians live in these communities and understand the specific scorpion dynamics each area faces throughout the year.",
+          "Our dispatch center at (480) 422-8388 is staffed during business hours for scheduling. Most Queen Creek scorpion appointments are available same-day or next-day. Maintenance plan members receive priority scheduling, discounted rates, and a dedicated technician who tracks your property's history and knows your home's specific scorpion pressure points.",
+        ],
+      },
+      {
+        heading: "Why Queen Creek Homeowners Trust Bucksworth",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, who founded the company in 2013 with a simple philosophy: treat every home like it is Gigi's house. That means honest assessments — we will tell you if your scorpion problem needs aggressive treatment or if basic exclusion and sealing will handle it — professional-grade materials, transparent pricing, and genuine concern for your family's safety.",
+          "We are one of the few Queen Creek-area pest companies that is Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. Full liability insurance and background-checked technicians with ongoing training in Arizona scorpion biology and treatment methods.",
+          "Ready for your free scorpion inspection in Queen Creek? Call (480) 422-8388 today. No trip fees, no hidden charges, no pressure — just a thorough blacklight inspection, honest findings, and a written estimate. Same-day appointments available across all Queen Creek zip codes.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Queen Creek, AZ?",
+        a: "Initial scorpion treatments in Queen Creek typically range from $175 to $350 depending on property size, infestation severity, and exclusion work required. Ongoing maintenance plans run $99 to $149 per treatment. Larger rural properties may cost more due to extended treatment zones. Call (480) 422-8388 for your free estimate.",
+      },
+      {
+        q: "How often should I treat for scorpions in Queen Creek?",
+        a: "Most Queen Creek homes need quarterly scorpion treatment. Properties bordering desert or agricultural land — Sossaman Estates, Encanterra, rural areas south of Riggs Road — often require bi-monthly treatment during monsoon season (July through September). Your technician recommends a schedule based on your property's specific pressure and inspection findings.",
+      },
+      {
+        q: "Are scorpions in Queen Creek dangerous?",
+        a: "Yes. The Arizona bark scorpion found throughout Queen Creek is the most venomous scorpion in North America. Stings cause severe pain, numbness, and tingling. Children, elderly adults, and immunocompromised individuals can experience serious systemic reactions requiring emergency care. If stung, contact poison control (1-800-222-1222) or seek immediate medical attention.",
+      },
+      {
+        q: "Why are there so many scorpions in Queen Creek?",
+        a: "Queen Creek is surrounded by San Tan Mountain Regional Park, open desert, and agricultural land — all prime bark scorpion habitat. Rapid residential construction displaces scorpion colonies into existing homes. Queen Creek Wash and its tributaries carry scorpions from mountain habitat directly through neighborhoods. The agricultural-to-residential transition creates moisture and prey insects that sustain large scorpion populations.",
+      },
+      {
+        q: "Does Bucksworth offer same-day scorpion service in Queen Creek?",
+        a: "Yes. Most calls placed before 2 PM receive same-day service. Emergency calls — homes with children, elderly residents, or sting incidents — are dispatched on priority. Call (480) 422-8388.",
+      },
+      {
+        q: "Will scorpion treatment harm my horses or livestock?",
+        a: "Our technicians are experienced with Queen Creek's semi-rural properties. We use targeted application methods that treat scorpion harborage areas while keeping products away from livestock areas, feed storage, and water sources. We will discuss your property layout and any livestock concerns before beginning treatment.",
+      },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — SCOTTSDALE
+     Priority: HIGH — Affluent market, Seal Out Scorpions niche only,
+     CAPE Pest in south, no dominant organic #1
+     ═══════════════════════════════════════════════════════════════ */
+  "scottsdale-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Scottsdale AZ — Bark Scorpion Removal & Prevention | Bucksworth",
+    metaDescription: "Professional scorpion control in Scottsdale, AZ. Bark scorpion removal, blacklight inspections & perimeter sealing for North Scottsdale, DC Ranch, McCormick Ranch & Gainey Ranch. Call (480) 422-8388.",
+    heroHeadline: "Scottsdale Scorpion Control — Desert Luxury Bark Scorpion Experts Since 2013",
+    heroDescription: "Scottsdale's unique position between the McDowell Sonoran Preserve and Camelback Mountain makes it one of the most scorpion-active cities in Arizona. Bucksworth Home Services provides comprehensive scorpion control for Scottsdale homes — from estate properties in North Scottsdale to established communities near Old Town — using blacklight inspections, targeted elimination, and exclusion sealing that protects your family and property.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Scottsdale, Maricopa County",
+        paragraphs: [
+          "Scottsdale stretches more than 30 miles from Camelback Mountain in the south to the McDowell Sonoran Preserve and beyond in the north, encompassing some of the most desirable residential real estate in Arizona — and some of the most active bark scorpion territory in the Phoenix metro. The Arizona bark scorpion (Centruroides sculpturatus) is endemic to the rocky granite terrain that surrounds Scottsdale on nearly every side: the McDowell Mountains, Pinnacle Peak, Thompson Peak, and the Camelback/Mummy Mountain corridor. These mountain preserves harbor enormous scorpion populations that migrate into residential neighborhoods year-round.",
+          "Bucksworth Home Services has delivered scorpion control across Scottsdale since 2013. Our licensed technicians understand that a North Scottsdale estate on a desert lot in DC Ranch (85255) faces fundamentally different scorpion dynamics than a McCormick Ranch villa (85258) surrounded by irrigated turf and mature landscaping. Desert-edge properties contend with direct migration from undeveloped preserve land, while established central Scottsdale neighborhoods deal with adapted populations that breed in landscape features, block wall cavities, and the complex construction details of luxury homes.",
+          "Need scorpion control in Scottsdale today? Call (480) 422-8388 — our Scottsdale dispatch team offers same-day and next-day appointments across all Scottsdale zip codes. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why Scottsdale's Geography Creates Extreme Scorpion Pressure",
+        paragraphs: [
+          "Scottsdale's scorpion problem is a direct consequence of its greatest asset: the stunning Sonoran Desert landscape that surrounds the city. The McDowell Sonoran Preserve alone encompasses over 30,500 acres of protected desert immediately adjacent to some of Scottsdale's most valuable residential areas. This preserve — the largest urban preserve in the United States — is prime bark scorpion habitat: granite boulders, rocky washes, cave-like crevices, and dense packrat nests. Every trail, wash, and drainage that connects the preserve to residential areas functions as a scorpion migration corridor.",
+          "The Camelback Mountain and Mummy Mountain corridor along Scottsdale's southern border creates a second major scorpion reservoir that affects Paradise Valley, Arcadia, and south Scottsdale. Homes near the base of these mountains consistently report higher scorpion activity than properties just a mile away, because rocky terrain provides daytime shelter and the short distance to residential areas is easily traversed during nightly hunting forays.",
+          "Scottsdale's luxury construction style often creates additional scorpion vulnerability. Custom homes with expansive desert landscaping, stacked-stone retaining walls, decorative boulder features, and extensive outdoor living spaces provide abundant harborage. Infinity-edge pools, water features, and lush desert plantings attract the prey insects that scorpions depend on. Large homes with multiple entry points — sliding glass doors, French doors, dog doors, oversized garage bays — present more opportunities for scorpion entry than standard tract homes.",
+          "The Arizona bark scorpion's venom is a neurotoxin causing severe pain, numbness, and potential systemic reactions in children, elderly adults, and sensitive individuals. Scottsdale families — particularly those in desert-adjacent estates with children who play outdoors — should treat professional scorpion control as a health necessity, not an optional service.",
+        ],
+      },
+      {
+        heading: "Neighborhood-Level Scorpion Control Across Scottsdale",
+        paragraphs: [
+          "North Scottsdale & DC Ranch (85255, 85262, 85266) — North Scottsdale's desert estate communities sit directly against the McDowell Sonoran Preserve and Thompson Peak, creating the highest-intensity scorpion zone in the city. DC Ranch homes along the preserve boundary face nightly scorpion migration from thousands of acres of undeveloped granite terrain. Our North Scottsdale protocol includes extended perimeter treatment covering desert-facing property lines, guest casitas, detached garages, pool equipment areas, and decorative rock walls that function as scorpion highways from desert to home.",
+          "Grayhawk (85255) — This master-planned community near Scottsdale Road and Thompson Peak Parkway was built on former desert, and displaced scorpion populations have adapted to the community's irrigated landscaping and retention basins. The Dark Sky-compliant lighting in Grayhawk actually helps scorpion hunting behavior, as reduced artificial light preserves the darkness scorpions prefer. Our Grayhawk service includes treatment of wash corridors, retention basin perimeters, and common-area landscaping adjacent to client properties.",
+          "McCormick Ranch (85258, 85257) — Scottsdale's established lakeside community has mature trees, extensive turf, and water features that create a robust prey insect ecosystem. While McCormick Ranch is farther from mountain preserves, its irrigated environment sustains breeding scorpion populations that no longer need desert migration to survive. Bark scorpions harbor in decorative rock, retaining walls, palm tree bark, and root systems of mature trees. Our McCormick Ranch protocol targets these specific landscape-based harborage points.",
+          "Gainey Ranch (85258) — This gated luxury community features extensive desert and tropical landscaping on large lots. The combination of golf course irrigation, ornamental water features, and proximity to the Indian Bend Wash corridor creates microhabitat conditions that sustain scorpion populations year-round. Our Gainey Ranch service addresses the unique challenges of treating large lots with complex landscaping while maintaining the property's aesthetic standards.",
+          "Old Town & South Scottsdale (85251, 85257) — Scottsdale's entertainment and cultural district includes older construction from the 1960s through 1980s with numerous scorpion entry points: settling cracks, deteriorated stucco, aging door sweeps, and outdated window seals. These homes also sit near the Arizona Canal and Indian Bend Wash, both of which serve as scorpion movement corridors through urbanized areas. Our Old Town protocol emphasizes entry-point sealing and targeted treatment of aging construction features.",
+          "Kierland & Scottsdale Ranch (85254, 85260) — These central Scottsdale communities balance proximity to commercial development with residential landscaping that attracts scorpions. Construction activity near Scottsdale Quarter and Kierland Commons periodically displaces scorpion populations into adjacent residential areas. Our technicians coordinate treatment timing with nearby construction activity to address displacement-driven surges.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Eliminates Scorpions in Scottsdale Homes",
+        paragraphs: [
+          "Every Scottsdale scorpion service begins with a comprehensive UV blacklight inspection. Bark scorpions fluoresce bright green-blue under ultraviolet light, allowing our technicians to locate them in places that visual inspection cannot reach — inside wall cracks, behind stacked-stone features, under pool decking, in landscape rock crevices, and within the complex construction details of custom homes. We conduct inspections at dusk or after dark when scorpions emerge to hunt.",
+          "Based on the inspection, your technician develops a treatment plan scaled to your property. Scottsdale homes range from 1,200-square-foot condos to 10,000+ square-foot estates, and treatment must match the property's scope. Our three-phase approach covers direct scorpion elimination, full-perimeter residual barrier application (foundation walls, door thresholds, window frames, garage bays, guest house perimeters, pool equipment areas, and all utility penetrations), and a comprehensive exclusion assessment identifying every entry point.",
+          "We use professional-grade residual insecticides engineered for Arizona conditions — products that maintain lethal effectiveness through Scottsdale's extreme summer heat (115°F+) and monsoon moisture. These are commercial-grade products not available in retail stores. For Scottsdale's luxury properties, we apply products using methods that avoid staining stone, pavers, and decorative surfaces while maintaining full barrier effectiveness.",
+          "Exclusion is critical for Scottsdale homes, where custom construction often creates more entry points than standard builds. We seal weep holes with copper mesh, replace door sweeps with commercial-grade alternatives, address gaps around oversized garage doors, seal penetrations around outdoor kitchen utilities, and weatherproof gaps in custom stonework. A properly sealed Scottsdale home reduces scorpion entry by 80 to 90 percent.",
+        ],
+      },
+      {
+        heading: "Monsoon Season — Scottsdale's Peak Scorpion Window",
+        paragraphs: [
+          "Scottsdale's monsoon season (late June through September) drives the most intense scorpion activity of the year. Monsoon storms saturate the desert floor, flooding scorpion burrows in the McDowell Sonoran Preserve and surrounding mountain terrain and forcing populations downhill into residential neighborhoods. Sudden humidity spikes draw scorpions toward homes seeking moisture. Disrupted thermal patterns send scorpions through yards and patios on unpredictable routes.",
+          "North Scottsdale properties bear the brunt of monsoon scorpion migration because they sit directly below the mountain drainage patterns. Washes that are dry eleven months of the year become active waterways during monsoon storms, carrying displaced scorpions from preserve land directly into desert-edge communities. Homeowners who wait until they see scorpions indoors to call for service are weeks behind the migration — pre-monsoon treatment in mid-June is the optimal timing.",
+          "During monsoon season, our Scottsdale team increases staffing and extends service availability. Emergency scorpion calls receive priority routing. Call (480) 422-8388 for monsoon-season scheduling or emergency service anywhere in Scottsdale.",
+        ],
+      },
+      {
+        heading: "Complete Scottsdale Scorpion Coverage",
+        paragraphs: [
+          "Bucksworth serves every Scottsdale neighborhood and zip code — 85250, 85251, 85253, 85254, 85255, 85257, 85258, 85259, 85260, 85261, 85262, 85266, and all surrounding communities including Paradise Valley, Phoenix, Tempe, Mesa, Fountain Hills, and Cave Creek. Our Scottsdale-based technicians live in these communities and understand the unique scorpion challenges each neighborhood presents.",
+          "Our dispatch center at (480) 422-8388 is staffed during business hours. Most Scottsdale scorpion appointments are available same-day or next-day. Maintenance plan members receive priority scheduling, discounted rates, and a dedicated technician who knows your property's scorpion history and specific vulnerabilities.",
+        ],
+      },
+      {
+        heading: "Why Scottsdale Homeowners Choose Bucksworth",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, who founded the company in 2013 with a simple standard: treat every home like it is Gigi's house. That means honest assessments — we tell you whether your scorpion problem needs aggressive multi-phase treatment or whether targeted exclusion work will solve it — professional materials, transparent pricing, and genuine care for your family's safety and your property's condition.",
+          "We are one of the few Scottsdale-area pest companies that is Google Guaranteed, meaning Google independently verified our licensing, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. Full liability insurance. Every technician is background-checked and receives ongoing training in Arizona scorpion biology, behavior, and advanced treatment methods.",
+          "Ready for your free scorpion inspection in Scottsdale? Call (480) 422-8388 today. No trip fees, no hidden charges, no pressure — just a thorough blacklight inspection, honest findings, and a written estimate. Same-day appointments available throughout Scottsdale.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Scottsdale, AZ?",
+        a: "Scorpion treatment costs in Scottsdale range from $175 to $500+ depending on property size and complexity. Standard residential homes run $175 to $350. Larger estate properties with guest houses, extensive landscaping, and desert-edge exposure may cost more. Ongoing maintenance plans run $99 to $199 per treatment. Call (480) 422-8388 for your free estimate.",
+      },
+      {
+        q: "How often should Scottsdale homes be treated for scorpions?",
+        a: "Most Scottsdale homes benefit from quarterly treatments. Desert-adjacent properties in North Scottsdale, DC Ranch, and Grayhawk often need bi-monthly treatment during monsoon season (July through September). Your technician recommends a schedule based on your property's location, construction type, and inspection findings.",
+      },
+      {
+        q: "Are bark scorpions common in central Scottsdale?",
+        a: "Yes. While North Scottsdale near the McDowell Mountains has the highest concentrations, central Scottsdale communities like McCormick Ranch, Gainey Ranch, and Old Town sustain established bark scorpion populations year-round. Irrigated landscaping, mature trees, and proximity to the Indian Bend Wash corridor provide habitat that supports breeding populations even in urbanized areas.",
+      },
+      {
+        q: "Will scorpion treatment damage my landscaping or stone surfaces?",
+        a: "No. Our technicians are experienced with Scottsdale's luxury finishes. We apply products using methods that avoid staining natural stone, pavers, pool decking, and decorative surfaces. We discuss any concerns about specific materials before beginning treatment.",
+      },
+      {
+        q: "Does Bucksworth offer same-day scorpion service in Scottsdale?",
+        a: "Yes. Most calls placed before 2 PM receive same-day service. Emergency scorpion calls — homes with children, elderly residents, or sting incidents — are dispatched on priority. Call (480) 422-8388.",
+      },
+      {
+        q: "Can I prevent scorpions on my desert lot in North Scottsdale?",
+        a: "Desert lots require professional management — natural prevention alone is insufficient when your property borders thousands of acres of scorpion habitat. We recommend quarterly professional treatment, comprehensive exclusion sealing of your home, reducing rock and debris near foundations, and trimming vegetation away from exterior walls. Our desert-edge protocol is specifically designed for North Scottsdale properties.",
+      },
+    ],
+  },
 };
 
 /**
