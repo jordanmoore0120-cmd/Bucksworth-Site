@@ -781,6 +781,73 @@ const OVERRIDES: Record<string, ContentOverride> = {
       },
     ],
   },
+
+  "phoenix-az/air-conditioning-and-heating/ac-repair": {
+    metaTitle: "AC Repair Phoenix, AZ — Same-Day Service, All Brands | Call Now",
+    metaDescription: "Fast, reliable AC repair in Phoenix. We fix all brands same-day — compressors, refrigerant leaks, capacitors, fan motors. Licensed ROC #343924, Google Guaranteed. Call (602) 962-2879.",
+    heroHeadline: "Phoenix AC Repair — Same-Day Diagnosis & Fix for All Brands",
+    heroDescription: "When your AC stops working in 115-degree Phoenix heat, you need a licensed technician fast. Bucksworth Home Services provides same-day AC repair for all brands and models. We diagnose the problem, explain your options, and fix it right the first time.",
+    content: [
+      {
+        heading: "Why Phoenix Homeowners Trust Bucksworth for AC Repair",
+        paragraphs: [
+          "Phoenix summers push air conditioning systems to their absolute limits. When temperatures exceed 115 degrees Fahrenheit, a broken AC isn't just uncomfortable — it's a safety hazard for your family, pets, and even your home's plumbing and electronics. Bucksworth Home Services has repaired thousands of AC systems across Phoenix, Tempe, Scottsdale, Mesa, and the entire East Valley.",
+          "Our NATE-certified technicians carry the most common replacement parts on their trucks — capacitors, contactors, fan motors, and refrigerant — so most repairs are completed in a single visit. No waiting days for parts while your house hits 100 degrees indoors.",
+          "We service all major brands including Trane, Carrier, Lennox, Goodman, Rheem, Daikin, and York. Whether your system is 2 years old or 20, we can diagnose and fix it.",
+        ],
+      },
+      {
+        heading: "Common AC Problems in Phoenix",
+        paragraphs: [
+          "The most frequent AC repairs we see in Phoenix include: compressor failures from extreme heat cycling, refrigerant leaks caused by vibration and UV degradation, capacitor burnout during sustained 110+ degree days, frozen evaporator coils from restricted airflow, thermostat malfunctions, and blower motor failures.",
+          "Phoenix-specific issues include dust and debris buildup that reduces airflow, monsoon surge damage to electrical components, and hard water scale in evaporative pre-coolers. Our technicians are trained to identify and resolve these desert-climate problems quickly.",
+        ],
+      },
+      {
+        heading: "Our AC Repair Process",
+        paragraphs: [
+          "Step 1: We arrive on time in a fully stocked truck and perform a complete system diagnostic — checking refrigerant levels, electrical connections, airflow, and component function. Step 2: We explain the diagnosis in plain language and provide a written estimate before any work begins. Step 3: We complete the repair, test the system through a full cooling cycle, and verify temperature differential meets manufacturer specifications.",
+          "Every repair includes a 90-day workmanship warranty. If the same issue returns within 90 days, we come back and fix it at no additional charge.",
+        ],
+      },
+      {
+        heading: "24/7 Emergency AC Repair",
+        paragraphs: [
+          "AC emergencies don't wait for business hours. Our emergency repair line is staffed 24/7 during summer months. When you call after hours, you speak to a real dispatcher — not a voicemail — and we prioritize getting a technician to your home within 2 hours for emergency situations.",
+          "If your AC is blowing warm air, making unusual noises, leaking water, tripping your breaker, or has completely stopped working, call us immediately. Delaying repair can lead to compressor damage that turns a $300 fix into a $3,000 replacement.",
+        ],
+      },
+      {
+        heading: "Repair vs. Replace: Honest Advice",
+        paragraphs: [
+          "We believe in honest recommendations. If your system is under 10 years old and the repair cost is less than 50% of a new system, repair is almost always the right call. If your system is 15+ years old, uses R-22 refrigerant, or needs a compressor replacement, we will discuss replacement options alongside repair costs so you can make the best decision for your budget.",
+          "We never pressure you into a new system. Our technicians are paid the same whether they repair or replace, so their only goal is solving your comfort problem.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does AC repair cost in Phoenix?",
+        a: "Most AC repairs in Phoenix cost between $150 and $650 depending on the issue. Capacitor replacements run $150-$250, fan motor replacements $250-$450, and refrigerant recharges $200-$500. We provide a written estimate before starting any work.",
+      },
+      {
+        q: "Can you fix my AC today?",
+        a: "Yes, we offer same-day AC repair in Phoenix and the surrounding Valley. Most calls placed before 2 PM receive same-day service. Emergency calls are dispatched 24/7 during summer months.",
+      },
+      {
+        q: "Do you repair all AC brands?",
+        a: "We service all residential AC brands including Trane, Carrier, Lennox, Goodman, Rheem, Daikin, York, Amana, and more. Our technicians carry common parts for all major brands.",
+      },
+      {
+        q: "Is it worth repairing a 15-year-old AC unit?",
+        a: "It depends on the repair needed. Minor repairs like capacitors or contactors are worth it regardless of age. Major repairs like compressor replacement on a 15+ year old unit may not be cost-effective. We will provide honest advice and show you both repair and replacement options.",
+      },
+      {
+        q: "Why is my AC running but not cooling?",
+        a: "The most common causes are low refrigerant from a leak, a dirty or frozen evaporator coil, a failed compressor, or a malfunctioning thermostat. Our diagnostic identifies the exact cause and we explain your options before making any repairs.",
+      },
+    ],
+  },
 };
 
 /**
