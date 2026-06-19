@@ -236,6 +236,7 @@ const nextConfig = {
         { source: "/phoenix/hvac-services", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         { source: "/phoenix/plumbing/hot-water-heater", destination: "/phoenix-az/plumbing-and-water-heaters/water-heater-repair", permanent: true },
         { source: "/phoenix/pest-control/weed-control", destination: "/phoenix-az/weed-and-lawn-care", permanent: true },
+        { source: "/phoenix/pest-control/pest-library", destination: "/phoenix-az/pest-and-termite", permanent: true },
         { source: "/phoenix/hvac-services/installation", destination: "/phoenix-az/air-conditioning-and-heating/ac-installation", permanent: true },
         { source: "/phoenix/hvac-services/residential/heating-services/installation", destination: "/phoenix-az/air-conditioning-and-heating/heating-repair", permanent: true },
         { source: "/phoenix/hvac-services/residential/mini-splits", destination: "/phoenix-az/air-conditioning-and-heating/mini-split-systems", permanent: true },
