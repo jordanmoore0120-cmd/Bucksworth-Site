@@ -383,6 +383,18 @@ const nextConfig = {
         { source: "/wp-content/:path*", destination: "/", permanent: true },
         { source: "/wp-json/:path*", destination: "/", permanent: true },
         { source: "/wp-includes/:path*", destination: "/", permanent: true },
+        // 2026-06-19: Batch fix — 12 new 404 URLs found via GSC full audit
+        { source: "/blog/roach-control-near-skyline-regional-park-effective-solutions-for-buckeye-propert", destination: "/blog/roach-control-near-skyline-regional-park-effective-solutions-for-buckeye-propert-2", permanent: true },
+        { source: "/glendale-az", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/lennox", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/maintenance-plans", destination: "/request-service", permanent: true },
+        { source: "/phoenix/hvac-services/replacement", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/phoenix/hvac-services/residential/heat-pump-services/replacement", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/phoenix/refrigeration/beer-coolers", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/snake-pest-control", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/trane", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/valencia-az", destination: "/chandler-az/pest-and-termite", permanent: true },
+        { source: "/water-leak-detection-in-vail-az-professional-inspection-services", destination: "/vail-az/plumbing-and-water-heaters/leak-detection-repair", permanent: true },
     ];
   },
 };
