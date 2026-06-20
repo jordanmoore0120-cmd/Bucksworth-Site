@@ -1224,6 +1224,307 @@ const OVERRIDES: Record<string, ContentOverride> = {
     ],
   },
 
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — PHOENIX
+     Priority: CRITICAL — #21 organic (↑5 trending), biggest AZ city
+     Competitor: Responsible Pest #1 map pack (2,100 reviews)
+     Green Mango blog 404 since Apr 2025 — exploit window
+     ═══════════════════════════════════════════════════════════════ */
+  "phoenix-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Phoenix AZ — Same-Day Bark Scorpion Removal | Bucksworth",
+    metaDescription: "Expert scorpion control in Phoenix, AZ. Bark scorpion removal, blacklight inspections, and perimeter sealing for 15+ neighborhoods. Licensed, Google Guaranteed. Call (480) 422-8388.",
+    heroHeadline: "Phoenix Scorpion Control — Bark Scorpion Experts Serving Every Neighborhood",
+    heroDescription: "Phoenix is ground zero for Arizona bark scorpion activity. With 15 distinct neighborhoods spanning desert foothills, irrigated historic districts, and master-planned communities, every part of the city faces unique scorpion pressure. Bucksworth Home Services provides comprehensive scorpion control across the entire Phoenix metro — from blacklight inspections and perimeter sealing to residual barrier treatments that protect your family through monsoon season and beyond.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Phoenix, Maricopa County",
+        paragraphs: [
+          "Phoenix is the fifth-largest city in the United States and the largest city in the Sonoran Desert, which means it has the largest urban bark scorpion population of any American city. The Arizona bark scorpion (Centruroides sculpturatus) has thrived alongside Phoenix's explosive growth — every new subdivision built into desert terrain displaces scorpion colonies that then migrate into the surrounding homes, garages, and commercial buildings.",
+          "Bucksworth Home Services has provided scorpion control across the Phoenix metro since 2013. Our licensed technicians understand that scorpion pressure in Arcadia (85018) is fundamentally different from what homeowners face in Ahwatukee (85048), North Phoenix (85085), or Laveen (85339). Desert-edge properties along South Mountain and the Sonoran Preserve face constant migration from undeveloped land, while established neighborhoods like Encanto-Palmcroft deal with scorpions that have adapted to irrigated landscaping and century-old construction.",
+          "Need scorpion control in Phoenix today? Call (480) 422-8388 — our Phoenix dispatch team offers same-day and next-day appointments across all Phoenix zip codes. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why Phoenix Is the Bark Scorpion Capital of Arizona",
+        paragraphs: [
+          "Phoenix sits at approximately 1,100 feet elevation in the heart of the Salt River Valley, surrounded by mountain preserves on every side — South Mountain (16,000+ acres), the Phoenix Mountains, Camelback Mountain, Papago Buttes, North Mountain, and the Sonoran Desert to the north and west. These preserves are permanent scorpion habitat, and they border residential neighborhoods directly. Unlike cities where desert wildlife stays distant, Phoenix residents live within walking distance of some of the densest scorpion populations in Arizona.",
+          "Three factors make Phoenix scorpion pressure uniquely severe. First, the city's urban heat island effect creates warmer nighttime temperatures that keep scorpions active longer into the year and more active on any given night. While rural desert areas cool down rapidly after sunset, Phoenix's concrete and asphalt retain heat, and scorpions are most active when nighttime temperatures stay above 75 degrees Fahrenheit.",
+          "Second, Phoenix's extensive canal and irrigation system — the Salt River Project network that runs through neighborhoods citywide — creates moisture corridors that attract the insects scorpions feed on. Crickets, roaches, and beetles concentrate near canal banks and irrigated landscapes, and scorpions follow the food supply directly into adjacent yards and homes.",
+          "Third, Phoenix's housing diversity creates vastly different scorpion entry scenarios. 1920s-era adobe homes in Encanto have different vulnerabilities than 2020s tract homes in Desert Ridge. Block wall construction in Maryvale creates weep hole entry points, while stucco-over-frame construction in Deer Valley presents gaps at utility penetrations. One-size-fits-all scorpion treatments fail because they ignore these structural differences.",
+        ],
+      },
+      {
+        heading: "Neighborhood-Level Scorpion Control Across Phoenix",
+        paragraphs: [
+          "Ahwatukee Foothills (85044, 85048) — Ahwatukee is backed against South Mountain Preserve, the largest municipal park in the United States. Bark scorpions migrate directly from the rocky mountain slopes into Ahwatukee neighborhoods every night during warm months. Properties along the mountain edge — particularly near Desert Foothills Parkway and Chandler Boulevard — experience the highest scorpion pressure in the Phoenix metro. Our Ahwatukee protocols include extended perimeter treatments that push the barrier 15-20 feet from the home to intercept scorpions crossing from the preserve.",
+          "Arcadia (85018) — This affluent central Phoenix neighborhood sits between Camelback Mountain and the Arizona Canal. Mature citrus groves, dense landscaping, and older mid-century block construction create ideal scorpion habitat: moisture, food insects, and dozens of entry points per home. Arcadia homeowners frequently find bark scorpions in master bathrooms, kitchen sinks, and closets — classic indicators of plumbing penetration entry. Our Arcadia service emphasizes exclusion work around pipes, drains, and the wall-foundation junction.",
+          "North Phoenix & Desert Ridge (85050, 85054, 85085) — North Phoenix experienced massive development in the 2000s and 2010s, converting raw Sonoran Desert into master-planned communities. Desert Ridge, Norterra, Fireside, and Tramonto were all built on land that was dense scorpion habitat. Displaced bark scorpion colonies persist in retention basins, desert parks, and undeveloped parcels between neighborhoods, continuously recolonizing treated homes. Our North Phoenix technicians service these communities with aggressive exterior barrier treatments targeting retention basin edges and desert-lot interfaces.",
+          "South Mountain & Laveen (85040, 85041, 85042, 85339) — South Mountain communities face dual pressure: scorpions from the mountain preserve to the north and agricultural-turned-residential land to the south. Laveen's rapid conversion from farmland to housing has displaced massive ground-dwelling populations. The heavy clay soil in South Phoenix holds monsoon moisture longer than sandy desert soils, keeping scorpion prey insects active and concentrated near homes well after storms pass.",
+          "Maryvale & West Phoenix (85031, 85033, 85035) — Maryvale is one of Phoenix's oldest planned communities with block wall construction throughout. Block walls are effective at containing yards but create thousands of weep holes — small drainage gaps at the base of walls that bark scorpions exploit as entry points. Our Maryvale technicians treat every weep hole with residual product and install weep hole screens where feasible. This block-wall-specific treatment is critical and often skipped by national chains that use generic perimeter spray protocols.",
+          "Moon Valley & Deer Valley (85022, 85023, 85024, 85027) — North-central Phoenix neighborhoods near the I-17 corridor with mature landscaping and established infrastructure. Scorpion pressure here is moderate compared to mountain-edge communities but still significant, particularly in homes near the Cave Creek and Skunk Creek washes that serve as wildlife corridors. Seasonal surges during monsoon season drive increased activity July through September.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Eliminates Scorpions in Phoenix Homes",
+        paragraphs: [
+          "Every Phoenix scorpion control job begins with a UV blacklight inspection — the only reliable method for locating scorpions in and around a property. Bark scorpions fluoresce bright green-blue under UV light, revealing them in cracks, behind furniture, under bark, and in wall voids that visual inspection would miss. We conduct this inspection at dusk or after dark when scorpions are most active and visible.",
+          "Based on the inspection findings, your technician develops a targeted treatment plan with three components. First, direct elimination of any scorpions found during inspection using professional-grade products. Second, residual barrier treatment around the entire home perimeter, entry points, window frames, door thresholds, garage door seals, and plumbing penetrations. Third, a sealing and exclusion plan identifying every gap, crack, and opening that scorpions could use to enter your home.",
+          "We use professional-grade residual insecticides specifically effective against scorpions — products not available in retail stores that maintain effectiveness through Phoenix's extreme UV exposure (300+ sunny days per year) and monsoon moisture. The barrier is applied to exterior foundation walls, expansion joints, garage door tracks, and around all utility penetrations. Interior treatment targets wall voids, closets, and dark areas where scorpions harbor.",
+          "Exclusion is the most important long-term scorpion control measure. Our technicians identify and seal entry points using weatherproof caulk, copper mesh, door sweeps, and weep hole screens. A properly sealed Phoenix home can reduce scorpion entry by 80-90 percent even without chemical treatment. Combined with our residual barrier, exclusion creates a defense system that keeps working between scheduled treatments.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Surge — What Phoenix Homeowners Must Know",
+        paragraphs: [
+          "Phoenix's monsoon season runs from approximately late June through September, and it is the most critical period for scorpion control. Monsoon storms bring three conditions that dramatically increase scorpion activity: sudden humidity spikes that drive scorpions indoors seeking shelter, ground saturation that floods scorpion burrows and forces them to the surface, and haboob dust storms that disorient scorpion navigation and scatter populations unpredictably.",
+          "Phoenix's urban heat island intensifies monsoon impact on scorpion behavior. When a monsoon storm drops temperatures from 115 to 80 degrees in thirty minutes, the thermal shock triggers mass scorpion movement. Homeowners in Ahwatukee, North Phoenix, and Arcadia routinely report finding 5-10 scorpions in a single night after major monsoon events — often in bathrooms, kitchens, and bedrooms.",
+          "The first major monsoon storms typically trigger the largest scorpion surge of the year. Homeowners who wait until they see scorpions inside are already weeks behind. Bucksworth strongly recommends scheduling your pre-monsoon scorpion treatment no later than mid-June to establish barrier protection before the first storms arrive. Call (480) 422-8388 to schedule your monsoon-season protection or request emergency service.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: Every Phoenix Zip Code",
+        paragraphs: [
+          "Bucksworth serves every Phoenix neighborhood and zip code — 85003 through 85087 and every zip in between, including Ahwatukee, Arcadia, Biltmore, Desert Ridge, Encanto-Palmcroft, Maryvale, Moon Valley, North Phoenix, South Mountain, Laveen, Paradise Valley Village, Deer Valley, Estrella Village, and Camelback East. Our Phoenix-based technicians live in these communities and know the specific scorpion challenges each area faces.",
+          "Our Phoenix dispatch center at (480) 422-8388 is staffed during business hours for scheduling. Most Phoenix scorpion control appointments are available same-day or next-day. Maintenance plan members receive priority scheduling, discounted rates, and a dedicated technician who tracks your property history and knows your specific scorpion pressure points.",
+        ],
+      },
+      {
+        heading: "Why Phoenix Families Trust Bucksworth for Scorpion Control",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, who founded the company in 2013 with a simple philosophy: treat every home like it is Gigi's. That means honest assessments — we will tell you if your scorpion problem requires aggressive treatment or if basic exclusion will solve it — quality materials, fair prices, and genuine care for your family's safety.",
+          "We are one of the few Phoenix-area pest control companies that is Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. We carry full liability insurance, and every technician passes background checks and ongoing training specific to Arizona scorpion biology and treatment methods.",
+          "Ready for your free scorpion inspection in Phoenix? Call (480) 422-8388 today. No trip fees, no hidden charges, no high-pressure sales — just a thorough blacklight inspection, honest findings, and a written estimate you can count on. Same-day appointments available across all Phoenix zip codes.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Phoenix, AZ?",
+        a: "Most Phoenix homes cost between $150 and $300 for initial scorpion treatment depending on home size, infestation severity, and the amount of exclusion work needed. Ongoing maintenance plans run $45-$75 per treatment. Bucksworth provides free inspections and written estimates with no trip fees — call (480) 422-8388 for your property-specific quote.",
+      },
+      {
+        q: "Are bark scorpions dangerous in Phoenix?",
+        a: "Yes. The Arizona bark scorpion is the most venomous scorpion in North America. Stings cause intense pain, numbness, and tingling that can last 24-72 hours. Children under 5, elderly individuals, and people with compromised immune systems face the highest risk of severe reactions including difficulty breathing and muscle spasms. Seek emergency medical attention for any severe sting reaction.",
+      },
+      {
+        q: "Which Phoenix neighborhoods have the worst scorpion problems?",
+        a: "Ahwatukee Foothills (backed against South Mountain Preserve), North Phoenix/Desert Ridge (built on raw desert), Arcadia (mature landscaping plus block construction), and any property bordering mountain preserves or desert washes experience the highest scorpion pressure. However, bark scorpions are present in every Phoenix zip code.",
+      },
+      {
+        q: "How often should I treat for scorpions in Phoenix?",
+        a: "For most Phoenix homes, quarterly scorpion treatments provide adequate protection. Properties bordering desert preserves, mountain areas, or retention basins often require bi-monthly treatments during monsoon season (July through September). Your Bucksworth technician will recommend the appropriate schedule based on your property's specific pressure level.",
+      },
+      {
+        q: "Can I get same-day scorpion control in Phoenix?",
+        a: "Yes. Bucksworth offers same-day and next-day scorpion control appointments across all Phoenix zip codes. Emergency calls — especially homes with children, elderly residents, or previous sting incidents — receive priority routing. Call (480) 422-8388 for immediate scheduling.",
+      },
+      {
+        q: "Why do I keep finding scorpions inside my Phoenix home?",
+        a: "Indoor scorpion sightings typically indicate unsealed entry points — gaps around plumbing penetrations, weep holes in block walls, deteriorated door sweeps, unsealed expansion joints, or cracks in the foundation. Bark scorpions can enter through gaps as narrow as 1/16 of an inch. A professional exclusion inspection will identify and seal these entry points to stop scorpions from getting inside.",
+      },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — TEMPE
+     Priority: HIGH — East Valley, Green Mango dead zone
+     ASU campus area + established family neighborhoods
+     Competitor gap: Green Mango blog 404 since Apr 2025
+     ═══════════════════════════════════════════════════════════════ */
+  "tempe-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Tempe AZ — Same-Day Bark Scorpion Removal | Bucksworth",
+    metaDescription: "Expert scorpion control in Tempe, AZ. Bark scorpion removal near ASU, South Tempe, and Papago Park. Blacklight inspections, perimeter sealing. Call (480) 422-8388 for same-day service.",
+    heroHeadline: "Tempe Scorpion Control — Protecting Homes From ASU to South Tempe",
+    heroDescription: "Tempe sits at the crossroads of the East Valley's most active bark scorpion corridors. Papago Park, Tempe Butte, and the Salt River bottom create permanent scorpion habitat minutes from every Tempe neighborhood. Bucksworth Home Services provides targeted scorpion control for Tempe's unique mix of dense campus-area rentals, established family communities, and lakefront properties — from blacklight inspections to full exclusion sealing.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Tempe, Maricopa County",
+        paragraphs: [
+          "Tempe occupies a unique position in the East Valley. Bordered by Phoenix to the west, Scottsdale to the north, Mesa to the east, and Chandler to the south, the city sits at the convergence of multiple scorpion migration routes. The Salt River bottom — running along Tempe's northern boundary — is one of the most productive scorpion habitats in the metro area, and Papago Park's 1,200 acres of rocky desert terrain on Tempe's northwest edge harbor dense bark scorpion colonies year-round.",
+          "Bucksworth Home Services has serviced Tempe for scorpion control since 2013. Our technicians understand that a student apartment near Mill Avenue (85281) requires a completely different approach than a single-family home in South Tempe (85284) or a lakefront property in The Lakes (85282). Tempe's compact geography and varied housing stock mean that scorpion pressure, entry patterns, and treatment protocols change block by block.",
+          "Need scorpion control in Tempe today? Call (480) 422-8388 — our team offers same-day and next-day appointments across all Tempe zip codes. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why Tempe Has Persistent Scorpion Problems",
+        paragraphs: [
+          "Tempe's bark scorpion problem is driven by geography and density. The city is only 40 square miles, making it one of the most compact cities in the Valley, but it contains three major scorpion source habitats: Papago Park on the northwest (shared with Phoenix and Scottsdale), the Salt River bottom along the north, and Tempe Butte (A Mountain) in the center. No Tempe neighborhood is more than two miles from at least one of these habitats.",
+          "The Salt River bottom is the least appreciated scorpion corridor in the East Valley. Even though Tempe Town Lake covers part of the river, the surrounding riparian area — with its mix of rock, debris, vegetation, and moisture — supports massive cricket and beetle populations that sustain scorpion colonies. Bark scorpions travel along the river bottom and then migrate south into the residential neighborhoods of North Tempe, the ASU campus area, and the Buttes community.",
+          "Tempe's housing stock compounds the problem. The city has a higher proportion of apartments, condominiums, and multi-family housing than most East Valley cities, and shared-wall construction creates scorpion pathways between units. A single unsealed utility chase in an apartment building can allow scorpions to travel from ground-floor entry points to second- and third-floor units. Additionally, many of Tempe's single-family homes were built in the 1960s-1980s with block construction that has deteriorated sealing — creating hundreds of entry points per home.",
+          "Arizona bark scorpion venom is a neurotoxin that causes intense pain, numbness, and in vulnerable individuals, potentially dangerous systemic reactions. With a large student population, Tempe sees higher-than-average scorpion sting reports — new residents from out of state often do not recognize the threat or know how to inspect their homes for scorpion entry points.",
+        ],
+      },
+      {
+        heading: "Neighborhood-Level Scorpion Control Across Tempe",
+        paragraphs: [
+          "ASU Campus Area & North Tempe (85281) — The Arizona State University campus and surrounding rental neighborhoods between the Salt River and University Drive face the highest scorpion pressure in Tempe. The Salt River bottom is less than a mile north, Papago Park borders the northwest, and Tempe Butte sits directly south. Dense apartment complexes with shared walls, aging plumbing, and communal laundry areas create multiple scorpion entry and harborage points. Our campus-area treatment protocols include common-area treatment, utility chase sealing, and building-perimeter barriers designed for multi-unit properties.",
+          "South Tempe (85284) — South Tempe's family-oriented neighborhoods — including Corona del Sol, Kyrene Corridor, and the homes south of Baseline Road — feature larger lots, block wall construction, and mature desert landscaping. Scorpion pressure here comes primarily from neighboring Chandler to the south and the Kyrene Canal corridor running through the area. The irrigation canal creates a moisture corridor that attracts prey insects and, in turn, scorpions. Our South Tempe clients typically see peak activity during monsoon months when canal-adjacent properties experience flooding-driven scorpion displacement.",
+          "The Lakes (85282) — This lakefront community is one of Tempe's most distinctive neighborhoods, featuring artificial lakes that create a humid microenvironment unique in the desert. The moisture attracts heavy cricket and roach populations — the primary food source for bark scorpions. Homes immediately adjacent to the lake see consistent scorpion activity year-round rather than the seasonal pattern typical of drier neighborhoods. Our Lakes technicians apply moisture-resistant barrier products and focus on dock and lakefront structure treatment alongside standard home perimeter work.",
+          "Tempe Royal Palms & Central Tempe (85283) — Established central Tempe neighborhoods with 1970s-1980s block construction. These older homes have settled foundations, deteriorated expansion joints, and original door sweeps that no longer seal properly. Scorpions exploit these aging entry points readily. Our central Tempe service includes a comprehensive entry-point audit and typically identifies 15-30 sealable gaps per home — each one a potential scorpion highway.",
+          "Papago Park Area (85281) — Properties near Papago Park face direct scorpion migration from 1,200 acres of rocky desert habitat. The park's red buttes, rocky hillsides, and desert wash corridors support one of the densest bark scorpion populations in the metro area. Homes along McDowell Road, 64th Street, and Curry Road near the park boundary require aggressive exterior barrier treatments extending well beyond the standard home perimeter. Our Papago Park protocols treat retaining walls, decorative rock features, and outbuilding foundations as part of the primary barrier.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Eliminates Scorpions in Tempe Homes",
+        paragraphs: [
+          "Every Tempe scorpion control job begins with a UV blacklight inspection — the only reliable method for locating scorpions in and around a property. Bark scorpions fluoresce bright green-blue under UV light, allowing our technicians to find them in cracks, behind furniture, under bark, and in wall voids that visual inspection would miss. We conduct this inspection at dusk or after dark when scorpions are most active.",
+          "Based on the inspection findings, your technician develops a targeted treatment plan. First, direct elimination of any scorpions found during inspection. Second, residual barrier treatment around the entire home perimeter, entry points, window frames, door thresholds, garage door seals, and plumbing penetrations. Third, a sealing and exclusion plan that identifies every gap, crack, and opening that scorpions could use to enter your home.",
+          "For Tempe's multi-family properties, we offer building-wide treatment programs that address shared walls, common utility chases, and ground-floor-to-upper-floor migration paths. A single-unit treatment in an apartment building provides limited protection if neighboring units and common areas remain untreated — our building programs solve this problem comprehensively.",
+          "Exclusion is the most important long-term measure. Our technicians seal entry points using weatherproof caulk, copper mesh, door sweeps, and weep hole screens. A properly sealed Tempe home can reduce scorpion entry by 80-90 percent. Combined with our residual barrier, this creates a defense system that works between scheduled treatments even in high-pressure zones near Papago Park and the Salt River.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Surge in Tempe",
+        paragraphs: [
+          "Tempe's monsoon season runs from late June through September, and it is the most critical period for scorpion control. Monsoon storms push scorpions out of burrows, flood the Salt River bottom, and drive displaced populations south into residential neighborhoods. The first major storms each year trigger the largest scorpion surge — homeowners in North Tempe and the campus area routinely report finding multiple scorpions inside after initial monsoon events.",
+          "Tempe Town Lake and The Lakes community add a unique monsoon dynamic. Rising water levels from monsoon runoff push scorpion populations that shelter along lake and canal edges into adjacent homes. Properties that rarely see scorpions during dry months can experience sudden infestations after heavy rain events.",
+          "Bucksworth recommends scheduling your pre-monsoon scorpion treatment no later than mid-June. Our Tempe team increases staffing during monsoon season to handle surge demand. Emergency scorpion calls receive priority routing. Call (480) 422-8388 for monsoon-season protection or emergency service.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: Every Tempe Zip Code",
+        paragraphs: [
+          "Bucksworth serves every Tempe neighborhood and zip code — 85281, 85282, 85283, 85284, and all surrounding areas including properties near ASU, Papago Park, The Lakes, South Tempe, and the Kyrene Corridor. Our Tempe-based technicians live in the East Valley and know the specific scorpion challenges each area faces.",
+          "Our dispatch center at (480) 422-8388 is staffed during business hours for scheduling. Most Tempe scorpion control appointments are available same-day or next-day. Maintenance plan members receive priority scheduling, discounted rates, and a dedicated technician who tracks your property history and knows your specific scorpion pressure points.",
+        ],
+      },
+      {
+        heading: "Why Tempe Residents Trust Bucksworth for Scorpion Control",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, who founded the company in 2013 with a simple philosophy: treat every home like it is Gigi's. That means honest assessments, quality materials, fair prices, and genuine care for your family's safety.",
+          "We are Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. We carry full liability insurance, and every technician passes background checks and ongoing training specific to Arizona scorpion biology.",
+          "Ready for your free scorpion inspection in Tempe? Call (480) 422-8388 today. No trip fees, no hidden charges, no high-pressure sales — just a thorough blacklight inspection, honest findings, and a written estimate you can count on.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Tempe, AZ?",
+        a: "Most Tempe homes cost between $150 and $300 for initial scorpion treatment depending on home size, infestation severity, and exclusion work needed. Apartments and condos may be less. Ongoing maintenance plans run $45-$75 per treatment. Call (480) 422-8388 for a free inspection and written estimate.",
+      },
+      {
+        q: "Do you treat apartments and condos in Tempe for scorpions?",
+        a: "Yes. Bucksworth provides single-unit and building-wide scorpion treatment programs for Tempe apartments, condos, and townhomes. Multi-unit properties benefit from comprehensive treatment that addresses shared walls, utility chases, and common areas — preventing scorpions from migrating between units. Contact us for property management pricing.",
+      },
+      {
+        q: "Why do I keep finding scorpions in my Tempe apartment?",
+        a: "Apartments near ASU and North Tempe are close to the Salt River bottom and Papago Park — major scorpion habitats. Shared-wall construction allows scorpions to travel between units through unsealed utility chases and plumbing penetrations. A professional inspection can identify your specific entry points and recommend targeted sealing.",
+      },
+      {
+        q: "Which Tempe neighborhoods have the worst scorpion problems?",
+        a: "The ASU campus area and North Tempe (near the Salt River bottom) experience the highest pressure, followed by properties near Papago Park and The Lakes community where moisture attracts prey insects. South Tempe and the Kyrene Corridor see moderate activity, primarily during monsoon season.",
+      },
+      {
+        q: "How often should I treat for scorpions in Tempe?",
+        a: "Quarterly treatments work well for most Tempe homes. Properties near Papago Park, the Salt River, or The Lakes may need bi-monthly treatment during monsoon season (July through September). Your Bucksworth technician will recommend the right schedule based on your specific location and pressure level.",
+      },
+      {
+        q: "Can I get same-day scorpion control in Tempe?",
+        a: "Yes. Bucksworth offers same-day and next-day scorpion control appointments across all Tempe zip codes. Emergency calls — especially homes with children or previous sting incidents — receive priority routing. Call (480) 422-8388 for immediate scheduling.",
+      },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — PEORIA
+     Priority: HIGH — West Valley growth corridor
+     Vistancia/Westwing Mountain desert-edge development
+     Competitor: thinner West Valley coverage
+     ═══════════════════════════════════════════════════════════════ */
+  "peoria-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Peoria AZ — Same-Day Bark Scorpion Removal | Bucksworth",
+    metaDescription: "Expert scorpion control in Peoria, AZ. Bark scorpion removal in Vistancia, Westwing Mountain, and Old Town. Blacklight inspections, perimeter sealing. Call (480) 422-8388.",
+    heroHeadline: "Peoria Scorpion Control — Desert-Edge Protection From Vistancia to Old Town",
+    heroDescription: "Peoria stretches from established neighborhoods near the 101 and Grand Avenue all the way north to the Sonoran Desert foothills near Lake Pleasant. That 30-mile span means wildly different scorpion pressure depending on where you live. Bucksworth Home Services provides targeted scorpion control calibrated to each Peoria neighborhood — from aggressive desert-edge barrier treatments in Vistancia and Westwing Mountain to entry-point sealing in Old Town Peoria's older block construction.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Peoria, Maricopa County",
+        paragraphs: [
+          "Peoria is one of the fastest-growing cities in the West Valley, and that growth is pushing residential development deeper into Sonoran Desert terrain than almost any other Phoenix suburb. North Peoria communities like Vistancia, Westwing Mountain, and Lake Pleasant Heights were built on raw desert hillsides that harbored dense bark scorpion populations — colonies that were displaced but never eliminated during construction. Meanwhile, Old Town Peoria and central Peoria neighborhoods have aging block construction with deteriorated sealing that gives scorpions easy access to homes built decades ago.",
+          "Bucksworth Home Services has provided scorpion control across Peoria since 2013. Our licensed technicians understand that a home in Vistancia (85383) near the Sonoran Desert boundary faces completely different scorpion dynamics than a home in Old Town Peoria (85345) near the Grand Avenue corridor. Desert-edge properties deal with continuous migration from undeveloped land, while established neighborhoods manage scorpion populations that have adapted to irrigated landscapes and suburban infrastructure.",
+          "Need scorpion control in Peoria today? Call (480) 422-8388 — our team offers same-day and next-day appointments across all Peoria zip codes. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why North Peoria Is a Scorpion Hot Zone",
+        paragraphs: [
+          "North Peoria's geography creates some of the most intense scorpion pressure in the West Valley. The communities of Vistancia, Westwing Mountain, and Lake Pleasant Heights sit at elevations between 1,400 and 2,000 feet in the desert foothills north of Happy Valley Road. These rocky, boulder-strewn hillsides are prime bark scorpion habitat — the crevices, overhangs, and loose rock provide ideal daytime shelter, while the nighttime temperature differentials between rock surfaces and open air create conditions that maximize scorpion foraging activity.",
+          "Lake Pleasant — Arizona's third-largest lake, located just minutes from Vistancia — adds a moisture component that most desert-edge communities lack. The lake and its surrounding riparian corridors support insect populations that sustain large scorpion colonies. During monsoon season, storm runoff from the Bradshaw Mountains flows through washes that cut directly through North Peoria neighborhoods, carrying scorpions and their prey downstream into residential areas.",
+          "Development patterns compound the issue. Many North Peoria homes back directly to undeveloped desert parcels, BLM land, or state trust land that will never be developed. These properties face permanent scorpion pressure from habitat that extends unbroken for miles. Unlike urban neighborhoods where surrounding development reduces scorpion habitat over time, desert-edge Peoria homes will always be on the frontier.",
+          "Arizona bark scorpion venom is a neurotoxin that causes intense pain, numbness, and in children or elderly individuals, potentially dangerous systemic reactions requiring emergency medical attention. Families in North Peoria with young children should treat scorpion control as essential home maintenance, not optional pest management.",
+        ],
+      },
+      {
+        heading: "Neighborhood-Level Scorpion Control Across Peoria",
+        paragraphs: [
+          "Vistancia (85383) — Peoria's largest master-planned community sits in the desert foothills north of Happy Valley Road. With over 7,000 homes across multiple villages, Vistancia was carved from Sonoran Desert terrain that supported dense bark scorpion populations. The community's desert-edge location, retention basins filled with rock and native vegetation, and proximity to undeveloped BLM land create persistent scorpion migration pressure. Our Vistancia protocols include extended perimeter barriers, retention basin edge treatment, and aggressive exclusion work around the garage-house junction where most scorpion entry occurs in newer construction.",
+          "Westwing Mountain (85383) — This hillside community is built literally into scorpion habitat. Homes on elevated lots with desert views often have retaining walls, decorative boulder features, and natural desert landscaping that harbor scorpion colonies within feet of the home. Westwing Mountain consistently produces some of our highest blacklight inspection counts in the West Valley — 10 to 20 scorpions found on a single property is not unusual during peak season. Our Westwing protocols treat decorative rock, retaining walls, and hillside slopes as part of the primary treatment zone, not just the home perimeter.",
+          "Lake Pleasant Heights (85383) — The northernmost Peoria neighborhoods near Lake Pleasant Regional Park deal with scorpion pressure from the lake's riparian corridor and the Bradshaw Mountain foothills. The combination of moisture from the lake, rocky terrain, and sparse development creates ideal scorpion conditions. Properties on the east side of Lake Pleasant Parkway face the most consistent pressure, as the land slopes down from the hills toward the lake, channeling scorpion movement through residential areas.",
+          "Old Town Peoria (85345) — Peoria's historic core along Grand Avenue features older block construction homes built in the 1960s through 1980s. These homes have settled foundations, deteriorated expansion joints, original door sweeps, and aging weatherstripping that create dozens of scorpion entry points. Old Town Peoria scorpion pressure is lower than the desert-edge communities to the north, but indoor scorpion sightings are disproportionately common because the homes are so easy to enter. Our Old Town protocol emphasizes exclusion — sealing the 15-30 entry points that a typical older Peoria home presents.",
+          "Terramar & Central Peoria (85382) — Central Peoria neighborhoods between Thunderbird Road and Happy Valley Road represent a middle ground: newer than Old Town but not as desert-adjacent as Vistancia. Scorpion pressure here comes primarily from canal corridors (New River Canal, Beardsley Canal) and retention basins within the community. Seasonal monsoon surges drive most activity, with July through September being the peak period.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Eliminates Scorpions in Peoria Homes",
+        paragraphs: [
+          "Every Peoria scorpion control job begins with a UV blacklight inspection — the only reliable method for locating scorpions in and around a property. Bark scorpions fluoresce bright green-blue under UV light, revealing them in cracks, behind furniture, under bark, and in wall voids that visual inspection would miss. We conduct this inspection at dusk or after dark when scorpions are most active.",
+          "Based on the inspection findings, your technician develops a targeted treatment plan. For North Peoria desert-edge properties, this typically includes an extended barrier treatment zone — pushing the chemical barrier 15 to 20 feet from the home to intercept scorpions crossing from adjacent desert terrain. For Old Town and central Peoria homes, the emphasis shifts to exclusion and entry-point sealing, since the primary challenge is keeping scorpions out of easily penetrated older construction.",
+          "We use professional-grade residual insecticides specifically effective against scorpions — products not available in retail stores that maintain effectiveness through Peoria's extreme UV exposure and monsoon moisture. The barrier is applied to exterior foundation walls, expansion joints, garage door tracks, and around all utility penetrations. Interior treatment targets wall voids, closets, and dark areas where scorpions harbor.",
+          "Ongoing maintenance is critical in Peoria. North Peoria properties face permanent scorpion pressure from adjacent desert habitat, while Old Town homes need periodic exclusion inspections as aging sealing materials deteriorate. Our Peoria maintenance plans include quarterly treatments (bi-monthly during monsoon season for desert-edge properties), annual blacklight re-inspection, and barrier touch-ups after major storms.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Surge in Peoria",
+        paragraphs: [
+          "Peoria's monsoon season runs from late June through September, and it triggers the year's most intense scorpion activity. North Peoria communities are particularly affected because monsoon storms push water through the desert washes that cut between Vistancia, Westwing, and Lake Pleasant Heights — flooding scorpion burrows and driving displaced populations directly into homes, garages, and pool areas.",
+          "The Bradshaw Mountain runoff that feeds Lake Pleasant also carries scorpions downstream through wash corridors during heavy storms. Properties near New River, Skunk Creek, or any of the unnamed desert washes in North Peoria should expect peak scorpion activity within 24-48 hours of any significant monsoon event.",
+          "Bucksworth recommends scheduling your pre-monsoon scorpion treatment no later than mid-June. Our Peoria team increases staffing during monsoon season to handle surge demand. Emergency scorpion calls receive priority routing. Call (480) 422-8388 for monsoon-season protection or emergency service.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: Every Peoria Zip Code",
+        paragraphs: [
+          "Bucksworth serves every Peoria neighborhood and zip code — 85345, 85381, 85382, 85383 — including Vistancia, Westwing Mountain, Lake Pleasant Heights, Old Town Peoria, Terramar, and all surrounding areas. Our technicians live in the West Valley and know the specific scorpion challenges each Peoria neighborhood faces.",
+          "Our dispatch center at (480) 422-8388 is staffed during business hours for scheduling. Most Peoria scorpion control appointments are available same-day or next-day. Maintenance plan members receive priority scheduling, discounted rates, and a dedicated technician who tracks your property history and scorpion pressure points.",
+        ],
+      },
+      {
+        heading: "Why Peoria Families Trust Bucksworth for Scorpion Control",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, who founded the company in 2013 with a simple philosophy: treat every home like it is Gigi's. That means honest assessments — we will tell you if your scorpion problem requires aggressive treatment or if basic exclusion will solve it — quality materials, fair prices, and genuine care for your family's safety.",
+          "We are Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. We carry full liability insurance, and every technician passes background checks and ongoing training specific to Arizona scorpion biology and treatment methods.",
+          "Ready for your free scorpion inspection in Peoria? Call (480) 422-8388 today. No trip fees, no hidden charges, no high-pressure sales — just a thorough blacklight inspection, honest findings, and a written estimate you can count on. Same-day appointments available across all Peoria zip codes.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Peoria, AZ?",
+        a: "Most Peoria homes cost between $150 and $300 for initial scorpion treatment. Desert-edge properties in Vistancia and Westwing Mountain requiring extended barrier zones may be toward the higher end. Ongoing maintenance plans run $45-$75 per treatment. Call (480) 422-8388 for a free inspection and written estimate.",
+      },
+      {
+        q: "Why does my Vistancia home have so many scorpions?",
+        a: "Vistancia was built on raw Sonoran Desert terrain that harbored dense bark scorpion populations. The community borders BLM land and undeveloped desert, meaning scorpions continuously migrate into the area. Retention basins, desert landscaping, and block wall construction provide harborage and entry points. Professional treatment with extended barrier zones is essential for Vistancia properties.",
+      },
+      {
+        q: "Which Peoria neighborhoods have the worst scorpion problems?",
+        a: "Westwing Mountain and Vistancia consistently have the highest scorpion counts due to their desert-edge locations. Lake Pleasant Heights faces similar pressure from the lake's riparian corridor. Old Town Peoria sees fewer scorpions overall but more indoor sightings due to older construction with deteriorated sealing.",
+      },
+      {
+        q: "How often should I treat for scorpions in Peoria?",
+        a: "For central and Old Town Peoria, quarterly treatments typically provide adequate protection. For desert-edge communities like Vistancia, Westwing Mountain, and Lake Pleasant Heights, bi-monthly treatments during monsoon season (July through September) are strongly recommended. Your Bucksworth technician will recommend the right schedule for your property.",
+      },
+      {
+        q: "Can I get same-day scorpion control in Peoria?",
+        a: "Yes. Bucksworth offers same-day and next-day scorpion control appointments across all Peoria zip codes. Emergency calls — especially homes with children or previous sting incidents — receive priority routing. Call (480) 422-8388 for immediate scheduling.",
+      },
+      {
+        q: "Do scorpions come from Lake Pleasant into Peoria homes?",
+        a: "Lake Pleasant's riparian corridor supports insect populations that sustain scorpion colonies, and monsoon runoff from the Bradshaw Mountains carries scorpions through wash corridors into North Peoria neighborhoods. Properties near Lake Pleasant Parkway and desert washes are most affected. Professional barrier treatment that extends beyond the home perimeter is the most effective protection.",
+      },
+    ],
+  },
+
 };
 
 /**
