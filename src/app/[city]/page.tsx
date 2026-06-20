@@ -32,12 +32,12 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
 
   const svcList =
     city.branch === "phoenix"
-      ? "pest control, HVAC, plumbing & insulation"
-      : "pest control & weed control";
+      ? "Pest Control, HVAC & Plumbing"
+      : "Pest & Weed Control";
 
   return {
-    title: `${city.name} ${svcList}`,
-    description: `Bucksworth Home Services in ${city.name}, AZ — ${svcList}. Same-day service, free inspections. Call ${phone}.`,
+    title: `${city.name}, AZ ${svcList} — Same-Day Service`,
+    description: `Trusted ${svcList.toLowerCase()} in ${city.name}, AZ. Licensed, Google Guaranteed pros. Free inspections, same-day appointments. Call ${phone}.`,
     alternates: { canonical: `https://www.getyourbucksworth.com/${slug}` },
   };
 }

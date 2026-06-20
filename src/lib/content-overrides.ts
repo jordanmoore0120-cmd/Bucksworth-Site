@@ -1146,6 +1146,84 @@ const OVERRIDES: Record<string, ContentOverride> = {
       },
     ],
   },
+  /* ═══════════════════════════════════════════════════════════════
+     HEATING REPAIR — PHOENIX
+     Priority: CRITICAL — 1,142 impressions, pos 20.5, 0.18% CTR
+     Massive volume — "heating repair" queries spike Oct-Mar
+     ═══════════════════════════════════════════════════════════════ */
+  "phoenix-az/air-conditioning-and-heating/heating-repair": {
+    metaTitle: "Heating Repair Phoenix AZ — Same-Day Furnace & Heat Pump Repair",
+    metaDescription: "Fast, affordable heating repair in Phoenix, AZ. Furnace, heat pump & gas heating service. Licensed, Google Guaranteed. No trip fees. Call (480) 422-8388 for same-day repair.",
+    heroHeadline: "Phoenix Heating Repair — Fast Furnace & Heat Pump Service",
+    heroDescription: "When your heater breaks in the middle of a Phoenix winter night and temperatures drop below 40 degrees, you need a licensed technician who can diagnose and fix the problem quickly. Bucksworth Home Services provides same-day heating repair across Phoenix, Scottsdale, Mesa, Tempe, Chandler, and the entire Valley.",
+    content: [
+      {
+        heading: "Heating Repair Services in Phoenix, AZ",
+        paragraphs: [
+          "Phoenix winters are mild by national standards, but nighttime temperatures regularly drop into the 30s and 40s from November through February. When your heating system fails on a cold desert night, the discomfort is immediate and the risk to pipes, pets, and vulnerable family members is real. Bucksworth Home Services has repaired thousands of heating systems across the Phoenix metro area since 2013.",
+          "We service all residential heating system types found in Phoenix homes: gas furnaces, electric furnaces, heat pumps (the most common heating system in newer Arizona construction), dual-fuel systems, and ductless mini-split heat modes. Our trucks carry the most common parts for major brands including Trane, Lennox, Carrier, Goodman, Rheem, and Amana, so most repairs are completed in a single visit.",
+          "Need heating repair in Phoenix today? Call (480) 422-8388. No trip fees, no overtime charges for evening or weekend appointments. We provide a written estimate before any work begins.",
+        ],
+      },
+      {
+        heading: "Common Heating Problems in Phoenix Homes",
+        paragraphs: [
+          "Heat pumps are the dominant heating system in Phoenix homes built after 2000. The most common heat pump issues we repair include: refrigerant leaks that reduce heating capacity, frozen outdoor coils during cold mornings, defrost cycle failures, reversing valve malfunctions that prevent the system from switching from cooling to heating mode, and thermostat wiring issues that cause the system to run in cooling mode when heat is selected.",
+          "Gas furnaces remain common in Phoenix homes built before 2000 and in some newer custom homes. Common furnace repairs include igniter replacement (the number one furnace failure in Arizona due to thermal cycling), flame sensor cleaning, blower motor replacement, heat exchanger inspection, and gas valve service. Cracked heat exchangers are a safety concern that we check during every furnace repair call.",
+          "Dual-fuel systems combine a heat pump with a gas furnace backup and are increasingly popular in Phoenix for their efficiency. These systems have unique failure modes — particularly the switchover controls that determine when the system transitions from heat pump to gas backup. Improper switchover settings can result in unnecessarily high gas bills or insufficient heating during the coldest nights.",
+          "Ductless mini-split heating failures are becoming more common as these systems age in Phoenix homes. Common issues include compressor failures from years of summer cooling workload, refrigerant leaks at flare connections, and circuit board malfunctions from monsoon power surges.",
+        ],
+      },
+      {
+        heading: "Why Phoenix Heating Systems Fail Differently",
+        paragraphs: [
+          "Phoenix heating systems face unique stress that technicians from other regions may not understand. Your heater sits dormant for 7 to 8 months during Phoenix summers while your AC runs constantly. When heating is finally needed in November, components that have been heat-soaked all summer may fail on first demand. Igniters crack from thermal cycling, capacitors degrade in extreme heat, and contactors corrode from monsoon moisture.",
+          "Dust is another Phoenix-specific heating problem. The fine desert dust that infiltrates every Phoenix home coats furnace burners, clogs heat pump coils, and contaminates flame sensors. A furnace that worked perfectly last February may fail to ignite in November because dust has coated the flame sensor during months of disuse. This is a simple cleaning repair, but it requires a technician who understands Arizona conditions.",
+          "Many Phoenix HVAC companies focus exclusively on air conditioning and treat heating as an afterthought. Bucksworth technicians are trained and certified in heating diagnosis and repair, not just AC work. We carry heating-specific parts, diagnostic tools, and combustion analyzers on every truck.",
+        ],
+      },
+      {
+        heading: "Our Heating Repair Process",
+        paragraphs: [
+          "Step 1: We arrive on time in a fully stocked truck and perform a complete heating system diagnostic. This includes checking electrical connections, thermostat operation, refrigerant levels (heat pumps), gas pressure and combustion analysis (furnaces), airflow measurement, and safety controls. We identify the root cause, not just the symptom.",
+          "Step 2: We explain the diagnosis in plain language and provide a written estimate before any work begins. You know exactly what is wrong, what needs to be repaired, and what it will cost. No surprises, no pressure.",
+          "Step 3: We complete the repair, test the system through a full heating cycle, and verify that supply air temperature and system operation meet manufacturer specifications. We do not leave until your home is warming properly.",
+          "Step 4: We provide recommendations for preventing future failures. Many heating issues in Phoenix are preventable with proper pre-season maintenance. We will tell you honestly whether your system needs ongoing attention or whether a single repair resolves the issue.",
+        ],
+      },
+      {
+        heading: "Heating Repair Coverage Across the Phoenix Metro",
+        paragraphs: [
+          "Bucksworth provides heating repair across the entire Phoenix metropolitan area: Phoenix, Scottsdale, Tempe, Mesa, Chandler, Gilbert, Glendale, Peoria, Surprise, Goodyear, Avondale, Buckeye, Queen Creek, San Tan Valley, Apache Junction, Fountain Hills, Paradise Valley, Cave Creek, Anthem, and all surrounding communities.",
+          "Our Phoenix dispatch center at (480) 422-8388 schedules same-day heating repair appointments when available. Evening and weekend appointments carry no overtime or after-hours surcharge. Maintenance plan members receive priority scheduling and discounted repair rates.",
+          "Bucksworth is licensed (Arizona ROC #343924), fully insured, and Google Guaranteed. Every technician is background-checked, drug-tested, and NATE-certified. We stand behind every repair with our satisfaction guarantee.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does heating repair cost in Phoenix?",
+        a: "Most Phoenix heating repairs range from $150 to $500 depending on the issue. Common repairs like igniter replacement, flame sensor cleaning, or capacitor replacement are on the lower end. Blower motor replacement, heat exchanger issues, or compressor repairs cost more. We provide a written estimate before starting any work. Call (480) 422-8388 for a free diagnostic.",
+      },
+      {
+        q: "Do Phoenix homes really need heating repair?",
+        a: "Yes. Phoenix winter nights regularly drop into the 30s and 40s, and heating systems that sit idle for 7-8 months during summer often fail when first needed. Heat pumps, gas furnaces, and dual-fuel systems all require maintenance and occasional repair, especially after enduring extreme Phoenix summer heat.",
+      },
+      {
+        q: "What type of heating system do most Phoenix homes have?",
+        a: "Homes built after 2000 typically have heat pump systems that provide both cooling and heating. Older homes often have gas furnaces. Some newer custom homes use dual-fuel systems (heat pump plus gas furnace backup). Bucksworth repairs all types.",
+      },
+      {
+        q: "Can you repair my heater the same day I call?",
+        a: "In most cases, yes. Calls placed before 2 PM typically receive same-day service. We stock common parts for all major brands on our trucks. Emergency heating calls for homes with infants, elderly residents, or medical needs receive priority dispatch.",
+      },
+      {
+        q: "Should I repair or replace my heating system?",
+        a: "General guidelines: If the system is under 10 years old and the repair costs less than half of replacement, repair is usually the right choice. If it is over 15 years old with recurring issues, replacement may be more cost-effective. We provide honest recommendations based on your system's condition, age, and repair history.",
+      },
+    ],
+  },
+
 };
 
 /**
