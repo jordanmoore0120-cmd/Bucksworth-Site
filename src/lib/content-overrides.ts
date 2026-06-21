@@ -1592,6 +1592,205 @@ const OVERRIDES: Record<string, ContentOverride> = {
     ],
   },
 
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — SURPRISE
+     Priority: HIGH — completes West Valley scorpion grid
+     Competitor: Responsible Pest #1 PHX scorpion, no Surprise-specific pages
+     ═══════════════════════════════════════════════════════════════ */
+  "surprise-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Surprise AZ — Same-Day Bark Scorpion Removal | Bucksworth",
+    metaDescription: "Expert scorpion control in Surprise, AZ. Bark scorpion removal in Marley Park, Surprise Farms, Asante, and Sun City Grand. Blacklight inspections, perimeter sealing. Call (480) 422-8388.",
+    heroHeadline: "Surprise Scorpion Control — White Tank Foothills to Sun City Grand",
+    heroDescription: "Surprise sits at the intersection of explosive residential growth and untouched Sonoran Desert, with White Tank Mountain Regional Park anchoring 30,000 acres of prime bark scorpion habitat on the city's western edge. Bucksworth Home Services delivers targeted scorpion control across every Surprise neighborhood — from aggressive desert-edge barrier treatments in Asante and Desert Oasis to entry-point exclusion in Sun City Grand's established homes.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Surprise, Maricopa County",
+        paragraphs: [
+          "Surprise has grown from 30,000 residents in 2000 to over 152,000 today, making it one of the fastest-expanding cities in the Phoenix metro. That growth pushed subdivisions directly into Sonoran Desert terrain west of the 303 Freeway — terrain that supported dense Arizona bark scorpion (Centruroides sculpturatus) colonies for thousands of years. Displacing scorpion habitat through construction does not eliminate scorpion populations. It fragments them into surrounding desert, retention basins, and block wall corridors, creating a permanent reinfestation cycle for every community built on the desert's edge.",
+          "Bucksworth Home Services has provided scorpion control across Surprise since 2013. Our licensed technicians understand that scorpion pressure in Asante (85387) near the White Tank Mountain foothills is fundamentally different from what homeowners face in Marley Park (85379) or the established 55+ communities in Sun City Grand (85374). Desert-edge properties deal with constant migration from undeveloped BLM and state trust land, while central Surprise neighborhoods manage populations sustained by irrigated parks, retention basins, and canal corridors.",
+          "Need scorpion control in Surprise today? Call (480) 422-8388 — our team offers same-day and next-day appointments across all Surprise zip codes: 85374, 85378, 85379, 85387, and 85388. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why Surprise Has a Growing Scorpion Problem",
+        paragraphs: [
+          "Surprise's scorpion problem is driven by three geographic factors that no amount of new construction will fix. First, White Tank Mountain Regional Park — the largest park in Maricopa County at nearly 30,000 acres — sits directly west of Surprise's newest neighborhoods. This enormous tract of undeveloped desert terrain provides a permanent scorpion reservoir. Bark scorpions living in the White Tank foothills migrate east along wash corridors that flow directly through Surprise neighborhoods, including McMicken Dam Wash and Dysart Drain, carrying scorpions from wildland habitat into backyards.",
+          "Second, Surprise's elevation gradient works against homeowners. The city slopes gently from approximately 1,500 feet at the White Tanks down to 1,100 feet at the eastern boundary near Luke Air Force Base. Water — and everything it carries, including scorpions and their insect prey — flows east from the mountains through Surprise. Every monsoon storm pushes scorpions downhill through the city's extensive wash network.",
+          "Third, Surprise's construction boom created an unintended scorpion habitat network. Thousands of acres of retention basins, rock-lined channels, and flood-control infrastructure built to manage stormwater also provide ideal scorpion harborage: dark crevices, moisture, and concentrated insect prey. These engineered features connect to the natural wash system, creating scorpion highways running through the heart of residential Surprise.",
+          "Arizona bark scorpion venom is a neurotoxin causing intense pain, numbness, and in children, elderly individuals, or those with allergies, potentially dangerous systemic reactions requiring emergency medical treatment. The combination of high scorpion density and large family populations in Surprise makes professional scorpion control an essential home safety measure, not optional pest management.",
+        ],
+      },
+      {
+        heading: "Neighborhood-Level Scorpion Control Across Surprise",
+        paragraphs: [
+          "Asante (85387) — This northwest Surprise community sits closest to the White Tank Mountain foothills, making it one of the highest-pressure scorpion neighborhoods in the West Valley. Homes on the western edge of Asante border undeveloped desert that extends unbroken for miles into the White Tanks. Bark scorpion counts during blacklight inspections routinely reach 15 to 25 per property during peak monsoon season. Our Asante protocol includes an extended 20-foot barrier perimeter around the home, treatment of all rock features and retaining walls, and aggressive exclusion at the garage-house junction and utility penetrations. Many Asante families maintain bi-monthly treatment schedules year-round due to the relentless migration pressure from adjacent desert.",
+          "Surprise Farms (85388) — Built on former agricultural land north of Greenway Road, Surprise Farms straddles the transition from farmland to desert. The community's irrigation infrastructure — old canal laterals, retention basins, and agricultural drainage — provides moisture that sustains elevated scorpion populations compared to typical suburban developments. Scorpions in Surprise Farms often congregate around the community's park areas and retention basins, then fan out into surrounding homes. Our Surprise Farms protocol emphasizes barrier treatment along the property line nearest community green spaces and retention features.",
+          "Marley Park (85379) — This award-winning community features parks, lakes, and mature landscaping that create a scorpion microhabitat within the suburban footprint. The community's lake and park system provide moisture and insect prey that support resident scorpion populations. Marley Park also sits between two wash corridors that channel scorpion migration from the west during monsoon events. Homes adjacent to the parks, lake, or wash corridors receive our enhanced perimeter protocol with extended barrier treatments.",
+          "Sun City Grand (85374) — This active-adult community in northern Surprise has established landscaping and aging construction from the late 1990s and early 2000s. While scorpion pressure is moderate compared to desert-edge communities, indoor sightings are common because older weather-stripping, door sweeps, and garage seals have deteriorated over 25+ years. Our Sun City Grand protocol emphasizes exclusion — replacing worn seals, screening weep holes, and caulking expansion joints — combined with standard perimeter barrier treatment. Many Sun City Grand residents are retirees with mobility concerns, making scorpion-free interiors a safety priority.",
+          "Desert Oasis (85379) — West of the 303 Freeway, Desert Oasis developments push into desert terrain with minimal buffer between homes and open desert. Properties here face similar pressure to Asante, with continuous scorpion migration from undeveloped parcels. The 303 Freeway itself creates a barrier effect — scorpion pressure is noticeably higher west of the 303 than east of it, because the freeway blocks some ground-level migration. Desert Oasis properties require our desert-edge protocol with extended barriers and quarterly monitoring.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Eliminates Scorpions in Surprise Homes",
+        paragraphs: [
+          "Every Surprise scorpion control job begins with a UV blacklight inspection — the only reliable method for locating scorpions in and around a property. Bark scorpions fluoresce bright green-blue under UV light, revealing them in cracks, behind furniture, under bark, in wall voids, and along block wall tops that visual inspection would miss. We conduct this inspection at dusk or after dark when scorpions are actively foraging.",
+          "Based on the inspection findings, your technician develops a treatment plan calibrated to your specific Surprise neighborhood. For desert-edge properties in Asante and Desert Oasis, this includes an extended barrier zone pushing 15 to 20 feet from the home to intercept scorpions crossing from adjacent desert. For established communities like Sun City Grand and Marley Park, the emphasis shifts to exclusion and entry-point sealing, targeting the deteriorated seals and gaps that give scorpions easy access to aging construction.",
+          "We use professional-grade residual insecticides specifically effective against scorpions — products unavailable in retail stores that maintain effectiveness through Surprise's extreme UV exposure and monsoon moisture cycles. The barrier is applied to exterior foundation walls, expansion joints, garage door tracks, window frames, and around all utility penetrations. Interior treatment targets wall voids, closets, and dark areas where scorpions shelter during daylight hours.",
+          "Exclusion is the most important long-term defense. Our technicians identify and seal entry points using weatherproof caulk, copper mesh, new door sweeps, and weep hole screens. A properly sealed Surprise home can reduce indoor scorpion entry by 80 to 90 percent even between chemical treatments. Combined with our residual barrier, exclusion creates a layered defense system that protects your family around the clock.",
+          "Ongoing maintenance is critical in Surprise. Desert-edge properties face permanent scorpion pressure from White Tank Mountain habitat that will never be developed. Our Surprise maintenance plans include quarterly treatments (bi-monthly during monsoon season for high-pressure properties), annual blacklight re-inspection, and barrier touch-ups after major storms that compromise treatment integrity.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Surge in Surprise",
+        paragraphs: [
+          "Surprise's monsoon season runs from late June through September, and it triggers the most intense scorpion activity of the year. The White Tank Mountains receive significant monsoon precipitation that flows east through wash corridors cutting directly through Surprise neighborhoods. These flood events push scorpions from underground burrows and rocky crevices into residential areas — homes, garages, pool equipment pads, and covered patios.",
+          "McMicken Dam Wash and Dysart Drain are the two primary corridors carrying scorpion-bearing floodwater through central and south Surprise. Properties within 200 yards of either wash should expect peak scorpion activity within 24 to 48 hours of any significant monsoon rainfall event. The first major storms of the season typically produce the largest surge, as months of dry conditions have concentrated scorpion populations in deep harborage that flooding rapidly disrupts.",
+          "Bucksworth recommends scheduling your pre-monsoon scorpion treatment no later than mid-June. Our Surprise team increases staffing during monsoon season to handle surge demand. Emergency scorpion calls — especially homes with children, elderly residents, or previous sting incidents — receive priority routing. Call (480) 422-8388 for monsoon-season protection or emergency service.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: Every Surprise Zip Code",
+        paragraphs: [
+          "Bucksworth serves every Surprise neighborhood and zip code — 85374, 85378, 85379, 85387, 85388 — including Asante, Surprise Farms, Marley Park, Sun City Grand, Desert Oasis, Granite Falls, and all surrounding areas. Our technicians live in the West Valley and know the specific scorpion challenges each Surprise neighborhood faces based on years of treatment data.",
+          "Our dispatch center at (480) 422-8388 is staffed during business hours for scheduling. Most Surprise scorpion control appointments are available same-day or next-day. Maintenance plan members receive priority scheduling, discounted rates, and a dedicated technician who tracks your property history and scorpion pressure patterns.",
+        ],
+      },
+      {
+        heading: "Why Surprise Families Trust Bucksworth for Scorpion Control",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, who founded the company in 2013 with a simple philosophy: treat every home like it is Gigi's. That means honest assessments — we will tell you if your scorpion problem requires aggressive treatment or if basic exclusion will solve it — quality materials, fair prices, and genuine care for your family's safety.",
+          "We are Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. We carry full liability insurance, and every technician passes background checks and ongoing training specific to Arizona scorpion biology and treatment methods.",
+          "Ready for your free scorpion inspection in Surprise? Call (480) 422-8388 today. No trip fees, no hidden charges, no high-pressure sales — just a thorough blacklight inspection, honest findings, and a written estimate you can count on. Same-day appointments available across all Surprise zip codes.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Surprise, AZ?",
+        a: "Most Surprise homes cost between $150 and $300 for initial scorpion treatment. Desert-edge properties in Asante and Desert Oasis requiring extended barrier zones are typically toward the higher end. Ongoing maintenance plans run $45-$75 per treatment. Call (480) 422-8388 for a free inspection and written estimate.",
+      },
+      {
+        q: "Why does my home near White Tank Mountains have so many scorpions?",
+        a: "White Tank Mountain Regional Park covers nearly 30,000 acres of prime bark scorpion habitat immediately west of Surprise. Scorpions migrate east through wash corridors and across the desert-residential boundary constantly. Properties in Asante and Desert Oasis are closest to this habitat and experience the highest pressure. Professional extended-barrier treatment is essential for these properties.",
+      },
+      {
+        q: "Which Surprise neighborhoods have the worst scorpion problems?",
+        a: "Asante and Desert Oasis — both west of the 303 Freeway — consistently have the highest scorpion counts due to proximity to White Tank Mountain habitat. Surprise Farms sees elevated activity due to retention basin harborage. Marley Park has moderate pressure from adjacent wash corridors and park areas. Sun City Grand has lower overall pressure but more indoor sightings due to aging construction seals.",
+      },
+      {
+        q: "When should I schedule scorpion treatment in Surprise?",
+        a: "Schedule your pre-monsoon treatment by mid-June for best protection. Monsoon season (late June through September) triggers the year's worst scorpion surge. If you are already seeing scorpions inside, call immediately — same-day service is available for most Surprise addresses.",
+      },
+      {
+        q: "Do scorpion treatments work during monsoon season?",
+        a: "Yes, but timing and product selection matter. We use professional-grade residual insecticides formulated for monsoon conditions — they resist washout better than retail products. Heavy rain within 24 hours of treatment may require a touch-up, which is included at no charge for maintenance plan members. Our monsoon-season protocols include barrier reinforcement after major storms.",
+      },
+      {
+        q: "Are bark scorpions in Surprise dangerous?",
+        a: "Yes. Arizona bark scorpions are the most venomous scorpion in North America. Their sting causes intense pain, numbness, and in children, elderly, or sensitive individuals, potentially dangerous systemic reactions requiring emergency care. Surprise's high bark scorpion density makes professional control essential for family safety.",
+      },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     SCORPION CONTROL — BUCKEYE
+     Priority: HIGH — completes PHX scorpion grid, fastest-growing AZ city
+     Competitor: Green Mango gone (blog 404 since Jan), exploit window
+     ═══════════════════════════════════════════════════════════════ */
+  "buckeye-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Buckeye AZ — Same-Day Bark Scorpion Removal | Bucksworth",
+    metaDescription: "Expert scorpion control in Buckeye, AZ. Bark scorpion removal in Verrado, Tartesso, Sundance, and Festival Ranch. Blacklight inspections, perimeter sealing. Call (480) 422-8388.",
+    heroHeadline: "Buckeye Scorpion Control — Arizona's Fastest-Growing City Meets the Desert",
+    heroDescription: "Buckeye is the fastest-growing city in Arizona, with new construction pushing west into raw Sonoran Desert at an unprecedented pace. Every subdivision carved from desert terrain displaces bark scorpion colonies that have inhabited the White Tank Mountain foothills and Gila River corridor for millennia. Bucksworth Home Services provides targeted scorpion control across Buckeye — from aggressive desert-frontier barriers in Verrado and Tartesso to entry-point protection in Sundance and Festival Ranch.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Buckeye, Maricopa County",
+        paragraphs: [
+          "Buckeye stretches across more than 640 square miles of Maricopa County — making it geographically larger than the city of Phoenix — and most of that land is undeveloped Sonoran Desert, former agricultural fields, and state trust land scheduled for future development. The city's residential footprint is concentrated in communities like Verrado, Tartesso, Sundance, and Festival Ranch, which were built on raw desert terrain teeming with Arizona bark scorpions (Centruroides sculpturatus). As Buckeye's population has exploded from 6,500 in 2000 to over 115,000 today, scorpion encounters have grown in direct proportion.",
+          "Bucksworth Home Services has provided scorpion control across Buckeye since 2013. Our licensed technicians understand that a home in Verrado (85396) nestled in the White Tank Mountain foothills faces completely different scorpion pressure than a home in Sundance (85326) south of I-10 near the Gila River corridor. Mountain-edge properties deal with rock-dwelling scorpion colonies that migrate downhill, while river-corridor homes face populations sustained by the moisture and insect density along Arizona's last free-flowing river sections.",
+          "Need scorpion control in Buckeye today? Call (480) 422-8388 — our team offers same-day and next-day appointments across all Buckeye zip codes: 85326 and 85396. Free blacklight inspection included with every estimate.",
+        ],
+      },
+      {
+        heading: "Why Buckeye's Growth Is Creating a Scorpion Crisis",
+        paragraphs: [
+          "No city in Arizona illustrates the scorpion-development collision better than Buckeye. The math is straightforward: thousands of homes per year are being built on land that was virgin Sonoran Desert until the grading crews arrived. The bark scorpions living in that desert do not disappear when their habitat is scraped and replaced with concrete slabs and stucco walls. They fragment — scattering into surrounding desert, retention basins, landscape rock, and block wall crevices — and then spend the next decade migrating back through the new development.",
+          "Buckeye's geography compounds this pressure from two directions. To the north and west, the White Tank Mountains — nearly 30,000 acres of protected Sonoran Desert habitat — create a permanent scorpion reservoir that no amount of development will ever diminish. Bark scorpions thrive in the rocky foothills, emerging at night to hunt along wash corridors that flow south and east directly through Verrado, Tartesso, and points in between.",
+          "To the south, the Gila River corridor provides a second scorpion ecosystem. Although heavily modified by agriculture and flood control, the Gila and its tributaries sustain riparian habitat with moisture, dense vegetation, and insect prey that support scorpion populations. Sundance and southern Buckeye communities sit between the White Tanks and the Gila — squeezed between two scorpion source populations with nowhere to buffer.",
+          "Arizona bark scorpion venom is a neurotoxin causing intense pain, numbness, and in children, elderly individuals, or those with allergies, potentially dangerous systemic reactions requiring emergency medical treatment. With Buckeye's young-family demographics — median age under 35, high percentage of households with children — professional scorpion control is a critical safety service, not optional pest management.",
+        ],
+      },
+      {
+        heading: "Neighborhood-Level Scorpion Control Across Buckeye",
+        paragraphs: [
+          "Verrado (85396) — Buckeye's flagship community is built into the White Tank Mountain foothills, with homes ascending desert hillsides that provided ideal scorpion habitat for millennia before construction arrived. Verrado's upper-elevation homes — particularly those along the ridgeline with desert and mountain views — face the most intense scorpion pressure in the West Valley. The community's trail system, open desert preserve areas, and rock-lined washes create migration corridors that channel scorpions from the White Tanks directly through residential streets. Our Verrado protocols include extended 20-foot barrier perimeters, retaining wall treatment, decorative rock surface application, and aggressive exclusion at the garage-to-house junction. Blacklight inspections in upper Verrado routinely find 15 to 30 scorpions per property during peak monsoon season.",
+          "Tartesso (85396) — This rapidly expanding community northwest of Verrado is pushing into some of the rawest desert terrain in metropolitan Phoenix. Many Tartesso homes back to undeveloped state trust land or BLM parcels that will remain desert for decades. The combination of brand-new construction (which has not yet established mature chemical barriers) and completely undeveloped adjacent desert creates a scorpion perfect storm. Tartesso residents regularly report finding scorpions inside homes within weeks of moving in — before landscaping is even installed. Our Tartesso protocol includes pre-occupancy treatment for new construction, extended barriers targeting the desert-home interface, and monthly follow-up for the first six months until residual barriers mature.",
+          "Sundance (85326) — South of I-10 and east of Buckeye's historic core, Sundance sits in the agricultural-to-residential transition zone between the White Tank foothills and the Gila River corridor. Former agricultural land retains irrigation infrastructure — old canals, laterals, and drainage channels — that provides moisture and harborage for scorpions at higher density than typical suburban lots. Sundance homes built on former farm fields also contend with soils that were heavily irrigated for decades, creating subsurface moisture that attracts scorpion prey species. Our Sundance protocol includes barrier treatment along old canal easements and drainage corridors, not just the home perimeter.",
+          "Festival Ranch (85326) — Located on Buckeye's eastern edge along Jackrabbit Trail and Indian School Road, Festival Ranch bridges the gap between Buckeye and Goodyear. This transitional area has a mix of newer tract homes and older construction, creating varied scorpion challenges. Eastern Festival Ranch homes benefit from proximity to developed Goodyear neighborhoods that create a buffer from desert, but western-facing properties look out over open desert stretching to the White Tanks. Our Festival Ranch protocol is calibrated to each property's position — desert-facing homes get extended barriers while interior-facing homes get standard treatment with enhanced exclusion.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Eliminates Scorpions in Buckeye Homes",
+        paragraphs: [
+          "Every Buckeye scorpion control job begins with a UV blacklight inspection — the only reliable method for locating scorpions on a property. Bark scorpions fluoresce bright green-blue under UV light, revealing them in cracks, behind landscaping rock, under bark, in wall voids, and along block wall cap joints that visual inspection would never find. We conduct this inspection at dusk or after dark when scorpions are actively foraging.",
+          "Buckeye's unique challenge — new construction on raw desert — requires a treatment approach different from established Phoenix neighborhoods. For Verrado, Tartesso, and other desert-edge properties, we deploy an extended barrier zone pushing the chemical treatment 15 to 20 feet from the home to intercept scorpions crossing the desert-residential boundary. For homes adjacent to old agricultural infrastructure in Sundance, we extend treatment to canal easements and drainage channels where scorpions concentrate.",
+          "We use professional-grade residual insecticides specifically formulated for scorpion control — products unavailable at retail stores that resist Buckeye's extreme UV degradation and maintain effectiveness through monsoon washout cycles. The barrier is applied to exterior foundation walls, expansion joints, garage door tracks, window frames, weep holes, and all utility penetrations. Interior treatment targets wall voids, closets, and dark harborage areas.",
+          "New-construction treatment is a Buckeye specialty. Homes in Tartesso and new Verrado phases often need treatment before the first family moves in. Construction disturbs scorpion colonies on the lot, and scorpions enter through the dozens of unsealed penetrations in new construction — plumbing stubs, HVAC chases, electrical conduits, and unfinished garage seals. Our new-construction protocol seals these entry points and establishes the initial chemical barrier before scorpions establish interior harborage patterns.",
+          "Ongoing maintenance is essential in Buckeye. The surrounding desert is permanent — White Tank Mountain Regional Park and BLM land will never be developed — meaning scorpion migration pressure never stops. Our Buckeye maintenance plans include quarterly treatments (bi-monthly during monsoon season for desert-edge properties), annual blacklight re-inspection, and barrier reinforcement after major storms.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Surge in Buckeye",
+        paragraphs: [
+          "Buckeye's monsoon season runs from late June through September, and it produces the most dramatic scorpion surges in the West Valley. The White Tank Mountains receive heavy monsoon precipitation that flows south and east through dozens of unnamed washes cutting directly through Verrado, Tartesso, and surrounding developments. These flash-flood events push scorpions from underground burrows and rocky crevices into residential areas with force and speed that overwhelm unprepared homes.",
+          "The Gila River corridor intensifies monsoon scorpion activity in southern Buckeye. Monsoon flooding along the Gila pushes scorpions upward from the river bottom into Sundance and adjacent communities. Properties near any wash, retention basin, or drainage channel should expect peak scorpion activity within 24 to 48 hours of significant rainfall.",
+          "Bucksworth recommends scheduling your pre-monsoon scorpion treatment no later than mid-June. Our Buckeye team increases staffing during monsoon season to handle surge demand. Emergency scorpion calls — especially homes with children, elderly residents, or previous sting incidents — receive priority routing. Call (480) 422-8388 for monsoon-season protection or emergency service.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: Every Buckeye Zip Code",
+        paragraphs: [
+          "Bucksworth serves every Buckeye neighborhood and zip code — 85326 and 85396 — including Verrado, Tartesso, Sundance, Festival Ranch, and all surrounding communities. Our technicians live in the West Valley and know the specific scorpion challenges each Buckeye neighborhood faces based on years of treatment data across the metro's fastest-growing city.",
+          "Our dispatch center at (480) 422-8388 is staffed during business hours for scheduling. Most Buckeye scorpion control appointments are available same-day or next-day. Maintenance plan members receive priority scheduling, discounted rates, and a dedicated technician who tracks your property history and scorpion activity trends.",
+        ],
+      },
+      {
+        heading: "Why Buckeye Families Trust Bucksworth for Scorpion Control",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, who founded the company in 2013 with a simple philosophy: treat every home like it is Gigi's. That means honest assessments — we will tell you if your scorpion problem requires aggressive treatment or if basic exclusion will solve it — quality materials, fair prices, and genuine care for your family's safety.",
+          "We are Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. We carry full liability insurance, and every technician passes background checks and ongoing training specific to Arizona scorpion biology and treatment methods.",
+          "Ready for your free scorpion inspection in Buckeye? Call (480) 422-8388 today. No trip fees, no hidden charges, no high-pressure sales — just a thorough blacklight inspection, honest findings, and a written estimate you can count on. Same-day appointments available across all Buckeye zip codes.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Buckeye, AZ?",
+        a: "Most Buckeye homes cost between $150 and $300 for initial scorpion treatment. Desert-edge properties in Verrado and Tartesso requiring extended barrier zones are typically toward the higher end. New-construction pre-occupancy treatments are $175-$250. Ongoing maintenance plans run $45-$75 per treatment. Call (480) 422-8388 for a free inspection and written estimate.",
+      },
+      {
+        q: "Why does my new-construction home in Buckeye already have scorpions?",
+        a: "New Buckeye homes are built on raw desert that harbored bark scorpion colonies. Construction disturbs but does not eliminate these populations. Scorpions enter new homes through unsealed plumbing stubs, HVAC chases, electrical conduits, and unfinished garage seals — often before the first family moves in. Pre-occupancy treatment and exclusion sealing are essential for new Buckeye construction.",
+      },
+      {
+        q: "Which Buckeye neighborhoods have the worst scorpion problems?",
+        a: "Upper Verrado (homes on the ridgeline near White Tank Mountain foothills) and Tartesso (backing to undeveloped state trust land) consistently have the highest scorpion counts. Sundance sees elevated activity from the Gila River corridor. Festival Ranch varies by position — desert-facing lots are higher pressure than interior lots.",
+      },
+      {
+        q: "When should I schedule scorpion treatment in Buckeye?",
+        a: "Schedule your pre-monsoon treatment by mid-June for best protection. Monsoon season (late June through September) triggers the year's worst scorpion surge. New homeowners should schedule treatment before move-in. If you are already seeing scorpions inside, call immediately — same-day service is available for most Buckeye addresses.",
+      },
+      {
+        q: "Do you treat new-construction homes before move-in?",
+        a: "Yes. Our new-construction protocol is specifically designed for Buckeye's rapid development. We seal entry points (plumbing stubs, HVAC chases, electrical conduits, garage seals), apply residual barrier treatment around the entire perimeter, and treat interior harborage areas before the first family moves in. This prevents scorpions from establishing interior colonies during the construction-to-occupancy gap.",
+      },
+      {
+        q: "Are bark scorpions in Buckeye dangerous?",
+        a: "Yes. Arizona bark scorpions are the most venomous scorpion in North America. Their sting causes intense pain, numbness, and in children, elderly, or sensitive individuals, potentially dangerous systemic reactions requiring emergency care. Buckeye's young-family demographics and high scorpion density make professional control a critical safety measure.",
+      },
+    ],
+  },
+
 };
 
 /**
