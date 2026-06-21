@@ -346,8 +346,8 @@ const OVERRIDES: Record<string, ContentOverride> = {
      HVAC summer peak: highest-volume commercial keyword
      ═══════════════════════════════════════════════════════════════ */
   "phoenix-az/air-conditioning-and-heating/ac-installation": {
-    metaTitle: "AC Installation Phoenix, AZ — Free Estimates, Financing from $89/mo",
-    metaDescription: "Top-rated AC installation in Phoenix, AZ. Daikin, Trane & Carrier systems. Manual J load calculation included. Licensed, insured & Google Guaranteed. Call (602) 962-2879 for a free in-home estimate.",
+    metaTitle: "AC Installation Phoenix AZ — 4.9★ Rated, 1,900+ Reviews | Free Estimate",
+    metaDescription: "Phoenix's top-rated AC installation — 1,900+ five-star reviews. Daikin, Trane & Carrier systems with Manual J sizing. Licensed, Google Guaranteed. $89/mo financing. Call (602) 962-2879.",
     heroHeadline: "Phoenix AC Installation — Beat the Heat with a New High-Efficiency System",
     heroDescription: "We install high-efficiency air conditioning systems from Daikin, Trane, Carrier, and Goodman. Every installation includes a Manual J load calculation, proper ductwork evaluation, and manufacturer warranty registration. Financing options available with payments as low as $89/month.",
     content: [
@@ -1521,6 +1521,73 @@ const OVERRIDES: Record<string, ContentOverride> = {
       {
         q: "Do scorpions come from Lake Pleasant into Peoria homes?",
         a: "Lake Pleasant's riparian corridor supports insect populations that sustain scorpion colonies, and monsoon runoff from the Bradshaw Mountains carries scorpions through wash corridors into North Peoria neighborhoods. Properties near Lake Pleasant Parkway and desert washes are most affected. Professional barrier treatment that extends beyond the home perimeter is the most effective protection.",
+      },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     PEST & TERMITE — APACHE JUNCTION
+     Priority: HIGH — pos 11.0, 223 imp, near-P1 home market city
+     Superstition Mountain proximity = unique pest pressure angle
+     ═══════════════════════════════════════════════════════════════ */
+  "apache-junction-az/pest-and-termite": {
+    metaTitle: "Pest Control Apache Junction AZ — Scorpion, Termite & Rodent Experts",
+    metaDescription: "Trusted pest control in Apache Junction, AZ. Scorpion removal, termite treatment, rodent exclusion & general pest defense. Licensed, Google Guaranteed. Call (602) 962-2879 for same-day service.",
+    heroHeadline: "Apache Junction Pest & Termite Control — Desert Experts Since 2013",
+    heroDescription: "Apache Junction sits at the base of the Superstition Mountains, creating some of the most intense pest pressure in the East Valley. Bark scorpions, subterranean termites, pack rats, and black widows migrate from the surrounding desert directly into AJ neighborhoods. Bucksworth Home Services provides comprehensive pest and termite control across every Apache Junction zip code — 85118, 85119, and 85120.",
+    content: [
+      {
+        heading: "Pest Control Services in Apache Junction, Pinal County",
+        paragraphs: [
+          "Apache Junction's unique geography — bordered by the Superstition Wilderness to the east and the Tonto National Forest to the north — creates a constant migration path for desert pests into residential areas. Unlike urban Phoenix neighborhoods with established pest barriers, AJ properties sit on the front line between developed communities and thousands of acres of raw desert habitat.",
+          "The Arizona bark scorpion (Centruroides sculpturatus) is the most common and dangerous pest in Apache Junction. These scorpions shelter in the rocky Superstition foothills during the day and enter homes through gaps as narrow as a credit card at night. Our comprehensive scorpion control includes UV blacklight inspections, interior and exterior treatment, entry point sealing, and ongoing perimeter barriers.",
+          "Bucksworth technicians assigned to Apache Junction live in the East Valley and understand the seasonal pest cycles unique to this area. Spring brings increased scorpion and spider activity as temperatures rise. Summer monsoons drive rodents, cockroaches, and centipedes indoors seeking shelter. Fall and winter see termite swarms and roof rat invasions as desert food sources dry up.",
+        ],
+      },
+      {
+        heading: "Termite Protection for Apache Junction Homes",
+        paragraphs: [
+          "Subterranean termites cause more property damage in Arizona than any other pest. Apache Junction's desert soil conditions — sandy, well-drained, and warm year-round — create ideal termite habitat. Many AJ homes, especially those in older subdivisions near Main Street and Apache Trail, sit on active termite colonies that can go undetected for years.",
+          "Our termite treatment process begins with a thorough inspection of your home's foundation, walls, garage, and surrounding soil. We use Termidor liquid treatment for active infestations and Sentricon bait stations for ongoing monitoring and colony elimination. Every treatment comes with a renewable warranty.",
+          "Signs of termite activity include mud tubes on foundation walls, hollow-sounding wood, discarded wings near windowsills, and bubbling or peeling paint. If you notice any of these signs, call immediately — termite damage is not covered by homeowner's insurance, and early treatment can save thousands in structural repairs.",
+        ],
+      },
+      {
+        heading: "Rodent Control & Exclusion",
+        paragraphs: [
+          "Pack rats (woodrats) and roof rats are a persistent problem in Apache Junction. Pack rats build nests in engine compartments, pool equipment, and attic spaces, often chewing through electrical wiring and creating fire hazards. Roof rats enter through gaps in rooflines and eaves, contaminating food storage areas and spreading disease.",
+          "Our rodent control program includes trapping, removal, nest cleanup, and — most importantly — exclusion sealing. We identify and seal every entry point using steel mesh, copper wool, and commercial-grade sealants. Without proper exclusion, rodents simply re-enter through the same gaps within weeks.",
+        ],
+      },
+      {
+        heading: "Why Apache Junction Chooses Bucksworth",
+        paragraphs: [
+          "Bucksworth Home Services holds Arizona ROC License #343924 and carries full commercial liability insurance. We are Google Guaranteed — meaning Google backs our work with up to $2,000 in customer protection. With over 1,900 five-star Google reviews across the Valley, Apache Junction homeowners trust us for reliable, professional pest and termite control.",
+          "We offer free inspections, same-day service for most calls placed before 2 PM, and flexible scheduling including Saturdays. Our pest control plans start with a thorough initial treatment followed by quarterly maintenance visits to keep your home protected year-round.",
+          "Bucksworth serves all Apache Junction neighborhoods and surrounding communities including Gold Canyon, San Tan Valley, Mesa, Queen Creek, and Florence. Call (602) 962-2879 for a free pest inspection today.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What pests are most common in Apache Junction?",
+        a: "The top pests in Apache Junction are bark scorpions, subterranean termites, pack rats, roof rats, black widows, cockroaches, and centipedes. The proximity to the Superstition Mountains creates higher pest pressure than most East Valley cities.",
+      },
+      {
+        q: "How much does pest control cost in Apache Junction?",
+        a: "Initial pest treatment in Apache Junction typically ranges from $149-$299 depending on home size and pest type. Quarterly maintenance plans run $99-$149 per visit. Termite treatments are quoted separately after inspection. We offer free estimates with no obligation.",
+      },
+      {
+        q: "Does Bucksworth offer same-day pest service in Apache Junction?",
+        a: "Yes. Most calls placed before 2 PM receive same-day service. Emergency calls — homes with scorpion stings, large infestations, or safety concerns — are dispatched on priority regardless of time.",
+      },
+      {
+        q: "How do I prevent scorpions in my Apache Junction home?",
+        a: "Professional quarterly treatment combined with exclusion sealing is the most effective approach. Additionally, reduce harborage by removing debris, woodpiles, and decorative rock near your foundation. Keep grass trimmed and eliminate standing water. Interior glue boards near doors and in garages help monitor activity between treatments.",
+      },
+      {
+        q: "Do you treat for termites in Apache Junction?",
+        a: "Yes. We provide Termidor liquid treatments for active termite infestations and Sentricon bait station systems for ongoing monitoring and colony elimination. Every termite treatment includes a renewable warranty. Free termite inspections are available.",
       },
     ],
   },
