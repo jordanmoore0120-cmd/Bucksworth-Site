@@ -202,4 +202,25 @@ export const JOB_SITES: JobSite[] = [
     description: "Bermuda grass invasion into rock landscaping. Applied selective herbicide to kill Bermuda without harming desert plants. Follow-up treatment in 3 weeks eliminated remaining runners.",
     photo: "/images/photos/tech-spraying-detail.jpg", date: "2026-04-01",
   },
+  {
+    id: "s11", lat: 33.4483, lng: -112.0740, category: "pest",
+    neighborhood: "Central Phoenix", city: "Phoenix",
+    title: "Scorpion Perimeter Treatment — Monsoon Prep",
+    description: "Pre-monsoon scorpion perimeter barrier applied ahead of first storms. Treated foundation, garage door tracks, and all window/door thresholds. Blacklight inspection found 4 bark scorpions in block wall gaps — sealed with copper mesh. Customer enrolled in bi-monthly monsoon plan.",
+    photo: "/images/photos/tech-outdoor-service.jpg", date: "2026-06-18",
+  },
+  {
+    id: "a7", lat: 33.6060, lng: -112.3710, category: "ac",
+    neighborhood: "Surprise", city: "Phoenix",
+    title: "Emergency AC Repair — 114°F Heat Index",
+    description: "Emergency call during heat advisory: compressor seized, home reached 96°F inside. Diagnosed failed dual-run capacitor and low refrigerant charge. Parts on truck — repaired same visit. Home cooling within 45 minutes. Customer added to our priority response list for monsoon season.",
+    photo: "/images/photos/ac-unit-arizona-backdrop.jpg", date: "2026-06-19",
+  },
+  {
+    id: "s12", lat: 32.2170, lng: -110.9260, category: "pest",
+    neighborhood: "Tucson", city: "Tucson",
+    title: "Bark Scorpion Control — Pre-Monsoon Surge Treatment",
+    description: "Customer called after finding 3 bark scorpions inside in one week — classic pre-monsoon pressure spike. Full blacklight inspection at dusk: found 11 scorpions in block walls and garage. Applied residual barrier, installed weep hole screens, and sealed expansion joint gaps. Monsoon bi-monthly plan scheduled starting July.",
+    photo: "/images/photos/tech-service-action.jpg", date: "2026-06-20",
+  },
 ];
