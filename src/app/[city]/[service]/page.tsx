@@ -230,7 +230,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
     aggregateRating: { "@type": "AggregateRating", ratingValue: "4.84", reviewCount: "2000", bestRating: "5" },
     areaServed: { "@type": "City", name: city.name },
     serviceType: service.name,
-    dateModified: "2026-06-14",
+    dateModified: "2026-06-21",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: `${service.name} Services`,
