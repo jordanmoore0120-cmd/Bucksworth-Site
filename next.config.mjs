@@ -395,6 +395,18 @@ const nextConfig = {
         { source: "/trane", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         { source: "/valencia-az", destination: "/chandler-az/pest-and-termite", permanent: true },
         { source: "/water-leak-detection-in-vail-az-professional-inspection-services", destination: "/vail-az/plumbing-and-water-heaters/leak-detection-repair", permanent: true },
+        // 2026-06-21: Batch fix — 9 new 404 URLs found via GSC audit
+        { source: "/blog/gilbert-cockroach-control-protecting-your-85297-area-home-year-round", destination: "/gilbert-az/pest-and-termite", permanent: true },
+        { source: "/blog/getting-rid-of-fire-ants-in-gold-canyon-a-gold-canyon-ranch-homeowners-guide", destination: "/gold-canyon-az/pest-and-termite", permanent: true },
+        { source: "/register", destination: "/request-service", permanent: true },
+        { source: "/phoenix/insulation/pest-guard", destination: "/phoenix-az/air-conditioning-and-heating/attic-insulation", permanent: true },
+        { source: "/phoenix/insulation/duct-insulation", destination: "/phoenix-az/air-conditioning-and-heating/attic-insulation", permanent: true },
+        { source: "/best-ac-repair-oro-valley-az-85737-maintenance-first-help-that-keeps-you-cool", destination: "/oro-valley-az/air-conditioning-and-heating", permanent: true },
+        { source: "/tucson-energy-savings-why-insulation-beats-a-new-ac-95-of-the-time-v3", destination: "/tucson-az/air-conditioning-and-heating", permanent: true },
+        { source: "/ac-repair-in-oro-valley-az-expert-cooling-support", destination: "/oro-valley-az/air-conditioning-and-heating", permanent: true },
+        { source: "/tucson-plumbing-built-on-integrity-and-transparent-pricing", destination: "/tucson-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/news/how-to-keep-lawn-weed-free", destination: "/phoenix-az/weed-and-lawn-care", permanent: true },
+        { source: "/water-heater-replacement-in-tucson-az-solving-hard-water-issues-for-good", destination: "/tucson-az/plumbing-and-water-heaters/water-heater-installation", permanent: true },
     ];
   },
 };
