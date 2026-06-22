@@ -598,6 +598,7 @@ export default function InstantEstimator({
                       type="text"
                       className="ie-address-input"
                       placeholder="Start typing your address…"
+                      aria-label="Home address"
                       value={state.address}
                       onChange={(e) =>
                         setState((s) => ({
@@ -776,6 +777,7 @@ export default function InstantEstimator({
                     <input
                       className="ie-input"
                       placeholder="First Name"
+                      aria-label="First name"
                       value={state.firstName}
                       onChange={(e) =>
                         setState((s) => ({ ...s, firstName: e.target.value }))
@@ -784,6 +786,7 @@ export default function InstantEstimator({
                     <input
                       className="ie-input"
                       placeholder="Last Name"
+                      aria-label="Last name"
                       value={state.lastName}
                       onChange={(e) =>
                         setState((s) => ({ ...s, lastName: e.target.value }))
@@ -794,6 +797,7 @@ export default function InstantEstimator({
                     className="ie-input"
                     type="email"
                     placeholder="Email"
+                    aria-label="Email address"
                     value={state.email}
                     onChange={(e) =>
                       setState((s) => ({ ...s, email: e.target.value }))
@@ -803,6 +807,7 @@ export default function InstantEstimator({
                     className="ie-input"
                     type="tel"
                     placeholder="Phone Number"
+                    aria-label="Phone number"
                     value={state.phone}
                     onChange={(e) =>
                       setState((s) => ({ ...s, phone: e.target.value }))

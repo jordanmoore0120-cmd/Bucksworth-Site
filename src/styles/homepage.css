@@ -45,6 +45,7 @@ body{font-family:'Inter',-apple-system,sans-serif;color:var(--g900);line-height:
 .hero-form .subtitle{color:var(--g500);font-size:13px;margin-bottom:16px}
 .hero-form input,.hero-form select,.hero-form textarea{width:100%;padding:10px 12px;border:1.5px solid var(--g200);border-radius:6px;font-size:14px;font-family:inherit;margin-bottom:10px;background:var(--g50)}
 .hero-form input:focus,.hero-form select:focus{outline:none;border-color:var(--navy);background:white}
+.hero-form input:focus-visible,.hero-form select:focus-visible{outline:3px solid #b91c1c;outline-offset:2px}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .btn-submit{width:100%;background:var(--red);color:white;padding:13px;border:none;border-radius:6px;font-size:16px;font-weight:700;font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:1px;cursor:pointer}
 .btn-submit:hover{background:var(--red-light)}

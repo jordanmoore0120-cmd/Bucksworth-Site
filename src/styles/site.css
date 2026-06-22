@@ -1821,6 +1821,10 @@ img { max-width: 100%; height: auto; }
   border-color: #b91c1c;
   box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.1);
 }
+.tw-form-group input:focus-visible {
+  outline: 3px solid #b91c1c;
+  outline-offset: 2px;
+}
 .tw-checkbox-label {
   display: flex;
   align-items: flex-start;
@@ -2449,6 +2453,11 @@ img { max-width: 100%; height: auto; }
   outline: none;
   border-color: var(--az-blue);
   box-shadow: 0 0 0 3px rgba(0,40,104,0.1);
+}
+.rs-field input:focus-visible,
+.rs-field select:focus-visible {
+  outline: 3px solid #b91c1c;
+  outline-offset: 2px;
 }
 .rs-field input::placeholder { color: var(--g400); }
 .rs-field--full { grid-column: 1 / -1; }

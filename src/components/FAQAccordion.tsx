@@ -40,6 +40,7 @@ export default function FAQAccordion({
                 height="16"
                 viewBox="0 0 24 24"
                 fill="currentColor"
+                aria-hidden="true"
                 className="faq-chevron"
                 style={{
                   transform: openIdx === i ? "rotate(180deg)" : "rotate(0deg)",

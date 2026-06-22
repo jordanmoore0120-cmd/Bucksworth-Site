@@ -215,7 +215,7 @@ export default function RequestServiceClient() {
 
   if (submitted) {
     return (
-      <main className="rs-page">
+      <main id="main-content" className="rs-page">
         <div className="rs-success">
           <div className="rs-success-icon">✓</div>
           <h1>We&apos;ve Got Your Request!</h1>
@@ -231,7 +231,7 @@ export default function RequestServiceClient() {
   const locationLabel = detectedCity || branchInfo.label;
 
   return (
-    <main className="rs-page">
+    <main id="main-content" className="rs-page">
       {/* ── Hero ── */}
       <section className="rs-hero">
         <h1>Schedule a Service</h1>

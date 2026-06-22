@@ -38,7 +38,7 @@ export default function JobSiteClient() {
   }, []);
 
   return (
-    <main className="jsw-page">
+    <main id="main-content" className="jsw-page">
       {/* Hero */}
       <section className="jsw-hero">
         <h1>Our Work Across Arizona</h1>
