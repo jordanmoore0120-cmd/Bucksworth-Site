@@ -1791,6 +1791,286 @@ const OVERRIDES: Record<string, ContentOverride> = {
     ],
   },
 
+  "catalina-foothills-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Catalina Foothills AZ — Mountain-Edge Bark Scorpion Experts | Bucksworth",
+    metaDescription: "Professional scorpion control in Catalina Foothills, AZ. Bark scorpion removal, UV blacklight inspections & perimeter sealing for Skyline, Ventana Canyon & Finger Rock. Call (520) 284-9930.",
+    heroHeadline: "Catalina Foothills Scorpion Control — Mountain-to-Home Barrier Specialists",
+    heroDescription: "Catalina Foothills is ground zero for bark scorpion encounters in the Tucson metro. Your homes sit directly against the Santa Catalina Mountains — the largest scorpion reservoir in southern Arizona. Bucksworth Home Services delivers professional scorpion control engineered specifically for foothill properties, from Skyline Country Club to Ventana Canyon to Finger Rock, with UV blacklight inspections, advanced exclusion sealing, and residual barrier treatments that stop scorpions before they cross your threshold.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Catalina Foothills, Pima County",
+        paragraphs: [
+          "Catalina Foothills is an unincorporated community of approximately 51,000 residents nestled directly against the southern face of the Santa Catalina Mountains. This geography is not metaphorical — the rocky mountain slopes that produce Arizona bark scorpions (Centruroides sculpturatus) literally border backyards in Catalina Foothills neighborhoods. No other Tucson metro community faces this level of proximity to scorpion habitat.",
+          "Bucksworth Home Services has served Catalina Foothills homeowners since 2013 with scorpion control programs designed for high-pressure foothill environments. We treat properties in Skyline Country Club (85718), Ventana Canyon (85750), Finger Rock (85718), Pima Canyon, Hacienda del Sol, La Paloma, and every neighborhood between River Road and the mountain boundary. Each neighborhood faces different scorpion migration pathways, and our technicians tailor every treatment plan to the specific risk profile of your property.",
+          "Call (520) 284-9930 for same-day or next-day scorpion control in Catalina Foothills. Every service begins with a complimentary UV blacklight inspection — the only reliable method for detecting bark scorpions on your property.",
+        ],
+      },
+      {
+        heading: "Why Catalina Foothills Has the Worst Scorpion Pressure in Tucson",
+        paragraphs: [
+          "The Santa Catalina Mountains rise over 9,000 feet directly behind Catalina Foothills, creating a permanent reservoir of bark scorpions that no amount of residential treatment will ever eliminate. These mountains harbor millions of scorpions in rock crevices, talus slopes, and canyon walls from the desert floor to approximately 7,000 feet elevation. Scorpions descend the mountain face through natural drainage channels, washes, and rocky terrain that lead directly into Catalina Foothills neighborhoods.",
+          "Unlike communities built on former agricultural land or flat desert, Catalina Foothills was developed on the mountain's bajada — the rocky, sloped transition zone between mountain and valley floor. This means homes were built on terrain that was already prime scorpion habitat. Construction displaces surface scorpions, but deep populations in rock fractures, boulder fields, and underground refugia survive indefinitely and emerge into finished neighborhoods months or years after development.",
+          "Catalina Foothills' luxury home construction creates additional vulnerability. Larger homes have more exterior penetration points. Stone and stucco exteriors with decorative rock features create micro-habitats against the home. Expansive desert landscaping with native plantings, decomposed granite, and boulder features — standard for Foothills aesthetics — is functionally scorpion habitat pressed against living spaces. Pool equipment pads, outdoor kitchens, and covered patios all create the cool, moist harborage scorpions seek during hot months.",
+          "The 2026 monsoon season beginning this month will intensify scorpion activity dramatically. The Catalina Mountain front produces some of southern Arizona's most violent monsoon storms. Flash flooding through Finger Rock Wash, Ventana Canyon Wash, Pima Canyon Wash, and dozens of unnamed drainages pushes massive scorpion populations out of mountain habitats and directly into Catalina Foothills homes. Pre-monsoon treatment is not optional for foothill properties — it is the difference between manageable encounters and a crisis.",
+        ],
+      },
+      {
+        heading: "Neighborhood-by-Neighborhood Scorpion Control",
+        paragraphs: [
+          "Skyline Country Club (85718) — Skyline's position along the Skyline Drive corridor places it between two major washes draining the Catalina Mountain face. The golf course irrigation sustains insect populations that attract scorpions from surrounding desert and mountain terrain. Homes on the north side of the community facing upslope toward the mountains experience the heaviest scorpion migration. Our Skyline protocol includes extended-zone perimeter treatment along property edges facing desert or wash terrain, with specific attention to the stone retaining walls and boulder landscaping common in this community.",
+          "Ventana Canyon (85750) — This resort-adjacent community is built directly into Ventana Canyon, one of the major drainage corridors from the Santa Catalinas. The canyon funnels both monsoon water and scorpion populations directly through the community. Properties along the canyon rim and near the Loews Ventana Canyon Resort experience year-round pressure that peaks during monsoon season. Our Ventana Canyon treatment plan includes Zone 3 extended perimeter treatment reaching 20+ feet from the home, canyon-edge barrier reinforcement, and monthly monitoring during June through September.",
+          "Finger Rock (85718) — Named for the distinctive rock formation on the Catalina ridge above, Finger Rock homes sit beneath one of the most active scorpion migration corridors in the Tucson metro. Finger Rock Wash and its tributaries channel scorpions from the mountain directly into this neighborhood. Properties closest to the trailhead and wash corridor require aggressive bi-monthly treatment during peak season. Our Finger Rock program emphasizes heavy exclusion sealing and expanded barrier zones.",
+          "Pima Canyon & Hacienda del Sol (85718) — These western Foothills neighborhoods border Pima Canyon, another primary drainage from the Catalinas. Larger lot sizes in this area mean more desert exposure per property. Our treatment radius expands accordingly, with barrier applications extending to guest houses, casitas, pool equipment areas, and detached garages that are common on Pima Canyon properties.",
+          "La Paloma & River Road Corridor — The southern portion of Catalina Foothills near River Road faces slightly less direct mountain migration but still experiences significant scorpion activity from the desert wash corridors that cross this area. These communities benefit from quarterly service with monsoon-season intensification. Properties near the Rillito River corridor face additional pressure from riparian scorpion populations.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Controls Scorpions in Foothill Properties",
+        paragraphs: [
+          "Every Catalina Foothills scorpion service begins with a professional UV blacklight inspection. Bark scorpions fluoresce bright green-blue under ultraviolet light, revealing them in locations daytime inspection cannot reach: inside block wall cavities, behind decorative stone, beneath pool equipment, in expansion joints, under exterior shutters, and within the rock and boulder landscaping ubiquitous in Foothills homes. Our technicians map every scorpion found during inspection, establishing a heat map of activity on your property.",
+          "Treatment follows a three-zone protocol adapted for foothill conditions. Zone 1: the home envelope — every foundation edge, door frame, window frame, garage door seal, plumbing penetration, electrical conduit, HVAC line entry, and visible crack or gap. Zone 2: the immediate yard within 10 feet — block walls, fence lines, landscape borders, decorative rock features, pool equipment pads, outdoor kitchens, and storage areas. Zone 3: the property edge and desert interface — washes, natural rock outcroppings, boulder piles, and undeveloped terrain bordering your lot. For mountain-facing properties, Zone 3 treatment extends to create a deep buffer against downslope migration.",
+          "Exclusion sealing is our highest-impact service in Catalina Foothills. A perfectly maintained chemical barrier can deter scorpions, but physical exclusion stops them completely. We seal every entry point using Arizona-rated materials: weather-grade silicone caulk for static gaps, copper mesh for weep holes and larger openings, commercial-grade door sweeps rated for the 100°+ temperature differentials between exterior and conditioned interior, and specialized sealant for foundation expansion joints. In luxury homes with stone exteriors, we pay particular attention to mortar joints, where settling and UV degradation create micro-gaps bark scorpions exploit.",
+          "We apply professional-grade residual insecticides formulated for desert extremes. Micro-encapsulated formulations release active ingredients gradually over 60-90 days, maintaining consistent barrier strength despite Catalina Foothills' intense sun exposure, temperature swings, and monsoon downpours. Retail products sold at hardware stores degrade within two to three weeks in these conditions and provide no meaningful protection for foothill properties.",
+          "Habitat modification recommendations complete every service visit. Our technician identifies conditions on your property that attract or harbor scorpions: ground-contact woodpiles, landscape debris, excessive ground cover, dark moist areas beneath dense plantings, and exterior lighting that attracts prey insects. Switching to amber or sodium vapor exterior lighting alone can reduce scorpion encounters by reducing the insect prey that draws them to your home.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Protocols for Catalina Foothills",
+        paragraphs: [
+          "Monsoon season in Catalina Foothills is qualitatively different from the rest of the Tucson metro. The mountain front forces moist air upward, producing extreme convective storms directly over the Foothills. Rainfall totals during individual monsoon events can exceed 2 inches in under an hour, triggering flash floods through every wash and drainage that crosses Catalina Foothills neighborhoods. Each flood event physically displaces scorpions from mountain refugia into residential areas.",
+          "Bucksworth recommends all Catalina Foothills properties establish or refresh scorpion barriers by mid-June — before the monsoon onset. This pre-monsoon treatment ensures that when the first storms push scorpions downslope, your home already has full chemical and physical barrier protection in place. Homeowners who wait until they see scorpions inside have already lost the positioning advantage.",
+          "During peak monsoon months (July through September), mountain-facing and wash-adjacent properties should be on bi-monthly service. Interior properties can maintain quarterly service with an option to add a mid-monsoon booster treatment after major storm events. Our maintenance plan includes priority scheduling during peak season — when emergency scorpion calls surge, plan members go to the front of the line.",
+          "Call (520) 284-9930 to schedule your pre-monsoon scorpion service in Catalina Foothills. Emergency calls receive same-day priority routing, especially for homes with children, elderly residents, or active stinging incidents.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: All Catalina Foothills Zip Codes",
+        paragraphs: [
+          "Bucksworth serves every neighborhood in Catalina Foothills — zip codes 85718 and 85750 — plus Oro Valley, Tucson, Marana, and all surrounding Tucson metro communities. Our technicians are based locally and typically arrive within 30 minutes of your Catalina Foothills location.",
+          "Most appointments are available same-day or next-day. Maintenance plan members enjoy priority scheduling, discounted rates, and a dedicated technician who knows your property's scorpion history and specific vulnerability points. Call (520) 284-9930 to get started.",
+        ],
+      },
+      {
+        heading: "Why Catalina Foothills Homeowners Choose Bucksworth",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, founded in 2013 on one principle: treat every home like it is Gigi's. For Catalina Foothills homeowners, that means honest scorpion assessments grounded in what we actually find during inspection — not fear-based upselling designed to exploit your proximity to the mountains. We recommend only what your property genuinely needs, explain the options clearly, and let you decide.",
+          "We are Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. With over 2,000 five-star reviews across the metro area and a 4.8-star average, Bucksworth has earned the trust of thousands of Arizona families — including homeowners throughout Catalina Foothills and the greater Tucson metro.",
+          "Ready for your free scorpion inspection in Catalina Foothills? Call (520) 284-9930 today. No trip fees, no hidden charges, no high-pressure sales. Just an honest evaluation, a thorough blacklight inspection, and a written estimate you can count on.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Catalina Foothills, AZ?",
+        a: "Pricing depends on your home size, lot size, proximity to the mountain face or washes, and severity of infestation. Larger foothill properties with extensive desert landscaping require broader treatment zones. Bucksworth provides a free on-site inspection and written estimate with no trip fees. Call (520) 284-9930.",
+      },
+      {
+        q: "Why does Catalina Foothills have so many scorpions?",
+        a: "Catalina Foothills sits directly against the Santa Catalina Mountains — the largest bark scorpion reservoir in southern Arizona. Scorpions migrate downslope through washes and rocky terrain directly into residential neighborhoods. The foothill terrain, luxury desert landscaping, and proximity to mountain canyons create among the worst scorpion conditions in Pima County.",
+      },
+      {
+        q: "When should I start scorpion control in Catalina Foothills?",
+        a: "Before monsoon season — establish or refresh barriers by mid-June. The Catalina Mountain front produces intense monsoon storms that push scorpions en masse into Foothills neighborhoods. However, bark scorpions are active year-round at this elevation, so treatment is effective any time. Call (520) 284-9930.",
+      },
+      {
+        q: "Are bark scorpions in Catalina Foothills dangerous?",
+        a: "Yes. Arizona bark scorpions are the most venomous scorpion in North America. Their sting causes intense pain, numbness, and in children, elderly, or sensitive individuals, potentially dangerous systemic reactions. Catalina Foothills' direct mountain exposure creates among the highest encounter rates in the Tucson metro, making professional control a safety priority.",
+      },
+      {
+        q: "Can I control scorpions in Catalina Foothills myself?",
+        a: "DIY products sold at hardware stores degrade within weeks in Catalina Foothills' extreme sun and heat, providing minimal protection against the high-volume scorpion migration from the mountains. Professional treatment uses commercial-grade products that maintain effectiveness for 60-90 days, combined with exclusion sealing that physically blocks entry points. For foothill properties, professional service is the only reliable approach.",
+      },
+    ],
+  },
+
+  "sahuarita-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Sahuarita AZ — Fast-Growing Community Protection | Bucksworth",
+    metaDescription: "Professional scorpion control in Sahuarita, AZ. Bark scorpion removal, UV blacklight inspections & perimeter sealing for Rancho Sahuarita, Quail Creek & Madera Highlands. Call (520) 284-9930.",
+    heroHeadline: "Sahuarita Scorpion Control — New Construction & Desert-Edge Protection",
+    heroDescription: "Sahuarita is one of the fastest-growing communities in southern Arizona, and every new neighborhood being carved from the Sonoran Desert is displacing bark scorpion populations directly into homes. Bucksworth Home Services provides expert scorpion control across every Sahuarita neighborhood — from Rancho Sahuarita to Quail Creek to Madera Highlands — with UV blacklight inspections, professional exclusion sealing, and residual barrier treatments that protect your family from Arizona's most venomous scorpion.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Sahuarita, Pima County",
+        paragraphs: [
+          "Sahuarita is a rapidly expanding community of approximately 37,000 residents located 15 miles south of Tucson along the Santa Cruz River valley. The town's explosive growth — one of the fastest in Pima County over the past decade — means new residential developments are continuously being built on raw desert terrain that harbors established bark scorpion (Centruroides sculpturatus) populations. Every new phase of construction displaces scorpions that have occupied this ground for decades.",
+          "Bucksworth Home Services has provided scorpion control in Sahuarita since 2013. Our technicians serve Rancho Sahuarita (85629), Quail Creek (85629), Madera Highlands, Las Campanas, Santa Cruz River Preserve, Sahuarita Terrace, and every other neighborhood in the town. Each community faces different scorpion dynamics depending on its age, proximity to undeveloped desert, and construction phase — and our treatment plans are calibrated accordingly.",
+          "Call (520) 284-9930 for same-day or next-day scorpion control anywhere in Sahuarita. Every appointment includes a free UV blacklight inspection — the only reliable way to find bark scorpions hiding on your property.",
+        ],
+      },
+      {
+        heading: "Why Sahuarita's Growth Creates Scorpion Problems",
+        paragraphs: [
+          "Sahuarita's scorpion problem is fundamentally a construction problem. The town has been growing rapidly, with new master-planned communities approved and breaking ground on desert land that has supported scorpion populations for centuries. When grading equipment clears a 200-acre parcel, surface scorpions scatter into adjacent developed neighborhoods. But scorpions sheltering in deep burrows, beneath large rocks, and in caliche layers survive construction and emerge into finished homes weeks or months later.",
+          "The development pattern amplifies this effect. As Sahuarita expands south and east, each new community becomes the new scorpion border — the edge where desert habitat meets residential construction. Homes in the newest phases of Rancho Sahuarita, Madera Reserve, and Las Campanas currently sit on this frontier, experiencing the highest scorpion encounters in town. When the next phase builds out beyond them, the frontier shifts — but the existing scorpion population does not disappear.",
+          "The Santa Cruz River corridor running through western Sahuarita provides a permanent scorpion migration highway. Even in its typically dry state, the river channel and its riparian vegetation support insect populations that attract and sustain scorpions year-round. During monsoon season, water flow through the Santa Cruz activates the entire corridor, pushing scorpion populations laterally into adjacent neighborhoods.",
+          "Sahuarita's relatively flat terrain and elevation (approximately 2,800 feet) places it squarely in the bark scorpion's optimal range. The open desert surrounding the town — with creosote flats, mesquite bosques, and decomposed granite terrain — is prime bark scorpion habitat. Unlike communities surrounded by agricultural land or urban development, Sahuarita's outskirts transition directly to undeveloped Sonoran Desert on three sides.",
+        ],
+      },
+      {
+        heading: "Neighborhood Scorpion Control in Sahuarita",
+        paragraphs: [
+          "Rancho Sahuarita (85629) — Sahuarita's largest master-planned community spans thousands of homes across multiple development phases. Older phases in the community's interior have more established landscapes and fewer adjacent vacant lots, resulting in moderate scorpion pressure. Newer phases on the community's eastern and southern edges border active construction zones and undeveloped desert, creating significantly higher scorpion activity. Rancho Sahuarita's community lakes sustain insect populations that attract scorpions from surrounding terrain. Our treatment protocol for Rancho Sahuarita is phase-specific: interior homes receive standard quarterly service, while edge-phase homes receive enhanced bi-monthly treatment during monsoon season with extended perimeter zones.",
+          "Quail Creek (85629) — This active adult community occupies a distinctive position in southern Sahuarita surrounded by open desert and the Santa Rita Mountain foothills to the east. Quail Creek's golf course irrigation and expansive common area landscaping sustain year-round insect activity that draws scorpions from adjacent desert. Homes along the community's perimeter, particularly those facing southeast toward the Santa Ritas, experience the highest pressure. Our Quail Creek program includes interior-focused treatment for closets, garages, and utility areas where scorpions shelter, and we schedule around community activity calendars. Extra communication is provided for residents managing pest control decisions for the first time.",
+          "Madera Highlands (85629) — Located east of I-19, Madera Highlands borders undeveloped desert along its eastern and southern edges. The community's elevation on a gentle slope means natural drainage patterns channel surface water — and displaced scorpions — through certain corridors during monsoon storms. Our Madera Highlands service includes wash-corridor mapping and targeted treatment along identified scorpion pathways.",
+          "Las Campanas & Sahuarita Terrace — These communities in central and northern Sahuarita benefit from being surrounded by more established development, but still face scorpion pressure from the Santa Cruz River corridor to the west and small undeveloped parcels interspersed through the area. Standard quarterly service with monsoon-season enhancement handles most properties in these neighborhoods effectively.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Eliminates Scorpions in Sahuarita",
+        paragraphs: [
+          "Every Sahuarita scorpion service starts with a professional UV blacklight inspection. Bark scorpions fluoresce bright green-blue under ultraviolet light, making them visible in cracks, under rocks, behind shutters, inside block wall cavities, beneath garage shelving, and in landscape features where daytime visual inspection finds nothing. For new-construction homes, this inspection is critical — scorpions emerging from pre-construction burrows often concentrate in specific areas of the home that are not obvious without UV detection.",
+          "Based on inspection findings, your Bucksworth technician creates a three-zone treatment plan customized for your property. Zone 1: the home envelope — foundation perimeter, door frames, window frames, garage door seals, plumbing penetrations, electrical conduits, HVAC line entries, and all visible cracks or gaps. Zone 2: the immediate yard within 10 feet — block walls, fence lines, landscape edging, decorative rock features, pool equipment, and outdoor storage. Zone 3: the property edge and any desert interface — vacant lots, undeveloped land, washes, and natural terrain adjacent to your lot.",
+          "Exclusion sealing is particularly important for Sahuarita's newer homes. While new construction should theoretically be tight, in practice rapid-build development often leaves gaps: unfinished weep holes, unsealed pipe penetrations, garage door weatherstripping that does not fully contact the concrete, and expansion joints between concrete pads that provide direct entry. Our technicians inspect every potential entry point and seal them using materials rated for Arizona conditions: commercial-grade silicone caulk, copper mesh for weep holes, heavy-duty door sweeps, and expansion joint sealant.",
+          "We apply professional-grade residual insecticides designed for Arizona's extreme conditions. Micro-encapsulated formulations maintain barrier effectiveness for 60-90 days despite Sahuarita's intense sun, triple-digit temperatures, and monsoon rain. Over-the-counter products degrade within weeks and provide negligible protection, especially for properties on the desert edge where scorpion pressure is continuous.",
+          "For homes in active construction zones, we recommend a new-construction scorpion protocol: an initial intensive treatment when you move in (before unpacking, if possible), followed by monthly service for the first six months while displaced scorpion populations settle, then transitioning to quarterly or bi-monthly maintenance depending on ongoing activity levels.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Preparation in Sahuarita",
+        paragraphs: [
+          "The monsoon season beginning in late June is Sahuarita's most critical period for scorpion control. Monsoon storms drive flash flooding through the Santa Cruz River channel and every wash and drainage corridor in the area. Each significant storm event pushes scorpions from desert refugia into developed neighborhoods. The flat terrain around many Sahuarita neighborhoods means floodwater spreads across wide areas rather than channeling through defined washes, carrying displaced scorpions across a broader front.",
+          "Bucksworth strongly recommends establishing or refreshing scorpion barriers by mid-June to ensure full protection before the first monsoon storms. This includes a fresh barrier application, inspection and repair of all exclusion seals, and removal of harborage conditions near the home — woodpiles, landscape debris, ground-contact storage containers, and dense ground cover that provides cool, moist shelter scorpions seek in summer heat.",
+          "Call (520) 284-9930 to schedule your pre-monsoon scorpion service in Sahuarita. Emergency calls receive same-day priority, especially for homes with children, elderly residents, or active stinging incidents.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: All Sahuarita Zip Codes",
+        paragraphs: [
+          "Bucksworth serves every neighborhood in Sahuarita — zip code 85629 — plus Green Valley, Tucson, Vail, and all surrounding Tucson metro communities. Our technicians are based locally and can typically arrive within 30 minutes of your Sahuarita location.",
+          "Same-day or next-day appointments are available for most Sahuarita addresses. Maintenance plan members get priority scheduling, discounted rates, and a dedicated technician who learns your property's specific scorpion activity patterns. Call (520) 284-9930 to start with a free blacklight inspection.",
+        ],
+      },
+      {
+        heading: "Why Sahuarita Families Trust Bucksworth",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, founded in 2013 with a simple commitment: treat every home like it is Gigi's. For Sahuarita homeowners — many of whom are new to Arizona desert living — that means patient, honest scorpion assessments based on what we actually find, not scare tactics. We explain what your property needs, what it does not need, and the reasoning behind our recommendations.",
+          "We are Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. Over 2,000 five-star reviews across the metro area reflect the quality of work we deliver — including to the growing number of Sahuarita homeowners who trust Bucksworth to protect their families.",
+          "Ready for your free scorpion inspection in Sahuarita? Call (520) 284-9930 today. No trip fees, no hidden charges, no pressure. Just an honest evaluation, a UV blacklight inspection, and a clear written estimate. Same-day appointments available.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Sahuarita, AZ?",
+        a: "Sahuarita scorpion control pricing depends on your home size, lot size, proximity to undeveloped desert, and severity of activity. Homes in newer development phases on the desert edge typically need more intensive initial treatment. Bucksworth provides a free on-site inspection and written estimate — no trip fees. Call (520) 284-9930.",
+      },
+      {
+        q: "Why are there scorpions in my new Sahuarita home?",
+        a: "New construction in Sahuarita is built on desert land that previously harbored bark scorpion populations. Grading and building displaces surface scorpions, but those in deep burrows and rock fractures survive construction and emerge into finished homes weeks or months later. This is normal for new-build desert communities and resolves faster with professional treatment.",
+      },
+      {
+        q: "When is the best time for scorpion control in Sahuarita?",
+        a: "Establish or refresh barriers by mid-June before monsoon season. Monsoon storms push scorpions from desert refugia into residential neighborhoods through flooding. However, bark scorpions are active year-round in Sahuarita's climate, so treatment is effective any time. Call (520) 284-9930.",
+      },
+      {
+        q: "Are bark scorpions in Sahuarita dangerous?",
+        a: "Yes. Arizona bark scorpions are the most venomous scorpion in North America. Their sting causes intense pain and numbness, and in children, elderly, or sensitive individuals, can trigger systemic reactions requiring emergency medical care. Sahuarita's many families with young children make professional scorpion control especially important.",
+      },
+      {
+        q: "How often do I need scorpion treatment in Sahuarita?",
+        a: "Most established Sahuarita homes do well on quarterly service with bi-monthly treatment during monsoon months (June-September). Homes in newer development phases bordering open desert may need monthly service for the first 6-12 months. Your Bucksworth technician will recommend a schedule based on your property's specific conditions.",
+      },
+    ],
+  },
+
+  "green-valley-az/pest-and-termite/scorpion-control": {
+    metaTitle: "Scorpion Control Green Valley AZ — Retirement Community Scorpion Experts | Bucksworth",
+    metaDescription: "Professional scorpion control in Green Valley, AZ. Bark scorpion removal, UV blacklight inspections & perimeter sealing for GVR, Continental & Tubac area. Call (520) 284-9930.",
+    heroHeadline: "Green Valley Scorpion Control — Desert Retirement Community Protection",
+    heroDescription: "Green Valley's position between the Santa Rita Mountains and the Santa Cruz River valley makes it prime bark scorpion territory. Bucksworth Home Services provides professional scorpion control across every Green Valley neighborhood — from Green Valley Recreation communities to Continental to Tubac-area properties — with UV blacklight inspections, exclusion sealing, and residual barrier treatments designed to keep scorpions out of your home.",
+    content: [
+      {
+        heading: "Scorpion Control Services in Green Valley, Pima County",
+        paragraphs: [
+          "Green Valley is an unincorporated retirement community of approximately 22,000 residents located 25 miles south of Tucson in the Santa Cruz River valley. The community sits between the Santa Rita Mountains to the east and the open Sonoran Desert to the west, creating a dual-corridor scorpion environment that requires professional management. The Arizona bark scorpion (Centruroides sculpturatus) is the primary species of concern, joined by desert hairy scorpions (Hadrurus arizonensis) and stripe-tailed scorpions (Paravaejovis spinigerus).",
+          "Bucksworth Home Services has served Green Valley homeowners since 2013 with scorpion control programs tailored to the unique needs of this community. We treat properties throughout the Green Valley Recreation (GVR) area (85614), Continental (85614), Desert Hills, Esperanza Estates, Canoa Ranch, La Cañada, and every other Green Valley neighborhood. Our technicians understand that many Green Valley residents are seasonal, elderly, or managing their homes on fixed incomes — and we structure our services accordingly.",
+          "Call (520) 284-9930 for same-day or next-day scorpion control in Green Valley. Every service includes a complimentary UV blacklight inspection — the only reliable method for detecting bark scorpions on your property.",
+        ],
+      },
+      {
+        heading: "Why Green Valley Faces Persistent Scorpion Pressure",
+        paragraphs: [
+          "Green Valley's geography places it in a natural scorpion corridor. The Santa Rita Mountains rise to over 9,400 feet east of the community, harboring bark scorpion populations in rocky terrain, canyon walls, and talus slopes from the desert floor through the foothills. Madera Canyon, one of southern Arizona's premier birding destinations, is also a major scorpion migration corridor — and it drains directly toward Green Valley's eastern neighborhoods.",
+          "To the west, the Santa Cruz River channel provides a year-round scorpion highway. Even when dry — which is most of the year — the river's sandy banks, mesquite and palo verde vegetation, and debris accumulations support insect populations that sustain scorpion communities along the entire corridor. During monsoon season, water flow activates the channel and displaces scorpions laterally into residential areas on both banks.",
+          "Green Valley's mature landscaping creates conditions that attract and harbor scorpions near homes. Decades-old citrus trees, oleander hedges, established prickly pear and cholla features, and dense ground cover provide the cool, moist microhabitats scorpions seek during hot months. Block wall construction standard in Green Valley creates internal cavities that bark scorpions use as highways — entering through weep holes, traveling through wall cores, and emerging inside garages, utility rooms, and closets.",
+          "The community's building stock adds vulnerability. Many Green Valley homes were built in the 1970s through 1990s. Over 30-50 years, door sweeps wear through, weatherstripping deteriorates, caulk around plumbing penetrations cracks, and foundation expansion joints widen. Each degraded seal point becomes a scorpion entry path. Homes maintained only by seasonal residents may go months between inspections, allowing entry points to develop unnoticed.",
+        ],
+      },
+      {
+        heading: "Neighborhood Scorpion Control in Green Valley",
+        paragraphs: [
+          "Green Valley Recreation Communities (85614) — GVR encompasses the core of Green Valley with over a dozen recreation centers, golf courses, and established residential areas. Homes near the golf courses experience elevated scorpion activity because course irrigation sustains high insect populations that attract scorpions from surrounding desert. Interior GVR properties surrounded by other developed lots face moderate pressure; perimeter properties facing desert or the Santa Cruz River channel face significantly more. Our GVR protocol emphasizes thorough exclusion sealing of aging entry points — the single most impactful service for this community's building stock.",
+          "Continental (85614) — Southern Green Valley's Continental area sits closer to the Tubac corridor and further from Tucson's urban footprint. Larger lots, more open desert exposure, and proximity to the Santa Cruz River make Continental one of Green Valley's higher-pressure areas for scorpions. Our Continental service includes expanded Zone 3 treatment along desert-facing property edges and riparian corridors. We also address the packrat nests common in this area's desert landscaping, which serve as concentrated scorpion shelters.",
+          "Esperanza Estates & Desert Hills — These communities in central Green Valley benefit from established development buffers but still face seasonal surges, especially during monsoon season when the washes crossing this area carry displaced scorpions from mountain foothills into residential zones. Standard quarterly treatment with monsoon-season reinforcement serves most properties effectively.",
+          "Canoa Ranch & La Cañada — Newer developments in Green Valley's northern reaches sit on more recently disturbed desert terrain. Like Sahuarita to the north, these communities face construction-displacement scorpion issues compounded by proximity to undeveloped land. Bi-monthly service during the first year of occupancy is recommended.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Protects Green Valley Homes from Scorpions",
+        paragraphs: [
+          "Every Green Valley scorpion service starts with a professional UV blacklight inspection conducted at dusk or after dark. Bark scorpions fluoresce bright green-blue under ultraviolet light, revealing them in locations invisible to daytime inspection: inside block wall weep holes, behind exterior light fixtures, under patio furniture, in the recesses of stacked-stone features, and along foundation edges beneath overgrown vegetation. This inspection produces a baseline count and activity map for your property.",
+          "Treatment follows our three-zone protocol customized for Green Valley conditions. Zone 1: the home envelope — foundation perimeter, door frames, window frames, garage door seals, plumbing penetrations, electrical conduits, HVAC line entries, and every crack or gap. For older Green Valley homes, this zone requires particularly thorough attention to deteriorated seals. Zone 2: the immediate yard — block walls (especially weep holes), fence lines, landscape borders, rock features, and outdoor storage within 10 feet. Zone 3: the property edge and desert or wash interface.",
+          "Exclusion sealing is the most valuable investment for Green Valley homeowners. Given the age of most Green Valley building stock, the number of potential entry points is significantly higher than in newer communities. Our technicians methodically inspect and seal every penetration using Arizona-rated materials: commercial silicone caulk for static gaps, copper mesh for weep holes and larger openings, heavy-duty door sweeps, and expansion joint sealant. A single afternoon of professional exclusion sealing often produces more dramatic results than months of chemical-only treatment.",
+          "We apply professional-grade residual insecticides in micro-encapsulated formulations that maintain barrier effectiveness for 60-90 days despite Green Valley's intense sun and monsoon moisture. These products are specifically selected for the southern Arizona climate — consumer-grade alternatives from hardware stores degrade within weeks in these conditions.",
+          "For seasonal residents, Bucksworth offers a snowbird-friendly service plan. We maintain treatment schedules during your absence, inspect for scorpion activity periodically, and provide a comprehensive re-entry treatment before your return. Your home stays protected year-round, and you arrive to a scorpion-free environment. Contact us for details on seasonal maintenance packages.",
+        ],
+      },
+      {
+        heading: "Scorpion Safety for Green Valley Seniors",
+        paragraphs: [
+          "Green Valley's demographics require specific attention to scorpion safety. Many residents are retirees over 65, and bark scorpion stings pose elevated risks for older adults. Reduced reaction time, thinner skin, medications that may interact with venom, and underlying health conditions can all increase the severity of a scorpion sting. For residents with compromised immune systems or those taking blood thinners, a bark scorpion sting warrants immediate medical attention.",
+          "Bucksworth technicians are trained to address Green Valley's specific safety concerns. We provide clear written instructions for what to do if stung, including when to call 911 versus when to monitor symptoms. We identify high-risk areas inside the home — dark closets, under beds, inside shoes left on the floor, behind stacked items in garages — and recommend behavioral precautions that reduce sting risk. Simple changes like shaking out shoes before wearing them, using a flashlight when walking at night, and keeping beds away from walls can prevent the most common indoor encounters.",
+          "For residents with limited mobility or vision impairment, interior treatment becomes even more important. We focus on creating scorpion-free zones in the areas you use most — bedrooms, bathrooms, kitchens — with barrier products that prevent scorpions from accessing these spaces even if they enter the home through another area.",
+        ],
+      },
+      {
+        heading: "Monsoon Season Scorpion Control in Green Valley",
+        paragraphs: [
+          "The monsoon season beginning in late June drives Green Valley's annual scorpion peak. The Santa Rita Mountains east of Green Valley produce intense monsoon storms that send flash floods through Madera Canyon, Proctor Road drainage, and numerous smaller washes that cross the community. The Santa Cruz River channel also activates during monsoon storms, pushing scorpions from riparian habitat into adjacent neighborhoods.",
+          "Bucksworth recommends all Green Valley homeowners establish or refresh scorpion barriers by mid-June. This pre-monsoon timing ensures protection is at full strength when the first storms displace scorpion populations. Post-monsoon touch-up treatments in October address any late-season activity before scorpions seek winter harborage — often inside warm homes.",
+          "Call (520) 284-9930 to schedule your pre-monsoon scorpion service in Green Valley. Emergency calls receive same-day priority.",
+        ],
+      },
+      {
+        heading: "Scorpion Control Coverage: All Green Valley Zip Codes",
+        paragraphs: [
+          "Bucksworth serves every neighborhood in Green Valley — zip codes 85614 and 85622 — plus Sahuarita, Tubac, Tucson, and all surrounding Tucson metro communities. Our technicians serve the entire I-19 corridor from Tucson south through Green Valley.",
+          "Same-day or next-day appointments are available for most Green Valley addresses. Maintenance plan members enjoy priority scheduling, discounted rates, and a dedicated technician familiar with your property. Call (520) 284-9930 to get started with a free blacklight inspection.",
+        ],
+      },
+      {
+        heading: "Why Green Valley Homeowners Choose Bucksworth",
+        paragraphs: [
+          "Bucksworth is family-owned by Jordan and Taylor Moore, founded in 2013 with one principle: treat every home like it is Gigi's. For Green Valley homeowners, that means respectful, transparent service — clear communication, honest assessments, and no pressure to buy treatments you do not need. We explain what we find, what it means, and what we recommend in plain language.",
+          "We are Google Guaranteed, meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. With over 2,000 five-star reviews and a 4.8-star average, Bucksworth has earned the trust of thousands of Arizona families — including a growing number in Green Valley and the greater Tucson metro.",
+          "Ready for your free scorpion inspection in Green Valley? Call (520) 284-9930. No trip fees, no hidden charges, and no high-pressure sales. Just an honest evaluation, a UV blacklight inspection, and a written estimate you can count on. Same-day appointments available.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does scorpion control cost in Green Valley, AZ?",
+        a: "Green Valley scorpion control pricing depends on home size, lot size, age of construction, proximity to desert or river terrain, and severity of infestation. Older homes typically require more extensive exclusion sealing. Bucksworth provides a free on-site inspection and written estimate with no trip fees. Call (520) 284-9930.",
+      },
+      {
+        q: "Why are there scorpions in Green Valley?",
+        a: "Green Valley sits between the Santa Rita Mountains and the Santa Cruz River — two major scorpion habitats that create a dual-corridor environment. Mountain populations migrate through Madera Canyon and foothill drainages, while river corridor populations travel along the Santa Cruz. The community's mature landscaping and aging construction provide entry points and harborage near homes.",
+      },
+      {
+        q: "Is a bark scorpion sting dangerous for seniors?",
+        a: "Bark scorpion stings pose elevated risk for older adults. Reduced reaction time, thinner skin, medications (especially blood thinners), and underlying health conditions can increase sting severity. Most healthy adults recover with localized pain, but seniors should monitor for systemic symptoms like difficulty breathing, blurred vision, or muscle twitching — and seek emergency care if they appear.",
+      },
+      {
+        q: "Do you offer service for seasonal residents in Green Valley?",
+        a: "Yes. Bucksworth offers snowbird-friendly service plans that maintain treatment during your absence and provide a comprehensive re-entry treatment before you return. Your home stays protected year-round. Contact us at (520) 284-9930 for seasonal maintenance packages.",
+      },
+      {
+        q: "When is the best time for scorpion control in Green Valley?",
+        a: "Establish or refresh barriers by mid-June before monsoon season. Monsoon storms push scorpions from mountain and river habitats into residential areas. A fall touch-up in October prevents scorpions from entering homes for winter shelter. Year-round treatment is most effective. Call (520) 284-9930.",
+      },
+    ],
+  },
+
 };
 
 /**
