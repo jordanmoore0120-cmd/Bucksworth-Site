@@ -415,23 +415,10 @@ const nextConfig = {
         { source: "/schedule-now", destination: "/request-service", permanent: true },
         { source: "/plumbing-services-in-marana-az-expert-solutions-for-every-household-need", destination: "/marana-az/plumbing-and-water-heaters", permanent: true },
         { source: "/tucson-home-comfort-why-insulation-is-the-secret-to-lower-energy-bills", destination: "/tucson-az/air-conditioning-and-heating/attic-insulation", permanent: true },
-        // 2026-06-22: Root-level blog URLs → /blog/ (old WordPress URLs with GSC impressions)
-        { source: "/best-termite-company-tucson-az-experts-in-arizona-desert-protection", destination: "/blog/best-termite-company-tucson-az-experts-in-arizona-desert-protection", permanent: true },
-        { source: "/best-drain-cleaning-scottsdale-az-85251-trusted-pros-for-clear-pipes", destination: "/blog/best-drain-cleaning-scottsdale-az-85251-trusted-pros-for-clear-pipes", permanent: true },
-        { source: "/best-scorpion-control-in-gilbert-az-85233-expert-protection-for-your-family", destination: "/blog/best-scorpion-control-in-gilbert-az-85233-expert-protection-for-your-family", permanent: true },
-        { source: "/best-air-duct-cleaning-tempe-az-85281-breathe-easier-and-save-energy", destination: "/blog/best-air-duct-cleaning-tempe-az-85281-breathe-easier-and-save-energy", permanent: true },
-        { source: "/best-termite-company-gilbert-az-expert-protection-for-your-home", destination: "/blog/best-termite-company-gilbert-az-expert-protection-for-your-home", permanent: true },
-        { source: "/best-pest-control-near-chandler-az-85224", destination: "/blog/best-pest-control-near-chandler-az-85224", permanent: true },
-        { source: "/best-pest-control-near-scottsdale-az-85251", destination: "/blog/best-pest-control-near-scottsdale-az-85251", permanent: true },
-        { source: "/best-termite-company-vail-az-protecting-your-homes-foundation", destination: "/blog/best-termite-company-vail-az-protecting-your-homes-foundation", permanent: true },
-        { source: "/best-pest-control-near-gilbert-smart-long-lasting-prevention", destination: "/blog/best-pest-control-near-gilbert-smart-long-lasting-prevention", permanent: true },
-        { source: "/best-termite-company-gilbert-az-85233", destination: "/blog/best-termite-company-gilbert-az-85233", permanent: true },
-        { source: "/best-termite-company-peoria-az-85381", destination: "/blog/best-termite-company-peoria-az-85381", permanent: true },
-        { source: "/best-pest-control-near-phoenix-az-your-homes-expert-shield", destination: "/blog/best-pest-control-near-phoenix-az-your-homes-expert-shield", permanent: true },
-        { source: "/best-drain-cleaning-in-el-mirage-az-85335-trusted-local-pros", destination: "/blog/best-drain-cleaning-in-el-mirage-az-85335-trusted-local-pros", permanent: true },
-        { source: "/best-pest-control-near-oro-valley-your-local-expert-solution", destination: "/blog/best-pest-control-near-oro-valley-your-local-expert-solution", permanent: true },
-        { source: "/best-weed-control-tucson-az-protecting-your-desert-landscape", destination: "/blog/best-weed-control-tucson-az-protecting-your-desert-landscape", permanent: true },
-        { source: "/best-weed-control-scottsdale-targeted-prevention-for-arizona-yards", destination: "/blog/best-weed-control-scottsdale-targeted-prevention-for-arizona-yards", permanent: true },
+        // 2026-06-23: Catch-all for ALL root-level "best-*" blog URLs → /blog/
+        // Replaces 16 individual redirects. Specific service-page redirects (best-pest-control-tucson-az,
+        // best-ac-repair-oro-valley-az) are defined earlier and match first. Covers all ~174 legacy WordPress slugs.
+        { source: "/:slug(best-.+)", destination: "/blog/:slug", permanent: true },
     ];
   },
 };

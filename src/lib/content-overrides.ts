@@ -2071,6 +2071,80 @@ const OVERRIDES: Record<string, ContentOverride> = {
     ],
   },
 
+  /* ═══════════════════════════════════════════════════════════════
+     ATTIC INSULATION — FOUNTAIN HILLS
+     Priority: P1 zero-CTR (pos 7.1, 62 imp, 0 clk)
+     Opportunity: Summer energy costs peak, high-income area
+     ═══════════════════════════════════════════════════════════════ */
+  "fountain-hills-az/air-conditioning-and-heating/attic-insulation": {
+    metaTitle: "Attic Insulation Fountain Hills AZ — Cut Energy Bills 30-40% | Free Estimate",
+    metaDescription: "Professional attic insulation in Fountain Hills, AZ. Blown-in, batt, and radiant barrier options for Arizona heat. Licensed, insured, Google Guaranteed. Call (480) 485-7078 for a free energy assessment.",
+    heroHeadline: "Fountain Hills Attic Insulation — Beat the Arizona Heat and Save 30-40% on Energy",
+    heroDescription: "Fountain Hills homes face some of the most extreme attic temperatures in the Valley — reaching 160 degrees or more during summer. Without proper insulation, your AC works overtime, driving energy bills through the roof. Bucksworth Home Services provides expert attic insulation upgrades tailored to Fountain Hills homes, from blown-in fiberglass and cellulose to radiant barriers that reflect Arizona's intense sun.",
+    content: [
+      {
+        heading: "Attic Insulation Services in Fountain Hills, Maricopa County",
+        paragraphs: [
+          "Fountain Hills sits at a slightly higher elevation than central Phoenix, but the desert heat is just as punishing on your home's energy envelope. Most homes in Fountain Hills — from the established neighborhoods near Fountain Park to the custom builds along Eagle Mountain — were built with minimum-code insulation that falls well short of today's Department of Energy recommendations for Climate Zone 2.",
+          "Bucksworth Home Services specializes in attic insulation upgrades across Fountain Hills and the surrounding East Valley. We assess your current insulation's R-value, identify gaps and compression points, and recommend the most cost-effective upgrade path to reach R-38 or higher — the DOE recommendation for Arizona attics.",
+        ],
+      },
+      {
+        heading: "Why Attic Insulation Matters in Fountain Hills",
+        paragraphs: [
+          "In a typical Fountain Hills home, 25-40% of heating and cooling energy escapes through an under-insulated attic. During summer months when outdoor temps exceed 110 degrees, an uninsulated attic can reach 160-180 degrees — turning your ceiling into a radiant heater that forces your AC to run constantly.",
+          "Proper attic insulation creates a thermal barrier that keeps conditioned air inside your living space. Homeowners who upgrade from R-19 to R-38 or higher typically see 30-40% reductions in cooling costs — savings that add up quickly in Fountain Hills where summer electric bills can exceed $400/month.",
+        ],
+      },
+      {
+        heading: "Our Attic Insulation Process",
+        paragraphs: [
+          "Every Fountain Hills attic insulation project starts with a thorough energy assessment. Our technicians measure existing R-values, check for air leaks around penetrations (can lights, plumbing stacks, HVAC boots), and document moisture or pest issues that need addressing before new insulation goes in.",
+          "Based on the assessment, we recommend blown-in fiberglass or cellulose for most Fountain Hills homes — it fills irregular joist bays and settles around obstacles for complete coverage. For homes with significant radiant heat gain, we may also recommend a radiant barrier installation on the underside of the roof decking.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does attic insulation cost in Fountain Hills?", a: "Most Fountain Hills attic insulation projects range from $1,500-$3,500 depending on attic size and current insulation condition. The energy savings typically pay back the investment within 2-3 years." },
+      { q: "What R-value do I need in Fountain Hills?", a: "The DOE recommends R-38 to R-60 for Climate Zone 2, which includes Fountain Hills. Most existing homes have R-19 or less — upgrading to R-38 delivers the biggest improvement per dollar." },
+      { q: "How long does attic insulation installation take?", a: "Most Fountain Hills attic insulation upgrades are completed in one day. Larger homes or projects requiring air sealing work may take a second day." },
+      { q: "Can you install insulation over existing insulation?", a: "Yes, in most cases we add new blown-in insulation on top of existing material. We first check for moisture, mold, or pest damage that would need remediation before adding new insulation." },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     BERMUDA GRASS CONTROL — CATALINA FOOTHILLS
+     Priority: P1 zero-CTR (pos 4.3, 53 imp, 0 clk)
+     Opportunity: High-position page with zero engagement
+     ═══════════════════════════════════════════════════════════════ */
+  "catalina-foothills-az/weed-and-lawn-care/bermuda-grass-control": {
+    metaTitle: "Bermuda Grass Control Catalina Foothills AZ — Stop Invasive Spread | Bucksworth",
+    metaDescription: "Expert bermuda grass control in Catalina Foothills, AZ. Targeted treatments for desert landscapes and rock yards. Licensed, Google Guaranteed. Call (520) 284-9930.",
+    heroHeadline: "Catalina Foothills Bermuda Grass Control — Reclaim Your Desert Landscape",
+    heroDescription: "Bermuda grass is one of the most aggressive invasive grasses in southern Arizona, and Catalina Foothills' irrigated landscapes and mild winters create ideal conditions for it to spread unchecked. Bucksworth Home Services provides targeted bermuda grass control that eliminates existing growth and prevents reinvasion — without harming your desert-adapted plants.",
+    content: [
+      {
+        heading: "Bermuda Grass Control in Catalina Foothills, Pima County",
+        paragraphs: [
+          "Catalina Foothills neighborhoods — from Skyline Country Club to Ventana Canyon — are known for their natural desert landscaping. But bermuda grass doesn't respect property lines or landscape borders. It spreads through both seeds and underground rhizomes, invading rock yards, flower beds, and even cracking through landscape fabric.",
+          "Bucksworth Home Services provides systematic bermuda grass control across Catalina Foothills. Our approach combines selective herbicide applications with root-zone treatments that target the rhizome network — the underground system that allows bermuda grass to regenerate even after surface growth is removed.",
+        ],
+      },
+      {
+        heading: "Why Bermuda Grass Is So Difficult to Control",
+        paragraphs: [
+          "Bermuda grass (Cynodon dactylon) thrives in Catalina Foothills' climate because it loves heat, tolerates drought, and goes dormant in winter only to return aggressively in spring. A single plant can spread 6+ feet per season through stolons (above-ground runners) and rhizomes (below-ground runners).",
+          "DIY treatments often fail because they only kill surface growth while the rhizome network remains intact underground. Within weeks, new shoots emerge from surviving root nodes. Effective bermuda grass control requires targeting both the visible growth and the underground system simultaneously.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How long does it take to eliminate bermuda grass?", a: "Complete elimination typically requires 2-3 treatment cycles over 8-12 weeks. The first application kills active growth, follow-ups target regrowth from surviving rhizomes. We monitor until the area is clear." },
+      { q: "Will the treatment harm my other plants?", a: "We use selective herbicides and targeted application methods to protect your desert landscaping, trees, and shrubs while eliminating bermuda grass. Pre-treatment assessment identifies any plants that need shielding." },
+      { q: "When is the best time to treat bermuda grass in Catalina Foothills?", a: "Late spring through early summer (May-July) is ideal — bermuda grass is actively growing and absorbs herbicide most effectively. Fall treatments can also be effective as the grass prepares for dormancy." },
+    ],
+  },
+
 };
 
 /**
