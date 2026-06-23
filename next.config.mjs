@@ -410,6 +410,11 @@ const nextConfig = {
         { source: "/tucson-plumbing-built-on-integrity-and-transparent-pricing", destination: "/tucson-az/plumbing-and-water-heaters", permanent: true },
         { source: "/news/how-to-keep-lawn-weed-free", destination: "/phoenix-az/weed-and-lawn-care", permanent: true },
         { source: "/water-heater-replacement-in-tucson-az-solving-hard-water-issues-for-good", destination: "/tucson-az/plumbing-and-water-heaters/water-heater-installation", permanent: true },
+        // 2026-06-23: Batch fix — 4 new 404 URLs found via GSC audit
+        { source: "/phoenix/refrigeration/installation", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/schedule-now", destination: "/request-service", permanent: true },
+        { source: "/plumbing-services-in-marana-az-expert-solutions-for-every-household-need", destination: "/marana-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/tucson-home-comfort-why-insulation-is-the-secret-to-lower-energy-bills", destination: "/tucson-az/air-conditioning-and-heating/attic-insulation", permanent: true },
         // 2026-06-22: Root-level blog URLs → /blog/ (old WordPress URLs with GSC impressions)
         { source: "/best-termite-company-tucson-az-experts-in-arizona-desert-protection", destination: "/blog/best-termite-company-tucson-az-experts-in-arizona-desert-protection", permanent: true },
         { source: "/best-drain-cleaning-scottsdale-az-85251-trusted-pros-for-clear-pipes", destination: "/blog/best-drain-cleaning-scottsdale-az-85251-trusted-pros-for-clear-pipes", permanent: true },
