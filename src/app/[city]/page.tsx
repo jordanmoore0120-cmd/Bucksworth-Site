@@ -12,6 +12,8 @@ import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
 import CitySync from "@/components/CitySync";
 import NearbyCities from "@/components/NearbyCities";
+import { getCityMetaOverride } from "@/lib/city-meta-overrides";
+
 
 interface CityPageProps {
   params: Promise<{ city: string }>;
@@ -35,9 +37,12 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
       ? "Pest Control, HVAC & Plumbing"
       : "Pest & Weed Control";
 
+  // Check for city-level meta override (CTR optimization)
+  const cityMeta = getCityMetaOverride(slug);
+
   return {
-    title: `${city.name}, AZ ${svcList} — Same-Day Service`,
-    description: `Trusted ${svcList.toLowerCase()} in ${city.name}, AZ. Licensed, Google Guaranteed pros. Free inspections, same-day appointments. Call ${phone}.`,
+    title: cityMeta?.metaTitle ?? `${city.name}, AZ ${svcList} — Same-Day Service`,
+    description: cityMeta?.metaDescription ?? `Trusted ${svcList.toLowerCase()} in ${city.name}, AZ. Licensed, Google Guaranteed pros. Free inspections, same-day appointments. Call ${phone}.`,
     alternates: { canonical: `https://www.getyourbucksworth.com/${slug}` },
   };
 }

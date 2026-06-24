@@ -2145,6 +2145,49 @@ const OVERRIDES: Record<string, ContentOverride> = {
     ],
   },
 
+  /* ═══════════════════════════════════════════════════════════════
+     AC REPAIR — CHANDLER
+     Priority: HIGH — 283+ HVAC impressions/week, 0 clicks
+     Queries: ac repair chandler az (133 imp), ac repair chandler (62 imp)
+     Blog ranking at pos 6.5-11.7 but subservice page needs to rank too
+     ═══════════════════════════════════════════════════════════════ */
+  "chandler-az/air-conditioning-and-heating/ac-repair": {
+    metaTitle: "AC Repair Chandler AZ — Same-Day Emergency Cooling, $89 Diagnostic",
+    metaDescription: "Fast AC repair in Chandler, AZ. Same-day emergency service from Downtown Chandler to Sun Lakes. $89 diagnostic fee. Licensed HVAC technicians, 1,900+ five-star reviews. Call (480) 485-9790.",
+    heroHeadline: "Chandler AC Repair — Same-Day Emergency Cooling Service",
+    heroDescription: "When your AC fails in Chandler's 115-degree heat, every hour matters. Bucksworth Home Services provides same-day AC repair across every Chandler neighborhood — from Downtown Chandler and the San Marcos area to Ocotillo, Sun Lakes, and Chandler Heights. Our licensed HVAC technicians diagnose and fix all makes and models, with upfront pricing and no surprise fees.",
+    content: [
+      {
+        heading: "AC Repair Services in Chandler, Maricopa County",
+        paragraphs: [
+          "Chandler's extreme summer heat puts enormous stress on residential cooling systems. With temperatures regularly exceeding 110 degrees from June through September, a broken AC isn't just uncomfortable — it's a safety hazard. Bucksworth Home Services has provided AC repair across the Chandler metro since 2013, serving homeowners from the established neighborhoods near Downtown Chandler to newer communities in Chandler Heights and the South Chandler corridor.",
+          "Our Chandler HVAC team handles everything from simple capacitor replacements and refrigerant recharges to complex compressor failures and full system diagnostics. We stock common parts on our service trucks so most repairs are completed in a single visit. For older systems (10+ years), we provide honest assessments of repair vs. replacement costs so you can make the best decision for your home and budget.",
+          "Need AC repair in Chandler today? Call (480) 485-9790 — our Phoenix metro dispatch offers same-day and next-day appointments across all Chandler zip codes: 85224, 85225, 85226, 85248, 85249, and 85286.",
+        ],
+      },
+      {
+        heading: "Common AC Problems in Chandler Homes",
+        paragraphs: [
+          "Chandler's housing stock ranges from 1970s ranch homes near Downtown and the San Marcos golf course to brand-new construction in Chandler Heights and Ocotillo — and each era of home presents different AC challenges. Older homes often have undersized ductwork, aging R-22 systems that need refrigerant conversion, and poor attic insulation that forces units to work overtime. Newer homes may have more efficient systems but face issues with builder-grade equipment that wasn't designed for Arizona's extreme heat loads.",
+          "The most common AC repairs we perform in Chandler include: failed capacitors (the #1 summer emergency call), refrigerant leaks causing warm air output, frozen evaporator coils from restricted airflow, faulty thermostats and control boards, and compressor failures in systems over 8 years old. We also see a high volume of calls for systems that run constantly without reaching set temperature — typically caused by dirty condenser coils, low refrigerant, or inadequate insulation in the attic space above.",
+        ],
+      },
+      {
+        heading: "Emergency AC Repair for Chandler, AZ",
+        paragraphs: [
+          "When your AC stops cooling at 3 PM on a 115-degree Saturday, you need a company that actually answers the phone. Bucksworth offers same-day emergency AC repair across all Chandler zip codes. Our technicians carry the most commonly needed parts — capacitors, contactors, fan motors, and refrigerant — so most emergency repairs are completed in one visit without a return trip.",
+          "We charge a flat $89 diagnostic fee that's applied toward any repair we perform. No hidden trip charges, no after-hours upcharges during summer. If your system needs a repair that exceeds the value of the unit, we'll tell you honestly and provide a replacement estimate so you can compare options. Our goal is to get your home cool again as quickly and affordably as possible.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does AC repair cost in Chandler, AZ?", a: "Most AC repairs in Chandler range from $150 to $650 depending on the issue. Common fixes like capacitor replacement run $150-$250, while compressor repairs can reach $600-$1,200. We charge an $89 diagnostic fee that applies toward your repair cost." },
+      { q: "Can you repair my AC today in Chandler?", a: "Yes — we offer same-day AC repair across all Chandler neighborhoods including Downtown, Ocotillo, Sun Lakes, and Chandler Heights. Call (480) 485-9790 and our dispatch team will schedule the earliest available appointment." },
+      { q: "What AC brands does Bucksworth repair in Chandler?", a: "We repair all major brands including Trane, Carrier, Lennox, Goodman, Rheem, Amana, and York. Our technicians are trained on both residential split systems and package units common in Chandler homes." },
+      { q: "Should I repair or replace my AC in Chandler?", a: "As a general rule, if your system is over 12 years old and the repair cost exceeds 50% of a new system's price, replacement is usually more cost-effective. We'll give you an honest assessment of both options so you can make the best choice for your budget." },
+    ],
+  },
+
 };
 
 /**
