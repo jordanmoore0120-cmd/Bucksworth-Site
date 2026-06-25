@@ -44,6 +44,25 @@ const CITY_META_OVERRIDES: Record<string, CityMetaOverride> = {
     metaDescription: "Expert pest control, AC repair, and plumbing in Ahwatukee Foothills. Scorpion removal specialists, emergency HVAC, and drain cleaning. Google Guaranteed. Call (480) 485-9790.",
   },
 
+
+  /* san-tan-valley-az — city meta override added Jun 25 */
+  "san-tan-valley-az": {
+    metaTitle: "San Tan Valley Pest Control, AC & Plumbing — Same-Day Service, 4.9-Star Rated",
+    metaDescription: "Trusted pest control, AC installation, and plumbing in San Tan Valley, AZ. Scorpion removal, emergency HVAC repair, and drain cleaning for 85140/85142/85143. Google Guaranteed. Call (480) 485-9790.",
+  },
+
+  /* sahuarita-az — city meta override added Jun 25 */
+  "sahuarita-az": {
+    metaTitle: "Sahuarita Pest & Weed Control — Scorpion, Termite & Desert Weed Pros",
+    metaDescription: "Licensed pest control and weed treatment in Sahuarita, AZ. Scorpion removal, termite inspections, and pre-emergent weed control. Same-day appointments. Call (520) 284-9930.",
+  },
+
+  /* vail-az — city meta override added Jun 25 */
+  "vail-az": {
+    metaTitle: "Vail, AZ Pest & Weed Control — Desert Pest Experts, Free Inspections",
+    metaDescription: "Professional pest control and weed management in Vail, AZ. Bark scorpion removal, termite treatment, and bermuda grass control near Colossal Cave. Call (520) 284-9930.",
+  },
+
 };
 
 export function getCityMetaOverride(citySlug: string): CityMetaOverride | undefined {
