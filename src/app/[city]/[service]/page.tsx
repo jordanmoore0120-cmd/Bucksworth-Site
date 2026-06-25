@@ -14,6 +14,7 @@ import NearbyCities from "@/components/NearbyCities";
 import OtherServices from "@/components/OtherServices";
 import RelatedPosts from "@/components/RelatedPosts";
 import { getRelatedBlogPostsForServiceHub } from "@/lib/blog-links";
+import { getServiceHubOverride } from "@/lib/service-hub-overrides";
 
 interface ServiceHubProps {
   params: Promise<{ city: string; service: string }>;
@@ -38,6 +39,15 @@ export async function generateMetadata({ params }: ServiceHubProps): Promise<Met
   const city = getCityBySlug(citySlug);
   const service = getServiceBySlug(svcSlug);
   if (!city || !service) return {};
+
+  const hubOverride = getServiceHubOverride(citySlug, svcSlug);
+  if (hubOverride) {
+    return {
+      title: hubOverride.metaTitle,
+      description: hubOverride.metaDescription,
+      alternates: { canonical: `https://www.getyourbucksworth.com/${citySlug}/${svcSlug}` },
+    };
+  }
 
   const phone = getPhoneForBranch(city.branch);
   const isAJ = citySlug === "apache-junction-az";
@@ -192,10 +202,13 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
   const neighborhoods = getNeighborhoods(city.slug);
   const metro = city.branch === "phoenix" ? "Phoenix" : "Tucson";
 
+  // Check for service hub content override (unique content for priority pages)
+  const hubOverride = getServiceHubOverride(citySlug, svcSlug);
+
   // Get related blog posts for internal cross-linking
   const relatedPosts = getRelatedBlogPostsForServiceHub(citySlug, svcSlug, 6);
 
-  const localFaqs = service.faqs.map((faq) => ({
+  const localFaqs = hubOverride?.faqs || service.faqs.map((faq) => ({
     q: faq.q.includes(city.name) ? faq.q : faq.q.replace(/\?$/, ` in ${city.name}?`),
     a: faq.a,
   }));
@@ -283,8 +296,8 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
           <div className="svc-hub-hero-overlay" />
           <div className="svc-hub-hero-content">
             <p className="city-hero-eyebrow">{city.branch === "phoenix" ? "Phoenix Metro" : "Tucson Metro"} &bull; {city.county} County</p>
-            <h1>{service.name} in <span>{city.name}, Arizona</span></h1>
-            <p>{service.tagline}. Bucksworth Home Services provides professional {service.name.toLowerCase()} for homes and businesses throughout {city.name} and the greater {metro} metro area.{city.slug === "apache-junction-az" ? " Headquartered right here in Apache Junction." : ""} Licensed, insured, and Google Guaranteed.</p>
+            <h1>{hubOverride?.heroHeadline || <>{service.name} in <span>{city.name}, Arizona</span></>}</h1>
+            <p>{hubOverride?.heroDescription || <>{service.tagline}. Bucksworth Home Services provides professional {service.name.toLowerCase()} for homes and businesses throughout {city.name} and the greater {metro} metro area.{city.slug === "apache-junction-az" ? " Headquartered right here in Apache Junction." : ""} Licensed, insured, and Google Guaranteed.</>}</p>
             <div className="city-hero-cta" style={{ marginTop: "20px" }}>
               <a href={`tel:${phoneRaw}`} className="btn-call" aria-label={`Call Bucksworth at ${phone}`}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.72 11.72 0 003.66.59 1 1 0 011 1v3.59a1 1 0 01-1 1A17 17 0 013 4.92a1 1 0 011-1h3.59a1 1 0 011 1 11.72 11.72 0 00.59 3.66 1 1 0 01-.24 1.01l-2.2 2.2z" /></svg>
@@ -298,16 +311,31 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
         </section>
 
         {/* ── INTRO CONTENT ── */}
-        <section className="svc-hub-content">
-          <div className="svc-hub-content-inner">
-            <h2>{service.name} in {city.name}, Arizona</h2>
-            <p>{service.description}</p>
-            <p>{city.description}</p>
-            <p>
-              Whether you live in {nhoods.length > 0 ? nhoods.slice(0, 3).map(n => `${n.name} (${n.zips[0] || ""})`).join(", ") : city.name} or anywhere else in the {city.zipCodes.join(", ")} zip code{city.zipCodes.length > 1 ? "s" : ""}, our {service.name.toLowerCase()} team is ready to help.{nhoods[0]?.desc ? ` In ${nhoods[0].name}, ${nhoods[0].desc.toLowerCase()}` : ""} We serve every neighborhood across {city.name}&apos;s {city.population ? `${Number(city.population).toLocaleString()}-person community` : "community"} and provide same-day service for urgent situations. Call {phone} to schedule your free inspection today.
-            </p>
-          </div>
-        </section>
+        {hubOverride ? (
+          <>
+            {hubOverride.introContent.map((block, i) => (
+              <section key={i} className="svc-hub-content" style={i % 2 === 1 ? { background: "var(--g50)" } : undefined}>
+                <div className="svc-hub-content-inner">
+                  <h2>{block.heading}</h2>
+                  {block.paragraphs.map((p, j) => (
+                    <p key={j}>{p}</p>
+                  ))}
+                </div>
+              </section>
+            ))}
+          </>
+        ) : (
+          <section className="svc-hub-content">
+            <div className="svc-hub-content-inner">
+              <h2>{service.name} in {city.name}, Arizona</h2>
+              <p>{service.description}</p>
+              <p>{city.description}</p>
+              <p>
+                Whether you live in {nhoods.length > 0 ? nhoods.slice(0, 3).map(n => `${n.name} (${n.zips[0] || ""})`).join(", ") : city.name} or anywhere else in the {city.zipCodes.join(", ")} zip code{city.zipCodes.length > 1 ? "s" : ""}, our {service.name.toLowerCase()} team is ready to help.{nhoods[0]?.desc ? ` In ${nhoods[0].name}, ${nhoods[0].desc.toLowerCase()}` : ""} We serve every neighborhood across {city.name}&apos;s {city.population ? `${Number(city.population).toLocaleString()}-person community` : "community"} and provide same-day service for urgent situations. Call {phone} to schedule your free inspection today.
+              </p>
+            </div>
+          </section>
+        )}
 
         {/* ── SUB-SERVICE GRID ── */}
         <section className="svc-cards-section">
