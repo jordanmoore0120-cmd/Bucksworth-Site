@@ -251,6 +251,9 @@ const nextConfig = {
         { source: "/phoenix/insulation/duct-insulation", destination: "/phoenix-az/air-conditioning-and-heating/attic-insulation", permanent: true },
         // ── 2026-06-24: New redirect — WP blog slug → service page (blog post doesn't exist) ──
         { source: "/drain-cleaning-in-tucson-az-effective-clog-removal", destination: "/tucson-az/plumbing-and-water-heaters/drain-cleaning", permanent: true },
+        // ── 2026-06-25: New redirects — GSC 404s with impressions ──
+        { source: "/phoenix/hvac-services/indoor-air-quality/air-duct-cleaning", destination: "/phoenix-az/air-conditioning-and-heating/indoor-air-quality", permanent: true },
+        { source: "/beating-the-tucson-heat-why-ac-maintenance-beats-a-last-minute-fix", destination: "/tucson-az/air-conditioning-and-heating", permanent: true },
         { source: "/phoenix/:path*", destination: "/phoenix-az/:path*", permanent: true },
         { source: "/marana/:path*", destination: "/marana-az/:path*", permanent: true },
         { source: "/oro-valley/:path*", destination: "/oro-valley-az/:path*", permanent: true },
