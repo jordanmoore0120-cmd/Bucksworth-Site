@@ -260,6 +260,198 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
   },
 
   /* ═══════════════════════════════════════════════════════════════
+     WEED CONTROL — MARANA
+     Priority: HIGH — Zero dominant competitor, fragmented SERP
+     Competitors: Hunter Pest, John Officer Custom Weed (tiny locals)
+     ═══════════════════════════════════════════════════════════════ */
+  "marana-az/weed-and-lawn-care": {
+    metaTitle: "Weed Control Marana AZ — Pre-Emergent & Post-Emergent Treatment | Bucksworth",
+    metaDescription: "Professional weed control in Marana, AZ. Pre-emergent barriers, post-emergent treatment, and rock yard maintenance for Continental Ranch, Dove Mountain, Gladden Farms & Saguaro Ranch. Call (520) 284-9930.",
+    heroHeadline: "Marana Weed Control — Desert Landscape Specialists",
+    heroDescription: "Marana's rapid expansion northwest of Tucson pushes master-planned communities directly into raw Sonoran Desert — where dormant weed seeds sit waiting for irrigation to trigger explosive growth. Bucksworth Home Services provides professional weed control for every Marana neighborhood, from Continental Ranch and Dove Mountain to Gladden Farms and Saguaro Ranch. Licensed applicators, commercial-grade herbicides, and year-round programs that keep your yard clean.",
+    introContent: [
+      {
+        heading: "Weed Control Services in Marana, Pima County",
+        paragraphs: [
+          "Marana stretches from the Tortolita Mountain foothills through broad desert flats northwest of Tucson, spanning zip codes 85653 and 85658. The town's population has more than tripled over the past two decades, with developments like Continental Ranch, Dove Mountain, Gladden Farms, and Saguaro Ranch converting thousands of acres of native Sonoran Desert into residential neighborhoods. That conversion exposes seed banks that have been dormant for years — and when homeowners install drip irrigation or the monsoon season arrives, those seeds germinate into thick stands of spurge, Russian thistle, foxtail, London Rocket, and puncturevine.",
+          "Bucksworth Home Services already protects hundreds of Marana homes from scorpions and termites, and our weed control program uses the same neighborhood-specific approach. We know that Dove Mountain properties in 85658, perched in the Tortolita foothills, face different weed pressure than Gladden Farms homes on the flatter western corridor. Rock yards at Continental Ranch develop distinct weed patterns compared to irrigated turf in newer Saguaro Ranch sections. Every Marana yard gets a custom treatment plan based on its landscape type, soil conditions, and weed species.",
+          "Need weed control in Marana today? Call (520) 284-9930 for a free yard assessment. Same-day and next-day appointments available across Marana, Oro Valley, and the entire northwest Tucson metro.",
+        ],
+      },
+      {
+        heading: "Why Marana Yards Face Relentless Weed Pressure",
+        paragraphs: [
+          "Three factors make Marana one of the hardest places in southern Arizona to keep weed-free. First, construction activity: when builders grade raw desert for new subdivisions, they churn up decades of dormant seed deposits. Continental Ranch alone covers over 1,800 acres of former desert, and every lot that was scraped released weed seeds into the disturbed soil. Second, Marana's elevation (about 2,000 feet) puts it in a transition zone between low desert and semi-grassland, so homeowners battle both typical desert weeds like spurge and buffelgrass AND cooler-season grasses that thrive after winter rains.",
+          "Third — and this is critical — Marana's agricultural history means certain weed species are already established in the soil. Cotton farming, pecan orchards, and cattle ranching left behind nutrient-rich topsoil laced with pigweed, amaranth, and Johnson grass seeds. When residential irrigation hits that soil, the result is aggressive, fast-growing weeds that standard retail herbicides can't control. Professional pre-emergent barriers applied on the right seasonal schedule are the only reliable prevention.",
+          "Bucksworth's Marana weed program addresses all three factors with a layered treatment approach: pre-emergent barriers applied before each germination season, targeted post-emergent herbicides for any breakthrough, and soil sterilant options for hardscape areas where zero vegetation is the goal.",
+        ],
+      },
+      {
+        heading: "Marana Neighborhood Weed Guide",
+        paragraphs: [
+          "Continental Ranch (85653) — Marana's largest master-planned community borders desert washes on multiple sides, creating constant weed migration from undeveloped areas into yards. The most common invaders are spurge (flat-growing, milky-sap weed that spreads rapidly across gravel), puncturevine (painful thorns that pop tires and injure pets), and Russian thistle (tumbleweeds that pile against fences and block walls). Continental Ranch homes with rock landscaping need quarterly pre-emergent applications to maintain HOA compliance.",
+          "Dove Mountain (85658) — Nestled in the Tortolita Mountain foothills, Dove Mountain properties sit at higher elevation with rockier, less-disturbed soil. Weed pressure here is seasonal — relatively quiet in winter, then explosive during monsoon (July-September) when summer storms dump moisture on warm soil. Brittlebush, globe chamomile, and foxtail barley dominate. The rocky terrain also means weed seeds collect in crevices and drainage channels, requiring targeted hand treatment in addition to broadcast spraying.",
+          "Gladden Farms (85653) — Located on Marana's western growth corridor, Gladden Farms is newer construction where builders used topsoil from agricultural areas as fill. That imported soil carries pigweed and amaranth seeds that produce tall, fast-growing weeds capable of reaching three feet within weeks of germination. Pre-emergent timing is critical here: miss the fall window, and winter annual weeds will take over entire yards by January.",
+          "Saguaro Ranch (85653) — One of Marana's newer developments with a mix of rock and turf landscaping. Newer yards actually face MORE weed pressure initially because the landscaping hasn't established root systems dense enough to compete with weeds. Our new-construction weed program provides intensive quarterly treatment for the first two years, then transitions to a standard maintenance schedule.",
+        ],
+      },
+      {
+        heading: "Pre-Emergent vs Post-Emergent: What Marana Homeowners Need",
+        paragraphs: [
+          "Pre-emergent herbicides work by creating a chemical barrier in the top inch of soil that prevents weed seeds from germinating. In Marana's climate, you need two primary pre-emergent applications per year: one in September/October before winter annuals germinate, and one in February/March before summer annuals and grasses take hold. Timing these applications within a two-week window is critical — too early and the product degrades before germination season, too late and weeds are already sprouting.",
+          "Post-emergent herbicides kill weeds that have already germinated and are actively growing. Bucksworth uses selective post-emergents for turf areas (kills weeds without harming grass) and non-selective treatments for rock yards and hardscapes. We also use systemic herbicides for deep-rooted perennial weeds like bermuda grass and Johnson grass that surface sprays can't kill — the product travels through the plant's vascular system to destroy the root network.",
+          "For most Marana homes with rock landscaping, we recommend a combined program: pre-emergent barriers twice yearly plus as-needed post-emergent spot treatments. For homes with turf, we integrate weed control into a full lawn fertilization and weed-and-feed schedule that keeps grass healthy enough to outcompete weeds naturally.",
+        ],
+      },
+      {
+        heading: "Marana Weed Control Pricing & Service Plans",
+        paragraphs: [
+          "Bucksworth offers three weed control plans for Marana homeowners. Our Basic Rock Yard Program includes quarterly pre-emergent applications and one post-emergent cleanup per year — ideal for standard-size gravel lots under 5,000 square feet. Our Full Protection Plan adds monthly spot treatments, unlimited service calls for weed breakthrough, and bermuda grass suppression for rock yards adjacent to irrigated areas. For properties with turf, our Weed & Feed Program combines weed control with seasonal fertilization and overseeding support.",
+          "All plans include a free initial yard assessment where our technician identifies existing weed species, evaluates soil conditions, and photographs problem areas for tracking over time. We believe in measuring results — if your yard isn't improving, we adjust the plan at no extra cost. Marana residents can reach us at (520) 284-9930 for pricing specific to their lot size and landscape type.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does weed control cost in Marana?", a: "Weed control plans for Marana homes start based on lot size and landscape type. Rock yard treatments are generally less expensive than turf programs. Free assessment included with every estimate. Call (520) 284-9930 for Marana pricing." },
+      { q: "When should I apply pre-emergent in Marana?", a: "Marana needs two pre-emergent applications per year: September/October before winter annuals and February/March before summer grasses. Timing within a two-week window is critical for effectiveness." },
+      { q: "What are the worst weeds in Marana AZ?", a: "Marana's most problematic weeds are spurge (flat-growing, milky sap), puncturevine (thorned seed pods), Russian thistle (tumbleweeds), foxtail barley (in Dove Mountain), and pigweed/amaranth (in areas with agricultural soil like Gladden Farms)." },
+      { q: "Do you treat rock yards and gravel landscaping?", a: "Yes. Rock and gravel yards are the most common landscape type in Marana and make up the majority of our treatments. We apply pre-emergent barriers to the soil beneath gravel plus targeted post-emergent sprays for any breakthrough weeds." },
+      { q: "Can you remove bermuda grass from my rock yard?", a: "Yes. Bermuda grass is invasive and spreads via underground runners into rock yards and flower beds. We use systemic herbicides that travel to the root network plus physical root barriers where needed. Multiple treatments are typically required for full elimination." },
+      { q: "Do you serve Dove Mountain and Continental Ranch?", a: "Absolutely. We serve all Marana communities including Continental Ranch, Dove Mountain, Gladden Farms, Saguaro Ranch, and the surrounding area. Same-day appointments often available." },
+      { q: "What's the difference between weed control and weed removal?", a: "Weed removal is reactive — pulling or spraying existing weeds. Weed control is proactive — using pre-emergent barriers to prevent weeds from ever germinating. Our programs combine both for complete yard protection." },
+      { q: "Is Bucksworth licensed for herbicide application in Arizona?", a: "Yes. All Bucksworth technicians hold current Arizona Department of Agriculture applicator licenses (OPM category). We carry full liability insurance and use only EPA-registered herbicides approved for residential use." },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     WEED CONTROL — ORO VALLEY
+     Priority: HIGH — Blog at #5 for "weed control Oro Valley AZ"
+     Competitors: Bill's Home Service (local), WeedCo LLC (988r TUC)
+     ═══════════════════════════════════════════════════════════════ */
+  "oro-valley-az/weed-and-lawn-care": {
+    metaTitle: "Weed Control Oro Valley AZ — Pre-Emergent & Lawn Care Pros | Bucksworth",
+    metaDescription: "Professional weed control in Oro Valley, AZ. Pre-emergent barriers, post-emergent treatment, and lawn care for Rancho Vistoso, Sun City, Steam Pump Village & Canada Hills. Call (520) 284-9930.",
+    heroHeadline: "Oro Valley Weed Control — Catalina Foothill Yard Experts",
+    heroDescription: "Oro Valley's premium communities sit at the base of the Santa Catalina Mountains, where elevation, rocky soil, and seasonal monsoons create weed challenges unlike anywhere else in the Tucson metro. Bucksworth Home Services provides professional weed control and lawn care for Rancho Vistoso, Sun City Oro Valley, Steam Pump Village, and Canada Hills — keeping desert yards clean and HOA-compliant year-round.",
+    introContent: [
+      {
+        heading: "Weed Control Services in Oro Valley, Pima County",
+        paragraphs: [
+          "Oro Valley spans zip codes 85737 and 85755 along the northwest slope of the Santa Catalina Mountains, with homes ranging from 2,500-foot valley floors to 3,200-foot foothill elevations. That elevation range creates a weed management puzzle: lower-elevation communities like parts of Steam Pump Village face classic Sonoran Desert weeds — spurge, puncturevine, and buffelgrass — while higher-elevation properties in Canada Hills and Rancho Vistoso battle foothill species like globe chamomile, filaree, and wild barley that thrive in cooler, rockier soil.",
+          "Bucksworth Home Services has provided pest and termite protection to Oro Valley families for years, and our weed control division brings the same neighborhood-specific expertise to your yard. We know that Sun City Oro Valley's established landscapes (many over 15 years old) face different weed pressure than new construction in Rancho Vistoso's northern sections. We know which HOAs enforce strict weed-free standards and which properties back up to natural desert that constantly seeds weed migration. Every treatment plan is customized.",
+          "Ready for weed-free living in Oro Valley? Call (520) 284-9930 for a free yard assessment. Same-day and next-day service available throughout Oro Valley, Marana, and the northwest Tucson metro.",
+        ],
+      },
+      {
+        heading: "Oro Valley's Elevation Creates Unique Weed Patterns",
+        paragraphs: [
+          "Most Phoenix and Tucson weed control companies apply the same products on the same schedule to every yard. That approach fails in Oro Valley because the town's 700-foot elevation range creates three distinct weed zones. Properties below 2,600 feet get the standard Tucson desert weed mix — spurge, Russian thistle, and devil's claw dominate, and pre-emergent timing follows typical low-desert schedules. Between 2,600 and 3,000 feet, you enter a transition zone where desert species mix with grassland weeds: buffelgrass, lovegrass, and fountain grass compete with native vegetation and invade gravel yards aggressively.",
+          "Above 3,000 feet — Canada Hills, upper Rancho Vistoso, and properties near Catalina State Park — the weed calendar shifts by three to four weeks compared to lower Tucson. Winter annual weeds germinate later, summer annuals arrive later, and the pre-emergent application windows are different. A pre-emergent barrier applied at the right time for Tucson proper may be two weeks too early for upper Oro Valley, wasting product before the target germination period.",
+          "Bucksworth's Oro Valley weed program accounts for these elevation differences. We schedule pre-emergent applications based on each property's actual microclimate, not a metro-wide calendar. Our technicians monitor soil temperature and moisture data to time treatments for maximum effectiveness — because a pre-emergent applied in the right week provides four months of protection, while one applied at the wrong time provides two months or less.",
+        ],
+      },
+      {
+        heading: "Oro Valley Neighborhood Weed Guide",
+        paragraphs: [
+          "Rancho Vistoso (85755) — Oro Valley's largest master-planned community wraps around the Rancho Vistoso golf courses with a mix of rock and turf landscaping. The golf course irrigation creates a humidity microclimate that promotes weed growth in adjacent properties — especially along shared walls and drainage areas. Common invaders include bermuda grass runners migrating from irrigated areas into rock yards, spurge in gravel beds, and buffelgrass along desert edges. Properties bordering the golf course need an additional barrier treatment along the shared boundary.",
+          "Sun City Oro Valley (85755) — This active adult community features established landscapes that are 15-20 years old, with mature trees, shrubs, and turf. Older landscapes develop unique weed challenges: compacted soil under gravel reduces pre-emergent penetration, mature tree roots create gaps in weed barriers, and aging drip irrigation with slow leaks creates moisture pockets that fuel weed growth. Our Sun City program addresses these age-related issues with deep soil treatment and drip system inspection.",
+          "Steam Pump Village (85737) — Located near the historic Steam Pump Ranch, this area has newer construction on previously undisturbed desert. Construction disturbance releases dormant seed banks, and the Santa Cruz River corridor nearby provides a constant source of wind-carried weed seeds. Puncturevine is particularly problematic here — its thorned seed pods spread via tires, shoes, and animal fur, and a single plant can produce over 1,000 seeds per season.",
+          "Canada Hills (85737) — Foothill properties in Canada Hills sit at the highest residential elevations in Oro Valley, with rocky, decomposed-granite soil and natural desert vegetation on multiple sides. The weed species mix is different here: globe chamomile, wild barley, and filaree are more common than the spurge and puncturevine found at lower elevations. These foothill weeds respond better to specific herbicide formulations that Bucksworth stocks specifically for Oro Valley's upper communities.",
+        ],
+      },
+      {
+        heading: "Lawn Care & Turf Management in Oro Valley",
+        paragraphs: [
+          "Oro Valley's climate supports bermuda grass from April through October and winter ryegrass from November through March — but maintaining healthy turf at Oro Valley's elevation requires adjustments compared to lower-elevation Tucson. The cooler nighttime temperatures at 2,700+ feet mean bermuda grass comes out of dormancy later in spring (mid-April vs early April in Tucson) and goes dormant earlier in fall. Overseeding timing shifts to mid-October rather than early October to ensure ryegrass germinates before cold nights arrive.",
+          "Our Oro Valley lawn care program includes seasonal fertilization calibrated to foothill soil conditions, pre-emergent weed barriers for turf areas (different products than what we use in rock yards), overseeding support with watering schedule guidance, and regular monitoring for turf diseases like brown patch and dollar spot that thrive in Oro Valley's cooler, more humid microclimate during monsoon season.",
+          "Healthy turf is actually the best weed suppression tool — a thick, well-fed bermuda grass lawn physically outcompetes weed seedlings. Our fertilization program focuses on building turf density as a first-line weed defense, supported by selective herbicides only when needed.",
+        ],
+      },
+      {
+        heading: "Oro Valley Weed Control Service Plans",
+        paragraphs: [
+          "Bucksworth offers flexible weed control plans for Oro Valley homeowners. Our Rock Yard Protection Plan provides pre-emergent applications timed to Oro Valley's elevation-adjusted calendar plus post-emergent spot treatments for breakthrough. Our Turf & Weed Plan combines lawn fertilization with integrated weed management for yards with grass. Our Premium Full-Yard Plan covers rock, turf, and hardscape areas with unlimited service calls for weed breakthrough between scheduled visits.",
+          "Every Oro Valley plan includes a detailed initial assessment with photographs, weed species identification, and soil condition evaluation. We track your yard's progress across seasons and adjust the treatment plan as conditions change. New to Oro Valley? Ask about our new-homeowner program with first-year intensive treatment to establish a clean baseline. Call (520) 284-9930 for a free yard assessment.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does weed control cost in Oro Valley?", a: "Weed control plans for Oro Valley homes are based on lot size, landscape type, and elevation zone. Free initial assessment included. Call (520) 284-9930 for pricing specific to your property." },
+      { q: "When should pre-emergent be applied in Oro Valley?", a: "Oro Valley's higher elevation shifts the pre-emergent calendar. Fall applications work best in late September to mid-October (2-3 weeks later than Tucson proper). Spring applications target February to early March. Our technicians time applications based on your property's specific elevation and microclimate." },
+      { q: "What weeds are common in Oro Valley?", a: "Lower Oro Valley (Steam Pump Village area): spurge, puncturevine, buffelgrass. Mid-elevation (Rancho Vistoso, Sun City): bermuda grass invasion, spurge, Russian thistle. Upper Oro Valley (Canada Hills): globe chamomile, filaree, wild barley, foxtail." },
+      { q: "Do you offer lawn fertilization and overseeding in Oro Valley?", a: "Yes. Our Oro Valley lawn program includes seasonal fertilization, overseeding timing adjusted for foothill elevation, and integrated weed control for turf areas. Bermuda transitions and winter ryegrass programs available." },
+      { q: "Can you treat bermuda grass invading my rock yard?", a: "Yes. Bermuda grass invasion from adjacent turf or golf courses is one of the most common complaints in Rancho Vistoso and Sun City OV. We use systemic herbicides that kill the root network plus physical barriers to prevent runner migration." },
+      { q: "Do you serve Rancho Vistoso and Sun City Oro Valley?", a: "Yes. We serve all Oro Valley communities including Rancho Vistoso, Sun City Oro Valley, Steam Pump Village, Canada Hills, and surrounding areas. Same-day service often available." },
+      { q: "Is Bucksworth licensed for weed control in Pima County?", a: "Yes. All technicians hold Arizona Department of Agriculture applicator licenses. We carry liability insurance and use only EPA-registered herbicides. Bucksworth is Google Guaranteed and locally trusted across the Tucson metro." },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     WEED CONTROL — CHANDLER
+     Priority: HIGH — East Valley presence needed
+     Competitors: Aspire (dominant), Green Keeper, Quell Pest, Simply Green
+     ═══════════════════════════════════════════════════════════════ */
+  "chandler-az/weed-and-lawn-care": {
+    metaTitle: "Weed Control Chandler AZ — Pre-Emergent & Desert Yard Treatment | Bucksworth",
+    metaDescription: "Professional weed control in Chandler, AZ. Pre-emergent barriers, post-emergent treatment, and gravel yard maintenance for Ocotillo, Sun Groves, Chandler Heights & Clemente Ranch. Call (480) 422-8388.",
+    heroHeadline: "Chandler Weed Control — East Valley Yard Specialists Since 2013",
+    heroDescription: "Chandler's diverse landscape — from irrigated turf in Ocotillo to vast rock yards in Sun Groves and Chandler Heights — demands weed control expertise that adapts to every yard type. Bucksworth Home Services provides professional pre-emergent barriers, post-emergent treatment, and ongoing weed management for every Chandler community. Licensed applicators. Commercial-grade products. Results you can see.",
+    introContent: [
+      {
+        heading: "Weed Control Services in Chandler, Maricopa County",
+        paragraphs: [
+          "Chandler is one of the East Valley's largest cities, with over 280,000 residents spread across zip codes 85224, 85225, 85226, 85248, 85249, and 85286. The city spans a dramatic range of development ages and styles — from 1960s block-construction homes near downtown (85225) to brand-new master-planned communities in south Chandler (85249). That diversity means Chandler's weed challenges are equally varied: older neighborhoods battle established perennial weeds with deep root systems, while new construction unleashes dormant desert seed banks that germinate the moment irrigation activates.",
+          "Bucksworth Home Services has protected East Valley homes since 2013, and our weed control program is built specifically for desert landscapes. We use commercial-grade pre-emergent herbicides that outperform retail products, targeted post-emergent treatments calibrated to each weed species, and bermuda grass suppression technology for rock yards plagued by turf invasion from neighboring properties. Whether your Chandler home has a manicured lawn, a low-maintenance rock yard, or a mix of both, we build a plan that works.",
+          "Ready for a weed-free Chandler yard? Call (480) 422-8388 for a free assessment. Same-day and next-day service available throughout Chandler, Gilbert, Mesa, and the East Valley.",
+        ],
+      },
+      {
+        heading: "Why Chandler Has Some of Arizona's Worst Weed Pressure",
+        paragraphs: [
+          "Chandler sits at the geographic center of the East Valley's most intense weed zone. Three factors drive this. First, the city's agricultural history: Chandler was built on cotton, dairy, and ostrich farming land, and that agricultural soil is enriched with nitrogen and packed with pigweed, amaranth, and Johnson grass seeds that thrive for decades after farming stops. Every time a new subdivision is graded on former farmland in south Chandler, those legacy seeds resurface.",
+          "Second, Chandler's micro-irrigation infrastructure creates artificial oases in the desert. HOAs require drip-irrigated landscaping, median islands run constant irrigation, and neighboring golf courses (Ocotillo Golf Resort, San Marcos Golf Course) push moisture into adjacent residential areas. This constant water availability means weeds germinate in every month — not just during monsoon — making year-round treatment essential.",
+          "Third, Chandler's position on the Gila River Indian Community boundary means the southern edge of the city borders undeveloped desert and agricultural land that serves as a permanent weed seed reservoir. Wind carries seeds north into Sun Groves, Chandler Heights, and the 85249 zip code every season, creating a cycle of reinfestation that single treatments can't break.",
+        ],
+      },
+      {
+        heading: "Chandler Neighborhood Weed Guide",
+        paragraphs: [
+          "Ocotillo (85248/85249) — South Chandler's premier lakefront community features a mix of turf yards, rock landscapes, and common areas irrigated by the Ocotillo lakes and golf courses. The lake and golf irrigation creates humid microclimates where nutsedge (a moisture-loving weed) thrives alongside standard desert weeds. Bermuda grass is the #1 complaint in Ocotillo rock yards — runners travel 10+ feet underground from irrigated common areas into adjacent gravel landscapes. Our Ocotillo program includes systemic bermuda suppression plus a standard pre-emergent schedule.",
+          "Chandler Heights (85249) — Semi-rural area on Chandler's southeastern boundary with larger lot sizes, horse properties, and direct desert exposure. Chandler Heights faces the heaviest weed pressure of any Chandler community because properties border raw desert on at least one side, and many lots have natural desert easements that cannot be treated. We create defensive perimeter treatments along property lines and use extended-duration pre-emergents for the larger lot sizes common here.",
+          "Sun Groves (85249) — Located near the Gila River boundary, Sun Groves deals with wind-carried weed seeds from adjacent undeveloped land. Russian thistle (tumbleweeds) and London Rocket are the dominant winter weeds, while spurge and puncturevine take over in summer. The flat, open terrain means wind distribution is aggressive — one untreated vacant lot can seed an entire block. Our Sun Groves program includes higher-concentration pre-emergent applications to combat the constant seed influx.",
+          "Downtown Chandler / Andersen Springs (85224/85225/85226) — Older neighborhoods near the downtown core have established landscapes with mature trees and decades of compacted soil. Pre-emergent penetration in compacted soil requires mechanical agitation or higher application rates. Many older properties also have bermuda grass lawns that have spread uncontrolled into rock beds, sidewalk cracks, and fence lines. Our downtown-area program focuses on bermuda containment and crack-and-crevice treatment for hardscapes.",
+          "Clemente Ranch (85286) — West Chandler community near the I-10 freeway corridor. Freeway construction and road median maintenance stir up weed seeds, and the commercial development around Chandler Fashion Center creates additional landscape maintenance challenges. Standard rock yard pre-emergent programs work well here when applied on schedule.",
+        ],
+      },
+      {
+        heading: "Year-Round Weed Calendar for Chandler",
+        paragraphs: [
+          "Chandler's warm climate means weeds germinate across all four seasons, each bringing different species. January through March: London Rocket, wild mustard, and filaree dominate — these cool-season annuals germinate in November/December after fall rains and reach peak growth by February. If your fall pre-emergent application was late or missed, these weeds will blanket rock yards by January. April through June: bermuda grass breaks dormancy and sends aggressive runners into rock yards and flower beds. Pre-emergent applied in March helps suppress summer annuals, but bermuda requires targeted post-emergent herbicide.",
+          "July through September: monsoon season triggers the most intense weed flush of the year. Spurge, puncturevine, carpetweed, and pigweed germinate within days of the first summer storm and can cover a yard in two weeks. This is the season that separates professionally treated yards from untreated ones — a pre-emergent barrier applied in late June provides protection through the entire monsoon, while untreated yards become maintenance nightmares. October through December: fall cool-down triggers winter annual germination. A pre-emergent application in late September or early October is the single most important treatment of the year for Chandler homes.",
+          "Bucksworth's Chandler weed calendar aligns treatments to these seasonal cycles: pre-emergent in October and March, post-emergent as needed through summer and monsoon, and bermuda suppression from April through October. This four-season approach keeps Chandler yards clean year-round.",
+        ],
+      },
+      {
+        heading: "Chandler Weed Control Pricing & Plans",
+        paragraphs: [
+          "Bucksworth offers tiered weed control plans for Chandler homeowners. Our Quarterly Rock Yard Plan provides pre-emergent barriers twice yearly plus two post-emergent cleanups — ideal for standard rock yards under 5,000 square feet. Our Monthly Protection Plan includes pre-emergent, monthly post-emergent spot treatments, and unlimited service calls for breakthrough weeds — perfect for south Chandler properties near desert edges where weed pressure is heaviest. Our Turf + Rock Combo Plan manages both lawn and gravel areas with integrated weed and feed treatments.",
+          "All Chandler plans include a free initial assessment with weed species identification, landscape evaluation, and before/after photo tracking. We document your yard's condition at every visit so you can see measurable improvement. HOA violations for weeds? We offer expedited service to bring your yard into compliance within 48 hours. Call (480) 422-8388 for a free assessment and Chandler-specific pricing.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does weed control cost in Chandler?", a: "Weed control plans for Chandler homes vary by lot size, landscape type, and service frequency. Rock yard quarterly programs and monthly protection plans available. Free assessment included. Call (480) 422-8388 for pricing." },
+      { q: "When should I apply pre-emergent in Chandler?", a: "Chandler needs two pre-emergent applications per year: late September/early October (before winter annuals) and late February/early March (before summer weeds and bermuda grass). These two applications provide the foundation for year-round weed prevention." },
+      { q: "What are the worst weeds in Chandler AZ?", a: "Chandler's top weed problems are spurge (summer, flat-growing in gravel), bermuda grass invasion into rock yards, puncturevine (painful thorns, summer), London Rocket (winter, fast-growing), and pigweed/amaranth (monsoon season, from agricultural soil in south Chandler)." },
+      { q: "Can you fix HOA weed violations in Chandler?", a: "Yes. We offer expedited weed treatment to bring yards into HOA compliance within 48 hours. We'll spray existing weeds, apply pre-emergent to prevent regrowth, and provide documentation you can share with your HOA management company." },
+      { q: "How do you stop bermuda grass from invading rock yards?", a: "We use systemic herbicides that travel through bermuda grass runners to kill the root network, not just the visible blades. For severe invasions from adjacent turf or common areas, we can install physical root barriers. Multiple treatments over 2-3 months are typically required for complete bermuda removal." },
+      { q: "Do you serve Ocotillo, Sun Groves, and Chandler Heights?", a: "Yes. We serve all Chandler communities including Ocotillo, Sun Groves, Chandler Heights, Downtown Chandler, Andersen Springs, Clemente Ranch, and surrounding areas. Same-day appointments often available." },
+      { q: "Do you also offer pest control in Chandler?", a: "Yes. Bucksworth provides full pest and termite protection, scorpion control, HVAC service, and plumbing in addition to weed control throughout Chandler. Many homeowners bundle pest + weed service. Call (480) 422-8388." },
+      { q: "Is Bucksworth licensed for herbicide application?", a: "Yes. All Bucksworth technicians carry current Arizona Department of Agriculture applicator licenses. We're fully insured, Google Guaranteed, and maintain a 4.9-star rating across 2,000+ Google reviews." },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
      PEST & TERMITE — COOLIDGE
      Priority: MEDIUM — pos 18.6, 62 imp, 0 clk (Jun 19-25)
      ═══════════════════════════════════════════════════════════════ */
