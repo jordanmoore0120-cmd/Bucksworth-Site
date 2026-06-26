@@ -254,6 +254,8 @@ const nextConfig = {
         // ── 2026-06-25: New redirects — GSC 404s with impressions ──
         { source: "/phoenix/hvac-services/indoor-air-quality/air-duct-cleaning", destination: "/phoenix-az/air-conditioning-and-heating/indoor-air-quality", permanent: true },
         { source: "/beating-the-tucson-heat-why-ac-maintenance-beats-a-last-minute-fix", destination: "/tucson-az/air-conditioning-and-heating", permanent: true },
+        // ── 2026-06-26: New redirect — WP/old plumbing slug → service page ──
+        { source: "/tucson-plumbing-reliable-solutions-for-your-home-and-business", destination: "/tucson-az/plumbing-and-water-heaters", permanent: true },
         { source: "/phoenix/:path*", destination: "/phoenix-az/:path*", permanent: true },
         { source: "/marana/:path*", destination: "/marana-az/:path*", permanent: true },
         { source: "/oro-valley/:path*", destination: "/oro-valley-az/:path*", permanent: true },
