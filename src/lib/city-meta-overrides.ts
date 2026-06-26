@@ -57,6 +57,24 @@ const CITY_META_OVERRIDES: Record<string, CityMetaOverride> = {
     metaDescription: "Licensed pest control and weed treatment in Sahuarita, AZ. Scorpion removal, termite inspections, and pre-emergent weed control. Same-day appointments. Call (520) 284-9930.",
   },
 
+  /* fountain-hills-az — pos 21.6, 291 imp, 0 clk — added Jun 26 */
+  "fountain-hills-az": {
+    metaTitle: "Fountain Hills Pest Control, AC & Plumbing — McDowell Mountain Area Pros",
+    metaDescription: "Licensed pest control, AC repair, and plumbing in Fountain Hills, AZ 85268. Scorpion removal, emergency HVAC, and drain cleaning near McDowell Mountain Park. 4.9-star rated. Call (480) 485-9790.",
+  },
+
+  /* goodyear-az — pos 22.1, 72 imp, 0 clk — added Jun 26 */
+  "goodyear-az": {
+    metaTitle: "Goodyear, AZ Pest Control, AC Repair & Plumbing — Estrella & Palm Valley",
+    metaDescription: "Trusted pest control, AC installation, and plumbing in Goodyear, AZ. Serving Estrella Mountain Ranch, Palm Valley & Canyon Trails. Google Guaranteed. Call (480) 485-9790.",
+  },
+
+  /* casa-grande-az — pos 13.7, 55 imp, 0 clk — added Jun 26 */
+  "casa-grande-az": {
+    metaTitle: "Casa Grande Pest Control, AC & Plumbing — Same-Day Service, 85122/85193",
+    metaDescription: "Pest control, AC repair, and plumbing in Casa Grande, AZ. Scorpion removal, emergency cooling repair, and water heater service for 85122 & 85193. Call (480) 485-9790.",
+  },
+
   /* vail-az — city meta override added Jun 25 */
   "vail-az": {
     metaTitle: "Vail, AZ Pest & Weed Control — Desert Pest Experts, Free Inspections",

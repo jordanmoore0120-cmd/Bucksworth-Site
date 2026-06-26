@@ -223,6 +223,65 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
       { q: "Why do I need pre-emergent if I already pull weeds regularly?", a: "Hand-pulling removes visible weeds but doesn't prevent the next generation of seeds from germinating. Arizona desert soil contains millions of viable weed seeds per acre. Pre-emergent herbicides create a barrier that stops those seeds from sprouting — breaking the cycle that manual pulling cannot. Most Peoria homeowners who switch from pulling to pre-emergent programs see 90%+ weed reduction within two application cycles." },
     ],
   },
+
+  /* ═══════════════════════════════════════════════════════════════
+     PEST & TERMITE — MARANA
+     Priority: HIGH — pos 16.8, 200 imp, 1 clk (Jun 19-25)
+     Competitors: Bug King, Truly Nolen, AZ Pest Solutions
+     ═══════════════════════════════════════════════════════════════ */
+  "marana-az/pest-and-termite": {
+    metaTitle: "Marana Pest & Termite Control — Scorpion, Termite & Rodent Experts | Bucksworth",
+    metaDescription: "Licensed pest control and termite treatment in Marana, AZ. Serving Continental Ranch, Dove Mountain & Gladden Farms. Scorpion removal, termite inspections, and rodent exclusion. Call (520) 284-9930.",
+    heroHeadline: "Marana Pest & Termite Control — Desert-Edge Protection Since 2013",
+    heroDescription: "Marana sits at the northwest edge of the Tucson metro where new construction meets undisturbed Sonoran Desert. This creates intense pest pressure from scorpions, termites, and rodents migrating from desert washes into Continental Ranch, Dove Mountain, Gladden Farms, and Tortolita communities. Bucksworth provides comprehensive pest and termite protection calibrated to Marana's unique geography.",
+    introContent: [
+      {
+        heading: "Pest & Termite Services in Marana, Pima County",
+        paragraphs: [
+          "Marana's rapid growth along I-10 and Tangerine Road means thousands of homes built on former desert habitat where scorpions, bark scorpions, termites, and pack rats already established colonies. The Tortolita Mountains to the east and Santa Cruz River corridor to the west funnel pest populations directly into residential communities. Bucksworth technicians understand that Continental Ranch (85653) has fundamentally different pest patterns than the foothills homes of Dove Mountain (85658).",
+          "Our Marana pest control covers all common desert pests including bark scorpions, subterranean termites, black widows, roof rats, pack rats, ants, and roaches. Every service includes a full property inspection, targeted treatment, and a protection plan that accounts for seasonal migration patterns. Same-day and next-day service available across all Marana zip codes.",
+          "Need pest control in Marana today? Call (520) 284-9930 for a free inspection. Licensed, bonded, and Google Guaranteed.",
+        ],
+      },
+      {
+        heading: "Why Marana Has Severe Pest Pressure",
+        paragraphs: [
+          "Three factors make Marana one of the most pest-active cities in the Tucson metro. First, desert-edge construction: communities like Gladden Farms and Tortolita Preserve are built directly adjacent to undeveloped Sonoran Desert, creating a constant migration corridor for scorpions, rodents, and snakes seeking water and shelter in irrigated yards.",
+          "Second, the Santa Cruz River wash runs along Marana's western edge. Even when dry, this wash serves as a superhighway for rodents, roaches, and termites moving between desert habitat and residential neighborhoods. Homes near Ina Road and Silverbell are particularly vulnerable.",
+          "Third, Marana's new construction boom means many homes are less than 10 years old with fresh landscaping that attracts pests seeking moisture. Drip irrigation systems, newly planted trees, and mulch beds create microhabitats that scorpions and termites exploit — especially during monsoon season.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does pest control cost in Marana?", a: "Monthly pest control plans for Marana homes start at affordable rates based on home size and pest pressure level. Homes in Continental Ranch typically need standard service, while desert-edge properties in Dove Mountain may need enhanced treatment. Free inspection included. Call (520) 284-9930." },
+      { q: "Do you do termite inspections in Marana?", a: "Yes. We provide free termite inspections for all Marana properties. Subterranean termites are the primary species in the Marana area, and we offer both liquid barrier and bait station treatment options with warranty protection." },
+      { q: "What zip codes do you serve in Marana?", a: "We serve all Marana zip codes including 85653, 85658, and 85743. Coverage includes Continental Ranch, Dove Mountain, Gladden Farms, Tortolita, Saguaro Bloom, and all surrounding communities." },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     PEST & TERMITE — COOLIDGE
+     Priority: MEDIUM — pos 18.6, 62 imp, 0 clk (Jun 19-25)
+     ═══════════════════════════════════════════════════════════════ */
+  "coolidge-az/pest-and-termite": {
+    metaTitle: "Coolidge Pest & Termite Control — Licensed Pros, Same-Day Service | Bucksworth",
+    metaDescription: "Pest control and termite treatment in Coolidge, AZ 85128. Scorpion removal, termite inspections, and rodent control for the Casa Grande Valley. Google Guaranteed. Call (480) 485-9790.",
+    heroHeadline: "Coolidge Pest & Termite Control — Casa Grande Valley Experts",
+    heroDescription: "Coolidge sits in the agricultural heart of the Casa Grande Valley, where irrigated farmland meets desert — creating year-round pest pressure from scorpions, termites, and rodents. Bucksworth provides comprehensive pest and termite protection for every Coolidge home.",
+    introContent: [
+      {
+        heading: "Pest & Termite Services in Coolidge, Pinal County",
+        paragraphs: [
+          "Coolidge's position in the Casa Grande Valley surrounded by agricultural land creates a unique pest environment. Irrigation canals, cotton fields, and citrus groves harbor scorpions, termites, and rodents that migrate into residential neighborhoods as seasons change. Our Coolidge technicians provide targeted treatment for desert and agricultural pests including bark scorpions, subterranean termites, roof rats, ants, and roaches.",
+          "Every Coolidge service includes a full property inspection, interior and exterior treatment, and ongoing protection. Same-day appointments available. Call (480) 485-9790 for a free inspection.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does pest control cost in Coolidge?", a: "Monthly pest control plans for Coolidge homes start at affordable rates based on home size and pest pressure. Free inspection included with every estimate. Call (480) 485-9790." },
+      { q: "Do you offer termite warranties in Coolidge?", a: "Yes. We provide termite treatment with warranty protection for Coolidge properties. Free termite inspections available for all 85128 zip code homes." },
+    ],
+  },
 };
 
 export function getServiceHubOverride(citySlug: string, serviceSlug: string): ServiceHubOverride | undefined {
