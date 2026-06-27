@@ -2456,6 +2456,65 @@ const OVERRIDES: Record<string, ContentOverride> = {
     ],
   },
 
+  /* ═══════════════════════════════════════════════════════════════
+     AC REPAIR — COOLIDGE
+     Priority: pos 13.1, 41 imp, 0 clk — breakout candidate
+     ═══════════════════════════════════════════════════════════════ */
+  "coolidge-az/air-conditioning-and-heating/ac-repair": {
+    metaTitle: "AC Repair Coolidge AZ — Same-Day Emergency Cooling Fix, $0 Diagnostic",
+    metaDescription: "Fast AC repair in Coolidge, AZ 85128. Emergency same-day service for Coolidge, Arizona City, and Casa Grande Valley homes. All brands serviced. Licensed & insured. Call (480) 485-9790.",
+    heroHeadline: "AC Repair in Coolidge, AZ",
+    heroDescription: "Same-day AC repair for Coolidge, Arizona City, and the greater Casa Grande Valley. Licensed HVAC technicians ready 7 days a week with $0 diagnostic fee.",
+    content: [
+      {
+        heading: "Expert AC Repair for Coolidge & the Casa Grande Valley",
+        paragraphs: [
+          "Coolidge summers push well past 110 degrees, and when your air conditioner stops working, you need a repair team that can respond the same day. Bucksworth Home Services provides fast, reliable AC repair for Coolidge, Arizona City, Eloy, and surrounding communities in the Casa Grande Valley.",
+          "Our licensed HVAC technicians service all major brands including Trane, Carrier, Lennox, Goodman, and Rheem. Whether your system is blowing warm air, cycling constantly, or making unusual noises, we diagnose the problem on-site with a $0 diagnostic fee and provide upfront pricing before any work begins.",
+        ],
+      },
+      {
+        heading: "Common AC Problems in Coolidge Homes",
+        paragraphs: [
+          "The extreme Pinal County heat and fine desert dust create unique challenges for residential cooling systems. Capacitor failures are the most common emergency call we receive in Coolidge, followed by refrigerant leaks, blower motor burnout, and thermostat malfunctions.",
+          "Older homes in the 85128 zip code often have aging units that struggle during peak summer demand. Our technicians carry common replacement parts on every service truck so most repairs are completed in a single visit without a return trip.",
+        ],
+      },
+      {
+        heading: "Emergency AC Service Available 7 Days a Week",
+        paragraphs: [
+          "We understand that AC failures do not follow a convenient schedule. Bucksworth offers emergency AC repair in Coolidge seven days a week, including evenings and weekends. When you call, a real dispatcher answers and schedules a technician for the fastest available window.",
+          "Our average response time for emergency calls in the Coolidge area is under two hours. We prioritize same-day completion so your family is not left in the heat overnight.",
+        ],
+      },
+      {
+        heading: "Honest Pricing & Repair vs. Replace Guidance",
+        paragraphs: [
+          "Not every AC problem requires a full system replacement. Our technicians provide honest assessments and will recommend repair when it makes financial sense. If your system is beyond economical repair, we provide a written replacement quote with financing options and never pressure you into a decision.",
+          "Every repair comes with a workmanship warranty, and we stand behind every part we install. Bucksworth is Google Guaranteed and maintains a 4.9-star rating across 2,000+ reviews.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does AC repair cost in Coolidge, AZ?",
+        a: "Most AC repairs in Coolidge range from $150 to $650 depending on the issue. Common fixes like capacitor replacement or thermostat repair are on the lower end, while compressor or blower motor replacement falls on the higher end. We provide a $0 diagnostic and upfront pricing before starting work. Call (480) 485-9790.",
+      },
+      {
+        q: "Do you offer same-day AC repair in Coolidge?",
+        a: "Yes. We provide same-day emergency AC repair in Coolidge, Arizona City, and the Casa Grande Valley seven days a week. Our average response time is under two hours for emergency calls.",
+      },
+      {
+        q: "What AC brands do you service in Coolidge?",
+        a: "We service all major residential AC brands including Trane, Carrier, Lennox, Goodman, Rheem, Amana, York, and Daikin. Our technicians carry common parts for these brands on every truck.",
+      },
+      {
+        q: "Should I repair or replace my AC unit in Coolidge?",
+        a: "Generally, if your system is under 12 years old and the repair costs less than 50% of a new unit, repair makes sense. Our technician will provide an honest recommendation based on your system age, repair history, and the specific issue. We never pressure you into a replacement.",
+      },
+    ],
+  },
+
 };
 
 /**

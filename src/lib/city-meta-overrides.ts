@@ -81,6 +81,12 @@ const CITY_META_OVERRIDES: Record<string, CityMetaOverride> = {
     metaDescription: "Professional pest control and weed management in Vail, AZ. Bark scorpion removal, termite treatment, and bermuda grass control near Colossal Cave. Call (520) 284-9930.",
   },
 
+  /* oro-valley-az — pos 23.3, 69 imp, ↓5.7 rapid decline — added Jun 27 */
+  "oro-valley-az": {
+    metaTitle: "Oro Valley Pest & Weed Control — Rancho Vistoso & Pusch Ridge Area Pros",
+    metaDescription: "Licensed pest control and weed treatment in Oro Valley, AZ 85737/85755. Scorpion removal, termite inspections, and pre-emergent weed control near Catalina State Park. Same-day service. Call (520) 284-9930.",
+  },
+
 };
 
 export function getCityMetaOverride(citySlug: string): CityMetaOverride | undefined {
