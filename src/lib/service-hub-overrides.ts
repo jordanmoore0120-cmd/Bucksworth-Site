@@ -452,6 +452,210 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
   },
 
   /* ═══════════════════════════════════════════════════════════════
+     WEED CONTROL — GILBERT
+     Priority: HIGH — East Valley sweep, Green Mango void, Aspire competitor
+     Competitors: Aspire Weed Control, Green Keeper (Higley HQ), AZ Weed King
+     ═══════════════════════════════════════════════════════════════ */
+  "gilbert-az/weed-and-lawn-care": {
+    metaTitle: "Weed Control Gilbert AZ — Pre-Emergent & Rock Yard Treatment | Bucksworth",
+    metaDescription: "Professional weed control in Gilbert, AZ. Pre-emergent barriers, post-emergent treatment, and bermuda grass suppression for Power Ranch, Val Vista Lakes, Agritopia & Higley. Call (480) 422-8388.",
+    heroHeadline: "Gilbert Weed Control — East Valley Farm-to-Suburb Specialists",
+    heroDescription: "Gilbert's transformation from Arizona's hay capital to a city of 280,000+ means your yard sits on some of the most weed-prone soil in the East Valley. Decades of agricultural irrigation saturated the ground with seeds that still germinate today — especially in Power Ranch, Val Vista Lakes, and Higley. Bucksworth Home Services provides professional pre-emergent barriers, post-emergent treatment, and year-round weed management for every Gilbert community.",
+    introContent: [
+      {
+        heading: "Weed Control Services in Gilbert, Maricopa County",
+        paragraphs: [
+          "Gilbert spans zip codes 85233, 85234, 85236, 85295, 85296, 85297, and 85298, covering over 70 square miles of land that was almost entirely farmland 30 years ago. That agricultural past is the single biggest driver of Gilbert's weed problems today. Cotton, alfalfa, and citrus farming enriched the soil with nitrogen and left behind billions of pigweed, amaranth, and Johnson grass seeds capable of surviving in dormant soil for decades. Every new subdivision that grades this former farmland reactivates those seeds — and Gilbert is still building.",
+          "Bucksworth Home Services has provided weed control across the East Valley since 2013, and Gilbert is one of our highest-volume service areas. Our licensed technicians understand that a Power Ranch yard at the desert's edge requires a completely different approach than a Val Vista Lakes property surrounded by irrigated common areas. We build custom treatment plans based on your soil type, landscape, sun exposure, and weed pressure — not a one-size template.",
+          "Need weed control in Gilbert today? Call (480) 422-8388 for a free assessment. Same-day and next-day appointments available throughout Gilbert, Chandler, Mesa, and the East Valley.",
+        ],
+      },
+      {
+        heading: "Why Gilbert's Agricultural Soil Creates Relentless Weed Pressure",
+        paragraphs: [
+          "Gilbert's weed challenges are rooted — literally — in its farming history. For most of the 20th century, Gilbert was the 'Hay Shipping Capital of the World,' with thousands of acres under active irrigation. That irrigation created ideal conditions for weed seed accumulation: water, disturbed soil, and nutrient-rich organic matter. When farming stopped and subdivisions replaced fields, those seeds didn't disappear. They entered dormancy in the soil, waiting for the next disruption — which comes every time a new home's landscape is installed and drip irrigation turns on.",
+          "The depth of this seed bank is staggering. Agricultural soil in Gilbert can contain 50,000+ viable weed seeds per square meter in the top six inches alone. Standard landscaping disturbs the top 8–12 inches during grading and rock installation, bringing dormant seeds to the surface where sunlight and moisture trigger germination. This is why brand-new Gilbert homes often see heavy weed growth within 30–60 days of landscape completion — before any weed seeds could have blown in from elsewhere.",
+          "Compounding the problem is Gilbert's canal infrastructure. The Eastern Canal, Consolidated Canal, and dozens of lateral irrigation ditches run through residential areas, carrying weed seeds downstream and distributing them across neighborhoods. Homes near canal paths in Cooley Station, Freeman Farms, and the 85234 corridor face chronic reinfestation from these water vectors.",
+          "Finally, Agritopia — Gilbert's nationally recognized agri-community — maintains active farm plots surrounded by residential homes. While Agritopia's farms are well-managed, the organic cultivation practices create a continuous weed seed source that adjacent properties must actively defend against. Our Agritopia-area clients receive perimeter-focused treatments designed for this unique coexistence.",
+        ],
+      },
+      {
+        heading: "Gilbert Neighborhood Weed Guide",
+        paragraphs: [
+          "Power Ranch (85297) — Gilbert's largest master-planned community sits at the city's southeastern corner, where developed lots border open desert and the San Tan Mountain Regional Park. The desert edge introduces native weed species — globe mallow, devil's claw, and desert marigold — alongside typical suburban weeds like spurge and puncturevine. Power Ranch rock yards face dual pressure: agricultural legacy seeds from below and wind-carried desert seeds from the south and east. Our Power Ranch program includes extended perimeter treatment along desert-facing property walls and higher-concentration pre-emergent for the larger lot sizes common in this community.",
+          "Val Vista Lakes (85295/85234) — This lakefront community features irrigated common areas, mature trees, and water features that create humid microclimates where nutsedge and crabgrass thrive. Bermuda grass invasion is the #1 complaint in Val Vista Lakes rock yards — runners travel from HOA-maintained turf into adjacent gravel landscapes underground, making surface treatment alone ineffective. Our Val Vista program uses systemic bermuda suppression that kills runners at the root, combined with standard pre-emergent barriers for annual weeds.",
+          "Agritopia (85296) — Gilbert's unique agricultural community blends working farmland with residential neighborhoods. The organic farming practices mean weed seeds are constantly produced within the community itself. Homes adjacent to farm plots deal with lamb's quarters, pigweed, and purslane migrating from cultivated areas into residential landscapes. We create defensive buffers around Agritopia properties with frequent perimeter applications timed to the farm's growing seasons.",
+          "Seville (85298) — This gated community on Gilbert's eastern edge borders the Gila River Indian Community and undeveloped desert. Seville properties face persistent tumbleweeds (Russian thistle) in winter and spurge/puncturevine in summer from the adjacent open land. Our Seville program mirrors Power Ranch with aggressive perimeter defense and higher-rate pre-emergent applications.",
+          "Cooley Station & Freeman Farms (85233/85234) — Central Gilbert neighborhoods near Heritage District with mature landscapes, established trees, and irrigation infrastructure. These older communities deal with deep-rooted perennial weeds like bermuda and nutgrass that have been growing for 20+ years. Shallow pre-emergent alone won't control established perennials — we use combination treatments that address both surface-level annual weeds and deep-rooted perennial invasions.",
+          "Higley (85236) — The former agricultural corridor along Higley Road is now mostly residential, but the transition from farm to suburb is recent enough that legacy weed pressure is extreme. Johnson grass, bermuda, and pigweed dominate. Larger lot sizes in Higley mean more ground to cover, and many properties still have natural desert easements that act as weed seed reservoirs. Our Higley program accounts for these larger treatment areas with adjusted pricing and application rates.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Eliminates Weeds in Gilbert Yards",
+        paragraphs: [
+          "Every Gilbert weed control engagement starts with a 15–20 minute free yard assessment. Your technician walks the entire property identifying active weed species, checking soil conditions, evaluating irrigation patterns, and noting landscape features that affect weed growth. We photograph baseline conditions so progress is measurable over time.",
+          "For rock and gravel yards — Gilbert's most common landscape type — we deploy a dual-barrier system. A commercial-grade pre-emergent herbicide is applied to the soil surface and activated with water, creating a chemical barrier that prevents weed seed germination for 3–4 months. Simultaneously, existing weeds receive targeted post-emergent herbicide that kills them to the root within 7–14 days. This prevention-plus-elimination approach keeps Gilbert yards clean between quarterly visits.",
+          "For turf lawns in Val Vista Lakes, Cooley Station, and other irrigated communities, we use selective herbicides that target broadleaf weeds and nutsedge without harming bermuda grass or winter ryegrass. Our turf program integrates weed control with fertilization and seasonal guidance for a thick, healthy lawn that naturally resists weed invasion.",
+          "All products are commercial-grade — not available at hardware stores — with higher active ingredient concentrations, better UV stability in Arizona's 110°F+ heat, and longer residual effectiveness. EPA-registered and safe for residential use. Keep children and pets off treated areas until dry (30–60 minutes).",
+        ],
+      },
+      {
+        heading: "Gilbert Weed Control Plans & Pricing",
+        paragraphs: [
+          "Our Gilbert weed control plans match the city's diverse landscape needs. The Quarterly Rock Yard Plan includes two pre-emergent applications plus two post-emergent cleanups per year — ideal for standard gravel yards under 5,000 sq ft. The Monthly Protection Plan adds monthly spot treatments and unlimited callbacks for breakthrough weeds — recommended for desert-edge properties in Power Ranch, Seville, and Higley. The Turf + Rock Combo covers both lawn and gravel areas with integrated treatment.",
+          "Bundle and save: Gilbert homeowners who add pest control to their weed plan save 20–30% compared to hiring separate companies. One company, one technician who knows your property, one visit that handles the entire yard inside and out. Over 2,000 Arizona families have chosen the Bucksworth bundle.",
+          "No contracts. No commitments. We earn your business every visit. Unsatisfied with any treatment? We re-treat at no charge. Call (480) 422-8388 for a free Gilbert yard assessment and custom pricing.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does weed control cost in Gilbert?", a: "Weed control plans for Gilbert homes vary by lot size, landscape type, and service frequency. Quarterly rock yard programs, monthly protection plans, and turf + rock combos available. Free assessment included. Call (480) 422-8388 for pricing." },
+      { q: "When should I apply pre-emergent in Gilbert?", a: "Gilbert needs two pre-emergent applications per year: late September/early October (before winter annuals like London Rocket and filaree) and late February/early March (before summer weeds and bermuda grass). These two applications are the foundation of year-round weed prevention." },
+      { q: "What are the most common weeds in Gilbert AZ?", a: "Gilbert's top weeds are spurge (summer, flat-growing in gravel), bermuda grass invading rock yards, puncturevine (painful thorns, summer), pigweed/amaranth (from agricultural soil), London Rocket (winter), and Johnson grass (persistent perennial in former farm areas like Higley)." },
+      { q: "Why does my new Gilbert home have so many weeds?", a: "Gilbert was farmland for decades. Construction disturbs dormant agricultural weed seeds buried in the soil, and your new irrigation system gives them the water they need to germinate. A professional pre-emergent application within 30 days of landscape installation prevents this cycle." },
+      { q: "Do you serve Power Ranch, Val Vista Lakes, and Agritopia?", a: "Yes. We serve all Gilbert communities including Power Ranch, Val Vista Lakes, Agritopia, Seville, Cooley Station, Freeman Farms, Higley, and surrounding areas. Same-day appointments frequently available." },
+      { q: "How do you control bermuda grass in Gilbert rock yards?", a: "We use systemic herbicides that travel through bermuda grass runners to kill the entire root network underground — not just the visible blades. For severe invasions from adjacent turf or common areas, we may recommend root barriers. Complete bermuda removal typically requires 2-3 treatments over several months." },
+      { q: "Do you also offer pest control in Gilbert?", a: "Yes. Bucksworth provides full pest and termite protection, scorpion control, HVAC service, and plumbing throughout Gilbert. Many homeowners bundle pest + weed service for 20-30% savings. Call (480) 422-8388." },
+      { q: "Is Bucksworth licensed for herbicide application in Arizona?", a: "Yes. All Bucksworth technicians carry current Arizona Department of Agriculture applicator licenses. We're fully insured, Google Guaranteed, and maintain a 4.9-star rating across 2,000+ Google reviews." },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     WEED CONTROL — MESA
+     Priority: HIGH — Largest East Valley city, Green Mango void, diverse terrain
+     Competitors: Aspire Weed Control, Green Keeper, Arizona Weed King
+     ═══════════════════════════════════════════════════════════════ */
+  "mesa-az/weed-and-lawn-care": {
+    metaTitle: "Weed Control Mesa AZ — Rock Yard & Desert Edge Treatment | Bucksworth",
+    metaDescription: "Professional weed control in Mesa, AZ. Pre-emergent barriers, post-emergent spraying, and bermuda grass removal for Red Mountain, Las Sendas, Eastmark & Superstition Springs. Call (480) 422-8388.",
+    heroHeadline: "Mesa Weed Control — Serving Arizona's Third-Largest City Since 2013",
+    heroDescription: "Mesa spans 140 square miles and over 500,000 residents — from the Usery Mountain foothills to the Superstition Freeway corridor. That range means Mesa has every weed challenge Arizona can throw at a homeowner: desert species at Las Sendas, agricultural legacy weeds in East Mesa, bermuda invasion at Dobson Ranch, and monsoon explosions at Eastmark. Bucksworth Home Services provides custom weed management for every Mesa neighborhood.",
+    introContent: [
+      {
+        heading: "Weed Control Services in Mesa, Maricopa County",
+        paragraphs: [
+          "Mesa is Arizona's third-largest city, stretching across zip codes 85201, 85202, 85204, 85205, 85206, 85207, 85208, 85209, 85210, 85212, and 85215. The city's sheer size means weed conditions change dramatically from one zip code to the next. Downtown Mesa (85201/85210) has 60-year-old homes with deeply established perennial weeds. Red Mountain (85207/85215) borders the Usery Mountains with constant desert weed migration. Eastmark (85212) is brand-new construction on former agricultural land where dormant seeds activate with fresh irrigation. No single treatment approach works across all of Mesa — and that's exactly why Bucksworth builds custom plans.",
+          "Our Mesa weed control program uses commercial-grade pre-emergent herbicides, targeted post-emergent treatments, and bermuda grass suppression technology calibrated to each property's specific conditions. Licensed applicators. Arizona Department of Agriculture certified. Products and concentrations not available in retail stores.",
+          "Call (480) 422-8388 for a free Mesa yard assessment. Same-day and next-day appointments available throughout Mesa, Gilbert, Chandler, Scottsdale, and the East Valley.",
+        ],
+      },
+      {
+        heading: "Mesa's Terrain Diversity Creates Arizona's Most Complex Weed Environment",
+        paragraphs: [
+          "Mesa's weed challenges stem from three distinct terrain zones that converge within city limits. Zone 1 — the mountain zone — covers Red Mountain, Las Sendas, and the Usery Mountain foothills in northeast Mesa (85207/85215). Here, Sonoran Desert weed species dominate: globe mallow, brittlebush volunteers, spurge, and puncturevine migrate downhill from preserved desert into residential yards. Wind patterns from Usery Mountain Regional Park carry seeds westward into neighborhoods during afternoon thermals. These aren't the same weeds that plague central Mesa — they require different herbicide formulations and application timing.",
+          "Zone 2 — the agricultural transition zone — covers East Mesa and the Gateway corridor (85205/85206/85208/85209/85212). This land was citrus groves, cotton fields, and cattle range within the last 20 years. Like Gilbert, the agricultural soil here is a dormant weed seed bank. Eastmark — Mesa's newest large-scale community — was graded from raw agricultural land, and new homeowners routinely report heavy weed growth within weeks of moving in. Pigweed, amaranth, kochia, and Johnson grass are the legacy species that dominate this zone.",
+          "Zone 3 — the urban core — covers Downtown Mesa, Dobson Ranch, and Alta Mesa (85201/85202/85204/85210). These established neighborhoods have mature landscapes, extensive irrigation infrastructure, and compacted soil. Weed problems here are dominated by bermuda grass invasion into rock yards, deep-rooted nutsedge in irrigated areas, and annual weeds that exploit cracks in aging hardscapes. Pre-emergent application in compacted clay soil requires different rates than the sandy alluvial soil in East Mesa.",
+          "The Salt River and its associated canal system (Arizona Canal, Consolidated Canal, Mesa Canal) adds a fourth factor. Canal banks are some of the most aggressive weed corridors in the Valley — seeds travel with water flow and establish colonies along canal paths that distribute into adjacent residential areas. Mesa has more canal frontage than any other East Valley city, making canal-adjacent homes a particular challenge.",
+        ],
+      },
+      {
+        heading: "Mesa Neighborhood Weed Guide",
+        paragraphs: [
+          "Red Mountain (85207/85215) — Northeast Mesa's premier foothill community borders the Usery Mountains and Red Mountain Park. Desert weed migration is constant — globe mallow, devil's claw, and desert senna establish in rock yards within weeks of monsoon rains. Scorpion habitat and weed habitat overlap heavily here, making our combined pest + weed bundle especially popular. Our Red Mountain program includes extended perimeter treatment along desert-facing walls and monthly monitoring during monsoon season.",
+          "Las Sendas (85207) — This upscale golf community is carved into the desert foothills, with homes sitting directly against preserved natural desert. Las Sendas faces the most intense desert weed pressure of any Mesa neighborhood because the desert surrounds it on three sides. Wind-carried seeds from the Tonto National Forest influence mean these properties see species not common in the urban Valley. Our Las Sendas program uses extended-duration pre-emergents and defensive perimeter barriers with premium application rates.",
+          "Eastmark (85212) — Mesa's newest master-planned community is being built on former agricultural land east of Ellsworth Road. Each construction phase exposes fresh soil packed with dormant farm-era weed seeds. New residents should schedule pre-emergent treatment within 30 days of landscape installation — waiting until weeds appear means the seed bank has already activated. Our Eastmark program includes an aggressive initial knockdown plus quarterly prevention for ongoing control.",
+          "Dobson Ranch (85202) — One of Mesa's oldest master-planned communities, built around a lake system with extensive turf common areas. Bermuda grass invasion is the dominant weed issue — runners travel underground from HOA-maintained turf into adjacent rock yards, emerging through weed barrier fabric. Nutsedge thrives near the lake and irrigated areas. Our Dobson Ranch program prioritizes bermuda suppression and nutsedge control alongside standard annual weed prevention.",
+          "Downtown Mesa / Alta Mesa (85201/85204/85210) — The city's historic core has block-construction homes with decades of accumulated weed pressure. Compacted caliche soil reduces pre-emergent penetration, requiring adjusted application techniques. Many properties have bermuda grass lawns that have spread uncontrolled into rock beds, sidewalk cracks, and alley easements. We focus on bermuda containment, crack-and-crevice treatment, and higher-rate pre-emergent for compacted soils.",
+          "Superstition Springs (85206/85209) — This suburban corridor near the Superstition Freeway deals with seasonal monsoon weed explosions. The flat terrain and proximity to the Loop 202 corridor means wind-distributed seeds are a constant factor. Standard quarterly pre-emergent programs work well in Superstition Springs when applied on schedule, with monsoon booster applications recommended for properties near highway frontage.",
+        ],
+      },
+      {
+        heading: "Year-Round Mesa Weed Calendar",
+        paragraphs: [
+          "Mesa's long growing season means weeds germinate across all 12 months, with four distinct peak periods. October–November: fall rains trigger winter annual germination. London Rocket, wild mustard, and filaree seeds activate as overnight temperatures drop below 75°F. A pre-emergent application in late September catches this window. January–March: winter annuals reach peak growth and set seed. If fall pre-emergent was missed, these weeds blanket rock yards. Post-emergent treatment during this period prevents seed dispersal for the next cycle.",
+          "April–June: bermuda grass breaks dormancy and sends aggressive runners into rock yards and flower beds. Pre-emergent barriers applied in March suppress summer annuals, but bermuda requires targeted systemic herbicide. June heat (110°F+) stresses weeds but doesn't kill established species — some desert-adapted weeds actually thrive in extreme heat. July–September: monsoon season triggers the most explosive weed growth of the year. Spurge, carpetweed, puncturevine, and prostrate pigweed can cover a bare rock yard in 10–14 days after the first monsoon rain. A pre-emergent booster in late June provides protection through monsoon.",
+          "Bucksworth's Mesa weed calendar delivers four seasonal treatments: fall pre-emergent (September/October), spring pre-emergent (February/March), monsoon booster (June), and year-round post-emergent spot treatment as needed. This protocol keeps Mesa yards clean through every season.",
+        ],
+      },
+      {
+        heading: "Mesa Weed Control Plans & Pricing",
+        paragraphs: [
+          "Bucksworth offers plans scaled to Mesa's diverse property types. Our Quarterly Rock Yard Plan provides two pre-emergent barriers plus two post-emergent cleanups per year — suitable for standard rock yards under 5,000 sq ft in Superstition Springs, Eastmark, and central Mesa. Our Monthly Protection Plan adds monthly spot treatments, monsoon booster applications, and unlimited callbacks — recommended for desert-edge properties in Red Mountain, Las Sendas, and East Mesa. Our Large Lot Plan serves Mesa properties over 10,000 sq ft with adjusted application rates and competitive per-square-foot pricing.",
+          "Bundle and save: Mesa homeowners who combine pest control and weed control into our Pest + Weed package save 20–30% compared to hiring separate companies. One technician, one visit, full property coverage inside and out. Over 2,000 Arizona families trust Bucksworth.",
+          "No contracts required. We earn your business every service visit. If you're not satisfied with any weed treatment, we come back and re-treat at no additional charge. Call (480) 422-8388 for a free Mesa yard assessment and pricing.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does weed control cost in Mesa?", a: "Weed control plans for Mesa homes vary by lot size, landscape type, and service frequency. Quarterly, monthly, and large-lot plans available. Free assessment included. Call (480) 422-8388 for Mesa-specific pricing." },
+      { q: "When should I apply pre-emergent in Mesa?", a: "Mesa needs two primary pre-emergent applications: late September/early October (before winter annuals) and late February/early March (before summer weeds). Desert-edge properties in Red Mountain and Las Sendas benefit from a third monsoon booster in late June." },
+      { q: "What are the worst weeds in Mesa AZ?", a: "Mesa's most common weeds are spurge (summer, flat-growing in gravel), bermuda grass invading rock yards, puncturevine (thorny summer weed), London Rocket (tall winter weed), and pigweed (monsoon season, especially in East Mesa and Eastmark where agricultural soil is prevalent)." },
+      { q: "Why is East Mesa so bad for weeds?", a: "East Mesa was agricultural land (citrus groves, cotton, cattle) until recently. The soil contains massive dormant weed seed banks from decades of farming. New construction at Eastmark and along the Gateway corridor exposes these seeds, and irrigation activates germination. Professional pre-emergent immediately after landscape installation is essential." },
+      { q: "Do you serve Red Mountain, Las Sendas, and Eastmark?", a: "Yes. We serve all Mesa neighborhoods including Red Mountain, Las Sendas, Eastmark, Dobson Ranch, Downtown Mesa, Alta Mesa, Superstition Springs, and surrounding areas. Same-day appointments frequently available." },
+      { q: "Can you stop bermuda grass from invading my rock yard?", a: "Yes. We use systemic herbicides that kill bermuda grass runners underground — not just the visible blades. For severe invasions from neighboring turf or HOA common areas, root barriers may be recommended. Complete bermuda removal typically requires 2-3 treatments over several months." },
+      { q: "Do you offer pest control in Mesa too?", a: "Yes. Bucksworth provides complete pest and termite control, scorpion removal, HVAC service, and plumbing throughout Mesa. Bundle pest + weed service for 20-30% savings. Call (480) 422-8388." },
+      { q: "Is Bucksworth licensed for herbicide application?", a: "Yes. All Bucksworth technicians carry current Arizona Department of Agriculture applicator licenses. We're fully insured, Google Guaranteed, and maintain a 4.9-star rating across 2,000+ Google reviews." },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     WEED CONTROL — SCOTTSDALE
+     Priority: HIGH — Premium market, luxury HOA standards, desert preserve edge
+     Competitors: Aspire Weed Control, Arizona Weed King, landscape companies
+     ═══════════════════════════════════════════════════════════════ */
+  "scottsdale-az/weed-and-lawn-care": {
+    metaTitle: "Weed Control Scottsdale AZ — Desert & Luxury Landscape Treatment | Bucksworth",
+    metaDescription: "Professional weed control in Scottsdale, AZ. Pre-emergent barriers, bermuda suppression, and desert-edge treatment for North Scottsdale, DC Ranch, McCormick Ranch & Gainey Ranch. Call (480) 422-8388.",
+    heroHeadline: "Scottsdale Weed Control — Premium Desert Landscape Specialists",
+    heroDescription: "Scottsdale's weed challenges are unique in the Valley: luxury homes with extensive desert landscaping, HOAs with zero-tolerance weed policies, and the McDowell Sonoran Preserve pushing native weed species directly into residential communities. Bucksworth Home Services provides precision weed control for every Scottsdale environment — from Old Town's mature landscapes to North Scottsdale's desert-edge estates.",
+    introContent: [
+      {
+        heading: "Weed Control Services in Scottsdale, Maricopa County",
+        paragraphs: [
+          "Scottsdale stretches 31 miles north to south across zip codes 85251, 85254, 85255, 85257, 85258, 85260, 85262, and 85266. The city's geography ranges from the dense urban core of Old Town (85251) to 5-acre desert estates in North Scottsdale (85262/85266), creating wildly different weed environments within a single city. Scottsdale homeowners also face something few other Valley cities deal with at this scale: the McDowell Sonoran Preserve — 30,500 acres of protected desert — borders residential communities directly, creating a permanent and untreatable source of weed seeds.",
+          "Bucksworth Home Services has protected East Valley properties since 2013, and our Scottsdale weed program is built for the premium standards this market demands. We use commercial-grade herbicides with formulations selected for safety near ornamental desert plantings, turf, and water features. Every technician is Arizona Department of Agriculture certified, and our treatment protocols are designed to eliminate invasive weeds while preserving intentional desert landscaping — a distinction most competitors don't make.",
+          "Call (480) 422-8388 for a free Scottsdale yard assessment. Same-day and next-day service available throughout Scottsdale, Paradise Valley, Fountain Hills, and the East Valley.",
+        ],
+      },
+      {
+        heading: "Why Scottsdale's Desert Preserve Creates Year-Round Weed Pressure",
+        paragraphs: [
+          "The McDowell Sonoran Preserve is Scottsdale's greatest asset and its greatest weed challenge. At 30,500 acres, it's the largest urban preserve in the nation — and it borders residential neighborhoods in DC Ranch, Grayhawk, Troon, and the entire North Scottsdale corridor. Because the preserve is protected, it cannot be treated with herbicides. That means it functions as a permanent, self-replenishing weed seed reservoir that continuously feeds seeds into adjacent residential areas via wind, water runoff, and wildlife.",
+          "North Scottsdale properties (85255/85262/85266) near preserve boundaries see weed species not common in the urban Valley floor: globe mallow, desert senna, yellow palo verde seedlings, brittlebush volunteers, and native grasses that most homeowners don't recognize as weeds. These species look like intentional desert landscaping until they overtake controlled plantings — distinguishing invasive volunteers from intentional desert plants is a skill most weed control companies lack. Bucksworth technicians are trained in Sonoran plant identification so we eliminate invaders without damaging your $15,000 desert landscape design.",
+          "South and central Scottsdale face different pressure. McCormick Ranch, Gainey Ranch, and Scottsdale Ranch (85257/85258/85260) are irrigated communities with golf courses, lakes, and extensive turf common areas. These water-rich environments promote bermuda grass invasion, nutsedge, and broadleaf weeds that migrate from HOA-maintained areas into private yards. The combination of constant irrigation and Scottsdale's 300+ days of sunshine creates conditions where weeds can germinate in every month of the year.",
+          "Scottsdale's HOA standards add urgency. Many communities — DC Ranch, Grayhawk, Gainey Ranch — enforce zero-tolerance weed policies with fines starting at $100 per violation. Properties that fall behind on weed treatment face escalating penalties and mandatory remediation timelines. Our Scottsdale program is designed to keep properties in continuous compliance, with proactive treatment schedules that prevent weeds rather than reacting to HOA notices.",
+        ],
+      },
+      {
+        heading: "Scottsdale Neighborhood Weed Guide",
+        paragraphs: [
+          "North Scottsdale / DC Ranch / Grayhawk (85255) — The most desert-exposed residential area in Scottsdale. DC Ranch sits at the base of the McDowell Mountains with preserved desert on multiple sides. Weed pressure is heavily influenced by Sonoran Desert species — globe mallow, desert marigold, and native bursage — mixed with standard invasives like spurge and puncturevine. Our North Scottsdale program uses selective herbicides that target invasive species while leaving intentional desert plantings intact. Perimeter treatments along preserve boundaries are critical and applied at premium concentrations.",
+          "McCormick Ranch (85258/85257) — Scottsdale's original master-planned community, built around eight lakes and the McCormick Ranch Golf Club. Mature landscaping, 40+ year-old trees, and constant irrigation from the lake system create a moist microclimate that supports bermuda grass invasion, nutsedge, broadleaf weeds, and moss in shaded areas. Our McCormick Ranch program focuses on bermuda suppression in rock yards, nutsedge control near water features, and pre-emergent barriers calibrated for the higher soil moisture content.",
+          "Gainey Ranch (85258) — This gated luxury community features extensive irrigated landscaping and the Gainey Ranch Golf Club. Weed challenges mirror McCormick Ranch but with the added factor of premium ornamental plantings that require careful herbicide selection. We use targeted products with lower drift risk to protect adjacent ornamental plants, citrus trees, and flower beds while eliminating invasive weeds in rock areas.",
+          "Old Town Scottsdale (85251) — The city's urban core has older properties with mature landscapes, compacted soil, and aging irrigation systems. Weed problems include bermuda in hardscape cracks, tree-well weeds, and annual species in poorly maintained rock beds. Compacted soil requires adjusted pre-emergent application rates. Our Old Town program includes crack-and-crevice treatment for sidewalks, driveways, and patio areas alongside standard yard treatment.",
+          "Scottsdale Ranch / Kierland (85258/85254/85260) — Established communities in central Scottsdale with a mix of rock yards, turf areas, and commercial frontage. Standard quarterly pre-emergent programs perform well here. Properties near the Loop 101 freeway corridor see elevated weed pressure from highway-distributed seeds and may benefit from monsoon booster applications.",
+        ],
+      },
+      {
+        heading: "Scottsdale's Premium Weed Control Approach",
+        paragraphs: [
+          "Scottsdale properties demand precision that goes beyond standard weed control. Our Scottsdale program starts with a comprehensive assessment that evaluates not just weed species and soil conditions, but also identifies intentional desert plantings, ornamental landscaping, and water features that require herbicide buffer zones. This assessment typically takes 20–30 minutes for Scottsdale properties due to the complexity of premium landscapes.",
+          "We apply commercial-grade pre-emergent herbicides in granular and liquid formulations, selecting the format based on landscape type: granular for large rock yards where controlled placement matters, liquid for precision application near ornamental plantings. Pre-emergent barriers last 3–4 months under normal conditions and prevent weed seed germination without affecting established plants. Post-emergent treatment targets existing weeds with species-appropriate herbicides — broadleaf-specific for dandelions and mallow, grass-specific for bermuda, and non-selective for gravel-only areas.",
+          "For Scottsdale's desert-landscape properties, we offer our Desert Stewardship Protocol — a specialized approach that maps your intentional desert plantings, establishes treatment exclusion zones around sensitive specimens, and uses targeted spot application rather than broadcast spraying. This protocol costs slightly more than standard treatment but protects landscape investments that can exceed $20,000 on premium Scottsdale properties.",
+          "All products are EPA-registered, commercial-grade formulations with superior UV stability in Arizona's intense sun. Scottsdale's high temperatures (110°F+) degrade some herbicides faster than label expectations — we compensate with heat-stable formulations and adjusted application timing (early morning service for maximum product effectiveness).",
+        ],
+      },
+      {
+        heading: "Scottsdale Weed Control Plans & Pricing",
+        paragraphs: [
+          "Bucksworth offers tiered plans for Scottsdale's diverse property types. Our Standard Plan provides quarterly pre-emergent barriers and post-emergent treatment — ideal for central Scottsdale homes with standard rock yards. Our Premium Plan adds monthly monitoring, desert-preserve perimeter defense, and unlimited callbacks — designed for North Scottsdale properties near the McDowell Sonoran Preserve. Our Estate Plan serves large-lot properties (10,000+ sq ft) in DC Ranch, Grayhawk, and Troon with comprehensive coverage including the Desert Stewardship Protocol.",
+          "Bundle and save: Scottsdale homeowners who combine pest control and weed control save 20–30% compared to separate services. One company, one technician who learns your property's unique landscape, one visit that covers everything. Over 2,000 Arizona families trust Bucksworth.",
+          "No contracts. Premium service without long-term commitments. If any treatment doesn't meet your expectations, we return and re-treat at no charge. Call (480) 422-8388 for a free Scottsdale assessment and personalized pricing.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does weed control cost in Scottsdale?", a: "Scottsdale weed control pricing varies by lot size, landscape complexity, and plan level. Standard, Premium, and Estate plans available for different property types. Free assessment included. Call (480) 422-8388 for Scottsdale-specific pricing." },
+      { q: "When should pre-emergent be applied in Scottsdale?", a: "Scottsdale needs two primary pre-emergent applications per year: late September/early October (before winter annuals) and late February/early March (before summer weeds). Properties near the McDowell Sonoran Preserve benefit from a monsoon booster in late June for three applications total." },
+      { q: "Will weed treatment damage my desert landscaping?", a: "Not with proper technique. Bucksworth technicians are trained in Sonoran plant identification. We map your intentional desert plantings and use selective herbicides with exclusion zones around sensitive specimens. Our Desert Stewardship Protocol protects landscape investments while eliminating invasive weeds." },
+      { q: "What weeds come from the McDowell Sonoran Preserve?", a: "The preserve produces globe mallow, desert senna, brittlebush volunteers, palo verde seedlings, native grasses, and other Sonoran species that migrate into adjacent yards. These mix with standard invasives like spurge and puncturevine. The preserve cannot be treated, so ongoing perimeter defense is essential." },
+      { q: "Can you help with HOA weed violations in Scottsdale?", a: "Yes. We offer expedited treatment to bring properties into HOA compliance within 48 hours. We'll treat existing weeds, apply pre-emergent to prevent regrowth, and provide documentation for your HOA management company. Many Scottsdale HOAs require ongoing professional maintenance — our plans satisfy that requirement." },
+      { q: "Do you serve DC Ranch, Grayhawk, and McCormick Ranch?", a: "Yes. We serve all Scottsdale communities including DC Ranch, Grayhawk, McCormick Ranch, Gainey Ranch, Old Town, North Scottsdale, Scottsdale Ranch, Kierland, and surrounding areas. Same-day appointments often available." },
+      { q: "Do you offer pest control in Scottsdale?", a: "Yes. Bucksworth provides full pest and termite protection, scorpion control, HVAC service, and plumbing throughout Scottsdale and Paradise Valley. Bundle pest + weed service for 20-30% savings. Call (480) 422-8388." },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
      PEST & TERMITE — COOLIDGE
      Priority: MEDIUM — pos 18.6, 62 imp, 0 clk (Jun 19-25)
      ═══════════════════════════════════════════════════════════════ */
