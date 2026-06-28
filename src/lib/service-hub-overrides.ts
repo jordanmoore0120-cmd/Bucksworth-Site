@@ -713,6 +713,201 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
       { q: "What areas of Apache Junction do you serve?", a: "We serve all of Apache Junction including 85120, 85119, and 85118 zip codes. Coverage includes Gold Canyon, Superstition Foothills, Goldfield Ranch, Meridian, Renaissance Festival area, and all surrounding communities." },
     ],
   },
+
+  /* ═══════════════════════════════════════════════════════════════
+     WEED CONTROL — TUCSON
+     Priority: CRITICAL — largest TUC city (546K), WeedCo + Rigo threats
+     Competitors: WeedCo LLC (988r), Rigo Pest (7x TUC fav), Burns Pest
+     ═══════════════════════════════════════════════════════════════ */
+  "tucson-az/weed-and-lawn-care": {
+    metaTitle: "Weed Control Tucson AZ — Pre-Emergent & Desert Yard Treatment | Bucksworth",
+    metaDescription: "Professional weed control in Tucson, AZ. Pre-emergent barriers, post-emergent treatment, and gravel yard maintenance across Sam Hughes, Catalina Foothills, Midtown & Eastside Tucson. Call (520) 284-9930.",
+    heroHeadline: "Tucson Weed Control — Licensed Desert Yard Specialists Since 2013",
+    heroDescription: "Tucson's five surrounding mountain ranges push Sonoran Desert vegetation directly into residential neighborhoods — from the Catalina Foothills to the Santa Cruz River corridor. Bucksworth Home Services provides professional weed control and lawn care engineered for Tucson's unique environment: extreme UV, monsoon surge, caliche soil, and an 11-month growing season that never gives weeds a true dormancy window. Licensed Pima County applicators, commercial-grade herbicides, and year-round treatment programs that keep your yard HOA-compliant and weed-free.",
+    introContent: [
+      {
+        heading: "Weed Control Services in Tucson, Pima County",
+        paragraphs: [
+          "Tucson is Arizona's second-largest city with over 546,000 residents spread across zip codes 85701 through 85757. The city's geography creates distinct weed pressure zones: the foothills north of River Road deal with desert-native species migrating down from the Catalina and Rincon Mountains, while central and south Tucson neighborhoods face aggressive broadleaf weeds fueled by the Santa Cruz River basin's subsurface moisture. Every Tucson property has a unique weed profile — the same treatment plan won't work for a Catalina Foothills estate and a midtown bungalow.",
+          "Bucksworth Home Services launched Tucson weed control operations to serve the growing demand for professional pre-emergent and post-emergent treatment across Pima County. Our licensed technicians apply commercial-grade herbicides calibrated for Tucson's alkaline, caliche-heavy soils — products with higher active ingredient concentrations and longer residual effectiveness than anything available at Home Depot or Ace Hardware. Every service includes a property-specific assessment, species identification, and a treatment plan tuned to your yard's soil type, sun exposure, and irrigation pattern.",
+          "Need weed control in Tucson today? Call (520) 284-9930 for a free yard assessment. Same-day and next-day appointments available across Tucson, Oro Valley, Marana, and the entire Pima County metro.",
+        ],
+      },
+      {
+        heading: "Why Tucson Has Year-Round Weed Problems",
+        paragraphs: [
+          "Unlike Phoenix, Tucson sits at a higher elevation (2,389 feet vs Phoenix's 1,086 feet), receives more annual rainfall (12 inches vs Phoenix's 8), and has a longer monsoon season that starts earlier and hits harder. These three factors combine to create an effectively year-round weed growing season. Winter rains from November through March germinate cool-season weeds like London rocket, filago, and wild mustard. Before those die back, Tucson's early spring warmth triggers warm-season germination of spurge, puncturevine, and foxtail. Then monsoon moisture from late June through September triggers a third germination wave — making Tucson a three-cycle weed environment versus the two-cycle pattern most Phoenix-area cities experience.",
+          "Tucson's soil adds another layer of complexity. The Tucson Basin is dominated by caliche — a calcium carbonate hardpan layer that can sit just 6 to 24 inches below the surface. Caliche prevents deep water penetration, forcing moisture to pool near the surface where weed seeds sit. This means even moderate irrigation creates ideal germination conditions in Tucson yards. Pre-emergent herbicides must be applied at adjusted rates to account for caliche's effect on soil chemistry and water movement — a calibration step most companies skip.",
+          "The Santa Cruz River corridor, which runs through central and south Tucson, creates a moisture corridor that supports aggressive broadleaf weed growth even during the dry months of April through June. Properties in Midtown (85711/85712), South Tucson (85713), and the Tucson Estates area (85735) near the river see persistent weed activity that properties in the drier foothills don't experience. Understanding these microclimate differences across the Tucson metro is essential for effective weed management.",
+          "Finally, Tucson's proximity to undeveloped Sonoran Desert — the Tucson Mountain District of Saguaro National Park to the west, the Rincon Mountain District to the east, and the Catalina Mountains to the north — creates three permanent, untreatable weed seed reservoirs that continuously replenish residential areas through wind, water runoff, and wildlife activity.",
+        ],
+      },
+      {
+        heading: "Tucson Neighborhood Weed Guide",
+        paragraphs: [
+          "Sam Hughes / University Area (85716/85719) — Tucson's historic neighborhoods near the University of Arizona feature older homes (many 1920s–1960s era) with mature landscaping, established trees, and a mix of desert rock and traditional turf yards. Weed challenges include bermuda grass invasion in rock yards, nutsedge in irrigated turf, and persistent broadleaf weeds in shaded areas under mesquite and palo verde canopies. Our Sam Hughes program uses selective herbicides that target invasive species while preserving established landscape plantings, with adjusted application schedules that account for heavy shade coverage.",
+          "Catalina Foothills (85718/85750) — Luxury homes at the base of the Santa Catalina Mountains where pristine desert landscaping meets aggressive weed migration from the mountain slopes. Globe mallow, desert senna, brittlebush volunteers, and native grasses migrate downslope into yards, mixing with standard invasives. Our Foothills program includes the Desert Stewardship Protocol — we map intentional desert plantings and establish treatment exclusion zones around sensitive specimens, using targeted spot application rather than broadcast spraying to protect landscape investments that can exceed $20,000 on premium Foothills properties.",
+          "Midtown Tucson (85711/85712) — The commercial and residential heart of Tucson with dense development, older infrastructure, and proximity to the Rillito River wash. Weed pressure is high year-round due to irrigation runoff, aging landscape fabric, and compacted soil. Our Midtown program focuses on aggressive pre-emergent barriers at higher application rates to compensate for compacted soil, plus crack-and-crevice treatment for driveways, sidewalks, and patio areas where weeds exploit hardscape gaps.",
+          "Eastside / Houghton Corridor (85710/85748) — Tucson's eastside growth corridor where new construction from Houghton Road to Vail meets the Rincon Mountains and Saguaro National Park East. New subdivisions built on raw desert soil experience first-year weed explosions within 30 days of landscape installation as dormant seeds activate under new irrigation. Our Eastside program starts with aggressive initial treatment followed by quarterly pre-emergent applications calibrated for newly graded desert soil.",
+          "Northwest / Casas Adobes (85741/85704) — Established neighborhoods between the Rillito River and Catalina Foothills with mature landscaping and proximity to Rillito Regional Park's wash corridor. Properties here deal with both desert-origin weeds and river-corridor broadleaf species. Our Northwest program combines standard desert yard treatment with riparian-edge protocols for properties near the Rillito.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Controls Weeds in Tucson",
+        paragraphs: [
+          "Every Tucson weed control engagement starts with a free yard assessment. Your licensed technician walks the entire property — front, back, sides, common areas — identifying active weed species, assessing soil type (caliche depth, composition, compaction), evaluating irrigation patterns, and checking sun exposure and shade coverage. This 15–20 minute assessment produces a customized treatment plan that addresses your property's specific weed environment rather than a generic spray schedule.",
+          "For gravel and rock yards — the dominant landscape type in Tucson — we apply a dual-barrier approach. First, a commercial-grade pre-emergent herbicide is applied to the soil surface and watered in, creating an invisible barrier that prevents weed seeds from germinating. In Tucson's caliche-heavy soils, we adjust application rates upward by 10–15% to ensure the barrier penetrates adequately despite the hardpan layer. Second, any existing weeds are treated with a post-emergent herbicide that kills them to the root within 7–14 days.",
+          "Tucson's three-cycle weed season requires a modified application calendar compared to Phoenix. We apply pre-emergent in late September (before winter annuals), late February (before spring germination), and late June (before monsoon triggers summer weeds). This three-application pre-emergent schedule is unique to our Tucson program and provides near-continuous barrier coverage throughout the year.",
+          "All products are EPA-registered, commercial-grade formulations selected for UV stability in Tucson's intense sun exposure and heat stability above 110°F. We recommend keeping children and pets off treated areas until the product dries — typically 30–60 minutes in Tucson's dry climate.",
+        ],
+      },
+      {
+        heading: "Tucson Weed Control Plans & Pricing",
+        paragraphs: [
+          "Bucksworth offers plans tailored to Tucson's unique weed calendar. Our Standard Plan provides three pre-emergent applications (fall, spring, monsoon) plus post-emergent treatment at each visit — designed for typical Tucson rock yards under 5,000 square feet. Our Premium Plan adds monthly monitoring visits and unlimited callbacks between scheduled treatments — ideal for properties near desert preserves, washes, or HOA communities with zero-tolerance weed policies. Our Foothills Plan serves premium properties in the Catalina Foothills and Tanque Verde areas with the Desert Stewardship Protocol for landscape-sensitive treatment.",
+          "Bundle and save: Tucson homeowners who combine pest control and weed control into our Pest + Weed package save 20–30% versus hiring separate companies. One company, one technician who knows your property, one visit that handles everything inside and out. Over 2,000 Arizona families trust Bucksworth.",
+          "No contracts required. We earn your business every visit. Unsatisfied with any treatment? We return and re-treat at no charge. Call (520) 284-9930 for a free Tucson yard assessment and personalized pricing.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does weed control cost in Tucson?", a: "Tucson weed control pricing depends on yard size, landscape type, and plan level. Standard, Premium, and Foothills plans available. Free assessment included — call (520) 284-9930 for Tucson-specific pricing." },
+      { q: "When should pre-emergent be applied in Tucson?", a: "Tucson needs three pre-emergent applications per year: late September (before winter annuals), late February (before spring weeds), and late June (before monsoon triggers summer germination). This three-cycle calendar is unique to Tucson's higher elevation and wetter monsoon season." },
+      { q: "Why do weeds grow year-round in Tucson?", a: "Tucson sits 1,300 feet higher than Phoenix with 50% more annual rainfall and an earlier, stronger monsoon. This creates three weed germination cycles (winter, spring, monsoon) versus the two-cycle pattern in Phoenix. Effective Tucson weed control requires a three-application pre-emergent schedule." },
+      { q: "Do you treat bermuda grass in rock yards?", a: "Yes. Bermuda grass invasion is one of Tucson's most persistent weed problems, especially in Sam Hughes, Midtown, and Casas Adobes. We use selective bermuda-specific herbicides that kill bermuda runners without affecting surrounding plants or damaging rock landscaping." },
+      { q: "What areas of Tucson do you serve?", a: "We serve all Tucson zip codes including 85701, 85704, 85705, 85710, 85711, 85712, 85713, 85716, 85718, 85719, 85735, 85741, 85748, 85750, and 85757. Coverage includes Sam Hughes, Catalina Foothills, Midtown, Eastside, Casas Adobes, Tucson Estates, and all surrounding areas." },
+      { q: "Do you offer pest control in Tucson?", a: "Yes. Bucksworth provides comprehensive pest and termite control, scorpion treatment, and weed management throughout Tucson and Pima County. Bundle pest + weed service for 20-30% savings. Call (520) 284-9930." },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     WEED CONTROL — SAHUARITA
+     Priority: HIGH — growing community (37K), competitor landscape is small
+     Competitors: WeedCo LLC (Sahuarita coverage confirmed), small landscapers
+     ═══════════════════════════════════════════════════════════════ */
+  "sahuarita-az/weed-and-lawn-care": {
+    metaTitle: "Weed Control Sahuarita AZ — Desert Yard & Rock Landscape Treatment | Bucksworth",
+    metaDescription: "Professional weed control in Sahuarita, AZ 85629. Pre-emergent barriers, post-emergent treatment, and gravel yard care for Rancho Sahuarita, Quail Creek & Las Campanas. Call (520) 284-9930.",
+    heroHeadline: "Sahuarita Weed Control — Desert Community Yard Specialists",
+    heroDescription: "Sahuarita is one of southern Arizona's fastest-growing communities — and every new subdivision built on raw desert soil creates another neighborhood where dormant weed seeds activate the moment irrigation turns on. Bucksworth Home Services provides professional weed control for Rancho Sahuarita, Quail Creek, Las Campanas, and every Sahuarita community in the 85629 zip code. Licensed applicators, commercial-grade herbicides, and pre-emergent programs designed for Sahuarita's unique desert-meets-agriculture soil profile.",
+    introContent: [
+      {
+        heading: "Weed Control Services in Sahuarita, Pima County",
+        paragraphs: [
+          "Sahuarita has grown from a small agricultural town to a thriving community of over 37,000 residents, primarily within the 85629 zip code. This rapid growth means thousands of homes built on land that was recently pecan orchards, cotton fields, or undisturbed Sonoran Desert — each soil type producing a different weed ecosystem. Former agricultural land carries seeds from decades of crop rotation and irrigation, while former desert lots contain dormant native weed seeds waiting for their first taste of residential irrigation water.",
+          "Bucksworth Home Services provides weed control across all Sahuarita communities, from the established neighborhoods of Rancho Sahuarita to the newer developments south of Sahuarita Road. Our licensed Pima County technicians understand that weed pressure in Quail Creek's mature, irrigated landscapes is fundamentally different from what new homeowners experience in Las Campanas or the Rancho Sahuarita expansion areas. Every Sahuarita yard gets a custom weed management plan based on soil history, current conditions, and landscape type.",
+          "Need weed control in Sahuarita today? Call (520) 284-9930 for a free yard assessment. Same-day and next-day appointments available throughout Sahuarita, Green Valley, Tucson, and southern Pima County.",
+        ],
+      },
+      {
+        heading: "Why Sahuarita's Agricultural History Creates Unique Weed Challenges",
+        paragraphs: [
+          "Sahuarita's weed problems are distinct from other Tucson-area communities because of the town's agricultural heritage. For decades, the Santa Cruz Valley surrounding Sahuarita was planted with pecan orchards, cotton, and other crops. When these agricultural lands were converted to residential subdivisions, the soil retained decades of agricultural weed seeds — species like pigweed, lambsquarters, and Johnson grass that don't commonly appear in purely desert-converted communities. These agricultural weeds are often more aggressive than desert natives and can be harder to control with standard pre-emergent programs.",
+          "The pecan orchards that remain active in Sahuarita create an additional challenge. Pecan trees require heavy irrigation, and the water table in the Santa Cruz Valley sits relatively close to the surface. This subsurface moisture wicks upward through the soil, keeping weed seeds moist enough to germinate even during Tucson's driest months (April–June). Properties near active orchards or along the Santa Cruz River corridor experience persistent weed activity that defies the typical seasonal pattern.",
+          "Sahuarita's rapid development also means many homes are built on freshly graded desert soil where the construction process destroys the natural desert crust — a biological soil layer that actually suppresses weed germination in undisturbed desert. Once that crust is disrupted by grading and landscaping, the exposed soil becomes a blank canvas for weed colonization. New Sahuarita homeowners often see their first major weed outbreak within 30–60 days of moving in.",
+          "Finally, the Santa Rita Mountains to the east and the open desert south toward Tubac create natural weed seed corridors that feed into Sahuarita's residential areas. Monsoon storms carry seeds downslope from higher elevations, depositing them across newly developed neighborhoods on Sahuarita's expanding eastern and southern edges.",
+        ],
+      },
+      {
+        heading: "Neighborhood-Specific Weed Control Across Sahuarita",
+        paragraphs: [
+          "Rancho Sahuarita — Sahuarita's signature master-planned community features a town center, lakes, parks, and a mix of rock and turf landscaping. The community's lakes and irrigated common areas create moist microclimates that support broadleaf weeds and bermuda grass invasion into adjacent private yards. Our Rancho Sahuarita program addresses both dry-yard desert weeds and moisture-driven broadleaf species, with special attention to properties bordering lakes and parks where weed seed migration is highest.",
+          "Quail Creek (55+ Active Adult) — This premier active-adult community features manicured golf courses, established desert landscaping, and an engaged HOA that enforces weed-free standards. Quail Creek's mature plantings require careful herbicide selection to protect ornamental desert specimens while eliminating invasive weeds. Many Quail Creek homes also feature small turf areas and flower beds that need selective treatment different from the rock yard approach. Our Quail Creek program uses the Desert Stewardship Protocol for landscape-sensitive properties.",
+          "Las Campanas — One of Sahuarita's newer developments on the town's expanding south side. Homes here are built on recently converted desert and agricultural soil with minimal established landscaping. The combination of fresh soil disturbance, new irrigation activation, and proximity to open desert creates intense initial weed pressure. Our Las Campanas program starts with an aggressive first-year treatment protocol: monthly service for the first six months to establish control, then transitioning to quarterly pre-emergent maintenance once the yard stabilizes.",
+          "Madera Highlands / Sahuarita Heights — Hillside communities with desert views and natural desert landscaping that interface directly with undeveloped land. These properties face constant weed migration from the desert perimeter. Our program includes extended perimeter treatment along desert-facing property lines and monsoon booster applications to catch the wave of seeds carried by summer storms.",
+        ],
+      },
+      {
+        heading: "How Bucksworth Controls Weeds in Sahuarita",
+        paragraphs: [
+          "Every Sahuarita weed control engagement starts with a free yard assessment. Your technician evaluates the property's soil history (agricultural vs desert conversion), identifies active weed species, assesses landscape type and irrigation patterns, and checks for proximity to orchards, washes, or open desert that influence weed pressure. This assessment produces a treatment plan calibrated to your specific Sahuarita property — not a one-size-fits-all spray schedule.",
+          "For gravel and rock yards, we apply a commercial-grade pre-emergent barrier that prevents weed seed germination for 3–4 months per application. In Sahuarita's Santa Cruz Valley soils, which tend to have higher organic content than typical Tucson basin soils due to the agricultural history, we adjust pre-emergent rates to account for increased organic matter binding. Any existing weeds are treated simultaneously with post-emergent herbicide that kills to the root within 7–14 days.",
+          "Sahuarita's growing season matches Tucson's three-cycle pattern: winter annuals (October–March), spring germination (March–June), and monsoon surge (July–September). We apply pre-emergent in late September, late February, and late June to maintain near-continuous barrier coverage. Properties near active agriculture or the Santa Cruz corridor may need supplemental applications.",
+          "All products are EPA-registered, commercial-grade formulations not available in retail stores. We recommend keeping children and pets off treated areas until dry — typically 30–60 minutes in southern Arizona's climate.",
+        ],
+      },
+      {
+        heading: "Sahuarita Weed Control Plans & Pricing",
+        paragraphs: [
+          "Our Sahuarita plans are designed for the community's diverse property types. Standard Plan provides three pre-emergent applications plus post-emergent treatment — ideal for established rock yards in Rancho Sahuarita and Madera Highlands. New Construction Plan provides monthly service for the first year, transitioning to quarterly — built for Las Campanas and other new builds where initial weed pressure is extreme. Premium Plan adds monthly monitoring and unlimited callbacks — designed for Quail Creek and properties with HOA compliance requirements.",
+          "Bundle and save: Sahuarita homeowners who combine pest control and weed control save 20–30% versus hiring separate companies. One company, one technician, one visit that covers your entire property. Over 2,000 Arizona families trust Bucksworth.",
+          "No contracts required. We earn your business every visit. Call (520) 284-9930 for a free Sahuarita yard assessment and personalized pricing.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does weed control cost in Sahuarita?", a: "Sahuarita weed control pricing depends on yard size, property age, and plan level. Standard, New Construction, and Premium plans available. Free assessment included — call (520) 284-9930 for Sahuarita-specific pricing." },
+      { q: "When should pre-emergent be applied in Sahuarita?", a: "Sahuarita needs three pre-emergent applications per year: late September, late February, and late June. Properties near active pecan orchards or the Santa Cruz River corridor may need supplemental applications due to higher soil moisture." },
+      { q: "Why are weeds so bad in new Sahuarita homes?", a: "New construction in Sahuarita disrupts the natural desert crust that suppresses weed seeds. Fresh grading exposes dormant seeds, and new irrigation activates them. Most new Sahuarita homeowners see their first weed outbreak within 30-60 days. We recommend starting professional treatment within the first month of landscape installation." },
+      { q: "Do you serve Quail Creek and Rancho Sahuarita?", a: "Yes. We serve all Sahuarita communities including Rancho Sahuarita, Quail Creek, Las Campanas, Madera Highlands, Sahuarita Heights, and all surrounding areas in the 85629 zip code. Same-day appointments often available." },
+      { q: "Do you offer pest control in Sahuarita?", a: "Yes. Bucksworth provides comprehensive pest and termite protection, scorpion treatment, and weed control throughout Sahuarita and southern Pima County. Bundle pest + weed for 20-30% savings. Call (520) 284-9930." },
+    ],
+  },
+
+  /* ═══════════════════════════════════════════════════════════════
+     WEED CONTROL — GREEN VALLEY
+     Priority: HIGH — retirement community (22K), unique demographics
+     Competitors: WeedCo LLC (Green Valley coverage), Royal Weed Control
+     ═══════════════════════════════════════════════════════════════ */
+  "green-valley-az/weed-and-lawn-care": {
+    metaTitle: "Weed Control Green Valley AZ — Desert & Golf Community Treatment | Bucksworth",
+    metaDescription: "Professional weed control in Green Valley, AZ 85614/85622. Pre-emergent barriers and gravel yard care for GVR communities, Continental, and Desert Hills. Licensed Pima County applicators. Call (520) 284-9930.",
+    heroHeadline: "Green Valley Weed Control — Retirement Community Yard Specialists",
+    heroDescription: "Green Valley's 22,000 residents enjoy an active retirement lifestyle surrounded by the Santa Rita Mountains and pristine Sonoran Desert — but that desert proximity means relentless weed pressure in every rock yard, golf course perimeter, and common area throughout the community. Bucksworth Home Services provides professional weed control designed specifically for Green Valley's established desert landscapes, HOA-governed communities, and the unique needs of active-adult homeowners who want beautiful yards without the hassle.",
+    introContent: [
+      {
+        heading: "Weed Control Services in Green Valley, Pima County",
+        paragraphs: [
+          "Green Valley is an unincorporated retirement community in southern Pima County, spanning zip codes 85614 and 85622. The community is managed through Green Valley Recreation (GVR) and dozens of individual HOAs — each with specific landscape maintenance requirements that include weed-free yard standards. With the Santa Rita Mountains to the east, the open Altar Valley to the west, and Tubac and the Santa Cruz River corridor to the south, Green Valley sits in a convergence zone where three different weed seed sources meet residential neighborhoods.",
+          "Bucksworth Home Services provides weed control across all Green Valley communities, from the GVR-affiliated neighborhoods along Esperanza Boulevard to the more rural Desert Hills area in 85622. Our licensed Pima County technicians are experienced with Green Valley's mature desert landscaping, established ornamental plantings, and the specific HOA compliance requirements that govern yard maintenance throughout the community.",
+          "Need weed control in Green Valley today? Call (520) 284-9930 for a free yard assessment. Same-day and next-day appointments available throughout Green Valley, Sahuarita, Tubac, and southern Pima County.",
+        ],
+      },
+      {
+        heading: "Why Green Valley's Location Creates Persistent Weed Problems",
+        paragraphs: [
+          "Green Valley occupies a unique geographic position in southern Arizona that creates weed challenges unlike anywhere else in the Tucson metro. The Santa Rita Mountains — rising to over 9,400 feet at Mount Wrightson — generate runoff and seed transport that flows directly into Green Valley's neighborhoods. Higher-elevation weed species, including invasive grasses from the mountain grasslands, wash down during monsoon storms and establish in residential yards at Green Valley's 2,900-foot elevation.",
+          "The Santa Cruz River corridor passes through Green Valley's western edge, creating a moisture-rich zone that supports year-round broadleaf weed growth. Properties in Continental and along Continental Road see persistent weed activity driven by subsurface moisture from the river, even during the dry pre-monsoon months of May and June when other Green Valley neighborhoods experience a brief weed lull.",
+          "Green Valley's community age also plays a role. Most homes were built between the 1970s and 2000s, meaning decades of landscape fabric degradation, decomposing rock, and soil compaction. Original landscape barriers that suppressed weeds when homes were new have broken down over time, allowing weed seeds to reach soil and germinate through deteriorated fabric. Many Green Valley properties benefit from landscape fabric replacement in conjunction with fresh pre-emergent treatment.",
+          "Golf course irrigation creates microclimate weed zones. Green Valley is home to multiple golf courses including Haven Golf Course, Canoa Ranch, Torres Blancas, and San Ignacio. Properties adjacent to golf course fairways and irrigation systems experience elevated bermuda grass invasion and broadleaf weed pressure due to the constant moisture source. These golf-adjacent properties require more aggressive treatment schedules than interior community homes.",
+        ],
+      },
+      {
+        heading: "Green Valley Community Weed Guide",
+        paragraphs: [
+          "GVR Communities / Esperanza Corridor (85614) — The heart of Green Valley's GVR-affiliated neighborhoods along Esperanza Boulevard features established desert landscaping, community centers, and pools. Homes typically have mature rock yards with 20–40 years of soil accumulation beneath the gravel, which supports deep-rooted weed growth including bermuda grass runners, spurge, and puncturevine. Our GVR program includes deep-treatment pre-emergent that penetrates accumulated soil layers, plus targeted bermuda suppression in rock beds.",
+          "Continental (85614) — Southern Green Valley near the junction of Continental Road and I-19, where proximity to the Santa Cruz River creates higher soil moisture and more diverse weed species. Continental properties see broadleaf weeds, nutsedge, and river-corridor grasses that other Green Valley neighborhoods don't experience. Our Continental program adds moisture-zone treatment protocols and more frequent application cycles for properties near the river corridor.",
+          "Desert Hills (85622) — The semi-rural area between Green Valley proper and Tucson, with larger lots, more natural desert, and less HOA governance. Desert Hills properties face weed migration from extensive surrounding desert and may have mixed landscape types including native desert, maintained rock, and small turf areas. Our Desert Hills program covers larger treatment areas with perimeter defense along desert boundaries and flexible scheduling that accommodates larger properties.",
+          "Golf-Adjacent Properties — Homes bordering Haven, Canoa Ranch, Torres Blancas, or San Ignacio golf courses face bermuda grass and broadleaf invasion driven by course irrigation. Our Golf-Adjacent Protocol uses selective bermuda-specific herbicides along property lines bordering fairways, with buffer zones that protect ornamental plantings while creating a barrier against course-originating weeds.",
+        ],
+      },
+      {
+        heading: "Green Valley Weed Control — Designed for Active Adults",
+        paragraphs: [
+          "Bucksworth's Green Valley program is designed with active-adult homeowners in mind. We understand that many Green Valley residents are snowbirds who spend months away during summer, HOA-governed communities require continuous compliance even when homeowners travel, and yard maintenance should be hassle-free.",
+          "Our Snowbird Program maintains your yard while you're away. We apply pre-emergent before you leave for summer, provide scheduled treatments on your preferred calendar, and send photo updates after each service so you can see your yard's condition from anywhere. If weeds appear between visits, we treat them proactively without waiting for you to call — your HOA compliance stays uninterrupted.",
+          "Every service visit starts with a property walkthrough, species identification, and targeted treatment. We don't just spray and leave — your technician inspects for new weed species, checks pre-emergent barrier integrity, evaluates irrigation patterns that may be promoting weed growth, and provides a service report you can reference for HOA documentation.",
+          "All products are EPA-registered and safe for residential use when applied as directed. We recommend keeping pets off treated areas until dry — about 30–60 minutes. Green Valley's low humidity means faster drying times than most Arizona communities.",
+        ],
+      },
+      {
+        heading: "Green Valley Weed Control Plans & Pricing",
+        paragraphs: [
+          "Bucksworth offers plans designed for Green Valley's community character. Our Standard Plan provides three pre-emergent applications (fall, spring, monsoon) plus post-emergent treatment — ideal for typical GVR-community rock yards. Our Snowbird Plan includes standard treatment plus vacancy monitoring and photo updates while you're away — ensuring HOA compliance year-round. Our Golf-Adjacent Plan adds bermuda defense protocols for properties bordering Green Valley's golf courses.",
+          "Bundle and save: Green Valley homeowners who combine pest control and weed control save 20–30% versus hiring separate companies. One company, one technician, one visit. Over 2,000 Arizona families trust Bucksworth for complete home services.",
+          "No contracts required. We earn your business every visit. Unsatisfied with any treatment? We return and re-treat at no charge. Call (520) 284-9930 for a free Green Valley yard assessment and personalized pricing.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does weed control cost in Green Valley?", a: "Green Valley weed control pricing depends on lot size, landscape condition, and plan level. Standard, Snowbird, and Golf-Adjacent plans available. Free assessment included — call (520) 284-9930 for Green Valley pricing." },
+      { q: "Do you maintain yards for snowbird homeowners?", a: "Yes. Our Snowbird Plan maintains your Green Valley yard while you're away, including scheduled pre-emergent treatments, proactive weed removal, and photo updates after each service. Your HOA compliance stays uninterrupted all year." },
+      { q: "When should pre-emergent be applied in Green Valley?", a: "Green Valley follows a three-application schedule: late September (before winter annuals), late February (before spring weeds), and late June (before monsoon germination). Properties near golf courses or the Santa Cruz River may need supplemental applications." },
+      { q: "Can you help with bermuda grass from the golf course?", a: "Yes. Golf-adjacent properties in Green Valley face persistent bermuda grass invasion from irrigated fairways. We use selective bermuda-specific herbicides along property borders to create a barrier without affecting your ornamental plantings or the course itself." },
+      { q: "What Green Valley communities do you serve?", a: "We serve all Green Valley communities including GVR neighborhoods, Continental, Desert Hills, and all areas in zip codes 85614 and 85622. Coverage extends to Sahuarita, Tubac, and throughout southern Pima County." },
+      { q: "Do you offer pest control in Green Valley?", a: "Yes. Bucksworth provides pest and termite protection, scorpion control, and weed management throughout Green Valley and southern Pima County. Bundle pest + weed for 20-30% savings. Call (520) 284-9930." },
+    ],
+  },
 };
 
 export function getServiceHubOverride(citySlug: string, serviceSlug: string): ServiceHubOverride | undefined {
