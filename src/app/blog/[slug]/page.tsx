@@ -28,6 +28,9 @@ export async function generateMetadata({
   return {
     title: title,
     description,
+    // Blog posts with a canonical target are supporting content — noindex to
+    // consolidate ranking signals on the primary service page.
+    ...(canonicalTarget ? { robots: { index: false, follow: true } } : {}),
     alternates: {
       canonical: canonicalTarget
         ? `https://www.getyourbucksworth.com${canonicalTarget}`

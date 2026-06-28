@@ -125,9 +125,11 @@ export function getAllPostSlugs(): string[] {
   return loadIndex().map((p) => p.slug);
 }
 
-/** Get all posts metadata (for sitemap) */
+/** Get all posts metadata (for sitemap) — excludes noindexed posts with canonical targets */
 export function getAllPostsMeta(): { slug: string; modified: string }[] {
-  return loadIndex().map((p) => ({ slug: p.slug, modified: p.modified }));
+  return loadIndex()
+    .filter((p) => !p.canonicalTarget)
+    .map((p) => ({ slug: p.slug, modified: p.modified }));
 }
 
 /** Get canonical target for a blog post (if it should point to a service page) */
