@@ -141,7 +141,7 @@ export default async function CityPage({ params }: CityPageProps) {
       closes: "18:00",
     }],
     parentOrganization: { "@id": "https://www.getyourbucksworth.com/#organization" },
-    dateModified: "2026-06-21",
+    dateModified: "2026-06-28",
   };
 
   // BreadcrumbList schema
