@@ -223,4 +223,25 @@ export const JOB_SITES: JobSite[] = [
     description: "Customer called after finding 3 bark scorpions inside in one week — classic pre-monsoon pressure spike. Full blacklight inspection at dusk: found 11 scorpions in block walls and garage. Applied residual barrier, installed weep hole screens, and sealed expansion joint gaps. Monsoon bi-monthly plan scheduled starting July.",
     photo: "/images/photos/tech-service-action.jpg", date: "2026-06-20",
   },
+  {
+    id: "s13", lat: 33.5722, lng: -111.8887, category: "pest",
+    neighborhood: "Scottsdale", city: "Phoenix",
+    title: "Bark Scorpion Blacklight Inspection — Post-Storm Surge",
+    description: "Called after first monsoon storm of 2026 — family found 2 bark scorpions in master bedroom. Dusk blacklight sweep revealed 14 scorpions in block wall crevices and weep holes. Applied residual barrier, installed stainless steel weep hole covers, sealed garage door bottom gap. Enrolled on bi-monthly monsoon plan.",
+    photo: "/images/photos/tech-outdoor-service.jpg", date: "2026-06-28",
+  },
+  {
+    id: "a8", lat: 33.3528, lng: -111.7890, category: "ac",
+    neighborhood: "Gilbert", city: "Phoenix",
+    title: "AC Tune-Up & Refrigerant Top-Off — Peak Heat Season",
+    description: "Summer tune-up before monsoon humidity hits: cleaned coils, replaced 1-inch filter, tested capacitors and contactors, added 1 lb R-410A after finding slow leak at Schrader valve. System back to peak efficiency. Repaired valve and recommended annual pre-monsoon tune-ups to avoid emergency calls during peak demand.",
+    photo: "/images/photos/ac-unit-arizona-backdrop.jpg", date: "2026-06-27",
+  },
+  {
+    id: "p5", lat: 32.4541, lng: -110.9750, category: "pest",
+    neighborhood: "Marana", city: "Tucson",
+    title: "Subterranean Termite Treatment — Monsoon Activation",
+    description: "Homeowner noticed mud tubes in garage wall after first monsoon rain softened soil — classic termite activation trigger. Confirmed active subterranean colony with moisture meter. Full Termidor HE liquid treatment along foundation perimeter, garage slab penetrations, and all conducive soil contact points. Annual termite bond established.",
+    photo: "/images/photos/tech-service-action.jpg", date: "2026-06-28",
+  },
 ];
