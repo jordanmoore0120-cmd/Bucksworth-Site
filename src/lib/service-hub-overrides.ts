@@ -678,6 +678,41 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
       { q: "Do you offer termite warranties in Coolidge?", a: "Yes. We provide termite treatment with warranty protection for Coolidge properties. Free termite inspections available for all 85128 zip code homes." },
     ],
   },
+
+  /* ═══════════════════════════════════════════════════════════════
+     PEST & TERMITE — APACHE JUNCTION
+     Priority: HIGH — pos 14.7, 203 imp, persistent near-P1
+     Competitors: Responsible Pest (dominant), Moxie, Varsity (all PHX metro)
+     ═══════════════════════════════════════════════════════════════ */
+  "apache-junction-az/pest-and-termite": {
+    metaTitle: "Apache Junction Pest Control — Scorpion & Termite Experts Near Superstition Mountains",
+    metaDescription: "Licensed pest control and termite treatment in Apache Junction, AZ 85120/85119. Scorpion removal, termite inspections, and rodent exclusion for Superstition Foothills, Gold Canyon & Renaissance Festival area. Same-day service. Call (480) 485-9790.",
+    heroHeadline: "Apache Junction Pest & Termite Control — Superstition Foothills Specialists",
+    heroDescription: "Apache Junction sits at the base of the Superstition Mountains where raw Sonoran Desert meets residential neighborhoods. This desert-edge location creates extreme pest pressure from bark scorpions, subterranean termites, and pack rats migrating downslope into Gold Canyon, Superstition Foothills, and the AJ proper. Bucksworth provides year-round protection calibrated to AJ's unique desert-interface environment.",
+    introContent: [
+      {
+        heading: "Pest & Termite Services in Apache Junction, Pinal County",
+        paragraphs: [
+          "Apache Junction's position at the foot of the Superstition Wilderness creates some of the most intense pest pressure in the East Valley. Unlike suburban communities deeper in the metro, AJ homes in 85120, 85119, and 85118 sit within direct migration corridors where bark scorpions, desert hairy scorpions, subterranean termites, pack rats, and black widows move from undeveloped desert washes into residential neighborhoods year-round.",
+          "Our AJ pest control covers every common desert pest plus species unique to the Superstition foothills. Every service includes a thorough property inspection, interior and exterior treatment, entry point sealing, and a protection plan that accounts for monsoon surge patterns and seasonal scorpion activity. Same-day and next-day service available across all Apache Junction zip codes.",
+          "Need pest control in Apache Junction today? Call (480) 485-9790 for a free inspection. Licensed, bonded, and Google Guaranteed.",
+        ],
+      },
+      {
+        heading: "Why Apache Junction Has Extreme Pest Pressure",
+        paragraphs: [
+          "Three geographic factors make Apache Junction one of Arizona's toughest pest control environments. First, the Superstition Mountains and Tonto National Forest border AJ to the east and north, creating an endless reservoir of scorpions, snakes, rodents, and spiders that continuously migrate into developed areas seeking food, water, and shelter.",
+          "Second, Apache Junction's extensive desert wash system — including Queen Creek Wash and Weekes Wash — serves as natural highways for pests. Homes near Lost Dutchman State Park, Prospector Trail, and the Goldfield Ranch area experience higher scorpion and rodent activity due to proximity to these wash corridors.",
+          "Third, AJ's mix of older manufactured homes and newer construction creates varied pest entry opportunities. Older homes may have foundation gaps and weathered seals, while newer construction in communities like Superstition Foothills and Meridian disturbs established pest habitats during grading and landscaping.",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "How much does pest control cost in Apache Junction?", a: "Monthly pest control plans for Apache Junction homes are based on home size, property type, and pest pressure level. Properties closer to the Superstitions typically need enhanced desert-edge treatment. Free inspection included. Call (480) 485-9790." },
+      { q: "Do you do termite inspections in Apache Junction?", a: "Yes. We provide free termite inspections for all Apache Junction properties. Subterranean termites are the primary threat in the AJ area, especially in older homes along Apache Trail and near desert washes." },
+      { q: "What areas of Apache Junction do you serve?", a: "We serve all of Apache Junction including 85120, 85119, and 85118 zip codes. Coverage includes Gold Canyon, Superstition Foothills, Goldfield Ranch, Meridian, Renaissance Festival area, and all surrounding communities." },
+    ],
+  },
 };
 
 export function getServiceHubOverride(citySlug: string, serviceSlug: string): ServiceHubOverride | undefined {

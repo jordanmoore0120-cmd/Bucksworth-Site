@@ -87,6 +87,12 @@ const CITY_META_OVERRIDES: Record<string, CityMetaOverride> = {
     metaDescription: "Licensed pest control and weed treatment in Oro Valley, AZ 85737/85755. Scorpion removal, termite inspections, and pre-emergent weed control near Catalina State Park. Same-day service. Call (520) 284-9930.",
   },
 
+  /* apache-junction-az — pos 17.5, 201 imp, NEW — added Jun 28 */
+  "apache-junction-az": {
+    metaTitle: "Apache Junction Pest Control, AC & Plumbing — Superstition Foothills Pros",
+    metaDescription: "Licensed pest control, AC repair, and plumbing in Apache Junction, AZ 85120/85119. Scorpion removal, emergency HVAC, and drain cleaning near Gold Canyon. Google Guaranteed. Call (480) 485-9790.",
+  },
+
 };
 
 export function getCityMetaOverride(citySlug: string): CityMetaOverride | undefined {
