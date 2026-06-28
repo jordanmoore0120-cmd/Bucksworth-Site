@@ -54,8 +54,26 @@ function loadIndex(): BlogIndex[] {
 
 function loadData(): Record<string, BlogPost> {
   if (_data) return _data;
-  const raw = fs.readFileSync(path.join(getContentDir(), "data.json"), "utf-8");
-  _data = JSON.parse(raw);
+  const dir = getContentDir();
+  _data = {};
+
+  // Load all data-*.json split files (monthly chunks + legacy)
+  const files = fs.readdirSync(dir).filter(
+    (f) => f.startsWith("data-") && f.endsWith(".json")
+  );
+  for (const file of files) {
+    const raw = fs.readFileSync(path.join(dir, file), "utf-8");
+    const chunk: Record<string, BlogPost> = JSON.parse(raw);
+    Object.assign(_data, chunk);
+  }
+
+  // Fallback: monolithic data.json (pre-split)
+  const mono = path.join(dir, "data.json");
+  if (files.length === 0 && fs.existsSync(mono)) {
+    const raw = fs.readFileSync(mono, "utf-8");
+    _data = JSON.parse(raw);
+  }
+
   return _data!;
 }
 
