@@ -2469,7 +2469,8 @@ img { max-width: 100%; height: auto; }
 }
 
 /* Contact method radios */
-.rs-contact-method { padding: 4px 0; }
+.rs-contact-method { padding: 4px 0; border: none; margin: 0; }
+.rs-contact-method .rs-contact-label { padding: 0; font-size: inherit; font-weight: inherit; }
 .rs-contact-label {
   display: block;
   font-size: 14px;

@@ -43,7 +43,7 @@ export default function Footer() {
 
           {/* Services column */}
           <div className="footer-col">
-            <h4 className="footer-heading">Services</h4>
+            <h3 className="footer-heading">Services</h3>
             {SERVICES.map((svc) => (
               <div key={svc.slug} className="footer-svc-group">
                 <Link href={`/phoenix-az/${svc.slug}`} className="footer-svc-title">
@@ -64,7 +64,7 @@ export default function Footer() {
 
           {/* Company column */}
           <div className="footer-col">
-            <h4 className="footer-heading">Company</h4>
+            <h3 className="footer-heading">Company</h3>
             <Link href="/about" className="footer-link">About Us</Link>
             <Link href="/reviews" className="footer-link">Reviews</Link>
             <Link href="/request-service" className="footer-link">Contact</Link>
@@ -84,7 +84,7 @@ export default function Footer() {
 
           {/* Locations column */}
           <div className="footer-col">
-            <h4 className="footer-heading">Phoenix Metro</h4>
+            <h3 className="footer-heading">Phoenix Metro</h3>
             <div className="footer-city-list">
               {phxCities.map((c) => (
                 <Link key={c.slug} href={`/${c.slug}`} className="footer-city-link">
@@ -92,9 +92,9 @@ export default function Footer() {
                 </Link>
               ))}
             </div>
-            <h4 className="footer-heading" style={{ marginTop: "20px" }}>
+            <h3 className="footer-heading" style={{ marginTop: "20px" }}>
               Tucson Metro
-            </h4>
+            </h3>
             <div className="footer-city-list">
               {tucCities.map((c) => (
                 <Link key={c.slug} href={`/${c.slug}`} className="footer-city-link">
@@ -109,7 +109,7 @@ export default function Footer() {
       {/* Footer sitemap bar (for Google) */}
       <div className="footer-sitemap">
         <div className="container">
-          <h4 className="footer-sitemap-title">Sitemap</h4>
+          <h3 className="footer-sitemap-title">Sitemap</h3>
           <div className="footer-sitemap-links">
             <Link href="/">Home</Link>
             {SERVICES.map((svc) => (

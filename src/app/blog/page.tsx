@@ -109,7 +109,7 @@ export default async function BlogIndex({
                       }}
                     />
                     <p className="blog-card-excerpt">{excerpt}&hellip;</p>
-                    <time className="blog-card-date">
+                    <time className="blog-card-date" dateTime={post.date}>
                       {formatDate(post.date)}
                     </time>
                   </div>

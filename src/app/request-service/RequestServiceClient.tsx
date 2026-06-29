@@ -357,9 +357,9 @@ export default function RequestServiceClient() {
             <span className="rs-field-hint">We&apos;ll confirm we service your area</span>
           </div>
 
-          <div className="rs-contact-method">
-            <span className="rs-contact-label">Preferred contact method:</span>
-            <div className="rs-radio-group">
+          <fieldset className="rs-contact-method">
+            <legend className="rs-contact-label">Preferred contact method:</legend>
+            <div className="rs-radio-group" role="radiogroup">
               {(["phone", "text", "email"] as const).map((m) => (
                 <label key={m} className="rs-radio">
                   <input type="radio" name="contactMethod" value={m} checked={formData.contactMethod === m} onChange={() => setFormData({ ...formData, contactMethod: m })} />
@@ -368,7 +368,7 @@ export default function RequestServiceClient() {
                 </label>
               ))}
             </div>
-          </div>
+          </fieldset>
 
           <div className="rs-field rs-field--full">
             <label htmlFor="rs-how">How did you hear about us?</label>
