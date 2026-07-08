@@ -426,6 +426,46 @@ const nextConfig = {
         { source: "/schedule-now", destination: "/request-service", permanent: true },
         { source: "/plumbing-services-in-marana-az-expert-solutions-for-every-household-need", destination: "/marana-az/plumbing-and-water-heaters", permanent: true },
         { source: "/tucson-home-comfort-why-insulation-is-the-secret-to-lower-energy-bills", destination: "/tucson-az/air-conditioning-and-heating/attic-insulation", permanent: true },
+        // ── 2026-07-07: WordPress backlink recovery — old slugs WITHOUT "-az" suffix ──
+        // The WordPress site used URLs like /pest-control-phoenix/ but redirects only existed
+        // for /pest-control-phoenix-az. Any external backlinks to the old slugs were 404ing,
+        // causing DR to drop to 0. These redirects recover that lost authority.
+        // Phoenix service pages (highest backlink density)
+        { source: "/pest-control-phoenix", destination: "/phoenix-az/pest-and-termite", permanent: true },
+        { source: "/scorpion-control-phoenix", destination: "/phoenix-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/termite-control-phoenix", destination: "/phoenix-az/pest-and-termite/termite-treatment", permanent: true },
+        { source: "/ant-control-phoenix", destination: "/phoenix-az/pest-and-termite/ant-control", permanent: true },
+        { source: "/roach-control-phoenix", destination: "/phoenix-az/pest-and-termite/roach-elimination", permanent: true },
+        { source: "/spider-control-phoenix", destination: "/phoenix-az/pest-and-termite/spider-prevention", permanent: true },
+        { source: "/rodent-control-phoenix", destination: "/phoenix-az/pest-and-termite/rodent-exclusion", permanent: true },
+        { source: "/mosquito-control-phoenix", destination: "/phoenix-az/pest-and-termite/mosquito-control", permanent: true },
+        { source: "/bed-bug-treatment-phoenix", destination: "/phoenix-az/pest-and-termite/bed-bug-treatment", permanent: true },
+        { source: "/weed-control-phoenix", destination: "/phoenix-az/weed-and-lawn-care", permanent: true },
+        { source: "/ac-repair-phoenix", destination: "/phoenix-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/hvac-repair-phoenix", destination: "/phoenix-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/hvac-installation-phoenix", destination: "/phoenix-az/air-conditioning-and-heating/ac-installation", permanent: true },
+        { source: "/hvac-maintenance-phoenix", destination: "/phoenix-az/air-conditioning-and-heating/ac-maintenance", permanent: true },
+        { source: "/plumbing-services-phoenix", destination: "/phoenix-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/drain-cleaning-phoenix", destination: "/phoenix-az/plumbing-and-water-heaters/drain-cleaning", permanent: true },
+        { source: "/water-heater-repair-phoenix", destination: "/phoenix-az/plumbing-and-water-heaters/water-heater-repair", permanent: true },
+        // Bare service slugs (no city)
+        { source: "/hvac", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        // Tucson service pages without -az
+        { source: "/pest-control-tucson", destination: "/tucson-az/pest-and-termite", permanent: true },
+        { source: "/scorpion-control-tucson", destination: "/tucson-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/weed-control-tucson", destination: "/tucson-az/weed-and-lawn-care", permanent: true },
+        // Other major cities without -az
+        { source: "/pest-control-mesa", destination: "/mesa-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-chandler", destination: "/chandler-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-gilbert", destination: "/gilbert-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-scottsdale", destination: "/scottsdale-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-tempe", destination: "/tempe-az/pest-and-termite", permanent: true },
+        { source: "/scorpion-control-mesa", destination: "/mesa-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-chandler", destination: "/chandler-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-gilbert", destination: "/gilbert-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-scottsdale", destination: "/scottsdale-az/pest-and-termite/scorpion-control", permanent: true },
+        { source: "/scorpion-control-tempe", destination: "/tempe-az/pest-and-termite/scorpion-control", permanent: true },
+
         // 2026-06-23: Catch-all for ALL root-level "best-*" blog URLs → /blog/
         // Replaces 16 individual redirects. Specific service-page redirects (best-pest-control-tucson-az,
         // best-ac-repair-oro-valley-az) are defined earlier and match first. Covers all ~174 legacy WordPress slugs.
