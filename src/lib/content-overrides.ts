@@ -346,8 +346,8 @@ const OVERRIDES: Record<string, ContentOverride> = {
      HVAC summer peak: highest-volume commercial keyword
      ═══════════════════════════════════════════════════════════════ */
   "phoenix-az/air-conditioning-and-heating/ac-installation": {
-    metaTitle: "AC Installation Phoenix AZ — 4.9★ Rated, 1,900+ Reviews | Free Estimate",
-    metaDescription: "Phoenix's top-rated AC installation — 1,900+ five-star reviews. Daikin, Trane & Carrier systems with Manual J sizing. Licensed, Google Guaranteed. $89/mo financing. Call (602) 962-2879.",
+    metaTitle: "New AC Installation Phoenix AZ | $89/Mo Financing — Free Estimate",
+    metaDescription: "Phoenix AC installation from $89/mo. Daikin, Trane & Carrier systems. Manual J load calculation included. 4.9★ rated, licensed & Google Guaranteed. Same-week install. Call (602) 962-2879.",
     heroHeadline: "Phoenix AC Installation — Beat the Heat with a New High-Efficiency System",
     heroDescription: "We install high-efficiency air conditioning systems from Daikin, Trane, Carrier, and Goodman. Every installation includes a Manual J load calculation, proper ductwork evaluation, and manufacturer warranty registration. Financing options available with payments as low as $89/month.",
     content: [
