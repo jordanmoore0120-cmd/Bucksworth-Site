@@ -46,6 +46,11 @@ const nextConfig = {
         { source: "/sitemap_index.xml", destination: "/sitemap.xml", permanent: true },
         { source: "/page-sitemap.xml", destination: "/sitemap.xml", permanent: true },
         { source: "/post-sitemap.xml", destination: "/sitemap.xml", permanent: true },
+        // Old WordPress URL redirects — preserving backlink equity
+        { source: "/pest-control-phoenix", destination: "/pest-control-phoenix-az", permanent: true },
+        { source: "/pest-control-phoenix/", destination: "/pest-control-phoenix-az", permanent: true },
+        { source: "/hvac", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/hvac/", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         // Service root URL redirects (Footer links)
         { source: "/pest-and-termite", destination: "/phoenix-az/pest-and-termite", permanent: true },
         { source: "/air-conditioning-and-heating", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
