@@ -1,0 +1,606 @@
+{
+ "promoted_on": "2026-08-03",
+ "rule": "one indexable blog per money page",
+ "posts": [
+  {
+   "slug": "top-signs-of-a-hidden-scorpion-infestation-in-phoenix-homes",
+   "was_canonical_to": "/phoenix-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 4801,
+   "position_90d": 7.0
+  },
+  {
+   "slug": "best-local-pest-control-in-marana-az-bucksworth",
+   "was_canonical_to": "/marana-az/pest-and-termite",
+   "impressions_90d": 3546,
+   "position_90d": 11.2
+  },
+  {
+   "slug": "best-pest-control-near-chandler-az-85224",
+   "was_canonical_to": "/chandler-az/pest-and-termite",
+   "impressions_90d": 3196,
+   "position_90d": 12.8
+  },
+  {
+   "slug": "best-drain-cleaning-scottsdale-az-85251-trusted-pros-for-clear-pipes",
+   "was_canonical_to": "/scottsdale-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions_90d": 2879,
+   "position_90d": 25.2
+  },
+  {
+   "slug": "best-termite-company-phoenix-protecting-your-homes-foundation",
+   "was_canonical_to": "/phoenix-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 1373,
+   "position_90d": 48.6
+  },
+  {
+   "slug": "best-drain-cleaning-gilbert-az-85233-say-goodbye-to-slow-pipes-and-stubborn-clogs",
+   "was_canonical_to": "/gilbert-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions_90d": 1225,
+   "position_90d": 8.5
+  },
+  {
+   "slug": "ac-maintenance-in-phoenix-az-why-early-tune-ups-are-your-best-friend",
+   "was_canonical_to": "/phoenix-az/air-conditioning-and-heating/ac-maintenance",
+   "impressions_90d": 1184,
+   "position_90d": 23.6
+  },
+  {
+   "slug": "getting-rid-of-cockroaches-in-phoenix-a-south-mountain-homeowners-guide",
+   "was_canonical_to": "/phoenix-az/pest-and-termite/roach-elimination",
+   "impressions_90d": 1135,
+   "position_90d": 8.3
+  },
+  {
+   "slug": "best-pest-control-near-scottsdale-az-85251",
+   "was_canonical_to": "/scottsdale-az/pest-and-termite",
+   "impressions_90d": 1051,
+   "position_90d": 59.4
+  },
+  {
+   "slug": "emergency-ac-repair-in-scottsdale-az-fast-relief-for-desert-heat-breakdowns",
+   "was_canonical_to": "/scottsdale-az/air-conditioning-and-heating/ac-repair",
+   "impressions_90d": 1032,
+   "position_90d": 8.1
+  },
+  {
+   "slug": "green-valley-scorpion-control-safe-solutions-for-your-sanctuary",
+   "was_canonical_to": "/green-valley-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 881,
+   "position_90d": 13.8
+  },
+  {
+   "slug": "best-termite-company-oro-valley-az-protecting-your-homes-foundation",
+   "was_canonical_to": "/oro-valley-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 854,
+   "position_90d": 8.6
+  },
+  {
+   "slug": "best-termite-company-scottsdale-az-85258",
+   "was_canonical_to": "/scottsdale-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 840,
+   "position_90d": 27.7
+  },
+  {
+   "slug": "best-scorpion-control-coolidge-az-85128-proactive-protection-against-desert-pests",
+   "was_canonical_to": "/coolidge-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 816,
+   "position_90d": 13.6
+  },
+  {
+   "slug": "rodent-control-in-tucson-az-roof-rat-pack-rat-management-bucksworth-home-services",
+   "was_canonical_to": "/tucson-az/pest-and-termite/rodent-exclusion",
+   "impressions_90d": 814,
+   "position_90d": 10.3
+  },
+  {
+   "slug": "best-pest-control-oro-valley-smart-prevention-for-local-pests",
+   "was_canonical_to": "/oro-valley-az/pest-and-termite",
+   "impressions_90d": 812,
+   "position_90d": 22.0
+  },
+  {
+   "slug": "the-complete-guide-to-ac-repair-in-chandler-from-downtown-chandler-to-the-whole--2",
+   "was_canonical_to": "/chandler-az/air-conditioning-and-heating/ac-repair",
+   "impressions_90d": 805,
+   "position_90d": 10.8
+  },
+  {
+   "slug": "emergency-plumbing-in-scottsdale-local-pros-you-can-trust",
+   "was_canonical_to": "/scottsdale-az/plumbing-and-water-heaters",
+   "impressions_90d": 769,
+   "position_90d": 14.3
+  },
+  {
+   "slug": "best-pest-control-phoenix-scorpion-protection-for-desert-homes",
+   "was_canonical_to": "/phoenix-az/pest-and-termite",
+   "impressions_90d": 763,
+   "position_90d": 26.7
+  },
+  {
+   "slug": "best-termite-company-gilbert-az-85233",
+   "was_canonical_to": "/gilbert-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 703,
+   "position_90d": 10.3
+  },
+  {
+   "slug": "whos-the-best-pest-control-near-mesa-your-guide-to-a-pest-free-home",
+   "was_canonical_to": "/mesa-az/pest-and-termite",
+   "impressions_90d": 663,
+   "position_90d": 54.5
+  },
+  {
+   "slug": "best-pest-control-in-tucson-az-professional-scorpion-and-desert-pest-solutions",
+   "was_canonical_to": "/tucson-az/pest-and-termite",
+   "impressions_90d": 626,
+   "position_90d": 24.1
+  },
+  {
+   "slug": "best-termite-company-chandler-az-protecting-your-foundation-with-integrity",
+   "was_canonical_to": "/chandler-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 600,
+   "position_90d": 18.8
+  },
+  {
+   "slug": "best-pest-control-near-tempe-local-expertise-for-your-peace-of-mind",
+   "was_canonical_to": "/tempe-az/pest-and-termite",
+   "impressions_90d": 600,
+   "position_90d": 50.4
+  },
+  {
+   "slug": "goodyear-scorpion-control-protecting-your-estrella-mountain-sanctuary",
+   "was_canonical_to": "/goodyear-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 564,
+   "position_90d": 6.9
+  },
+  {
+   "slug": "best-termite-company-marana-az-peace-of-mind-for-your-home",
+   "was_canonical_to": "/marana-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 493,
+   "position_90d": 13.0
+  },
+  {
+   "slug": "vails-expert-scorpion-control-smart-protection-for-desert-living",
+   "was_canonical_to": "/vail-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 470,
+   "position_90d": 13.6
+  },
+  {
+   "slug": "emergency-ac-service-near-tempe-why-you-need-a-trustworthy-ac-partner",
+   "was_canonical_to": "/tempe-az/air-conditioning-and-heating/ac-repair",
+   "impressions_90d": 470,
+   "position_90d": 9.2
+  },
+  {
+   "slug": "best-pest-control-near-gilbert-az-85234",
+   "was_canonical_to": "/gilbert-az/pest-and-termite",
+   "impressions_90d": 433,
+   "position_90d": 47.5
+  },
+  {
+   "slug": "best-scorpion-control-in-gilbert-az-85233-expert-protection-for-your-family",
+   "was_canonical_to": "/gilbert-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 426,
+   "position_90d": 21.1
+  },
+  {
+   "slug": "buckeye-ac-maintenance-keeping-you-cool-in-the-west-valley",
+   "was_canonical_to": "/buckeye-az/air-conditioning-and-heating/ac-maintenance",
+   "impressions_90d": 425,
+   "position_90d": 11.6
+  },
+  {
+   "slug": "the-scottsdale-homeowners-guide-to-bermuda-grass-elimination-advice-for-mccormic",
+   "was_canonical_to": "/scottsdale-az/weed-and-lawn-care/bermuda-grass-control",
+   "impressions_90d": 422,
+   "position_90d": 7.9
+  },
+  {
+   "slug": "scottsdale-cockroach-control-protecting-your-85254-area-home-year-round",
+   "was_canonical_to": "/scottsdale-az/pest-and-termite/roach-elimination",
+   "impressions_90d": 400,
+   "position_90d": 6.6
+  },
+  {
+   "slug": "beat-the-heat-reliable-ac-repair-in-phoenix",
+   "was_canonical_to": "/phoenix-az/air-conditioning-and-heating/ac-repair",
+   "impressions_90d": 386,
+   "position_90d": 28.3
+  },
+  {
+   "slug": "the-red-rock-homeowners-guide-to-termite-treatment-advice-for-picture-rocks",
+   "was_canonical_to": "/red-rock-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 380,
+   "position_90d": 4.6
+  },
+  {
+   "slug": "scorpion-control-in-casa-grande-az-guarding-your-home-against-desert-dangers",
+   "was_canonical_to": "/casa-grande-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 324,
+   "position_90d": 15.6
+  },
+  {
+   "slug": "scottsdale-scorpion-prevention-what-every-mccormick-ranch-family-should-know",
+   "was_canonical_to": "/scottsdale-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 308,
+   "position_90d": 9.4
+  },
+  {
+   "slug": "water-heater-installation-peoria",
+   "was_canonical_to": "/peoria-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions_90d": 304,
+   "position_90d": 17.7
+  },
+  {
+   "slug": "best-termite-company-apache-junction-az-85120-your-homes-expert-guard",
+   "was_canonical_to": "/apache-junction-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 302,
+   "position_90d": 13.9
+  },
+  {
+   "slug": "emergency-ac-repair-in-san-tan-valley-why-85142-homes-cant-wait-in-this-heat",
+   "was_canonical_to": "/san-tan-valley-az/air-conditioning-and-heating/ac-repair",
+   "impressions_90d": 301,
+   "position_90d": 10.4
+  },
+  {
+   "slug": "best-ant-control-surprise-az-85374-stop-ants-before-they-take-over-your-home",
+   "was_canonical_to": "/surprise-az/pest-and-termite/ant-control",
+   "impressions_90d": 298,
+   "position_90d": 17.0
+  },
+  {
+   "slug": "water-leak-detection-in-phoenix-az-finding-and-fixing-hidden-plumbing-issues",
+   "was_canonical_to": "/phoenix-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions_90d": 293,
+   "position_90d": 10.4
+  },
+  {
+   "slug": "surprise-ac-maintenance-peak-performance",
+   "was_canonical_to": "/surprise-az/air-conditioning-and-heating/ac-maintenance",
+   "impressions_90d": 288,
+   "position_90d": 18.4
+  },
+  {
+   "slug": "the-phoenix-homeowners-guide-to-lawn-fertilization-advice-for-norterra",
+   "was_canonical_to": "/phoenix-az/weed-and-lawn-care/lawn-fertilization",
+   "impressions_90d": 274,
+   "position_90d": 8.6
+  },
+  {
+   "slug": "best-pest-control-in-buckeye-az-expert-desert-pest-prevention-for-your-home",
+   "was_canonical_to": "/buckeye-az/pest-and-termite",
+   "impressions_90d": 272,
+   "position_90d": 17.2
+  },
+  {
+   "slug": "ahwatukee-plumbing-service-foothills-trusted-pros",
+   "was_canonical_to": "/ahwatukee-az/plumbing-and-water-heaters",
+   "impressions_90d": 269,
+   "position_90d": 31.8
+  },
+  {
+   "slug": "ac-maintenance-in-chandler-az-preparing-your-home-for-summer-heat",
+   "was_canonical_to": "/chandler-az/air-conditioning-and-heating/ac-maintenance",
+   "impressions_90d": 250,
+   "position_90d": 8.4
+  },
+  {
+   "slug": "ahwatukee-scorpion-control-protecting-your-mountain-park-ranch-sanctuary",
+   "was_canonical_to": "/ahwatukee-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 246,
+   "position_90d": 10.4
+  },
+  {
+   "slug": "the-gold-canyon-homeowners-guide-to-ac-maintenance-advice-for-gold-canyon-ranch",
+   "was_canonical_to": "/gold-canyon-az/air-conditioning-and-heating/ac-maintenance",
+   "impressions_90d": 242,
+   "position_90d": 10.9
+  },
+  {
+   "slug": "the-red-rock-homeowners-guide-to-roach-elimination-tips-for-red-rock-area",
+   "was_canonical_to": "/red-rock-az/pest-and-termite/roach-elimination",
+   "impressions_90d": 242,
+   "position_90d": 8.9
+  },
+  {
+   "slug": "best-ac-repair-in-laveen-az-reliable-cooling-maintenance-for-your-family",
+   "was_canonical_to": "/laveen-az/air-conditioning-and-heating/ac-repair",
+   "impressions_90d": 237,
+   "position_90d": 26.9
+  },
+  {
+   "slug": "best-termite-company-tempe-protecting-your-biggest-investment",
+   "was_canonical_to": "/tempe-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 236,
+   "position_90d": 24.2
+  },
+  {
+   "slug": "licensed-tempe-plumbers-quality-service-you-can-trust",
+   "was_canonical_to": "/tempe-az/plumbing-and-water-heaters",
+   "impressions_90d": 232,
+   "position_90d": 12.2
+  },
+  {
+   "slug": "why-scorpions-love-red-rock-homes-and-how-to-stop-them-a-guide-for-picture-rocks",
+   "was_canonical_to": "/red-rock-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 229,
+   "position_90d": 12.6
+  },
+  {
+   "slug": "the-tempe-homeowners-guide-to-roach-elimination-tips-for-south-tempe",
+   "was_canonical_to": "/tempe-az/pest-and-termite/roach-elimination",
+   "impressions_90d": 229,
+   "position_90d": 7.0
+  },
+  {
+   "slug": "how-to-keep-scorpions-out-of-your-tucson-home-near-tucson-mountains",
+   "was_canonical_to": "/tucson-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 228,
+   "position_90d": 12.4
+  },
+  {
+   "slug": "ant-control-in-tempe-az-getting-rid-of-persistent-colonies",
+   "was_canonical_to": "/tempe-az/pest-and-termite/ant-control",
+   "impressions_90d": 227,
+   "position_90d": 8.1
+  },
+  {
+   "slug": "tucson-scorpion-control-protecting-your-catalina-foothills-sanctuary",
+   "was_canonical_to": "/catalina-foothills-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 225,
+   "position_90d": 10.3
+  },
+  {
+   "slug": "signs-of-termites-in-your-tucson-home-what-rita-ranch-residents-should-watch-for",
+   "was_canonical_to": "/tucson-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 224,
+   "position_90d": 7.8
+  },
+  {
+   "slug": "gold-canyon-scorpion-control-a-complete-guide-for-superstition-mountain-resident-2",
+   "was_canonical_to": "/gold-canyon-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 223,
+   "position_90d": 15.6
+  },
+  {
+   "slug": "scorpion-control-in-mesa-az-expert-solutions-for-a-sting-free-home",
+   "was_canonical_to": "/mesa-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 221,
+   "position_90d": 22.4
+  },
+  {
+   "slug": "getting-rid-of-bermuda-grass-in-phoenix-a-laveen-homeowners-guide",
+   "was_canonical_to": "/phoenix-az/weed-and-lawn-care/bermuda-grass-control",
+   "impressions_90d": 219,
+   "position_90d": 8.4
+  },
+  {
+   "slug": "sewer-roaches-in-maricopa-how-tortosa-homeowners-can-fight-back",
+   "was_canonical_to": "/maricopa-az/pest-and-termite/roach-elimination",
+   "impressions_90d": 218,
+   "position_90d": 14.5
+  },
+  {
+   "slug": "paradise-valley-ac-repair-luxury-cooling-service",
+   "was_canonical_to": "/paradise-valley-az/air-conditioning-and-heating/ac-repair",
+   "impressions_90d": 218,
+   "position_90d": 34.8
+  },
+  {
+   "slug": "getting-rid-of-fire-ants-in-tucson-a-rita-ranch-homeowners-guide",
+   "was_canonical_to": "/tucson-az/pest-and-termite/ant-control",
+   "impressions_90d": 213,
+   "position_90d": 8.0
+  },
+  {
+   "slug": "best-pest-control-in-ahwatukee-az-professional-scorpion-and-desert-pest-care",
+   "was_canonical_to": "/ahwatukee-az/pest-and-termite",
+   "impressions_90d": 208,
+   "position_90d": 27.3
+  },
+  {
+   "slug": "replacing-your-water-heater-in-phoenix-a-guide-for-85053-residents",
+   "was_canonical_to": "/phoenix-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions_90d": 201,
+   "position_90d": 25.3
+  },
+  {
+   "slug": "san-tan-valleys-smartest-pest-control-quarterly-peace-of-mind",
+   "was_canonical_to": "/san-tan-valley-az/pest-and-termite",
+   "impressions_90d": 201,
+   "position_90d": 11.1
+  },
+  {
+   "slug": "the-complete-guide-to-ac-repair-in-goodyear-from-pebblecreek-to-the-whole-valley",
+   "was_canonical_to": "/goodyear-az/air-conditioning-and-heating/ac-repair",
+   "impressions_90d": 198,
+   "position_90d": 13.5
+  },
+  {
+   "slug": "tempe-scorpion-prevention-what-every-south-tempe-family-should-know",
+   "was_canonical_to": "/tempe-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 197,
+   "position_90d": 7
+  },
+  {
+   "slug": "the-mesa-homeowners-guide-to-ac-replacement-from-dobson-ranch-to-the-valley",
+   "was_canonical_to": "/mesa-az/air-conditioning-and-heating/ac-installation",
+   "impressions_90d": 192,
+   "position_90d": 13.0
+  },
+  {
+   "slug": "leak-detection-repair-in-gilbert-protecting-agritopia-homes-from-hidden-damage",
+   "was_canonical_to": "/gilbert-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions_90d": 191,
+   "position_90d": 12.6
+  },
+  {
+   "slug": "clogged-drains-in-tempe-a-tempe-marketplace-homeowners-complete-guide",
+   "was_canonical_to": "/tempe-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions_90d": 191,
+   "position_90d": 7.8
+  },
+  {
+   "slug": "signs-of-termites-in-your-vail-home-what-rincon-valley-residents-should-watch-fo",
+   "was_canonical_to": "/vail-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 190,
+   "position_90d": 8.0
+  },
+  {
+   "slug": "the-surprise-homeowners-guide-to-termite-treatment-advice-for-marley-park",
+   "was_canonical_to": "/surprise-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 190,
+   "position_90d": 7.7
+  },
+  {
+   "slug": "the-goodyear-homeowners-guide-to-termite-treatment-advice-for-estrella-mountain-",
+   "was_canonical_to": "/goodyear-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 189,
+   "position_90d": 8.4
+  },
+  {
+   "slug": "water-heater-repair-in-scottsdale-troubleshooting-common-issues-in-old-town",
+   "was_canonical_to": "/scottsdale-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions_90d": 187,
+   "position_90d": 8.7
+  },
+  {
+   "slug": "water-leak-detection-in-maricopa-az-stopping-hidden-plumbing-issues-fast",
+   "was_canonical_to": "/maricopa-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions_90d": 186,
+   "position_90d": 11.6
+  },
+  {
+   "slug": "best-pest-control-in-litchfield-park-az-targeted-scorpion-and-desert-pest-care",
+   "was_canonical_to": "/litchfield-park-az/pest-and-termite",
+   "impressions_90d": 186,
+   "position_90d": 11.7
+  },
+  {
+   "slug": "best-water-leak-detection-in-apache-junction-az-85120-professional-help-for-hidden-issues",
+   "was_canonical_to": "/apache-junction-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions_90d": 185,
+   "position_90d": 14.6
+  },
+  {
+   "slug": "how-to-stop-mosquitoes-in-mesa-expert-solutions-for-the-85208-area",
+   "was_canonical_to": "/mesa-az/pest-and-termite/mosquito-control",
+   "impressions_90d": 183,
+   "position_90d": 21.7
+  },
+  {
+   "slug": "getting-rid-of-cockroaches-in-mesa-a-lehi-homeowners-guide",
+   "was_canonical_to": "/mesa-az/pest-and-termite/roach-elimination",
+   "impressions_90d": 180,
+   "position_90d": 9.7
+  },
+  {
+   "slug": "the-litchfield-park-homeowners-guide-to-drain-cleaning-advice-for-village-at-lit",
+   "was_canonical_to": "/litchfield-park-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions_90d": 179,
+   "position_90d": 14.3
+  },
+  {
+   "slug": "water-heater-services-in-mesa-az-reliable-hot-water-solutions",
+   "was_canonical_to": "/mesa-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions_90d": 178,
+   "position_90d": 45.6
+  },
+  {
+   "slug": "termite-swarming-season-in-sahuarita-what-every-rancho-sahuarita-family-needs-to",
+   "was_canonical_to": "/sahuarita-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 174,
+   "position_90d": 9.4
+  },
+  {
+   "slug": "how-to-keep-scorpions-out-of-your-chandler-home-near-chandler-fashion-center",
+   "was_canonical_to": "/chandler-az/pest-and-termite/scorpion-control",
+   "impressions_90d": 174,
+   "position_90d": 8.1
+  },
+  {
+   "slug": "overseeding-your-coolidge-bermuda-lawn-expert-tips-for-arizona-farms",
+   "was_canonical_to": "/coolidge-az/weed-and-lawn-care/overseeding",
+   "impressions_90d": 170,
+   "position_90d": 11.3
+  },
+  {
+   "slug": "emergency-ac-repair-in-surprise-why-85387-homes-cant-wait-in-this-heat-2",
+   "was_canonical_to": "/surprise-az/air-conditioning-and-heating/ac-repair",
+   "impressions_90d": 169,
+   "position_90d": 12.9
+  },
+  {
+   "slug": "lawn-fertilization-in-apache-junction-the-right-schedule-for-meridian-hills-berm",
+   "was_canonical_to": "/apache-junction-az/weed-and-lawn-care/lawn-fertilization",
+   "impressions_90d": 169,
+   "position_90d": 8.3
+  },
+  {
+   "slug": "spider-control-near-university-of-arizona-expert-solutions-for-tucson-properties",
+   "was_canonical_to": "/tucson-az/pest-and-termite/spider-prevention",
+   "impressions_90d": 168,
+   "position_90d": 8.6
+  },
+  {
+   "slug": "monsoon-mosquitoes-in-gilbert-protecting-your-morrison-ranch-home-this-summer",
+   "was_canonical_to": "/gilbert-az/pest-and-termite/mosquito-control",
+   "impressions_90d": 167,
+   "position_90d": 11.0
+  },
+  {
+   "slug": "why-spiders-love-phoenix-homes-and-what-norterra-residents-can-do-about-it",
+   "was_canonical_to": "/phoenix-az/pest-and-termite/spider-prevention",
+   "impressions_90d": 165,
+   "position_90d": 7.8
+  },
+  {
+   "slug": "signs-of-a-water-leak-in-your-anthem-home-a-anthem-country-club-plumbing-guide",
+   "was_canonical_to": "/anthem-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions_90d": 162,
+   "position_90d": 12.6
+  },
+  {
+   "slug": "the-mesa-homeowners-guide-to-ant-elimination-advice-for-alta-mesa",
+   "was_canonical_to": "/mesa-az/pest-and-termite/ant-control",
+   "impressions_90d": 162,
+   "position_90d": 9.1
+  },
+  {
+   "slug": "radiant-barrier-vs-more-insulation-in-mesa-which-upgrade-wins-for-85210-area-hom",
+   "was_canonical_to": "/mesa-az/air-conditioning-and-heating/radiant-barrier",
+   "impressions_90d": 160,
+   "position_90d": 7.5
+  },
+  {
+   "slug": "signs-of-termites-in-your-green-valley-home-what-canoa-ranch-residents-should-wa",
+   "was_canonical_to": "/green-valley-az/pest-and-termite/termite-treatment",
+   "impressions_90d": 159,
+   "position_90d": 12.3
+  },
+  {
+   "slug": "hidden-water-leaks-in-litchfield-park-how-85340-area-homeowners-can-detect-and-f",
+   "was_canonical_to": "/litchfield-park-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions_90d": 159,
+   "position_90d": 13.7
+  },
+  {
+   "slug": "goodyear-plumbing-experts-reliable-service-for-pebblecreek-residents",
+   "was_canonical_to": "/goodyear-az/plumbing-and-water-heaters",
+   "impressions_90d": 159,
+   "position_90d": 12.2
+  },
+  {
+   "slug": "peoria-mosquito-management-enjoy-your-yard-again-with-safe-solutions",
+   "was_canonical_to": "/peoria-az/pest-and-termite/mosquito-control",
+   "impressions_90d": 155,
+   "position_90d": 30.9
+  },
+  {
+   "slug": "attic-insulation-in-phoenix-what-maryvale-homeowners-need-to-know",
+   "was_canonical_to": "/phoenix-az/air-conditioning-and-heating/attic-insulation",
+   "impressions_90d": 151,
+   "position_90d": 10.6
+  }
+ ]
+}
