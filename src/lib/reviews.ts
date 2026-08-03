@@ -27,6 +27,25 @@ export interface ReviewTotals {
 }
 
 export const REVIEWS = data.reviews as Review[];
+
+/* Google Place IDs, pulled from the GBP API metadata for each location.
+   Google has no public URL for an individual review, so the closest honest
+   destination is the location's full Google review list — where the reader can
+   see this review in Google's own UI alongside every other one. */
+export const PLACE_IDS: Record<"phoenix" | "tucson", string> = {
+  phoenix: "ChIJ-9EnslKzK4cR7E4Uv2a0nFo",
+  tucson: "ChIJJd0yrNp11oYRfZMCqTPOl0I",
+};
+
+/** Public Google reviews list for a branch. */
+export function googleReviewsUrl(branch: "phoenix" | "tucson"): string {
+  return `https://search.google.com/local/reviews?placeid=${PLACE_IDS[branch]}`;
+}
+
+/** "Leave us a review" link for a branch. */
+export function writeReviewUrl(branch: "phoenix" | "tucson"): string {
+  return `https://search.google.com/local/writereview?placeid=${PLACE_IDS[branch]}`;
+}
 export const REVIEW_TOTALS = data.totals as ReviewTotals;
 
 /** Schema.org AggregateRating built from the real GBP totals. */

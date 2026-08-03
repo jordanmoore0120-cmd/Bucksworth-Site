@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { REVIEWS, REVIEW_TOTALS } from "@/lib/reviews";
+import { REVIEWS, REVIEW_TOTALS, googleReviewsUrl, writeReviewUrl } from "@/lib/reviews";
 
 /* ────────────────────────────────────────────────────────────────
    CUSTOMER REVIEWS
@@ -20,6 +20,7 @@ interface LiveReview {
   text: string;
   when: string;
   publishTime?: string;
+  branch: "phoenix" | "tucson";
 }
 interface ReviewsData {
   rating: number;
@@ -52,6 +53,7 @@ function getGoogleReviews(): ReviewsData {
       text: r.text,
       when: monthYear(r.date),
       publishTime: r.date,
+      branch: r.branch,
     })),
   };
 }
@@ -173,13 +175,27 @@ export default function ReviewsPage() {
                     </span>
                   </div>
                   <p style={{ fontSize: "14px", color: "var(--g700)", lineHeight: "1.6", margin: 0 }}>&ldquo;{review.text}&rdquo;</p>
+                  <a
+                    href={googleReviewsUrl(review.branch)}
+                    target="_blank"
+                    rel="noopener nofollow"
+                    style={{ display: "inline-block", marginTop: "14px", fontSize: "13px", fontWeight: 600, color: "var(--red)", textDecoration: "none" }}
+                  >
+                    View on Google &rarr;
+                  </a>
                 </div>
               ))}
             </div>
             <p style={{ fontSize: "13px", color: "var(--g500)", marginTop: "16px", textAlign: "center" }}>
-              Showing our {data.reviews.length} most recent reviews. See all {totalLabel} on our{" "}
-              <a href="https://www.google.com/search?q=Bucksworth+Home+Services+reviews" target="_blank" rel="noopener noreferrer" style={{ color: "var(--red)", textDecoration: "underline" }}>
-                Google Business Profile
+              Showing our {data.reviews.length} most recent reviews. Read all {totalLabel} on Google:{" "}
+              <a href={googleReviewsUrl("phoenix")} target="_blank" rel="noopener nofollow" style={{ color: "var(--red)", textDecoration: "underline" }}>
+                Phoenix ({REVIEW_TOTALS.byBranch.phoenix.count.toLocaleString()})
+              </a>{" · "}
+              <a href={googleReviewsUrl("tucson")} target="_blank" rel="noopener nofollow" style={{ color: "var(--red)", textDecoration: "underline" }}>
+                Tucson ({REVIEW_TOTALS.byBranch.tucson.count.toLocaleString()})
+              </a>{" · "}
+              <a href={writeReviewUrl("phoenix")} target="_blank" rel="noopener nofollow" style={{ color: "var(--red)", textDecoration: "underline" }}>
+                leave a review
               </a>.
             </p>
           </div>
