@@ -343,6 +343,13 @@ const nextConfig = {
         { source: "/coupons", destination: "/", permanent: true },
         { source: "/specials", destination: "/", permanent: true },
 
+        // ── 2026-08-03: broken internal link targets found in site audit ──
+        { source: "/:city/plumbing-services", destination: "/:city/plumbing-and-water-heaters", permanent: true },
+        { source: "/indoor-air-quality", destination: "/air-conditioning-and-heating/indoor-air-quality", permanent: true },
+        { source: "/heat-pumps", destination: "/air-conditioning-and-heating", permanent: true },
+        { source: "/air-conditioning-repair", destination: "/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/residential/:sub", destination: "/pest-and-termite", permanent: true },
+
         // ── Plumbing flat URL redirects (PHX metro) ──
         { source: "/plumber-mesa-az", destination: "/mesa-az/plumbing-and-water-heaters", permanent: true },
         { source: "/plumber-chandler-az", destination: "/chandler-az/plumbing-and-water-heaters", permanent: true },
