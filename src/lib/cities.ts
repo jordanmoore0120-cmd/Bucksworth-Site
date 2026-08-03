@@ -1,6 +1,6 @@
 /* ──────────────────────────────────────────────
-   cities.ts — All 33 service areas
-   Phoenix branch (24 cities) + Tucson branch (9 cities)
+   cities.ts — All 38 service areas
+   Phoenix branch (29 cities) + Tucson branch (9 cities)
    ────────────────────────────────────────────── */
 
 export interface City {
@@ -51,6 +51,13 @@ export const CITIES: City[] = [
   { name: "Scottsdale", slug: "scottsdale-az", branch: "phoenix", population: "241K", county: "Maricopa", lat: 33.4942, lng: -111.9261, zipCodes: ["85250","85251","85254","85255","85257","85258","85260","85262","85264","85266"], description: "Scottsdale's desert luxury homes face unique challenges from scorpions, roof rats, and extreme heat. Bucksworth provides premium pest control, HVAC, and plumbing throughout Scottsdale.", services: PHX_SERVICES },
   { name: "Surprise", slug: "surprise-az", branch: "phoenix", population: "152K", county: "Maricopa", lat: 33.6292, lng: -112.368, zipCodes: ["85374","85378","85379","85387","85388"], description: "Surprise's growing neighborhoods in the northwest Valley trust Bucksworth for complete home pest protection, energy-efficient HVAC, and reliable plumbing.", services: PHX_SERVICES },
   { name: "Tempe", slug: "tempe-az", branch: "phoenix", population: "185K", county: "Maricopa", lat: 33.4255, lng: -111.94, zipCodes: ["85281","85282","85283","85284"], description: "Tempe's mix of ASU campus housing, starter homes, and established neighborhoods all need reliable pest control and HVAC service. Bucksworth serves all of Tempe.", services: PHX_SERVICES },
+
+  // ── West Valley expansion (2026-08-03): cities with existing blog coverage but no city page ──
+  { name: "Glendale", slug: "glendale-az", branch: "phoenix", population: "250K", county: "Maricopa", lat: 33.5387, lng: -112.186, zipCodes: ["85301","85302","85303","85304","85305","85306","85307","85308","85310"], description: "Glendale is one of the largest cities in the West Valley, mixing historic downtown homes with newer neighborhoods near State Farm Stadium. Older sewer lines, mature landscaping, and hard water keep our pest, plumbing, and HVAC crews busy year-round.", services: PHX_SERVICES },
+  { name: "Avondale", slug: "avondale-az", branch: "phoenix", population: "90K", county: "Maricopa", lat: 33.4356, lng: -112.3496, zipCodes: ["85323","85392"], description: "Avondale sits along the Agua Fria River in the West Valley, where irrigation canals and farm fields push ants, roaches, and rodents toward homes. Bucksworth serves Avondale with same-day pest, AC, and plumbing help.", services: PHX_SERVICES },
+  { name: "Tolleson", slug: "tolleson-az", branch: "phoenix", population: "7K", county: "Maricopa", lat: 33.45, lng: -112.2591, zipCodes: ["85353"], description: "Tolleson is a small, tight-knit West Valley city surrounded by agriculture and industry. Nearby farmland means steady pest pressure, and older homes here need dependable AC and plumbing service.", services: PHX_SERVICES },
+  { name: "El Mirage", slug: "el-mirage-az", branch: "phoenix", population: "36K", county: "Maricopa", lat: 33.6131, lng: -112.3241, zipCodes: ["85335"], description: "El Mirage borders open desert and farmland on the northwest edge of the Valley, a combination that brings scorpions, ants, and weeds right up to the property line. Bucksworth keeps El Mirage yards and homes protected.", services: PHX_SERVICES },
+  { name: "Youngtown", slug: "youngtown-az", branch: "phoenix", population: "7K", county: "Maricopa", lat: 33.5934, lng: -112.3033, zipCodes: ["85363"], description: "Youngtown is one of Arizona's original retirement communities, with mature trees and decades-old plumbing. Bucksworth handles the pests those big shade trees attract and the water heaters and lines that come with older homes.", services: PHX_SERVICES },
 
   // ── TUCSON BRANCH (9) ────────────────────
   { name: "Catalina Foothills", slug: "catalina-foothills-az", branch: "tucson", population: "51K", county: "Pima", lat: 32.2992, lng: -110.9201, zipCodes: ["85718","85750"], description: "Catalina Foothills sits at the base of the Santa Catalina Mountains, where desert pests including scorpions, rattlesnakes, and packrats are common neighbors.", services: TUC_SERVICES },
