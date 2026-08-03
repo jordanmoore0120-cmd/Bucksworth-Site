@@ -282,7 +282,7 @@ export default function Header() {
                         ))}
                         {svc.subServices.length > 6 && (
                           <Link
-                            href={`/${svc.slug}`}
+                            href={`/${branchCitySlug}/${svc.slug}`}
                             className="mega-sub-more"
                             onClick={() => setServicesOpen(false)}
                           >
