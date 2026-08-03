@@ -2822,3 +2822,59 @@ img { max-width: 100%; height: auto; }
     align-items: center;
   }
 }
+
+/* ═══════════════════════════════════════
+   REAL GOOGLE REVIEWS
+   ═══════════════════════════════════════ */
+.reviews-section {
+  padding: 48px 20px;
+  background: var(--white);
+}
+.reviews-heading {
+  font-family: "Oswald", Impact, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-align: center;
+  margin-bottom: 6px;
+}
+.reviews-subhead {
+  text-align: center;
+  font-size: 13px;
+  color: var(--g600);
+  margin-bottom: 24px;
+}
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.review-card {
+  background: var(--g50);
+  border: 1px solid var(--g200);
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.review-stars {
+  color: #f5a623;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.review-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--g600);
+}
+.review-meta {
+  font-size: 12px;
+  color: var(--g600);
+  margin-top: auto;
+}
+.review-author { font-weight: 700; color: var(--navy); }
