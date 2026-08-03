@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { aggregateRating } from "@/lib/reviews";
 import "@/styles/globals.css";
 import "@/styles/site.css";
 import { Oswald } from "next/font/google";
@@ -151,13 +152,7 @@ const orgSchema = {
       closes: "18:00",
     },
   ],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.84",
-    reviewCount: "2000",
-    bestRating: "5",
-    worstRating: "1",
-  },
+  aggregateRating: aggregateRating(),
   areaServed: ALL_CITIES.map((c) => ({ "@type": "City", name: c, containedInPlace: { "@type": "State", name: "Arizona" } })),
   sameAs: [
     "https://www.instagram.com/bucksworth.homeservices/",

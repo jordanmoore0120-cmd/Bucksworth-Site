@@ -13,6 +13,8 @@ import CitySync from "@/components/CitySync";
 import NearbyCities from "@/components/NearbyCities";
 import OtherServices from "@/components/OtherServices";
 import RelatedPosts from "@/components/RelatedPosts";
+import ReviewsSection from "@/components/ReviewsSection";
+import { aggregateRating, tagForService } from "@/lib/reviews";
 import { getRelatedBlogPostsForServiceHub } from "@/lib/blog-links";
 import { getServiceHubOverride } from "@/lib/service-hub-overrides";
 
@@ -238,9 +240,9 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
       geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
       areaServed: [{ "@type": "City", name: city.name }, { "@type": "State", name: "Arizona" }],
       priceRange: "$$",
-      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.84", reviewCount: "2000", bestRating: "5" },
+      aggregateRating: aggregateRating(city.branch),
     },
-    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.84", reviewCount: "2000", bestRating: "5" },
+    aggregateRating: aggregateRating(city.branch),
     areaServed: { "@type": "City", name: city.name },
     serviceType: service.name,
     dateModified: "2026-06-28",
@@ -504,6 +506,14 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
         />
 
         {/* ── OTHER SERVICES ── */}
+        <ReviewsSection
+          seed={`${city.slug}/${service.slug}`}
+          branch={city.branch}
+          tag={tagForService(service.slug)}
+          itemReviewedName={`Bucksworth ${service.name} — ${city.name}, AZ`}
+          count={6}
+        />
+
         <OtherServices city={city} currentServiceSlug={service.slug} />
 
         {/* ── BOTTOM CTA ── */}

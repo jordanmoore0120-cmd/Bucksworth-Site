@@ -12,6 +12,8 @@ import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
 import CitySync from "@/components/CitySync";
 import NearbyCities from "@/components/NearbyCities";
+import ReviewsSection from "@/components/ReviewsSection";
+import { aggregateRating } from "@/lib/reviews";
 import { getCityMetaOverride } from "@/lib/city-meta-overrides";
 
 
@@ -126,13 +128,7 @@ export default async function CityPage({ params }: CityPageProps) {
         containedInPlace: { "@type": "City" as const, name: city.name },
       })),
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.84",
-      reviewCount: "2000",
-      bestRating: "5",
-      worstRating: "1",
-    },
+    aggregateRating: aggregateRating(city.branch),
     priceRange: "$$",
     openingHoursSpecification: [{
       "@type": "OpeningHoursSpecification",
@@ -324,6 +320,13 @@ export default async function CityPage({ params }: CityPageProps) {
       />
 
       {/* Mid-page CTA */}
+      <ReviewsSection
+        seed={city.slug}
+        branch={city.branch}
+        itemReviewedName={`Bucksworth Home Services — ${city.name}, AZ`}
+        count={6}
+      />
+
       <CTASection city={city} variant="primary" />
 
       {/* Deep SEO Content with neighborhood context */}

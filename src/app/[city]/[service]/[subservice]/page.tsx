@@ -23,6 +23,8 @@ import RelatedPosts from "@/components/RelatedPosts";
 import { getRelatedBlogPosts } from "@/lib/blog-links";
 import CitySync from "@/components/CitySync";
 import OtherServices from "@/components/OtherServices";
+import ReviewsSection from "@/components/ReviewsSection";
+import { aggregateRating, tagForService } from "@/lib/reviews";
 
 interface SubServicePageProps {
   params: Promise<{ city: string; service: string; subservice: string }>;
@@ -131,9 +133,9 @@ export default async function SubServicePage({
       },
       geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
       priceRange: "$$",
-      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.84", reviewCount: "2000", bestRating: "5" },
+      aggregateRating: aggregateRating(city.branch),
     },
-    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.84", reviewCount: "2000", bestRating: "5" },
+    aggregateRating: aggregateRating(city.branch),
     areaServed: { "@type": "City", name: city.name, containedInPlace: { "@type": "State", name: "Arizona" } },
     availableChannel: {
       "@type": "ServiceChannel",
@@ -298,6 +300,14 @@ export default async function SubServicePage({
       </section>
 
       {/* Other services in this city */}
+      <ReviewsSection
+        seed={`${city.slug}/${service.slug}/${sub.slug}`}
+        branch={city.branch}
+        tag={tagForService(service.slug)}
+        itemReviewedName={`Bucksworth ${sub.name} — ${city.name}, AZ`}
+        count={4}
+      />
+
       <OtherServices city={city} currentServiceSlug={service.slug} />
 
       {/* Bottom CTA */}
