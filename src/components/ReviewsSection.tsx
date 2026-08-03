@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { pickReviews, REVIEW_TOTALS, type Review } from "@/lib/reviews";
+import { pickReviews, REVIEW_TOTALS, googleReviewsUrl, writeReviewUrl, type Review } from "@/lib/reviews";
 
 interface ReviewsSectionProps {
   /** Stable seed — use the page path so each page shows a consistent set. */
@@ -36,6 +36,7 @@ export default function ReviewsSection({
   if (reviews.length === 0) return null;
 
   const branchTotals = REVIEW_TOTALS.byBranch[branch] ?? REVIEW_TOTALS;
+  const googleUrl = googleReviewsUrl(branch);
   const title =
     heading ??
     `What Our ${branch === "tucson" ? "Tucson-Area" : "Valley"} Customers Say`;
@@ -77,9 +78,26 @@ export default function ReviewsSection({
               <span className="review-author">{r.author}</span>
               {r.date && <span className="review-date"> · {formatDate(r.date)}</span>}
             </figcaption>
+            <a
+              className="review-source-link"
+              href={googleUrl}
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              View on Google
+            </a>
           </figure>
         ))}
       </div>
+      <p className="reviews-cta">
+        <a href={googleUrl} target="_blank" rel="noopener nofollow" className="reviews-cta-link">
+          See all {branchTotals.count.toLocaleString()} reviews on Google
+        </a>
+        {" · "}
+        <a href={writeReviewUrl(branch)} target="_blank" rel="noopener nofollow" className="reviews-cta-link">
+          Leave us a review
+        </a>
+      </p>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}

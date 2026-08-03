@@ -2888,3 +2888,16 @@ img { max-width: 100%; height: auto; }
 
 .trust-item-link { color: inherit; text-decoration: none; display: block; }
 .trust-item-link:hover .number { text-decoration: underline; }
+
+/* Review cards link out to the review on Google (PR #16) */
+.review-source-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--red);
+  text-decoration: none;
+}
+.review-source-link:hover { text-decoration: underline; }
+.reviews-cta { margin-top: 20px; text-align: center; font-size: 14px; }
+.reviews-cta-link { color: var(--red); font-weight: 600; text-decoration: underline; }
