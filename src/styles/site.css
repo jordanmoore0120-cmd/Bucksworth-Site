@@ -2885,3 +2885,6 @@ img { max-width: 100%; height: auto; }
 }
 .city-hero-badge--link:hover,
 .reviews-subhead-link:hover { color: var(--red); }
+
+.trust-item-link { color: inherit; text-decoration: none; display: block; }
+.trust-item-link:hover .number { text-decoration: underline; }
