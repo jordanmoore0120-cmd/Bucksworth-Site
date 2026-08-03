@@ -3,7 +3,7 @@
    
    When a city+subservice combo has an override, the subservice page
    uses this custom content instead of the generic buildContent() output.
-   This allows 2,000+ word unique content for high-priority SEO pages.
+   This allows 2,360+ word unique content for high-priority SEO pages.
    ────────────────────────────────────────────── */
 
 export interface ContentBlock {
@@ -346,8 +346,8 @@ const OVERRIDES: Record<string, ContentOverride> = {
      HVAC summer peak: highest-volume commercial keyword
      ═══════════════════════════════════════════════════════════════ */
   "phoenix-az/air-conditioning-and-heating/ac-installation": {
-    metaTitle: "AC Installation Phoenix AZ — 4.9★ Rated, 1,900+ Reviews | Free Estimate",
-    metaDescription: "Phoenix's top-rated AC installation — 1,900+ five-star reviews. Daikin, Trane & Carrier systems with Manual J sizing. Licensed, Google Guaranteed. $89/mo financing. Call (602) 962-2879.",
+    metaTitle: "New AC Installation Phoenix AZ | $89/Mo Financing — Free Estimate",
+    metaDescription: "Phoenix AC installation from $89/mo. Daikin, Trane & Carrier systems. Manual J load calculation included. 4.9★ rated, licensed & Google Guaranteed. Same-week install. Call (480) 422-8388.",
     heroHeadline: "Phoenix AC Installation — Beat the Heat with a New High-Efficiency System",
     heroDescription: "We install high-efficiency air conditioning systems from Daikin, Trane, Carrier, and Goodman. Every installation includes a Manual J load calculation, proper ductwork evaluation, and manufacturer warranty registration. Financing options available with payments as low as $89/month.",
     content: [
@@ -384,7 +384,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     faqs: [
       {
         q: "How much does AC installation cost in Phoenix?",
-        a: "AC installation in Phoenix typically ranges from $4,500 to $12,000+ depending on system size, SEER2 efficiency rating, and whether ductwork modifications are needed. Bucksworth provides free in-home estimates with multiple options at different price points. Financing available from $89/month.",
+        a: "AC installation in Phoenix typically ranges from $4,500 to $12,360+ depending on system size, SEER2 efficiency rating, and whether ductwork modifications are needed. Bucksworth provides free in-home estimates with multiple options at different price points. Financing available from $89/month.",
       },
       {
         q: "How long does AC installation take?",
@@ -412,7 +412,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "phoenix-az/air-conditioning-and-heating/ac-maintenance": {
     metaTitle: "AC Maintenance Phoenix, AZ — $89 Tune-Up, Prevent 95% of Breakdowns",
-    metaDescription: "Professional AC maintenance in Phoenix, AZ. Coil cleaning, refrigerant check, electrical inspection & filter replacement. Extends system life 5-7 years. Licensed & Google Guaranteed. Call (602) 962-2879.",
+    metaDescription: "Professional AC maintenance in Phoenix, AZ. Coil cleaning, refrigerant check, electrical inspection & filter replacement. Extends system life 5-7 years. Licensed & Google Guaranteed. Call (480) 422-8388.",
     heroHeadline: "Phoenix AC Maintenance — Keep Your System Running at Peak Efficiency",
     heroDescription: "Our AC maintenance program includes coil cleaning, refrigerant level checks, electrical connection inspection, thermostat calibration, and filter replacement. Regular maintenance extends system life by 5-7 years and prevents 95% of emergency breakdowns.",
     content: [
@@ -442,7 +442,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     faqs: [
       {
         q: "How much does AC maintenance cost in Phoenix?",
-        a: "A standard AC tune-up starts at $89. Bucksworth offers annual maintenance plans that include the tune-up plus priority scheduling, 15% repair discounts, and no overtime charges. Call (602) 962-2879 for current pricing.",
+        a: "A standard AC tune-up starts at $89. Bucksworth offers annual maintenance plans that include the tune-up plus priority scheduling, 15% repair discounts, and no overtime charges. Call (480) 422-8388 for current pricing.",
       },
       {
         q: "How often should I service my AC in Phoenix?",
@@ -784,7 +784,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
 
   "phoenix-az/air-conditioning-and-heating/ac-repair": {
     metaTitle: "AC Repair Phoenix, AZ — Same-Day Service, All Brands | Call Now",
-    metaDescription: "Fast, reliable AC repair in Phoenix. We fix all brands same-day — compressors, refrigerant leaks, capacitors, fan motors. Licensed ROC #343924, Google Guaranteed. Call (602) 962-2879.",
+    metaDescription: "Fast, reliable AC repair in Phoenix. We fix all brands same-day — compressors, refrigerant leaks, capacitors, fan motors. Licensed ROC #343924, Google Guaranteed. Call (480) 422-8388.",
     heroHeadline: "Phoenix AC Repair — Same-Day Diagnosis & Fix for All Brands",
     heroDescription: "When your AC stops working in 115-degree Phoenix heat, you need a licensed technician fast. Bucksworth Home Services provides same-day AC repair for all brands and models. We diagnose the problem, explain your options, and fix it right the first time.",
     content: [
@@ -1532,7 +1532,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "apache-junction-az/pest-and-termite": {
     metaTitle: "Pest Control Apache Junction AZ — Scorpion, Termite & Rodent Experts",
-    metaDescription: "Trusted pest control in Apache Junction, AZ. Scorpion removal, termite treatment, rodent exclusion & general pest defense. Licensed, Google Guaranteed. Call (602) 962-2879 for same-day service.",
+    metaDescription: "Trusted pest control in Apache Junction, AZ. Scorpion removal, termite treatment, rodent exclusion & general pest defense. Licensed, Google Guaranteed. Call (480) 422-8388 for same-day service.",
     heroHeadline: "Apache Junction Pest & Termite Control — Desert Experts Since 2013",
     heroDescription: "Apache Junction sits at the base of the Superstition Mountains, creating some of the most intense pest pressure in the East Valley. Bark scorpions, subterranean termites, pack rats, and black widows migrate from the surrounding desert directly into AJ neighborhoods. Bucksworth Home Services provides comprehensive pest and termite control across every Apache Junction zip code — 85118, 85119, and 85120.",
     content: [
@@ -1564,7 +1564,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
         paragraphs: [
           "Bucksworth Home Services holds Arizona ROC License #343924 and carries full commercial liability insurance. We are Google Guaranteed — meaning Google backs our work with up to $2,000 in customer protection. With over 1,900 five-star Google reviews across the Valley, Apache Junction homeowners trust us for reliable, professional pest and termite control.",
           "We offer free inspections, same-day service for most calls placed before 2 PM, and flexible scheduling including Saturdays. Our pest control plans start with a thorough initial treatment followed by quarterly maintenance visits to keep your home protected year-round.",
-          "Bucksworth serves all Apache Junction neighborhoods and surrounding communities including Gold Canyon, San Tan Valley, Mesa, Queen Creek, and Florence. Call (602) 962-2879 for a free pest inspection today.",
+          "Bucksworth serves all Apache Junction neighborhoods and surrounding communities including Gold Canyon, San Tan Valley, Mesa, Queen Creek, and Florence. Call (480) 422-8388 for a free pest inspection today.",
         ],
       },
     ],
@@ -2078,7 +2078,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "fountain-hills-az/air-conditioning-and-heating/attic-insulation": {
     metaTitle: "Attic Insulation Fountain Hills AZ — Cut Energy Bills 30-40% | Free Estimate",
-    metaDescription: "Professional attic insulation in Fountain Hills, AZ. Blown-in, batt, and radiant barrier options for Arizona heat. Licensed, insured, Google Guaranteed. Call (480) 485-7078 for a free energy assessment.",
+    metaDescription: "Professional attic insulation in Fountain Hills, AZ. Blown-in, batt, and radiant barrier options for Arizona heat. Licensed, insured, Google Guaranteed. Call (480) 422-8388 for a free energy assessment.",
     heroHeadline: "Fountain Hills Attic Insulation — Beat the Arizona Heat and Save 30-40% on Energy",
     heroDescription: "Fountain Hills homes face some of the most extreme attic temperatures in the Valley — reaching 160 degrees or more during summer. Without proper insulation, your AC works overtime, driving energy bills through the roof. Bucksworth Home Services provides expert attic insulation upgrades tailored to Fountain Hills homes, from blown-in fiberglass and cellulose to radiant barriers that reflect Arizona's intense sun.",
     content: [
@@ -2153,7 +2153,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "chandler-az/air-conditioning-and-heating/ac-repair": {
     metaTitle: "AC Repair Chandler AZ — Same-Day Emergency Cooling, $89 Diagnostic",
-    metaDescription: "Fast AC repair in Chandler, AZ. Same-day emergency service from Downtown Chandler to Sun Lakes. $89 diagnostic fee. Licensed HVAC technicians, 1,900+ five-star reviews. Call (480) 485-9790.",
+    metaDescription: "Fast AC repair in Chandler, AZ. Same-day emergency service from Downtown Chandler to Sun Lakes. $89 diagnostic fee. Licensed HVAC technicians, 2,360+ five-star reviews. Call (480) 422-8388.",
     heroHeadline: "Chandler AC Repair — Same-Day Emergency Cooling Service",
     heroDescription: "When your AC fails in Chandler's 115-degree heat, every hour matters. Bucksworth Home Services provides same-day AC repair across every Chandler neighborhood — from Downtown Chandler and the San Marcos area to Ocotillo, Sun Lakes, and Chandler Heights. Our licensed HVAC technicians diagnose and fix all makes and models, with upfront pricing and no surprise fees.",
     content: [
@@ -2162,7 +2162,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
         paragraphs: [
           "Chandler's extreme summer heat puts enormous stress on residential cooling systems. With temperatures regularly exceeding 110 degrees from June through September, a broken AC isn't just uncomfortable — it's a safety hazard. Bucksworth Home Services has provided AC repair across the Chandler metro since 2013, serving homeowners from the established neighborhoods near Downtown Chandler to newer communities in Chandler Heights and the South Chandler corridor.",
           "Our Chandler HVAC team handles everything from simple capacitor replacements and refrigerant recharges to complex compressor failures and full system diagnostics. We stock common parts on our service trucks so most repairs are completed in a single visit. For older systems (10+ years), we provide honest assessments of repair vs. replacement costs so you can make the best decision for your home and budget.",
-          "Need AC repair in Chandler today? Call (480) 485-9790 — our Phoenix metro dispatch offers same-day and next-day appointments across all Chandler zip codes: 85224, 85225, 85226, 85248, 85249, and 85286.",
+          "Need AC repair in Chandler today? Call (480) 422-8388 — our Phoenix metro dispatch offers same-day and next-day appointments across all Chandler zip codes: 85224, 85225, 85226, 85248, 85249, and 85286.",
         ],
       },
       {
@@ -2182,7 +2182,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     ],
     faqs: [
       { q: "How much does AC repair cost in Chandler, AZ?", a: "Most AC repairs in Chandler range from $150 to $650 depending on the issue. Common fixes like capacitor replacement run $150-$250, while compressor repairs can reach $600-$1,200. We charge an $89 diagnostic fee that applies toward your repair cost." },
-      { q: "Can you repair my AC today in Chandler?", a: "Yes — we offer same-day AC repair across all Chandler neighborhoods including Downtown, Ocotillo, Sun Lakes, and Chandler Heights. Call (480) 485-9790 and our dispatch team will schedule the earliest available appointment." },
+      { q: "Can you repair my AC today in Chandler?", a: "Yes — we offer same-day AC repair across all Chandler neighborhoods including Downtown, Ocotillo, Sun Lakes, and Chandler Heights. Call (480) 422-8388 and our dispatch team will schedule the earliest available appointment." },
       { q: "What AC brands does Bucksworth repair in Chandler?", a: "We repair all major brands including Trane, Carrier, Lennox, Goodman, Rheem, Amana, and York. Our technicians are trained on both residential split systems and package units common in Chandler homes." },
       { q: "Should I repair or replace my AC in Chandler?", a: "As a general rule, if your system is over 12 years old and the repair cost exceeds 50% of a new system's price, replacement is usually more cost-effective. We'll give you an honest assessment of both options so you can make the best choice for your budget." },
     ],
@@ -2462,7 +2462,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "coolidge-az/air-conditioning-and-heating/ac-repair": {
     metaTitle: "AC Repair Coolidge AZ — Same-Day Emergency Cooling Fix, $0 Diagnostic",
-    metaDescription: "Fast AC repair in Coolidge, AZ 85128. Emergency same-day service for Coolidge, Arizona City, and Casa Grande Valley homes. All brands serviced. Licensed & insured. Call (480) 485-9790.",
+    metaDescription: "Fast AC repair in Coolidge, AZ 85128. Emergency same-day service for Coolidge, Arizona City, and Casa Grande Valley homes. All brands serviced. Licensed & insured. Call (480) 422-8388.",
     heroHeadline: "AC Repair in Coolidge, AZ",
     heroDescription: "Same-day AC repair for Coolidge, Arizona City, and the greater Casa Grande Valley. Licensed HVAC technicians ready 7 days a week with $0 diagnostic fee.",
     content: [
@@ -2491,14 +2491,14 @@ const OVERRIDES: Record<string, ContentOverride> = {
         heading: "Honest Pricing & Repair vs. Replace Guidance",
         paragraphs: [
           "Not every AC problem requires a full system replacement. Our technicians provide honest assessments and will recommend repair when it makes financial sense. If your system is beyond economical repair, we provide a written replacement quote with financing options and never pressure you into a decision.",
-          "Every repair comes with a workmanship warranty, and we stand behind every part we install. Bucksworth is Google Guaranteed and maintains a 4.9-star rating across 2,000+ reviews.",
+          "Every repair comes with a workmanship warranty, and we stand behind every part we install. Bucksworth is Google Guaranteed and maintains a 4.9-star rating across 2,360+ reviews.",
         ],
       },
     ],
     faqs: [
       {
         q: "How much does AC repair cost in Coolidge, AZ?",
-        a: "Most AC repairs in Coolidge range from $150 to $650 depending on the issue. Common fixes like capacitor replacement or thermostat repair are on the lower end, while compressor or blower motor replacement falls on the higher end. We provide a $0 diagnostic and upfront pricing before starting work. Call (480) 485-9790.",
+        a: "Most AC repairs in Coolidge range from $150 to $650 depending on the issue. Common fixes like capacitor replacement or thermostat repair are on the lower end, while compressor or blower motor replacement falls on the higher end. We provide a $0 diagnostic and upfront pricing before starting work. Call (480) 422-8388.",
       },
       {
         q: "Do you offer same-day AC repair in Coolidge?",
