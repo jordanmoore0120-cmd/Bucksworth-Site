@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { pickReviews, REVIEW_TOTALS, type Review } from "@/lib/reviews";
 
 interface ReviewsSectionProps {
@@ -59,8 +60,11 @@ export default function ReviewsSection({
     <section className="reviews-section">
       <h2 className="reviews-heading">{title}</h2>
       <p className="reviews-subhead">
-        {branchTotals.count.toLocaleString()} Google reviews · {branchTotals.rating.toFixed(1)}
-        {" "}average · verified from our Google Business Profile
+        <Link href="/reviews" className="reviews-subhead-link">
+          {branchTotals.count.toLocaleString()} Google reviews · {branchTotals.rating.toFixed(1)} average
+        </Link>{" "}
+        · verified from our Google Business Profile ·{" "}
+        <Link href="/reviews" className="reviews-subhead-link">read them all</Link>
       </p>
       <div className="reviews-grid">
         {reviews.map((r) => (

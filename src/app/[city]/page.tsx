@@ -13,7 +13,7 @@ import CTASection from "@/components/CTASection";
 import CitySync from "@/components/CitySync";
 import NearbyCities from "@/components/NearbyCities";
 import ReviewsSection from "@/components/ReviewsSection";
-import { aggregateRating } from "@/lib/reviews";
+import { aggregateRating, REVIEW_TOTALS } from "@/lib/reviews";
 import { getCityMetaOverride } from "@/lib/city-meta-overrides";
 
 
@@ -203,7 +203,9 @@ export default async function CityPage({ params }: CityPageProps) {
           </h1>
           <p className="city-hero-desc">{city.description}</p>
           <div className="city-hero-badges">
-            <span className="city-hero-badge">&#9733; 4.8 Stars (2,000+ Reviews)</span>
+            <Link href="/reviews" className="city-hero-badge city-hero-badge--link">
+              &#9733; {REVIEW_TOTALS.rating.toFixed(1)} Stars ({REVIEW_TOTALS.count.toLocaleString()} Reviews)
+            </Link>
             <span className="city-hero-badge">&#10003; Google Guaranteed</span>
             <span className="city-hero-badge">&#9201; Same-Day Service</span>
             <span className="city-hero-badge">&#127968; Family Owned Since 2013</span>

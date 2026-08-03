@@ -1,24 +1,14 @@
 import { Metadata } from "next";
+import Link from "next/link";
+import { REVIEWS, REVIEW_TOTALS } from "@/lib/reviews";
 
 /* ────────────────────────────────────────────────────────────────
-   LIVE GOOGLE REVIEWS
+   CUSTOMER REVIEWS
 
-   This page shows REAL reviews pulled from your Google Business
-   Profile via the Google Places API (New). It only renders ratings,
-   counts, and review schema when that real data is available — so it
-   never claims numbers it can't back up.
-
-   TO TURN IT ON, set two environment variables in Vercel:
-     • GOOGLE_PLACE_ID        – your Business Profile's Place ID
-                                 (find it: https://developers.google.com/maps/documentation/places/web-service/place-id)
-     • GOOGLE_PLACES_API_KEY  – a server key with "Places API (New)" ENABLED
-                                 (a separate, unrestricted server key is best;
-                                  if unset, falls back to NEXT_PUBLIC_GOOGLE_MAPS_KEY)
-
-   NOTE: Google's API returns up to ~5 featured reviews plus your true
-   overall rating and total count. To display hundreds of reviews you
-   need a third-party reviews widget/aggregator — the live total/rating
-   here will still be accurate.
+   Real reviews from our Google Business Profile (Phoenix + Tucson),
+   synced daily into content/reviews.json by the reviews bot. Totals
+   and ratings are the live GBP numbers; every review shown is a real
+   customer review, never written or paraphrased by us.
 ──────────────────────────────────────────────────────────────── */
 
 const PHONE_PHX = "(480) 422-8388";
@@ -37,51 +27,37 @@ interface ReviewsData {
   reviews: LiveReview[];
 }
 
-async function getGoogleReviews(): Promise<ReviewsData | null> {
-  const placeId = process.env.GOOGLE_PLACE_ID;
-  const key = process.env.GOOGLE_PLACES_API_KEY || process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
-  if (!placeId || !key) return null; // not configured → graceful fallback, no fake data
+/** How many individual reviews to render on the page. */
+const SHOWN = 200;
 
-  try {
-    const res = await fetch(`https://places.googleapis.com/v1/places/${placeId}`, {
-      headers: {
-        "X-Goog-Api-Key": key,
-        "X-Goog-FieldMask": "rating,userRatingCount,reviews",
-      },
-      next: { revalidate: 86400 }, // refresh once a day
-    });
-    if (!res.ok) {
-      console.error("Places API error:", res.status, await res.text());
-      return null;
-    }
-    const data = await res.json();
-    if (!data.rating || !data.userRatingCount) return null;
+function monthYear(date: string): string {
+  if (!date) return "";
+  const [y, m] = date.split("-");
+  const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  return `${months[Number(m) - 1] ?? ""} ${y}`.trim();
+}
 
-    const reviews: LiveReview[] = (data.reviews || [])
-      .filter((r: { text?: { text?: string } }) => r.text?.text)
-      .map((r: {
-        rating?: number;
-        text?: { text?: string };
-        authorAttribution?: { displayName?: string };
-        relativePublishTimeDescription?: string;
-        publishTime?: string;
-      }) => ({
-        author: r.authorAttribution?.displayName || "Google reviewer",
-        rating: Math.round(r.rating || 5),
-        text: r.text?.text || "",
-        when: r.relativePublishTimeDescription || "",
-        publishTime: r.publishTime,
-      }));
-
-    return { rating: data.rating, total: data.userRatingCount, reviews };
-  } catch (err) {
-    console.error("Failed to fetch Google reviews:", err);
-    return null;
-  }
+/**
+ * Real reviews, straight from our Google Business Profile. The data is synced
+ * daily by the reviews bot into content/reviews.json, so the totals here are
+ * always the live GBP numbers — no API key required at request time.
+ */
+function getGoogleReviews(): ReviewsData {
+  return {
+    rating: REVIEW_TOTALS.rating,
+    total: REVIEW_TOTALS.count,
+    reviews: REVIEWS.slice(0, SHOWN).map((r) => ({
+      author: r.author,
+      rating: r.rating,
+      text: r.text,
+      when: monthYear(r.date),
+      publishTime: r.date,
+    })),
+  };
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const data = await getGoogleReviews();
+  const data = getGoogleReviews();
   const ratingPart = data ? `${data.rating.toFixed(1)}-Star Rating` : "Customer Reviews";
   return {
     title: `Customer Reviews | ${ratingPart}`,
@@ -101,8 +77,8 @@ const breadcrumbSchema = {
   ],
 };
 
-export default async function ReviewsPage() {
-  const data = await getGoogleReviews();
+export default function ReviewsPage() {
+  const data = getGoogleReviews();
 
   // Build review/rating schema ONLY from real Google data.
   const reviewSchema = data
@@ -201,7 +177,7 @@ export default async function ReviewsPage() {
               ))}
             </div>
             <p style={{ fontSize: "13px", color: "var(--g500)", marginTop: "16px", textAlign: "center" }}>
-              Showing recent reviews from Google. See all {totalLabel} reviews on our{" "}
+              Showing our {data.reviews.length} most recent reviews. See all {totalLabel} on our{" "}
               <a href="https://www.google.com/search?q=Bucksworth+Home+Services+reviews" target="_blank" rel="noopener noreferrer" style={{ color: "var(--red)", textDecoration: "underline" }}>
                 Google Business Profile
               </a>.
