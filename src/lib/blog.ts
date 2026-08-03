@@ -109,10 +109,64 @@ export function getPosts(
   return { posts, total, totalPages };
 }
 
+/* ─────────────────────────────────────────────────────────────
+   Phone-number guard.
+
+   Blog copy was authored with several phone numbers that are DEAD LINES
+   (confirmed by Jordan, Aug 3 2026): (480) 485-9790, (602) 962-2879,
+   (480) 396-8881, (480) 485-9625, (480) 485-7078. 19 published posts told
+   readers to call a disconnected number.
+
+   Rather than patch 48MB of generated JSON once, every post is normalized on
+   read, so any future post the blog engine emits with a stale number is
+   corrected too. (877) 860-6020 is deliberately preserved — it's the real
+   Southwest Gas emergency line, correctly attributed in gas-line posts.
+   ───────────────────────────────────────────────────────────── */
+const PHX_PHONE = "(480) 422-8388";
+const TUC_PHONE = "(520) 284-9930";
+const DEAD_PHONES = [
+  "(480) 485-9790", "480-485-9790",
+  "(602) 962-2879", "602-962-2879",
+  "(480) 396-8881", "480-396-8881",
+  "(480) 485-9625", "480-485-9625",
+  "(480) 485-7078", "480-485-7078",
+];
+const TUCSON_CITIES = [
+  "tucson", "oro valley", "marana", "sahuarita", "vail",
+  "catalina foothills", "green valley", "corona de tucson",
+];
+
+function correctPhones(post: BlogPost): BlogPost {
+  const haystack = `${post.title ?? ""} ${post.content ?? ""}`;
+  if (!DEAD_PHONES.some((p) => haystack.includes(p))) return post;
+
+  const lower = `${post.slug ?? ""} ${post.title ?? ""}`.toLowerCase();
+  const correct = TUCSON_CITIES.some((c) => lower.includes(c)) ? TUC_PHONE : PHX_PHONE;
+
+  const fix = (v?: string) =>
+    v === undefined
+      ? v
+      : DEAD_PHONES.reduce(
+          (acc, dead) =>
+            acc.includes(dead)
+              ? acc.split(dead).join(dead.includes("(") ? correct : correct.replace("(", "").replace(") ", "-"))
+              : acc,
+          v,
+        );
+
+  return {
+    ...post,
+    title: fix(post.title) as string,
+    content: fix(post.content) as string,
+    excerpt: fix(post.excerpt) as string,
+  };
+}
+
 /** Fetch a single post by slug */
 export function getPostBySlug(slug: string): BlogPost | null {
   const data = loadData();
-  return data[slug] || null;
+  const post = data[slug];
+  return post ? correctPhones(post) : null;
 }
 
 /** Fetch all categories */
