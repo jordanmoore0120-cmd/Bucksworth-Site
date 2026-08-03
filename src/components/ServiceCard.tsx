@@ -60,8 +60,14 @@ export default function ServiceCard({
         </span>
       </button>
 
-      {isOpen && (
-        <div className="svc-card-body">
+      {/* Always rendered in HTML so crawlers see every city×service link.
+          Collapsed state is visual only (SEO fix: Aug 2026). */}
+      {(
+        <div
+          className="svc-card-body"
+          style={{ display: isOpen ? undefined : "none" }}
+          aria-hidden={!isOpen}
+        >
           <div className="svc-card-grid">
             {service.subServices.map((sub) => (
               <Link
