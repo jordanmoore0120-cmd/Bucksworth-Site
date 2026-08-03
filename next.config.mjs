@@ -135,7 +135,6 @@ const nextConfig = {
         { source: "/termite-inspections", destination: "/phoenix-az/pest-and-termite/termite-treatment", permanent: true },
         { source: "/yellow-jackets-pest-control", destination: "/phoenix-az/pest-and-termite/bee-wasp-removal", permanent: true },
         { source: "/commercial-refrigeration", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
-        { source: "/reviews", destination: "/", permanent: true },
         { source: "/hornet-pest-control", destination: "/phoenix-az/pest-and-termite/bee-wasp-removal", permanent: true },
         { source: "/scorpion-control", destination: "/phoenix-az/pest-and-termite/scorpion-control", permanent: true },
         { source: "/scorpion-pest-control", destination: "/phoenix-az/pest-and-termite/scorpion-control", permanent: true },

@@ -24,7 +24,7 @@ import { getRelatedBlogPosts } from "@/lib/blog-links";
 import CitySync from "@/components/CitySync";
 import OtherServices from "@/components/OtherServices";
 import ReviewsSection from "@/components/ReviewsSection";
-import { aggregateRating, tagForService } from "@/lib/reviews";
+import { aggregateRating, tagForService, REVIEW_TOTALS } from "@/lib/reviews";
 
 interface SubServicePageProps {
   params: Promise<{ city: string; service: string; subservice: string }>;
@@ -200,7 +200,9 @@ export default async function SubServicePage({
           </h1>
           <p className="city-hero-desc">{override?.heroDescription ?? sub.longDesc}</p>
           <div className="city-hero-badges">
-            <span className="city-hero-badge">&#9733; 4.8 Stars</span>
+            <Link href="/reviews" className="city-hero-badge city-hero-badge--link">
+              &#9733; {REVIEW_TOTALS.rating.toFixed(1)} Stars ({REVIEW_TOTALS.count.toLocaleString()} Reviews)
+            </Link>
             <span className="city-hero-badge">&#10003; Licensed &amp; Insured</span>
             <span className="city-hero-badge">&#9201; Same-Day Available</span>
             <span className="city-hero-badge">&#128176; Free Estimates</span>

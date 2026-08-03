@@ -2878,3 +2878,10 @@ img { max-width: 100%; height: auto; }
   margin-top: auto;
 }
 .review-author { font-weight: 700; color: var(--navy); }
+.city-hero-badge--link,
+.reviews-subhead-link {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.city-hero-badge--link:hover,
+.reviews-subhead-link:hover { color: var(--red); }
