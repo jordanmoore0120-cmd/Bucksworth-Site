@@ -148,6 +148,17 @@
    ]
   },
   {
+   "id": "1e47b07709db",
+   "author": "Josh Hathaway",
+   "rating": 5,
+   "text": "Colin was great!",
+   "date": "2026-07-15",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "d9d439011076",
    "author": "Drea Boles",
    "rating": 5,
@@ -164,6 +175,17 @@
    "rating": 5,
    "text": "Zachary did a great job. He was on time and took care of the house and garage.",
    "date": "2026-07-14",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "52ce2dc67a63",
+   "author": "Dena Finley",
+   "rating": 5,
+   "text": "Did a great job as usual!",
+   "date": "2026-07-13",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -448,6 +470,28 @@
    ]
   },
   {
+   "id": "b8cedfaf10a4",
+   "author": "Luis Camacho",
+   "rating": 5,
+   "text": "Casey P. did a wonderful job through Bucksworth during his visit for our pesticide service. Honestly probably one of the most thorough techs that have come service us. He was polite and went through the entire home making sure pesticide was applied everywhere, including spots we specifically wanted applied, and also skipped anything that we didn't want done. He went above and beyond and ensured spider webs were all removed as well etc. Overall, Casey has been the best tech, I think, that Bucksworth has sent. Thank you Casey!",
+   "date": "2026-05-20",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "d5c4e398c88b",
+   "author": "Tyler Sabey",
+   "rating": 5,
+   "text": "Zach was very kind and thorough.",
+   "date": "2026-05-20",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "f92ef315e178",
    "author": "Jay BM",
    "rating": 5,
@@ -456,6 +500,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "dfc85ba52a74",
+   "author": "Caleb H",
+   "rating": 5,
+   "text": "Nick is awesome!",
+   "date": "2026-05-19",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -508,6 +563,28 @@
    "rating": 5,
    "text": "Nick is the best. He alwasy takes the time to explain things and really breaks down concerns.",
    "date": "2026-05-09",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "a61d7ad37235",
+   "author": "cris",
+   "rating": 5,
+   "text": "Always a great experience",
+   "date": "2026-05-08",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "cbac1a4979ae",
+   "author": "Brandon Ramirez",
+   "rating": 5,
+   "text": "Company rocks and handled business.",
+   "date": "2026-05-07",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -591,6 +668,17 @@
    ]
   },
   {
+   "id": "5c57d2c90ac6",
+   "author": "Amy Serkland",
+   "rating": 5,
+   "text": "Always great service!!!!",
+   "date": "2026-04-24",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "af128edf1d5a",
    "author": "ACE",
    "rating": 5,
@@ -599,6 +687,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "174300169a20",
+   "author": "Ben Viramontez",
+   "rating": 5,
+   "text": "Thanks for a great job!",
+   "date": "2026-04-21",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -613,11 +712,33 @@
    ]
   },
   {
+   "id": "3b599be46aa9",
+   "author": "Ken",
+   "rating": 5,
+   "text": "Always polite and does a good job.",
+   "date": "2026-04-20",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "45a4ba5e6464",
    "author": "Steve Wilson",
    "rating": 5,
    "text": "Zachary was polite and friendly. Performed the service quickly and efficiently. Really appreciated.",
    "date": "2026-04-18",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "1bd7e1d54f60",
+   "author": "David Latimer",
+   "rating": 5,
+   "text": "Very professional, quick and efficient!",
+   "date": "2026-04-16",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -662,6 +783,28 @@
    "rating": 5,
    "text": "Chris went above and beyond. His communication was excellent and he did a superb job! Thank you Chris!",
    "date": "2026-04-15",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "4c2b670ac2fa",
+   "author": "\u5200\u9b5a",
+   "rating": 5,
+   "text": "Zach is very detail oriented",
+   "date": "2026-04-15",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "d8322793115f",
+   "author": "Antoinette Bruno",
+   "rating": 5,
+   "text": "Great customer service!",
+   "date": "2026-04-14",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -757,6 +900,39 @@
    ]
   },
   {
+   "id": "00c7cdd2728d",
+   "author": "Jen Baynham",
+   "rating": 5,
+   "text": "Very professional and courteous.",
+   "date": "2026-04-03",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "39ecc2f0f978",
+   "author": "Elizabeth Methvin",
+   "rating": 5,
+   "text": "Great detail to service.",
+   "date": "2026-04-02",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "1f0b2f172230",
+   "author": "Alyssa Shaw",
+   "rating": 4,
+   "text": "Nice technician. Took off shoes!!! \ud83d\ude00",
+   "date": "2026-04-02",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "0de801d657c4",
    "author": "T A",
    "rating": 5,
@@ -790,11 +966,77 @@
    ]
   },
   {
+   "id": "2e57ed8e7c37",
+   "author": "Tim Goshulak",
+   "rating": 5,
+   "text": "Zach did a great job!",
+   "date": "2026-03-25",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "2ebea338ff48",
    "author": "I Escudero",
    "rating": 5,
    "text": "Was very happy with services. On time. Nice gentlemen.",
    "date": "2026-03-21",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "a6c34ba5ea23",
+   "author": "Maria Bearg",
+   "rating": 5,
+   "text": "Very pleasant and does an amazing job",
+   "date": "2026-03-19",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "918d2cc170a6",
+   "author": "Emily Schmidl",
+   "rating": 5,
+   "text": "Very quick and efficient, friendly too!",
+   "date": "2026-03-19",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "ff1498d8b8bb",
+   "author": "Ray Bush",
+   "rating": 5,
+   "text": "Very nice and absolutely professional",
+   "date": "2026-03-19",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "99d7411a42ea",
+   "author": "Justin Nicholas",
+   "rating": 5,
+   "text": "Zachary was great",
+   "date": "2026-03-19",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "d8ff4ed31d97",
+   "author": "srinivasa reddy",
+   "rating": 5,
+   "text": "Chris did an excellent job",
+   "date": "2026-03-18",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -823,6 +1065,28 @@
    ]
   },
   {
+   "id": "1e9f2b6f1c65",
+   "author": "Joe McCall",
+   "rating": 5,
+   "text": "Great service from Casey, thanks!",
+   "date": "2026-03-17",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "b4c566459454",
+   "author": "Taylor Hopp",
+   "rating": 5,
+   "text": "Casey was great",
+   "date": "2026-03-17",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "2b20df326534",
    "author": "kevin zanellato",
    "rating": 5,
@@ -831,6 +1095,18 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "2bb9fbd3ba8d",
+   "author": "James Hurst",
+   "rating": 5,
+   "text": "We\u2019ve been using Bucksworth pest and weed control for about 5 years now. They always provide to notch service, but what I really appreciate the most is the communication aspect of their business. They keep you updated with text message alerts of when your is scheduled and they even give you a shorter time window on the day of your service which really helps you schedule your day around the service. There has been times I had to reschedule due to certain events, and they were very flexible and accommodating to that which I really appreciate. All around, Bucksworth is a top notch well ran business. Reliable Service and customer care all around. That\u2019s really hard to find these days.",
+   "date": "2026-03-13",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "weed"
    ]
   },
   {
@@ -853,6 +1129,28 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "ce344cc31233",
+   "author": "gabriel felix",
+   "rating": 5,
+   "text": "Thank you for the great service",
+   "date": "2026-03-12",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "bd73d77bf3f3",
+   "author": "Shane Winans",
+   "rating": 5,
+   "text": "Always great service!",
+   "date": "2026-03-09",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -933,6 +1231,28 @@
    ]
   },
   {
+   "id": "41adcd007dcf",
+   "author": "Ranga Yegateli",
+   "rating": 5,
+   "text": "Very clean and professional",
+   "date": "2026-02-19",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "b90daed160c9",
+   "author": "Trevor Maness",
+   "rating": 5,
+   "text": "Fast and great service!",
+   "date": "2026-02-13",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "ad253cdd8a84",
    "author": "Jeff Wong",
    "rating": 5,
@@ -959,6 +1279,17 @@
    "author": "Erin Morales",
    "rating": 5,
    "text": "Tech was very polite and thorough. He was very patient while I put my noisy dog away. Very happy with our service.",
+   "date": "2026-02-04",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "c6ecc5fcde3c",
+   "author": "Ryan Ferrell",
+   "rating": 5,
+   "text": "Great job and very thorough!",
    "date": "2026-02-04",
    "branch": "phoenix",
    "tags": [
@@ -1029,6 +1360,17 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "d6f56e7617c6",
+   "author": "Emma Sabey",
+   "rating": 5,
+   "text": "They\u2019ve been awesome! Casey is great!",
+   "date": "2026-01-15",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -1265,6 +1607,17 @@
    ]
   },
   {
+   "id": "23f99552f8e2",
+   "author": "Chris Murray",
+   "rating": 5,
+   "text": "Great work as usual",
+   "date": "2025-10-24",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "9e756c115b53",
    "author": "Denise Artist",
    "rating": 5,
@@ -1281,6 +1634,17 @@
    "rating": 5,
    "text": "Very friendly and professional showed up on time",
    "date": "2025-10-18",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "27e4ae287be8",
+   "author": "Chris H",
+   "rating": 5,
+   "text": "Great service and always professional!!",
+   "date": "2025-10-16",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -1331,6 +1695,17 @@
    ]
   },
   {
+   "id": "6a2b8a8b9bdf",
+   "author": "Lisa Yttri",
+   "rating": 5,
+   "text": "Chris was very thorough and helpful.",
+   "date": "2025-09-29",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "fdbb6b6e16d6",
    "author": "Jason Cox",
    "rating": 5,
@@ -1350,6 +1725,17 @@
    "branch": "phoenix",
    "tags": [
     "weed"
+   ]
+  },
+  {
+   "id": "711f4c2b1c80",
+   "author": "Nate",
+   "rating": 5,
+   "text": "On time and professional!",
+   "date": "2025-09-29",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -1375,6 +1761,28 @@
    ]
   },
   {
+   "id": "727539addeb2",
+   "author": "Debra Stanton",
+   "rating": 5,
+   "text": "Arrived early and was very thorough!",
+   "date": "2025-09-22",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "b38d83fcbf3e",
+   "author": "Yvonne Hendrickson",
+   "rating": 5,
+   "text": "Very thorough... friendly.",
+   "date": "2025-09-16",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "ea94099a70d5",
    "author": "Sonia Stamatopoulos",
    "rating": 5,
@@ -1394,6 +1802,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "f6f991cb8bf0",
+   "author": "Bryce and Keerti Taute",
+   "rating": 5,
+   "text": "Great company. Will use again.",
+   "date": "2025-09-11",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -1464,6 +1883,17 @@
    ]
   },
   {
+   "id": "d56e36a239da",
+   "author": "Kevin Anton",
+   "rating": 5,
+   "text": "Wonderful team to work with.",
+   "date": "2025-08-29",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "71de649d165d",
    "author": "Lisa Roark",
    "rating": 5,
@@ -1472,6 +1902,28 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "e216930729b0",
+   "author": "Jose Perez",
+   "rating": 5,
+   "text": "Excellent service",
+   "date": "2025-08-27",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "b350ff4da166",
+   "author": "Joel Rosado",
+   "rating": 5,
+   "text": "Great service. Good products!!",
+   "date": "2025-08-25",
+   "branch": "phoenix",
+   "tags": [
+    "ac"
    ]
   },
   {
@@ -1505,6 +1957,17 @@
    "branch": "phoenix",
    "tags": [
     "weed"
+   ]
+  },
+  {
+   "id": "7c95e4ff834b",
+   "author": "Maria Torres",
+   "rating": 3,
+   "text": "The representative was nice and did a good job. I\u2019m not happy that the price went up .",
+   "date": "2025-08-20",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -1558,6 +2021,18 @@
    "rating": 5,
    "text": "As usual, your professional bug assassin did a great job of ridding my yard of creepy crawlies. He was friendly, accommodating and did a thorough job, just like all of your other techs have been over the last few years. Keep up the great work. Thanks!!",
    "date": "2025-08-06",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "weed"
+   ]
+  },
+  {
+   "id": "28f798715885",
+   "author": "S H",
+   "rating": 5,
+   "text": "I have been using Bucksworth for my yard for a while now. I initially started using their service because I needed yard work done immediately after purchasing my home as the old owner didn't keep up with it very well due to advanced age, and the HOA was breathing down my neck about it. They came within a couple of days to perform the yard service and I've been using them since. I'm always impressed by their professionalism, timely service, and quality. There is not much to complain about and their staff are friendly and good at their jobs as always.",
+   "date": "2025-08-05",
    "branch": "phoenix",
    "tags": [
     "pest",
@@ -1666,6 +2141,17 @@
    ]
   },
   {
+   "id": "0a7cb4cfdba2",
+   "author": "Frank Rinchiuso Jr",
+   "rating": 5,
+   "text": "Today was our 2nd treatment with Zachary. The tech was very knowledgeable in the industry and gave us so many pointers on what we can do to keep going bug free outside and inside. I mean who knew bugs can get in through the crack on a screen door where they assemble them. Zachary took the time to explain everything very thoroughly. Thankfully none inside. Huge shout out to the tech for his hard work and dedication with tons of knowledge. If y'all need a GREAT bug company dont hesitate to reach out!! You won't be disappointed. Thank you Zachary and Bucksworth!!",
+   "date": "2025-06-21",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
    "id": "628950f09dd2",
    "author": "Jason Armstrong",
    "rating": 5,
@@ -1755,6 +2241,17 @@
    ]
   },
   {
+   "id": "0c7be7bb07a2",
+   "author": "Joshua Stokes",
+   "rating": 5,
+   "text": "Family style service",
+   "date": "2025-05-28",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "d72abfa41853",
    "author": "Clayton Nicholson",
    "rating": 5,
@@ -1777,11 +2274,33 @@
    ]
   },
   {
+   "id": "faaf02c78524",
+   "author": "Darlene Powell",
+   "rating": 5,
+   "text": "Timely and professional service!",
+   "date": "2025-05-27",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "0b076959d388",
    "author": "Donald Sechrest",
    "rating": 5,
    "text": "Great service. Never have any issues with them.",
    "date": "2025-05-27",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "043448b36507",
+   "author": "Tim Fitz",
+   "rating": 5,
+   "text": "Good communication and service.",
+   "date": "2025-05-26",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -1848,6 +2367,28 @@
    "rating": 5,
    "text": "We have had Buckworth for close to 4 years and love them. Each employee has always been happy to answer all my questions and help provide a solution. We live in more of a rural area so pest control is a must. Buckworths services always lasted us a few months and any time I needed them again for whatever reason they came asap. We definitely recommend them and will continue to choose them when it comes to pest control services. Thank you Bucksworth!!!",
    "date": "2025-05-19",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "e8b2eab3c593",
+   "author": "Andrew Troendle",
+   "rating": 5,
+   "text": "Great service fast and professional",
+   "date": "2025-05-15",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "6cfe2897d8b6",
+   "author": "Michael Ferrington",
+   "rating": 5,
+   "text": "Good service and haven't had pests",
+   "date": "2025-05-13",
    "branch": "phoenix",
    "tags": [
     "pest"
@@ -1931,6 +2472,17 @@
    ]
   },
   {
+   "id": "cb11f3993be0",
+   "author": "Cj Mitchell",
+   "rating": 5,
+   "text": "Excellent and efficient and polite",
+   "date": "2025-05-01",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "9c739c4a88e2",
    "author": "Jeanne Justice",
    "rating": 5,
@@ -1950,6 +2502,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "4613fa626c00",
+   "author": "Kim Christensen",
+   "rating": 2,
+   "text": "Was not happy that the service window is 8:00 am to 8:00 pm . Seems unreasonable . You know your techs schedule . After calling at 1:30 pm to find out when the technician was going to show up - I received a text that he would be there in 30 min . Why an 8 hr window and how can they show up so quick after I call ?",
+   "date": "2025-04-24",
+   "branch": "tucson",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -2005,6 +2568,29 @@
    "branch": "tucson",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "2340dba554e3",
+   "author": "Sir Nick",
+   "rating": 5,
+   "text": "Been using this company going on 3+ years. Took over for another company and they were able to grandfather in my old plan and services. They are thorough, they clean any cobwebs, they add powder as well as spray. I have yet to have a single ant, spider, scorpion, earwig...etc... in my house or yard. Now only if they can figure out how to get rid of mosquitoes \ud83d\ude02 They are prompt, they send updates and overly communicate in a good way. Techs always answer the phones and are courteous and speak well. No complaints at all. Nick.",
+   "date": "2025-04-04",
+   "branch": "tucson",
+   "tags": [
+    "pest",
+    "weed"
+   ]
+  },
+  {
+   "id": "e7e3b7fbdde7",
+   "author": "perla pasillas",
+   "rating": 5,
+   "text": "excellent servicr",
+   "date": "2025-04-04",
+   "branch": "tucson",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -2072,6 +2658,17 @@
    "branch": "tucson",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "261ddc8bcef0",
+   "author": "matrixbikes",
+   "rating": 5,
+   "text": "Ryan awesome. Great service! Thank you!",
+   "date": "2025-03-22",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -2152,6 +2749,17 @@
    ]
   },
   {
+   "id": "5c68e02b738c",
+   "author": "karl",
+   "rating": 4,
+   "text": "Quick, friendly and efficient. thanks",
+   "date": "2025-03-13",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "fc1ca3291502",
    "author": "Becca Krause",
    "rating": 5,
@@ -2197,6 +2805,17 @@
    ]
   },
   {
+   "id": "a04d45f8ac9c",
+   "author": "Rip Ramsey",
+   "rating": 5,
+   "text": "Matt did a great job again",
+   "date": "2025-02-20",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "c8cb3bff90f4",
    "author": "Kevin Stone",
    "rating": 5,
@@ -2212,6 +2831,17 @@
    "author": "Richard Manerd",
    "rating": 5,
    "text": "Your employe was very busy taking care of the problem we have and he was very nice and PR aware thank you",
+   "date": "2025-02-17",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "19b8db01f929",
+   "author": "Steven Morales",
+   "rating": 5,
+   "text": "On time. Polite , efficent.",
    "date": "2025-02-17",
    "branch": "tucson",
    "tags": [
@@ -2238,6 +2868,28 @@
    "branch": "tucson",
    "tags": [
     "weed"
+   ]
+  },
+  {
+   "id": "b7f1adf6a080",
+   "author": "Sarah Sweet",
+   "rating": 5,
+   "text": "Excellent service each time!",
+   "date": "2025-02-13",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "c7d768be9d54",
+   "author": "Vickie Sid",
+   "rating": 5,
+   "text": "I recently used Bucksworth Home Services for pest control services, and I couldn\u2019t be more satisfied. From the initial consultation to the treatment, their team was professional, knowledgeable, and thorough. The technician who handled my service took the time to explain the process and answered all my questions. They arrived on time and worked efficiently and insured my home was treated safely and effectively. I highly recommend Bucksworth Home Services. Their experts and attention to detail and excellent customer service truly shut them apart.",
+   "date": "2025-02-12",
+   "branch": "tucson",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -2342,6 +2994,17 @@
    ]
   },
   {
+   "id": "0ab9f42384ac",
+   "author": "John Garner",
+   "rating": 5,
+   "text": "Thumbs up. Great service.",
+   "date": "2025-01-20",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "55703c8b38f8",
    "author": "Ana Isabel Hernandez",
    "rating": 5,
@@ -2403,6 +3066,17 @@
    "text": "Always a professional job and care of my home.as it was there's",
    "date": "2025-01-11",
    "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "d5f4f6e44756",
+   "author": "Rikki McDonald",
+   "rating": 5,
+   "text": "Quick efficient. Good customer service",
+   "date": "2025-01-11",
+   "branch": "tucson",
    "tags": [
     "general"
    ]
@@ -2496,6 +3170,17 @@
    ]
   },
   {
+   "id": "b246c94db8e1",
+   "author": "dave rowe",
+   "rating": 5,
+   "text": "Always very professional",
+   "date": "2025-01-02",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "43beb5ab30a5",
    "author": "Eun Hee Cho",
    "rating": 5,
@@ -2504,6 +3189,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "de5f455bacf7",
+   "author": "Teri Miller",
+   "rating": 4,
+   "text": "Everything was great",
+   "date": "2024-12-30",
+   "branch": "tucson",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -2559,6 +3255,28 @@
    "branch": "tucson",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "a9e4494c2332",
+   "author": "Katie Dixson",
+   "rating": 5,
+   "text": "Great company with great service!",
+   "date": "2024-12-20",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "57d3d82052d2",
+   "author": "Dan O'Brien",
+   "rating": 5,
+   "text": "Great product and last a long time!",
+   "date": "2024-12-20",
+   "branch": "tucson",
+   "tags": [
+    "ac"
    ]
   },
   {
@@ -2783,6 +3501,18 @@
    ]
   },
   {
+   "id": "355c489c1ac4",
+   "author": "Priscilla Haushalter",
+   "rating": 5,
+   "text": "Very good I have had no weeds or bugs.",
+   "date": "2024-10-29",
+   "branch": "tucson",
+   "tags": [
+    "pest",
+    "weed"
+   ]
+  },
+  {
    "id": "1c1146a26abe",
    "author": "Nicole Dearing",
    "rating": 5,
@@ -2836,6 +3566,18 @@
    "branch": "tucson",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "13c5dd6ca02e",
+   "author": "Robin Freund",
+   "rating": 2,
+   "text": "I'm not as satisfied as usual. The spider webs were not cleaned out of our pergola, the weed and pest control is one spray? Normal king the bug spray is one application and weed another. Just seems like cutting corners!!",
+   "date": "2024-10-21",
+   "branch": "tucson",
+   "tags": [
+    "pest",
+    "weed"
    ]
   },
   {
@@ -2905,12 +3647,56 @@
    ]
   },
   {
+   "id": "382b23cc9a07",
+   "author": "parame101",
+   "rating": 5,
+   "text": "Looking for an inspection company, family own that services my area. From the first call until service was completed it nothing short of outstanding. My tech who came out was named chuck A very friendly and pleasant person to talk to. He respected my home as he carried out his duties. Not to mention, the company stayed in contact with me and send reminders about my appointment date and time. So many good things to say. But the main things are. Arrived on time. Completed the work at a very reasonable price. Good tech and support staff. So try them out and you won\u2019t be disappointed.",
+   "date": "2024-10-10",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "6254fbe290a0",
+   "author": "Gary Radziwon",
+   "rating": 5,
+   "text": "Ryan did a great job! Thank you.",
+   "date": "2024-10-10",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "82cef7b5bceb",
    "author": "Jerry Farmer",
    "rating": 5,
    "text": "The techs are always friendly and accommodating and provide a great service.",
    "date": "2024-10-09",
    "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "042fdeb546c2",
+   "author": "Jorge Neyra",
+   "rating": 5,
+   "text": "Excellent professional Service",
+   "date": "2024-10-09",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "c1125aae2ae5",
+   "author": "Dave Kennedy",
+   "rating": 5,
+   "text": "On time great service",
+   "date": "2024-10-09",
+   "branch": "tucson",
    "tags": [
     "general"
    ]
@@ -3049,6 +3835,17 @@
    ]
   },
   {
+   "id": "9d30ca25b9b0",
+   "author": "Donald Towles",
+   "rating": 5,
+   "text": "Great service!! Went above and beyond!!",
+   "date": "2024-09-24",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "3406bbb2524a",
    "author": "Janet Richardson",
    "rating": 5,
@@ -3057,6 +3854,17 @@
    "branch": "tucson",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "63d05ebf892f",
+   "author": "Rebecca Hall",
+   "rating": 5,
+   "text": "Always accomadating and thorough.",
+   "date": "2024-09-23",
+   "branch": "tucson",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -3080,6 +3888,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "549e000ad9b2",
+   "author": "matthew dibenedetto",
+   "rating": 5,
+   "text": "Buck is the best!",
+   "date": "2024-09-20",
+   "branch": "tucson",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -3216,6 +4035,17 @@
    ]
   },
   {
+   "id": "81b977b89576",
+   "author": "Joe Torres",
+   "rating": 5,
+   "text": "Great for the last three years",
+   "date": "2024-09-04",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "9d66b4019a1f",
    "author": "Marie McNally",
    "rating": 5,
@@ -3329,6 +4159,18 @@
    ]
   },
   {
+   "id": "53d60b827bcc",
+   "author": "Tace Herman",
+   "rating": 5,
+   "text": "Hands down the best HVAC company I\u2019ve ever dealt with. I was in a tough spot with an old system and a home warranty company that was everything but helpful. Tim explained many options that were way better priced than competitors and made sense to me. No pushy upselling. Jordan, the owner, was extremely friendly and helpful. The work was clean and the entire system runs perfect. It\u2019s really hard to find a trustworthy HVAC company anymore that will stand behind their work. Bucksworth is that company for me now. I wouldn\u2019t use anyone else at this point.",
+   "date": "2024-08-23",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "ac"
+   ]
+  },
+  {
    "id": "f124a16537af",
    "author": "Kelly Willis",
    "rating": 5,
@@ -3381,6 +4223,17 @@
    "branch": "tucson",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "3e839d46735a",
+   "author": "Augustine Jones",
+   "rating": 5,
+   "text": "The service was excellient.",
+   "date": "2024-08-20",
+   "branch": "tucson",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -3483,6 +4336,17 @@
    ]
   },
   {
+   "id": "388f1bf58028",
+   "author": "SPOY BOYS",
+   "rating": 5,
+   "text": "Always on time and very respectful.",
+   "date": "2024-08-08",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "6f5256bfe101",
    "author": "Tony Deleon",
    "rating": 5,
@@ -3510,6 +4374,28 @@
    "rating": 5,
    "text": "Excellent service & friendly!! I\u2019m very happy with this company!",
    "date": "2024-08-06",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "db03be1b59d6",
+   "author": "Ron Alfonso",
+   "rating": 5,
+   "text": "Service has been great with no hassles",
+   "date": "2024-08-06",
+   "branch": "tucson",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "68d44192dadd",
+   "author": "Gary Burgess",
+   "rating": 5,
+   "text": "Dependable and fair price",
+   "date": "2024-08-05",
    "branch": "tucson",
    "tags": [
     "general"
@@ -3649,6 +4535,17 @@
    ]
   },
   {
+   "id": "917f6d3d43a8",
+   "author": "Mark Ketchum",
+   "rating": 5,
+   "text": "Always great service and response",
+   "date": "2024-07-19",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "cdde6f19837b",
    "author": "merritt cole",
    "rating": 5,
@@ -3698,6 +4595,28 @@
    "rating": 5,
    "text": "Amazing service! They were able to fit me in immediately and everyone is so nice!",
    "date": "2024-07-04",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "d25d63ecfbfd",
+   "author": "Becky McGrath",
+   "rating": 5,
+   "text": "Max does a great job!! Thank you!",
+   "date": "2024-07-01",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "5f5eb3ed30c7",
+   "author": "Josephine P Anders",
+   "rating": 5,
+   "text": "Great service and very nice people.",
+   "date": "2024-07-01",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -3771,6 +4690,29 @@
    ]
   },
   {
+   "id": "1bd64c9e513e",
+   "author": "Barb Black",
+   "rating": 5,
+   "text": "Very friendly and professional.",
+   "date": "2024-06-18",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "bafce2f8f971",
+   "author": "Dan O'Brien",
+   "rating": 5,
+   "text": "Good product no weeds since February",
+   "date": "2024-06-18",
+   "branch": "phoenix",
+   "tags": [
+    "weed",
+    "ac"
+   ]
+  },
+  {
    "id": "f250205e4d78",
    "author": "Chuck Lines",
    "rating": 5,
@@ -3793,12 +4735,34 @@
    ]
   },
   {
+   "id": "13f4f2f106bf",
+   "author": "perla pasillas",
+   "rating": 5,
+   "text": "Friendly and very professional.",
+   "date": "2024-06-12",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "add35c4d0d7e",
    "author": "Donna Deimler",
    "rating": 5,
    "text": "I have been very pleased with the service from Buckworths. They are very prompt and pleasant and take care of any concerns I might have.",
    "date": "2024-06-01",
    "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "fad3a991a360",
+   "author": "Purdie Films",
+   "rating": 5,
+   "text": "We had Bucksworth come to our office to take care of some creepy crawlies and their technician was very informative. Gave us all the low down on these creatures, as he sprayed inside and out. He was like a ghostbuster--gear pack on and everything. We called the office to book a monthly followup and the woman on the phone was quick and easy to talk with--I kinda wanted to ask her out, she was so cute. Great customer service and communication with both of these people. They make it easy and painless for us.",
+   "date": "2024-06-01",
+   "branch": "tucson",
    "tags": [
     "pest"
    ]
@@ -4015,6 +4979,17 @@
    ]
   },
   {
+   "id": "898a59fff4db",
+   "author": "Jen Murrweiss",
+   "rating": 5,
+   "text": "Great job as always!",
+   "date": "2024-03-11",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "95cdc6d4c21e",
    "author": "Michael Weisbrod",
    "rating": 5,
@@ -4134,6 +5109,17 @@
    "branch": "tucson",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "cc229a5dc84c",
+   "author": "Ruben Alderete",
+   "rating": 5,
+   "text": "I enjoyed the professionalism of Randy, he showed up and explained what he will be accomplishing with the companies first visit at our home. I was provided information on what to expect in the next few days from the weed spray coverage that he had applied. He answered additional questions I had about the weed control, and their services. When I originally contacted the office, EJ assisted me and provided a quote immediately. He was professional and was able to get services to my home within 72 hours. It was a great experience working with the company.",
+   "date": "2024-02-29",
+   "branch": "phoenix",
+   "tags": [
+    "weed"
    ]
   },
   {
@@ -4393,6 +5379,17 @@
    ]
   },
   {
+   "id": "eec2b097fa27",
+   "author": "Elaine Clark",
+   "rating": 5,
+   "text": "Very satisfied with the service.",
+   "date": "2024-02-20",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "bf5fde961188",
    "author": "Jessica Ralls",
    "rating": 5,
@@ -4438,6 +5435,28 @@
    ]
   },
   {
+   "id": "8e50164a1040",
+   "author": "Kevin Oconnor",
+   "rating": 5,
+   "text": "Jorge was great. Very communicative.",
+   "date": "2024-02-16",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "0ac48332b879",
+   "author": "Jennifer Brown",
+   "rating": 5,
+   "text": "Very easy to work with!",
+   "date": "2024-02-16",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "4911b3f6d6e6",
    "author": "Michael Clark",
    "rating": 5,
@@ -4464,6 +5483,17 @@
    "author": "Mike Eggers",
    "rating": 5,
    "text": "Very professional. Very informational on what I need to do. Very punctual on their When they would be there.",
+   "date": "2024-02-15",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "26529e633d5f",
+   "author": "Arlene Erickson",
+   "rating": 5,
+   "text": "Great service and communication",
    "date": "2024-02-15",
    "branch": "tucson",
    "tags": [
@@ -4592,6 +5622,17 @@
    ]
   },
   {
+   "id": "bf36915e7536",
+   "author": "James Puzzo",
+   "rating": 5,
+   "text": "Good service very thorough",
+   "date": "2024-02-13",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "f7b28917ddf8",
    "author": "Barry Slade",
    "rating": 5,
@@ -4625,6 +5666,17 @@
    ]
   },
   {
+   "id": "75ac1a3c18c9",
+   "author": "Ruben Duran",
+   "rating": 5,
+   "text": "Friendly and professional",
+   "date": "2024-02-10",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "95639b2c6d29",
    "author": "Mick Mick",
    "rating": 5,
@@ -4645,6 +5697,28 @@
    "branch": "tucson",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "b5dda5f42c66",
+   "author": "Candace Hendrix",
+   "rating": 5,
+   "text": "Ryan is awesome, very thorough!",
+   "date": "2024-02-08",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "8c70aef0316f",
+   "author": "Gary Custer",
+   "rating": 5,
+   "text": "Good job well done and thanks.",
+   "date": "2024-02-08",
+   "branch": "tucson",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -4689,6 +5763,17 @@
    "branch": "phoenix",
    "tags": [
     "ac"
+   ]
+  },
+  {
+   "id": "466f3895d512",
+   "author": "Gaile Tiquia",
+   "rating": 5,
+   "text": "Recently purchased a new built home next to a cotton field so bugs and cockroaches has been a problem since we moved in. Called Bucksworth as recommended by a friend. They are easy to work with when it comes to schedule, my husband got covid days before our scheduled appt and they were very flexible and worked with us. We had EJ, the manager come out for the first time to spray the exterior of our home and we had Jorge come out 3 days after to spray the interior. Satisfied customer so far! We already saw a bunch of dead insects.",
+   "date": "2024-02-05",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -4791,6 +5876,17 @@
    ]
   },
   {
+   "id": "ccb157f96f8c",
+   "author": "Andrea Cade",
+   "rating": 5,
+   "text": "Randy did a great job!",
+   "date": "2024-02-02",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "650696424d7e",
    "author": "Gene Katzorke",
    "rating": 5,
@@ -4865,6 +5961,17 @@
    "branch": "phoenix",
    "tags": [
     "weed"
+   ]
+  },
+  {
+   "id": "0a16c66f3248",
+   "author": "Anil",
+   "rating": 5,
+   "text": "Thank you Matt :)",
+   "date": "2024-01-27",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -4956,6 +6063,17 @@
    ]
   },
   {
+   "id": "1af7fb8acdff",
+   "author": "Melanie Green",
+   "rating": 3,
+   "text": "Mike was great and had good solutions for us. **Update: 01/26- Mike stated we would receive two bait stations but he has not returned with them and there was no follow up from the company.",
+   "date": "2024-01-12",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "9d681c558e98",
    "author": "Keren Valentin",
    "rating": 5,
@@ -5034,6 +6152,17 @@
    ]
   },
   {
+   "id": "9b41a64f95b5",
+   "author": "Rudy Cuevas",
+   "rating": 5,
+   "text": "They always fast and friendly.",
+   "date": "2023-12-20",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "df0280004cd6",
    "author": "Felipe Luna",
    "rating": 5,
@@ -5073,6 +6202,17 @@
    "rating": 5,
    "text": "They always do a great job. Haven\u2019t seen a scorpion in four years!!",
    "date": "2023-12-19",
+   "branch": "tucson",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "481aa7a15e4c",
+   "author": "Marilyn Schneider",
+   "rating": 3,
+   "text": "Made my appointment, sent text confirmation the day before , I called to remind them to check for termites and get informed they have nothing scheduled for that day (they put it out 2 weeks without notifying me). Did ok job and didn't knock my solar lights over this time.",
+   "date": "2023-12-18",
    "branch": "tucson",
    "tags": [
     "pest"
@@ -5266,6 +6406,17 @@
    ]
   },
   {
+   "id": "01ef68d9d1bf",
+   "author": "Connor Stieglitz",
+   "rating": 2,
+   "text": "Called to get a weed removal scheduled. When that day came they never showed and sent me a random text that said it was rescheduled for two weeks later. When I called to cancel they were very nice and apologetic though. Not sure what happened but I was able to get the job done either way.",
+   "date": "2023-12-07",
+   "branch": "phoenix",
+   "tags": [
+    "weed"
+   ]
+  },
+  {
    "id": "3ef48229689d",
    "author": "Emily Neumann",
    "rating": 5,
@@ -5385,6 +6536,17 @@
    "branch": "phoenix",
    "tags": [
     "weed"
+   ]
+  },
+  {
+   "id": "4a2296f40378",
+   "author": "Denise (denise_artist)",
+   "rating": 5,
+   "text": "Reliable service, courteous workers.",
+   "date": "2023-12-02",
+   "branch": "tucson",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -5542,6 +6704,17 @@
    ]
   },
   {
+   "id": "b71afb90ee8d",
+   "author": "Susan Ebey",
+   "rating": 5,
+   "text": "We were very happy with the service",
+   "date": "2023-11-21",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "47a38bf0e5e2",
    "author": "Luis Angel",
    "rating": 5,
@@ -5630,6 +6803,17 @@
    ]
   },
   {
+   "id": "15c9505e21c9",
+   "author": "Bob Yee",
+   "rating": 5,
+   "text": "Punctual friendly professional service.",
+   "date": "2023-11-17",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "884cdd88e4a1",
    "author": "Codi Lockhart",
    "rating": 5,
@@ -5708,6 +6892,17 @@
    ]
   },
   {
+   "id": "71e003d1ecf1",
+   "author": "Cristina Torres",
+   "rating": 5,
+   "text": "Excellent service!",
+   "date": "2023-11-11",
+   "branch": "tucson",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "cc61c77eded4",
    "author": "Claudia Caro",
    "rating": 5,
@@ -5760,6 +6955,17 @@
    "branch": "tucson",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "7feb7fd6110f",
+   "author": "Nick Betti",
+   "rating": 5,
+   "text": "Excellent service. Always Professional.",
+   "date": "2023-11-03",
+   "branch": "tucson",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -5921,6 +7127,17 @@
    ]
   },
   {
+   "id": "8be3f7f784d0",
+   "author": "courtney Droke",
+   "rating": 5,
+   "text": "Great company recommend them!",
+   "date": "2023-10-23",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "d6cdf94a7650",
    "author": "Sandie Zeiner",
    "rating": 5,
@@ -6009,6 +7226,17 @@
    ]
   },
   {
+   "id": "29385c6a09b6",
+   "author": "natalie kratz",
+   "rating": 5,
+   "text": "We love EJ he does the best job!",
+   "date": "2023-10-11",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "8dfeb23bdc53",
    "author": "Gunnar Chiesa",
    "rating": 5,
@@ -6086,10 +7314,32 @@
    ]
   },
   {
+   "id": "01b822e946d8",
+   "author": "Shirley Ripp",
+   "rating": 5,
+   "text": "Bimonthly service",
+   "date": "2023-10-06",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "a50559907b9c",
    "author": "Pam Pollack",
    "rating": 5,
    "text": "The technician was on time, personable, asked, good questions, worked efficiently, and gave me a quick overview of what was done. I will definitely be using them again!",
+   "date": "2023-10-05",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "af7886118e74",
+   "author": "Michael Hicks",
+   "rating": 5,
+   "text": "always doing a great job !",
    "date": "2023-10-05",
    "branch": "phoenix",
    "tags": [
@@ -6148,6 +7398,17 @@
    "rating": 5,
    "text": "They were very quick to respond, got here on time and did great work. Very pleased!! Thank you so much!",
    "date": "2023-09-29",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "4c912f0a9614",
+   "author": "Donna Marshall",
+   "rating": 5,
+   "text": "Great service and professional",
+   "date": "2023-09-28",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -6220,6 +7481,17 @@
    ]
   },
   {
+   "id": "c3c61686f878",
+   "author": "patty k",
+   "rating": 5,
+   "text": "Went over and above to help us.",
+   "date": "2023-09-26",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "034cee41b12b",
    "author": "Norman Trueblood",
    "rating": 5,
@@ -6262,6 +7534,18 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "e54bf5a93014",
+   "author": "Stela Record",
+   "rating": 5,
+   "text": "We've worked with these good folks for at least two years now. They have even followed us to our new home! They show up when they say they will, they are super responsive when we have specific needs or issues and their team is polite and professional and always very friendly. They stay in touch so we always know when to expect them. They have always been careful with our dogs to make sure they stay in the yard. I have been very pleased with the service they provide and I feel that they are great value for the service they provide.",
+   "date": "2023-09-21",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "weed"
    ]
   },
   {
@@ -6328,6 +7612,17 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "a4650f62ce99",
+   "author": "Katherine Brower",
+   "rating": 5,
+   "text": "I called Bucksworth due to me finding a rattlesnake in my garage the night before. I just didn't feel safe and wanted a inspection done to make sure there were no more rattlesnakes. They did more then what I expected I figured they were just coming out to inspect but no they put stuff down to keep them away etc. All the other places I called just to get an inspection done was over $200. I Highly recommend Bucksworth they went above and beyond to help me, and for a fair price $75 . Thank you to much John Moore and the Scheduler who answered my call.",
+   "date": "2023-09-15",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -6442,6 +7737,17 @@
    ]
   },
   {
+   "id": "888198615b97",
+   "author": "Dave Samek",
+   "rating": 5,
+   "text": "Cody is awesome. Very thorough.",
+   "date": "2023-09-04",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "d97d2d6544b5",
    "author": "Jeffrey Schoolcraft",
    "rating": 5,
@@ -6541,11 +7847,44 @@
    ]
   },
   {
+   "id": "4a006a169ce4",
+   "author": "Faiza Shaikh",
+   "rating": 5,
+   "text": "Satisfied with ur services",
+   "date": "2023-08-31",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "46c7a75fb66e",
    "author": "Nicole Bowman",
    "rating": 5,
    "text": "Great as always!! Corey and Jorge were very kind, and professional",
    "date": "2023-08-31",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "4bc65c416677",
+   "author": "Melissa",
+   "rating": 5,
+   "text": "Updated on 5/06/2026 Had a very thorough service done again by Bucksworth. I love how friendly the service professionals are & the level of communication. Well done Chris Joplin. We still use Bucksworth Services for our pest control & we\u2019re very happy with the results. The technicians that come are always very polite, friendly & knowledgeable. We are happy to continue with this company. Very professional & friendly. Have been using Bucksworth for a few years & have been happy. If we see any bugs between visits, they immediately come & retreat our home. You can\u2019t beat that kind of customer service.",
+   "date": "2023-08-30",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "d202bdc5f047",
+   "author": "Srinivasa Reddy",
+   "rating": 5,
+   "text": "The service is excellent",
+   "date": "2023-08-29",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -6662,6 +8001,17 @@
    ]
   },
   {
+   "id": "82f0e5e8b71b",
+   "author": "Brianna Moreno",
+   "rating": 5,
+   "text": "Always such a good experience with them",
+   "date": "2023-08-21",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "46bc7d273e2b",
    "author": "Nicole B",
    "rating": 5,
@@ -6706,6 +8056,17 @@
    ]
   },
   {
+   "id": "c3084bb2293c",
+   "author": "Heather T",
+   "rating": 5,
+   "text": "Great experience and friendly service!",
+   "date": "2023-08-17",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "dcb690c564a2",
    "author": "Ludwig Herrmann",
    "rating": 4,
@@ -6721,6 +8082,17 @@
    "author": "Leland Cline",
    "rating": 5,
    "text": "These guys are wonderful! I called and had an emergency and Tray showed up quickly. He was very thorough and explained everything. You can just tell that they are honest, hard workers. I like this company and will use them from now on.",
+   "date": "2023-08-17",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "a6a93b947568",
+   "author": "Marc Snow",
+   "rating": 5,
+   "text": "Good quality. Reliable. Professional",
    "date": "2023-08-17",
    "branch": "phoenix",
    "tags": [
@@ -6772,10 +8144,33 @@
    ]
   },
   {
+   "id": "c58230359bb3",
+   "author": "Tamara Greene",
+   "rating": 5,
+   "text": "I had an exceptional experience with Bucksworth Pest Control. Their team was prompt, professional, and thorough in addressing our pest issues. From the initial consultation to the execution of the treatment plan, they demonstrated expertise and attention to detail. I am sure that the mice won\u2019t be back. They also provided valuable advice to prevent future infestations. I highly recommend Bucksworth Pest Control for their top-notch service and peace of mind they bring to homeowners dealing with pest problems. Also there products are pet safe ! My technician Chuck Carruthers was professional and very good at his job.",
+   "date": "2023-08-12",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "ac"
+   ]
+  },
+  {
    "id": "6e6715517708",
    "author": "Carol Ralich",
    "rating": 5,
    "text": "Always professional & great job always done. All issues addressed & services explained throughly.",
+   "date": "2023-08-11",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "17d9df719e6d",
+   "author": "Makayla McAdams",
+   "rating": 5,
+   "text": "Super nice tech and very timely.",
    "date": "2023-08-11",
    "branch": "phoenix",
    "tags": [
@@ -6802,6 +8197,28 @@
    "branch": "phoenix",
    "tags": [
     "ac"
+   ]
+  },
+  {
+   "id": "ff5c8516a0ec",
+   "author": "Bill Jorgensen",
+   "rating": 5,
+   "text": "Great people great job",
+   "date": "2023-08-09",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "dcc4103cc28a",
+   "author": "Kim vanderwall",
+   "rating": 5,
+   "text": "Always prompt and thorough!",
+   "date": "2023-08-08",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -6884,6 +8301,28 @@
    ]
   },
   {
+   "id": "b5e242178850",
+   "author": "Enrique",
+   "rating": 5,
+   "text": "Thank you for the fast response.",
+   "date": "2023-08-03",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "5444d1ec5af9",
+   "author": "Ganesh Mahankali",
+   "rating": 5,
+   "text": "Team did great job!",
+   "date": "2023-08-02",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "1c39f36e937c",
    "author": "Shelly Taylor",
    "rating": 5,
@@ -6928,6 +8367,17 @@
    ]
   },
   {
+   "id": "98f2a19e2817",
+   "author": "Edena Johnson",
+   "rating": 5,
+   "text": "Great Service.",
+   "date": "2023-07-28",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "9357bf30ca36",
    "author": "Steve Brown",
    "rating": 5,
@@ -6958,6 +8408,39 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "15d28ae58e45",
+   "author": "Malori Marley",
+   "rating": 5,
+   "text": "Amazing and very thorough.",
+   "date": "2023-07-26",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "3be6a087f1db",
+   "author": "Rachel Force",
+   "rating": 5,
+   "text": "I called Bucksworth home services on Saturday to request an AC tune up. They answered after a few rings and were able to schedule my service for the following Tuesday. I was sent a reminder text immediately after hanging up and kept up to date the day of with status texts on where my driver was at. Once the technicians Timothy andJohn arrived, they got right to work. They completed the tune up quickly, confirmed everything was in working order, and went to their next job. Overall it was a great experience.",
+   "date": "2023-07-25",
+   "branch": "phoenix",
+   "tags": [
+    "ac"
+   ]
+  },
+  {
+   "id": "66a747cd5690",
+   "author": "Freddy",
+   "rating": 5,
+   "text": "They took care of all my bug woes",
+   "date": "2023-07-25",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -7027,6 +8510,17 @@
    ]
   },
   {
+   "id": "2b9b97e6153c",
+   "author": "Miss A",
+   "rating": 5,
+   "text": "Bucksworth is all good things!!",
+   "date": "2023-07-20",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "019b314cf3f0",
    "author": "kathy Farmer",
    "rating": 5,
@@ -7082,6 +8576,17 @@
    ]
   },
   {
+   "id": "c7c0a4773397",
+   "author": "brett guthrie",
+   "rating": 5,
+   "text": "Thanks Jorge",
+   "date": "2023-07-17",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "8d4c844cc856",
    "author": "Kathy",
    "rating": 5,
@@ -7090,6 +8595,17 @@
    "branch": "phoenix",
    "tags": [
     "weed"
+   ]
+  },
+  {
+   "id": "5c0df25276a3",
+   "author": "Robert Lake",
+   "rating": 5,
+   "text": "Very satisfied with Bucksworth!!",
+   "date": "2023-07-15",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -7189,6 +8705,28 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "492b45128524",
+   "author": "Meiling Chang",
+   "rating": 5,
+   "text": "Quality service and friendly crew",
+   "date": "2023-07-11",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "9a6e264da9c7",
+   "author": "James Rosenow",
+   "rating": 5,
+   "text": "Bucksworth Home Services has been awesome. They\u2019re prompt, and will come out as often as you need them to. With the rising temperatures we\u2019ve had a nasty problem with scorpions in our home. John came out and sprayed down the area inside and outside our home. He even pointed out areas where they might be getting in, which is great to know. He was extremely kind, friendly, and professional. My 3 year old loved talking to him. I would highly recommend Bucksworth Home Services to anybody looking for a reliable company who\u2019s guaranteed to protect your home.",
+   "date": "2023-07-11",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -7326,6 +8864,17 @@
    ]
   },
   {
+   "id": "77edfbab1966",
+   "author": "Shannon Dodge",
+   "rating": 5,
+   "text": "My air-conditioning unit went out in the middle of the night and I called every place I could and no one could help for two weeks. Then I called Abi and he told me he was definitely going to help and would try to get me in today. Not only did he send out Treyton (who was also professional, prepared and awesome) he did so in a matter of hours. Rarely do I come across a company that really cares but today I did. I would recommend their Annual Prevention Plans as well. Not only are they more than reasonable cost wise they include quite a lot of preventative services. Would have given 10 stars if I could so I\u2019m adding 5 more \u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f!",
+   "date": "2023-07-06",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "4ca3cbe43661",
    "author": "Itzel Celaya-Sandoval",
    "rating": 5,
@@ -7404,10 +8953,32 @@
    ]
   },
   {
+   "id": "d8acbeda6764",
+   "author": "Sharon Peterson",
+   "rating": 5,
+   "text": "Jorge was on time, efficient and kind.",
+   "date": "2023-07-03",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "84cb9e091032",
    "author": "Lonnie Ruscito",
    "rating": 5,
    "text": "Their communication and follow through are unmatched!! This company does a great job for a fair price. I highly recommend them.",
+   "date": "2023-06-30",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "cc94b870ae8b",
+   "author": "DUSTIN MONTEMAYOR",
+   "rating": 5,
+   "text": "Jorge was efficient and polite",
    "date": "2023-06-30",
    "branch": "phoenix",
    "tags": [
@@ -7434,6 +9005,18 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "8374866a699f",
+   "author": "Gloria Sesmas",
+   "rating": 5,
+   "text": "First time using Bucksworth- several members of our community recommended this company so I submitted my request- I received great service from Abi at sign up he was very polite and helped address all my questions. I requested pest control services and ac maintenance and he was able to get his team out the same day. Jorge handled my pest control service, he was polite and courteous and did a great assessment and treatment of my home. Treyton also did a great job with my AC maintenance he was very thorough and detailed and provided great feedback at the end of the appointment.",
+   "date": "2023-06-29",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "ac"
    ]
   },
   {
@@ -7547,6 +9130,19 @@
    ]
   },
   {
+   "id": "466442692610",
+   "author": "Jrziemo 1",
+   "rating": 5,
+   "text": "Excellent. EJ was our tech, he was fantastic. Explained everything and gave excellent aftercare instructions. EJ sent a txt letting me know when he would be there and they were even early. He even said he is going to send a follow up in a month to make sure we are good to go\u2026\u2026.I can\u2019t even edit this it\u2019s been 6 months and I think I pulled 2 weeds and they came from the pool filter. U need to hire these people, I get a treatment every 6 months and I\u2019m telling u we r weed free, the bushes r full of flowers this year when can I schedule another treatment.",
+   "date": "2023-06-23",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "weed",
+    "ac"
+   ]
+  },
+  {
    "id": "0162b0f85399",
    "author": "gloria valdivia",
    "rating": 5,
@@ -7603,6 +9199,17 @@
    ]
   },
   {
+   "id": "61436d57e8fe",
+   "author": "Janet Shivers",
+   "rating": 5,
+   "text": "great service",
+   "date": "2023-06-22",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "6159bc0a2ba6",
    "author": "Emily Orpin",
    "rating": 5,
@@ -7611,6 +9218,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "fe1e276beefb",
+   "author": "J MacD",
+   "rating": 5,
+   "text": "We\u2019re very pleased with Bucksworth!",
+   "date": "2023-06-22",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -7803,6 +9421,17 @@
    ]
   },
   {
+   "id": "3a40f3f9a428",
+   "author": "Stephen Garnett",
+   "rating": 5,
+   "text": "Professional, courteous and friendly.",
+   "date": "2023-06-16",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "5d2ffd44d127",
    "author": "Barbara Davis",
    "rating": 5,
@@ -7822,6 +9451,28 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "0f32359eb356",
+   "author": "Steven Meyer",
+   "rating": 3,
+   "text": "I don't know what they did because they were in-and-out in 10 minutes.",
+   "date": "2023-06-14",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "d9fbec2bf0ba",
+   "author": "Sue Davis",
+   "rating": 5,
+   "text": "All of the above are the reasons",
+   "date": "2023-06-13",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -7934,6 +9585,17 @@
    "tags": [
     "pest",
     "weed"
+   ]
+  },
+  {
+   "id": "80d024ab21ab",
+   "author": "Superpowers nutrition",
+   "rating": 5,
+   "text": "Love the service and quick response.",
+   "date": "2023-06-07",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -8202,6 +9864,17 @@
    ]
   },
   {
+   "id": "7afcd71093f1",
+   "author": "Linda Taylor",
+   "rating": 5,
+   "text": "Weeds sprayed.",
+   "date": "2023-05-25",
+   "branch": "phoenix",
+   "tags": [
+    "weed"
+   ]
+  },
+  {
    "id": "0ce031093bae",
    "author": "Melissa C",
    "rating": 5,
@@ -8229,6 +9902,17 @@
    "author": "Toni Conners",
    "rating": 5,
    "text": "Very easy company to work with! They are always willing to come and assist with any problem! I highly recommend them!",
+   "date": "2023-05-24",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "54dd03be6f21",
+   "author": "Myra Lookabill",
+   "rating": 5,
+   "text": "Very professional.",
    "date": "2023-05-24",
    "branch": "phoenix",
    "tags": [
@@ -8479,11 +10163,33 @@
    ]
   },
   {
+   "id": "9da3094f5fe9",
+   "author": "Jacob Bates",
+   "rating": 5,
+   "text": "Quality company.",
+   "date": "2023-05-15",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "486f3a3812cf",
    "author": "Lornette Morton",
    "rating": 5,
    "text": "Very professional and responsive. We have used them over the last year and and a half. Love working with them.",
    "date": "2023-05-15",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "33a10bbf70f2",
+   "author": "Del Martin",
+   "rating": 5,
+   "text": "Thank you... Matt was awesome \ud83d\udc4c",
+   "date": "2023-05-13",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -8520,6 +10226,29 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "9aac7f8b39b5",
+   "author": "Wendy Campbell",
+   "rating": 5,
+   "text": "Great seevice",
+   "date": "2023-05-11",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "55e2c3cf3ea3",
+   "author": "Mary Timmel",
+   "rating": 5,
+   "text": "I am always pleased with Bucksworth Services. Cody our new technician pays close attention to details and is professional in his work. I felt completely confident in his ability to do a superior job. Along with pest control , he applied weed control. I\u2019d also like to compliment the office for their timely appointment reminders and flexibility with the schedule and payments. The only thing that I\u2019m really disappointed about is you don\u2019t get credit for referring people for weed control; only pest control. I have made numerous referrals for weed control without receiving any credit. Overall I\u2019m happy to be a part of Bucksworth Services",
+   "date": "2023-05-11",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "weed"
    ]
   },
   {
@@ -8565,6 +10294,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "5c7878f7ea56",
+   "author": "David LoPresti",
+   "rating": 5,
+   "text": "Always on time and does a great job",
+   "date": "2023-05-10",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -8658,6 +10398,17 @@
    ]
   },
   {
+   "id": "041ef020f08e",
+   "author": "Rhett Francis",
+   "rating": 5,
+   "text": "Dax did an awesome job!",
+   "date": "2023-05-03",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "c4dce3e2dd98",
    "author": "Emily Brumbach",
    "rating": 5,
@@ -8728,6 +10479,17 @@
    "author": "Mason Barber",
    "rating": 5,
    "text": "Was quick and easy. Super polite as well as knowledgeable",
+   "date": "2023-05-02",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "932d178fa965",
+   "author": "Lupe Crespin",
+   "rating": 5,
+   "text": "Dax was great! He was very professional",
    "date": "2023-05-02",
    "branch": "phoenix",
    "tags": [
@@ -8823,6 +10585,17 @@
    ]
   },
   {
+   "id": "d371167bf263",
+   "author": "Chris Zins",
+   "rating": 5,
+   "text": "Great service. Prompt and friendly.",
+   "date": "2023-04-27",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "51bbd54e0a6f",
    "author": "Y X",
    "rating": 5,
@@ -8831,6 +10604,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "209d25c14a03",
+   "author": "Jay Aronow",
+   "rating": 5,
+   "text": "Very professional and curteous",
+   "date": "2023-04-26",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -8858,6 +10642,28 @@
    ]
   },
   {
+   "id": "3cc3c81a4762",
+   "author": "bobi robinson",
+   "rating": 5,
+   "text": "Excellent job",
+   "date": "2023-04-25",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "bb229b5b083d",
+   "author": "nick Cruz",
+   "rating": 5,
+   "text": "100% would definitely recommend.",
+   "date": "2023-04-25",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "87ad33783942",
    "author": "ILuv Travel",
    "rating": 5,
@@ -8873,6 +10679,17 @@
    "author": "Teresa Bills",
    "rating": 5,
    "text": "Had a snake get into our pest box. Lawrence did an amazing job with communicating with me things we could do and what he was going to put down. We realized the snake was dead after we got the box open and he disposed of him. Guessing he was over 4 ft long.",
+   "date": "2023-04-21",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "bcc710100748",
+   "author": "Michael Hyatt",
+   "rating": 5,
+   "text": "Fantastic service",
    "date": "2023-04-21",
    "branch": "phoenix",
    "tags": [
@@ -8992,6 +10809,17 @@
    ]
   },
   {
+   "id": "aa59e7ac6e97",
+   "author": "Miguel Samaniego",
+   "rating": 5,
+   "text": "Great work and excellent services",
+   "date": "2023-04-18",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "63e700524bea",
    "author": "Jorge Prieto",
    "rating": 5,
@@ -9064,6 +10892,17 @@
    "rating": 5,
    "text": "They are amazing! Always professional, good communication and they GET THE JOB DONE! Rarely see ANY critters around our home",
    "date": "2023-04-17",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "1ab1c8bc0c09",
+   "author": "Kenneth Walker",
+   "rating": 5,
+   "text": "Excellent work!",
+   "date": "2023-04-16",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -9160,6 +10999,18 @@
    ]
   },
   {
+   "id": "45b99858d8d7",
+   "author": "Eileen Hardy",
+   "rating": 5,
+   "text": "Bucksworth Home Services treated my front and back yards for weeds and applied pre-emergent to keep the seeds that blow in from all my neighbors yards from taking root. My front yard had a weed every 6 inches, which is insane. So I saw the Bucksworth guy spraying pests at one of my neighbors houses and noticed the sign on his truck talking about weed extermination, or something like that. I hit him up on the weeds, and the next day, my yards were being sprayed. Hallelujah. The treatment is supposed to last six months, and I\u2019m confident that it will. Within two days most of the weeds were completely dead.",
+   "date": "2023-04-12",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "weed"
+   ]
+  },
+  {
    "id": "7314f2b1330a",
    "author": "James and Linda",
    "rating": 5,
@@ -9179,6 +11030,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "75c4eac0660e",
+   "author": "JoAnn Pfeiffer",
+   "rating": 5,
+   "text": "Thorough and professional.",
+   "date": "2023-04-10",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -9204,6 +11066,29 @@
    ]
   },
   {
+   "id": "37f85ff61d60",
+   "author": "Gregory Ryan",
+   "rating": 5,
+   "text": "I had a wonderful experience with Bucksworth pest control, and I can't recommend them enough! From the moment I called to schedule an appointment, the team was friendly, helpful, and professional. When Chuck arrived at my home, he immediately put me at ease with his warm and personable demeanor. He took the time to listen to my concerns and answer all of my questions, and I appreciated his attention to detail as he conducted a thorough inspection of my property. Overall, I was extremely impressed with Bucksworth Home Services and would recommend them to anyone in need of pest control!",
+   "date": "2023-04-03",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "ac"
+   ]
+  },
+  {
+   "id": "c98d85924c5f",
+   "author": "Fatima Lah",
+   "rating": 5,
+   "text": "Satisfactory service",
+   "date": "2023-04-01",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "626b5f229137",
    "author": "Cheryl Farney",
    "rating": 5,
@@ -9223,6 +11108,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "82c9a51a0614",
+   "author": "Reginald Shaw",
+   "rating": 5,
+   "text": "Excellent detail service \ud83d\udc4c",
+   "date": "2023-03-30",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -9325,10 +11221,43 @@
    ]
   },
   {
+   "id": "5a3e0e4d544e",
+   "author": "KKM Nair",
+   "rating": 5,
+   "text": "pest control",
+   "date": "2023-03-17",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "f03d466fbcf0",
+   "author": "Jessica Satiroff",
+   "rating": 5,
+   "text": "Professional family-owned company!",
+   "date": "2023-03-16",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "fb00b7f4e7e4",
    "author": "Eduardo Tinoco",
    "rating": 5,
    "text": "Amazing team. Jorge was on time and he did a great job. This company always get the job right! Thank you",
+   "date": "2023-03-14",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "5f9efb79bdd8",
+   "author": "Judy",
+   "rating": 5,
+   "text": "Great service and communication!!",
    "date": "2023-03-14",
    "branch": "phoenix",
    "tags": [
@@ -9378,6 +11307,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "5c87e379028d",
+   "author": "Sandra De La Cerda",
+   "rating": 5,
+   "text": "Very efficient services\ud83e\udd29",
+   "date": "2023-03-08",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -9436,6 +11376,17 @@
    ]
   },
   {
+   "id": "be2f792a4c71",
+   "author": "Ellen Hong",
+   "rating": 2,
+   "text": "Subscribed pest control home service that started great but deteriorated over the course; quarterly service visit lasted less than 3 min today",
+   "date": "2023-03-07",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
    "id": "ee726b5ad8ac",
    "author": "Ann Wilson",
    "rating": 5,
@@ -9455,6 +11406,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "047c5acea72c",
+   "author": "PJ McC",
+   "rating": 5,
+   "text": "Professional on time and polite.",
+   "date": "2023-02-20",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -9497,6 +11459,17 @@
    "rating": 5,
    "text": "Max was excellent and friendly. Went above and beyond. Could not be happier!",
    "date": "2023-02-17",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "0fdbfd3ae5af",
+   "author": "Dominic M",
+   "rating": 5,
+   "text": "Casey had a great attention to detail!",
+   "date": "2023-02-16",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -9625,11 +11598,33 @@
    ]
   },
   {
+   "id": "c5efd121f055",
+   "author": "Adrianna Cordova",
+   "rating": 5,
+   "text": "EJ is the best",
+   "date": "2023-02-08",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "bf99cc26aab1",
    "author": "Jennifer Meggison",
    "rating": 5,
    "text": "They are great and always do a wonderful job. They come back between visits if we need it, I feel it\u2019s a great value.",
    "date": "2023-02-08",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "c1d0cbb256cf",
+   "author": "Erin Quigley",
+   "rating": 5,
+   "text": "excellent company to use.",
+   "date": "2023-02-07",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -9700,6 +11695,17 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "7ef4dbe312da",
+   "author": "Tracey Coughlin",
+   "rating": 5,
+   "text": "Always pleasant and on time",
+   "date": "2023-02-01",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -9785,6 +11791,17 @@
    "rating": 5,
    "text": "Great service! Very polite & professional!",
    "date": "2023-01-27",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "ddee524831fb",
+   "author": "Kuk Dhillon",
+   "rating": 5,
+   "text": "Good job. No problems.",
+   "date": "2023-01-26",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -9891,6 +11908,17 @@
    ]
   },
   {
+   "id": "534d5de54f1e",
+   "author": "Erica Lua",
+   "rating": 5,
+   "text": "Fast and efficient!",
+   "date": "2023-01-17",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "4ff1402f44f8",
    "author": "steve sherren",
    "rating": 5,
@@ -9899,6 +11927,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "be2ba143e78d",
+   "author": "Andres Ibarra",
+   "rating": 5,
+   "text": "Great service at a great price.",
+   "date": "2023-01-13",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -9991,11 +12030,33 @@
    ]
   },
   {
+   "id": "f2636b0477d6",
+   "author": "Jason Law",
+   "rating": 5,
+   "text": "Amazing and professional service",
+   "date": "2023-01-06",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "1e602c0a8dc9",
    "author": "James Ellrod",
    "rating": 5,
    "text": "EJ performed our monthly service. As usual, he was punctual, personable and professional. Would highly recommend this technician and company.",
    "date": "2023-01-05",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "cdf54ce2bded",
+   "author": "Joyce Radziwon",
+   "rating": 5,
+   "text": "Great service!",
+   "date": "2023-01-03",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -10029,6 +12090,28 @@
    "rating": 5,
    "text": "Chuck came out to give us a quote and was very polite and knowledgeable. Cost was much less than other quotes. Excellent service!!",
    "date": "2022-12-30",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "2ddc47b6c5f4",
+   "author": "Joshua Brown",
+   "rating": 5,
+   "text": "Max was courteous, thorough, and quick.",
+   "date": "2022-12-29",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "85e52abaf1ac",
+   "author": "Prasanna Polite",
+   "rating": 5,
+   "text": "Professional and welcoming",
+   "date": "2022-12-28",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -10113,10 +12196,43 @@
    ]
   },
   {
+   "id": "b8241a60fff1",
+   "author": "karla storrer",
+   "rating": 5,
+   "text": "Always does a great job. Trustworthy",
+   "date": "2022-12-20",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "d7471b164b1f",
    "author": "michael stocks",
    "rating": 5,
    "text": "Casey was great. Good communications, showed up early. Very polite.",
+   "date": "2022-12-19",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "1e48a0a87a26",
+   "author": "Shawna Leach",
+   "rating": 5,
+   "text": "They are also licensed for termites.",
+   "date": "2022-12-19",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "bbe943bc4f04",
+   "author": "Rebecca Heuston",
+   "rating": 5,
+   "text": "Nice fella. Lots of good advice",
    "date": "2022-12-19",
    "branch": "phoenix",
    "tags": [
@@ -10279,6 +12395,17 @@
    ]
   },
   {
+   "id": "4182efe1ecca",
+   "author": "Deven Mendenhall",
+   "rating": 5,
+   "text": "Love the easy and fast service.",
+   "date": "2022-12-05",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "e27d475b16e9",
    "author": "Lynn Graves",
    "rating": 5,
@@ -10288,6 +12415,17 @@
    "tags": [
     "pest",
     "weed"
+   ]
+  },
+  {
+   "id": "06824ba88155",
+   "author": "Christopher Augello",
+   "rating": 5,
+   "text": "Very professional and timely.",
+   "date": "2022-12-02",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -10346,6 +12484,28 @@
    ]
   },
   {
+   "id": "8c601265ebb6",
+   "author": "Charles Adams",
+   "rating": 3,
+   "text": "Max was rushed and in a hurry. This was evident due to his spraying style in comparison to others Bucksworth exterminators.. I will need to ask someone to come out and spray the inside once again..This months is experience was the worst of my last few years with Bucksworth.",
+   "date": "2022-11-29",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "07ad8ddfcfaa",
+   "author": "Charlene Noonan",
+   "rating": 5,
+   "text": "Great company!! Friendly & trustworthy!",
+   "date": "2022-11-28",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "f0e97ef20600",
    "author": "Kortny Hall",
    "rating": 5,
@@ -10369,11 +12529,33 @@
    ]
   },
   {
+   "id": "abe787ff22b9",
+   "author": "steve holland",
+   "rating": 5,
+   "text": "Great service very reliable!",
+   "date": "2022-11-22",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "a0024588c67b",
    "author": "Nate Casimiro",
    "rating": 5,
    "text": "Picked these guys because they had an option to schedule an appointment online on their website. Was blown away by how helpful and professional everyone was, from the phone rep to the technician who came out. Very knowledgeable and thorough. Even received a text with the technicians photo when he was on his way, along with a phone call. Would definitely recommend.",
    "date": "2022-11-22",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "b1944712e6e2",
+   "author": "Ann",
+   "rating": 5,
+   "text": "This company is hands down The best!",
+   "date": "2022-11-19",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -10609,6 +12791,28 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "160c4da5b4c2",
+   "author": "judy robertson",
+   "rating": 5,
+   "text": "Did a great job..",
+   "date": "2022-11-02",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "256c5eb193c9",
+   "author": "Claudia Garcia",
+   "rating": 5,
+   "text": "We are really happy with Bucksworth home services. Their reps are helpful, their technicians are always on time, they do a great job and are always friendly. Corey has been our technician a few times and he is always great to work with. Jorge was our technician this last time and his customer service was awesome. All the technicians text when they're on their way and are always polite. I appreciate their good customer service and I appreciate that they communicate with us before every appt. I would definitely recommend this company for pest control.",
+   "date": "2022-11-02",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -11077,6 +13281,17 @@
    ]
   },
   {
+   "id": "539681f12334",
+   "author": "Kevin Kim",
+   "rating": 5,
+   "text": "Very prompt and courteous service.",
+   "date": "2022-10-17",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "5317444f621c",
    "author": "Damone Simms",
    "rating": 5,
@@ -11125,6 +13340,17 @@
    "author": "Chen-Fang Chou",
    "rating": 5,
    "text": "When you asked questions, they tried to help and solve the problem.",
+   "date": "2022-10-12",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "5e70183c9f98",
+   "author": "Derrick Wright",
+   "rating": 4,
+   "text": "Great service. Highly recommend.",
    "date": "2022-10-12",
    "branch": "phoenix",
    "tags": [
@@ -11308,6 +13534,17 @@
    ]
   },
   {
+   "id": "b0fbaf8a4aae",
+   "author": "Jerome Lee Buenviaje",
+   "rating": 5,
+   "text": "Responsive customer service.",
+   "date": "2022-10-04",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "0a4ddd5e61f0",
    "author": "Olivia Sturgeon",
    "rating": 5,
@@ -11349,6 +13586,18 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "9494224c8f7e",
+   "author": "Rachel Anselmi",
+   "rating": 5,
+   "text": "Excellent service with great communication and friendly technicians! They\u2019ve been keeping my home pest free since I moved in in 2021. I very much appreciate how thorough they are at each visit and always let me know I can call them out between services if I\u2019m having any problems. Their text alerts are also amazing for keeping me updated when my technician will arrive. Max arrived today on time and let me know exactly what would be done. After service was complete, he followed up with a quick conversation to let me know everything that was treated. He even sprayed for weeds I had popping up in my landscaping! I couldn\u2019t be happier with their level of service!",
+   "date": "2022-10-01",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "weed"
    ]
   },
   {
@@ -11495,6 +13744,17 @@
    ]
   },
   {
+   "id": "654447566114",
+   "author": "Alejandro Gil",
+   "rating": 5,
+   "text": "Great job from Colin",
+   "date": "2022-09-23",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "480c7718905e",
    "author": "Robert Olsen",
    "rating": 5,
@@ -11539,6 +13799,28 @@
    ]
   },
   {
+   "id": "c3db16167426",
+   "author": "Jessie Gonzales",
+   "rating": 5,
+   "text": "Always professional",
+   "date": "2022-09-21",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "1c530b7bc8cd",
+   "author": "Rick Smith",
+   "rating": 5,
+   "text": "Great job as always",
+   "date": "2022-09-21",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "6bda5a06c680",
    "author": "Corinna Wolter",
    "rating": 5,
@@ -11555,6 +13837,17 @@
    "rating": 5,
    "text": "We have had Bucksworth Home Services for 5 years now, and Happily will continue having come take care of our home! Always professional, on time, courteous and their customer service is Amazing!!",
    "date": "2022-09-20",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "b47f9e0975cf",
+   "author": "Megan Knebel",
+   "rating": 5,
+   "text": "Jorge did an amazing job!",
+   "date": "2022-09-18",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -11660,11 +13953,33 @@
    ]
   },
   {
+   "id": "14125bfb3938",
+   "author": "Tom Stieber",
+   "rating": 5,
+   "text": "We also received our regular treatment",
+   "date": "2022-09-09",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "65a5842b69ec",
    "author": "Carlos Herreras",
    "rating": 5,
    "text": "Rick Montano Jr. Is always professional and knowledgeable. I've had him many times and each time he surpasses my expectations.",
    "date": "2022-09-09",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "f06d5521bbd1",
+   "author": "James Paul Griffin",
+   "rating": 5,
+   "text": "Max is the best!",
+   "date": "2022-09-08",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -11710,6 +14025,17 @@
    "rating": 5,
    "text": "Corey was super nice and thorough! Highly recommend.",
    "date": "2022-09-06",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "109a57c2815a",
+   "author": "Justina Schipano Astudillo",
+   "rating": 5,
+   "text": "Overall good service",
+   "date": "2022-09-03",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -11772,6 +14098,17 @@
    ]
   },
   {
+   "id": "bb6be349fd97",
+   "author": "Michael Gwinn",
+   "rating": 5,
+   "text": "Max took his time and did great \ud83d\udc4d",
+   "date": "2022-08-31",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "96f5f3835db3",
    "author": "Origixal",
    "rating": 5,
@@ -11802,6 +14139,17 @@
    "branch": "phoenix",
    "tags": [
     "weed"
+   ]
+  },
+  {
+   "id": "e42389d920b7",
+   "author": "Adrianna Cordova",
+   "rating": 5,
+   "text": "Very kind and courteous",
+   "date": "2022-08-29",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -11860,6 +14208,17 @@
    ]
   },
   {
+   "id": "c9012f67c561",
+   "author": "Maggie Shepard",
+   "rating": 5,
+   "text": "Very professional and polite.",
+   "date": "2022-08-26",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "3280d1a52330",
    "author": "Julian Hardy",
    "rating": 5,
@@ -11875,6 +14234,17 @@
    "author": "Jasmine Kamauoha",
    "rating": 5,
    "text": "Keith Whiting Super Professional really friendly. He got the job done in a timely manner and was very thorough.",
+   "date": "2022-08-26",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "b1b723d0b634",
+   "author": "Joshua Owens",
+   "rating": 5,
+   "text": "Always easy and painless to deal with.",
    "date": "2022-08-26",
    "branch": "phoenix",
    "tags": [
@@ -11909,6 +14279,17 @@
    "rating": 5,
    "text": "Great service and arrives on time and accommodates reschedules. Lawrence was really good and provided great service.",
    "date": "2022-08-25",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "12ce68b2efd6",
+   "author": "T Robinson",
+   "rating": 5,
+   "text": "Friendly, reliable, professional.",
+   "date": "2022-08-24",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -11981,6 +14362,17 @@
    ]
   },
   {
+   "id": "f60352802b99",
+   "author": "Melanie Summers",
+   "rating": 5,
+   "text": "Drew was fantastic!",
+   "date": "2022-08-22",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
    "id": "86eb6165ed54",
    "author": "Robert Rayos",
    "rating": 5,
@@ -11996,6 +14388,17 @@
    "author": "Mary Chambers",
    "rating": 5,
    "text": "J. Rubio of Bucksworth Pest Control informed me he was on his way. He was very kind and courteous. Sprayed for bug control inside and outside. Performed his duties in a timely manner. Technician will always come out again if you are having other issues. I highly recommend this company for pest control.",
+   "date": "2022-08-19",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "4e1ab7ae4d0f",
+   "author": "Lydia MC",
+   "rating": 5,
+   "text": "Mike did a fantastic job.",
    "date": "2022-08-19",
    "branch": "phoenix",
    "tags": [
@@ -12066,6 +14469,17 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "17bc5438bf8d",
+   "author": "debbie a",
+   "rating": 5,
+   "text": "YOU GOT BUGS-look no further than Bucksworth Pest Control.!!! Bucksworth is simply one of the best in the business. Everyone at the company is professional, kind & friendly from the customer service gals to the bug technicians like Zach. I have been with Bucksworth Pest Control over 10 years now and would recommend their services to friends & family. But, If you are tired of seeing nasty creepy crawlers around your house-STOP what you are doing and give them a call, I guarantee you will not be disappointed. Say goodbye to unwanted creepy crawlers!!",
+   "date": "2022-08-16",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -12180,6 +14594,17 @@
    ]
   },
   {
+   "id": "d705f7d703f7",
+   "author": "Angie Majalca",
+   "rating": 5,
+   "text": "Nick was super friendly and efficient.",
+   "date": "2022-08-14",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "dd665512b5fc",
    "author": "Jim Mitchell",
    "rating": 5,
@@ -12214,6 +14639,17 @@
    ]
   },
   {
+   "id": "073c446045a1",
+   "author": "Jared Royka",
+   "rating": 5,
+   "text": "Excellent service all the way around.",
+   "date": "2022-08-12",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "439bd7e85739",
    "author": "Dean Avila",
    "rating": 5,
@@ -12229,6 +14665,17 @@
    "author": "Cindy Cowden",
    "rating": 5,
    "text": "Another amazing visit from Bucksworth. Our tech today was Drew. He was so thorough that my husband insisted that I make sure we acknowledged him. I promise that I don't know the owners and not being paid to say kind things. This company is just that good.",
+   "date": "2022-08-11",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "f40e435f64f6",
+   "author": "Donald Towles",
+   "rating": 5,
+   "text": "Great customer service!!!!!!",
    "date": "2022-08-11",
    "branch": "phoenix",
    "tags": [
@@ -12263,6 +14710,28 @@
    "rating": 5,
    "text": "We just moved to Arizona and today is the first time I have used a pest control service here. I went with Bucksworth on a recommendation from the former owner of the house we bought. Rick M. came out and he did an excellent professional job addressing all of my concerns. He was professional, courteous and very thorough. I am so glad I decided to start a contract with them and keep them on as my year-round pest control company! Thank you!!!",
    "date": "2022-08-10",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "07f1b973fa62",
+   "author": "Lisa Price",
+   "rating": 5,
+   "text": "Great service! Prompt and professional.",
+   "date": "2022-08-09",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "6312961d7924",
+   "author": "Allison McDonald",
+   "rating": 5,
+   "text": "This company is wonderful. We have used them for general pest control service for nearly five years and have had no pest issues whatsoever. The technicians are very thorough, knowledgeable and friendly. Zach, in particular, is great! He is very knowledgeable and offers great advice to help us maintain a big-free zone in and around our house. The communication from the company and the customer service is impeccable. We won't be looking for a different company for pest control service...this one is the best!",
+   "date": "2022-08-08",
    "branch": "phoenix",
    "tags": [
     "pest"
@@ -12318,6 +14787,28 @@
    "rating": 5,
    "text": "Excellent customer service thank you. Very personable and my wife is happy.",
    "date": "2022-08-05",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "17b67c01fc91",
+   "author": "Jerry Fox",
+   "rating": 5,
+   "text": "Prevention of pests",
+   "date": "2022-08-05",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "08b9b8b82120",
+   "author": "Mark Ketchum",
+   "rating": 5,
+   "text": "Great service. Always professional",
+   "date": "2022-08-04",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -12417,6 +14908,17 @@
    "author": "Sharon Fleming",
    "rating": 5,
    "text": "Casey did a professional job. He was here within his designated time frame. He listened carefully to my concerns, was polite and professional and did a great job. Thank you,",
+   "date": "2022-08-01",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "2e08994260be",
+   "author": "ernest clark",
+   "rating": 5,
+   "text": "The work was GRADE A!!",
    "date": "2022-08-01",
    "branch": "phoenix",
    "tags": [
@@ -12704,6 +15206,17 @@
    ]
   },
   {
+   "id": "ff974bb4fb87",
+   "author": "Lisa Incarnati",
+   "rating": 5,
+   "text": "Great job Jorge Rubio! Thanks!",
+   "date": "2022-07-23",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "69e7c565c23d",
    "author": "Oscar Leal",
    "rating": 5,
@@ -12804,6 +15317,17 @@
    ]
   },
   {
+   "id": "4c45658eda60",
+   "author": "brenda alexander",
+   "rating": 5,
+   "text": "Friendly, respectful and responsive.",
+   "date": "2022-07-21",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "c3d436898b06",
    "author": "Edgar De La Rocha",
    "rating": 5,
@@ -12867,6 +15391,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "5e929acb7a21",
+   "author": "Nedre White",
+   "rating": 5,
+   "text": "Very trustworthy",
+   "date": "2022-07-19",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -13046,6 +15581,17 @@
    ]
   },
   {
+   "id": "cfecfbbeb392",
+   "author": "Jay Etcheverria",
+   "rating": 5,
+   "text": "Max kept in communication with me from when he was on his way to the end of service. A photo was sent so I knew it would be him when I answered the door. He was quiet and respectable since my daughter was sleeping. He was very methodical and told me what to watch out for during the monsoon season. He also ensured me that if I see anything else he would come back out and rectify the situation. Great work and great person/company. Never any payment/billing issues. I also use them for weed treatment. Never any weeds in my yard. Thank you Bucksworth!",
+   "date": "2022-07-14",
+   "branch": "phoenix",
+   "tags": [
+    "weed"
+   ]
+  },
+  {
    "id": "233472331f5e",
    "author": "Karen Wind",
    "rating": 5,
@@ -13057,10 +15603,32 @@
    ]
   },
   {
+   "id": "181dd4f2a80f",
+   "author": "Arlene Nager",
+   "rating": 4,
+   "text": "Very good kind service thank You",
+   "date": "2022-07-13",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "d9cc5945c16f",
    "author": "Robert Connelly",
    "rating": 5,
    "text": "Professional and thorough. They take the time needed to inspect and treat the area to kill and prevent insect issues. Take the time to answer questions.",
+   "date": "2022-07-13",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "308189a865c5",
+   "author": "John Stevens",
+   "rating": 5,
+   "text": "Chris was awesome",
    "date": "2022-07-13",
    "branch": "phoenix",
    "tags": [
@@ -13113,6 +15681,28 @@
    ]
   },
   {
+   "id": "0b2716ab54b7",
+   "author": "Penny King",
+   "rating": 5,
+   "text": "Great service! No bugs ever!",
+   "date": "2022-07-12",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "c28e74fdd206",
+   "author": "Darin L",
+   "rating": 5,
+   "text": "Bucksworth provided a good service.",
+   "date": "2022-07-12",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "4736a61f6aad",
    "author": "Sean Benson",
    "rating": 5,
@@ -13150,6 +15740,17 @@
    "author": "diana aquino",
    "rating": 5,
    "text": "Every interaction with Bucksworth is always pleasant and professional. Our technician showed up on time, very professional, friendly, courteous and did a thorough job! Always thankful for the great service.",
+   "date": "2022-07-11",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "0eae0e7ca189",
+   "author": "Ashli Fagan",
+   "rating": 5,
+   "text": "Bucksworth took over my contract from a previous provider and is hands down the best and most effective we have had. I've had a few different exterminators out but Bucksworth is the most effective by far, and they don't have to come as often. I also have pets and they would always get sick after spraying (even if \"pet-friendly\") but haven't had issues with Bucksworth. Chuck came today and was very thorough, listened to my concerns, treated the areas of concern, and let me know how the treatment would help prevent pests (notably scorpions) from getting in through the trouble areas. Highly recommend!",
    "date": "2022-07-11",
    "branch": "phoenix",
    "tags": [
@@ -13201,6 +15802,17 @@
    ]
   },
   {
+   "id": "ab5c8d6a0cb6",
+   "author": "Mr. David",
+   "rating": 5,
+   "text": "Very professional, and great service",
+   "date": "2022-07-08",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "01e885f7ea3c",
    "author": "Catalina Velasco",
    "rating": 5,
@@ -13217,6 +15829,28 @@
    "rating": 5,
    "text": "Great service and customer service! Lawrence Latham is very profesional, responsible, polite, and open to hear any concern or question. I will really recommend opening the door of your home to him!",
    "date": "2022-07-07",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "fc239518b899",
+   "author": "Sharon Meloun",
+   "rating": 5,
+   "text": "Weed controli",
+   "date": "2022-07-06",
+   "branch": "phoenix",
+   "tags": [
+    "weed"
+   ]
+  },
+  {
+   "id": "5749f88a5578",
+   "author": "James Puzzo",
+   "rating": 5,
+   "text": "great and very professional",
+   "date": "2022-07-06",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -13388,6 +16022,17 @@
    ]
   },
   {
+   "id": "b9f62986c3ce",
+   "author": "Sumit Nair",
+   "rating": 5,
+   "text": "Good service",
+   "date": "2022-07-03",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "e7ac74f516a9",
    "author": "Janet Richardson",
    "rating": 5,
@@ -13414,6 +16059,17 @@
    "author": "fran culligan",
    "rating": 5,
    "text": "Friendly, knowledgeable,and very professional always willing to go a step further",
+   "date": "2022-07-01",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "ea793804778b",
+   "author": "Janine",
+   "rating": 5,
+   "text": "Max did a great job!",
    "date": "2022-07-01",
    "branch": "phoenix",
    "tags": [
@@ -13488,6 +16144,17 @@
    ]
   },
   {
+   "id": "29d6bd1ba7b8",
+   "author": "Suzanne Stanton",
+   "rating": 5,
+   "text": "Excellent service. Very professional.",
+   "date": "2022-06-29",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "1187d07dee7e",
    "author": "Annastasia S",
    "rating": 5,
@@ -13530,6 +16197,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "5838f877f519",
+   "author": "Jerry Gamboa",
+   "rating": 5,
+   "text": "Very good service",
+   "date": "2022-06-28",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -13630,6 +16308,17 @@
    "branch": "phoenix",
    "tags": [
     "weed"
+   ]
+  },
+  {
+   "id": "f66b265d1b7b",
+   "author": "Terry Dempsey",
+   "rating": 5,
+   "text": "Great job and clean and professional",
+   "date": "2022-06-22",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -13768,6 +16457,17 @@
    ]
   },
   {
+   "id": "51a83b6b2477",
+   "author": "Donna Cave",
+   "rating": 5,
+   "text": "Exterminated my ant problem.",
+   "date": "2022-06-20",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
    "id": "60d334ed059a",
    "author": "Jerylyn Glass",
    "rating": 5,
@@ -13854,6 +16554,19 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "9b243008e000",
+   "author": "Christina Heeren",
+   "rating": 5,
+   "text": "Love these guys! Always professional, very friendly and just great to work with. Update 8/2/23... I'm so excited that they are branching out into more areas. In particular, air conditioning and weeds. Every experience has been great. My a/c unit was at a slant. Trey came out and not only did a great job but had a great attitude too. I'm a lot (not in a Karen way). And Trey just rolls with it. Last night, a part of my a/c brok and I didn't have air upstairs. The very next morning, here's Trey coming in and checking things out, identifies the issue and boom. Fixed same day. Can't ask for more than that.",
+   "date": "2022-06-14",
+   "branch": "phoenix",
+   "tags": [
+    "pest",
+    "weed",
+    "ac"
    ]
   },
   {
@@ -13953,6 +16666,28 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "2b08584843a1",
+   "author": "Pete V",
+   "rating": 5,
+   "text": "Zachary was the bomb to the Pests!",
+   "date": "2022-06-10",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
+   "id": "0c5a15fe8160",
+   "author": "Joe Torres",
+   "rating": 5,
+   "text": "Excellent professional helpful",
+   "date": "2022-06-10",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -14232,6 +16967,28 @@
    ]
   },
   {
+   "id": "3c7a9da090ce",
+   "author": "Lisa Vella",
+   "rating": 5,
+   "text": "EJ our service tech was fabulous!",
+   "date": "2022-04-13",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "5afa1429df7d",
+   "author": "Suzie Simmons",
+   "rating": 5,
+   "text": "We have been using Bucksworth pest control since we moved here in May of 2021z They have done an excellent job at keeping our house free of bugs. They have very good prices, are super responsive, and are happy to come out anytime any problems pop up. Their staff is super helpful when you call the office. The technicians are friendly, professional, and make sure to enter your house with shoe covers on so that your floors stay clean. They do a great job informing you of everything that they have treated. I highly recommend them!",
+   "date": "2022-04-11",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
+   ]
+  },
+  {
    "id": "22df8d694e56",
    "author": "Tracy McCarthy",
    "rating": 5,
@@ -14420,6 +17177,17 @@
    ]
   },
   {
+   "id": "dfd721b83464",
+   "author": "skyler saindon",
+   "rating": 5,
+   "text": "We\u2019ve used these guys for years.",
+   "date": "2021-10-28",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "1ec9bc57d342",
    "author": "Meredith Christian",
    "rating": 5,
@@ -14509,6 +17277,17 @@
    ]
   },
   {
+   "id": "95496e69a26c",
+   "author": "Veronica Rodriguez-Romero",
+   "rating": 5,
+   "text": "A great job every time!",
+   "date": "2021-09-16",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "0c090891bdb4",
    "author": "Lori Adair",
    "rating": 5,
@@ -14528,6 +17307,17 @@
    "branch": "phoenix",
    "tags": [
     "pest"
+   ]
+  },
+  {
+   "id": "3825a976ae6d",
+   "author": "David Parlato",
+   "rating": 5,
+   "text": "Good service and communication always.",
+   "date": "2021-08-30",
+   "branch": "phoenix",
+   "tags": [
+    "general"
    ]
   },
   {
@@ -14697,6 +17487,17 @@
    ]
   },
   {
+   "id": "32eae3f059b2",
+   "author": "Julie Serrano",
+   "rating": 5,
+   "text": "Max was very friendly and fast!",
+   "date": "2021-03-05",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "ac090fcfc3db",
    "author": "Melissa C",
    "rating": 5,
@@ -14770,6 +17571,17 @@
    "rating": 5,
    "text": "I\u2019ve used Bucksworth for a several years now and my technician has serviced me throughout. I always feel confident in what he does and what he suggests.",
    "date": "2021-01-27",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "c05c4cc5c619",
+   "author": "JOHN WALERIUS",
+   "rating": 4,
+   "text": "Remember this is the last service",
+   "date": "2021-01-08",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -14875,6 +17687,17 @@
    ]
   },
   {
+   "id": "5c5de44d7a02",
+   "author": "pratish patel",
+   "rating": 5,
+   "text": "Very professional",
+   "date": "2020-10-28",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "98adb62baf8f",
    "author": "Bob Serencsa",
    "rating": 5,
@@ -14916,6 +17739,17 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "651e288a650e",
+   "author": "Mary West",
+   "rating": 5,
+   "text": "I have been using Bucksworth Services for a few years for pest control services without a problem. Always punctual and couldn't be happier with Rick Montana - our service technician. The service is quarterly, which I was iffy about, but the assurance if there was any sort of pest problem they will come and service at no extra charge. Rick has always addressed any unusual issues we have and honestly, couldn't be happier. I would highly recommend this company to take care of pest control (bugs), and if we had other issues and needed the other services they provide, I would not hesitate. The chemicals they use are eco friendly and effective.",
+   "date": "2020-09-29",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -15013,6 +17847,17 @@
    "rating": 5,
    "text": "Colin did a great professional job! Extremely cheerful and and happy to accommodate.I would highly recommend bucksworths. Went above and beyond.",
    "date": "2020-07-30",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "70b20752767b",
+   "author": "Margaret Traverse",
+   "rating": 3,
+   "text": "After having the service for months, I found it is overpriced for the service I am receiving,. They only work certain hours, and if you aren't available when their service is scheduled at a time they determine, to bad for you. I have to work as well, can't be home in the middle of the day, so they only service outside not in.",
+   "date": "2020-07-27",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -15135,6 +17980,17 @@
    "rating": 4,
    "text": "Was very satisfied with with today's inaugural service. Too early for any additional comments.",
    "date": "2020-06-24",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "90a080318c79",
+   "author": "Danielle Gardner",
+   "rating": 5,
+   "text": "Very helpful and thorough",
+   "date": "2020-06-23",
    "branch": "phoenix",
    "tags": [
     "general"
@@ -15304,6 +18160,17 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "d2451deab0bd",
+   "author": "Kevin Kob",
+   "rating": 5,
+   "text": "So far, I've been quite happy with this Bucksworth Service. I just moved into new build & new community. So there were a lot of little stubborn critters (silverfishes) that wouldn't seem to go. So far I've worked with their Front office, and 3 different service techs. The senior tech was more personable, but even this last tech was very respectful and professional (much younger). I would suggest, and I have suggested this to my neighbors. Been a customer for about 5m now. Schedule visit and call backs/spot treatment inside or out inbetween schedule.",
+   "date": "2020-05-21",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -15769,6 +18636,17 @@
    ]
   },
   {
+   "id": "8d16e59f609c",
+   "author": "Jim and Judi Entsminger",
+   "rating": 5,
+   "text": "awesome job great people",
+   "date": "2019-07-12",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "4ad136f5a7db",
    "author": "Carl Wunderly",
    "rating": 5,
@@ -15802,6 +18680,17 @@
    ]
   },
   {
+   "id": "2f2fa458f42c",
+   "author": "Page Southworth",
+   "rating": 5,
+   "text": "Great people to work with.",
+   "date": "2019-07-05",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "da4afbca3a1b",
    "author": "Donovan Montierth",
    "rating": 5,
@@ -15822,6 +18711,17 @@
    "branch": "phoenix",
    "tags": [
     "general"
+   ]
+  },
+  {
+   "id": "80ae1751a1f7",
+   "author": "Rick M",
+   "rating": 5,
+   "text": "Rick is awesome. He always asks if we are having any problems, suggests remedies, and asks for permission. For example, is it okay to spray inside, and in the garage, and . . . Rick really knows his stuff. The treatments work. My wife wrote a note to me about a bunch of bugs on our front patio. When I examined, it appears there had been a hatching, but all the bugs were dead, including some in our door jam. This is from a treatment from 4 months ago that is still working. Also, Rick is a good man.",
+   "date": "2019-06-29",
+   "branch": "phoenix",
+   "tags": [
+    "pest"
    ]
   },
   {
@@ -15914,11 +18814,33 @@
    ]
   },
   {
+   "id": "aa0ec582fec4",
+   "author": "Wendall Johnson",
+   "rating": 5,
+   "text": "Explained the whole process to me.",
+   "date": "2019-05-04",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
    "id": "c5b51e9c0d7c",
    "author": "David Hale",
    "rating": 5,
    "text": "Technician is very knowledgeable and reliable",
    "date": "2019-05-02",
+   "branch": "phoenix",
+   "tags": [
+    "general"
+   ]
+  },
+  {
+   "id": "c3ff02341bc7",
+   "author": "jennafer steiner",
+   "rating": 5,
+   "text": "Grear service and very friendly.",
+   "date": "2019-04-30",
    "branch": "phoenix",
    "tags": [
     "general"
