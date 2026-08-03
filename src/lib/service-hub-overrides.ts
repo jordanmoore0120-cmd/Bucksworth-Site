@@ -447,7 +447,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
       { q: "How do you stop bermuda grass from invading rock yards?", a: "We use systemic herbicides that travel through bermuda grass runners to kill the root network, not just the visible blades. For severe invasions from adjacent turf or common areas, we can install physical root barriers. Multiple treatments over 2-3 months are typically required for complete bermuda removal." },
       { q: "Do you serve Ocotillo, Sun Groves, and Chandler Heights?", a: "Yes. We serve all Chandler communities including Ocotillo, Sun Groves, Chandler Heights, Downtown Chandler, Andersen Springs, Clemente Ranch, and surrounding areas. Same-day appointments often available." },
       { q: "Do you also offer pest control in Chandler?", a: "Yes. Bucksworth provides full pest and termite protection, scorpion control, HVAC service, and plumbing in addition to weed control throughout Chandler. Many homeowners bundle pest + weed service. Call (480) 422-8388." },
-      { q: "Is Bucksworth licensed for herbicide application?", a: "Yes. All Bucksworth technicians carry current Arizona Department of Agriculture applicator licenses. We're fully insured, Google Guaranteed, and maintain a 4.9-star rating across 2,000+ Google reviews." },
+      { q: "Is Bucksworth licensed for herbicide application?", a: "Yes. All Bucksworth technicians carry current Arizona Department of Agriculture applicator licenses. We're fully insured, Google Guaranteed, and maintain a 4.9-star rating across 2,360+ Google reviews." },
     ],
   },
 
@@ -516,7 +516,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
       { q: "Do you serve Power Ranch, Val Vista Lakes, and Agritopia?", a: "Yes. We serve all Gilbert communities including Power Ranch, Val Vista Lakes, Agritopia, Seville, Cooley Station, Freeman Farms, Higley, and surrounding areas. Same-day appointments frequently available." },
       { q: "How do you control bermuda grass in Gilbert rock yards?", a: "We use systemic herbicides that travel through bermuda grass runners to kill the entire root network underground — not just the visible blades. For severe invasions from adjacent turf or common areas, we may recommend root barriers. Complete bermuda removal typically requires 2-3 treatments over several months." },
       { q: "Do you also offer pest control in Gilbert?", a: "Yes. Bucksworth provides full pest and termite protection, scorpion control, HVAC service, and plumbing throughout Gilbert. Many homeowners bundle pest + weed service for 20-30% savings. Call (480) 422-8388." },
-      { q: "Is Bucksworth licensed for herbicide application in Arizona?", a: "Yes. All Bucksworth technicians carry current Arizona Department of Agriculture applicator licenses. We're fully insured, Google Guaranteed, and maintain a 4.9-star rating across 2,000+ Google reviews." },
+      { q: "Is Bucksworth licensed for herbicide application in Arizona?", a: "Yes. All Bucksworth technicians carry current Arizona Department of Agriculture applicator licenses. We're fully insured, Google Guaranteed, and maintain a 4.9-star rating across 2,360+ Google reviews." },
     ],
   },
 
@@ -584,7 +584,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
       { q: "Do you serve Red Mountain, Las Sendas, and Eastmark?", a: "Yes. We serve all Mesa neighborhoods including Red Mountain, Las Sendas, Eastmark, Dobson Ranch, Downtown Mesa, Alta Mesa, Superstition Springs, and surrounding areas. Same-day appointments frequently available." },
       { q: "Can you stop bermuda grass from invading my rock yard?", a: "Yes. We use systemic herbicides that kill bermuda grass runners underground — not just the visible blades. For severe invasions from neighboring turf or HOA common areas, root barriers may be recommended. Complete bermuda removal typically requires 2-3 treatments over several months." },
       { q: "Do you offer pest control in Mesa too?", a: "Yes. Bucksworth provides complete pest and termite control, scorpion removal, HVAC service, and plumbing throughout Mesa. Bundle pest + weed service for 20-30% savings. Call (480) 422-8388." },
-      { q: "Is Bucksworth licensed for herbicide application?", a: "Yes. All Bucksworth technicians carry current Arizona Department of Agriculture applicator licenses. We're fully insured, Google Guaranteed, and maintain a 4.9-star rating across 2,000+ Google reviews." },
+      { q: "Is Bucksworth licensed for herbicide application?", a: "Yes. All Bucksworth technicians carry current Arizona Department of Agriculture applicator licenses. We're fully insured, Google Guaranteed, and maintain a 4.9-star rating across 2,360+ Google reviews." },
     ],
   },
 
@@ -661,7 +661,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "coolidge-az/pest-and-termite": {
     metaTitle: "Coolidge Pest & Termite Control — Licensed Pros, Same-Day Service | Bucksworth",
-    metaDescription: "Pest control and termite treatment in Coolidge, AZ 85128. Scorpion removal, termite inspections, and rodent control for the Casa Grande Valley. Google Guaranteed. Call (480) 485-9790.",
+    metaDescription: "Pest control and termite treatment in Coolidge, AZ 85128. Scorpion removal, termite inspections, and rodent control for the Casa Grande Valley. Google Guaranteed. Call (480) 422-8388.",
     heroHeadline: "Coolidge Pest & Termite Control — Casa Grande Valley Experts",
     heroDescription: "Coolidge sits in the agricultural heart of the Casa Grande Valley, where irrigated farmland meets desert — creating year-round pest pressure from scorpions, termites, and rodents. Bucksworth provides comprehensive pest and termite protection for every Coolidge home.",
     introContent: [
@@ -669,12 +669,12 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         heading: "Pest & Termite Services in Coolidge, Pinal County",
         paragraphs: [
           "Coolidge's position in the Casa Grande Valley surrounded by agricultural land creates a unique pest environment. Irrigation canals, cotton fields, and citrus groves harbor scorpions, termites, and rodents that migrate into residential neighborhoods as seasons change. Our Coolidge technicians provide targeted treatment for desert and agricultural pests including bark scorpions, subterranean termites, roof rats, ants, and roaches.",
-          "Every Coolidge service includes a full property inspection, interior and exterior treatment, and ongoing protection. Same-day appointments available. Call (480) 485-9790 for a free inspection.",
+          "Every Coolidge service includes a full property inspection, interior and exterior treatment, and ongoing protection. Same-day appointments available. Call (480) 422-8388 for a free inspection.",
         ],
       },
     ],
     faqs: [
-      { q: "How much does pest control cost in Coolidge?", a: "Monthly pest control plans for Coolidge homes start at affordable rates based on home size and pest pressure. Free inspection included with every estimate. Call (480) 485-9790." },
+      { q: "How much does pest control cost in Coolidge?", a: "Monthly pest control plans for Coolidge homes start at affordable rates based on home size and pest pressure. Free inspection included with every estimate. Call (480) 422-8388." },
       { q: "Do you offer termite warranties in Coolidge?", a: "Yes. We provide termite treatment with warranty protection for Coolidge properties. Free termite inspections available for all 85128 zip code homes." },
     ],
   },
@@ -686,7 +686,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "apache-junction-az/pest-and-termite": {
     metaTitle: "Apache Junction Pest Control — Scorpion & Termite Experts Near Superstition Mountains",
-    metaDescription: "Licensed pest control and termite treatment in Apache Junction, AZ 85120/85119. Scorpion removal, termite inspections, and rodent exclusion for Superstition Foothills, Gold Canyon & Renaissance Festival area. Same-day service. Call (480) 485-9790.",
+    metaDescription: "Licensed pest control and termite treatment in Apache Junction, AZ 85120/85119. Scorpion removal, termite inspections, and rodent exclusion for Superstition Foothills, Gold Canyon & Renaissance Festival area. Same-day service. Call (480) 422-8388.",
     heroHeadline: "Apache Junction Pest & Termite Control — Superstition Foothills Specialists",
     heroDescription: "Apache Junction sits at the base of the Superstition Mountains where raw Sonoran Desert meets residential neighborhoods. This desert-edge location creates extreme pest pressure from bark scorpions, subterranean termites, and pack rats migrating downslope into Gold Canyon, Superstition Foothills, and the AJ proper. Bucksworth provides year-round protection calibrated to AJ's unique desert-interface environment.",
     introContent: [
@@ -695,7 +695,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         paragraphs: [
           "Apache Junction's position at the foot of the Superstition Wilderness creates some of the most intense pest pressure in the East Valley. Unlike suburban communities deeper in the metro, AJ homes in 85120, 85119, and 85118 sit within direct migration corridors where bark scorpions, desert hairy scorpions, subterranean termites, pack rats, and black widows move from undeveloped desert washes into residential neighborhoods year-round.",
           "Our AJ pest control covers every common desert pest plus species unique to the Superstition foothills. Every service includes a thorough property inspection, interior and exterior treatment, entry point sealing, and a protection plan that accounts for monsoon surge patterns and seasonal scorpion activity. Same-day and next-day service available across all Apache Junction zip codes.",
-          "Need pest control in Apache Junction today? Call (480) 485-9790 for a free inspection. Licensed, bonded, and Google Guaranteed.",
+          "Need pest control in Apache Junction today? Call (480) 422-8388 for a free inspection. Licensed, bonded, and Google Guaranteed.",
         ],
       },
       {
@@ -708,7 +708,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
       },
     ],
     faqs: [
-      { q: "How much does pest control cost in Apache Junction?", a: "Monthly pest control plans for Apache Junction homes are based on home size, property type, and pest pressure level. Properties closer to the Superstitions typically need enhanced desert-edge treatment. Free inspection included. Call (480) 485-9790." },
+      { q: "How much does pest control cost in Apache Junction?", a: "Monthly pest control plans for Apache Junction homes are based on home size, property type, and pest pressure level. Properties closer to the Superstitions typically need enhanced desert-edge treatment. Free inspection included. Call (480) 422-8388." },
       { q: "Do you do termite inspections in Apache Junction?", a: "Yes. We provide free termite inspections for all Apache Junction properties. Subterranean termites are the primary threat in the AJ area, especially in older homes along Apache Trail and near desert washes." },
       { q: "What areas of Apache Junction do you serve?", a: "We serve all of Apache Junction including 85120, 85119, and 85118 zip codes. Coverage includes Gold Canyon, Superstition Foothills, Goldfield Ranch, Meridian, Renaissance Festival area, and all surrounding communities." },
     ],

@@ -23,32 +23,32 @@ const CITY_META_OVERRIDES: Record<string, CityMetaOverride> = {
   /* Florence — pos 5.3, 115 imp, 0 clk */
   "florence-az": {
     metaTitle: "Florence, AZ Pest Control & AC Repair — Licensed Pros, Same-Day Appointments",
-    metaDescription: "Trusted pest control and air conditioning repair in Florence, AZ. Scorpion removal, termite treatment, AC installation and emergency repair. Google Guaranteed. Call (480) 485-9790.",
+    metaDescription: "Trusted pest control and air conditioning repair in Florence, AZ. Scorpion removal, termite treatment, AC installation and emergency repair. Google Guaranteed. Call (480) 422-8388.",
   },
 
   /* Chandler — pos 2.9, 88 imp, 0 clk */
   "chandler-az": {
     metaTitle: "Chandler, AZ Pest Control, AC Repair & Plumbing — Top-Rated Local Pros",
-    metaDescription: "Bucksworth serves Chandler with scorpion control, AC repair and installation, drain cleaning, and plumbing. 1,900+ five-star reviews. Free inspections. Call (480) 485-9790.",
+    metaDescription: "Bucksworth serves Chandler with scorpion control, AC repair and installation, drain cleaning, and plumbing. 2,360+ five-star reviews. Free inspections. Call (480) 422-8388.",
   },
 
   /* Coolidge — pos 21.8, 60 imp, 0 clk */
   "coolidge-az": {
     metaTitle: "Coolidge, AZ AC Repair & Pest Control — Emergency Same-Day Service",
-    metaDescription: "AC repair, pest control, and plumbing in Coolidge, AZ. Licensed HVAC technicians for emergency cooling repair, scorpion removal, and water heater service. Call (480) 485-9790.",
+    metaDescription: "AC repair, pest control, and plumbing in Coolidge, AZ. Licensed HVAC technicians for emergency cooling repair, scorpion removal, and water heater service. Call (480) 422-8388.",
   },
 
   /* Ahwatukee — pos 22.0, 82 imp, 0 clk */
   "ahwatukee-az": {
     metaTitle: "Ahwatukee Pest Control, AC & Plumbing — 4.9-Star Rated, Same-Day Service",
-    metaDescription: "Expert pest control, AC repair, and plumbing in Ahwatukee Foothills. Scorpion removal specialists, emergency HVAC, and drain cleaning. Google Guaranteed. Call (480) 485-9790.",
+    metaDescription: "Expert pest control, AC repair, and plumbing in Ahwatukee Foothills. Scorpion removal specialists, emergency HVAC, and drain cleaning. Google Guaranteed. Call (480) 422-8388.",
   },
 
 
   /* san-tan-valley-az — city meta override added Jun 25 */
   "san-tan-valley-az": {
     metaTitle: "San Tan Valley Pest Control, AC & Plumbing — Same-Day Service, 4.9-Star Rated",
-    metaDescription: "Trusted pest control, AC installation, and plumbing in San Tan Valley, AZ. Scorpion removal, emergency HVAC repair, and drain cleaning for 85140/85142/85143. Google Guaranteed. Call (480) 485-9790.",
+    metaDescription: "Trusted pest control, AC installation, and plumbing in San Tan Valley, AZ. Scorpion removal, emergency HVAC repair, and drain cleaning for 85140/85142/85143. Google Guaranteed. Call (480) 422-8388.",
   },
 
   /* sahuarita-az — city meta override added Jun 25 */
@@ -60,19 +60,19 @@ const CITY_META_OVERRIDES: Record<string, CityMetaOverride> = {
   /* fountain-hills-az — pos 21.6, 291 imp, 0 clk — added Jun 26 */
   "fountain-hills-az": {
     metaTitle: "Fountain Hills Pest Control, AC & Plumbing — McDowell Mountain Area Pros",
-    metaDescription: "Licensed pest control, AC repair, and plumbing in Fountain Hills, AZ 85268. Scorpion removal, emergency HVAC, and drain cleaning near McDowell Mountain Park. 4.9-star rated. Call (480) 485-9790.",
+    metaDescription: "Licensed pest control, AC repair, and plumbing in Fountain Hills, AZ 85268. Scorpion removal, emergency HVAC, and drain cleaning near McDowell Mountain Park. 4.9-star rated. Call (480) 422-8388.",
   },
 
   /* goodyear-az — pos 22.1, 72 imp, 0 clk — added Jun 26 */
   "goodyear-az": {
     metaTitle: "Goodyear, AZ Pest Control, AC Repair & Plumbing — Estrella & Palm Valley",
-    metaDescription: "Trusted pest control, AC installation, and plumbing in Goodyear, AZ. Serving Estrella Mountain Ranch, Palm Valley & Canyon Trails. Google Guaranteed. Call (480) 485-9790.",
+    metaDescription: "Trusted pest control, AC installation, and plumbing in Goodyear, AZ. Serving Estrella Mountain Ranch, Palm Valley & Canyon Trails. Google Guaranteed. Call (480) 422-8388.",
   },
 
   /* casa-grande-az — pos 13.7, 55 imp, 0 clk — added Jun 26 */
   "casa-grande-az": {
     metaTitle: "Casa Grande Pest Control, AC & Plumbing — Same-Day Service, 85122/85193",
-    metaDescription: "Pest control, AC repair, and plumbing in Casa Grande, AZ. Scorpion removal, emergency cooling repair, and water heater service for 85122 & 85193. Call (480) 485-9790.",
+    metaDescription: "Pest control, AC repair, and plumbing in Casa Grande, AZ. Scorpion removal, emergency cooling repair, and water heater service for 85122 & 85193. Call (480) 422-8388.",
   },
 
   /* vail-az — city meta override added Jun 25 */
@@ -90,7 +90,7 @@ const CITY_META_OVERRIDES: Record<string, CityMetaOverride> = {
   /* apache-junction-az — pos 17.5, 201 imp, NEW — added Jun 28 */
   "apache-junction-az": {
     metaTitle: "Apache Junction Pest Control, AC & Plumbing — Superstition Foothills Pros",
-    metaDescription: "Licensed pest control, AC repair, and plumbing in Apache Junction, AZ 85120/85119. Scorpion removal, emergency HVAC, and drain cleaning near Gold Canyon. Google Guaranteed. Call (480) 485-9790.",
+    metaDescription: "Licensed pest control, AC repair, and plumbing in Apache Junction, AZ 85120/85119. Scorpion removal, emergency HVAC, and drain cleaning near Gold Canyon. Google Guaranteed. Call (480) 422-8388.",
   },
 
 };
