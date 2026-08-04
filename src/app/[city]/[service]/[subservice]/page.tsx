@@ -369,7 +369,15 @@ function buildContent(
 
   return [
     {
-      heading: `${subName} Services in ${cityName}, ${county} County`,
+      // Deliberately NOT restating the H1 ("{subName} in {cityName}, AZ") here —
+      // repeating the exact H1 phrase as the first H2 reads as on-page keyword
+      // cannibalization between heading levels. Rotate a distinct framing instead,
+      // same hash-based variant used elsewhere in this file for natural diversity.
+      heading: variant === 0
+        ? `What ${subName} Involves for ${cityName} Homeowners`
+        : variant === 1
+        ? `${county} County's Guide to Professional ${subName}`
+        : `Understanding ${subName} Service in ${county} County`,
       paragraphs: [
         `${longDesc} Bucksworth Home Services has delivered expert ${svc} in ${cityName} since 2013, and we understand that ${county} County properties face conditions that national chains and generic providers simply cannot address.${n0 ? ` From ${n0.name}${n0.zips[0] ? ` (${n0.zips[0]})` : ""} to ${n1 ? n1.name : "surrounding areas"}${n1?.zips[0] ? ` (${n1.zips[0]})` : ""}, our licensed technicians tailor every job to the specific property and neighborhood.` : ""}`,
         `${communityType}. Bucksworth matches the right technician, equipment, and approach to each situation, backed by same-day availability and free upfront estimates.`,
