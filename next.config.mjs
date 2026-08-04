@@ -161,7 +161,7 @@ const nextConfig = {
         { source: "/pest-control-chandler-az", destination: "/chandler-az/pest-and-termite", permanent: true },
         { source: "/pest-control-chandler", destination: "/chandler-az/pest-and-termite", permanent: true },
         { source: "/pest-control-surprise-az", destination: "/surprise-az/pest-and-termite", permanent: true },
-        { source: "/pest-control-sun-city-az", destination: "/sun-city-az/pest-and-termite", permanent: true },
+        { source: "/pest-control-sun-city-az", destination: "/phoenix-az/pest-and-termite", permanent: true }, // "sun-city-az" is not a generated city; nearest real page
         { source: "/pest-control-marana-az", destination: "/marana-az/pest-and-termite", permanent: true },
         { source: "/weed-control-marana-az", destination: "/marana-az/weed-and-lawn-care", permanent: true },
         { source: "/plumbing-phoenix", destination: "/phoenix-az/plumbing-and-water-heaters", permanent: true },
@@ -254,12 +254,12 @@ const nextConfig = {
         { source: "/phoenix/insulation/pest-guard", destination: "/phoenix-az/air-conditioning-and-heating/attic-insulation", permanent: true },
         { source: "/phoenix/insulation/duct-insulation", destination: "/phoenix-az/air-conditioning-and-heating/attic-insulation", permanent: true },
         // ── 2026-06-24: New redirect — WP blog slug → service page (blog post doesn't exist) ──
-        { source: "/drain-cleaning-in-tucson-az-effective-clog-removal", destination: "/tucson-az/plumbing-and-water-heaters/drain-cleaning", permanent: true },
+        { source: "/drain-cleaning-in-tucson-az-effective-clog-removal", destination: "/tucson-az", permanent: true }, // Tucson-branch cities don't generate plumbing pages
         // ── 2026-06-25: New redirects — GSC 404s with impressions ──
         { source: "/phoenix/hvac-services/indoor-air-quality/air-duct-cleaning", destination: "/phoenix-az/air-conditioning-and-heating/indoor-air-quality", permanent: true },
-        { source: "/beating-the-tucson-heat-why-ac-maintenance-beats-a-last-minute-fix", destination: "/tucson-az/air-conditioning-and-heating", permanent: true },
+        { source: "/beating-the-tucson-heat-why-ac-maintenance-beats-a-last-minute-fix", destination: "/tucson-az", permanent: true }, // Tucson-branch cities don't generate HVAC pages
         // ── 2026-06-26: New redirect — WP/old plumbing slug → service page ──
-        { source: "/tucson-plumbing-reliable-solutions-for-your-home-and-business", destination: "/tucson-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/tucson-plumbing-reliable-solutions-for-your-home-and-business", destination: "/tucson-az", permanent: true }, // Tucson-branch cities don't generate plumbing pages
         { source: "/phoenix/:path*", destination: "/phoenix-az/:path*", permanent: true },
         { source: "/marana/:path*", destination: "/marana-az/:path*", permanent: true },
         { source: "/oro-valley/:path*", destination: "/oro-valley-az/:path*", permanent: true },
@@ -343,11 +343,42 @@ const nextConfig = {
         { source: "/specials", destination: "/", permanent: true },
 
         // ── 2026-08-03: broken internal link targets found in site audit ──
+        // NOTE: the 4 destinations below were themselves broken until 2026-08-04 (redirected to
+        // a bare, city-less path like "/pest-and-termite" that doesn't exist on this site — every
+        // real page requires a city segment). Fixed to a real page below.
         { source: "/:city/plumbing-services", destination: "/:city/plumbing-and-water-heaters", permanent: true },
-        { source: "/indoor-air-quality", destination: "/air-conditioning-and-heating/indoor-air-quality", permanent: true },
-        { source: "/heat-pumps", destination: "/air-conditioning-and-heating", permanent: true },
-        { source: "/air-conditioning-repair", destination: "/air-conditioning-and-heating/ac-repair", permanent: true },
-        { source: "/residential/:sub", destination: "/pest-and-termite", permanent: true },
+        { source: "/indoor-air-quality", destination: "/phoenix-az/air-conditioning-and-heating/indoor-air-quality", permanent: true },
+        { source: "/heat-pumps", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
+        { source: "/air-conditioning-repair", destination: "/phoenix-az/air-conditioning-and-heating/ac-repair", permanent: true },
+        { source: "/residential/:sub", destination: "/phoenix-az/pest-and-termite", permanent: true },
+
+        // ── 2026-08-04: broken internal link targets found in site audit (batch 2) ──
+        // Legacy WordPress-style root-level permalinks (no /blog/ prefix) still hardcoded into a
+        // "related reading" block shared by several termite blog posts — the real posts exist,
+        // just under /blog/.
+        { source: "/how-termites-thrive-in-arizonas-unique-climate", destination: "/blog/how-termites-thrive-in-arizonas-unique-climate", permanent: true },
+        { source: "/how-to-spot-termite-activity-in-cooler-weather", destination: "/blog/how-to-spot-termite-activity-in-cooler-weather", permanent: true },
+        { source: "/the-dangers-of-ignoring-termite-damage-in-older-houses", destination: "/blog/the-dangers-of-ignoring-termite-damage-in-older-houses", permanent: true },
+        // Cross-post "related articles" links referencing a slug that got truncated (either the
+        // stored slug or the generated link was cut mid-word) — redirect to whichever form is real.
+        { source: "/blog/best-pest-control-in-chandler-az-smart-desert-pest-and-scorpion-soluti", destination: "/blog/best-pest-control-in-chandler-az-smart-desert-pest-and-scorpion-solutions", permanent: true },
+        { source: "/blog/ac-maintenance-in-apache-junction-why-superstition-foothills-homeowners-cant-skip-this-step", destination: "/blog/ac-maintenance-in-apache-junction-why-superstition-foothills-homeowners-cant-ski", permanent: true },
+        { source: "/blog/hidden-water-leaks-in-litchfield-park-how-85340-area-homeowners-can-detect-and-fix-them", destination: "/blog/hidden-water-leaks-in-litchfield-park-how-85340-area-homeowners-can-detect-and-f", permanent: true },
+        { source: "/blog/ant-control-in-goodyear-az-getting-rid-of-persistent-pests-once-and-fo", destination: "/blog/ant-control-in-goodyear-az-getting-rid-of-persistent-pests-once-and-for-all", permanent: true },
+        { source: "/blog/ahwatukee-plumbing-experts-reverse-osmosis-for-pure-water-in-the-footh", destination: "/blog/ahwatukee-plumbing-experts-reverse-osmosis-for-pure-water-in-the-foothills", permanent: true },
+        // Cross-post reference to a near-duplicate title under a different slug/wording.
+        { source: "/blog/the-dangers-of-ignoring-termite-damage-in-your-arizona-home", destination: "/blog/the-dangers-of-ignoring-termite-damage-in-older-houses", permanent: true },
+        // "Related articles" links to a companion city post that was never generated for that
+        // city — no matching post exists, so send to the real money page for that city+service.
+        { source: "/blog/best-termite-company-marana-az-expert-home-protection-you-can-trust", destination: "/marana-az/pest-and-termite/termite-treatment", permanent: true },
+        { source: "/blog/maricopa-overseeding-service-lush-winter-lawns-for-the-85138-area", destination: "/maricopa-az/weed-and-lawn-care/overseeding", permanent: true },
+        { source: "/blog/best-weed-control-maricopa-az-85138-smart-solutions-by-bucksworth-home-services", destination: "/maricopa-az/weed-and-lawn-care", permanent: true },
+        { source: "/blog/maricopa-pest-control-your-partners-in-home-defense", destination: "/maricopa-az/pest-and-termite", permanent: true },
+        { source: "/blog/surprise-ac-maintenance-how-to-keep-your-hvac-running-all-summer", destination: "/surprise-az/air-conditioning-and-heating/ac-maintenance", permanent: true },
+        { source: "/blog/ac-maintenance-in-scottsdale-az-seasonal-tips-for-peak-performance", destination: "/scottsdale-az/air-conditioning-and-heating/ac-maintenance", permanent: true },
+        { source: "/blog/best-weed-control-scottsdale-az-keep-your-yard-pristine-this-season", destination: "/scottsdale-az/weed-and-lawn-care", permanent: true },
+        { source: "/blog/best-pest-control-near-chandler-az-trusted-local-experts", destination: "/chandler-az/pest-and-termite", permanent: true },
+        { source: "/blog/preparing-your-home-for-pest-season-in-arizona-a-complete-guide", destination: "/phoenix-az/pest-and-termite", permanent: true },
 
         // ── Plumbing flat URL redirects (PHX metro) ──
         { source: "/plumber-mesa-az", destination: "/mesa-az/plumbing-and-water-heaters", permanent: true },
@@ -421,21 +452,21 @@ const nextConfig = {
         { source: "/snake-pest-control", destination: "/phoenix-az/pest-and-termite", permanent: true },
         { source: "/trane", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         { source: "/valencia-az", destination: "/chandler-az/pest-and-termite", permanent: true },
-        { source: "/water-leak-detection-in-vail-az-professional-inspection-services", destination: "/vail-az/plumbing-and-water-heaters/leak-detection-repair", permanent: true },
+        { source: "/water-leak-detection-in-vail-az-professional-inspection-services", destination: "/vail-az", permanent: true }, // Tucson-branch cities don't generate plumbing pages
         // 2026-06-21: Batch fix — 9 new 404 URLs found via GSC audit
         { source: "/blog/gilbert-cockroach-control-protecting-your-85297-area-home-year-round", destination: "/gilbert-az/pest-and-termite", permanent: true },
         { source: "/blog/getting-rid-of-fire-ants-in-gold-canyon-a-gold-canyon-ranch-homeowners-guide", destination: "/gold-canyon-az/pest-and-termite", permanent: true },
         { source: "/register", destination: "/request-service", permanent: true },
-        { source: "/best-ac-repair-oro-valley-az-85737-maintenance-first-help-that-keeps-you-cool", destination: "/oro-valley-az/air-conditioning-and-heating", permanent: true },
-        { source: "/tucson-energy-savings-why-insulation-beats-a-new-ac-95-of-the-time-v3", destination: "/tucson-az/air-conditioning-and-heating", permanent: true },
-        { source: "/ac-repair-in-oro-valley-az-expert-cooling-support", destination: "/oro-valley-az/air-conditioning-and-heating", permanent: true },
-        { source: "/tucson-plumbing-built-on-integrity-and-transparent-pricing", destination: "/tucson-az/plumbing-and-water-heaters", permanent: true },
+        { source: "/best-ac-repair-oro-valley-az-85737-maintenance-first-help-that-keeps-you-cool", destination: "/oro-valley-az", permanent: true }, // Tucson-branch cities don't generate HVAC pages
+        { source: "/tucson-energy-savings-why-insulation-beats-a-new-ac-95-of-the-time-v3", destination: "/tucson-az", permanent: true }, // Tucson-branch cities don't generate HVAC pages
+        { source: "/ac-repair-in-oro-valley-az-expert-cooling-support", destination: "/oro-valley-az", permanent: true }, // Tucson-branch cities don't generate HVAC pages
+        { source: "/tucson-plumbing-built-on-integrity-and-transparent-pricing", destination: "/tucson-az", permanent: true }, // Tucson-branch cities don't generate plumbing pages
         { source: "/news/how-to-keep-lawn-weed-free", destination: "/phoenix-az/weed-and-lawn-care", permanent: true },
-        { source: "/water-heater-replacement-in-tucson-az-solving-hard-water-issues-for-good", destination: "/tucson-az/plumbing-and-water-heaters/water-heater-installation", permanent: true },
+        { source: "/water-heater-replacement-in-tucson-az-solving-hard-water-issues-for-good", destination: "/tucson-az", permanent: true }, // Tucson-branch cities don't generate plumbing pages
         // 2026-06-23: Batch fix — 4 new 404 URLs found via GSC audit
         { source: "/schedule-now", destination: "/request-service", permanent: true },
-        { source: "/plumbing-services-in-marana-az-expert-solutions-for-every-household-need", destination: "/marana-az/plumbing-and-water-heaters", permanent: true },
-        { source: "/tucson-home-comfort-why-insulation-is-the-secret-to-lower-energy-bills", destination: "/tucson-az/air-conditioning-and-heating/attic-insulation", permanent: true },
+        { source: "/plumbing-services-in-marana-az-expert-solutions-for-every-household-need", destination: "/marana-az", permanent: true }, // Tucson-branch cities don't generate plumbing pages
+        { source: "/tucson-home-comfort-why-insulation-is-the-secret-to-lower-energy-bills", destination: "/tucson-az", permanent: true }, // Tucson-branch cities don't generate HVAC/insulation pages
         // ── 2026-07-07: WordPress backlink recovery — old slugs WITHOUT "-az" suffix ──
         // The WordPress site used URLs like /pest-control-phoenix/ but redirects only existed
         // for /pest-control-phoenix-az. Any external backlinks to the old slugs were 404ing,
