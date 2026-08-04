@@ -1,0 +1,74 @@
+{
+ "promoted_on": "2026-08-04",
+ "rule": "same rules as batch 4, applied to the 19 posts flagged as a link-equity gap after batch 4 \u2014 on inspection, most weren't missing a link at all, they had a MISLABELED canonicalTarget (assigned to the wrong subservice, sometimes the wrong city). Fixed the label to match the post's real, already-existing internal link rather than inserting a new link to an unrelated page.",
+ "promoted": [
+  {
+   "slug": "lawn-fertilization-in-valencia-west-the-right-schedule-for-valencia-west-bermuda",
+   "corrected_from": "/valencia-west-az/weed-and-lawn-care/bermuda-grass-control",
+   "corrected_to": "/valencia-west-az/weed-and-lawn-care/lawn-fertilization",
+   "was_canonical_to": "/valencia-west-az/weed-and-lawn-care/lawn-fertilization"
+  },
+  {
+   "slug": "the-anthem-homeowners-guide-to-water-heater-repair-advice-for-anthem-country-clu",
+   "corrected_from": "/anthem-az/plumbing-and-water-heaters/water-heater-installation",
+   "corrected_to": "/anthem-az/plumbing-and-water-heaters/water-heater-repair",
+   "was_canonical_to": "/anthem-az/plumbing-and-water-heaters/water-heater-repair"
+  },
+  {
+   "slug": "is-spray-foam-insulation-worth-it-in-apache-junction-a-guide-for-superstition-fo",
+   "corrected_from": "/apache-junction-az/air-conditioning-and-heating/attic-insulation",
+   "corrected_to": "/apache-junction-az/air-conditioning-and-heating/spray-foam-insulation",
+   "was_canonical_to": "/apache-junction-az/air-conditioning-and-heating/spray-foam-insulation"
+  },
+  {
+   "slug": "the-mesa-guide-to-spray-foam-insulation-open-cell-vs-closed-cell-for-arizona-hom",
+   "corrected_from": "/mesa-az/air-conditioning-and-heating/attic-insulation",
+   "corrected_to": "/mesa-az/air-conditioning-and-heating/spray-foam-insulation",
+   "was_canonical_to": "/mesa-az/air-conditioning-and-heating/spray-foam-insulation"
+  },
+  {
+   "slug": "why-queen-creek-homes-need-spray-foam-insulation-a-hastings-farms-energy-savings",
+   "corrected_from": "/queen-creek-az/air-conditioning-and-heating/attic-insulation",
+   "corrected_to": "/queen-creek-az/air-conditioning-and-heating/spray-foam-insulation",
+   "was_canonical_to": "/queen-creek-az/air-conditioning-and-heating/spray-foam-insulation"
+  },
+  {
+   "slug": "why-san-tan-valley-homes-need-spray-foam-insulation-a-johnson-ranch-energy-savin",
+   "corrected_from": "/san-tan-valley-az/air-conditioning-and-heating/attic-insulation",
+   "corrected_to": "/san-tan-valley-az/air-conditioning-and-heating/spray-foam-insulation",
+   "was_canonical_to": "/san-tan-valley-az/air-conditioning-and-heating/spray-foam-insulation"
+  },
+  {
+   "slug": "is-spray-foam-insulation-worth-it-in-casa-grande-a-guide-for-pinal-vista-homeown",
+   "corrected_from": "/casa-grande-az/air-conditioning-and-heating/attic-insulation",
+   "corrected_to": "/casa-grande-az/air-conditioning-and-heating/spray-foam-insulation",
+   "was_canonical_to": "/casa-grande-az/air-conditioning-and-heating/spray-foam-insulation"
+  },
+  {
+   "slug": "spray-foam-insulation-near-mcdowell-mountain-regional-park-expert-fountain-hills",
+   "corrected_from": "/fountain-hills-az/air-conditioning-and-heating/attic-insulation",
+   "corrected_to": "/fountain-hills-az/air-conditioning-and-heating/spray-foam-insulation",
+   "was_canonical_to": "/fountain-hills-az/air-conditioning-and-heating/spray-foam-insulation"
+  },
+  {
+   "slug": "spray-foam-insulation-near-peralta-trailhead-expert-gold-canyon-installation",
+   "corrected_from": "/gold-canyon-az/air-conditioning-and-heating/attic-insulation",
+   "corrected_to": "/gold-canyon-az/air-conditioning-and-heating/spray-foam-insulation",
+   "was_canonical_to": "/gold-canyon-az/air-conditioning-and-heating/spray-foam-insulation"
+  },
+  {
+   "slug": "heating-service-near-anthem-community-park-expert-hvac-repair-for-anthem-homes",
+   "corrected_from": "/anthem-az/air-conditioning-and-heating/ac-repair",
+   "corrected_to": "/anthem-az/air-conditioning-and-heating/heating-repair",
+   "was_canonical_to": "/anthem-az/air-conditioning-and-heating/heating-repair"
+  }
+ ],
+ "relabeled_but_not_promoted": [
+  {
+   "slug": "reliable-surprise-plumbers-expert-leak-detection-water-heater-repair",
+   "corrected_from": "/surprise-az/plumbing-and-water-heaters/water-heater-installation",
+   "corrected_to": "/surprise-az/plumbing-and-water-heaters/leak-detection-repair",
+   "reason": "target already has a promoted winner from a prior batch \u2014 stays noindexed, correctly"
+  }
+ ]
+}

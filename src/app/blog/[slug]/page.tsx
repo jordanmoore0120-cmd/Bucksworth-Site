@@ -1,7 +1,7 @@
 import { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
-import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate, getCanonicalTarget, getRelatedPosts, extractFaqPairs, extractFirstImage } from "@/lib/blog";
+import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate, getCanonicalTarget, getRelatedPosts, extractFaqPairs, extractFirstImage, getPrunedRedirect } from "@/lib/blog";
 
 interface BlogPostProps {
   params: Promise<{ slug: string }>;
@@ -50,7 +50,14 @@ export async function generateMetadata({
 export default async function BlogPost({ params }: BlogPostProps) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
-  if (!post) notFound();
+  if (!post) {
+    // Post may have been pruned (removed as a permanent duplicate) rather
+    // than simply never having existed — send it to the real page with a
+    // permanent redirect instead of 404ing on a URL that used to be live.
+    const target = getPrunedRedirect(slug);
+    if (target) permanentRedirect(target);
+    notFound();
+  }
 
   const title = stripHtml(post.title);
 

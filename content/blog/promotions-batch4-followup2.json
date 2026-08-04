@@ -1,0 +1,62 @@
+{
+ "promoted_on": "2026-08-04",
+ "rule": "the 8 remaining link-equity-gap posts from batch 4: each linked to the wrong CITY (parent metro hub) instead of its own assigned suburb. Fixed the href AND the anchor text/labels tied to it (so visible text and destination agree), then promoted since real GSC demand + now-real link equity both check out.",
+ "posts": [
+  {
+   "slug": "why-diy-bee-removal-in-phoenix-is-dangerous-expert-options-for-ahwatukee-foothil",
+   "corrected_from": "/ahwatukee-az/pest-and-termite/bee-wasp-removal",
+   "corrected_to": "/ahwatukee-az/pest-and-termite/bee-wasp-removal",
+   "was_canonical_to": "/ahwatukee-az/pest-and-termite/bee-wasp-removal",
+   "fix": "retargeted city to match real link + rewrote mismatched anchor text, then promoted"
+  },
+  {
+   "slug": "the-tucson-homeowners-guide-to-bed-bug-treatment-protecting-marana-area-families",
+   "corrected_from": "/marana-az/pest-and-termite/bed-bug-treatment",
+   "corrected_to": "/marana-az/pest-and-termite/bed-bug-treatment",
+   "was_canonical_to": "/marana-az/pest-and-termite/bed-bug-treatment",
+   "fix": "retargeted city to match real link + rewrote mismatched anchor text, then promoted"
+  },
+  {
+   "slug": "why-every-tucson-lawn-needs-overseeding-a-oro-valley-area-guide",
+   "corrected_from": "/oro-valley-az/weed-and-lawn-care/overseeding",
+   "corrected_to": "/oro-valley-az/weed-and-lawn-care/overseeding",
+   "was_canonical_to": "/oro-valley-az/weed-and-lawn-care/overseeding",
+   "fix": "retargeted city to match real link + rewrote mismatched anchor text, then promoted"
+  },
+  {
+   "slug": "why-phoenix-mosquito-problems-are-worse-than-you-think-tips-for-ahwatukee-foothi",
+   "corrected_from": "/ahwatukee-az/pest-and-termite/mosquito-control",
+   "corrected_to": "/ahwatukee-az/pest-and-termite/mosquito-control",
+   "was_canonical_to": "/ahwatukee-az/pest-and-termite/mosquito-control",
+   "fix": "retargeted city to match real link + rewrote mismatched anchor text, then promoted"
+  },
+  {
+   "slug": "ac-replacement-in-goodyear-az-honest-solutions-for-your-homes-next-hvac-unit",
+   "corrected_from": "/goodyear-az/air-conditioning-and-heating/ac-installation",
+   "corrected_to": "/goodyear-az/air-conditioning-and-heating/ac-installation",
+   "was_canonical_to": "/goodyear-az/air-conditioning-and-heating/ac-installation",
+   "fix": "retargeted city to match real link + rewrote mismatched anchor text, then promoted"
+  },
+  {
+   "slug": "sewer-roaches-in-tucson-how-marana-area-homeowners-can-fight-back",
+   "corrected_from": "/marana-az/pest-and-termite/roach-elimination",
+   "corrected_to": "/marana-az/pest-and-termite/roach-elimination",
+   "was_canonical_to": "/marana-az/pest-and-termite/roach-elimination",
+   "fix": "retargeted city to match real link + rewrote mismatched anchor text, then promoted"
+  },
+  {
+   "slug": "ac-replacement-in-ahwatukee-az",
+   "corrected_from": "/ahwatukee-az/air-conditioning-and-heating/ac-installation",
+   "corrected_to": "/ahwatukee-az/air-conditioning-and-heating/ac-installation",
+   "was_canonical_to": "/ahwatukee-az/air-conditioning-and-heating/ac-installation",
+   "fix": "retargeted city to match real link + rewrote mismatched anchor text, then promoted"
+  },
+  {
+   "slug": "phoenix-water-softeners-protecting-your-plumbing-from-hard-water",
+   "corrected_from": "/phoenix-az/plumbing-and-water-heaters/water-softener",
+   "corrected_to": "/phoenix-az/plumbing-and-water-heaters/water-softener",
+   "was_canonical_to": "/phoenix-az/plumbing-and-water-heaters/water-softener",
+   "fix": "same target, tightened hub-level link to the exact subservice page"
+  }
+ ]
+}

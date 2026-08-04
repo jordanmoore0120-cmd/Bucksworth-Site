@@ -207,6 +207,29 @@ export function getCanonicalTarget(slug: string): string | null {
   return item?.canonicalTarget || null;
 }
 
+/* ── Pruned posts ──────────────────────────────────────────────
+   Posts that were permanent duplicates (never going to be indexed
+   under the one-indexable-post-per-money-page rule) had their
+   content removed outright rather than left as dead noindexed
+   weight. This map sends any inbound link or crawl of the old URL
+   straight to the real page with a permanent redirect instead of
+   a 404. */
+let _prunedRedirects: Record<string, string> | null = null;
+
+function loadPrunedRedirects(): Record<string, string> {
+  if (_prunedRedirects) return _prunedRedirects;
+  const file = path.join(getContentDir(), "pruned-redirects.json");
+  _prunedRedirects = fs.existsSync(file)
+    ? JSON.parse(fs.readFileSync(file, "utf-8"))
+    : {};
+  return _prunedRedirects!;
+}
+
+/** Get the redirect target for a pruned (deleted) post slug, if any. */
+export function getPrunedRedirect(slug: string): string | null {
+  return loadPrunedRedirects()[slug] || null;
+}
+
 /** Get related posts for a blog post (pre-computed by city + category matching) */
 export function getRelatedPosts(slug: string): BlogIndex[] {
   const idx = loadIndex();
