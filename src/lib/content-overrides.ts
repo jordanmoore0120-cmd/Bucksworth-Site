@@ -35,7 +35,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Arizona bark scorpions are the most venomous scorpion in North America, and Tucson's unique desert basin geography makes it one of the worst cities in Arizona for scorpion infestations. Bucksworth Home Services provides comprehensive scorpion control across every Tucson neighborhood — from blacklight inspections and perimeter sealing to residual barrier treatments that stop scorpions before they reach your family.",
     content: [
       {
-        heading: "Scorpion Control Services in Tucson, Pima County",
+        heading: "Understanding Scorpion Control Service in Pima County",
         paragraphs: [
           "Tucson sits in a basin surrounded by five mountain ranges — the Santa Catalinas, Rincons, Tucson Mountains, Santa Ritas, and Tortolitas — creating a unique geography that funnels scorpion populations directly into residential neighborhoods. The Arizona bark scorpion (Centruroides sculpturatus) thrives in this environment, sheltering in rocky foothills during the day and entering homes through gaps as narrow as a credit card at night.",
           "Bucksworth Home Services has provided scorpion control across the Tucson metro since 2013. Our licensed technicians understand that scorpion pressure in Sam Hughes (85716) is fundamentally different from what homeowners face in Rita Ranch (85747) or the Catalina Foothills (85718). Desert-edge properties near Sabino Canyon face constant migration from undeveloped land, while established midtown neighborhoods deal with scorpions that have adapted to irrigated landscaping and block wall construction.",
@@ -142,7 +142,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Marana's rapid expansion from agricultural land into the Sonoran Desert has displaced thousands of bark scorpions directly into new residential communities. Bucksworth Home Services provides comprehensive scorpion control throughout Marana — from blacklight inspections and colony elimination to long-term perimeter sealing that protects your family year-round.",
     content: [
       {
-        heading: "Scorpion Control Services in Marana, Pima County",
+        heading: "Understanding Scorpion Control Service in Pima County",
         paragraphs: [
           "Marana has transformed from a quiet agricultural town into one of southern Arizona's fastest-growing communities, with master-planned developments like Continental Ranch, Gladden Farms, Dove Mountain, and Saguaro Ranch pushing residential construction directly into raw Sonoran Desert. This rapid development is the primary driver of Marana's scorpion problem — every new home, road, and retention basin built on undisturbed desert displaces bark scorpion populations that have lived in that soil for generations.",
           "Bucksworth Home Services has provided scorpion control across the Marana area since 2013. Our licensed technicians understand that Continental Ranch (85653) properties face different scorpion challenges than homes in Dove Mountain (85658) or Gladden Farms. Desert-edge construction, proximity to the Tortolita Mountains, and Marana's network of desert washes each create distinct scorpion entry patterns that require tailored treatment approaches.",
@@ -249,7 +249,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Oro Valley's position at the base of the Santa Catalina Mountains makes it one of the highest scorpion-pressure communities in the Tucson metro. Bucksworth Home Services provides expert scorpion control across every Oro Valley neighborhood — from Rancho Vistoso to Sun City to Canada Hills — with blacklight inspections, professional exclusion sealing, and residual barrier treatments that keep bark scorpions out of your home.",
     content: [
       {
-        heading: "Scorpion Control Services in Oro Valley, Pima County",
+        heading: "How Scorpion Control Works for Oro Valley Properties",
         paragraphs: [
           "Oro Valley occupies the northwest slope of the Santa Catalina Mountains, placing every neighborhood in this community directly in the path of scorpion populations that descend from the rocky foothills. The Arizona bark scorpion (Centruroides sculpturatus) is the dominant species in Oro Valley, thriving in the decomposed granite, rock outcroppings, and Sonoran Desert terrain that surrounds — and in many cases runs through — the town's residential developments.",
           "Bucksworth Home Services has provided scorpion control across Oro Valley since 2013. Our technicians service Rancho Vistoso (85755), Sun City Oro Valley (85755), Steam Pump Village (85737), Canada Hills, and every other OV neighborhood with treatment plans tailored to each area's specific scorpion pressure. Properties near Catalina State Park and Pusch Ridge face constant scorpion migration that requires a fundamentally different approach than homes in the town's more developed interior.",
@@ -471,7 +471,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Mesa's position between the Usery Mountains and the Superstition Mountains puts more homes in direct scorpion migration paths than almost any other East Valley city. Bucksworth Home Services provides comprehensive scorpion control across every Mesa neighborhood — from blacklight inspections and colony elimination to perimeter sealing that stops bark scorpions before they reach your family.",
     content: [
       {
-        heading: "Scorpion Control Services in Mesa, Maricopa County",
+        heading: "What Scorpion Control Involves for Mesa Homeowners",
         paragraphs: [
           "Mesa is Arizona's third-largest city and one of the most scorpion-affected communities in the entire Phoenix metro. The city stretches from established downtown neighborhoods near the 60 freeway all the way east to the Usery Pass and the Superstition Wilderness — a vast expanse of undeveloped desert that serves as one of the largest bark scorpion reservoirs in Maricopa County. This east-west sprawl means that scorpion pressure varies dramatically across Mesa's 130+ square miles, and effective treatment requires neighborhood-specific knowledge.",
           "Bucksworth Home Services has provided scorpion control across Mesa since 2013. Our licensed technicians understand that a Red Mountain property abutting Usery Mountain Regional Park (85207) faces fundamentally different scorpion challenges than a downtown block wall home near Dobson Ranch (85202). Desert-edge developments like Las Sendas and Eastmark deal with constant scorpion migration from undeveloped land, while older central Mesa neighborhoods contend with scorpions that have colonized block wall cavities and irrigation infrastructure for decades.",
@@ -579,7 +579,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Chandler's southern border meets the Gila River Indian Community and miles of undeveloped desert, funneling bark scorpion populations directly into neighborhoods like Ocotillo, Sun Groves, and Chandler Heights. Bucksworth Home Services provides comprehensive scorpion control across every Chandler neighborhood — from blacklight inspections and colony elimination to exclusion sealing that keeps scorpions out between treatments.",
     content: [
       {
-        heading: "Scorpion Control Services in Chandler, Maricopa County",
+        heading: "How Scorpion Control Works for Chandler Properties",
         paragraphs: [
           "Chandler is one of the East Valley's largest and most established cities, home to more than 280,000 residents across neighborhoods ranging from the historic downtown core to sprawling master-planned communities along the city's southern and eastern borders. While Chandler's central neighborhoods benefit from decades of development that has pushed scorpion habitat further from homes, south Chandler communities — Ocotillo, Sun Groves, Chandler Heights — sit directly adjacent to undeveloped desert and agricultural land that harbor dense bark scorpion populations.",
           "Bucksworth Home Services has served Chandler homeowners since 2013. Our licensed technicians understand that scorpion pressure at an Ocotillo lakefront home (85248) is fundamentally different from what a downtown Chandler homeowner (85225) experiences. Desert-edge properties near the Gila River corridor face constant scorpion migration from untreated wildland, while older central neighborhoods contend with scorpions that have colonized mature landscaping, block wall cavities, and underground utility corridors over decades.",
@@ -687,7 +687,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Goodyear's explosive growth into the Estrella Mountain foothills has displaced vast bark scorpion populations directly into master-planned communities. Bucksworth Home Services delivers comprehensive scorpion control throughout Goodyear — from blacklight inspections and colony elimination to perimeter sealing that protects your family through monsoon season and beyond.",
     content: [
       {
-        heading: "Scorpion Control Services in Goodyear, Maricopa County",
+        heading: "What Scorpion Control Involves for Goodyear Homeowners",
         paragraphs: [
           "Goodyear has transformed from a small agricultural community into one of the fastest-growing cities in the United States, with its population more than doubling since 2010. Master-planned communities like Estrella Mountain Ranch, Palm Valley, Canyon Trails, and PebbleCreek now extend from the historic town center south and west into raw Sonoran Desert — directly into territory that has harbored dense bark scorpion populations for millennia. This rapid development is the primary engine driving Goodyear's scorpion problem.",
           "Bucksworth Home Services has provided scorpion control across Goodyear and the West Valley since 2013. Our licensed technicians understand that scorpion pressure at a desert-edge Estrella Mountain Ranch home (85338) differs fundamentally from a Palm Valley property (85395) surrounded by established landscaping. New construction on former desert faces active displacement migration, while older communities contend with scorpion populations that have adapted to irrigation, block wall cavities, and the prey insect ecosystems that mature neighborhoods sustain.",
@@ -861,7 +861,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Gilbert's rapid transformation from agricultural farmland into Arizona's fifth-largest city has pushed bark scorpion populations out of their natural habitat and directly into neighborhoods. Bucksworth Home Services provides comprehensive scorpion control across every Gilbert community — from blacklight inspections and direct elimination to exclusion sealing that keeps your family safe through monsoon season and beyond.",
     content: [
       {
-        heading: "Scorpion Control Services in Gilbert, Maricopa County",
+        heading: "How Scorpion Control Works for Gilbert Properties",
         paragraphs: [
           "Gilbert sits at the intersection of the East Valley's suburban growth corridor and the Sonoran Desert, creating one of the most active bark scorpion zones in the Phoenix metro. The Arizona bark scorpion (Centruroides sculpturatus) thrives in the rocky terrain of nearby San Tan Mountain Regional Park and the desert washes that thread through Gilbert's master-planned communities. As development has replaced cotton fields and citrus groves with residential neighborhoods, displaced scorpion populations have adapted — nesting in block wall cavities, irrigation boxes, expansion joints, and the very construction materials of modern homes.",
           "Bucksworth Home Services has delivered scorpion control across Gilbert since 2013. Our licensed technicians know that a Power Ranch property (85297) at Gilbert's southeastern desert edge faces fundamentally different scorpion pressure than a Val Vista Lakes home (85295) in the established central corridor. Desert-edge homes experience active migration from undeveloped land, while interior neighborhoods deal with established, breeding populations that have adapted to irrigated landscaping and urban prey insect ecosystems.",
@@ -1059,7 +1059,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Scottsdale's unique position between the McDowell Sonoran Preserve and Camelback Mountain makes it one of the most scorpion-active cities in Arizona. Bucksworth Home Services provides comprehensive scorpion control for Scottsdale homes — from estate properties in North Scottsdale to established communities near Old Town — using blacklight inspections, targeted elimination, and exclusion sealing that protects your family and property.",
     content: [
       {
-        heading: "Scorpion Control Services in Scottsdale, Maricopa County",
+        heading: "What Scorpion Control Involves for Scottsdale Homeowners",
         paragraphs: [
           "Scottsdale stretches more than 30 miles from Camelback Mountain in the south to the McDowell Sonoran Preserve and beyond in the north, encompassing some of the most desirable residential real estate in Arizona — and some of the most active bark scorpion territory in the Phoenix metro. The Arizona bark scorpion (Centruroides sculpturatus) is endemic to the rocky granite terrain that surrounds Scottsdale on nearly every side: the McDowell Mountains, Pinnacle Peak, Thompson Peak, and the Camelback/Mummy Mountain corridor. These mountain preserves harbor enormous scorpion populations that migrate into residential neighborhoods year-round.",
           "Bucksworth Home Services has delivered scorpion control across Scottsdale since 2013. Our licensed technicians understand that a North Scottsdale estate on a desert lot in DC Ranch (85255) faces fundamentally different scorpion dynamics than a McCormick Ranch villa (85258) surrounded by irrigated turf and mature landscaping. Desert-edge properties contend with direct migration from undeveloped preserve land, while established central Scottsdale neighborhoods deal with adapted populations that breed in landscape features, block wall cavities, and the complex construction details of luxury homes.",
@@ -1237,7 +1237,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Phoenix is ground zero for Arizona bark scorpion activity. With 15 distinct neighborhoods spanning desert foothills, irrigated historic districts, and master-planned communities, every part of the city faces unique scorpion pressure. Bucksworth Home Services provides comprehensive scorpion control across the entire Phoenix metro — from blacklight inspections and perimeter sealing to residual barrier treatments that protect your family through monsoon season and beyond.",
     content: [
       {
-        heading: "Scorpion Control Services in Phoenix, Maricopa County",
+        heading: "Maricopa County's Guide to Professional Scorpion Control",
         paragraphs: [
           "Phoenix is the fifth-largest city in the United States and the largest city in the Sonoran Desert, which means it has the largest urban bark scorpion population of any American city. The Arizona bark scorpion (Centruroides sculpturatus) has thrived alongside Phoenix's explosive growth — every new subdivision built into desert terrain displaces scorpion colonies that then migrate into the surrounding homes, garages, and commercial buildings.",
           "Bucksworth Home Services has provided scorpion control across the Phoenix metro since 2013. Our licensed technicians understand that scorpion pressure in Arcadia (85018) is fundamentally different from what homeowners face in Ahwatukee (85048), North Phoenix (85085), or Laveen (85339). Desert-edge properties along South Mountain and the Sonoran Preserve face constant migration from undeveloped land, while established neighborhoods like Encanto-Palmcroft deal with scorpions that have adapted to irrigated landscaping and century-old construction.",
@@ -1338,7 +1338,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Tempe sits at the crossroads of the East Valley's most active bark scorpion corridors. Papago Park, Tempe Butte, and the Salt River bottom create permanent scorpion habitat minutes from every Tempe neighborhood. Bucksworth Home Services provides targeted scorpion control for Tempe's unique mix of dense campus-area rentals, established family communities, and lakefront properties — from blacklight inspections to full exclusion sealing.",
     content: [
       {
-        heading: "Scorpion Control Services in Tempe, Maricopa County",
+        heading: "Maricopa County's Guide to Professional Scorpion Control",
         paragraphs: [
           "Tempe occupies a unique position in the East Valley. Bordered by Phoenix to the west, Scottsdale to the north, Mesa to the east, and Chandler to the south, the city sits at the convergence of multiple scorpion migration routes. The Salt River bottom — running along Tempe's northern boundary — is one of the most productive scorpion habitats in the metro area, and Papago Park's 1,200 acres of rocky desert terrain on Tempe's northwest edge harbor dense bark scorpion colonies year-round.",
           "Bucksworth Home Services has serviced Tempe for scorpion control since 2013. Our technicians understand that a student apartment near Mill Avenue (85281) requires a completely different approach than a single-family home in South Tempe (85284) or a lakefront property in The Lakes (85282). Tempe's compact geography and varied housing stock mean that scorpion pressure, entry patterns, and treatment protocols change block by block.",
@@ -1438,7 +1438,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Peoria stretches from established neighborhoods near the 101 and Grand Avenue all the way north to the Sonoran Desert foothills near Lake Pleasant. That 30-mile span means wildly different scorpion pressure depending on where you live. Bucksworth Home Services provides targeted scorpion control calibrated to each Peoria neighborhood — from aggressive desert-edge barrier treatments in Vistancia and Westwing Mountain to entry-point sealing in Old Town Peoria's older block construction.",
     content: [
       {
-        heading: "Scorpion Control Services in Peoria, Maricopa County",
+        heading: "Understanding Scorpion Control Service in Maricopa County",
         paragraphs: [
           "Peoria is one of the fastest-growing cities in the West Valley, and that growth is pushing residential development deeper into Sonoran Desert terrain than almost any other Phoenix suburb. North Peoria communities like Vistancia, Westwing Mountain, and Lake Pleasant Heights were built on raw desert hillsides that harbored dense bark scorpion populations — colonies that were displaced but never eliminated during construction. Meanwhile, Old Town Peoria and central Peoria neighborhoods have aging block construction with deteriorated sealing that gives scorpions easy access to homes built decades ago.",
           "Bucksworth Home Services has provided scorpion control across Peoria since 2013. Our licensed technicians understand that a home in Vistancia (85383) near the Sonoran Desert boundary faces completely different scorpion dynamics than a home in Old Town Peoria (85345) near the Grand Avenue corridor. Desert-edge properties deal with continuous migration from undeveloped land, while established neighborhoods manage scorpion populations that have adapted to irrigated landscapes and suburban infrastructure.",
@@ -1537,7 +1537,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Apache Junction sits at the base of the Superstition Mountains, creating some of the most intense pest pressure in the East Valley. Bark scorpions, subterranean termites, pack rats, and black widows migrate from the surrounding desert directly into AJ neighborhoods. Bucksworth Home Services provides comprehensive pest and termite control across every Apache Junction zip code — 85118, 85119, and 85120.",
     content: [
       {
-        heading: "Pest Control Services in Apache Junction, Pinal County",
+        heading: "Pinal County's Guide to Professional Pest Control",
         paragraphs: [
           "Apache Junction's unique geography — bordered by the Superstition Wilderness to the east and the Tonto National Forest to the north — creates a constant migration path for desert pests into residential areas. Unlike urban Phoenix neighborhoods with established pest barriers, AJ properties sit on the front line between developed communities and thousands of acres of raw desert habitat.",
           "The Arizona bark scorpion (Centruroides sculpturatus) is the most common and dangerous pest in Apache Junction. These scorpions shelter in the rocky Superstition foothills during the day and enter homes through gaps as narrow as a credit card at night. Our comprehensive scorpion control includes UV blacklight inspections, interior and exterior treatment, entry point sealing, and ongoing perimeter barriers.",
@@ -1604,7 +1604,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Surprise sits at the intersection of explosive residential growth and untouched Sonoran Desert, with White Tank Mountain Regional Park anchoring 30,000 acres of prime bark scorpion habitat on the city's western edge. Bucksworth Home Services delivers targeted scorpion control across every Surprise neighborhood — from aggressive desert-edge barrier treatments in Asante and Desert Oasis to entry-point exclusion in Sun City Grand's established homes.",
     content: [
       {
-        heading: "Scorpion Control Services in Surprise, Maricopa County",
+        heading: "How Scorpion Control Works for Surprise Properties",
         paragraphs: [
           "Surprise has grown from 30,000 residents in 2000 to over 152,000 today, making it one of the fastest-expanding cities in the Phoenix metro. That growth pushed subdivisions directly into Sonoran Desert terrain west of the 303 Freeway — terrain that supported dense Arizona bark scorpion (Centruroides sculpturatus) colonies for thousands of years. Displacing scorpion habitat through construction does not eliminate scorpion populations. It fragments them into surrounding desert, retention basins, and block wall corridors, creating a permanent reinfestation cycle for every community built on the desert's edge.",
           "Bucksworth Home Services has provided scorpion control across Surprise since 2013. Our licensed technicians understand that scorpion pressure in Asante (85387) near the White Tank Mountain foothills is fundamentally different from what homeowners face in Marley Park (85379) or the established 55+ communities in Sun City Grand (85374). Desert-edge properties deal with constant migration from undeveloped BLM and state trust land, while central Surprise neighborhoods manage populations sustained by irrigated parks, retention basins, and canal corridors.",
@@ -1704,7 +1704,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Buckeye is the fastest-growing city in Arizona, with new construction pushing west into raw Sonoran Desert at an unprecedented pace. Every subdivision carved from desert terrain displaces bark scorpion colonies that have inhabited the White Tank Mountain foothills and Gila River corridor for millennia. Bucksworth Home Services provides targeted scorpion control across Buckeye — from aggressive desert-frontier barriers in Verrado and Tartesso to entry-point protection in Sundance and Festival Ranch.",
     content: [
       {
-        heading: "Scorpion Control Services in Buckeye, Maricopa County",
+        heading: "Understanding Scorpion Control Service in Maricopa County",
         paragraphs: [
           "Buckeye stretches across more than 640 square miles of Maricopa County — making it geographically larger than the city of Phoenix — and most of that land is undeveloped Sonoran Desert, former agricultural fields, and state trust land scheduled for future development. The city's residential footprint is concentrated in communities like Verrado, Tartesso, Sundance, and Festival Ranch, which were built on raw desert terrain teeming with Arizona bark scorpions (Centruroides sculpturatus). As Buckeye's population has exploded from 6,500 in 2000 to over 115,000 today, scorpion encounters have grown in direct proportion.",
           "Bucksworth Home Services has provided scorpion control across Buckeye since 2013. Our licensed technicians understand that a home in Verrado (85396) nestled in the White Tank Mountain foothills faces completely different scorpion pressure than a home in Sundance (85326) south of I-10 near the Gila River corridor. Mountain-edge properties deal with rock-dwelling scorpion colonies that migrate downhill, while river-corridor homes face populations sustained by the moisture and insect density along Arizona's last free-flowing river sections.",
@@ -1798,7 +1798,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Catalina Foothills is ground zero for bark scorpion encounters in the Tucson metro. Your homes sit directly against the Santa Catalina Mountains — the largest scorpion reservoir in southern Arizona. Bucksworth Home Services delivers professional scorpion control engineered specifically for foothill properties, from Skyline Country Club to Ventana Canyon to Finger Rock, with UV blacklight inspections, advanced exclusion sealing, and residual barrier treatments that stop scorpions before they cross your threshold.",
     content: [
       {
-        heading: "Scorpion Control Services in Catalina Foothills, Pima County",
+        heading: "How Scorpion Control Works for Catalina Foothills Properties",
         paragraphs: [
           "Catalina Foothills is an unincorporated community of approximately 51,000 residents nestled directly against the southern face of the Santa Catalina Mountains. This geography is not metaphorical — the rocky mountain slopes that produce Arizona bark scorpions (Centruroides sculpturatus) literally border backyards in Catalina Foothills neighborhoods. No other Tucson metro community faces this level of proximity to scorpion habitat.",
           "Bucksworth Home Services has served Catalina Foothills homeowners since 2013 with scorpion control programs designed for high-pressure foothill environments. We treat properties in Skyline Country Club (85718), Ventana Canyon (85750), Finger Rock (85718), Pima Canyon, Hacienda del Sol, La Paloma, and every neighborhood between River Road and the mountain boundary. Each neighborhood faces different scorpion migration pathways, and our technicians tailor every treatment plan to the specific risk profile of your property.",
@@ -1890,7 +1890,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Sahuarita is one of the fastest-growing communities in southern Arizona, and every new neighborhood being carved from the Sonoran Desert is displacing bark scorpion populations directly into homes. Bucksworth Home Services provides expert scorpion control across every Sahuarita neighborhood — from Rancho Sahuarita to Quail Creek to Madera Highlands — with UV blacklight inspections, professional exclusion sealing, and residual barrier treatments that protect your family from Arizona's most venomous scorpion.",
     content: [
       {
-        heading: "Scorpion Control Services in Sahuarita, Pima County",
+        heading: "What Scorpion Control Involves for Sahuarita Homeowners",
         paragraphs: [
           "Sahuarita is a rapidly expanding community of approximately 37,000 residents located 15 miles south of Tucson along the Santa Cruz River valley. The town's explosive growth — one of the fastest in Pima County over the past decade — means new residential developments are continuously being built on raw desert terrain that harbors established bark scorpion (Centruroides sculpturatus) populations. Every new phase of construction displaces scorpions that have occupied this ground for decades.",
           "Bucksworth Home Services has provided scorpion control in Sahuarita since 2013. Our technicians serve Rancho Sahuarita (85629), Quail Creek (85629), Madera Highlands, Las Campanas, Santa Cruz River Preserve, Sahuarita Terrace, and every other neighborhood in the town. Each community faces different scorpion dynamics depending on its age, proximity to undeveloped desert, and construction phase — and our treatment plans are calibrated accordingly.",
@@ -1980,7 +1980,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Green Valley's position between the Santa Rita Mountains and the Santa Cruz River valley makes it prime bark scorpion territory. Bucksworth Home Services provides professional scorpion control across every Green Valley neighborhood — from Green Valley Recreation communities to Continental to Tubac-area properties — with UV blacklight inspections, exclusion sealing, and residual barrier treatments designed to keep scorpions out of your home.",
     content: [
       {
-        heading: "Scorpion Control Services in Green Valley, Pima County",
+        heading: "What Scorpion Control Involves for Green Valley Homeowners",
         paragraphs: [
           "Green Valley is an unincorporated retirement community of approximately 22,000 residents located 25 miles south of Tucson in the Santa Cruz River valley. The community sits between the Santa Rita Mountains to the east and the open Sonoran Desert to the west, creating a dual-corridor scorpion environment that requires professional management. The Arizona bark scorpion (Centruroides sculpturatus) is the primary species of concern, joined by desert hairy scorpions (Hadrurus arizonensis) and stripe-tailed scorpions (Paravaejovis spinigerus).",
           "Bucksworth Home Services has served Green Valley homeowners since 2013 with scorpion control programs tailored to the unique needs of this community. We treat properties throughout the Green Valley Recreation (GVR) area (85614), Continental (85614), Desert Hills, Esperanza Estates, Canoa Ranch, La Cañada, and every other Green Valley neighborhood. Our technicians understand that many Green Valley residents are seasonal, elderly, or managing their homes on fixed incomes — and we structure our services accordingly.",
@@ -2083,7 +2083,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Fountain Hills homes face some of the most extreme attic temperatures in the Valley — reaching 160 degrees or more during summer. Without proper insulation, your AC works overtime, driving energy bills through the roof. Bucksworth Home Services provides expert attic insulation upgrades tailored to Fountain Hills homes, from blown-in fiberglass and cellulose to radiant barriers that reflect Arizona's intense sun.",
     content: [
       {
-        heading: "Attic Insulation Services in Fountain Hills, Maricopa County",
+        heading: "How Attic Insulation Works for Fountain Hills Properties",
         paragraphs: [
           "Fountain Hills sits at a slightly higher elevation than central Phoenix, but the desert heat is just as punishing on your home's energy envelope. Most homes in Fountain Hills — from the established neighborhoods near Fountain Park to the custom builds along Eagle Mountain — were built with minimum-code insulation that falls well short of today's Department of Energy recommendations for Climate Zone 2.",
           "Bucksworth Home Services specializes in attic insulation upgrades across Fountain Hills and the surrounding East Valley. We assess your current insulation's R-value, identify gaps and compression points, and recommend the most cost-effective upgrade path to reach R-38 or higher — the DOE recommendation for Arizona attics.",
@@ -2158,7 +2158,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "When your AC fails in Chandler's 115-degree heat, every hour matters. Bucksworth Home Services provides same-day AC repair across every Chandler neighborhood — from Downtown Chandler and the San Marcos area to Ocotillo, Sun Lakes, and Chandler Heights. Our licensed HVAC technicians diagnose and fix all makes and models, with upfront pricing and no surprise fees.",
     content: [
       {
-        heading: "AC Repair Services in Chandler, Maricopa County",
+        heading: "What AC Repair Involves for Chandler Homeowners",
         paragraphs: [
           "Chandler's extreme summer heat puts enormous stress on residential cooling systems. With temperatures regularly exceeding 110 degrees from June through September, a broken AC isn't just uncomfortable — it's a safety hazard. Bucksworth Home Services has provided AC repair across the Chandler metro since 2013, serving homeowners from the established neighborhoods near Downtown Chandler to newer communities in Chandler Heights and the South Chandler corridor.",
           "Our Chandler HVAC team handles everything from simple capacitor replacements and refrigerant recharges to complex compressor failures and full system diagnostics. We stock common parts on our service trucks so most repairs are completed in a single visit. For older systems (10+ years), we provide honest assessments of repair vs. replacement costs so you can make the best decision for your home and budget.",
@@ -2195,7 +2195,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Vail sits at the base of the Rincon Mountains on Tucson's southeast edge, where rocky desert slopes meet one of southern Arizona's fastest-growing residential corridors. Bark scorpion populations established in the Rincon foothills migrate directly into Vail neighborhoods every monsoon season. Bucksworth Home Services provides expert scorpion control across every Vail community — from Del Lago to Rocking K Ranch to the Civano sustainable development — with UV blacklight inspections, professional exclusion sealing, and residual barrier treatments.",
     content: [
       {
-        heading: "Scorpion Control Services in Vail, Pima County",
+        heading: "Understanding Scorpion Control Service in Pima County",
         paragraphs: [
           "Vail is a rapidly growing community of approximately 15,000 residents located southeast of Tucson at the base of the Rincon Mountains. The area's position between Saguaro National Park East and the expanding suburban corridor along Old Spanish Trail and Houghton Road creates an unusually intense scorpion environment. The Arizona bark scorpion (Centruroides sculpturatus) is the primary species of concern, with desert hairy scorpions (Hadrurus arizonensis) and stripe-tailed scorpions (Paravaejovis spinigerus) also common throughout the area.",
           "Bucksworth Home Services has provided scorpion control in the Vail area since 2013. Our technicians serve Del Lago (85641), Rocking K Ranch, Civano, Rincon Vista, Cienega Creek Preserve neighborhoods, Mesquite Ranch, and every other Vail community. Each neighborhood faces different scorpion dynamics based on its elevation, proximity to the Rincon foothills, and distance from natural wash corridors — and our treatment plans are calibrated to match.",
@@ -2284,7 +2284,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Valencia West and the Drexel Heights area of southwest Tucson sit where established residential neighborhoods meet the open Sonoran Desert west of the Santa Cruz River. Bark scorpions move freely between desert washes, vacant desert parcels, and older homes with aging seals and entry points. Bucksworth Home Services provides targeted scorpion control across the entire Valencia West corridor — from Mission Road to Valencia Road to Ajo Highway — with UV blacklight inspections, exclusion sealing, and barrier treatments that keep scorpions out.",
     content: [
       {
-        heading: "Scorpion Control Services in Valencia West, Pima County",
+        heading: "What Scorpion Control Involves for Valencia West Homeowners",
         paragraphs: [
           "Valencia West is an established community of approximately 12,000 residents on Tucson's southwest side, centered around the Valencia Road corridor west of I-19. The area encompasses Drexel Heights, the Tucson Estates neighborhood, and the residential areas stretching from Mission Road west toward the Tucson Mountains and Saguaro National Park West. This corridor faces persistent scorpion pressure from multiple habitat sources — the Santa Cruz River to the east, the Tucson Mountains to the north, and open desert interspersed between developed parcels throughout the area.",
           "Bucksworth Home Services has provided scorpion control in the Valencia West and Drexel Heights area since 2013. Our technicians serve zip code 85757 and surrounding areas, treating properties along Valencia Road, Drexel Road, Ajo Way, Mission Road, and throughout the Tucson Estates and Starr Pass neighborhoods. Valencia West's unique mix of older homes, newer infill construction, and persistent desert-interface exposure requires treatment approaches calibrated to each property's specific conditions.",
@@ -2373,7 +2373,7 @@ const OVERRIDES: Record<string, ContentOverride> = {
     heroDescription: "Red Rock and the Picture Rocks area northwest of Tucson sit in some of the most scorpion-dense terrain in all of southern Arizona. Surrounded by Saguaro National Park West, Ironwood Forest National Monument, and miles of undeveloped Sonoran Desert, these rural communities face scorpion pressure from every direction. Bucksworth Home Services provides professional scorpion control throughout the Red Rock corridor with UV blacklight inspections, exclusion sealing, and extended-perimeter barrier treatments designed for properties where the desert is never more than steps away.",
     content: [
       {
-        heading: "Scorpion Control Services in Red Rock, Pima County",
+        heading: "What Scorpion Control Involves for Red Rock Homeowners",
         paragraphs: [
           "Red Rock is a rural community of approximately 8,000 residents located northwest of Tucson along the Avra Valley corridor between the Tucson Mountains and Ironwood Forest National Monument. The area, which includes the Picture Rocks community and properties stretching along Ina Road, Avra Valley Road, and Sandario Road, is among the most desert-immersed residential areas in the entire Tucson metro. Every direction from Red Rock leads to vast expanses of undeveloped Sonoran Desert — making professional scorpion management not a luxury but a necessity for residents.",
           "Bucksworth Home Services has served the Red Rock and Picture Rocks area since 2013 with scorpion control programs designed for rural desert properties. Our technicians treat homes in zip codes 85745 and 85743, covering the Red Rock town center, Picture Rocks, Avra Valley, and surrounding properties. Red Rock's unique challenges — large lots, desert-native landscaping, limited neighbors, and 360-degree desert exposure — require treatment approaches that differ significantly from suburban Tucson service.",
