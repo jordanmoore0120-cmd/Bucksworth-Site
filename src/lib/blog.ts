@@ -124,35 +124,49 @@ export function getPosts(
    ───────────────────────────────────────────────────────────── */
 const PHX_PHONE = "(480) 422-8388";
 const TUC_PHONE = "(520) 284-9930";
-const DEAD_PHONES = [
-  "(480) 485-9790", "480-485-9790",
-  "(602) 962-2879", "602-962-2879",
-  "(480) 396-8881", "480-396-8881",
-  "(480) 485-9625", "480-485-9625",
-  "(480) 485-7078", "480-485-7078",
+const DEAD_PHONES_DIGITS = [
+  "4804859790",
+  "6029622879",
+  "4803968881",
+  "4804859625",
+  "4804857078",
 ];
+/* Matches every way a number can appear: (480) 396-8881, 480-396-8881,
+   480.396.8881, 480 396 8881, and the bare digits inside tel: hrefs.
+   The digits-only form is what mobile taps actually dial, so it must be
+   rewritten too — display text alone is not enough. */
+const DEAD_PHONE_PATTERNS = DEAD_PHONES_DIGITS.map((d) => ({
+  digits: d,
+  re: new RegExp(
+    `\\(?${d.slice(0, 3)}\\)?[-.\\s]?${d.slice(3, 6)}[-.\\s]?${d.slice(6)}`,
+    "g",
+  ),
+}));
 const TUCSON_CITIES = [
   "tucson", "oro valley", "marana", "sahuarita", "vail",
   "catalina foothills", "green valley", "corona de tucson",
 ];
 
 function correctPhones(post: BlogPost): BlogPost {
-  const haystack = `${post.title ?? ""} ${post.content ?? ""}`;
-  if (!DEAD_PHONES.some((p) => haystack.includes(p))) return post;
+  const haystack = `${post.title ?? ""} ${post.content ?? ""} ${post.excerpt ?? ""}`;
+  const haystackDigits = haystack.replace(/\D/g, "");
+  if (!DEAD_PHONES_DIGITS.some((d) => haystackDigits.includes(d))) return post;
 
   const lower = `${post.slug ?? ""} ${post.title ?? ""}`.toLowerCase();
   const correct = TUCSON_CITIES.some((c) => lower.includes(c)) ? TUC_PHONE : PHX_PHONE;
+  const correctDigits = correct.replace(/\D/g, "");
 
-  const fix = (v?: string) =>
-    v === undefined
-      ? v
-      : DEAD_PHONES.reduce(
-          (acc, dead) =>
-            acc.includes(dead)
-              ? acc.split(dead).join(dead.includes("(") ? correct : correct.replace("(", "").replace(") ", "-"))
-              : acc,
-          v,
-        );
+  const fix = (v?: string) => {
+    if (v === undefined) return v;
+    let out = v;
+    for (const { re } of DEAD_PHONE_PATTERNS) {
+      out = out.replace(re, (match) =>
+        // A match with no separators is a dialable string (tel: href) — keep it dialable.
+        /^\d+$/.test(match) ? correctDigits : correct,
+      );
+    }
+    return out;
+  };
 
   return {
     ...post,
