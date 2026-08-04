@@ -369,7 +369,15 @@ function buildContent(
 
   return [
     {
-      heading: `${subName} Services in ${cityName}, ${county} County`,
+      // Deliberately NOT restating the H1 ("{subName} in {cityName}, AZ") here —
+      // repeating the exact H1 phrase as the first H2 reads as on-page keyword
+      // cannibalization between heading levels. Rotate a distinct framing instead,
+      // same hash-based variant used elsewhere in this file for natural diversity.
+      heading: variant === 0
+        ? `What ${subName} Involves for ${cityName} Homeowners`
+        : variant === 1
+        ? `${county} County's Guide to Professional ${subName}`
+        : `Understanding ${subName} Service in ${county} County`,
       paragraphs: [
         `${longDesc} Bucksworth Home Services has delivered expert ${svc} in ${cityName} since 2013, and we understand that ${county} County properties face conditions that national chains and generic providers simply cannot address.${n0 ? ` From ${n0.name}${n0.zips[0] ? ` (${n0.zips[0]})` : ""} to ${n1 ? n1.name : "surrounding areas"}${n1?.zips[0] ? ` (${n1.zips[0]})` : ""}, our licensed technicians tailor every job to the specific property and neighborhood.` : ""}`,
         `${communityType}. Bucksworth matches the right technician, equipment, and approach to each situation, backed by same-day availability and free upfront estimates.`,
@@ -377,7 +385,7 @@ function buildContent(
       ],
     },
     {
-      heading: `Neighborhood-Level ${subName} in ${cityName}`,
+      heading: `Neighborhood-Level Coverage in ${cityName}`,
       paragraphs: [
         n0
           ? `${n0.name} — ${n0.desc} Our technicians who service ${n0.name} properties know these conditions and arrive prepared with the right equipment and materials for the job.`
@@ -407,7 +415,7 @@ function buildContent(
           ? `For ${cityName} homeowners, this means ${svc} is not optional — it is part of responsible home maintenance. The desert does not forgive neglect. A small issue in March becomes an emergency by July when temperatures and pest activity both peak. Bucksworth's preventive approach catches problems early when they are cheapest and easiest to resolve.`
           : variant === 1
           ? `These conditions directly impact ${cityName} homes. ${county} County's hard water, alkaline soil, and UV-battered building materials create a cascade of maintenance challenges. Bucksworth technicians train specifically for the ${branch} metro's unique conditions and use materials rated for Arizona's extreme environment.`
-          : `${cityName}'s position in the ${branch} metro creates a distinct set of ${svc} demands. The combination of extreme heat, monsoon moisture, desert wildlife, and rapid development means homeowners need a provider who understands this specific area — not just Arizona in general, but ${cityName} in particular.`,
+          : `${cityName}'s position in the ${branch} metro creates a distinct set of ${svc} demands. The combination of extreme heat, monsoon moisture, desert wildlife, and rapid development means homeowners need a provider who understands this specific area — not just Arizona in general, but this community in particular.`,
         `${n0 ? `In neighborhoods like ${n0.name}, ${n0.desc.charAt(0).toLowerCase() + n0.desc.slice(1)}` : `Across ${cityName}`} Our team factors in your home's age, construction type, lot orientation, landscaping, and proximity to washes or preserve areas when designing a ${svc} plan that actually works long-term.`,
       ],
     },
@@ -424,10 +432,10 @@ function buildContent(
       ],
     },
     {
-      heading: `${subName} Coverage: ${topNhoods.length > 0 ? topNhoods.join(", ") : cityName} & Surrounding Areas`,
+      heading: `Service Area Coverage: ${topNhoods.length > 0 ? topNhoods.join(", ") : cityName} & Surrounding Areas`,
       paragraphs: [
         `Bucksworth serves every corner of ${cityName} and the surrounding ${branch} metro — ${zips ? `zip codes ${zips}` : "all local zip codes"} and adjacent communities.${topNhoods.length > 0 ? ` Our most-served neighborhoods include ${topNhoods.join(", ")}${neighborhoods.length > 5 ? `, plus ${neighborhoods.length - 5} additional areas` : ""}.` : ""}`,
-        `Our ${branch} dispatch center is staffed during business hours to ensure fast scheduling. When you call ${phone}, most ${cityName} appointments are available same-day or next-day. Emergency ${svc} calls get priority routing to the nearest available technician.`,
+        `Our ${branch} dispatch center is staffed during business hours to ensure fast scheduling. When you call ${phone}, most appointments are available same-day or next-day. Emergency calls get priority routing to the nearest available technician.`,
         `Already a Bucksworth customer in ${cityName}? Our maintenance plan members get priority scheduling, discounted rates, and a dedicated technician who knows your property history. Ask about our annual plans when you call.`,
       ],
     },
@@ -436,7 +444,7 @@ function buildContent(
       paragraphs: [
         `Bucksworth is family-owned by Jordan and Taylor Moore, who founded the company in Apache Junction in 2013 with one truck and a simple philosophy: treat every home like it is Gigi's. That means honest assessments, quality materials, fair prices, and genuine care. It has earned us 2,000+ five-star reviews from homeowners across the ${branch} metro, including families throughout ${cityName}.`,
         `We are one of the few ${branch}-area companies that is Google Guaranteed — meaning Google independently verified our licenses, insurance, and employee backgrounds. Arizona ROC #343924 and AG License #9613 are active and in good standing. When you hire Bucksworth for ${svc} in ${cityName}, the work is backed by both our guarantee and Google's.`,
-        `Ready for your free ${svc} assessment in ${cityName}? Call ${phone} today. No trip fees, no hidden charges, no pressure — just an honest evaluation and a written estimate you can count on. Same-day appointments available across all ${cityName} zip codes.`,
+        `Ready for your free ${svc} assessment in ${cityName}? Call ${phone} today. No trip fees, no hidden charges, no pressure — just an honest evaluation and a written estimate you can count on. Same-day appointments available across all local zip codes.`,
       ],
     },
   ];
@@ -454,27 +462,27 @@ function buildFaqs(
   return [
     {
       q: `How much does ${svc} cost in ${cityName}, AZ?`,
-      a: `${subName} pricing in ${cityName} depends on your home's size, the scope of work, and specific conditions at your property. Bucksworth always provides a free on-site inspection and written estimate before starting — no trip fees or hidden charges. Call ${phone} for your free ${cityName} estimate.`,
+      a: `${subName} pricing depends on your home's size, the scope of work, and specific conditions at your property. Bucksworth always provides a free on-site inspection and written estimate before starting — no trip fees or hidden charges. Call ${phone} for your free estimate in ${cityName}.`,
     },
     {
       q: `Can I get same-day ${svc} in ${cityName}?`,
-      a: `Yes. Bucksworth offers same-day and next-day ${svc} throughout ${cityName} and the ${branch} metro area. Our dispatch team at ${phone} can check today's availability for your zip code. Emergency situations get priority routing.`,
+      a: `Yes. Bucksworth offers same-day and next-day service throughout ${cityName} and the ${branch} metro area. Our dispatch team at ${phone} can check today's availability for your zip code. Emergency situations get priority routing.`,
     },
     {
       q: `Is Bucksworth licensed for ${svc} in ${cityName}?`,
-      a: `Absolutely. Bucksworth Home Services holds Arizona ROC License #343924, AG License #9613, and is Google Guaranteed — meaning Google has independently verified our business licenses, insurance, and employee background checks. We have served ${cityName} homeowners since 2013.`,
+      a: `Absolutely. Bucksworth Home Services holds Arizona ROC License #343924, AG License #9613, and is Google Guaranteed — meaning Google has independently verified our business licenses, insurance, and employee background checks. We have proudly served homeowners here since 2013.`,
     },
     {
       q: `What warranty does Bucksworth offer on ${svc}?`,
-      a: `All ${svc} work in ${cityName} comes with our satisfaction guarantee. Maintenance plan members receive extended coverage and priority scheduling. Your technician will explain the specific warranty terms included with your written estimate before any work begins.`,
+      a: `All ${svc} work comes with our satisfaction guarantee. Maintenance plan members receive extended coverage and priority scheduling. Your technician will explain the specific warranty terms included with your written estimate before any work begins.`,
     },
     {
       q: `What ${cityName} neighborhoods does Bucksworth serve for ${svc}?`,
-      a: `We serve every neighborhood and zip code in ${cityName} as well as surrounding ${branch} metro communities — 33 cities total. Whether you are in ${cityName} proper or a nearby area, our technicians are typically 30 minutes or less from your door.`,
+      a: `We serve every neighborhood and zip code in ${cityName} as well as surrounding ${branch} metro communities — 33 cities total. Whether you are right in town or in a nearby area, our technicians are typically 30 minutes or less from your door.`,
     },
     {
       q: `Do I need to be home for ${svc} service in ${cityName}?`,
-      a: `We recommend being home for the initial inspection so our technician can walk you through findings and recommendations. For ongoing maintenance visits, many ${cityName} customers give us exterior access instructions and we handle everything while you are at work.`,
+      a: `We recommend being home for the initial inspection so our technician can walk you through findings and recommendations. For ongoing maintenance visits, many customers give us exterior access instructions and we handle everything while you are at work.`,
     },
   ];
 }
