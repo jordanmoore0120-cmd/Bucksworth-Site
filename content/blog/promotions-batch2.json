@@ -1,0 +1,349 @@
+{
+ "promoted_on": "2026-08-04",
+ "rule": "one indexable blog per money page",
+ "source": "16-month GSC Pages export (getyourbucksworth.comPerformanceonSearch20260803), impressions >= 50",
+ "posts": [
+  {
+   "slug": "gilbert-weed-control-reclaiming-your-backyard-before-the-monsoon-season",
+   "was_canonical_to": "/gilbert-az/weed-and-lawn-care",
+   "impressions_16mo": 656,
+   "position_16mo": 10.1
+  },
+  {
+   "slug": "weed-control-in-queen-creek-az-the-secret-to-a-maintenance-free-desert-yard",
+   "was_canonical_to": "/queen-creek-az/weed-and-lawn-care",
+   "impressions_16mo": 454,
+   "position_16mo": 11.6
+  },
+  {
+   "slug": "best-weed-control-tucson-az-protecting-your-desert-landscape",
+   "was_canonical_to": "/tucson-az/weed-and-lawn-care",
+   "impressions_16mo": 395,
+   "position_16mo": 26.8
+  },
+  {
+   "slug": "best-weed-control-oro-valley-az-local-solutions-for-beautiful-yards",
+   "was_canonical_to": "/oro-valley-az/weed-and-lawn-care",
+   "impressions_16mo": 268,
+   "position_16mo": 18.3
+  },
+  {
+   "slug": "stop-weeds-before-they-start-in-phoenix-pre-emergent-treatment-for-desert-ridge-2",
+   "was_canonical_to": "/phoenix-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "impressions_16mo": 149,
+   "position_16mo": 7.1
+  },
+  {
+   "slug": "how-to-stop-mosquitoes-in-green-valley-expert-solutions-for-the-85622-area",
+   "was_canonical_to": "/green-valley-az/pest-and-termite/mosquito-control",
+   "impressions_16mo": 148,
+   "position_16mo": 11.2
+  },
+  {
+   "slug": "the-anthem-scorpion-season-is-here-protecting-your-home-in-anthem-parkside",
+   "was_canonical_to": "/anthem-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 145,
+   "position_16mo": 6.0
+  },
+  {
+   "slug": "roach-control-near-tucson-mountain-park-effective-solutions-for-valencia-west-pr",
+   "was_canonical_to": "/valencia-west-az/pest-and-termite/roach-elimination",
+   "impressions_16mo": 144,
+   "position_16mo": 8.6
+  },
+  {
+   "slug": "signs-of-termites-in-your-mesa-home-what-lehi-residents-should-watch-for",
+   "was_canonical_to": "/mesa-az/pest-and-termite/termite-treatment",
+   "impressions_16mo": 139,
+   "position_16mo": 11.6
+  },
+  {
+   "slug": "tucson-scorpion-control-a-complete-guide-for-oro-valley-area-residents",
+   "was_canonical_to": "/oro-valley-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 137,
+   "position_16mo": 7.0
+  },
+  {
+   "slug": "green-lawn-all-year-in-phoenix-fertilization-strategies-for-ahwatukee-foothills-",
+   "was_canonical_to": "/ahwatukee-az/weed-and-lawn-care/lawn-fertilization",
+   "impressions_16mo": 135,
+   "position_16mo": 8.9
+  },
+  {
+   "slug": "gilbert-plumbing-solving-low-water-pressure-issues-fast",
+   "was_canonical_to": "/gilbert-az/plumbing-and-water-heaters",
+   "impressions_16mo": 134,
+   "position_16mo": 6.1
+  },
+  {
+   "slug": "ant-infestation-in-green-valley-how-desert-hills-homeowners-can-reclaim-their-ho",
+   "was_canonical_to": "/green-valley-az/pest-and-termite/ant-control",
+   "impressions_16mo": 132,
+   "position_16mo": 10.0
+  },
+  {
+   "slug": "best-ac-repair-in-maricopa-az-expert-maintenance-before-the-breakdown",
+   "was_canonical_to": "/maricopa-az/air-conditioning-and-heating/ac-repair",
+   "impressions_16mo": 120,
+   "position_16mo": 12.4
+  },
+  {
+   "slug": "monsoon-mosquitoes-in-valencia-west-protecting-your-valencia-west-home-this-summ",
+   "was_canonical_to": "/valencia-west-az/pest-and-termite/mosquito-control",
+   "impressions_16mo": 119,
+   "position_16mo": 11.0
+  },
+  {
+   "slug": "sewer-line-services-in-scottsdale-what-old-town-homeowners-need-to-know",
+   "was_canonical_to": "/scottsdale-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions_16mo": 116,
+   "position_16mo": 8.1
+  },
+  {
+   "slug": "lawn-fertilization-in-maricopa-the-right-schedule-for-glennwilde-bermuda-grass",
+   "was_canonical_to": "/maricopa-az/weed-and-lawn-care/bermuda-grass-control",
+   "impressions_16mo": 115,
+   "position_16mo": 8.7
+  },
+  {
+   "slug": "why-scottsdale-mosquito-problems-are-worse-than-you-think-tips-for-troon-north-r",
+   "was_canonical_to": "/scottsdale-az/pest-and-termite/mosquito-control",
+   "impressions_16mo": 112,
+   "position_16mo": 5.2
+  },
+  {
+   "slug": "scorpion-control-in-surprise-what-surprise-farms-homeowners-need-to-know-this-su",
+   "was_canonical_to": "/surprise-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 112,
+   "position_16mo": 7.3
+  },
+  {
+   "slug": "monsoon-mosquitoes-in-chandler-protecting-your-cooper-commons-home-this-summer",
+   "was_canonical_to": "/chandler-az/pest-and-termite/mosquito-control",
+   "impressions_16mo": 111,
+   "position_16mo": 13.4
+  },
+  {
+   "slug": "peoria-plumbing-experts-reliable-service-for-vistancia-residents",
+   "was_canonical_to": "/peoria-az/plumbing-and-water-heaters",
+   "impressions_16mo": 111,
+   "position_16mo": 6.4
+  },
+  {
+   "slug": "plumbing-fixture-installation-and-replacement-in-buckeye-serving-85326-homeowner",
+   "was_canonical_to": "/buckeye-az/plumbing-and-water-heaters",
+   "impressions_16mo": 106,
+   "position_16mo": 19.3
+  },
+  {
+   "slug": "marana-scorpion-defense-protecting-your-dove-mountain-sanctuary",
+   "was_canonical_to": "/marana-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 104,
+   "position_16mo": 8.5
+  },
+  {
+   "slug": "why-red-rock-mosquito-problems-are-worse-than-you-think-tips-for-picture-rocks-r",
+   "was_canonical_to": "/red-rock-az/pest-and-termite/mosquito-control",
+   "impressions_16mo": 102,
+   "position_16mo": 6.3
+  },
+  {
+   "slug": "energy-efficiency-in-chandler-az-why-insulation-is-the-key-to-savings",
+   "was_canonical_to": "/chandler-az/air-conditioning-and-heating/attic-insulation",
+   "impressions_16mo": 102,
+   "position_16mo": 11.5
+  },
+  {
+   "slug": "ant-infestation-in-chandler-how-downtown-chandler-homeowners-can-reclaim-their-h",
+   "was_canonical_to": "/chandler-az/pest-and-termite/ant-control",
+   "impressions_16mo": 102,
+   "position_16mo": 5.4
+  },
+  {
+   "slug": "rodent-exclusion-services-in-oro-valley-stop-rats-and-mice-in-the-85737-area",
+   "was_canonical_to": "/oro-valley-az/pest-and-termite/rodent-exclusion",
+   "impressions_16mo": 94,
+   "position_16mo": 8.3
+  },
+  {
+   "slug": "the-catalina-foothills-mosquito-problem-what-every-finger-rock-family-should-kno",
+   "was_canonical_to": "/catalina-foothills-az/pest-and-termite/mosquito-control",
+   "impressions_16mo": 92,
+   "position_16mo": 8.7
+  },
+  {
+   "slug": "getting-rid-of-spiders-in-scottsdale-a-dc-ranch-homeowners-complete-guide",
+   "was_canonical_to": "/scottsdale-az/pest-and-termite/spider-prevention",
+   "impressions_16mo": 92,
+   "position_16mo": 7.5
+  },
+  {
+   "slug": "how-to-keep-scorpions-out-of-your-sahuarita-home-near-sahuarita-pecan-festival",
+   "was_canonical_to": "/sahuarita-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 89,
+   "position_16mo": 10.9
+  },
+  {
+   "slug": "sewer-roaches-in-vail-how-rocking-k-ranch-homeowners-can-fight-back",
+   "was_canonical_to": "/vail-az/pest-and-termite/roach-elimination",
+   "impressions_16mo": 89,
+   "position_16mo": 10.3
+  },
+  {
+   "slug": "the-casa-grande-homeowners-guide-to-leak-detection-what-mission-royale-residents",
+   "was_canonical_to": "/casa-grande-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions_16mo": 88,
+   "position_16mo": 8.3
+  },
+  {
+   "slug": "the-phoenix-homeowners-guide-to-gas-line-installation-expert-service-in-85053",
+   "was_canonical_to": "/phoenix-az/plumbing-and-water-heaters/gas-line-services",
+   "impressions_16mo": 87,
+   "position_16mo": 7.2
+  },
+  {
+   "slug": "why-spiders-love-san-tan-valley-homes-and-what-bella-via-residents-can-do-about-",
+   "was_canonical_to": "/san-tan-valley-az/pest-and-termite/spider-prevention",
+   "impressions_16mo": 83,
+   "position_16mo": 5.2
+  },
+  {
+   "slug": "the-buckeye-scorpion-season-is-here-protecting-your-home-in-verrado",
+   "was_canonical_to": "/buckeye-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 82,
+   "position_16mo": 7.6
+  },
+  {
+   "slug": "re-piping-your-anthem-home-what-every-anthem-country-club-homeowner-should-know",
+   "was_canonical_to": "/anthem-az/plumbing-and-water-heaters/re-piping",
+   "impressions_16mo": 75,
+   "position_16mo": 11.6
+  },
+  {
+   "slug": "the-buckeye-homeowners-guide-to-sewer-lines-advice-for-festival-ranch",
+   "was_canonical_to": "/buckeye-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions_16mo": 73,
+   "position_16mo": 11.1
+  },
+  {
+   "slug": "getting-rid-of-cockroaches-in-green-valley-a-canoa-ranch-homeowners-guide",
+   "was_canonical_to": "/green-valley-az/pest-and-termite/roach-elimination",
+   "impressions_16mo": 73,
+   "position_16mo": 11.9
+  },
+  {
+   "slug": "professional-leak-detection-in-ahwatukee-saving-club-west-homes-from-water-damag",
+   "was_canonical_to": "/ahwatukee-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions_16mo": 73,
+   "position_16mo": 8.8
+  },
+  {
+   "slug": "ac-maintenance-in-scottsdale-az-dont-wait-for-a-summer-breakdown",
+   "was_canonical_to": "/scottsdale-az/air-conditioning-and-heating/ac-maintenance",
+   "impressions_16mo": 72,
+   "position_16mo": 22.6
+  },
+  {
+   "slug": "getting-rid-of-bermuda-grass-in-tucson-a-marana-area-homeowners-guide",
+   "was_canonical_to": "/marana-az/weed-and-lawn-care/bermuda-grass-control",
+   "impressions_16mo": 70,
+   "position_16mo": 7.7
+  },
+  {
+   "slug": "why-every-san-tan-valley-lawn-needs-overseeding-a-johnson-ranch-guide",
+   "was_canonical_to": "/san-tan-valley-az/weed-and-lawn-care/overseeding",
+   "impressions_16mo": 69,
+   "position_16mo": 9.1
+  },
+  {
+   "slug": "the-peoria-scorpion-season-is-here-protecting-your-home-in-vistancia",
+   "was_canonical_to": "/peoria-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 64,
+   "position_16mo": 6.5
+  },
+  {
+   "slug": "apache-junction-scorpion-prevention-what-every-superstition-foothills-family-sho",
+   "was_canonical_to": "/apache-junction-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 61,
+   "position_16mo": 5.4
+  },
+  {
+   "slug": "fountain-hills-scorpion-control-a-complete-guide-for-firerock-residents",
+   "was_canonical_to": "/fountain-hills-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 61,
+   "position_16mo": 9.9
+  },
+  {
+   "slug": "sewer-roaches-in-oro-valley-how-rancho-vistoso-homeowners-can-fight-back",
+   "was_canonical_to": "/oro-valley-az/pest-and-termite/roach-elimination",
+   "impressions_16mo": 61,
+   "position_16mo": 17.2
+  },
+  {
+   "slug": "termite-treatment-in-casa-grande-protecting-avalon-village-homes-from-silent-dam",
+   "was_canonical_to": "/casa-grande-az/pest-and-termite/termite-treatment",
+   "impressions_16mo": 58,
+   "position_16mo": 11.7
+  },
+  {
+   "slug": "why-diy-roach-sprays-fail-in-peoria-what-old-town-peoria-residents-should-do-ins-2",
+   "was_canonical_to": "/peoria-az/pest-and-termite/roach-elimination",
+   "impressions_16mo": 58,
+   "position_16mo": 18.0
+  },
+  {
+   "slug": "gold-canyon-mosquito-control-why-superstition-mountain-residents-need-profession",
+   "was_canonical_to": "/gold-canyon-az/pest-and-termite/mosquito-control",
+   "impressions_16mo": 57,
+   "position_16mo": 14.5
+  },
+  {
+   "slug": "the-casa-grande-homeowners-guide-to-roach-elimination-tips-for-avalon-village",
+   "was_canonical_to": "/casa-grande-az/pest-and-termite/roach-elimination",
+   "impressions_16mo": 56,
+   "position_16mo": 13.9
+  },
+  {
+   "slug": "paradise-valley-scorpion-prevention-what-every-camelback-mountain-estates-family",
+   "was_canonical_to": "/paradise-valley-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 55,
+   "position_16mo": 17.0
+  },
+  {
+   "slug": "the-catalina-foothills-guide-to-bee-and-wasp-removal-what-every-finger-rock-fami",
+   "was_canonical_to": "/catalina-foothills-az/pest-and-termite/bee-wasp-removal",
+   "impressions_16mo": 55,
+   "position_16mo": 6.4
+  },
+  {
+   "slug": "gold-canyon-bee-and-wasp-control-why-superstition-mountain-residents-need-expert",
+   "was_canonical_to": "/gold-canyon-az/pest-and-termite/bee-wasp-removal",
+   "impressions_16mo": 55,
+   "position_16mo": 15.4
+  },
+  {
+   "slug": "rodent-proofing-near-fountain-park-worlds-tallest-fountain-why-fountain-hills-ho",
+   "was_canonical_to": "/fountain-hills-az/pest-and-termite/rodent-exclusion",
+   "impressions_16mo": 55,
+   "position_16mo": 12.1
+  },
+  {
+   "slug": "the-peoria-homeowners-guide-to-ant-elimination-advice-for-fletcher-heights",
+   "was_canonical_to": "/peoria-az/pest-and-termite/ant-control",
+   "impressions_16mo": 53,
+   "position_16mo": 8.7
+  },
+  {
+   "slug": "florence-scorpion-prevention-what-every-anthem-at-merrill-ranch-family-should-kn",
+   "was_canonical_to": "/florence-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 52,
+   "position_16mo": 8.2
+  },
+  {
+   "slug": "litchfield-park-scorpion-prevention-what-every-litchfield-park-historic-district",
+   "was_canonical_to": "/litchfield-park-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 51,
+   "position_16mo": 5.7
+  }
+ ]
+}

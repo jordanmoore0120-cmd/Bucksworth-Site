@@ -1,0 +1,403 @@
+{
+ "promoted_on": "2026-08-04",
+ "rule": "one indexable blog per money page",
+ "source": "16-month GSC Pages export (getyourbucksworth.comPerformanceonSearch20260803), impressions 10-49 (long-tail tier, below batch 2's 50-impression floor)",
+ "posts": [
+  {
+   "slug": "maricopa-water-heater-guide-choosing-the-right-system-for-your-province-home",
+   "was_canonical_to": "/maricopa-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions_16mo": 49,
+   "position_16mo": 12.7
+  },
+  {
+   "slug": "why-goodyear-homes-have-hidden-air-quality-problems-a-guide-for-centerra",
+   "was_canonical_to": "/goodyear-az/air-conditioning-and-heating/indoor-air-quality",
+   "impressions_16mo": 49,
+   "position_16mo": 8.1
+  },
+  {
+   "slug": "feeding-your-gilbert-lawn-a-val-vista-lakes-homeowners-fertilization-guide",
+   "was_canonical_to": "/gilbert-az/weed-and-lawn-care/lawn-fertilization",
+   "impressions_16mo": 48,
+   "position_16mo": 5.7
+  },
+  {
+   "slug": "getting-rid-of-spiders-in-apache-junction-a-superstition-foothills-homeowners-co",
+   "was_canonical_to": "/apache-junction-az/pest-and-termite/spider-prevention",
+   "impressions_16mo": 48,
+   "position_16mo": 8.3
+  },
+  {
+   "slug": "signs-of-termites-in-your-queen-creek-home-what-cortina-residents-should-watch-f",
+   "was_canonical_to": "/queen-creek-az/pest-and-termite/termite-treatment",
+   "impressions_16mo": 47,
+   "position_16mo": 10.4
+  },
+  {
+   "slug": "valencia-west-spider-prevention-keeping-your-85757-area-home-safe-year-round",
+   "was_canonical_to": "/valencia-west-az/pest-and-termite/spider-prevention",
+   "impressions_16mo": 47,
+   "position_16mo": 9.7
+  },
+  {
+   "slug": "the-complete-guide-to-ac-repair-in-litchfield-park-from-village-at-litchfield-pa",
+   "was_canonical_to": "/litchfield-park-az/air-conditioning-and-heating/ac-repair",
+   "impressions_16mo": 46,
+   "position_16mo": 8.8
+  },
+  {
+   "slug": "the-mesa-homeowners-guide-to-overseeding-perfect-timing-for-superstition-springs",
+   "was_canonical_to": "/mesa-az/weed-and-lawn-care/overseeding",
+   "impressions_16mo": 44,
+   "position_16mo": 8.9
+  },
+  {
+   "slug": "keeping-your-buckeye-rock-yard-weed-free-a-tartesso-guide",
+   "was_canonical_to": "/buckeye-az/weed-and-lawn-care",
+   "impressions_16mo": 44,
+   "position_16mo": 7.2
+  },
+  {
+   "slug": "tree-roots-vs-your-sewer-line-in-gilbert-what-gilbert-heritage-district-resident",
+   "was_canonical_to": "/gilbert-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions_16mo": 42,
+   "position_16mo": 11.8
+  },
+  {
+   "slug": "why-weeds-keep-coming-back-in-buckeye-and-how-post-emergent-treatment-stops-them",
+   "was_canonical_to": "/buckeye-az/weed-and-lawn-care/post-emergent-weed-treatment",
+   "impressions_16mo": 41,
+   "position_16mo": 7.6
+  },
+  {
+   "slug": "bermuda-grass-control-in-buckeye-why-verrado-homeowners-are-fighting-a-losing-ba",
+   "was_canonical_to": "/buckeye-az/weed-and-lawn-care/bermuda-grass-control",
+   "impressions_16mo": 40,
+   "position_16mo": 11.5
+  },
+  {
+   "slug": "pex-re-piping-in-maricopa-why-tortosa-homeowners-are-upgrading",
+   "was_canonical_to": "/maricopa-az/plumbing-and-water-heaters/re-piping",
+   "impressions_16mo": 39,
+   "position_16mo": 15.8
+  },
+  {
+   "slug": "hard-water-destroying-your-fountain-hills-home-water-softener-solutions-for-eagl",
+   "was_canonical_to": "/fountain-hills-az/plumbing-and-water-heaters/water-softener",
+   "impressions_16mo": 39,
+   "position_16mo": 6.7
+  },
+  {
+   "slug": "the-maricopa-scorpion-season-is-here-protecting-your-home-in-cobblestone-farms",
+   "was_canonical_to": "/maricopa-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 38,
+   "position_16mo": 6.3
+  },
+  {
+   "slug": "black-widows-in-oro-valley-professional-spider-control-for-rancho-vistoso-famili",
+   "was_canonical_to": "/oro-valley-az/pest-and-termite/spider-prevention",
+   "impressions_16mo": 38,
+   "position_16mo": 23.4
+  },
+  {
+   "slug": "termite-swarming-season-in-maricopa-what-every-tortosa-family-needs-to-know",
+   "was_canonical_to": "/maricopa-az/pest-and-termite/termite-treatment",
+   "impressions_16mo": 37,
+   "position_16mo": 8.0
+  },
+  {
+   "slug": "goodyear-pigeon-control-smart-strategies-for-a-cleaner-home-exterior",
+   "was_canonical_to": "/goodyear-az/pest-and-termite/rodent-exclusion",
+   "impressions_16mo": 37,
+   "position_16mo": 14.6
+  },
+  {
+   "slug": "why-spiders-love-queen-creek-homes-and-what-sossaman-farms-residents-can-do-abou",
+   "was_canonical_to": "/queen-creek-az/pest-and-termite/spider-prevention",
+   "impressions_16mo": 36,
+   "position_16mo": 5.9
+  },
+  {
+   "slug": "the-san-tan-valley-homeowners-guide-to-termite-treatment-advice-for-pecan-creek",
+   "was_canonical_to": "/san-tan-valley-az/pest-and-termite/termite-treatment",
+   "impressions_16mo": 33,
+   "position_16mo": 8.8
+  },
+  {
+   "slug": "signs-of-termites-in-your-ahwatukee-home-what-club-west-residents-should-watch-f",
+   "was_canonical_to": "/ahwatukee-az/pest-and-termite/termite-treatment",
+   "impressions_16mo": 33,
+   "position_16mo": 9.2
+  },
+  {
+   "slug": "stop-hard-water-damage-in-san-tan-valley-professional-water-softener-installatio",
+   "was_canonical_to": "/san-tan-valley-az/plumbing-and-water-heaters/water-softener",
+   "impressions_16mo": 32,
+   "position_16mo": 6.0
+  },
+  {
+   "slug": "why-every-apache-junction-lawn-needs-overseeding-a-goldfield-ranch-guide",
+   "was_canonical_to": "/apache-junction-az/weed-and-lawn-care/overseeding",
+   "impressions_16mo": 31,
+   "position_16mo": 6.5
+  },
+  {
+   "slug": "professional-gravel-yard-service-in-anthem-expert-care-for-anthem-parkside-lands",
+   "was_canonical_to": "/anthem-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
+   "impressions_16mo": 31,
+   "position_16mo": 8.2
+  },
+  {
+   "slug": "ant-infestation-in-goodyear-how-pebblecreek-homeowners-can-reclaim-their-homes",
+   "was_canonical_to": "/goodyear-az/pest-and-termite/ant-control",
+   "impressions_16mo": 31,
+   "position_16mo": 5.1
+  },
+  {
+   "slug": "getting-rid-of-cockroaches-in-goodyear-a-palm-valley-homeowners-guide",
+   "was_canonical_to": "/goodyear-az/pest-and-termite/roach-elimination",
+   "impressions_16mo": 30,
+   "position_16mo": 7.0
+  },
+  {
+   "slug": "the-ahwatukee-homeowners-guide-to-roach-elimination-tips-for-lakewood",
+   "was_canonical_to": "/ahwatukee-az/pest-and-termite/roach-elimination",
+   "impressions_16mo": 29,
+   "position_16mo": 11.6
+  },
+  {
+   "slug": "the-florence-homeowners-guide-to-drain-cleaning-advice-for-magma-ranch",
+   "was_canonical_to": "/florence-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions_16mo": 28,
+   "position_16mo": 11.9
+  },
+  {
+   "slug": "why-your-tucson-lawn-turns-yellow-fertilization-solutions-for-85712-area-homes",
+   "was_canonical_to": "/tucson-az/weed-and-lawn-care/lawn-fertilization",
+   "impressions_16mo": 28,
+   "position_16mo": 7.1
+  },
+  {
+   "slug": "monsoon-mosquitoes-in-florence-protecting-your-anthem-at-merrill-ranch-home-this",
+   "was_canonical_to": "/florence-az/pest-and-termite/mosquito-control",
+   "impressions_16mo": 28,
+   "position_16mo": 9.9
+  },
+  {
+   "slug": "water-softener-installation-in-apache-junction-the-essential-guide-for-goldfield",
+   "was_canonical_to": "/apache-junction-az/plumbing-and-water-heaters/water-softener",
+   "impressions_16mo": 28,
+   "position_16mo": 4.4
+  },
+  {
+   "slug": "why-florence-homes-have-hidden-air-quality-problems-a-guide-for-magma-ranch",
+   "was_canonical_to": "/florence-az/air-conditioning-and-heating/indoor-air-quality",
+   "impressions_16mo": 28,
+   "position_16mo": 11.1
+  },
+  {
+   "slug": "mesa-plumbing-solutions-reliable-drain-and-sewer-care-for-your-home",
+   "was_canonical_to": "/mesa-az/plumbing-and-water-heaters",
+   "impressions_16mo": 27,
+   "position_16mo": 23.8
+  },
+  {
+   "slug": "the-mesa-homeowners-guide-to-re-piping-protecting-your-eastmark-investment",
+   "was_canonical_to": "/mesa-az/plumbing-and-water-heaters/re-piping",
+   "impressions_16mo": 27,
+   "position_16mo": 9.4
+  },
+  {
+   "slug": "buckeye-rodent-control-permanent-solutions-for-the-85326-area",
+   "was_canonical_to": "/buckeye-az/pest-and-termite/rodent-exclusion",
+   "impressions_16mo": 27,
+   "position_16mo": 4.7
+  },
+  {
+   "slug": "why-spiders-love-peoria-homes-and-what-old-town-peoria-residents-can-do-about-it",
+   "was_canonical_to": "/peoria-az/pest-and-termite/spider-prevention",
+   "impressions_16mo": 27,
+   "position_16mo": 9.2
+  },
+  {
+   "slug": "the-fountain-hills-homeowners-guide-to-termite-treatment-advice-for-eagle-mounta",
+   "was_canonical_to": "/fountain-hills-az/pest-and-termite/termite-treatment",
+   "impressions_16mo": 26,
+   "position_16mo": 9.3
+  },
+  {
+   "slug": "hidden-water-leaks-in-coolidge-how-85128-area-homeowners-can-detect-and-fix-them",
+   "was_canonical_to": "/coolidge-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions_16mo": 26,
+   "position_16mo": 12.2
+  },
+  {
+   "slug": "why-weeds-keep-coming-back-in-peoria-and-how-post-emergent-treatment-stops-them-2",
+   "was_canonical_to": "/peoria-az/weed-and-lawn-care/post-emergent-weed-treatment",
+   "impressions_16mo": 25,
+   "position_16mo": 10.1
+  },
+  {
+   "slug": "water-softener-services-in-buckeye-expert-installation-for-verrado-families",
+   "was_canonical_to": "/buckeye-az/plumbing-and-water-heaters/water-softener",
+   "impressions_16mo": 25,
+   "position_16mo": 5.7
+  },
+  {
+   "slug": "overseeding-in-maricopa-the-complete-guide-for-rancho-el-dorado-lawns",
+   "was_canonical_to": "/maricopa-az/weed-and-lawn-care/overseeding",
+   "impressions_16mo": 23,
+   "position_16mo": 10.3
+  },
+  {
+   "slug": "laveen-scorpion-control-a-complete-guide-for-laveen-meadows-residents",
+   "was_canonical_to": "/laveen-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 22,
+   "position_16mo": 5.3
+  },
+  {
+   "slug": "indoor-air-quality-testing-and-solutions-near-surprise-stadium-rangersroyals-spr",
+   "was_canonical_to": "/surprise-az/air-conditioning-and-heating/indoor-air-quality",
+   "impressions_16mo": 22,
+   "position_16mo": 10.5
+  },
+  {
+   "slug": "the-florence-homeowners-guide-to-spider-free-living-tips-for-historic-downtown-f",
+   "was_canonical_to": "/florence-az/pest-and-termite/spider-prevention",
+   "impressions_16mo": 22,
+   "position_16mo": 5.6
+  },
+  {
+   "slug": "is-your-maricopa-gas-line-safe-what-province-homeowners-need-to-check",
+   "was_canonical_to": "/maricopa-az/plumbing-and-water-heaters/gas-line-services",
+   "impressions_16mo": 21,
+   "position_16mo": 5.8
+  },
+  {
+   "slug": "why-diy-roach-sprays-fail-in-laveen-what-rogers-ranch-residents-should-do-instea",
+   "was_canonical_to": "/laveen-az/pest-and-termite/roach-elimination",
+   "impressions_16mo": 20,
+   "position_16mo": 14.2
+  },
+  {
+   "slug": "why-scorpions-love-san-tan-valley-homes-and-how-to-stop-them-a-guide-for-bella-v",
+   "was_canonical_to": "/san-tan-valley-az/pest-and-termite/scorpion-control",
+   "impressions_16mo": 20,
+   "position_16mo": 6.2
+  },
+  {
+   "slug": "why-peoria-homeowners-are-adding-radiant-barrier-to-beat-arizona-heat-in-westwin",
+   "was_canonical_to": "/peoria-az/air-conditioning-and-heating/radiant-barrier",
+   "impressions_16mo": 20,
+   "position_16mo": 6.0
+  },
+  {
+   "slug": "why-your-marana-lawn-turns-yellow-fertilization-solutions-for-85653-area-homes",
+   "was_canonical_to": "/marana-az/weed-and-lawn-care/lawn-fertilization",
+   "impressions_16mo": 19,
+   "position_16mo": 8.8
+  },
+  {
+   "slug": "fix-your-san-tan-valley-ductwork-lower-bills-and-better-comfort-for-the-85143-ar",
+   "was_canonical_to": "/san-tan-valley-az/air-conditioning-and-heating/ductwork",
+   "impressions_16mo": 18,
+   "position_16mo": 13.0
+  },
+  {
+   "slug": "why-pre-emergent-timing-matters-in-coolidge-a-guide-for-arizona-farms-residents-2",
+   "was_canonical_to": "/coolidge-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "impressions_16mo": 18,
+   "position_16mo": 4.6
+  },
+  {
+   "slug": "how-a-smart-thermostat-saves-apache-junction-homeowners-500-per-year-superstitio",
+   "was_canonical_to": "/apache-junction-az/air-conditioning-and-heating/smart-thermostat",
+   "impressions_16mo": 18,
+   "position_16mo": 6.6
+  },
+  {
+   "slug": "ac-maintenance-casa-grande-trust-the-experts-before-the-breakdown",
+   "was_canonical_to": "/casa-grande-az/air-conditioning-and-heating/ac-maintenance",
+   "impressions_16mo": 18,
+   "position_16mo": 12.0
+  },
+  {
+   "slug": "surprise-mosquito-control-why-sun-city-grand-residents-need-professional-treatme",
+   "was_canonical_to": "/surprise-az/pest-and-termite/mosquito-control",
+   "impressions_16mo": 16,
+   "position_16mo": 4.8
+  },
+  {
+   "slug": "catalina-foothills-rodent-control-permanent-solutions-for-the-85718-area",
+   "was_canonical_to": "/catalina-foothills-az/pest-and-termite/rodent-exclusion",
+   "impressions_16mo": 15,
+   "position_16mo": 8.9
+  },
+  {
+   "slug": "the-tempe-homeowners-guide-to-spider-free-living-tips-for-south-tempe",
+   "was_canonical_to": "/tempe-az/pest-and-termite/spider-prevention",
+   "impressions_16mo": 15,
+   "position_16mo": 10.5
+  },
+  {
+   "slug": "your-mesa-air-conditioner-is-working-overtime-signs-you-need-ac-repair-now",
+   "was_canonical_to": "/mesa-az/air-conditioning-and-heating/ac-repair",
+   "impressions_16mo": 14,
+   "position_16mo": 9.2
+  },
+  {
+   "slug": "scottsdale-leak-detection-expert-plumbing-solutions-for-peace-of-mind",
+   "was_canonical_to": "/scottsdale-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions_16mo": 14,
+   "position_16mo": 7.6
+  },
+  {
+   "slug": "surprise-pest-control-trusted-protection-for-your-west-valley-neighborhood",
+   "was_canonical_to": "/surprise-az/pest-and-termite",
+   "impressions_16mo": 14,
+   "position_16mo": 15.1
+  },
+  {
+   "slug": "need-a-gas-line-for-your-mesa-outdoor-kitchen-eastmark-installation-guide",
+   "was_canonical_to": "/mesa-az/plumbing-and-water-heaters/gas-line-services",
+   "impressions_16mo": 13,
+   "position_16mo": 14.8
+  },
+  {
+   "slug": "why-annual-ac-maintenance-in-peoria-saves-85345-area-homeowners-thousands",
+   "was_canonical_to": "/peoria-az/air-conditioning-and-heating/ac-maintenance",
+   "impressions_16mo": 12,
+   "position_16mo": 7.2
+  },
+  {
+   "slug": "gravel-rock-yard-maintenance-in-ahwatukee-tips-for-ahwatukee-foothills-homeowner",
+   "was_canonical_to": "/ahwatukee-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
+   "impressions_16mo": 12,
+   "position_16mo": 8.0
+  },
+  {
+   "slug": "phoenix-weed-control-why-post-emergent-treatment-works-for-85054-area-homes",
+   "was_canonical_to": "/phoenix-az/weed-and-lawn-care/post-emergent-weed-treatment",
+   "impressions_16mo": 11,
+   "position_16mo": 6.9
+  },
+  {
+   "slug": "mosquito-control-in-apache-junction-protecting-meridian-hills-families-this-seas",
+   "was_canonical_to": "/apache-junction-az/pest-and-termite/mosquito-control",
+   "impressions_16mo": 11,
+   "position_16mo": 9.0
+  },
+  {
+   "slug": "roach-control-near-sabino-canyon-effective-solutions-for-catalina-foothills-prop",
+   "was_canonical_to": "/catalina-foothills-az/pest-and-termite/roach-elimination",
+   "impressions_16mo": 11,
+   "position_16mo": 5.1
+  },
+  {
+   "slug": "the-apache-junction-homeowners-guide-to-plumbing-fixture-installation-goldfield-",
+   "was_canonical_to": "/apache-junction-az/plumbing-and-water-heaters",
+   "impressions_16mo": 11,
+   "position_16mo": 7.9
+  }
+ ]
+}
