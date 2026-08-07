@@ -32,30 +32,72 @@ checked yourself.
 
 ---
 
-## 1. Git push setup (must be redone every session)
+## 1. Repository authentication and publishing
 
-This sandbox starts with **no git credentials**. A push will fail by prompting
-for a username — that is not a permissions error, it means no credential exists.
+**Do not assume a PAT is required. Do not assume `git push` is the only valid
+publishing method.** Authentication differs between interactive Claude Code,
+Cowork, scheduled sessions, GitHub connectors, MCP tools, and API-backed tools.
+Use the secure write-capable method that is actually available in the current
+session.
 
-Jordan supplies a fine-grained PAT (scoped to this repo, `Contents: Read and
-write`). Configure it once per session:
+### Authentication order
 
-```bash
-git remote set-url origin https://<TOKEN>@github.com/jordanmoore0120-cmd/Bucksworth-Site.git
-```
+Use this order every session:
 
-Rules:
-- **NEVER commit the token.** Not in this file, not in any file, not in a
-  script. This repo is public — a committed PAT is compromised immediately.
-- **NEVER paste the token into chat output** or echo it in a command you print.
-- If you don't have a token, stop and ask. Do not attempt workarounds.
+1. **Existing authenticated Git access.** If the environment already provides a
+   working credential helper, GitHub App credential, proxy credential, or other
+   authenticated Git transport with write access to this repo, use it.
+2. **Connected GitHub write tool.** If a GitHub connector, MCP server, or API tool
+   is available with write access to `jordanmoore0120-cmd/Bucksworth-Site`, use
+   that tool directly to read/write repository files and create the commit.
+3. **Interactive PAT fallback only.** In an interactive session, if no secure
+   write-capable method exists, ask Jordan for a fine-grained PAT scoped only to
+   this repository with `Contents: Read and write`.
 
-Always rebase before pushing — never force-push `main`:
+### Scheduled / unattended sessions
+
+For scheduled or unattended work:
+
+- **Never pause to ask Jordan for a PAT.**
+- Use the authenticated GitHub write method already available to the session.
+- Prefer a connected GitHub connector/MCP/API tool when available instead of
+  trying to manufacture Git credentials inside the sandbox.
+- If no secure write-capable GitHub method is available, stop the publishing
+  step and report the task as **blocked by repository authentication**. Do not
+  claim the work was published.
+- Do not attempt credential workarounds, scrape tokens, reuse stale credentials,
+  or bypass repository authorization controls.
+
+### Credential safety
+
+- **NEVER commit a token.** Not in this file, not in any repo file, not in a
+  script, not in generated content.
+- **NEVER paste, print, or echo a token into chat output or command output.**
+- **NEVER overwrite a working authenticated remote just to force a PAT URL.**
+- A PAT may only be used as an interactive fallback when Jordan explicitly
+  provides one and no safer authenticated write method is available.
+
+### Publishing with Git
+
+If the session has working authenticated Git write access, always rebase before
+pushing and never force-push `main`:
 
 ```bash
 git pull --rebase origin main
 git push origin main
 ```
+
+### Publishing with a GitHub connector / MCP / API
+
+If the session is using a connected GitHub write tool instead of Git:
+
+- Read the latest version of every file immediately before modifying it.
+- Write only to `jordanmoore0120-cmd/Bucksworth-Site`.
+- Publish to `main` unless Jordan explicitly instructs otherwise.
+- Preserve unrelated changes already present in the file.
+- Record the resulting commit SHA.
+- Verify that the resulting commit exists on the repository's `main` branch
+  before reporting the repository update as successful.
 
 ---
 
@@ -63,11 +105,16 @@ git push origin main
 
 "Committed" is not done. "Merged" is not done. Done means **live in production**.
 
+For a Git-based session:
+
 ```bash
 git log origin/main -1 --oneline        # commit is on the remote
 sleep 120                              # Vercel build takes ~2 min
 curl -sI https://www.getyourbucksworth.com/<path> | head -1   # expect 200
 ```
+
+For a connector/MCP/API-based session, verify the resulting commit SHA is on
+`main`, then verify the production URL returns HTTP 200 after deployment.
 
 Only after a 200 from the live URL may you report the work as complete. If you
 cannot verify, say exactly what is unverified. Never report success you
@@ -123,7 +170,8 @@ Every post must hit all of it — a thin post is worse than no post:
 - Excerpt: first 155 chars work as the meta description
 
 Publishing path: write content → add to `content/blog/index.json` and
-`content/blog/data.json` → commit → push → verify live (section 2).
+`content/blog/data.json` → publish using the secure authenticated GitHub method
+available to the session → verify live (section 2).
 
 Note: `data.json` is ~20MB / 1,448 posts. Append, never rewrite wholesale.
 
@@ -143,7 +191,7 @@ Note: `data.json` is ~20MB / 1,448 posts. Append, never rewrite wholesale.
 
 ## 6. When to stop and ask
 
-- No PAT available
+- No secure write-capable GitHub authentication is available in the current session
 - A change would alter or remove an existing URL and you're unsure of the redirect
 - A new page might cannibalize an existing one and you can't confirm
 - Anything touching billing, customer data, or contact details
