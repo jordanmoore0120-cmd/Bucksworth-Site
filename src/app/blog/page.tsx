@@ -70,7 +70,7 @@ export default async function BlogIndex({
               href="/blog"
               className={`blog-cat-pill${!activeCat ? " active" : ""}`}
             >
-              All Posts
+              All Postss
             </Link>
             {categories
               .filter((c) => c.count > 0)
