@@ -47,7 +47,7 @@ export default async function BlogIndex({
             <span className="orange">Tips &amp; Insights</span>
           </h1>
           <p className="city-hero-desc">
-            {total.toLocaleString()} expert articles on pest control, HVAC,
+            {total.toLocaleString()} expert posts on pest control, HVAC,
             plumbing, and lawn care for Arizona homeowners.
             {activeCat ? ` Showing: ${activeCat.name}` : ""}
           </p>
