@@ -335,7 +335,6 @@ const nextConfig = {
         { source: "/our-team", destination: "/about", permanent: true },
         { source: "/pricing", destination: "/request-service", permanent: true },
         { source: "/faq", destination: "/", permanent: true },
-        { source: "/privacy-policy", destination: "/", permanent: true },
         { source: "/terms-of-service", destination: "/", permanent: true },
         { source: "/free-estimate", destination: "/request-service", permanent: true },
         { source: "/schedule", destination: "/request-service", permanent: true },
