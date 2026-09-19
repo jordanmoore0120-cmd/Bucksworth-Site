@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Bucksworth Home Services",
+  title: "Privacy Policy",
   description:
     "How Bucksworth Home Services collects, uses, and protects your information, including our text messaging (SMS) policy. Mobile information and opt-in consent are never shared or sold to third parties for marketing.",
   alternates: {
