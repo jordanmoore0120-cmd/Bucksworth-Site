@@ -38,6 +38,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/job-site-work", freq: "weekly" as const, p: 0.8 },
     { path: "/blog", freq: "daily" as const, p: 0.7 },
     { path: "/sitemap-page", freq: "monthly" as const, p: 0.3 },
+    { path: "/privacy-policy", freq: "yearly" as const, p: 0.3 },
   ];
   for (const pg of staticPages) {
     entries.push({
