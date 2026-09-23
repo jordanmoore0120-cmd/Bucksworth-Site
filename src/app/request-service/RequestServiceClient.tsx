@@ -206,6 +206,7 @@ export default function RequestServiceClient() {
         return;
       }
       setSubmitted(true);
+      (window as unknown as { bwTrackLead?: (d: Record<string, string>) => void }).bwTrackLead?.({ email: formData.email, phone: formData.phone, form: "request_service" });
       window.scrollTo({ top: 0, behavior: "smooth" });
     } catch {
       alert("Connection error. Please call us at " + branchInfo.phone);

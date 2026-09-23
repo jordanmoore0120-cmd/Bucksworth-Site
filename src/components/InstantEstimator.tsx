@@ -462,7 +462,7 @@ export default function InstantEstimator({
     setState((s) => ({ ...s, submitting: true }));
     const estimate = calculateEstimate(state.service!, state.answers);
     try {
-      await fetch("/api/request-service", {
+      const res = await fetch("/api/request-service", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -474,6 +474,9 @@ export default function InstantEstimator({
           message: `Online Estimate Request\nAddress: ${state.formattedAddress}\nService: ${SERVICES[state.service!].name}\nAnswers: ${JSON.stringify(state.answers)}\nEstimate: $${estimate.low}-$${estimate.high}${estimate.unit}`,
         }),
       });
+      if (res.ok) {
+        (window as unknown as { bwTrackLead?: (d: Record<string, string>) => void }).bwTrackLead?.({ email: state.email, phone: state.phone, form: "instant_estimator" });
+      }
     } catch {
       /* continue to show estimate anyway */
     }

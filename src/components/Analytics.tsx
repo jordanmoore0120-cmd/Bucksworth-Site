@@ -4,6 +4,10 @@ import Script from "next/script";
 
 const GA_MEASUREMENT_ID = "G-ZDL1V7HMVV";
 const META_PIXEL_ID = "1745744873282534";
+// Google Ads (account 448-637-9637) — conversion tag + actions
+const GOOGLE_ADS_ID = "AW-16665649274";
+const ADS_CALL_CLICK = "AW-16665649274/jwM3CNKn44IdEPrA5oo-";
+const ADS_FORM_LEAD = "AW-16665649274/0k_wCIChhNQcEPrA5oo-";
 
 /**
  * Bucksworth Home Services 2026 — Analytics & Tracking
@@ -32,6 +36,24 @@ export default function Analytics() {
               page_title: document.title,
               send_page_view: true
             });
+            gtag('config', '${GOOGLE_ADS_ID}', { allow_enhanced_conversions: true });
+
+            // Google Ads form-lead conversion. Called by forms ONLY after a successful submit.
+            window.bwTrackLead = function(data) {
+              try {
+                data = data || {};
+                var ud = {};
+                if (data.email) ud.email = String(data.email).trim().toLowerCase();
+                if (data.phone) {
+                  var d = String(data.phone).replace(/\\D/g, '');
+                  if (d.length === 10) d = '1' + d;
+                  if (d.length === 11) ud.phone_number = '+' + d;
+                }
+                if (ud.email || ud.phone_number) gtag('set', 'user_data', ud);
+                gtag('event', 'conversion', { send_to: '${ADS_FORM_LEAD}' });
+                gtag('event', 'generate_lead', { form_name: data.form || 'request_service' });
+              } catch (err) {}
+            };
 
             // Track phone call clicks as conversions
             document.addEventListener('click', function(e) {
@@ -42,6 +64,7 @@ export default function Analytics() {
                   event_label: link.href.replace('tel:', ''),
                   value: 1
                 });
+                gtag('event', 'conversion', { send_to: '${ADS_CALL_CLICK}' });
               }
             });
 
