@@ -303,8 +303,30 @@ const BLOG_SLUGS = new Set([
   "when-do-i-replace-my-air-conditioner", "why-do-i-need-ac-maintenance-now", "why-ductless-is-the-way-to-go",
 ]);
 
+/**
+ * Removed cities (2026-09-25): Tolleson, El Mirage, and Youngtown were never
+ * real service areas — a prior session added them to cities.ts on 2026-08-03
+ * without confirming with Jordan. Their ~40 pages each were live and indexed,
+ * so old URLs 301 to the nearest real, confirmed service city instead of 404ing.
+ */
+const REMOVED_CITY_REDIRECTS: Record<string, string> = {
+  "tolleson-az": "avondale-az",
+  "el-mirage-az": "surprise-az",
+  "youngtown-az": "surprise-az",
+};
+
 export function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname;
+
+  // Removed city pages: /{old-city}[/service[/subservice]] -> /{real-city}/...
+  const citySegments = path.match(/^\/([^\/]+)((?:\/[^\/]+)*)\/?$/);
+  if (citySegments) {
+    const replacement = REMOVED_CITY_REDIRECTS[citySegments[1]];
+    if (replacement) {
+      const url = new URL(`/${replacement}${citySegments[2]}`, request.url);
+      return NextResponse.redirect(url, 301);
+    }
+  }
 
   // Match root-level paths (with or without trailing slash)
   const match = path.match(/^\/([^\/]+)\/?$/);
