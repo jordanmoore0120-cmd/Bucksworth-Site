@@ -199,7 +199,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
             />
           </div>
 
-          {/* Related Articles */}
+          {/* Related Posts */}
           {(() => {
             const related = getRelatedPosts(slug);
             if (related.length === 0) return null;
@@ -215,7 +215,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
                     marginBottom: "24px",
                     textAlign: "center",
                   }}>
-                    Related Articles
+                    Related Posts
                   </h2>
                   <div style={{
                     display: "grid",
