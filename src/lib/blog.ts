@@ -230,14 +230,56 @@ export function getPrunedRedirect(slug: string): string | null {
   return loadPrunedRedirects()[slug] || null;
 }
 
-/** Get related posts for a blog post (pre-computed by city + category matching) */
+const RELATED_STOPWORDS = new Set([
+  "the", "and", "for", "your", "you", "our", "with", "what", "why", "how",
+  "when", "az", "arizona", "guide", "in", "a", "to", "of", "is", "are",
+  "on", "at", "near", "home", "homes", "homeowners", "residents", "expert",
+  "professional", "reliable", "trusted", "service", "services",
+]);
+
+/** Title words used for the fallback relevance score, minus stopwords/short words. */
+function titleKeywords(title: string): Set<string> {
+  return new Set(
+    title
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, " ")
+      .split(/\s+/)
+      .filter((w) => w.length > 2 && !RELATED_STOPWORDS.has(w))
+  );
+}
+
+/**
+ * Get related posts for a blog post.
+ *
+ * Prefers the pre-computed `relatedSlugs` field on the index entry. Posts
+ * published without it (everything since 2026-05-23 — a generation gap,
+ * not an intentional opt-out) fall back to a same-category, title-overlap
+ * match computed on the fly, so the "Related Posts" block and its internal
+ * links never silently disappear just because relatedSlugs wasn't set.
+ */
 export function getRelatedPosts(slug: string): BlogIndex[] {
   const idx = loadIndex();
   const item = idx.find((p) => p.slug === slug);
-  if (!item?.relatedSlugs?.length) return [];
+  if (!item) return [];
 
-  const slugSet = new Set(item.relatedSlugs);
-  return idx.filter((p) => slugSet.has(p.slug));
+  if (item.relatedSlugs?.length) {
+    const slugSet = new Set(item.relatedSlugs);
+    return idx.filter((p) => slugSet.has(p.slug));
+  }
+
+  const itemCategories = new Set(item.categorySlugs);
+  const itemKeywords = titleKeywords(item.title);
+
+  const scored = idx
+    .filter((p) => p.slug !== slug && p.categorySlugs.some((c) => itemCategories.has(c)))
+    .map((p) => {
+      const overlap = [...titleKeywords(p.title)].filter((w) => itemKeywords.has(w)).length;
+      return { post: p, score: overlap };
+    })
+    .filter((p) => p.score > 0)
+    .sort((a, b) => b.score - a.score || (a.post.date < b.post.date ? 1 : -1));
+
+  return scored.slice(0, 4).map((p) => p.post);
 }
 
 /** Extract first image URL and alt text from post content for schema */
