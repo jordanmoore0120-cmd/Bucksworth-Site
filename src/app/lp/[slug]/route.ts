@@ -1,4 +1,5 @@
 import { LP_PAGES } from "./pages";
+import { optimizeLp } from "./optimize";
 
 // Google Ads landing pages (ad traffic only). Self-contained HTML, noindex, not in the sitemap.
 export const dynamic = "force-static";
@@ -12,7 +13,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ slug: s
   const { slug } = await params;
   const html = LP_PAGES[slug];
   if (!html) return new Response("Not found", { status: 404 });
-  return new Response(html, {
+  return new Response(optimizeLp(html), {
     headers: {
       "Content-Type": "text/html; charset=utf-8",
       "X-Robots-Tag": "noindex, nofollow",

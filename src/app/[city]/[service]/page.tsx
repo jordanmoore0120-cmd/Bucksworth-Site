@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { CITIES, getCityBySlug, getPhoneForBranch, getPhoneForBranchRaw, type City } from "@/lib/cities";
 import { SERVICES, getServiceBySlug } from "@/lib/services";
 import { getNeighborhoods, type Neighborhood } from "@/lib/neighborhoods";
@@ -294,8 +295,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
         {/* ── HERO ── */}
         <section className="svc-hub-hero">
           <div className="svc-hub-hero-bg">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={service.heroImage} alt={`${service.name} in ${city.name}`} width={1200} height={800} loading="eager" fetchPriority="high" />
+            <Image src={service.heroImage} alt={`${service.name} in ${city.name}`} width={1200} height={800} sizes="100vw" quality={70} priority />
           </div>
           <div className="svc-hub-hero-overlay" />
           <div className="svc-hub-hero-content">
