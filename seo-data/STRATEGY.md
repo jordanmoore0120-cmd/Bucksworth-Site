@@ -45,6 +45,8 @@ Viktor refreshes these files every week in `seo-data/`. Read the `generated` sta
 
 **CI Web Group AI-era rules (Jordan, 2026-09-30) — read `seo-data/reference/ci-web-group-ai-era-guide.md`.** Every post must: carry one explicit INFORMATION-GAIN element the top-3 results lack (state it in run output); open with a 40–60 word answer + phone nearby; show first-hand expertise (our technicians, real photos); cover cost only as factors (never prices); never fake freshness. Every tactic must lower cost per lead, bring better customers, compound, or reduce risk.
 
+**JustStartAI community playbook (Jordan, 2026-09-30) — read `seo-data/reference/juststartai-playbook.md`.** Every post also passes the **5-signal test** (identity, freshness, topical authority, geographic specificity, citation — hit ≥2, aim 4–5; list them in the run summary). Use comparison tables, FAQ + HowTo schema, real photos and a YouTube embed where relevant. Build scorpion/termite pillar hubs with real job stories. City pages must never be swapped-city templates (doorway risk). House rules still win: no prices, no Offer/PriceSpecification with numbers, never mention contracts.
+
 ## 5. Internal linking (strong, deliberate)
 10–12 contextual links per post:
 - 1 → the money page for this city + sub-service (primary link up, descriptive anchor, in the first 200 words).
