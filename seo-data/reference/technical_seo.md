@@ -53,8 +53,8 @@
 ## Page Speed
 - Monitor key pages monthly with PageSpeed Insights API
 - Priority pages: homepage, top 5 city pages, top 5 service pages
-- Current baseline (Jun 2026): LCP 4.9s (RED), FCP 2.5s, TBT 10ms, CLS 0
-- Target: LCP < 2.5s (requires investigation — likely image optimization)
+- Budget and rules: see `performance-budget.md` (≥90 mobile on every page type; /lp/* never live below 90).
+- Baseline after PR #26 (2026-09-30, live DataForSEO mobile): home 84, /lp/pest-control 74–88 (LCP 2.6s), /lp/weed-control 72–86, Mesa hub 81, Mesa scorpion 80.
 - Image optimization: WebP format, lazy loading, proper sizing
 - Font optimization: preload critical fonts, font-display: swap
 

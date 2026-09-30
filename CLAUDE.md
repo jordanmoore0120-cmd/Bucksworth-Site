@@ -184,6 +184,23 @@ Note: `data.json` is ~20MB / 1,448 posts. Append, never rewrite wholesale.
 
 ---
 
+## 4.5 Performance budget (non-negotiable, Jordan 2026-09-30)
+
+Every page change is optimized for Google's Core Web Vitals. Full rules are in
+`seo-data/reference/performance-budget.md`; read it before touching pages, templates,
+components, CSS or `/lp/*`.
+
+- **Google's rules:** LCP ≤ 2.5s, INP ≤ 200ms, CLS ≤ 0.1, measured on real mobile users.
+  Landing-page speed also feeds Google Ads Quality Score, and a slow page raises CPC.
+- **Budget:** mobile Lighthouse **≥ 90 on every page type**. `/lp/*` ad landing pages never go
+  live below 90 (target 95+).
+- **Tracking tags stay exactly as they are.** Same GA4/Ads/Meta IDs and same load strategy;
+  never defer or remove them. Hit the budget by making everything else near-zero cost.
+- Every perf-relevant PR includes a Lighthouse before/after table and must pass the
+  Lighthouse CI check.
+
+---
+
 ## 5. Key files
 
 | Path | What |
