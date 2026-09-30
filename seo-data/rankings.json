@@ -1,0 +1,921 @@
+{
+ "generated": "2026-09-30T06:53:24.677163+00:00",
+ "sources": {
+  "demand": "DataForSEO google_ads search_volume, Arizona,United States",
+  "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
+  "gsc": "Search Console query+page 2026-06-30..2026-09-28"
+ },
+ "note": "organic/map positions from DataForSEO live SERP geo-targeted to each city; null = not in top 30 (verify before claiming not ranking)",
+ "rankings": [
+  {
+   "city": "apache-junction-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control apache junction",
+   "organic_position": 3,
+   "ranking_url": "https://www.getyourbucksworth.com/blog/apache-junction-scorpion-prevention-what-every-superstition-foothills-family-sho",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 10
+  },
+  {
+   "city": "apache-junction-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment apache junction",
+   "organic_position": 16,
+   "ranking_url": "https://www.getyourbucksworth.com/apache-junction-az/pest-and-termite",
+   "map_pack_position": 2,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "apache-junction-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator apache junction",
+   "organic_position": 15,
+   "ranking_url": "https://www.getyourbucksworth.com/apache-junction-az/pest-and-termite",
+   "map_pack_position": 1,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "apache-junction-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control apache junction",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "apache-junction-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control apache junction",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "apache-junction-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control apache junction",
+   "organic_position": 9,
+   "ranking_url": "https://www.getyourbucksworth.com/casa-grande-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "apache-junction-az",
+   "sub_service": "pest control",
+   "keyword": "pest control apache junction",
+   "organic_position": 15,
+   "ranking_url": "https://www.getyourbucksworth.com/apache-junction-az/pest-and-termite",
+   "map_pack_position": 2,
+   "map_pack_shown": true,
+   "az_volume": 90
+  },
+  {
+   "city": "gold-canyon-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control gold canyon",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "gold-canyon-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment gold canyon",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": 3,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "gold-canyon-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator gold canyon",
+   "organic_position": 3,
+   "ranking_url": "https://www.getyourbucksworth.com/apache-junction-az/pest-and-termite/scorpion-control",
+   "map_pack_position": 3,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "gold-canyon-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control gold canyon",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "gold-canyon-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control gold canyon",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "gold-canyon-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control gold canyon",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "gold-canyon-az",
+   "sub_service": "pest control",
+   "keyword": "pest control gold canyon",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 10
+  },
+  {
+   "city": "san-tan-valley-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control san tan valley",
+   "organic_position": 14,
+   "ranking_url": "https://www.getyourbucksworth.com/san-tan-valley-az/pest-and-termite/scorpion-control",
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 10
+  },
+  {
+   "city": "san-tan-valley-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment san tan valley",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "san-tan-valley-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator san tan valley",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "san-tan-valley-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control san tan valley",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 260
+  },
+  {
+   "city": "san-tan-valley-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control san tan valley",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "san-tan-valley-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control san tan valley",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 20
+  },
+  {
+   "city": "san-tan-valley-az",
+   "sub_service": "pest control",
+   "keyword": "pest control san tan valley",
+   "organic_position": 24,
+   "ranking_url": "https://www.getyourbucksworth.com/san-tan-valley-az",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 260
+  },
+  {
+   "city": "queen-creek-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control queen creek",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 10
+  },
+  {
+   "city": "queen-creek-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment queen creek",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 10
+  },
+  {
+   "city": "queen-creek-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator queen creek",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "queen-creek-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control queen creek",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "queen-creek-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control queen creek",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "queen-creek-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control queen creek",
+   "organic_position": 10,
+   "ranking_url": "https://www.getyourbucksworth.com/queen-creek-az/weed-and-lawn-care/weed-and-feed-program",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 10
+  },
+  {
+   "city": "queen-creek-az",
+   "sub_service": "pest control",
+   "keyword": "pest control queen creek",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 320
+  },
+  {
+   "city": "mesa-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control mesa",
+   "organic_position": 23,
+   "ranking_url": "https://www.getyourbucksworth.com/mesa-az/pest-and-termite/scorpion-control",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 40
+  },
+  {
+   "city": "mesa-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment mesa",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 70
+  },
+  {
+   "city": "mesa-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator mesa",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "mesa-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control mesa",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 880
+  },
+  {
+   "city": "mesa-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control mesa",
+   "organic_position": 28,
+   "ranking_url": "https://www.getyourbucksworth.com/marana-az/weed-and-lawn-care",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "mesa-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control mesa",
+   "organic_position": 8,
+   "ranking_url": "https://www.getyourbucksworth.com/mesa-az/pest-and-termite",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 50
+  },
+  {
+   "city": "mesa-az",
+   "sub_service": "pest control",
+   "keyword": "pest control mesa",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 880
+  },
+  {
+   "city": "gilbert-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control gilbert",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 10
+  },
+  {
+   "city": "gilbert-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment gilbert",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 10
+  },
+  {
+   "city": "gilbert-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator gilbert",
+   "organic_position": 28,
+   "ranking_url": "https://www.getyourbucksworth.com/gilbert-az/pest-and-termite/roach-elimination",
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "gilbert-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control gilbert",
+   "organic_position": 22,
+   "ranking_url": "https://www.getyourbucksworth.com/gilbert-az/pest-and-termite/rodent-exclusion",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 10
+  },
+  {
+   "city": "gilbert-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control gilbert",
+   "organic_position": 9,
+   "ranking_url": "https://www.getyourbucksworth.com/gilbert-az/weed-and-lawn-care/overseeding",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "gilbert-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control gilbert",
+   "organic_position": 11,
+   "ranking_url": "https://www.getyourbucksworth.com/blog/gilbert-weed-control-reclaiming-your-backyard-before-the-monsoon-season",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 10
+  },
+  {
+   "city": "gilbert-az",
+   "sub_service": "pest control",
+   "keyword": "pest control gilbert",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 110
+  },
+  {
+   "city": "chandler-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control chandler",
+   "organic_position": 13,
+   "ranking_url": "https://www.getyourbucksworth.com/chandler-az/pest-and-termite/scorpion-control",
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 20
+  },
+  {
+   "city": "chandler-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment chandler",
+   "organic_position": 15,
+   "ranking_url": "https://www.getyourbucksworth.com/chandler-az/pest-and-termite/spider-prevention",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 20
+  },
+  {
+   "city": "chandler-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator chandler",
+   "organic_position": 24,
+   "ranking_url": "https://www.getyourbucksworth.com/chandler-az/pest-and-termite/roach-elimination",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "chandler-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control chandler",
+   "organic_position": 15,
+   "ranking_url": "https://www.getyourbucksworth.com/chandler-az/pest-and-termite/rodent-exclusion",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 480
+  },
+  {
+   "city": "chandler-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control chandler",
+   "organic_position": 5,
+   "ranking_url": "https://www.getyourbucksworth.com/chandler-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "chandler-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control chandler",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 10
+  },
+  {
+   "city": "chandler-az",
+   "sub_service": "pest control",
+   "keyword": "pest control chandler",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 480
+  },
+  {
+   "city": "maricopa-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control maricopa",
+   "organic_position": 2,
+   "ranking_url": "https://www.getyourbucksworth.com/maricopa-az/pest-and-termite/scorpion-control",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "maricopa-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment maricopa",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "maricopa-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator maricopa",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "maricopa-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control maricopa",
+   "organic_position": 8,
+   "ranking_url": "https://www.getyourbucksworth.com/blog/best-pest-control-in-maricopa-az-professional-scorpion-and-ant-defense",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "maricopa-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control maricopa",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "maricopa-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control maricopa",
+   "organic_position": 7,
+   "ranking_url": "https://www.getyourbucksworth.com/maricopa-az/weed-and-lawn-care",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "maricopa-az",
+   "sub_service": "pest control",
+   "keyword": "pest control maricopa",
+   "organic_position": 6,
+   "ranking_url": "https://www.getyourbucksworth.com/blog/best-pest-control-in-maricopa-az-professional-scorpion-and-ant-defense",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 260
+  },
+  {
+   "city": "casa-grande-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control casa grande",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 10
+  },
+  {
+   "city": "casa-grande-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment casa grande",
+   "organic_position": 15,
+   "ranking_url": "https://www.getyourbucksworth.com/casa-grande-az",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 20
+  },
+  {
+   "city": "casa-grande-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator casa grande",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "casa-grande-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control casa grande",
+   "organic_position": 11,
+   "ranking_url": "https://www.getyourbucksworth.com/casa-grande-az/pest-and-termite/rodent-exclusion",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "casa-grande-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control casa grande",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "casa-grande-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control casa grande",
+   "organic_position": 6,
+   "ranking_url": "https://www.getyourbucksworth.com/casa-grande-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 10
+  },
+  {
+   "city": "casa-grande-az",
+   "sub_service": "pest control",
+   "keyword": "pest control casa grande",
+   "organic_position": 17,
+   "ranking_url": "https://www.getyourbucksworth.com/casa-grande-az",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 260
+  },
+  {
+   "city": "florence-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control florence",
+   "organic_position": 2,
+   "ranking_url": "https://www.getyourbucksworth.com/florence-az/pest-and-termite/scorpion-control",
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "florence-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment florence",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "florence-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator florence",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "florence-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control florence",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "florence-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control florence",
+   "organic_position": 2,
+   "ranking_url": "https://www.getyourbucksworth.com/florence-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "florence-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control florence",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 10
+  },
+  {
+   "city": "florence-az",
+   "sub_service": "pest control",
+   "keyword": "pest control florence",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 30
+  },
+  {
+   "city": "coolidge-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control coolidge",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "coolidge-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment coolidge",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "coolidge-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator coolidge",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "coolidge-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control coolidge",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "coolidge-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control coolidge",
+   "organic_position": 1,
+   "ranking_url": "https://www.getyourbucksworth.com/coolidge-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "coolidge-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control coolidge",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "coolidge-az",
+   "sub_service": "pest control",
+   "keyword": "pest control coolidge",
+   "organic_position": 9,
+   "ranking_url": "https://www.getyourbucksworth.com/coolidge-az",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "tempe-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control tempe",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 10
+  },
+  {
+   "city": "tempe-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment tempe",
+   "organic_position": 8,
+   "ranking_url": "https://www.getyourbucksworth.com/tempe-az/pest-and-termite/bed-bug-treatment",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 10
+  },
+  {
+   "city": "tempe-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator tempe",
+   "organic_position": 8,
+   "ranking_url": "https://www.getyourbucksworth.com/blog/the-tempe-homeowners-guide-to-roach-elimination-tips-for-south-tempe",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "tempe-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control tempe",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 210
+  },
+  {
+   "city": "tempe-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control tempe",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "tempe-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control tempe",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 10
+  },
+  {
+   "city": "tempe-az",
+   "sub_service": "pest control",
+   "keyword": "pest control tempe",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 210
+  },
+  {
+   "city": "ahwatukee-az",
+   "sub_service": "scorpion-control",
+   "keyword": "scorpion control ahwatukee",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 10
+  },
+  {
+   "city": "ahwatukee-az",
+   "sub_service": "termite-treatment",
+   "keyword": "termite treatment ahwatukee",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 10
+  },
+  {
+   "city": "ahwatukee-az",
+   "sub_service": "roach-elimination",
+   "keyword": "cockroach exterminator ahwatukee",
+   "organic_position": 18,
+   "ranking_url": "https://www.getyourbucksworth.com/phoenix-az/pest-and-termite/mosquito-control",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "ahwatukee-az",
+   "sub_service": "rodent-exclusion",
+   "keyword": "rodent control ahwatukee",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "ahwatukee-az",
+   "sub_service": "pre-emergent-weed-control",
+   "keyword": "pre emergent weed control ahwatukee",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": false,
+   "az_volume": 0
+  },
+  {
+   "city": "ahwatukee-az",
+   "sub_service": "post-emergent-weed-treatment",
+   "keyword": "weed control ahwatukee",
+   "organic_position": 11,
+   "ranking_url": "https://www.getyourbucksworth.com/queen-creek-az/weed-and-lawn-care/weed-and-feed-program",
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 0
+  },
+  {
+   "city": "ahwatukee-az",
+   "sub_service": "pest control",
+   "keyword": "pest control ahwatukee",
+   "organic_position": null,
+   "ranking_url": null,
+   "map_pack_position": null,
+   "map_pack_shown": true,
+   "az_volume": 30
+  }
+ ]
+}

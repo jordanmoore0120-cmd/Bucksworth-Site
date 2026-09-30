@@ -1,0 +1,3372 @@
+{
+ "generated": "2026-09-30T06:53:24.677163+00:00",
+ "sources": {
+  "demand": "DataForSEO google_ads search_volume, Arizona,United States",
+  "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
+  "gsc": "Search Console query+page 2026-06-30..2026-09-28"
+ },
+ "questions": {
+  "scorpion-control": [
+   {
+    "keyword": "what can scorpions eat",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "what does scorpions eat",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "what do scorpions eat",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "what does scorpion sting look like",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "what does a scorpion sting look like",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "what to do scorpion sting",
+    "us_volume": 1000,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "what do i do for a scorpion sting",
+    "us_volume": 1000,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "what to do for a scorpion sting",
+    "us_volume": 1000,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "what to do for scorpion sting",
+    "us_volume": 1000,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "how do scorpions breed",
+    "us_volume": 8100,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "how do scorpions mate",
+    "us_volume": 8100,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "are scorpions arachnids",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "what does a scorpion sting look like on the skin",
+    "us_volume": 1300,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "how many legs do scorpions have",
+    "us_volume": 3600,
+    "intent": "informational",
+    "az_volume": 210
+   },
+   {
+    "keyword": "can you die from a scorpion sting",
+    "us_volume": 1300,
+    "intent": "informational",
+    "az_volume": 210
+   },
+   {
+    "keyword": "are scorpions bugs",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "are scorpions insects",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "can scorpions kill you",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "will scorpions kill you",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "scorpions that can kill you",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "do scorpions kill you",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to treat a scorpion sting",
+    "us_volume": 720,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to treat scorpion sting",
+    "us_volume": 720,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how do you treat a scorpion sting",
+    "us_volume": 720,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "why drink milk after scorpion sting",
+    "us_volume": 590,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "what are scorpions",
+    "us_volume": 3600,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how long does a scorpion sting last",
+    "us_volume": 480,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "can a bark scorpion kill you",
+    "us_volume": 390,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "can a arizona bark scorpion kill you",
+    "us_volume": 390,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "can a scorpion sting kill you",
+    "us_volume": 880,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "what does scorpion sting feel like",
+    "us_volume": 480,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "what does a scorpion sting feel like",
+    "us_volume": 480,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "home remedy for scorpion sting",
+    "us_volume": 210,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "home remedy scorpion sting",
+    "us_volume": 210,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "scorpion sting home remedy",
+    "us_volume": 210,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "what does a bark scorpion eat",
+    "us_volume": 140,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how bad is a scorpion sting",
+    "us_volume": 260,
+    "intent": "informational",
+    "az_volume": 30
+   },
+   {
+    "keyword": "does scorpion sting hurt",
+    "us_volume": 210,
+    "intent": "informational",
+    "az_volume": 30
+   },
+   {
+    "keyword": "does a scorpion sting hurt",
+    "us_volume": 210,
+    "intent": "informational",
+    "az_volume": 30
+   },
+   {
+    "keyword": "does scorpion bite or sting",
+    "us_volume": 210,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "what to put on scorpion sting",
+    "us_volume": 170,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "what to put on a scorpion sting",
+    "us_volume": 170,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "is a scorpion sting dangerous",
+    "us_volume": 140,
+    "intent": "informational",
+    "az_volume": 20
+   }
+  ],
+  "termite-treatment": [
+   {
+    "keyword": "what to termites look like",
+    "us_volume": 49500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "what does termites look like",
+    "us_volume": 49500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "what do termites look like",
+    "us_volume": 49500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "termites treatment price",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "termites cost to treat",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "cost to treat termites",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "treatment for termites cost",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "termites extermination cost",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "treating termites cost",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "cost of treating for termites",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "cost for termites treatment",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "treating for termites cost",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "termites exterminator cost",
+    "us_volume": 9900,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "cost to treat for termites",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "how can you get rid of termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how do you exterminate termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how get rid of termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to remove termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to rid your home of termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to rid of termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how.to get rid of termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to get rid of termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how do you get rid of termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how can i get rid of termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to exterminate termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "signs termites",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "signs of termites",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "termites signs",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "signs for termites",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "does termites fly",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "termites can fly",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "do termites fly",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "termites vs ants",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 210
+   },
+   {
+    "keyword": "termites vs ant",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 210
+   },
+   {
+    "keyword": "ants vs termites",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 210
+   },
+   {
+    "keyword": "ant vs termites",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 210
+   },
+   {
+    "keyword": "termites vs flying ants",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "termites-vs-flying-ants",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "fly ants vs termites",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "flying termites vs flying ants",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "termites vs flying ant",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "flying ants vs flying termites",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "flying ants vs termites",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "termites vs winged ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 90
+   },
+   {
+    "keyword": "winged ants vs termites",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 90
+   }
+  ],
+  "roach-elimination": [
+   {
+    "keyword": "kill german cockroaches",
+    "us_volume": 40500,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "german cockroaches kill",
+    "us_volume": 40500,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "kill german cockroach",
+    "us_volume": 40500,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "german cockroach kill",
+    "us_volume": 40500,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "cockroaches can bite",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "do cockroaches bite",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "does cockroaches bite",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "can cockroaches bite",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "do cockroaches bites",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "cockroaches that can fly",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "do cockroaches fly",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "cockroaches can fly",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "can cockroaches fly",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how do you get rid of cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to exterminate cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how can we get rid of cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to get rid of cockroaches at home",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to get rid of cockroaches in home",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to rid of cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how can you get rid of cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to remove cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "cockroaches how to get rid of",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "cockroaches how to get rid",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to get rid of a cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to get rid cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to get rid of cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to get rid from cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how get rid of cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to get rid of the cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "german vs american cockroaches",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "how to eliminate cockroaches",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "how do you kill cockroaches",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "how can you kill cockroaches",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "how kill cockroaches",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "german cockroaches vs american cockroaches",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "american cockroach vs german",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "american vs german cockroach",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "american cockroach vs german cockroach",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "water bugs vs cockroaches",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "cockroaches vs water bugs",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "water bug vs cockroaches",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best to kill cockroaches",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best cockroaches killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "what do cockroaches look like",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "cockroaches vs palmetto bugs",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 90
+   }
+  ],
+  "ant-control": [
+   {
+    "keyword": "how to get rid ants in the house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how to get rid of ants in the house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how do i get rid of ants in the house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how get rid of ants in the house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how to get rid ants in house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how to get of rid of ants in the house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how to rid ants in the house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how to rid of ants in house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how get rid of ants in house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how can i get rid of ants in the house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how to get rid of the ants in the house",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how to get rid of ants in house",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "how can i get rid of sugar ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how do you get rid of sugar ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to get rid of ants in sugar",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to get rid of ants from sugar",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how do i get rid of sugar ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how can you get rid of sugar ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to rid sugar ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to get rid of sugar ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to rid of sugar ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how get rid of sugar ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to get rid sugar ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to repel sugar ants",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "signs of white ants in house",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "ants in the house home remedy",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "home remedy for ants in the house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "ants in house home remedy",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "fire ants how to get rid of",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how to get rid fire ants",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how can i get rid of fire ants",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how to get rid of fire ants",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how do you get rid of fire ants",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how can you get rid of fire ants",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how to eliminate ants in house",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how kill ants in the house",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how kill ants in house",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how to eliminate ants in the house",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how to exterminate ants in the house",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how to exterminate ants in house",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "kill ants with sugar and borax",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "kill ants with borax and sugar",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "kill ants borax and sugar",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "signs of carpenter ants in house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 90
+   },
+   {
+    "keyword": "how to repel ants in the house",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 90
+   }
+  ],
+  "spider-prevention": [
+   {
+    "keyword": "can black widow spiders kill you",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "will a black widow kill you",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "can the black widow kill you",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "does a black widow kill you",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "can black widow spider kill you",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "can a black widow spider kill you",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "can a black widow kill you",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "will black widow kill you",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "can black widow kill you",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "black widow spider can it kill you",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "can a black widow kill u",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 390
+   },
+   {
+    "keyword": "what do black widow spider bites look like",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "what do black widow bites look like",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "what does black widow bite look like",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "are black widow deadly",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "what does black widow spider bite look like",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "are black widow bites deadly",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "what does a black widow spider bite look like",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "are black widow spiders deadly",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "what does a black widow bite look like",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 260
+   },
+   {
+    "keyword": "what does black widow look like",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "what does the black widow look like",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "what does black widow spider look like",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "what does a black widow spider look like",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "what do black widow spiders look like",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "what does a black widow look like",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how poisonous is a black widow spider",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how venomous is a black widow",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how deadly are black widow spiders",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how poisonous are black widow spiders",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how poisonous is a black widow",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how deadly is a black widow",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how get rid of spiders in house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how to rid of spiders in house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how to get rid of spiders in the house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how do you get rid of spiders in the house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how to rid spiders in house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how do you get rid of spiders in a house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how to get rid of spiders in a house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how to get rid spiders in house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how to get rid of spiders in house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how to rid of spiders in the house",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "where does black widow spider live",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how to get rid of spiders in your house",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how long do spiders live in a house",
+    "us_volume": 1300,
+    "intent": "informational",
+    "az_volume": 20
+   }
+  ],
+  "rodent-exclusion": [
+   {
+    "keyword": "how to get rid of mice in the house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how can i get rid of mice in my house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how get rid of mice in house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how to rid of mice in house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how to get rid of mice in house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how can you get rid of mice in the house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how do i get rid of mice in the house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how do i get rid of mice in my house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how to get rid of mice in a house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how to get rid mice in house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how can i get rid of mice in the house",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how to get rid of roof rats",
+    "us_volume": 880,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how do you get rid of roof rats",
+    "us_volume": 880,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how to get rid of rats in roof",
+    "us_volume": 880,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how to get rid of rats on roof",
+    "us_volume": 880,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how to get rid of rats in the roof",
+    "us_volume": 880,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "how to.get rid of roof rats",
+    "us_volume": 880,
+    "intent": "informational",
+    "az_volume": 110
+   },
+   {
+    "keyword": "what are pack rats",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 90
+   },
+   {
+    "keyword": "what are roof rats",
+    "us_volume": 1300,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how to get rid of the mice in your house",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of mice in your house",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how can mice get in your house",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how do you get mice in your house",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how do mice get in your house",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best way to get rid of mice in house",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best way to get rid of mice in the house",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "roof rats vs norway rats",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "norway rats vs roof rats",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how kill mice in house",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how to catch mice in your house",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how to permanently get rid of mice in your house",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 20
+   }
+  ],
+  "bed-bug-treatment": [
+   {
+    "keyword": "what does bed bugs look like on a bed",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what do bed bed bugs look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what do bed bugs look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what does bed bugs look like on bed",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what do bed bugs look like on bed",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what to do bed bugs look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "bed bugs what does it look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what do bug bed bugs look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what does a bed with bed bugs look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what do bed bugs look like in a bed",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what do bed bugs look like on a bed",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what did bed bugs look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what does a bed look like with bed bugs",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what do bed bugs bugs look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what do bed bug bed bugs look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what do bed bugs on a bed look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what does bed bugs look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "how to get rid of bed bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how can you check for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to get rid for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to check bed for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "what does bites from bed bugs look like",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how do you check a bed for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to to get rid of bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "what does bed bugs bite look like",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to get get rid of bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how check for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to find the bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how.to get rid of bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "bed bugs what do bites look like",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to rid of bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to get rid from bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how do i check for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to get rid of from bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to test bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how i get rid of bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to get rid of bed bugs from bed",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to check beds for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to get rid bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to get rid of bed bugs in bed",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to get rid of bed bugs in the bed",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how.to check for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to get rid of of bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "what does bed bugs look like bites",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   },
+   {
+    "keyword": "how to i get rid of bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1900
+   }
+  ],
+  "mosquito-control": [
+   {
+    "keyword": "how to get rid of fruit mosquitoes",
+    "us_volume": 135000,
+    "intent": "informational",
+    "az_volume": 2400
+   },
+   {
+    "keyword": "how long can mosquitoes live",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "how long do mosquitoes live",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "bed bugs vs mosquitoes bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "mosquitoes bites vs bed bug bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "bed bug bites vs mosquito",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "mosquito bites vs bed bugs",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "mosquito vs bed bug bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "mosquito bites vs bed bugs bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "bed bugs bites vs mosquito",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "mosquito bites vs bed bug bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "bed bugs vs mosquito bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "mosquito bites vs bed bug",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "mosquito bite vs bed bug bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "bed bites vs mosquito bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "bed bug bites vs mosquito bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "bed bug vs mosquito bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "mosquito vs bed bugs bites",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "plants to prevent mosquitoes",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "plants prevent mosquitoes",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "plants which repel mosquitoes",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best mosquitoes repellents",
+    "us_volume": 22200,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best bug spray for mosquitoes",
+    "us_volume": 22200,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best insect repellent for mosquitoes",
+    "us_volume": 22200,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best mosquitoes repellent",
+    "us_volume": 22200,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best insect repellent mosquitoes",
+    "us_volume": 22200,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best repellent for mosquitoes",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best repellents for mosquitoes",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best bug repellent for mosquitoes",
+    "us_volume": 22200,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best mosquitoes protection",
+    "us_volume": 22200,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best bug spray mosquitoes",
+    "us_volume": 22200,
+    "intent": "transactional",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best bug sprays for mosquitoes",
+    "us_volume": 22200,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "how to get rid of mosquitoes bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how do you get rid of mosquitoes bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to get rid of mosquitoes bite",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to eliminate mosquito bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to get rid mosquito bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to rid of mosquito bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how do i get rid of mosquito bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to get rid of mosquito bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to get rid of bites from mosquito",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how can you get rid of mosquito bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how can i get rid of mosquito bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to to get rid of mosquito bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "how to get get rid of mosquito bites",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 590
+   }
+  ],
+  "bee-wasp-removal": [
+   {
+    "keyword": "wasp nest how to remove",
+    "us_volume": 40500,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
+    "keyword": "get rid of a wasp nest",
+    "us_volume": 40500,
+    "intent": "transactional",
+    "az_volume": 590
+   },
+   {
+    "keyword": "do bumble bees stings",
+    "us_volume": 49500,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "do bumble bees have stings",
+    "us_volume": 49500,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "does bumble bees have stingers",
+    "us_volume": 49500,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "does bumble bees sting",
+    "us_volume": 49500,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "do bumble bees have stingers",
+    "us_volume": 49500,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "does carpenter bees bite",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "do burrowing bees sting",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "does carpenter bees sting",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "do wood boring bees sting",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "can carpenter bees bite",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "can wood boring bees sting",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "can carpenter bees sting",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "do carpenter bees sting",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "do carpenter bees bite",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how can i get rid of wood boring bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how can i get rid of carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of driller bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how do you get rid of carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how can you get rid of carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to exterminate carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid wood boring bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of wood burrowing bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "wood bees how to get rid of",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of wood borer bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to rid carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how can you get rid of wood bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid wood bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of carpenter bees in wood",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of bore bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how do you get rid of boring bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how do i get rid of carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how do you get rid of wood borer bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get of carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of boring bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of wood boring bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how get rid of carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how do you get rid of wood bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how do you get rid of wood burrowing bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how do u get rid of carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how do you get rid of wood boring bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to rid of carpenter bees",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 50
+   }
+  ],
+  "pre-emergent-weed-control": [
+   {
+    "keyword": "what is a pre emergent herbicide",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "what is pre-emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "what is pre emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "what is pre emergent herbicides",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "what is a pre-emergent herbicide",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "what is a pre emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "what is a pre-emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "what is pre emergent herbicide",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "best pre emergent",
+    "us_volume": 1900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "pre emergent best",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best pre-emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best pre-emergent weed killer",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best pre emergent herbicides",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best pre-emergent herbicide",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best pre emergent herbicide",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best weed killer with pre emergent",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best pre emergent weed killer",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best pre-emergent herbicides",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "pre emergent herbicide when to apply",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when to apply pre emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when to use pre-emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when apply pre emergent herbicide",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when should you apply pre emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when apply pre emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when to apply pre-emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when to spread pre emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when to use pre emergent",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   }
+  ],
+  "post-emergent-weed-treatment": [
+   {
+    "keyword": "best weed killer herbicide",
+    "us_volume": 18100,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best killer weed",
+    "us_volume": 18100,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best herbicide weed killer",
+    "us_volume": 18100,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best weed killer",
+    "us_volume": 18100,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "best weed killer for weeds",
+    "us_volume": 18100,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "pets safe weed killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "weed killer pet safe",
+    "us_volume": 14800,
+    "intent": "transactional",
+    "az_volume": 720
+   },
+   {
+    "keyword": "safe weed killer for pets",
+    "us_volume": 14800,
+    "intent": "transactional",
+    "az_volume": 720
+   },
+   {
+    "keyword": "safe pet weed killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
+    "keyword": "pet safe weed killer",
+    "us_volume": 14800,
+    "intent": "transactional",
+    "az_volume": 720
+   },
+   {
+    "keyword": "weed killer that is safe for animals",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "weed killer safe for pets",
+    "us_volume": 14800,
+    "intent": "transactional",
+    "az_volume": 720
+   },
+   {
+    "keyword": "weed killer safe for animals",
+    "us_volume": 14800,
+    "intent": "transactional",
+    "az_volume": 720
+   },
+   {
+    "keyword": "safe for animals weed killer",
+    "us_volume": 14800,
+    "intent": "transactional",
+    "az_volume": 720
+   },
+   {
+    "keyword": "safe weed killer for animals",
+    "us_volume": 14800,
+    "intent": "transactional",
+    "az_volume": 720
+   },
+   {
+    "keyword": "weed killer that is safe for pets",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "animal safe weed killer",
+    "us_volume": 14800,
+    "intent": "transactional",
+    "az_volume": 720
+   },
+   {
+    "keyword": "weed killer that is pet safe",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 720
+   },
+   {
+    "keyword": "diy weed killer recipe",
+    "us_volume": 9900,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "diy weed killer",
+    "us_volume": 9900,
+    "intent": "transactional",
+    "az_volume": 320
+   },
+   {
+    "keyword": "weed killer for lawns best",
+    "us_volume": 14800,
+    "intent": "transactional",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best grass weed killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best grass & weed killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best grass and weed killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer grass",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer lawn",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed and grass killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer lawns",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed lawn killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer for lawn",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best lawn and weed killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer on grass",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer for grass",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer in lawns",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer and grass killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best lawn weed killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed and lawn killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed grass killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "lawn weed killer best",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer for lawns",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer in grass",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer for the lawn",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed & grass killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best weed killer product for lawns",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   },
+   {
+    "keyword": "best yard weed killer",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 260
+   }
+  ],
+  "gravel-rock-yard-maintenance": [
+   {
+    "keyword": "how to get rid of weeds in gravel",
+    "us_volume": 260,
+    "intent": "informational",
+    "az_volume": 20
+   }
+  ],
+  "lawn-fertilization": [
+   {
+    "keyword": "best grass lawn fertilizer",
+    "us_volume": 5400,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best fertilizer for lawn grass",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best fertilizer for bermuda lawn",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best lawn fertilizer for bermuda",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best bermuda lawn fertilizer",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best lawn fertilizer for bermuda grass",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best fertilizer bermuda grass",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "bermuda grass best fertilizer",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best bermuda grass fertilizer",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best fertilizer for bermuda grass",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "lawn fertilizer best",
+    "us_volume": 5400,
+    "intent": "commercial",
+    "az_volume": 40
+   },
+   {
+    "keyword": "best fertilizer for lawn",
+    "us_volume": 5400,
+    "intent": "commercial",
+    "az_volume": 40
+   },
+   {
+    "keyword": "best fertilizer lawn",
+    "us_volume": 5400,
+    "intent": "commercial",
+    "az_volume": 40
+   },
+   {
+    "keyword": "best fertilizer for a lawn",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 40
+   },
+   {
+    "keyword": "best lawn fertilizer",
+    "us_volume": 5400,
+    "intent": "commercial",
+    "az_volume": 40
+   },
+   {
+    "keyword": "best fertilizer for the lawn",
+    "us_volume": 5400,
+    "intent": "commercial",
+    "az_volume": 40
+   },
+   {
+    "keyword": "best lawn fertilizer for lawns",
+    "us_volume": 5400,
+    "intent": "commercial",
+    "az_volume": 40
+   },
+   {
+    "keyword": "best lawn care fertilizer",
+    "us_volume": 5400,
+    "intent": "commercial",
+    "az_volume": 40
+   },
+   {
+    "keyword": "when to put fertilizer on lawn",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when to spread lawn fertilizer",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when apply lawn fertilizer",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when fertilizer lawn",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when to apply fertilizer to lawn",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when to lawn fertilizer",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when to spread fertilizer on lawn",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when lawn fertilizer",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "when to apply lawn fertilizer",
+    "us_volume": 5400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how to put fertilizer on lawn",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how to lawn fertilizer",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how to apply fertilizer lawn",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how to apply fertilizer to lawn",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 20
+   }
+  ],
+  "bermuda-grass-control": [
+   {
+    "keyword": "bermuda grass when to seed",
+    "us_volume": 40500,
+    "intent": "informational",
+    "az_volume": 880
+   },
+   {
+    "keyword": "how to eradicate bermuda grass",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how can i kill bermuda grass",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how do you kill bermuda grass",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "how kill bermuda grass",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 70
+   },
+   {
+    "keyword": "best fertilizer bermuda grass",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best fertilizers for bermuda grass",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "bermuda grass best fertilizer",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best bermuda grass fertilizer",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best fertilizer for bermuda grass",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "best lawn fertilizer for bermuda grass",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 50
+   },
+   {
+    "keyword": "kill weeds bermuda grass",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "kill weeds in bermuda grass",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "bermuda grass kill weeds",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of bermuda grass in lawn",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to remove bermuda grass",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how do you get rid of bermuda grass",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to remove bermuda grass from lawn",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how do i get rid of bermuda grass",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid bermuda grass",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to get rid of bermuda grass",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to eliminate bermuda grass",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "how to remove bermuda grass lawn",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 50
+   },
+   {
+    "keyword": "crabgrass vs bermuda grass",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 40
+   },
+   {
+    "keyword": "bermuda grass vs crabgrass",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 40
+   },
+   {
+    "keyword": "what do bermuda grass look like",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 40
+   },
+   {
+    "keyword": "what does bermuda grass look like",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 40
+   },
+   {
+    "keyword": "zoysia grass vs bermuda",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 30
+   },
+   {
+    "keyword": "bermuda vs zoysia grass",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 30
+   },
+   {
+    "keyword": "bermuda grass vs st augustine",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "bermuda grass vs st augustine grass",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "st augustine vs bermuda grass",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "st augustine grass vs bermuda grass",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "st augustine grass vs bermuda",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "fescue grass vs bermuda grass",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "bermuda grass vs fescue",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "fescue grass vs bermuda",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "fescue vs bermuda grass",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "bermuda grass vs fescue grass",
+    "us_volume": 1600,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best herbicides for bermuda grass",
+    "us_volume": 1300,
+    "intent": "informational",
+    "az_volume": 20
+   }
+  ],
+  "overseeding": [
+   {
+    "keyword": "how to overseeding lawn",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 30
+   },
+   {
+    "keyword": "overseeding lawn how to",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 30
+   },
+   {
+    "keyword": "what is overseeding",
+    "us_volume": 1300,
+    "intent": "informational",
+    "az_volume": 30
+   }
+  ],
+  "weed-and-feed-program": [
+   {
+    "keyword": "best lawn care fertilizer",
+    "us_volume": 5400,
+    "intent": "commercial",
+    "az_volume": 40
+   },
+   {
+    "keyword": "lawn care when to aerate",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best lawn weed and feed",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best weed and feed for lawns",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best feed and weed for lawns",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best weed and feed for lawn",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best weed and feed lawn",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best lawn feed and weed",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best feed and weed for grass",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best grass weed and feed",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "cost of lawn care",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "cost for lawn care",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "lawn care price",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 20
+   },
+   {
+    "keyword": "cost lawn care",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best lawn care services near me",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best lawn care service near me",
+    "us_volume": 2900,
+    "intent": "commercial",
+    "az_volume": 20
+   },
+   {
+    "keyword": "lawn care cost",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "price of lawn care",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best weed and feed",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 20
+   }
+  ]
+ }
+}

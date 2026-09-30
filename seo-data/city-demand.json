@@ -1,0 +1,3230 @@
+{
+ "generated": "2026-09-30T06:53:24.677163+00:00",
+ "sources": {
+  "demand": "DataForSEO google_ads search_volume, Arizona,United States",
+  "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
+  "gsc": "Search Console query+page 2026-06-30..2026-09-28"
+ },
+ "city_demand": {
+  "ahwatukee-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control ahwatukee",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment ahwatukee",
+    "volume": 10,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal ahwatukee",
+    "volume": 10,
+    "cpc": 60.49
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed ahwatukee",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control ahwatukee",
+    "volume": 30,
+    "cpc": 37.87
+   },
+   "exterminator": {
+    "keyword": "exterminator ahwatukee",
+    "volume": 30,
+    "cpc": 37.87
+   }
+  },
+  "anthem-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control anthem",
+    "volume": 10,
+    "cpc": 39.13
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control anthem",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed anthem",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control anthem",
+    "volume": 10,
+    "cpc": 39.13
+   },
+   "exterminator": {
+    "keyword": "exterminator anthem",
+    "volume": 10,
+    "cpc": 39.13
+   }
+  },
+  "apache-junction-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control apache junction",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal apache junction",
+    "volume": 20,
+    "cpc": 3.28
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed apache junction",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control apache junction",
+    "volume": 90,
+    "cpc": 80.17
+   },
+   "exterminator": {
+    "keyword": "exterminator apache junction",
+    "volume": 90,
+    "cpc": 80.17
+   }
+  },
+  "buckeye-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment buckeye",
+    "volume": 10,
+    "cpc": 7.12
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal buckeye",
+    "volume": 10,
+    "cpc": 5.83
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed buckeye",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control buckeye",
+    "volume": 170,
+    "cpc": 38.01
+   },
+   "exterminator": {
+    "keyword": "exterminator buckeye",
+    "volume": 10,
+    "cpc": 36.64
+   }
+  },
+  "casa-grande-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control casa grande",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment casa grande",
+    "volume": 20,
+    "cpc": 6.39
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal casa grande",
+    "volume": 10,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control casa grande",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed casa grande",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control casa grande",
+    "volume": 260,
+    "cpc": 37.34
+   },
+   "exterminator": {
+    "keyword": "exterminator casa grande",
+    "volume": 260,
+    "cpc": 37.34
+   }
+  },
+  "chandler-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control chandler",
+    "volume": 20,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment chandler",
+    "volume": 20,
+    "cpc": 26.85
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator chandler",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control chandler",
+    "volume": 10,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control chandler",
+    "volume": 10,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control chandler",
+    "volume": 480,
+    "cpc": 49.42
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment chandler",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control chandler",
+    "volume": 10,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal chandler",
+    "volume": 260,
+    "cpc": 5.85
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control chandler",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control chandler",
+    "volume": 10,
+    "cpc": 18.25
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control chandler",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization chandler",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal chandler",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn chandler",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed chandler",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control chandler",
+    "volume": 480,
+    "cpc": 49.42
+   },
+   "exterminator": {
+    "keyword": "exterminator chandler",
+    "volume": 480,
+    "cpc": 49.42
+   }
+  },
+  "coolidge-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control coolidge",
+    "volume": 0,
+    "cpc": null
+   },
+   "exterminator": {
+    "keyword": "exterminator coolidge",
+    "volume": 0,
+    "cpc": null
+   }
+  },
+  "florence-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control florence",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed florence",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control florence",
+    "volume": 30,
+    "cpc": null
+   },
+   "exterminator": {
+    "keyword": "exterminator florence",
+    "volume": 10,
+    "cpc": null
+   }
+  },
+  "fountain-hills-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control fountain hills",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment fountain hills",
+    "volume": 10,
+    "cpc": 70.8
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control fountain hills",
+    "volume": 40,
+    "cpc": 37.85
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal fountain hills",
+    "volume": 10,
+    "cpc": 37.73
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed fountain hills",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control fountain hills",
+    "volume": 40,
+    "cpc": 37.85
+   },
+   "exterminator": {
+    "keyword": "exterminator fountain hills",
+    "volume": 40,
+    "cpc": 37.85
+   }
+  },
+  "gilbert-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control gilbert",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment gilbert",
+    "volume": 10,
+    "cpc": 79.29
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator gilbert",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control gilbert",
+    "volume": 10,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control gilbert",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control gilbert",
+    "volume": 10,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment gilbert",
+    "volume": 10,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control gilbert",
+    "volume": 10,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal gilbert",
+    "volume": 110,
+    "cpc": 11.68
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control gilbert",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control gilbert",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control gilbert",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization gilbert",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal gilbert",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn gilbert",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed gilbert",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control gilbert",
+    "volume": 110,
+    "cpc": 33.01
+   },
+   "exterminator": {
+    "keyword": "exterminator gilbert",
+    "volume": 10,
+    "cpc": null
+   }
+  },
+  "gold-canyon-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed gold canyon",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control gold canyon",
+    "volume": 10,
+    "cpc": 4.05
+   },
+   "exterminator": {
+    "keyword": "exterminator gold canyon",
+    "volume": 10,
+    "cpc": 4.05
+   }
+  },
+  "goodyear-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control goodyear",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment goodyear",
+    "volume": 10,
+    "cpc": 136.08
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal goodyear",
+    "volume": 10,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control goodyear",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed goodyear",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control goodyear",
+    "volume": 50,
+    "cpc": 74.56
+   },
+   "exterminator": {
+    "keyword": "exterminator goodyear",
+    "volume": 10,
+    "cpc": 7.44
+   }
+  },
+  "laveen-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed laveen",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control laveen",
+    "volume": 30,
+    "cpc": 33.5
+   },
+   "exterminator": {
+    "keyword": "exterminator laveen",
+    "volume": 30,
+    "cpc": 33.5
+   }
+  },
+  "litchfield-park-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment litchfield park",
+    "volume": 10,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed litchfield park",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control litchfield park",
+    "volume": 30,
+    "cpc": 45.54
+   },
+   "exterminator": {
+    "keyword": "exterminator litchfield park",
+    "volume": 30,
+    "cpc": 45.54
+   }
+  },
+  "maricopa-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal maricopa",
+    "volume": 10,
+    "cpc": 17.86
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed maricopa",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control maricopa",
+    "volume": 260,
+    "cpc": 24.78
+   },
+   "exterminator": {
+    "keyword": "exterminator maricopa",
+    "volume": 10,
+    "cpc": null
+   }
+  },
+  "mesa-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control mesa",
+    "volume": 40,
+    "cpc": 16.07
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment mesa",
+    "volume": 70,
+    "cpc": 42.32
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator mesa",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control mesa",
+    "volume": 10,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control mesa",
+    "volume": 10,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control mesa",
+    "volume": 880,
+    "cpc": 45.46
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment mesa",
+    "volume": 10,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control mesa",
+    "volume": 30,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal mesa",
+    "volume": 140,
+    "cpc": 71.08
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control mesa",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control mesa",
+    "volume": 50,
+    "cpc": 19.67
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control mesa",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization mesa",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal mesa",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn mesa",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed mesa",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control mesa",
+    "volume": 880,
+    "cpc": 45.46
+   },
+   "exterminator": {
+    "keyword": "exterminator mesa",
+    "volume": 880,
+    "cpc": 45.46
+   }
+  },
+  "paradise-valley-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control paradise valley",
+    "volume": 10,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal paradise valley",
+    "volume": 10,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control paradise valley",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed paradise valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control paradise valley",
+    "volume": 10,
+    "cpc": 38.88
+   },
+   "exterminator": {
+    "keyword": "exterminator paradise valley",
+    "volume": 10,
+    "cpc": 38.88
+   }
+  },
+  "peoria-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control peoria",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment peoria",
+    "volume": 10,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator peoria",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control peoria",
+    "volume": 10,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control peoria",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control peoria",
+    "volume": 10,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment peoria",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control peoria",
+    "volume": 10,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal peoria",
+    "volume": 10,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control peoria",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control peoria",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control peoria",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization peoria",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal peoria",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn peoria",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed peoria",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control peoria",
+    "volume": 30,
+    "cpc": 72.95
+   },
+   "exterminator": {
+    "keyword": "exterminator peoria",
+    "volume": 10,
+    "cpc": null
+   }
+  },
+  "phoenix-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control phoenix",
+    "volume": 140,
+    "cpc": 36.48
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment phoenix",
+    "volume": 210,
+    "cpc": 33.3
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator phoenix",
+    "volume": 10,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control phoenix",
+    "volume": 20,
+    "cpc": 69.39
+   },
+   "spider-prevention": {
+    "keyword": "spider control phoenix",
+    "volume": 10,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control phoenix",
+    "volume": 170,
+    "cpc": 47.62
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment phoenix",
+    "volume": 20,
+    "cpc": 33.65
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control phoenix",
+    "volume": 110,
+    "cpc": 10.67
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal phoenix",
+    "volume": 480,
+    "cpc": 19.81
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control phoenix",
+    "volume": 10,
+    "cpc": 0.04
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control phoenix",
+    "volume": 110,
+    "cpc": 30.35
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control phoenix",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization phoenix",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal phoenix",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn phoenix",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed phoenix",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control phoenix",
+    "volume": 2900,
+    "cpc": 49.41
+   },
+   "exterminator": {
+    "keyword": "exterminator phoenix",
+    "volume": 2900,
+    "cpc": 49.41
+   }
+  },
+  "queen-creek-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control queen creek",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment queen creek",
+    "volume": 10,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal queen creek",
+    "volume": 40,
+    "cpc": 24.84
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control queen creek",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed queen creek",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control queen creek",
+    "volume": 320,
+    "cpc": 31.64
+   },
+   "exterminator": {
+    "keyword": "exterminator queen creek",
+    "volume": 320,
+    "cpc": 31.64
+   }
+  },
+  "san-tan-valley-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control san tan valley",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control san tan valley",
+    "volume": 260,
+    "cpc": 35.48
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal san tan valley",
+    "volume": 10,
+    "cpc": 116.57
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control san tan valley",
+    "volume": 20,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed san tan valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control san tan valley",
+    "volume": 260,
+    "cpc": 35.48
+   },
+   "exterminator": {
+    "keyword": "exterminator san tan valley",
+    "volume": 260,
+    "cpc": 35.48
+   }
+  },
+  "scottsdale-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control scottsdale",
+    "volume": 40,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment scottsdale",
+    "volume": 50,
+    "cpc": 51.49
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator scottsdale",
+    "volume": 10,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control scottsdale",
+    "volume": 10,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control scottsdale",
+    "volume": 10,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control scottsdale",
+    "volume": 480,
+    "cpc": 45.49
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment scottsdale",
+    "volume": 10,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control scottsdale",
+    "volume": 20,
+    "cpc": 32.92
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal scottsdale",
+    "volume": 140,
+    "cpc": 51.04
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control scottsdale",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control scottsdale",
+    "volume": 30,
+    "cpc": 3.48
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control scottsdale",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization scottsdale",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal scottsdale",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn scottsdale",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed scottsdale",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control scottsdale",
+    "volume": 480,
+    "cpc": 45.49
+   },
+   "exterminator": {
+    "keyword": "exterminator scottsdale",
+    "volume": 480,
+    "cpc": 45.49
+   }
+  },
+  "surprise-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control surprise",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment surprise",
+    "volume": 10,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal surprise",
+    "volume": 10,
+    "cpc": 5.7
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control surprise",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed surprise",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control surprise",
+    "volume": 70,
+    "cpc": 16.98
+   },
+   "exterminator": {
+    "keyword": "exterminator surprise",
+    "volume": 70,
+    "cpc": 16.98
+   }
+  },
+  "tempe-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control tempe",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment tempe",
+    "volume": 10,
+    "cpc": 21.61
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator tempe",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control tempe",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control tempe",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control tempe",
+    "volume": 210,
+    "cpc": 46.57
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment tempe",
+    "volume": 10,
+    "cpc": 47.78
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control tempe",
+    "volume": 10,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal tempe",
+    "volume": 50,
+    "cpc": 45.71
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control tempe",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control tempe",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control tempe",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization tempe",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal tempe",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn tempe",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed tempe",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control tempe",
+    "volume": 210,
+    "cpc": 46.57
+   },
+   "exterminator": {
+    "keyword": "exterminator tempe",
+    "volume": 210,
+    "cpc": 46.57
+   }
+  },
+  "glendale-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control glendale",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment glendale",
+    "volume": 10,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator glendale",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control glendale",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control glendale",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control glendale",
+    "volume": 30,
+    "cpc": 24.21
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment glendale",
+    "volume": 10,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control glendale",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal glendale",
+    "volume": 10,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control glendale",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control glendale",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control glendale",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization glendale",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal glendale",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn glendale",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed glendale",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control glendale",
+    "volume": 30,
+    "cpc": 24.21
+   },
+   "exterminator": {
+    "keyword": "exterminator glendale",
+    "volume": 30,
+    "cpc": 24.21
+   }
+  },
+  "avondale-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control avondale",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment avondale",
+    "volume": 10,
+    "cpc": 80.04
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal avondale",
+    "volume": 20,
+    "cpc": 63
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control avondale",
+    "volume": 10,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed avondale",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control avondale",
+    "volume": 70,
+    "cpc": 112.1
+   },
+   "exterminator": {
+    "keyword": "exterminator avondale",
+    "volume": 30,
+    "cpc": 33.18
+   }
+  },
+  "catalina-foothills-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control catalina foothills",
+    "volume": 0,
+    "cpc": null
+   },
+   "exterminator": {
+    "keyword": "exterminator catalina foothills",
+    "volume": 0,
+    "cpc": null
+   }
+  },
+  "green-valley-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed green valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control green valley",
+    "volume": 40,
+    "cpc": 81.44
+   },
+   "exterminator": {
+    "keyword": "exterminator green valley",
+    "volume": 0,
+    "cpc": null
+   }
+  },
+  "marana-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed marana",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control marana",
+    "volume": 70,
+    "cpc": 30.97
+   },
+   "exterminator": {
+    "keyword": "exterminator marana",
+    "volume": 10,
+    "cpc": null
+   }
+  },
+  "oro-valley-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control oro valley",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal oro valley",
+    "volume": 10,
+    "cpc": 29.65
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed oro valley",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control oro valley",
+    "volume": 70,
+    "cpc": 34.53
+   },
+   "exterminator": {
+    "keyword": "exterminator oro valley",
+    "volume": 0,
+    "cpc": null
+   }
+  },
+  "red-rock-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed red rock",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control red rock",
+    "volume": 10,
+    "cpc": null
+   },
+   "exterminator": {
+    "keyword": "exterminator red rock",
+    "volume": 0,
+    "cpc": null
+   }
+  },
+  "sahuarita-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control sahuarita",
+    "volume": 10,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed sahuarita",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control sahuarita",
+    "volume": 30,
+    "cpc": 24.9
+   },
+   "exterminator": {
+    "keyword": "exterminator sahuarita",
+    "volume": 0,
+    "cpc": null
+   }
+  },
+  "tucson-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control tucson",
+    "volume": 480,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment tucson",
+    "volume": 260,
+    "cpc": 29.78
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator tucson",
+    "volume": 10,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control tucson",
+    "volume": 10,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control tucson",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control tucson",
+    "volume": 2400,
+    "cpc": 23.69
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment tucson",
+    "volume": 10,
+    "cpc": 1.79
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control tucson",
+    "volume": 30,
+    "cpc": 0.67
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal tucson",
+    "volume": 210,
+    "cpc": 19.03
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control tucson",
+    "volume": 10,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control tucson",
+    "volume": 170,
+    "cpc": 9.12
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control tucson",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization tucson",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal tucson",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn tucson",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed tucson",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control tucson",
+    "volume": 2400,
+    "cpc": 23.69
+   },
+   "exterminator": {
+    "keyword": "exterminator tucson",
+    "volume": 2400,
+    "cpc": 23.69
+   }
+  },
+  "vail-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed vail",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control vail",
+    "volume": 10,
+    "cpc": 46.24
+   },
+   "exterminator": {
+    "keyword": "exterminator vail",
+    "volume": 0,
+    "cpc": null
+   }
+  },
+  "valencia-west-az": {
+   "scorpion-control": {
+    "keyword": "scorpion control valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "termite-treatment": {
+    "keyword": "termite treatment valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "roach-elimination": {
+    "keyword": "cockroach exterminator valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "ant-control": {
+    "keyword": "ant control valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "spider-prevention": {
+    "keyword": "spider control valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "rodent-exclusion": {
+    "keyword": "rodent control valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "bed-bug-treatment": {
+    "keyword": "bed bug treatment valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "mosquito-control": {
+    "keyword": "mosquito control valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "bee-wasp-removal": {
+    "keyword": "bee removal valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "pre-emergent-weed-control": {
+    "keyword": "pre emergent weed control valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "post-emergent-weed-treatment": {
+    "keyword": "weed control valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "gravel-rock-yard-maintenance": {
+    "keyword": "rock yard weed control valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "lawn-fertilization": {
+    "keyword": "lawn fertilization valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "bermuda-grass-control": {
+    "keyword": "bermuda grass removal valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "overseeding": {
+    "keyword": "overseeding lawn valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "weed-and-feed-program": {
+    "keyword": "weed and feed valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "pest control": {
+    "keyword": "pest control valencia west",
+    "volume": 0,
+    "cpc": null
+   },
+   "exterminator": {
+    "keyword": "exterminator valencia west",
+    "volume": 0,
+    "cpc": null
+   }
+  }
+ }
+}

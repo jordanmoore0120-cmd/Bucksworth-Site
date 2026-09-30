@@ -169,6 +169,13 @@ Every post must hit all of it — a thin post is worse than no post:
 - Unique title — check existing titles first
 - Excerpt: first 155 chars work as the meta description
 
+**Topic selection is data-driven — read `seo-data/STRATEGY.md` first.** Pick the
+next post from `seo-data/blog-queue.json` (real DataForSEO AZ demand), check
+`seo-data/gsc-ranking-map.json` + `content/blog/index.json` for cannibalization,
+and use `rankings.json`, `whitespark-rankings.json`, `striking-distance.json` to
+choose which money page each post supports. Append every published post to
+`seo-data/publish-log.json`. Viktor refreshes these files weekly.
+
 Publishing path: write content → add to `content/blog/index.json` and
 `content/blog/data.json` → publish using the secure authenticated GitHub method
 available to the session → verify live (section 2).
@@ -184,8 +191,9 @@ Note: `data.json` is ~20MB / 1,448 posts. Append, never rewrite wholesale.
 | `content/blog/data.json` | Blog post bodies (~20MB) |
 | `content/blog/index.json` | Blog index |
 | `src/lib/blog.ts` | Blog logic |
-| `src/lib/cities.ts` | 33 cities |
-| `src/lib/services.ts` | 36 sub-services |
+| `src/lib/cities.ts` | 35 cities (Tolleson/El Mirage/Youngtown removed 09-25) |
+| `src/lib/services.ts` | Sub-services (blog focus: pest-and-termite + weed-and-lawn-care only) |
+| `seo-data/` | SEO data pack + STRATEGY.md (not served; Viktor refreshes weekly) |
 
 ---
 
