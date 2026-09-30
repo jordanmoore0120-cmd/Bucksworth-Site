@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T21:23Z",
+ "generated": "2026-09-30T21:24Z",
  "period": [
   "2026-08-31",
   "2026-09-29"
@@ -160,7 +160,7 @@
    "term": "bucksworth home services",
    "clicks": 14.0,
    "cost": 123.46,
-   "conversions": 13.0
+   "conversions": 1.0
   },
   {
    "term": "greenleaf pest control mesa",
@@ -172,24 +172,6 @@
    "term": "bucksworth pest control",
    "clicks": 7.0,
    "cost": 73.04,
-   "conversions": 42.0
-  },
-  {
-   "term": "yard maintenance near me",
-   "clicks": 4.0,
-   "cost": 64.99,
-   "conversions": 1.0
-  },
-  {
-   "term": "cricket exterminator",
-   "clicks": 1.0,
-   "cost": 31.27,
-   "conversions": 1.0
-  },
-  {
-   "term": "yard clean up near me",
-   "clicks": 1.0,
-   "cost": 15.05,
    "conversions": 1.0
   }
  ],
@@ -198,7 +180,7 @@
    "term": "bucksworth home services",
    "clicks": 14.0,
    "cost": 123.46,
-   "conversions": 13.0
+   "conversions": 1.0
   },
   {
    "term": "greenleaf pest control mesa",
@@ -222,7 +204,7 @@
    "term": "bucksworth pest control",
    "clicks": 7.0,
    "cost": 73.04,
-   "conversions": 42.0
+   "conversions": 1.0
   },
   {
    "term": "zip zap pest control mesa az",
@@ -240,7 +222,7 @@
    "term": "yard maintenance near me",
    "clicks": 4.0,
    "cost": 64.99,
-   "conversions": 1.0
+   "conversions": 0.0
   },
   {
    "term": "lawn and yard care",
@@ -366,7 +348,7 @@
    "term": "cricket exterminator",
    "clicks": 1.0,
    "cost": 31.27,
-   "conversions": 1.0
+   "conversions": 0.0
   },
   {
    "term": "crossfire bed bug spray",
