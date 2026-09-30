@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { CITIES, getCityBySlug, getPhoneForBranch, getPhoneForBranchRaw } from "@/lib/cities";
 import { SERVICES } from "@/lib/services";
 import { getNeighborhoods } from "@/lib/neighborhoods";
@@ -194,11 +195,14 @@ export default async function CityPage({ params }: CityPageProps) {
       {/* Hero with real photo background */}
       <section className="city-hero" style={{ position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
-          <img
+          <Image
             src={city.branch === "phoenix" ? "/images/photos/branded-truck-home.jpg" : "/images/photos/tech-service-action.jpg"}
             alt={`Bucksworth Home Services in ${city.name}, Arizona`}
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
-            loading="eager"
+            fill
+            sizes="100vw"
+            quality={70}
+            priority
+            style={{ objectFit: "cover", objectPosition: "center" }}
           />
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(26,26,46,0.88) 0%, rgba(26,26,46,0.65) 100%)" }} />
         </div>
