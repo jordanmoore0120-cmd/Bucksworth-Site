@@ -49,11 +49,11 @@ export default function FAQAccordion({
                 <path d="M7 10l5 5 5-5z" />
               </svg>
             </button>
-            {openIdx === i && (
-              <div className="faq-answer">
-                <p>{faq.a}</p>
-              </div>
-            )}
+            {/* Always in the DOM (hidden when closed) so crawlers and the
+                speakable schema can read every answer */}
+            <div className="faq-answer speakable-answer" hidden={openIdx !== i}>
+              <p>{faq.a}</p>
+            </div>
           </div>
         ))}
       </div>

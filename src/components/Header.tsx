@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { CITIES } from "@/lib/cities";
 import { SERVICES } from "@/lib/services";
 import { openEstimator } from "@/components/EstimatorProvider";
@@ -221,14 +222,14 @@ export default function Header() {
       <header className="site-hdr">
         <div className="container site-hdr-inner">
           <Link href="/" className="logo-link">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src="/images/bucksworth-mascot-clean.jpg"
               alt="Bucksworth Home Services"
               width={200}
               height={228}
               className="logo-img"
-              fetchPriority="high"
+              sizes="72px"
+              priority
             />
           </Link>
 

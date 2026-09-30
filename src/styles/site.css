@@ -12,7 +12,7 @@
   --orange: #ff9c00;
   --copper: #c96a2c;
   --az-blue: #002868;
-  --green: #16a34a;
+  --green: #15803d; /* was #16a34a — darkened for WCAG AA (white text 5.0:1) */
   --blue: #2563eb;
   --cyan: #0891b2;
   --amber: #d97706;
@@ -658,7 +658,7 @@ img { max-width: 100%; height: auto; }
   font-size: 15px;
   transition: background var(--transition);
 }
-.city-hero-cta .btn-call:hover { background: #15803d; }
+.city-hero-cta .btn-call:hover { background: #166534; }
 .city-hero-cta .btn-estimate {
   display: inline-flex;
   align-items: center;
@@ -951,7 +951,7 @@ img { max-width: 100%; height: auto; }
   background: var(--green);
   color: white;
 }
-.cta-btn--phone:hover { background: #15803d; }
+.cta-btn--phone:hover { background: #166534; }
 .cta-btn--estimate {
   background: var(--red);
   color: white;
@@ -1187,7 +1187,7 @@ img { max-width: 100%; height: auto; }
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--g500);
+  color: var(--g400);
   margin-bottom: 10px;
 }
 .footer-sitemap-links {
@@ -1197,7 +1197,7 @@ img { max-width: 100%; height: auto; }
 }
 .footer-sitemap-links a {
   font-size: 11px;
-  color: var(--g500);
+  color: var(--g400);
   padding: 2px 6px;
   border-radius: 3px;
 }
@@ -1210,7 +1210,7 @@ img { max-width: 100%; height: auto; }
 }
 .footer-bottom p {
   font-size: 12px;
-  color: var(--g500);
+  color: var(--g400);
 }
 
 /* ═══════════════════════════════════════
@@ -2772,6 +2772,7 @@ img { max-width: 100%; height: auto; }
 /* Quote — orange accent */
 .sticky-action-quote {
   background: var(--orange, #e67e22);
+  color: var(--g900); /* dark text on brand orange for WCAG AA (white was 2.1:1) */
 }
 .sticky-action-quote:hover {
   background: #cf6d17;

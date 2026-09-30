@@ -9,6 +9,7 @@ import ServiceCard from "@/components/ServiceCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
+import { speakableWebPageSchema } from "@/lib/speakable";
 import CTASection from "@/components/CTASection";
 import CitySync from "@/components/CitySync";
 import NearbyCities from "@/components/NearbyCities";
@@ -175,6 +176,14 @@ export default async function CityPage({ params }: CityPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            speakableWebPageSchema(`https://www.getyourbucksworth.com/${slug}`, `Home Services in ${city.name}, Arizona`)
+          ),
+        }}
+      />
       <CitySync branch={city.branch} city={city.name} slug={city.slug} />
       <CityBar currentCity={city} />
       <main id="main-content">
@@ -201,7 +210,7 @@ export default async function CityPage({ params }: CityPageProps) {
             Home Services in{" "}
             <span className="orange">{city.name}, Arizona</span>
           </h1>
-          <p className="city-hero-desc">{city.description}</p>
+          <p className="city-hero-desc speakable-intro">{city.description}</p>
           <div className="city-hero-badges">
             <Link href="/reviews" className="city-hero-badge city-hero-badge--link">
               &#9733; {REVIEW_TOTALS.rating.toFixed(1)} Stars ({REVIEW_TOTALS.count.toLocaleString()} Reviews)

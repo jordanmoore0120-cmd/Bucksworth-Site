@@ -6,7 +6,8 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/"],
+        /* Never disallow /_next/ — Googlebot needs the JS/CSS there to render pages */
+        disallow: ["/api/"],
       },
       /* Explicitly allow AI search crawlers for agentic search */
       { userAgent: "GPTBot", allow: "/" },
