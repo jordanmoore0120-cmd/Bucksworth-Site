@@ -18,6 +18,7 @@ import CityBar from "@/components/CityBar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
+import { speakableWebPageSchema } from "@/lib/speakable";
 import CTASection from "@/components/CTASection";
 import RelatedPosts from "@/components/RelatedPosts";
 import { getRelatedBlogPosts } from "@/lib/blog-links";
@@ -172,6 +173,7 @@ export default async function SubServicePage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableWebPageSchema(`https://www.getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}`, `${sub.name} in ${city.name}, AZ`)) }} />
       <CitySync branch={city.branch} city={city.name} slug={city.slug} />
       <CityBar currentCity={city} />
       <main id="main-content">
@@ -198,7 +200,7 @@ export default async function SubServicePage({
               <><span className="orange">{sub.name}</span> in {city.name}, AZ</>
             )}
           </h1>
-          <p className="city-hero-desc">{override?.heroDescription ?? sub.longDesc}</p>
+          <p className="city-hero-desc speakable-intro">{override?.heroDescription ?? sub.longDesc}</p>
           <div className="city-hero-badges">
             <Link href="/reviews" className="city-hero-badge city-hero-badge--link">
               &#9733; {REVIEW_TOTALS.rating.toFixed(1)} Stars ({REVIEW_TOTALS.count.toLocaleString()} Reviews)

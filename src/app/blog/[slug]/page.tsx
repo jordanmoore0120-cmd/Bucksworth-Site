@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
+import { markBlogSpeakable, speakableWebPageSchema } from "@/lib/speakable";
+import { optimizeBlogImages } from "@/lib/blog-images";
 import { getPostBySlug, getAllPostSlugs, stripHtml, formatDate, getCanonicalTarget, getRelatedPosts, extractFaqPairs, extractFirstImage, getPrunedRedirect } from "@/lib/blog";
 
 interface BlogPostProps {
@@ -142,6 +144,12 @@ export default async function BlogPost({ params }: BlogPostProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(speakableWebPageSchema(`https://www.getyourbucksworth.com/blog/${slug}`, title)),
+        }}
+      />
       <main id="main-content">
         <article className="blog-article">
           <div className="blog-article-header">
@@ -195,7 +203,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
           <div className="blog-article-body">
             <div
               className="blog-content"
-              dangerouslySetInnerHTML={{ __html: post.content }}
+              dangerouslySetInnerHTML={{ __html: optimizeBlogImages(markBlogSpeakable(post.content)) }}
             />
           </div>
 

@@ -108,7 +108,7 @@ const nextConfig = {
         { source: "/company", destination: "/about", permanent: true },
         { source: "/amana", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
         { source: "/day-night", destination: "/phoenix-az/air-conditioning-and-heating", permanent: true },
-        { source: "/accessibility-statement", destination: "/about", permanent: true },
+        { source: "/accessibility-statement", destination: "/accessibility", permanent: true },
         // Old city-specific pages that were 404
         { source: "/pest-control-peoria-az", destination: "/peoria-az/pest-and-termite", permanent: true },
         { source: "/pest-control-apache-junction-az", destination: "/apache-junction-az/pest-and-termite", permanent: true },

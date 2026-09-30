@@ -73,6 +73,7 @@ export default function Footer() {
             <Link href="/termite-warranty" className="footer-link">Termite Warranty</Link>
             <Link href="/sitemap-page" className="footer-link">Sitemap</Link>
             <Link href="/privacy-policy" className="footer-link">Privacy Policy</Link>
+            <Link href="/accessibility" className="footer-link">Accessibility</Link>
             <a
               href="https://www.instagram.com/bucksworth.homeservices/"
               target="_blank"

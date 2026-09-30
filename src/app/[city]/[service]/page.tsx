@@ -8,6 +8,7 @@ import CityBar from "@/components/CityBar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
 import FAQAccordion from "@/components/FAQAccordion";
+import { speakableWebPageSchema } from "@/lib/speakable";
 import CTASection from "@/components/CTASection";
 import CitySync from "@/components/CitySync";
 import NearbyCities from "@/components/NearbyCities";
@@ -282,6 +283,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableWebPageSchema(`https://www.getyourbucksworth.com/${citySlug}/${svcSlug}`, `${service.name} in ${city.name}, AZ`)) }} />
       <CitySync branch={city.branch} city={city.name} slug={city.slug} />
       <CityBar currentCity={city} />
       <main id="main-content">
@@ -299,7 +301,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
           <div className="svc-hub-hero-content">
             <p className="city-hero-eyebrow">{city.branch === "phoenix" ? "Phoenix Metro" : "Tucson Metro"} &bull; {city.county} County</p>
             <h1>{hubOverride?.heroHeadline || <>{service.name} in <span>{city.name}, Arizona</span></>}</h1>
-            <p>{hubOverride?.heroDescription || <>{service.tagline}. Bucksworth Home Services provides professional {service.name.toLowerCase()} for homes and businesses throughout {city.name} and the greater {metro} metro area.{city.slug === "apache-junction-az" ? " Headquartered right here in Apache Junction." : ""} Licensed, insured, and Google Guaranteed.</>}</p>
+            <p className="speakable-intro">{hubOverride?.heroDescription || <>{service.tagline}. Bucksworth Home Services provides professional {service.name.toLowerCase()} for homes and businesses throughout {city.name} and the greater {metro} metro area.{city.slug === "apache-junction-az" ? " Headquartered right here in Apache Junction." : ""} Licensed, insured, and Google Guaranteed.</>}</p>
             <div className="city-hero-cta" style={{ marginTop: "20px" }}>
               <a href={`tel:${phoneRaw}`} className="btn-call" aria-label={`Call Bucksworth at ${phone}`}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.72 11.72 0 003.66.59 1 1 0 011 1v3.59a1 1 0 01-1 1A17 17 0 013 4.92a1 1 0 011-1h3.59a1 1 0 011 1 11.72 11.72 0 00.59 3.66 1 1 0 01-.24 1.01l-2.2 2.2z" /></svg>
