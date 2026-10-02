@@ -134,6 +134,17 @@ compare target keywords, not just titles. Duplicate/competing pages are the
 single worst failure mode in this repo; a previous multi-writer setup produced
 mass duplicates and had to be pruned (1,354 posts removed).
 
+**A question is one search result page, whatever the city (Jordan, 2026-10-02).**
+"How to get rid of fruit mosquitoes" shows the same Google results in Mesa and
+Tucson, so swapping the city name does NOT make a new topic. Before writing:
+1. Compare your target question against EVERY `target_question` in
+   `seo-data/publish-log.json` and all titles in `content/blog/index.json`.
+   If it matches or is a near-variant (same core words: "what do bed bugs look
+   like" = "what does bed bugs look like on a bed"), pick a different topic.
+2. Never reuse another post's H2 outline with only the city swapped.
+3. If unsure, skip the topic and log why — never publish a possible duplicate.
+Viktor's QA flags any violation and it goes into `seo-data/fix-list.md`.
+
 **Silo structure:** City → Service → Sub-service → blog posts. Blog posts are
 always self-canonical — never set `canonicalTarget` on a blog post.
 
@@ -168,6 +179,9 @@ Every post must hit all of it — a thin post is worse than no post:
 - Mention 3–5 nearby cities we also service
 - Unique title — check existing titles first
 - Excerpt: first 155 chars work as the meta description
+
+**Every session: do the open items in `seo-data/fix-list.md` FIRST**, before
+picking a new topic, and mark each one done with the commit SHA.
 
 **Topic selection is data-driven — read `seo-data/STRATEGY.md` first.** Pick the
 next post from `seo-data/blog-queue.json` (real DataForSEO AZ demand), check
