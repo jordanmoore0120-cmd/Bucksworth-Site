@@ -4,11 +4,11 @@
 - NAP must be identical across website, GBP, and all directories
 - Website URL: `https://www.getyourbucksworth.com/` (clean, no UTMs)
 - Primary category: Pest Control Service (Phoenix), Pest Control Service (Tucson)
-- Secondary categories: HVAC Contractor, Plumber, Lawn Care Service
+- Secondary categories: pest/termite/weed/lawn-related only (e.g. Lawn Care Service). GBP is deliberately pest + weed only: no HVAC/plumbing categories, services or posts (CLAUDE.md §3)
 - Post 2x/week to GBP (repurpose blog content)
 - Respond to ALL reviews within 24 hours
 - Photos: add 2-3 new service photos per month
-- Q&A: seed with common questions and answers
+- Q&A: Maps Q&A is gone (2026); publish real customer questions as GBP Posts with a direct answer instead
 
 ## Map Pack Strategy
 - Grid tracking confirms: Bucksworth visible in AJ area only (Phoenix GBP)
@@ -68,7 +68,7 @@ Every piece of content must feel like it was written by someone who lives in tha
    - Example: "We also serve families in Chandler, Gilbert, and Ahwatukee with same-day service"
    - This is Darren Shaw's #1 strategy for ranking in surrounding cities
 4. **Social Media Embed** — include at least 1 BSW social media link per blog post
-   - Match to vertical: pest → scorpion blacklight videos, HVAC → install footage
+   - Match to vertical: pest → scorpion blacklight videos, weed → before/after yard footage
    - Accounts: YouTube (@bucksworthhomeservices), Instagram (bucksworth.homeservices), Facebook (bucksworthservices)
 5. **Content Must NOT Feel Templated** (Jordan's rule, June 15)
    - Technical stuff can be standard (schema, internal links, alt tags, URLs, word count)

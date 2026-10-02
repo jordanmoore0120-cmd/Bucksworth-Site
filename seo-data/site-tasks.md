@@ -1,0 +1,40 @@
+# Site tasks (from Viktor's SEO-intel bot) — Claude does the top open item each session
+
+Order: fix-list.md first, then the day's post, then the **top open item here**. Mark it `[x]` with the
+commit SHA. Viktor (site-gatekeeper) re-checks live and moves confirmed items to Done.
+
+**Rules for every task:** never change or remove a URL (no redirects unless the task says so); never touch
+tracking tags (GA4/Ads/Meta); no prices, deals or contract terms; never write "no contract"; don't promote
+AC/HVAC/plumbing; phones only (480) 422-8388 PHX / (520) 284-9930 TUC; run mobile Lighthouse before/after —
+no page may lose score, target 90+ (performance-budget.md). Read `seo-data/reference/ai-search-guidelines.md` first.
+Anchors must be descriptive ("pest control in Queen Creek"), never "click here". Report findings you were
+asked to report in the commit message.
+
+Data: DataForSEO SERP depth 20 (Phoenix location; Tucson location for Tucson) + "getyourbucksworth.com <kw>"
+checks, 2026-09-30 → 2026-10-02.
+
+## Open
+
+### Internal links (Edward Sturm method: point related pages at the page that should rank)
+- [ ] **1 · 2026-10-01 · "pest control queen creek"** (Google ties it to the HVAC blog /blog/what-does-an-hvac-maintenance-inspection-include and earlier a Fountain Hills radiant-barrier blog). Target `/queen-creek-az/pest-and-termite`. Link to it from: /blog/queen-creek-pest-control-smart-solutions-for-85142, /blog/queen-creek-pest-defense-85142-ironwood-crossing, /blog/pest-control-in-queen-creek-expert-solutions-for-your-home-and-garden, /queen-creek-az, /queen-creek-az/pest-and-termite/ant-control, /queen-creek-az/pest-and-termite/rodent-exclusion, /queen-creek-az/pest-and-termite/scorpion-control. Check the HVAC blog for Queen Creek pest/weed anchors or headings that pull the topic toward it; report, don't delete.
+- [ ] **2 · 2026-09-30 · "pest control san tan valley"** (Google showed Gilbert overseeding). Target `/san-tan-valley-az/pest-and-termite`. Link from /blog/san-tan-valley-rodent-control-keeping-pests-out-of-your-desert-sanctuary, /san-tan-valley-az and every /san-tan-valley-az/pest-and-termite/* child.
+- [ ] **3 · 2026-09-30 · "pest control mesa az"**. Target `/mesa-az/pest-and-termite`. Link from /mesa-az, every /mesa-az/pest-and-termite/* child, and Mesa blogs (e.g. /blog/how-to-get-rid-of-fruit-mosquitoes-a-mesa-homeowners-guide-to-fruit-flies-and-gnats).
+- [ ] **4 · 2026-10-02 · "scorpion control mesa"** (Google ties it to /phoenix-az/pest-and-termite/spider-prevention and /mesa-az/weed-and-lawn-care). Target `/mesa-az/pest-and-termite/scorpion-control`, anchor like "scorpion control in Mesa". Link from /blog/scorpion-control-in-mesa-az-expert-solutions-for-a-sting-free-home, /blog/mesa-scorpion-control-keeping-las-sendas-safe, /blog/mesa-pest-control-targeted-solutions-for-east-valley-homes, /blog/whos-the-best-pest-control-near-mesa-your-guide-to-a-pest-free-home, /blog/gold-canyon-scorpion-control-a-complete-guide-for-superstition-mountain-resident-2, /mesa-az/pest-and-termite, /mesa-az, /mesa-az/pest-and-termite/{spider-prevention,ant-control,bed-bug-treatment}, and the scorpion passage on /mesa-az/weed-and-lawn-care (keep that page's title/H1/meta free of scorpion terms). Add one link from /phoenix-az/pest-and-termite/spider-prevention if it mentions Mesa/scorpions.
+- [ ] **5 · 2026-09-30 · "pest control gilbert" / "termite control gilbert"**. Target `/gilbert-az/pest-and-termite` (and its termite child). Link from /gilbert-az, /gilbert-az/pest-and-termite/*, Gilbert blogs (e.g. /blog/best-termite-company-gilbert-az-85233).
+- [ ] **6 · 2026-10-02 · "pest control apache junction"** (now organic #18 with the right page + local pack). Make sure /apache-junction-az links prominently to `/apache-junction-az/pest-and-termite`, and AJ blogs (tired-of-pests-in-apache-junction…, best-termite-company-apache-junction…) link to it.
+- [ ] **7 · 2026-10-01 · "weed control queen creek"** (ranks #13 with /queen-creek-az/weed-and-lawn-care/weed-and-feed-program). Target `/queen-creek-az/weed-and-lawn-care`. Link from /queen-creek-az, /queen-creek-az/pest-and-termite ("weed control in Queen Creek"), every /queen-creek-az/weed-and-lawn-care/* child, nearby-city blocks on /san-tan-valley-az/weed-and-lawn-care and /gilbert-az/weed-and-lawn-care, and QC weed blogs (/blog/queen-creek-weed-solutions-professional-grade-targeted-results, /blog/weed-control-in-queen-creek-az-taming-your-desert-yard-for-good). Report whether the hub is in the sitemap and self-canonical.
+- [ ] **8 · 2026-10-01 · "pest control tucson"** (Google shows /catalina-foothills-az/pest-and-termite/spider-prevention). Target `/tucson-az/pest-and-termite`. Link from /tucson-az, every /tucson-az/pest-and-termite/* child, nearby-city blocks on /{catalina-foothills,oro-valley,marana,green-valley,sahuarita}-az/pest-and-termite ("pest control in Tucson"), /blog/best-termite-company-marana-az-peace-of-mind-for-your-home, /blog/sahuarita-pest-control-expert-protection-for-rancho-sahuarita-families. Tucson phone only.
+- [ ] **9 · 2026-09-30 · termite / cockroach anchors**: every city pest-and-termite hub links to its termite-treatment and roach-elimination child with descriptive anchors; termite/roach blogs link to the matching city child.
+- [ ] **10 · 2026-09-30 · off-focus links**: remove links from pest/termite/weed pages that point to AC/plumbing/insulation pages. Report which AC/plumbing/insulation pages (and the old WordPress URL /water-heater-services-in-tolleson-az-reliable-hot-water-solutions/) are still live. Don't delete or redirect anything.
+
+### Templates / on-page
+- [ ] **11 · 2026-10-01 · pest hub title/H1** (all /{city}-az/pest-and-termite): title never says "pest control" and the H1 renders "Queen Creek , Arizona" (stray space). Proposed title "Pest Control in {City}, AZ | Scorpion & Termite | Bucksworth", H1 "Pest Control & Termite Treatment in {City}, AZ". Confirm the head term per city in seo-data/city-demand.json first. Fix the comma-space bug everywhere. URLs unchanged.
+- [ ] **12 · 2026-10-01 · answer-first opener on pest hubs**: replace the generic "across Phoenix and Tucson" paragraph with a 40–60 word city-specific answer (services, local pests/season, one local fact, branch phone). Order: AJ, Queen Creek, San Tan Valley, Mesa, Gilbert, then Tucson.
+- [ ] **13 · 2026-10-01 · "How to choose a pest control company in {City}" H2** on the same hubs: short table (AZ Dept of Agriculture license #9613, scorpion method, termite inspection type, "100% Money Back Guarantee *Terms and conditions apply", response time, real local reviews). No prices, no competitor names.
+- [ ] **14 · 2026-10-02 · sitewide entity copy**: Organization/LocalBusiness schema `description`, `og:description`, top bar ("Serving 33 Cities") and meta keywords still say 33 cities and lead with AC/plumbing (meta keywords like "air conditioning repair near me", "plumber near me Phoenix" appear on /mesa-az/weed-and-lawn-care). Align with the live llms.txt: pest & termite + weed & lawn care first, 35 cities. Strip AC/plumbing keywords from pest/weed page meta. Keep "Google Guaranteed" (true, via LSA). Don't remove AC/plumbing pages or URLs.
+- [ ] **15 · 2026-10-02 · IndexNow** (Bing/Copilot guideline): add an IndexNow key file in public/ and a small helper that submits changed URLs after deploy. No tracking changes. Low priority.
+
+### Blocked (needs Jordan)
+- [ ] **B1 · 2026-10-02 · guarantee terms link** (Google Ads Advanced Verification policy: a page that mentions a guarantee must link to its terms, exclusions and how to claim). Pest hubs say "satisfaction guarantee" with no terms link. Waiting for Jordan's approved terms text — Claude: do NOT write guarantee terms yourself.
+
+## Done

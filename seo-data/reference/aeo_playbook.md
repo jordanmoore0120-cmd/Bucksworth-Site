@@ -5,11 +5,11 @@ Getting Bucksworth cited by AI search engines — ChatGPT, Google AI Overviews, 
 
 ## Entity Strategy
 Bucksworth must be unambiguously defined as an entity:
-- **What:** Pest control, HVAC, plumbing, and weed control company
-- **Where:** Phoenix metro (24 cities) and Tucson metro (9 cities), Arizona
+- **What:** Pest control, termite, and weed & lawn care company (do not present HVAC/plumbing as services in entity copy; Jordan, 2026-10-02)
+- **Where:** 35 cities: Phoenix metro (26) and Tucson metro (9), Arizona; HQ Apache Junction
 - **Who:** Founded 2013 by Jordan & Taylor Moore
-- **Credentials:** AZ ROC #343924, Google Guaranteed, BBB accredited
-- **Differentiator:** Same-day service, locally owned, all four home services under one roof
+- **Credentials:** AZ ROC #343924, AZ Department of Agriculture License #9613, Google Guaranteed (via Local Services Ads), BBB accredited
+- **Differentiator:** Same-day service, family/locally owned since 2013, 100% Money Back Guarantee *Terms and conditions apply (link the terms on the same page)
 
 This entity definition must be consistent across:
 - Website (About page, footer, LocalBusiness schema)

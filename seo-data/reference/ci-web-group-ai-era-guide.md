@@ -63,6 +63,6 @@ Terms, Privacy Policy, and an **Accessibility Statement** must reflect what the 
 | Headings | One H1 on homepage ✓ |
 | Contact | /contact → /request-service is a real form with labels (9 labels) ✓. No mailto on money pages ✓ |
 | Schema | City pages: LocalBusiness, PestControlService, Service, FAQPage, BreadcrumbList, Review ✓. **No Speakable anywhere ✗** |
-| llms.txt | Exists ✓. **Says 33 cities (site has 35) and leads with AC/plumbing ✗** (entity consistency) |
+| llms.txt | Exists ✓. Now leads with pest/termite + weed and says 35 cities ✓ (live check 2026-10-02). Google says llms.txt is not needed for AI features; keep it accurate, don't invest more in it |
 | Accessibility Statement | **/accessibility → 404 ✗** |
 | Privacy / Terms | Live (200) ✓. Content review still needed |

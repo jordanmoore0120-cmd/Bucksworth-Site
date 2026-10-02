@@ -183,6 +183,10 @@ Every post must hit all of it — a thin post is worse than no post:
 **Every session: do the open items in `seo-data/fix-list.md` FIRST**, before
 picking a new topic, and mark each one done with the commit SHA.
 
+Before writing or changing any page, read `seo-data/reference/ai-search-guidelines.md`; its rules are part of this quality bar.
+
+After the fix-list and the day's post, do the top open item in `seo-data/site-tasks.md` and mark it [x] with the commit SHA.
+
 **Topic selection is data-driven — read `seo-data/STRATEGY.md` first.** Pick the
 next post from `seo-data/blog-queue.json` (real DataForSEO AZ demand), check
 `seo-data/gsc-ranking-map.json` + `content/blog/index.json` for cannibalization,

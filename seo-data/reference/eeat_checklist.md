@@ -10,11 +10,10 @@
 
 ## Expertise Signals
 - [ ] Author attribution: "Jordan Moore, Founder & CEO" on blog posts
-- [ ] AZ ROC license (#343924) on service pages
-- [ ] NATE certification mention for HVAC content
+- [ ] AZ ROC license (#343924) and AZ Dept of Agriculture license (#9613) on pest/weed pages
 - [ ] EPA-approved treatments mention for pest content
 - [ ] Technical accuracy (correct product names, proper terminology)
-- [ ] Specific pricing ranges (not vague "competitive pricing")
+- [ ] Explain cost FACTORS only; never quote prices, ranges, deals or contract terms (Jordan rule)
 
 ## Authoritativeness Signals
 - [ ] Google Guaranteed badge
