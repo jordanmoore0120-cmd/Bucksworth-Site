@@ -1,1 +1,53 @@
-{"note":"Filled by Viktor weekly refresh from GSC per published URL (clicks, impressions, avg position at 7/28/90 days).","posts":[]}
+{
+ "generated": "2026-10-04T18:25:41.322913+00:00",
+ "sources": {
+  "demand": "DataForSEO google_ads search_volume, Arizona,United States",
+  "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
+  "gsc": "Search Console query+page 2026-07-04..2026-10-02"
+ },
+ "note": "GSC 90d results for posts in publish-log.json",
+ "posts": [
+  {
+   "date": "2026-09-30",
+   "slug": "what-do-bed-bugs-look-like-on-a-bed-a-mesa-homeowners-inspection-guide",
+   "city": "mesa-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "bed-bug-treatment",
+   "target_question": "what does bed bugs look like on a bed",
+   "az_volume": 2900,
+   "queue_rank": 1,
+   "money_page_linked": "/mesa-az/pest-and-termite/bed-bug-treatment",
+   "impressions": 0,
+   "clicks": 0,
+   "position": null
+  },
+  {
+   "date": "2026-09-30",
+   "slug": "how-to-get-rid-of-fruit-mosquitoes-a-mesa-homeowners-guide-to-fruit-flies-and-gnats",
+   "city": "mesa-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "mosquito-control",
+   "target_question": "how to get rid of fruit mosquitoes",
+   "az_volume": 2400,
+   "queue_rank": 2,
+   "money_page_linked": "/mesa-az/pest-and-termite/mosquito-control",
+   "impressions": 0,
+   "clicks": 0,
+   "position": null
+  },
+  {
+   "date": "2026-10-02",
+   "slug": "how-to-get-rid-of-fruit-mosquitoes-a-tucson-homeowners-guide-to-fruit-flies-and-drain-flies",
+   "city": "tucson-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "mosquito-control",
+   "target_question": "how to get rid of fruit mosquitoes",
+   "az_volume": 2400,
+   "queue_rank": 5,
+   "money_page_linked": "/tucson-az/pest-and-termite/mosquito-control",
+   "impressions": 0,
+   "clicks": 0,
+   "position": null
+  }
+ ]
+}
