@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Maintained by Viktor's SEO-intel bot. Last full review: **2026-10-02**. Every rule below comes from an
+Maintained by Viktor's SEO-intel bot. Last full review: **2026-10-02**; updated **2026-10-05**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -33,9 +33,22 @@ Helpful content — https://developers.google.com/search/docs/fundamentals/creat
 - DO answer "Who/How/Why": clear author (Jordan Moore byline), how it was made, made to help customers.
 - DON'T write for search engines first: no padding to a word count, no topics outside our expertise,
   no fake "updated" dates (don't change a date without substantial changes).
+- **Main content quality (doc updated 2026-10-02).** Raters judge the main content (text, photos/video,
+  tools, reviews, tabbed sections, titles/headings) on four attributes. Check every page/post against them:
+  - **Effort**: real human work (our job photos, tech observations, local data). Auto-generated pages or
+    bulk AI text "without manual oversight or curation" = little to no effort. Citing sources doesn't replace it.
+  - **Originality**: something not already on other sites. Test: swap "Bucksworth" for a competitor and the
+    city for another city. If the page is still just as true and useful, it's commodity content; add our own facts.
+  - **Talent/skill**: clear writing, real photos, working page tools.
+  - **Accuracy**: pest/termite/chemical-safety claims touch health and home value, so treat them as YMYL:
+    must be accurate and match expert consensus (AZ Dept of Ag, UA Extension). No invented stats.
 
 Generative AI content — https://developers.google.com/search/docs/fundamentals/using-gen-ai-content
-- DO fact-check every AI-drafted claim, title, meta description, alt text and schema field before publishing.
+- DO manually fact-check and review **all** AI-drafted content before publishing: body claims, `<title>`,
+  meta description, alt text and structured data (Google calls this "critical", doc updated 2026-10-02).
+  Generative models predict words; they don't retrieve facts.
+- DO consider a short "how this was made" note where automation was used (e.g. "written with AI assistance,
+  reviewed by our licensed team"), only if it's true.
 - DON'T generate many pages without added value — that is **scaled content abuse**.
 
 Spam policies — https://developers.google.com/search/docs/essentials/spam-policies
@@ -45,8 +58,12 @@ Spam policies — https://developers.google.com/search/docs/essentials/spam-poli
 - DON'T use hidden text/links, keyword stuffing, sneaky redirects, or back-button hijacking
   (https://developers.google.com/search/blog/2026/04/back-button-hijacking).
 - DON'T buy/sell links or run link exchanges; PR/backlinks must be earned.
-- Spam updates: September 2026 spam update started 2026-09-24 and is still rolling out
-  (https://status.search.google.com — Ranking). Don't react to rank swings until it completes.
+- Spam updates: September 2026 spam update started 2026-09-24, second wave ~09-30, still rolling out on
+  2026-10-05 (https://status.search.google.com — Ranking). Don't react to rank swings until it completes.
+  Google (Search Central Live, Oct 2026, via seroundtable.com/google-search-spam-updates-ai-42226.html):
+  **scaled content is now a bigger problem than link spam**, spam is caught with AI, and quality is judged
+  **per page, not per domain**. A template that's useful on 100 pages can be thin on 1,000. For our
+  /{city}-az/{vertical}/{sub} pages, every city page needs city-specific main content, not just the city name.
 
 Structured data — https://developers.google.com/search/docs/appearance/structured-data/sd-policies
 - DO mark up only what users can see on the page; DON'T mark up hidden, misleading or irrelevant content.
@@ -108,7 +125,7 @@ Sources: https://support.claude.com/en/articles/8896518 ; https://support.apple.
 - DO allow `Claude-SearchBot` and `Claude-User` (search visibility). `ClaudeBot` = training only.
 - DO allow `Applebot` (Siri/Spotlight search). `Applebot-Extended` only controls training use.
 
-Robots.txt status (live check 2026-10-02): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
+Robots.txt status (live check 2026-10-05): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
 Claude-SearchBot and Applebot are all allowed (only `/api/` disallowed). **Never add a blanket
 "block AI" rule or CDN setting** — Googlebot/Bingbot/Applebot are mixed-use crawlers and a hard block cuts search too.
 
@@ -124,6 +141,11 @@ Sources: https://support.google.com/google-ads/answer/16297775 ; https://support
 - Advanced Verification (https://support.google.com/adspolicy/answer/7167922): if an ad or landing page
   mentions a **guarantee or warranty, the same page must link to its terms, exclusions and how to claim**.
   Don't claim response times we can't always meet ("arrive in 30 minutes").
+- **Automated promotions (opt-out, starts 2026-10-12):** Google Ads will pull coupons/deals from our website
+  into Search and PMax campaigns with location assets that have no promotion asset. That can put a site deal
+  on an ad we didn't approve, or pair two deals. Keep it OFF: Assets → Account-level automated assets →
+  Advanced settings → turn off Automated Promotions (needs Jordan's OK). Source:
+  https://support.google.com/google-ads/answer/16049135 + seroundtable.com/google-ads-automated-promotions-october-12-42223.html
 
 ## 8. Local Services Ads
 
