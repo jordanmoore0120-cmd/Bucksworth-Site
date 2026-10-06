@@ -30,6 +30,11 @@ If the SHA does not resolve, the work does not exist. Say so plainly and start
 from the actual state of `origin/main`. Never repeat a claim you have not
 checked yourself.
 
+**Then read `seo-data/daily-brief.md`** — Viktor's daily report to you (Jordan's latest
+priorities + yesterday's lead data). It sets today's order of work. Jordan (2026-10-06):
+"make the phone ring" — ranking fixes in `seo-data/site-tasks.md` come before new blog posts.
+Permissions for edits/commits are pre-approved in `.claude/settings.json`; work unattended.
+
 ---
 
 ## 1. Repository authentication and publishing
@@ -185,7 +190,7 @@ picking a new topic, and mark each one done with the commit SHA.
 
 Before writing or changing any page, read `seo-data/reference/ai-search-guidelines.md`; its rules are part of this quality bar.
 
-After the fix-list and the day's post, do the top open item in `seo-data/site-tasks.md` and mark it [x] with the commit SHA.
+After the fix-list, do **at least 3 open items** in `seo-data/site-tasks.md` (in the order the daily brief gives), mark each [x] with the commit SHA, then write the day's post.
 
 **Topic selection is data-driven — read `seo-data/STRATEGY.md` first.** Pick the
 next post from `seo-data/blog-queue.json` (real DataForSEO AZ demand), check

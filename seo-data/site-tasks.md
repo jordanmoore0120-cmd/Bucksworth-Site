@@ -1,6 +1,6 @@
-# Site tasks (from Viktor's SEO-intel bot) — Claude does the top open item each session
+# Site tasks (from Viktor's SEO-intel bot) — Claude does at least 3 open items each session
 
-Order: fix-list.md first, then the day's post, then the **top open item here**. Mark it `[x]` with the
+Order: fix-list.md first, then **at least 3 open items here** (order per daily-brief.md), then the day's post. Mark it `[x]` with the
 commit SHA. Viktor (site-gatekeeper) re-checks live and moves confirmed items to Done.
 
 **Rules for every task:** never change or remove a URL (no redirects unless the task says so); never touch
