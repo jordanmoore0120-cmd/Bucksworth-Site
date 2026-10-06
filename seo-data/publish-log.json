@@ -1,35 +1,46 @@
 [
-  {
-    "date": "2026-09-30",
-    "slug": "what-do-bed-bugs-look-like-on-a-bed-a-mesa-homeowners-inspection-guide",
-    "city": "mesa-az",
-    "vertical": "pest-and-termite",
-    "sub_service": "bed-bug-treatment",
-    "target_question": "what does bed bugs look like on a bed",
-    "az_volume": 2900,
-    "queue_rank": 1,
-    "money_page_linked": "/mesa-az/pest-and-termite/bed-bug-treatment"
-  },
-  {
-    "date": "2026-09-30",
-    "slug": "how-to-get-rid-of-fruit-mosquitoes-a-mesa-homeowners-guide-to-fruit-flies-and-gnats",
-    "city": "mesa-az",
-    "vertical": "pest-and-termite",
-    "sub_service": "mosquito-control",
-    "target_question": "how to get rid of fruit mosquitoes",
-    "az_volume": 2400,
-    "queue_rank": 2,
-    "money_page_linked": "/mesa-az/pest-and-termite/mosquito-control"
-  },
-  {
-    "date": "2026-10-02",
-    "slug": "how-to-get-rid-of-fruit-mosquitoes-a-tucson-homeowners-guide-to-fruit-flies-and-drain-flies",
-    "city": "tucson-az",
-    "vertical": "pest-and-termite",
-    "sub_service": "mosquito-control",
-    "target_question": "how to get rid of drain flies",
-    "az_volume": 390,
-    "queue_rank": 5,
-    "money_page_linked": "/tucson-az/pest-and-termite/mosquito-control"
-  }
+ {
+  "date": "2026-09-30",
+  "slug": "what-do-bed-bugs-look-like-on-a-bed-a-mesa-homeowners-inspection-guide",
+  "city": "mesa-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "bed-bug-treatment",
+  "target_question": "what does bed bugs look like on a bed",
+  "az_volume": 2900,
+  "queue_rank": 1,
+  "money_page_linked": "/mesa-az/pest-and-termite/bed-bug-treatment"
+ },
+ {
+  "date": "2026-09-30",
+  "slug": "how-to-get-rid-of-fruit-mosquitoes-a-mesa-homeowners-guide-to-fruit-flies-and-gnats",
+  "city": "mesa-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "mosquito-control",
+  "target_question": "how to get rid of fruit mosquitoes",
+  "az_volume": 2400,
+  "queue_rank": 2,
+  "money_page_linked": "/mesa-az/pest-and-termite/mosquito-control"
+ },
+ {
+  "date": "2026-10-02",
+  "slug": "how-to-get-rid-of-fruit-mosquitoes-a-tucson-homeowners-guide-to-fruit-flies-and-drain-flies",
+  "city": "tucson-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "mosquito-control",
+  "target_question": "how to get rid of drain flies",
+  "az_volume": 390,
+  "queue_rank": 5,
+  "money_page_linked": "/tucson-az/pest-and-termite/mosquito-control"
+ },
+ {
+  "date": "2026-10-06",
+  "slug": "what-do-termites-look-like-a-mesa-homeowners-identification-guide",
+  "city": "mesa-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "termite-treatment",
+  "target_question": "what do termites look like",
+  "az_volume": 1600,
+  "queue_rank": 1,
+  "money_page_linked": "/mesa-az/pest-and-termite/termite-treatment"
+ }
 ]
