@@ -45,9 +45,10 @@ export async function generateMetadata({ params }: ServiceHubProps): Promise<Met
   if (!city || !service) return {};
 
   const hubOverride = getServiceHubOverride(citySlug, svcSlug);
+  const isPestHub = svcSlug === "pest-and-termite";
   if (hubOverride) {
     return {
-      title: hubOverride.metaTitle,
+      title: isPestHub ? pestHubTitle(city.name) : hubOverride.metaTitle,
       description: hubOverride.metaDescription,
       alternates: { canonical: `https://www.getyourbucksworth.com/${citySlug}/${svcSlug}` },
     };
@@ -59,10 +60,35 @@ export async function generateMetadata({ params }: ServiceHubProps): Promise<Met
     ? `${service.name} in ${city.name}, AZ — headquartered locally at 2073 W Houston Ave. ${service.tagline}. Same-day service, free inspections. Call ${phone}.`
     : `${service.name} in ${city.name}, AZ. ${service.tagline}. Same-day service, free inspections. Call ${phone}.`;
   return {
-    title: `${service.name} in ${city.name}, AZ`,
+    title: isPestHub ? pestHubTitle(city.name) : `${service.name} in ${city.name}, AZ`,
     description: metaDescription,
     alternates: { canonical: `https://www.getyourbucksworth.com/${citySlug}/${svcSlug}` },
   };
+}
+
+/* ─── Pest hub title / H1 / answer-first opener (site-tasks 11 + 12) ─── */
+
+function pestHubTitle(cityName: string) {
+  return `Pest Control in ${cityName}, AZ | Scorpion & Termite`;
+}
+
+const PEST_HUB_OPENERS: Record<string, string> = {
+  "apache-junction-az": "Bucksworth treats scorpions, termites, roaches, ants and rodents for Apache Junction homes, and we are based right here at 2073 W Houston Ave. Bark scorpions and pack rats move downslope from the Superstition Mountains and Lost Dutchman State Park, with activity peaking in the warm months. Call (480) 422-8388 for a free inspection.",
+  "queen-creek-az": "We handle scorpions, termites, ants, roaches and rodents for Queen Creek homes in 85140 and 85142. Homes near Queen Creek Wash, San Tan Mountain Regional Park and Encanterra see bark scorpions most from spring through fall, while termites work underground all year. Call (480) 422-8388 to book a free inspection.",
+  "san-tan-valley-az": "Bucksworth treats scorpions, termites, ants, roaches and rodents across San Tan Valley, including Johnson Ranch, Bella Via and Pecan Creek. Newer homes built on former desert floor near San Tan Mountain Regional Park tend to see bark scorpions first. Call (480) 422-8388 for a free inspection.",
+  "mesa-az": "We treat scorpions, termites, roaches, ants and rodents in every part of Mesa. Las Sendas and Red Mountain sit beside desert preserve and see steady bark scorpion pressure, while older homes in Downtown Mesa call for termite inspections. Call (480) 422-8388 for a free inspection.",
+  "gilbert-az": "Bucksworth handles termites, scorpions, roaches, ants and rodents in Gilbert. Older areas like Cooley Station and former farmland around Higley and Agritopia tend to need termite and rodent attention, while Power Ranch and Seville at the desert edge see scorpions. Call (480) 422-8388 for a free inspection.",
+  "tucson-az": "We treat scorpions, termites, roaches, ants and rodents across Tucson. Older homes in Sam Hughes and Midtown call for termite inspections, while the foothills around Catalina Foothills, Tanque Verde and Rita Ranch see bark scorpions and pack rats. Call (520) 284-9930 for a free inspection.",
+};
+
+function pestHubOpener(citySlug: string, cityName: string, nhoods: Neighborhood[], landmarks: string[], phone: string) {
+  const fixed = PEST_HUB_OPENERS[citySlug];
+  if (fixed) return fixed;
+  const n0 = nhoods[0]?.name;
+  const n1 = nhoods[1]?.name;
+  const areas = n0 && n1 ? `${n0} and ${n1} are among the areas our technicians service most` : `Our technicians service every neighborhood in ${cityName}`;
+  const lm = landmarks[0] ? ` Desert conditions near ${landmarks[0]} keep pests active across the seasons.` : " Desert conditions keep pests active across the seasons.";
+  return `Bucksworth treats scorpions, termites, roaches, ants and rodents for ${cityName} homes. ${areas}.${lm} Call ${phone} for a free inspection.`;
 }
 
 /* ─── Pillar-page content helpers ────────────────────────────── */
@@ -300,8 +326,8 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
           <div className="svc-hub-hero-overlay" />
           <div className="svc-hub-hero-content">
             <p className="city-hero-eyebrow">{city.branch === "phoenix" ? "Phoenix Metro" : "Tucson Metro"} &bull; {city.county} County</p>
-            <h1>{hubOverride?.heroHeadline || <>{service.name} in <span>{city.name}, Arizona</span></>}</h1>
-            <p className="speakable-intro">{hubOverride?.heroDescription || <>{service.tagline}. Bucksworth Home Services provides professional {service.name.toLowerCase()} for homes and businesses throughout {city.name} and the greater {metro} metro area.{city.slug === "apache-junction-az" ? " Headquartered right here in Apache Junction." : ""} Licensed, insured, and Google Guaranteed.</>}</p>
+            <h1>{svcSlug === "pest-and-termite" ? <>Pest Control &amp; Termite Treatment in <span>{`${city.name}, AZ`}</span></> : hubOverride?.heroHeadline || <>{service.name} in <span>{`${city.name}, Arizona`}</span></>}</h1>
+            <p className="speakable-intro">{svcSlug === "pest-and-termite" ? pestHubOpener(citySlug, city.name, nhoods, lmarks, phone) : hubOverride?.heroDescription || <>{service.tagline}. Bucksworth Home Services provides professional {service.name.toLowerCase()} for homes and businesses throughout {city.name} and the greater {metro} metro area.{city.slug === "apache-junction-az" ? " Headquartered right here in Apache Junction." : ""} Licensed, insured, and Google Guaranteed.</>}</p>
             <div className="city-hero-cta" style={{ marginTop: "20px" }}>
               <a href={`tel:${phoneRaw}`} className="btn-call" aria-label={`Call Bucksworth at ${phone}`}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.72 11.72 0 003.66.59 1 1 0 011 1v3.59a1 1 0 01-1 1A17 17 0 013 4.92a1 1 0 011-1h3.59a1 1 0 011 1 11.72 11.72 0 00.59 3.66 1 1 0 01-.24 1.01l-2.2 2.2z" /></svg>
@@ -331,7 +357,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
         ) : (
           <section className="svc-hub-content">
             <div className="svc-hub-content-inner">
-              <h2>{service.name} in {city.name}, Arizona</h2>
+              <h2>{service.name} in {`${city.name}, Arizona`}</h2>
               <p>{service.description}</p>
               <p>{city.description}</p>
               <p>

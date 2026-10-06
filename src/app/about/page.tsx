@@ -213,6 +213,10 @@ export default function AboutPage() {
 
           <h2>Our Service Area</h2>
           <p>
+            Apache Junction is our home base. Our office is at 2073 W Houston Ave, and our East Valley and Pinal County crews start their day here, serving{" "}
+            <Link href="/apache-junction-az/pest-and-termite">pest control in Apache Junction</Link>, Gold Canyon and the Superstition Foothills.
+          </p>
+          <p>
             Bucksworth Home Services covers 33 cities across two Arizona metros:
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px", margin: "16px 0 24px" }}>

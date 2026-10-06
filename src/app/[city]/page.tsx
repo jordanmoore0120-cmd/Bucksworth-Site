@@ -212,7 +212,7 @@ export default async function CityPage({ params }: CityPageProps) {
           </p>
           <h1>
             Home Services in{" "}
-            <span className="orange">{city.name}, Arizona</span>
+            <span className="orange">{`${city.name}, Arizona`}</span>
           </h1>
           <p className="city-hero-desc speakable-intro">{city.description}</p>
           <div className="city-hero-badges">
@@ -249,6 +249,16 @@ export default async function CityPage({ params }: CityPageProps) {
               defaultOpen={i === 0}
             />
           ))}
+          {availableServices.some((svc) => svc.slug === "pest-and-termite") && (
+            <p style={{ textAlign: "center", maxWidth: "700px", margin: "24px auto 0", fontSize: "16px", lineHeight: "1.6" }}>
+              Looking for scorpion, termite, ant or rodent help? See our{" "}
+              <Link href={`/${city.slug}/pest-and-termite`}>pest control in {city.name}</Link>
+              {availableServices.some((svc) => svc.slug === "weed-and-lawn-care") && (
+                <> and our <Link href={`/${city.slug}/weed-and-lawn-care`}>weed control in {city.name}</Link></>
+              )}
+              .
+            </p>
+          )}
         </div>
       </section>
 

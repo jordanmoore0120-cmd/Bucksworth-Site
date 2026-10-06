@@ -191,13 +191,13 @@ export default async function SubServicePage({
       <section className="city-hero">
         <div className="city-hero-inner">
           <p className="city-hero-eyebrow">
-            {city.name}, Arizona &bull; {service.name}
+            {`${city.name}, Arizona`} &bull; {service.name}
           </p>
           <h1>
             {override?.heroHeadline ? (
               <>{override.heroHeadline}</>
             ) : (
-              <><span className="orange">{sub.name}</span> in {city.name}, AZ</>
+              <><span className="orange">{sub.name}</span> in {`${city.name}, AZ`}</>
             )}
           </h1>
           <p className="city-hero-desc speakable-intro">{override?.heroDescription ?? sub.longDesc}</p>
@@ -255,6 +255,21 @@ export default async function SubServicePage({
 
       {/* FAQ */}
       <FAQAccordion faqs={faqs} title={`${sub.name} FAQ - ${city.name}`} />
+
+      {/* Link up to the city service hub (the page that should rank for "{service} {city}") */}
+      {(service.slug === "pest-and-termite" || service.slug === "weed-and-lawn-care") && (
+        <section className="svc-hub-content">
+          <div className="svc-hub-content-inner">
+            <p>
+              {sub.name} is one part of our work here. See everything we do for{" "}
+              <Link href={`/${city.slug}/${service.slug}`}>
+                {service.slug === "pest-and-termite" ? `pest control in ${city.name}` : `weed control in ${city.name}`}
+              </Link>
+              , or call {phone}.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* Related blog posts — internal cross-linking for SEO */}
       <RelatedPosts
