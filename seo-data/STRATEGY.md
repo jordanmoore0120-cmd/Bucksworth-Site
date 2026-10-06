@@ -10,7 +10,7 @@ Model we follow: the **CI Web Group (Jennifer Bagley) agentic-search approach** 
 3. Bucksworth gets cited in AI answers. Content must be extractable: answer-first, specific, local, structured.
 4. Every run learns. Check `seo-data/performance.json` and the rankings files before choosing what to do next.
 
-Focus verticals for the blog: **pest-and-termite** and **weed-and-lawn-care**. No new AC/HVAC/plumbing blog posts unless Jordan asks.
+Focus verticals for the blog: **pest-and-termite** and **weed-and-lawn-care**. AC/HVAC + plumbing: NO paid ads, but DO create organic content (blog, GBP posts, social) for them occasionally — roughly 1 in 6 pieces, not all the time (Jordan, 2026-10-06).
 
 ## 2. Data you MUST use (demand is data, never a guess)
 Viktor refreshes these files every week in `seo-data/`. Read the `generated` stamp in each one. If a file is more than 14 days old, say so in your run summary.
