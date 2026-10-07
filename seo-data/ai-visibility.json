@@ -1,0 +1,1321 @@
+{
+ "date": "2026-10-07",
+ "summary": {
+  "aio_checked": 30,
+  "aio_shown": 19,
+  "aio_cites_us": 2,
+  "gpt_checked": 11,
+  "gpt_mentions_us": 0,
+  "top_cited_domains": [
+   [
+    "www.reddit.com",
+    16
+   ],
+   [
+    "www.youtube.com",
+    10
+   ],
+   [
+    "www.facebook.com",
+    10
+   ],
+   [
+    "www.azpest.com",
+    6
+   ],
+   [
+    "www.actiontermitecontrol.com",
+    4
+   ],
+   [
+    "www.blueskypest.com",
+    3
+   ],
+   [
+    "diypestcontrol.com",
+    3
+   ],
+   [
+    "billstermiteco.com",
+    3
+   ],
+   [
+    "m.yelp.com",
+    2
+   ],
+   [
+    "tucson.com",
+    2
+   ],
+   [
+    "www.terro.com",
+    2
+   ],
+   [
+    "www.domyown.com",
+    2
+   ]
+  ],
+  "cost_usd": 0.425,
+  "errors": 1
+ },
+ "ai_overviews": [
+  {
+   "question": "best pest control company mesa az",
+   "location": "Mesa",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.thumbtack.com",
+     "url": "https://www.thumbtack.com/az/mesa/organic-pest-control-companies",
+     "title": "The 10 Best Organic Pest Control Companies in Mesa, AZ - Thumbtack"
+    }
+   ],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "how much does pest control cost in mesa az",
+   "location": "Mesa",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "pest control apache junction",
+   "location": "Apache Junction",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": false,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "best pest control queen creek az",
+   "location": "Queen Creek",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": false,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "best pest control gilbert az",
+   "location": "Gilbert",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "m.yelp.com",
+     "url": "https://m.yelp.com/search?cflt=pest_control&find_loc=Gilbert%2C+AZ",
+     "title": "THE BEST 10 PEST CONTROL IN GILBERT, AZ - Yelp"
+    },
+    {
+     "domain": "www.blueskypest.com",
+     "url": "https://www.blueskypest.com/locations/pest-control-gilbert-arizona/",
+     "title": "Gilbert AZ Pest Control Company | Termite and Scorpion Control"
+    },
+    {
+     "domain": "www.magicpest.com",
+     "url": "https://www.magicpest.com/",
+     "title": "Pest Control & Exterminator in Phoenix, Gilbert, Chandler AZ"
+    },
+    {
+     "domain": "orangepestaz.com",
+     "url": "https://orangepestaz.com/pest-control-gilbert/",
+     "title": "Pest Control Gilbert, AZ"
+    }
+   ],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "best pest control san tan valley",
+   "location": "San Tan Valley",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": false,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "pest control chandler az",
+   "location": "Chandler",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": false,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "how to get rid of scorpions in arizona",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "diypestcontrol.com",
+     "url": "https://diypestcontrol.com/scorpions.htm?srsltid=AU7gw4UvO5l8i3buFm4vl9CnK2Z8roE-6LFuE72g1iJZazB8yetU-noA",
+     "title": "How to Get Rid of Scorpions - DIY Pest Control"
+    },
+    {
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=aUmdUbzsD4E",
+     "title": "How to Get Rid of and Keep Scorpions Away"
+    },
+    {
+     "domain": "tucson.com",
+     "url": "https://tucson.com/lifestyles/home-and-garden/garden/article_bc531395-82b6-50f1-9ff9-b8fc80355e56.html",
+     "title": "How Can I Get Rid of Scorpions in My Backyard? - Arizona Daily Star"
+    },
+    {
+     "domain": "www.facebook.com",
+     "url": "https://www.facebook.com/groups/1405422780009827/posts/2154597455092352/",
+     "title": "Why scorpions appear around Arizona homes and how to prevent them"
+    },
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/phoenix/comments/g7uw9b/first_scorpion_hunt_of_the_year/",
+     "title": "First scorpion hunt of the year - Phoenix - Reddit"
+    },
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/arizona/comments/iwnpqv/desperate_for_solutions/",
+     "title": "Desperate for solutions. : r/arizona"
+    },
+    {
+     "domain": "www.terro.com",
+     "url": "https://www.terro.com/terro-scorpion-killer-spray-t2102-6?srsltid=AU7gw4VbVGSKIIgBzwzKnMacsdU3gm6ai5eBPhkd_vOKuO9MxYPtVxjT",
+     "title": "TERRO\u00ae Scorpion Killer Spray, 16 oz"
+    }
+   ],
+   "our_organic_rank": 15,
+   "our_organic_url": "https://www.getyourbucksworth.com/mesa-az/pest-and-termite/scorpion-control"
+  },
+  {
+   "question": "does pest control get rid of scorpions",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/arizona/comments/nit8d4/scorpion_season_what_pest_control_works_best_for/",
+     "title": "Scorpion Season - What pest control works best for you? : r/arizona"
+    },
+    {
+     "domain": "www.domyown.com",
+     "url": "https://www.domyown.com/scorpion-pest-control-a-268.html",
+     "title": "How To Get Rid of Scorpions | Scorpion Treatment Guide"
+    },
+    {
+     "domain": "diypestcontrol.com",
+     "url": "https://diypestcontrol.com/scorpions.htm",
+     "title": "How to Get Rid of Scorpions | Best Scorpion Pest Control & DIY Tips"
+    },
+    {
+     "domain": "www.terminix.com",
+     "url": "https://www.terminix.com/pest-control/scorpion-control/",
+     "title": "Scorpion Pest Control: Scorpion Extermination"
+    },
+    {
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=03nCwQol1VI&t=309",
+     "title": "How to Get Rid of Scorpions (4 Easy Steps)"
+    },
+    {
+     "domain": "www.solutionsstores.com",
+     "url": "https://www.solutionsstores.com/scorpion-control",
+     "title": "How To Get Rid of Scorpions | DIY Scorpion Control Products"
+    },
+    {
+     "domain": "www.scorpionalert.com",
+     "url": "https://www.scorpionalert.com/resources/why-traditional-pest-control-often-misses-scorpions",
+     "title": "Why Pest Control Doesn't Work on Scorpions (Often)"
+    },
+    {
+     "domain": "www.quora.com",
+     "url": "https://www.quora.com/Can-you-kill-scorpions-with-liquid-bug-spray",
+     "title": "Can you kill scorpions with liquid bug spray? - Quora"
+    },
+    {
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/shorts/nWc7bevN9zo",
+     "title": "The Quick Guide to Scorpions! [DIY Pest Control]"
+    },
+    {
+     "domain": "www.wikihow.com",
+     "url": "https://www.wikihow.com/Get-Rid-of-Scorpions",
+     "title": "How to Get Rid of Scorpions: 14 Steps (with Pictures)"
+    }
+   ],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "how often should you spray for scorpions in arizona",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=tU30SsU4fKo&t=5",
+     "title": "Learn about a unique way to keep scorpions out of your home for good"
+    },
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/Scorpions/comments/15nzb6x/how_dangerous_are_az_bark_scorpions/",
+     "title": "How dangerous are AZ bark scorpions? - Reddit"
+    },
+    {
+     "domain": "www.facebook.com",
+     "url": "https://www.facebook.com/groups/BNIArizona/posts/2387228317999940/",
+     "title": "Pest control advice for scorpion infestation - Facebook"
+    },
+    {
+     "domain": "www.facebook.com",
+     "url": "https://www.facebook.com/groups/CoolChatInfo/posts/844155582400341/",
+     "title": "Killing scorpions and preventing infestations"
+    },
+    {
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=XgAtHjJvp5I&t=9",
+     "title": "Got scorpions? Find out how to keep them out of your home without ..."
+    },
+    {
+     "domain": "sealoutscorpions.com",
+     "url": "https://sealoutscorpions.com/pest-control/what-about-pest-control/",
+     "title": "What About Pest Control? | Seal Out Scorpions"
+    },
+    {
+     "domain": "www.burnspestelimination.com",
+     "url": "https://www.burnspestelimination.com/blog/2022/july/the-importance-of-summer-pest-control/",
+     "title": "Importance of Summer Pest Control"
+    },
+    {
+     "domain": "www.mosquitosquad.com",
+     "url": "https://www.mosquitosquad.com/blog/other-insects-pests/7-tips-for-getting-rid-of-scorpions/",
+     "title": "Deter Scorpions \u2013 7 Tips for Getting Rid of Scorpions"
+    },
+    {
+     "domain": "budgetbrotherstermite.com",
+     "url": "https://budgetbrotherstermite.com/how-hard-is-it-to-kill-scorpions/",
+     "title": "How hard is it to kill scorpions?"
+    },
+    {
+     "domain": "www.trulynolen.com",
+     "url": "https://www.trulynolen.com/pest-expert-tips/scorpion-prevention-phoenix",
+     "title": "Scorpion Prevention in Phoenix: DIY Tips & Professional Control"
+    }
+   ],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "scorpion control mesa az",
+   "location": "Mesa",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": false,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": 15,
+   "our_organic_url": "https://www.getyourbucksworth.com/buckeye-az/pest-and-termite/scorpion-control"
+  },
+  {
+   "question": "what do termites look like",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.domyown.com",
+     "url": "https://www.domyown.com/termite-identification-guide-a-476.html",
+     "title": "What Do Termites Look Like | Termite Identification Guide"
+    },
+    {
+     "domain": "www.terminix.com",
+     "url": "https://www.terminix.com/termites/identification/",
+     "title": "Termite Identification: What Termites Look Like & Key Traits"
+    },
+    {
+     "domain": "www.smithereen.com",
+     "url": "https://www.smithereen.com/blog/spotting-termites-human-eye/",
+     "title": "Spotting Termites with the Human Eye: What to Look For | Smithereen"
+    },
+    {
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=KAfOv6K9oXM",
+     "title": "What Do Termites Look like?"
+    },
+    {
+     "domain": "www.dodsonbros.com",
+     "url": "https://www.dodsonbros.com/termites/what-does-a-termite-look-like/",
+     "title": "What Does a Termite Look Like? - Dodson Pest Control"
+    },
+    {
+     "domain": "www.walthamservices.com",
+     "url": "https://www.walthamservices.com/blog/pictures-of-termites/",
+     "title": "Pictures of Termites"
+    },
+    {
+     "domain": "www.westernpest.com",
+     "url": "https://www.westernpest.com/blog/termite-pictures/",
+     "title": "Termite Pictures: Photo Gallery with Images - Western Pest Services"
+    },
+    {
+     "domain": "www.masseyservices.com",
+     "url": "https://www.masseyservices.com/what-do-termites-look-like/",
+     "title": "What Do Termites Look Like - Massey Services"
+    },
+    {
+     "domain": "www.orkin.com",
+     "url": "https://www.orkin.com/pests/termites/how-to-identify-termite-activity",
+     "title": "Identify Termites"
+    },
+    {
+     "domain": "www.jcehrlich.com",
+     "url": "https://www.jcehrlich.com/pest-insights/termites/identification",
+     "title": "Termite ID & Damage Signs"
+    }
+   ],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "termite treatment cost arizona",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/phoenix/comments/1gbombp/termite_control_price_and_efficacy/",
+     "title": "Termite Control Price and Efficacy : r/phoenix - Reddit"
+    },
+    {
+     "domain": "www.angi.com",
+     "url": "https://www.angi.com/articles/how-much-does-termite-treatment-cost/az/phoenix",
+     "title": "How Much Does Termite Treatment Cost in Phoenix, AZ?"
+    },
+    {
+     "domain": "www.facebook.com",
+     "url": "https://www.facebook.com/groups/GilbertLiving/posts/3576929842570114/",
+     "title": "What is the cost of termite treatment in Gilbert, Arizona? - Facebook"
+    },
+    {
+     "domain": "www.actiontermitecontrol.com",
+     "url": "https://www.actiontermitecontrol.com/how-much-does-a-termite-treatment-cost/",
+     "title": "How much does a termite treatment cost in Phoenix?"
+    },
+    {
+     "domain": "budgetbrotherstermite.com",
+     "url": "https://budgetbrotherstermite.com/what-does-termite-treatment-cost/",
+     "title": "What does termite treatment cost? - Budget Brothers"
+    },
+    {
+     "domain": "poorboytermite.com",
+     "url": "https://poorboytermite.com/cost-of-termite-treatment-in-arizona/",
+     "title": "Cost Of Termite Treatment In Arizona (Updated For 2025)"
+    },
+    {
+     "domain": "www.actiontermitecontrol.com",
+     "url": "https://www.actiontermitecontrol.com/what-is-the-average-cost-for-termite-treatment-in-arizona/",
+     "title": "What is the average cost for termite treatment in Arizona?"
+    },
+    {
+     "domain": "pestextinct.com",
+     "url": "https://pestextinct.com/mesa-termite-treatment-cost/",
+     "title": "How Much Does Termite Treatment Cost in Mesa, AZ?"
+    },
+    {
+     "domain": "www.azpest.com",
+     "url": "https://www.azpest.com/bug-blog/how-much-does-termite-treatment-cost-in-2026/",
+     "title": "How Much Does Termite Treatment Cost in 2026? - Arizona Pest Control"
+    },
+    {
+     "domain": "azcharged.com",
+     "url": "https://azcharged.com/average-cost-for-pest-control-in-arizona/",
+     "title": "What Is the Average Cost for Pest Control in Arizona?"
+    }
+   ],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "how do i know if i have termites in arizona",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=m7MiN1FU2-8&t=47",
+     "title": "How Do I Know if I Have Termites? Arizona Termites, Termite Tubes"
+    },
+    {
+     "domain": "agriculture.az.gov",
+     "url": "https://agriculture.az.gov/pests-pest-control/termites/homeowner-termite-guidance",
+     "title": "Homeowner Termite Guidance - Arizona Department of Agriculture"
+    },
+    {
+     "domain": "www.azpest.com",
+     "url": "https://www.azpest.com/bug-blog/7-warning-signs-of-termites-in-southern-arizona/",
+     "title": "7 Warning Signs of Termites in Southern Arizona"
+    },
+    {
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=HyvqlQmDbpc&t=4",
+     "title": "Termites in Arizona"
+    },
+    {
+     "domain": "www.blueskypest.com",
+     "url": "https://www.blueskypest.com/blog/three-types-of-arizona-termites/",
+     "title": "Termites in Arizona: The Three Types and How to Identify Them"
+    },
+    {
+     "domain": "billstermiteco.com",
+     "url": "https://billstermiteco.com/signs-of-termites-in-arizona/",
+     "title": "Signs of Termites in Phoenix AZ | What to Look For | Bill's Pest"
+    },
+    {
+     "domain": "moxieservices.com",
+     "url": "https://moxieservices.com/blog/termites-in-arizona/",
+     "title": "Termites In Arizona"
+    },
+    {
+     "domain": "www.facebook.com",
+     "url": "https://www.facebook.com/groups/1172914104053676/posts/1812296950115385/",
+     "title": "How to identify active termite infestations in Arizona homes"
+    },
+    {
+     "domain": "www.azpest.com",
+     "url": "https://www.azpest.com/bug-blog/how-to-spot-the-first-signs-of-termites/",
+     "title": "How to Spot the First Signs of Termites in Tucson (and What to Do ..."
+    },
+    {
+     "domain": "www.actiontermitecontrol.com",
+     "url": "https://www.actiontermitecontrol.com/how-do-you-tell-if-termites-are-active-in-your-phoenix-house/",
+     "title": "How do you tell if termites are active in your Phoenix house?"
+    }
+   ],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "subterranean termites arizona treatment",
+   "location": "Phoenix",
+   "office": "PHX",
+   "error": "{'version': '0.1.20260917', 'status_code': 20000, 'status_message': 'Ok.', 'time': '17.4117 sec.', 'cost': 0.002, 'tasks_count': 1, 'tasks_error': 0, 'tasks': [{'id': '10072324-1906-0139-0000-14772ad1"
+  },
+  {
+   "question": "termite inspection gilbert az",
+   "location": "Gilbert",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": false,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "when to apply pre emergent in arizona",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "adaptivephs.com",
+     "url": "https://adaptivephs.com/pre-emergent-timing-guide-phoenix/",
+     "title": "When to Apply Pre-Emergent in Phoenix: Timing Guide"
+    },
+    {
+     "domain": "titantreeaz.com",
+     "url": "https://titantreeaz.com/blog/pre-emergent-weed-control-faqs-for-phoenix-residents",
+     "title": "Pre-Emergent Weed Control FAQs for Phoenix Residents"
+    },
+    {
+     "domain": "www.soiltemps.com",
+     "url": "https://www.soiltemps.com/phoenix-az/pre-emergent-timing",
+     "title": "When to Apply Pre-Emergent in Phoenix, AZ - Soil Temps"
+    },
+    {
+     "domain": "acis.cals.arizona.edu",
+     "url": "https://acis.cals.arizona.edu/community-ipm/turfgrass/pre-emergence-weed-control-in-lawns",
+     "title": "Pre-emergence Weed Control in Lawns - Turf"
+    },
+    {
+     "domain": "www.horizononline.com",
+     "url": "https://www.horizononline.com/when-to-apply-pre-emergent-herbicide/",
+     "title": "When To Apply Pre-Emergent Herbicide For Optimal Results"
+    },
+    {
+     "domain": "zebrascapes.com",
+     "url": "https://zebrascapes.com/the-professional-edge-why-are-licensed-spray-techs-essential-for-arizona-landscaping/",
+     "title": "Understanding Pre & Post"
+    },
+    {
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=3G86Zhwa65U&t=28",
+     "title": "Stop Wasting Money on Pre-Emergent (You're Probably Applying It Wrong)"
+    }
+   ],
+   "our_organic_rank": 2,
+   "our_organic_url": "https://www.getyourbucksworth.com/marana-az/weed-and-lawn-care"
+  },
+  {
+   "question": "how to get rid of weeds in arizona rock yard",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.facebook.com",
+     "url": "https://www.facebook.com/groups/123250067720449/posts/7044568458921874/",
+     "title": "Weed removal in Arizona rock yard - Facebook"
+    },
+    {
+     "domain": "aamaterialsinc.com",
+     "url": "https://aamaterialsinc.com/how-to-get-rid-of-weeds-in-rocks/",
+     "title": "How To Get Rid Of Weeds In Rocks"
+    },
+    {
+     "domain": "gardeningwithsoule.net",
+     "url": "https://gardeningwithsoule.net/8-tips-to-eliminate-weeds/",
+     "title": "8 Tips to Eliminate Weeds in your Desert Garden -"
+    },
+    {
+     "domain": "www.goodmanslandscape.com",
+     "url": "https://www.goodmanslandscape.com/2013/04/03/how-to-get-rid-of-weeds-in-phoenix-arizona/",
+     "title": "How To Get Rid of Weeds in Phoenix, Arizona"
+    },
+    {
+     "domain": "azgolfhomes.com",
+     "url": "https://azgolfhomes.com/3-tried-and-true-ways-to-get-weeds-out-of-your-yard-before-you-sell-your-home/",
+     "title": "3 Tried-and-True Ways to Get Weeds Out of Your Yard ... - AZ Golf Homes"
+    },
+    {
+     "domain": "www.mdirock.com",
+     "url": "https://www.mdirock.com/resources/how-to-keep-weeds-out-of-your-rock-landscape",
+     "title": "How to Keep Weeds out of Your Rock Landscape"
+    }
+   ],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "weed control queen creek az",
+   "location": "Queen Creek",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "aspireweedcontrol.com",
+     "url": "https://aspireweedcontrol.com/",
+     "title": "Weed Control | Weed Prevention | Gilbert Arizona | Aspire Weed Control"
+    },
+    {
+     "domain": "a-1weedcontrol.com",
+     "url": "https://a-1weedcontrol.com/contact-about-weed-control/",
+     "title": "About Us Weed Control Removal Chandler Gilbert | A-1 Weed Control"
+    },
+    {
+     "domain": "www.facebook.com",
+     "url": "https://www.facebook.com/groups/1339155549552238/posts/4137270216407410/",
+     "title": "Recommended yard service in Queen Creek, AZ? - Facebook"
+    },
+    {
+     "domain": "www.littlejohnslawns.com",
+     "url": "https://www.littlejohnslawns.com/queen-creek/yard-cleanups",
+     "title": "Professional Yard Cleanups In Queen Creek, AZ - Little John's Lawns"
+    },
+    {
+     "domain": "greenkeeperaz.com",
+     "url": "https://greenkeeperaz.com/",
+     "title": "Green Keeper | Gilbert AZ Weed Control | Chandler AZ Weed Control"
+    },
+    {
+     "domain": "m.yelp.com",
+     "url": "https://m.yelp.com/search?find_desc=Lawn+Weed+Removal&find_loc=Queen+Creek%2C+AZ+85142",
+     "title": "Best Lawn Weed Removal near Queen Creek, AZ 85142"
+    },
+    {
+     "domain": "lawnguru.co",
+     "url": "https://lawnguru.co/cities/queen-creek-az/weeding",
+     "title": "Queen Creek's Favorite Weed Pulling Service | LawnGuru"
+    }
+   ],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "how to get rid of roaches in arizona",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/phoenix/comments/1qz0yor/new_to_phoenix_yay_new_to_cockroaches_not_yay/",
+     "title": "new to phoenix (yay!), new to cockroaches (not yay) - Reddit"
+    },
+    {
+     "domain": "acsd-az.gov",
+     "url": "https://acsd-az.gov/cockroaches/",
+     "title": "Cockroaches - Arizona City Sanitary District"
+    },
+    {
+     "domain": "www.blueskypest.com",
+     "url": "https://www.blueskypest.com/blog/sewer-roaches-in-arizona/",
+     "title": "The Sewer Roaches in Arizona Guide: Identifying The Types"
+    },
+    {
+     "domain": "www.facebook.com",
+     "url": "https://www.facebook.com/groups/861513260584920/posts/26759062853736606/",
+     "title": "Non-toxic deterrents for American cockroaches in Arizona homes"
+    },
+    {
+     "domain": "bugweedmart.com",
+     "url": "https://bugweedmart.com/whats-bugging-you/cockroaches-2/",
+     "title": "Cockroach Treatment & Pest Control Nearby | Get Rid Of It In Arizona"
+    },
+    {
+     "domain": "www.westernexterminator.com",
+     "url": "https://www.westernexterminator.com/local-branches/arizona/cockroach-season-phoenix",
+     "title": "Types of Cockroaches in Arizona | Western Exterminator"
+    },
+    {
+     "domain": "www.greenleafpc.com",
+     "url": "https://www.greenleafpc.com/blog/signs-roach-infestation-phoenix",
+     "title": "Signs of A Roach Infestation in Phoenix, Arizona"
+    },
+    {
+     "domain": "alphapestsolutions.com",
+     "url": "https://alphapestsolutions.com/cockroach-control-mesa/",
+     "title": "Cockroach Control in Mesa: How to Eliminate Roaches for Good"
+    },
+    {
+     "domain": "citywidepest.com",
+     "url": "https://citywidepest.com/residential-pest-control/roach-control/",
+     "title": "Cockroach Control Phoenix"
+    },
+    {
+     "domain": "entomology.mgcafe.uky.edu",
+     "url": "https://entomology.mgcafe.uky.edu/ef614",
+     "title": "Cockroach Elimination in Homes and Apartments - Entomology"
+    }
+   ],
+   "our_organic_rank": 11,
+   "our_organic_url": "https://www.getyourbucksworth.com/ahwatukee-az/pest-and-termite/roach-elimination"
+  },
+  {
+   "question": "how to get rid of pack rats in arizona",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.youtube.com",
+     "url": "https://www.youtube.com/watch?v=E964qjp1kDM&t=16",
+     "title": "Arizona Pack Rats in Phoenix"
+    },
+    {
+     "domain": "tucson.com",
+     "url": "https://tucson.com/lifestyles/home-and-garden/article_168eae5f-74b7-5af7-91b3-5963761e6cf4.html",
+     "title": "House questions: Pack rats invade storage shed - Arizona Daily Star"
+    },
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/Tucson/comments/1w6wbws/packrats_are_destroying_my_car_what_can_i_do/",
+     "title": "Packrats are destroying my car. What can I do? - Tucson - Reddit"
+    },
+    {
+     "domain": "billstermiteco.com",
+     "url": "https://billstermiteco.com/types-of-rats-in-arizona/",
+     "title": "Types of Rats in Arizona"
+    },
+    {
+     "domain": "www.irv2.com",
+     "url": "https://www.irv2.com/threads/any-devices-to-keep-mice-and-rats-away.1800025/page-4",
+     "title": "Any devices to keep mice and rats away | Page 4"
+    },
+    {
+     "domain": "www.irv2.com",
+     "url": "https://www.irv2.com/threads/critters-attacking.1615775/",
+     "title": "Critters Attacking! | iRV2 Forums an RV LIFE Community"
+    },
+    {
+     "domain": "www.nwexterminating.com",
+     "url": "https://www.nwexterminating.com/articles/post/pack-rats-in-southern-arizona-identification-risks-and-prevention",
+     "title": "Pack Rats in Southern Arizona: Identification, Risks, and Prevention"
+    },
+    {
+     "domain": "www.fiberglassrv.com",
+     "url": "https://www.fiberglassrv.com/threads/beware-of-packrats.1179574/page-3",
+     "title": "Beware Of PackRats! | Page 3 | Fiberglass RV an RV LIFE Community"
+    },
+    {
+     "domain": "forums.thanoshome.com",
+     "url": "https://forums.thanoshome.com/t/how-to-control-rats-in-dry-areas/5270",
+     "title": "How to Control Rats in Dry Areas? - Thanos Home Forums"
+    },
+    {
+     "domain": "www.houzz.com",
+     "url": "https://www.houzz.com/discussions/2447778/pack-rats-under-my-park-model",
+     "title": "Pack Rats Under My Park Model | Houzz Forum"
+    }
+   ],
+   "our_organic_rank": 11,
+   "our_organic_url": "https://www.getyourbucksworth.com/coolidge-az/pest-and-termite/rodent-exclusion"
+  },
+  {
+   "question": "rodent control san tan valley",
+   "location": "San Tan Valley",
+   "office": "PHX",
+   "cost": 0.0035,
+   "ai_overview": false,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": 16,
+   "our_organic_url": "https://www.getyourbucksworth.com/san-tan-valley-az/pest-and-termite/rodent-exclusion"
+  },
+  {
+   "question": "how to get rid of bark scorpions in house",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": true,
+   "aio_sources": [
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/homeowners/comments/1dy1rdf/scorpions/",
+     "title": "Scorpions? : r/homeowners - Reddit"
+    },
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/phoenix/comments/6xnvh3/scorpions_enough_with_the_damn_scorpions/",
+     "title": "Scorpions. Enough with the damn scorpions. - Phoenix"
+    },
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/phoenix/comments/g7uw9b/first_scorpion_hunt_of_the_year/",
+     "title": "First scorpion hunt of the year - Phoenix - Reddit"
+    },
+    {
+     "domain": "www.getyourbucksworth.com",
+     "url": "https://www.getyourbucksworth.com/blog/how-to-keep-scorpions-out-of-your-tucson-home-near-tucson-mountains",
+     "title": "How to Keep Scorpions Out of Your Tucson Home Near Tucson ..."
+    },
+    {
+     "domain": "billstermiteco.com",
+     "url": "https://billstermiteco.com/how-to-get-rid-of-scorpions/",
+     "title": "How to Get Rid of Scorpions - Bills Pest Termite Control"
+    }
+   ],
+   "our_organic_rank": 6,
+   "our_organic_url": "https://www.getyourbucksworth.com/blog/how-to-keep-scorpions-out-of-your-tucson-home-near-tucson-mountains"
+  },
+  {
+   "question": "is monthly pest control worth it in arizona",
+   "location": "Phoenix",
+   "office": "PHX",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "bettertermite.com",
+     "url": "https://bettertermite.com/how-much-does-pest-control-cost/",
+     "title": "Pest Control Cost: 2026 Plan Prices by Service - Better Termite"
+    },
+    {
+     "domain": "fox-pest.com",
+     "url": "https://fox-pest.com/blog/how-often-do-you-really-need-pest-control/",
+     "title": "How Often Do You Really Need Pest Control?"
+    },
+    {
+     "domain": "www.defenderpest.com",
+     "url": "https://www.defenderpest.com/average-cost-of-pest-control-service-2026-pricing-guide",
+     "title": "Average Cost Of Pest Control Service: 2026 Pricing Guide"
+    },
+    {
+     "domain": "www.actiontermitecontrol.com",
+     "url": "https://www.actiontermitecontrol.com/how-much-does-pest-control-cost-in-phoenix/",
+     "title": "How much does pest control cost in Phoenix?"
+    },
+    {
+     "domain": "greenmagicpest.com",
+     "url": "https://greenmagicpest.com/why-phoenix-area-homes-need-year-round-pest-protection/",
+     "title": "Why Phoenix Area Homes Need Year Round Pest Protection"
+    },
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/phoenix/comments/11hpvuk/its_that_time_of_year_pest_control_suggestions/",
+     "title": "It's that time of year. Pest Control suggestions for Arcadia pls. - Reddit"
+    },
+    {
+     "domain": "www.instagram.com",
+     "url": "https://www.instagram.com/reel/DZKs11gh7tm/",
+     "title": "June is when Arizona pest activity really starts to ramp up \u2600\ufe0f\ud83d\udc1c ..."
+    }
+   ],
+   "our_organic_rank": 14,
+   "our_organic_url": "https://www.getyourbucksworth.com/blog/best-pest-control-oro-valley-smart-prevention-for-local-pests"
+  },
+  {
+   "question": "best pest control tucson",
+   "location": "Tucson",
+   "office": "TUC",
+   "cost": 0.0035,
+   "ai_overview": false,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "pest control tucson cost",
+   "location": "Tucson",
+   "office": "TUC",
+   "cost": 0.0035,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.azpest.com",
+     "url": "https://www.azpest.com/",
+     "title": "Arizona Pest Control | Tucson Pest Control & Termite Control"
+    },
+    {
+     "domain": "www.mytucsonpestcontrol.com",
+     "url": "https://www.mytucsonpestcontrol.com/",
+     "title": "Tucson Pest Control | Pest Control Company in Tucson, AZ"
+    },
+    {
+     "domain": "resultsarizona.com",
+     "url": "https://resultsarizona.com/pricing/",
+     "title": "Pricing - Results Pest & Termite, Bed Bug Control, Bee Exterminator"
+    },
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/Tucson/comments/1pqbsr8/pest_control_recommendations/",
+     "title": "Pest Control Recommendations : r/Tucson - Reddit"
+    },
+    {
+     "domain": "pestextinct.com",
+     "url": "https://pestextinct.com/tucson-az-pest-control/",
+     "title": "How Much Does Pest Control Cost in Tucson, AZ"
+    },
+    {
+     "domain": "gotbugsexterminating.com",
+     "url": "https://gotbugsexterminating.com/pricing/",
+     "title": "Pricing - GotBugs Exterminating Tucson"
+    },
+    {
+     "domain": "bettertermite.com",
+     "url": "https://bettertermite.com/how-much-does-pest-control-cost/",
+     "title": "Pest Control Cost: 2026 Plan Prices by Service - Better Termite"
+    }
+   ],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "how to get rid of scorpions in tucson",
+   "location": "Tucson",
+   "office": "TUC",
+   "cost": 0.004,
+   "ai_overview": true,
+   "aio_cites_us": true,
+   "aio_sources": [
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/arizona/comments/1ogjgy1/scorpion_prevention_advice_requested/",
+     "title": "Scorpion Prevention Advice Requested : r/arizona - Reddit"
+    },
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/ChandlerAZ/comments/1jwqgr1/tell_me_your_best_scorpion_get_rid_of_hacks/",
+     "title": "Tell me your best scorpion get rid of hacks\u2026\u2026\u2026. : r/ChandlerAZ - Reddit"
+    },
+    {
+     "domain": "www.facebook.com",
+     "url": "https://www.facebook.com/ryancomstockrealtorAZ/videos/-monthly-pest-service-for-scorpions-in-tucson-oro-valley-arizona-is-it-worth-itl/1034067109523226/",
+     "title": "\ud83e\udd82 Monthly Pest Service for Scorpions in Tucson & Oro Valley, Arizona \u2013 Is It ..."
+    },
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/phoenix/comments/6xnvh3/scorpions_enough_with_the_damn_scorpions/",
+     "title": "Scorpions. Enough with the damn scorpions. : r/phoenix"
+    },
+    {
+     "domain": "www.facebook.com",
+     "url": "https://www.facebook.com/groups/468327383338352/posts/551409618363461/",
+     "title": "This is what you do when you find scorpions in your garden - Facebook"
+    },
+    {
+     "domain": "diypestcontrol.com",
+     "url": "https://diypestcontrol.com/scorpions.htm?srsltid=AU7gw4VmnVCt1y_eaLTAA6jIDUa6pxzSeoqOoBXMmV6woCtsRh4OdhJ4",
+     "title": "How to Get Rid of Scorpions - DIY Pest Control"
+    },
+    {
+     "domain": "www.greenhomepest.com",
+     "url": "https://www.greenhomepest.com/scorpion-season-in-tucson-when-it-peaks-and-how-to-prepare/",
+     "title": "Scorpion Season in Tucson: Peak Times & Prep Tips"
+    },
+    {
+     "domain": "www.summerwindsnursery.com",
+     "url": "https://www.summerwindsnursery.com/az/inspire/blog/how-to-prevent-scorpions/",
+     "title": "Prevent Scorpions By Managing Your Landscape - SummerWinds Nursery"
+    },
+    {
+     "domain": "www.getyourbucksworth.com",
+     "url": "https://www.getyourbucksworth.com/marana-az/pest-and-termite/scorpion-control",
+     "title": "Scorpion Control Marana AZ"
+    },
+    {
+     "domain": "www.terro.com",
+     "url": "https://www.terro.com/terro-scorpion-killer-spray-t2102-6?srsltid=AU7gw4VmfkBNH3e8GT_Un0lnqCYijs5Q3WKs_J6eTkPjf7RN9Cwdlmih",
+     "title": "TERRO\u00ae Scorpion Killer Spray, 16 oz"
+    }
+   ],
+   "our_organic_rank": 1,
+   "our_organic_url": "https://www.getyourbucksworth.com/blog/best-pest-control-in-tucson-az-professional-scorpion-and-desert-pest-solutions"
+  },
+  {
+   "question": "termite treatment tucson",
+   "location": "Tucson",
+   "office": "TUC",
+   "cost": 0.0055,
+   "ai_overview": true,
+   "aio_cites_us": false,
+   "aio_sources": [
+    {
+     "domain": "www.reddit.com",
+     "url": "https://www.reddit.com/r/Tucson/comments/1pyr67v/termite_pest_control_in_tucson_area/",
+     "title": "Termite pest control in Tucson area. - Reddit"
+    },
+    {
+     "domain": "www.azpest.com",
+     "url": "https://www.azpest.com/",
+     "title": "Arizona Pest Control | Tucson Pest Control & Termite Control"
+    },
+    {
+     "domain": "www.azpest.com",
+     "url": "https://www.azpest.com/tucson-termite-control/",
+     "title": "Tucson Termite Control | Arizona Pest Control | Voted #1 in Tucson"
+    },
+    {
+     "domain": "resultsarizona.com",
+     "url": "https://resultsarizona.com/",
+     "title": "Results Pest & Termite"
+    },
+    {
+     "domain": "www.sherminatorpest.com",
+     "url": "https://www.sherminatorpest.com/services/layout-2/",
+     "title": "Service Prices - Sherminator Termite and Pest Control"
+    }
+   ],
+   "our_organic_rank": 6,
+   "our_organic_url": "https://www.getyourbucksworth.com/blog/best-pest-control-in-tucson-az-professional-scorpion-and-desert-pest-solutions"
+  },
+  {
+   "question": "pest control marana az",
+   "location": "Marana",
+   "office": "TUC",
+   "cost": 0.0035,
+   "ai_overview": false,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  },
+  {
+   "question": "pest control oro valley",
+   "location": "Oro Valley",
+   "office": "TUC",
+   "cost": 0.0035,
+   "ai_overview": false,
+   "aio_cites_us": false,
+   "aio_sources": [],
+   "our_organic_rank": null,
+   "our_organic_url": null
+  }
+ ],
+ "chatgpt": [
+  {
+   "prompt": "Who is the best pest control company in Mesa, Arizona?",
+   "office": "PHX",
+   "cost": 0.02724,
+   "mentions_us": false,
+   "businesses_named": [
+    "T2 Pest Services",
+    "Crandell Pest Control",
+    "Bulwark Exterminating",
+    "Property Pest Control",
+    "Patriotic Pest Solutions",
+    "Pest Free AZ"
+   ],
+   "sources": [
+    "https://t2pest.com/",
+    "https://crandellpest.com/",
+    "https://www.bulwarkpestcontrol.com/locations/mesa/?utm_medium=organic&loc=mesa&utm_source=openai",
+    "https://propertypest.com/",
+    "https://patrioticpest.com/",
+    "https://www.pestfreeaz.com/"
+   ]
+  },
+  {
+   "prompt": "Recommend a pest control company in Queen Creek AZ for scorpions",
+   "office": "PHX",
+   "cost": 0.027178,
+   "mentions_us": false,
+   "businesses_named": [
+    "Three Suns Pest Control",
+    "ProStrike Pest Solutions",
+    "Richardson Pest Management",
+    "Fusion Pest Control",
+    "Stomp Pest Control",
+    "Redline Pest Control",
+    "GreenGo Pest Control"
+   ],
+   "sources": [
+    "https://threesunspest.com/",
+    "http://www.prostrikepest.com/",
+    "http://richardsonpestmanagement.com/",
+    "https://fusionpestcontrolaz.com/",
+    "https://stomppestcontrolaz.com/",
+    "https://redline-pest.com/",
+    "https://greengopest.com/"
+   ]
+  },
+  {
+   "prompt": "Best pest control company in Apache Junction AZ?",
+   "office": "PHX",
+   "cost": 0.027102,
+   "mentions_us": false,
+   "businesses_named": [
+    "Orkin",
+    "ACTION Termite & Pest Control",
+    "PureHome Pest Control and Scorpion Services",
+    "T2 Pest Services"
+   ],
+   "sources": [
+    "https://www.orkin.com/locations/arizona-az/gilbert-pest-control/branch-881?utm_medium=local&utm_campaign=LCL0320&utm_source=openai",
+    "http://actiontermitecontrol.com/mesa/?utm_medium=organic&utm_campaign=mesa&utm_source=openai",
+    "https://purehomepestcontrolphx.com/",
+    "https://t2pest.com/"
+   ]
+  },
+  {
+   "prompt": "Who should I call for termite treatment in Gilbert, Arizona?",
+   "office": "PHX",
+   "cost": 0.027144,
+   "mentions_us": false,
+   "businesses_named": [
+    "SOS Exterminating",
+    "Platinum Pest Management",
+    "Firehouse Pest Control Services",
+    "The Termite Division",
+    "Terminix"
+   ],
+   "sources": [
+    "https://www.sostermites.com/?utm_medium=gbp&utm_campaign=gilbert&utm_source=openai",
+    "https://platinumpestaz.com/",
+    "https://firehousepest.com/?utm_medium=local&utm_campaign=gmb_profile&utm_source=openai",
+    "https://thetermitedivision.com/",
+    "https://www.terminix.com/exterminators/az/gilbert-2227/?utm_medium=organic&utm_campaign=local&utm_term=gilbert&utm_source=openai"
+   ]
+  },
+  {
+   "prompt": "Best scorpion control company in the East Valley Phoenix area?",
+   "office": "PHX",
+   "cost": 0.027129,
+   "mentions_us": false,
+   "businesses_named": [
+    "Redline Pest Control",
+    "Desert Castle Pest Control",
+    "XTERMIN Pest Control",
+    "Simply Green Pest Control",
+    "Grim Reaper Pest Control"
+   ],
+   "sources": [
+    "https://redline-pest.com/",
+    "https://www.desertcastlepestcontrol.com/",
+    "http://www.xtermin.com/",
+    "https://www.simplygreenpest.com/",
+    "https://www.grimreaperpestcontrol.com/"
+   ]
+  },
+  {
+   "prompt": "Who does weed control and pre-emergent in San Tan Valley AZ?",
+   "office": "PHX",
+   "cost": 0.027163,
+   "mentions_us": false,
+   "businesses_named": [
+    "Spartan Pest Control",
+    "Elite Pest, Weed & Termite",
+    "Aspire Weed Control",
+    "C4 Weed Control",
+    "A-1 Weed Control",
+    "Defense Pest Control",
+    "Three Suns Pest Control"
+   ],
+   "sources": [
+    "https://spartanpestllc.com/",
+    "https://www.elitepestandtermiteaz.com/",
+    "https://aspireweedcontrol.com/",
+    "https://c4weedcontrol.com/contact/",
+    "http://a-1weedcontrol.com/contact-about-weed-control/",
+    "https://www.defensepestcontrol.com/",
+    "https://threesunspest.com/"
+   ]
+  },
+  {
+   "prompt": "Best pest control company in Chandler AZ?",
+   "office": "PHX",
+   "cost": 0.027216,
+   "mentions_us": false,
+   "businesses_named": [
+    "Truly Nolen of Chandler",
+    "Green Magic Pest Control",
+    "Insectek Pest Solutions",
+    "Simply Green Pest Control",
+    "Figz Pest Control",
+    "PureHome Pest Control",
+    "Redline Pest Control",
+    "Beadle Bug Patrol"
+   ],
+   "sources": [
+    "https://www.google.com/maps/search/Truly+Nolen+of+Chandler%2C+Chandler%2C+AZ",
+    "https://www.google.com/maps/search/Green+Magic+Pest+Control%2C+Chandler%2C+AZ",
+    "https://www.google.com/maps/search/Insectek+Pest+Solutions%2C+Chandler%2C+AZ",
+    "https://www.google.com/maps/search/Simply+Green+Pest+Control%2C+Chandler%2C+AZ",
+    "https://www.google.com/maps/search/Figz+Pest+Control%2C+Chandler%2C+AZ",
+    "https://www.google.com/maps/search/PureHome+Pest+Control%2C+Chandler%2C+AZ",
+    "https://www.google.com/maps/search/Redline+Pest+Control%2C+Chandler%2C+AZ",
+    "https://www.google.com/maps/search/Beadle+Bug+Patrol%2C+Chandler%2C+AZ"
+   ]
+  },
+  {
+   "prompt": "Best pest control company in Phoenix AZ with good reviews?",
+   "office": "PHX",
+   "cost": 0.027221,
+   "mentions_us": false,
+   "businesses_named": [
+    "Blue Sky Pest Control",
+    "Greenway Pest Solutions",
+    "Insectek Pest Solutions",
+    "Moxie Pest Control",
+    "Bulwark Exterminating"
+   ],
+   "sources": [
+    "https://www.blueskypest.com/locations/blue-sky-pest-control-phoenix-arizona/?utm_medium=gbp&utm_campaign=phoenix&utm_source=openai",
+    "https://greenwaypestaz.com/",
+    "https://www.insectekpest.com/",
+    "https://www.moxieservices.com/locations/phoenix/",
+    "https://bulwarkpestcontrol.com/locations/phoenix/?utm_medium=organic&loc=phoenix&utm_source=openai"
+   ]
+  },
+  {
+   "prompt": "Who is the best pest control company in Tucson, Arizona?",
+   "office": "TUC",
+   "cost": 0.027147,
+   "mentions_us": false,
+   "businesses_named": [
+    "Perez Pest Solutions",
+    "Rigo Pest Prevention",
+    "1st Choice Termite & Pest",
+    "Arizona Pest Control",
+    "Oncore Pest Services"
+   ],
+   "sources": [
+    "http://www.perezpest.com/",
+    "https://www.rigopest.com/?utm_medium=organic&utm_campaign=gbp-tucson-az&utm_source=openai",
+    "https://firstchoicetucson.com/",
+    "https://www.azpest.com/",
+    "http://oncorepest.com/"
+   ]
+  },
+  {
+   "prompt": "Recommend a termite company in Tucson AZ",
+   "office": "TUC",
+   "cost": 0.027097,
+   "mentions_us": false,
+   "businesses_named": [
+    "1st Choice Termite & Pest",
+    "Fletchers Termite Control & Home Inspections",
+    "Rigo Pest Prevention",
+    "Arizona Pest Control"
+   ],
+   "sources": [
+    "https://firstchoicetucson.com/",
+    "https://www.fletcherstermite.com/",
+    "https://www.rigopest.com/?utm_medium=organic&utm_campaign=gbp-tucson-az&utm_source=openai",
+    "https://www.azpest.com/"
+   ]
+  },
+  {
+   "prompt": "Best pest control in Marana or Oro Valley AZ?",
+   "office": "TUC",
+   "cost": 0.0271291,
+   "mentions_us": false,
+   "businesses_named": [
+    "1st Choice Termite & Pest",
+    "Terminix",
+    "Results Pest & Termite, Bed Bug Control, & Bee Exterminator",
+    "Colt's Pest Defense",
+    "Arizona Pest Control"
+   ],
+   "sources": [
+    "https://firstchoicetucson.com/",
+    "https://www.terminix.com/exterminators/az/tucson-2061/?utm_medium=organic&utm_campaign=local&utm_term=tucson&utm_source=openai",
+    "https://resultsarizona.com/",
+    "https://coltspestdefense.com/",
+    "https://www.azpest.com/"
+   ]
+  }
+ ]
+}
