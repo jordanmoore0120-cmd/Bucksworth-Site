@@ -402,7 +402,7 @@ export default async function CityPage({ params }: CityPageProps) {
             We hold Arizona ROC License #343924 and AG License #9613. We are Google Guaranteed, meaning Google has independently verified our business licenses, insurance coverage, and employee background checks. Every technician is fully licensed, insured, and undergoes ongoing training to stay current with the latest techniques, materials, and industry best practices.
           </p>
           <p>
-            Ready to protect your {city.name} home? Call us today at {phone} or use our online estimator. Free inspections, same-day service, no contracts, no gimmicks, no bait-and-switch. Just honest, expert home services from your Arizona neighbors.
+            Ready to protect your {city.name} home? Call us today at {phone} or use our online estimator. Free inspections, same-day service, a 100% Money Back Guarantee *Terms and conditions apply, no gimmicks, no bait-and-switch. Just honest, expert home services from your Arizona neighbors.
           </p>
         </div>
       </section>

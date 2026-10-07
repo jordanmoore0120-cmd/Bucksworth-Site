@@ -76,7 +76,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         paragraphs: [
           "Our Goodyear weed control plans are designed for the local climate and landscape types. Quarterly pre-emergent service for gravel yards starts at competitive rates and includes four seasonal applications plus unlimited callback treatments if weeds appear between visits. For homes with both gravel and turf areas, our comprehensive weed and lawn care plan covers everything — pre-emergent prevention, post-emergent treatment, fertilization, and seasonal overseeding guidance.",
           "Bundle and save: Goodyear homeowners who combine pest control and weed control into our Pest + Weed package typically save 20–30% compared to hiring separate companies. One company, one technician who knows your property, one service visit that covers your entire yard — inside and out. That's the Bucksworth advantage that over 2,000 Arizona families have chosen.",
-          "No contracts required. We earn your business every visit. If you're not satisfied with any treatment in Goodyear, we come back and re-treat at no additional charge. Call (480) 422-8388 for pricing or request a free online estimate.",
+          "We earn your business every visit, backed by our 100% Money Back Guarantee *Terms and conditions apply. If you're not satisfied with any treatment in Goodyear, we come back and re-treat at no additional charge. Call (480) 422-8388 for pricing or request a free online estimate.",
         ],
       },
     ],
@@ -143,7 +143,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         heading: "Bundle Weed & Pest Control in Surprise — One Company, One Visit",
         paragraphs: [
           "Most Surprise homeowners need both pest control and weed control. Instead of hiring two separate companies — with two separate schedules, two trucks in your driveway, and two invoices — Bucksworth handles both in a single service visit. Our Pest + Weed package combines perimeter pest treatment (scorpions, ants, roaches, spiders) with weed control (pre-emergent plus targeted post-emergent) at a bundled rate that saves 20–30% compared to separate services.",
-          "One technician who knows your Surprise property, your specific weed and pest challenges, and your landscape — that's the Bucksworth advantage. Over 2,000 Arizona families have chosen Bucksworth for integrated home protection, and our 4.9-star rating with nearly 2,000 Google reviews speaks to the quality of our work. No contracts required. Call (480) 422-8388 to get started.",
+          "One technician who knows your Surprise property, your specific weed and pest challenges, and your landscape — that's the Bucksworth advantage. Over 2,000 Arizona families have chosen Bucksworth for integrated home protection, and our 4.9-star rating with nearly 2,000 Google reviews speaks to the quality of our work. Backed by our 100% Money Back Guarantee *Terms and conditions apply. Call (480) 422-8388 to get started.",
         ],
       },
     ],
@@ -208,7 +208,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         heading: "Pest + Weed Bundles for Peoria — Save Time and Money",
         paragraphs: [
           "Most Peoria homeowners need both pest control (scorpions, ants, roaches, spiders) and weed control. Bucksworth's Pest + Weed bundle combines both services into a single monthly visit, saving 20–30% compared to hiring separate pest and weed companies. One truck, one technician who knows your specific property, one invoice — and a yard that's pest-free and weed-free.",
-          "Over 2,000 Arizona families trust Bucksworth for integrated home protection, and our 4.9-star Google rating with nearly 2,000 reviews reflects the quality our Peoria customers experience. No long-term contracts. No high-pressure sales. Just honest, effective service from a family-owned company that treats your home like it's our Gigi's. Call (480) 422-8388 to schedule your free assessment.",
+          "Over 2,000 Arizona families trust Bucksworth for integrated home protection, and our 4.9-star Google rating with nearly 2,000 reviews reflects the quality our Peoria customers experience. No high-pressure sales, backed by our 100% Money Back Guarantee *Terms and conditions apply. Just honest, effective service from a family-owned company that treats your home like it's our Gigi's. Call (480) 422-8388 to schedule your free assessment.",
         ],
       },
     ],
@@ -504,7 +504,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         paragraphs: [
           "Our Gilbert weed control plans match the city's diverse landscape needs. The Quarterly Rock Yard Plan includes two pre-emergent applications plus two post-emergent cleanups per year — ideal for standard gravel yards under 5,000 sq ft. The Monthly Protection Plan adds monthly spot treatments and unlimited callbacks for breakthrough weeds — recommended for desert-edge properties in Power Ranch, Seville, and Higley. The Turf + Rock Combo covers both lawn and gravel areas with integrated treatment.",
           "Bundle and save: Gilbert homeowners who add pest control to their weed plan save 20–30% compared to hiring separate companies. One company, one technician who knows your property, one visit that handles the entire yard inside and out. Over 2,000 Arizona families have chosen the Bucksworth bundle.",
-          "No contracts. No commitments. We earn your business every visit. Unsatisfied with any treatment? We re-treat at no charge. Call (480) 422-8388 for a free Gilbert yard assessment and custom pricing.",
+          "We earn your business every visit, backed by our 100% Money Back Guarantee *Terms and conditions apply. Unsatisfied with any treatment? We re-treat at no charge. Call (480) 422-8388 for a free Gilbert yard assessment and custom pricing.",
         ],
       },
     ],
@@ -572,7 +572,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         paragraphs: [
           "Bucksworth offers plans scaled to Mesa's diverse property types. Our Quarterly Rock Yard Plan provides two pre-emergent barriers plus two post-emergent cleanups per year — suitable for standard rock yards under 5,000 sq ft in Superstition Springs, Eastmark, and central Mesa. Our Monthly Protection Plan adds monthly spot treatments, monsoon booster applications, and unlimited callbacks — recommended for desert-edge properties in Red Mountain, Las Sendas, and East Mesa. Our Large Lot Plan serves Mesa properties over 10,000 sq ft with adjusted application rates and competitive per-square-foot pricing.",
           "Bundle and save: Mesa homeowners who combine pest control and weed control into our Pest + Weed package save 20–30% compared to hiring separate companies. One technician, one visit, full property coverage inside and out. Over 2,000 Arizona families trust Bucksworth.",
-          "No contracts required. We earn your business every service visit. If you're not satisfied with any weed treatment, we come back and re-treat at no additional charge. Call (480) 422-8388 for a free Mesa yard assessment and pricing.",
+          "We earn your business every service visit, backed by our 100% Money Back Guarantee *Terms and conditions apply. If you're not satisfied with any weed treatment, we come back and re-treat at no additional charge. Call (480) 422-8388 for a free Mesa yard assessment and pricing.",
         ],
       },
     ],
@@ -640,7 +640,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         paragraphs: [
           "Bucksworth offers tiered plans for Scottsdale's diverse property types. Our Standard Plan provides quarterly pre-emergent barriers and post-emergent treatment — ideal for central Scottsdale homes with standard rock yards. Our Premium Plan adds monthly monitoring, desert-preserve perimeter defense, and unlimited callbacks — designed for North Scottsdale properties near the McDowell Sonoran Preserve. Our Estate Plan serves large-lot properties (10,000+ sq ft) in DC Ranch, Grayhawk, and Troon with comprehensive coverage including the Desert Stewardship Protocol.",
           "Bundle and save: Scottsdale homeowners who combine pest control and weed control save 20–30% compared to separate services. One company, one technician who learns your property's unique landscape, one visit that covers everything. Over 2,000 Arizona families trust Bucksworth.",
-          "No contracts. Premium service without long-term commitments. If any treatment doesn't meet your expectations, we return and re-treat at no charge. Call (480) 422-8388 for a free Scottsdale assessment and personalized pricing.",
+          "Premium service backed by our 100% Money Back Guarantee *Terms and conditions apply. If any treatment doesn't meet your expectations, we return and re-treat at no charge. Call (480) 422-8388 for a free Scottsdale assessment and personalized pricing.",
         ],
       },
     ],
@@ -766,7 +766,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         paragraphs: [
           "Bucksworth offers plans tailored to Tucson's unique weed calendar. Our Standard Plan provides three pre-emergent applications (fall, spring, monsoon) plus post-emergent treatment at each visit — designed for typical Tucson rock yards under 5,000 square feet. Our Premium Plan adds monthly monitoring visits and unlimited callbacks between scheduled treatments — ideal for properties near desert preserves, washes, or HOA communities with zero-tolerance weed policies. Our Foothills Plan serves premium properties in the Catalina Foothills and Tanque Verde areas with the Desert Stewardship Protocol for landscape-sensitive treatment.",
           "Bundle and save: Tucson homeowners who combine pest control and weed control into our Pest + Weed package save 20–30% versus hiring separate companies. One company, one technician who knows your property, one visit that handles everything inside and out. Over 2,000 Arizona families trust Bucksworth.",
-          "No contracts required. We earn your business every visit. Unsatisfied with any treatment? We return and re-treat at no charge. Call (520) 284-9930 for a free Tucson yard assessment and personalized pricing.",
+          "We earn your business every visit, backed by our 100% Money Back Guarantee *Terms and conditions apply. Unsatisfied with any treatment? We return and re-treat at no charge. Call (520) 284-9930 for a free Tucson yard assessment and personalized pricing.",
         ],
       },
     ],
@@ -831,7 +831,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         paragraphs: [
           "Our Sahuarita plans are designed for the community's diverse property types. Standard Plan provides three pre-emergent applications plus post-emergent treatment — ideal for established rock yards in Rancho Sahuarita and Madera Highlands. New Construction Plan provides monthly service for the first year, transitioning to quarterly — built for Las Campanas and other new builds where initial weed pressure is extreme. Premium Plan adds monthly monitoring and unlimited callbacks — designed for Quail Creek and properties with HOA compliance requirements.",
           "Bundle and save: Sahuarita homeowners who combine pest control and weed control save 20–30% versus hiring separate companies. One company, one technician, one visit that covers your entire property. Over 2,000 Arizona families trust Bucksworth.",
-          "No contracts required. We earn your business every visit. Call (520) 284-9930 for a free Sahuarita yard assessment and personalized pricing.",
+          "We earn your business every visit, backed by our 100% Money Back Guarantee *Terms and conditions apply. Call (520) 284-9930 for a free Sahuarita yard assessment and personalized pricing.",
         ],
       },
     ],
@@ -895,7 +895,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
         paragraphs: [
           "Bucksworth offers plans designed for Green Valley's community character. Our Standard Plan provides three pre-emergent applications (fall, spring, monsoon) plus post-emergent treatment — ideal for typical GVR-community rock yards. Our Snowbird Plan includes standard treatment plus vacancy monitoring and photo updates while you're away — ensuring HOA compliance year-round. Our Golf-Adjacent Plan adds bermuda defense protocols for properties bordering Green Valley's golf courses.",
           "Bundle and save: Green Valley homeowners who combine pest control and weed control save 20–30% versus hiring separate companies. One company, one technician, one visit. Over 2,000 Arizona families trust Bucksworth for complete home services.",
-          "No contracts required. We earn your business every visit. Unsatisfied with any treatment? We return and re-treat at no charge. Call (520) 284-9930 for a free Green Valley yard assessment and personalized pricing.",
+          "We earn your business every visit, backed by our 100% Money Back Guarantee *Terms and conditions apply. Unsatisfied with any treatment? We return and re-treat at no charge. Call (520) 284-9930 for a free Green Valley yard assessment and personalized pricing.",
         ],
       },
     ],

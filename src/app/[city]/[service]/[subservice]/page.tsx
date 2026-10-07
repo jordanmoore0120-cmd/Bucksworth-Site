@@ -13,6 +13,7 @@ import {
   getSubServiceBySlug,
 } from "@/lib/services";
 import { getNeighborhoods } from "@/lib/neighborhoods";
+import { nearestCities, anchorFor } from "@/lib/nearest-cities";
 import { getContentOverride } from "@/lib/content-overrides";
 import CityBar from "@/components/CityBar";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -266,6 +267,15 @@ export default async function SubServicePage({
                 {service.slug === "pest-and-termite" ? `pest control in ${city.name}` : `weed control in ${city.name}`}
               </Link>
               , or call {phone}.
+            </p>
+            <p>
+              Close by, we also handle{" "}
+              {nearestCities(city, 3).map((c, i, arr) => (
+                <span key={c.slug}>
+                  <Link href={`/${c.slug}/${service.slug}/${sub.slug}`}>{anchorFor(service.slug, sub.slug, c.name)}</Link>
+                  {i < arr.length - 2 ? ", " : i === arr.length - 2 ? ", and " : "."}
+                </span>
+              ))}
             </p>
           </div>
         </section>

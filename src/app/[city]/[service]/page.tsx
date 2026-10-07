@@ -19,6 +19,7 @@ import ReviewsSection from "@/components/ReviewsSection";
 import { aggregateRating, tagForService } from "@/lib/reviews";
 import { getRelatedBlogPostsForServiceHub } from "@/lib/blog-links";
 import { getServiceHubOverride } from "@/lib/service-hub-overrides";
+import { nearestCities, anchorFor } from "@/lib/nearest-cities";
 
 interface ServiceHubProps {
   params: Promise<{ city: string; service: string }>;
@@ -191,7 +192,7 @@ function getWhyChooseContent(svcSlug: string, cityName: string, branch: string, 
       { heading: "EPA-Approved Products Only", detail: `We use only EPA-registered products applied by licensed professionals across ${cityName}. Our treatments are safe for children, pets, and the environment when applied as directed. We follow all Integrated Pest Management (IPM) principles to minimize chemical use while maximizing effectiveness in neighborhoods like ${n0} and ${n1}.` },
       { heading: "Satisfaction Guarantee", detail: `If pests return between your regular service visits in ${n0}, ${n1}, or anywhere in ${cityName}, we come back and retreat at no additional charge. Period. We stand behind our work because our reputation in the ${metro} community depends on your referrals.` },
       { heading: `Free Inspections for ${cityName} Homeowners`, detail: `Every new pest control customer in ${cityName} receives a thorough, no-obligation inspection. Whether you are in ${n0} or ${n1}, our technician will identify current pest activity, potential entry points, conducive conditions, and customized treatment recommendations — before you spend a dime.` },
-      { heading: "Transparent Pricing, No Hidden Fees", detail: `You will know exactly what your service costs before we begin anywhere in ${cityName}. No surprise charges, no high-pressure upsells, no bait-and-switch pricing. Our pest and termite plans start at affordable monthly rates with no long-term contracts required.` },
+      { heading: "Transparent Pricing, No Hidden Fees", detail: `You will know exactly what your service costs before we begin anywhere in ${cityName}. No surprise charges, no high-pressure upsells, no bait-and-switch pricing. Our pest and termite plans start at affordable monthly rates, backed by our 100% Money Back Guarantee *Terms and conditions apply.` },
     ],
     "air-conditioning-and-heating": [
       { heading: "AZ ROC Licensed HVAC Contractor", detail: `Bucksworth Home Services holds AZ ROC License #343924 for HVAC installation and repair throughout ${cityName}. Our technicians are NATE-certified and factory-trained on Daikin, Trane, Carrier, Lennox, Goodman, and all major brands serving ${n0} through ${n1}.` },
@@ -515,6 +516,45 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
 
         {/* ── FAQ ── */}
         <FAQAccordion faqs={localFaqs} title={`${service.name} FAQ — ${city.name}, AZ`} />
+
+        {/* ── LOCAL CROSS-LINKS (descriptive anchors: sibling hub, key sub-services, nearest cities) ── */}
+        {(service.slug === "pest-and-termite" || service.slug === "weed-and-lawn-care") && (
+          <section className="svc-hub-content">
+            <div className="svc-hub-content-inner">
+              <h2>{service.slug === "pest-and-termite" ? "Pest Control" : "Weed Control"} Near {city.name}</h2>
+              <p>
+                {service.slug === "pest-and-termite" ? (
+                  <>
+                    Most {city.name} calls are for{" "}
+                    <Link href={`/${city.slug}/pest-and-termite/termite-treatment`}>{anchorFor(service.slug, "termite-treatment", city.name)}</Link>,{" "}
+                    <Link href={`/${city.slug}/pest-and-termite/scorpion-control`}>{anchorFor(service.slug, "scorpion-control", city.name)}</Link> and{" "}
+                    <Link href={`/${city.slug}/pest-and-termite/roach-elimination`}>{anchorFor(service.slug, "roach-elimination", city.name)}</Link>.{" "}
+                    Yard weeds feed pests too, so we also handle{" "}
+                    <Link href={`/${city.slug}/weed-and-lawn-care`}>{anchorFor("weed-and-lawn-care", null, city.name)}</Link>.
+                  </>
+                ) : (
+                  <>
+                    Most {city.name} yards need{" "}
+                    <Link href={`/${city.slug}/weed-and-lawn-care/pre-emergent-weed-control`}>{anchorFor(service.slug, "pre-emergent-weed-control", city.name)}</Link>{" "}
+                    before the season starts and{" "}
+                    <Link href={`/${city.slug}/weed-and-lawn-care/post-emergent-weed-treatment`}>{anchorFor(service.slug, "post-emergent-weed-treatment", city.name)}</Link>{" "}
+                    once weeds break through. The same technician can also handle{" "}
+                    <Link href={`/${city.slug}/pest-and-termite`}>{anchorFor("pest-and-termite", null, city.name)}</Link>.
+                  </>
+                )}
+              </p>
+              <p>
+                We also serve nearby homeowners with{" "}
+                {nearestCities(city, 4).map((c, i, arr) => (
+                  <span key={c.slug}>
+                    <Link href={`/${c.slug}/${service.slug}`}>{anchorFor(service.slug, null, c.name)}</Link>
+                    {i < arr.length - 2 ? ", " : i === arr.length - 2 ? ", and " : "."}
+                  </span>
+                ))}
+              </p>
+            </div>
+          </section>
+        )}
 
         {/* ── NEARBY CITIES ── */}
         <section className="nearby-section">
