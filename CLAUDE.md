@@ -35,6 +35,10 @@ priorities + yesterday's lead data). It sets today's order of work. Jordan (2026
 "make the phone ring" — ranking fixes in `seo-data/site-tasks.md` come before new blog posts.
 Permissions for edits/commits are pre-approved in `.claude/settings.json`; work unattended.
 
+**Skills:** `.claude/skills/` holds Bucksworth's marketing skills (rules, Google Ads/LSA, GBP,
+Search Console/GA4, DataForSEO, local SEO, AEO/GEO, PR, social, Meta + ads methodologies).
+Read `bucksworth-rules` before any customer-facing copy or any change to an external system.
+
 ---
 
 ## 1. Repository authentication and publishing

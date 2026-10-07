@@ -1,0 +1,90 @@
+# Bucksworth Google Ads toolkit config — created 2026-09-23 by Viktor from verified account facts.
+# Assumptions flagged with "ASSUMED" — confirm/refine once 2-3 weeks of tracked data exists.
+agency:
+  name: Bucksworth in-house (Viktor + Jordan Moore)
+  slug: bucksworth-inhouse
+  mcc_id: null   # never pass login_customer_id; stray MCC 2773844850 (Muzz-era) still ACTIVE 2026-09-25 10AM; Muzz user login removed [gaql, 2026-09-25]
+
+accounts:
+  - name: Bucksworth Home Services
+    slug: bucksworth
+    cid: "4486379637"
+    currency: USD
+    timezone: America/Phoenix
+    business_model: local
+    maturity_level: nascent   # new East Valley build 2026-09-23; site conversion tag not yet live
+    monthly_conversion_volume: 0   # ASSUMED — GBP local actions inflate reported conversions; real tracked leads unknown
+    status: active
+    has_offline_conversions: false
+    has_gbp: true
+    has_merchant_center: false
+    has_youtube_campaigns: false
+    has_demand_gen_campaigns: false
+    campaign_types_active: [search, lsa]
+    primary_kpi: cpl
+    primary_kpi_target: 75   # ASSUMED from LSA ~$74 CPL baseline; true north = cost per booked customer (ACV $588)
+    secondary_kpi: cost_per_booked_customer
+    secondary_kpi_target: 185   # ASSUMED 40% close; replace with FieldRoutes/VFP actual
+    flag_thresholds:
+      critical: 1.5
+      warning: 1.2
+    campaign_naming_convention: "BW | <Service> | <Geo>"   # ad groups "<Service> - <City|Pest|Theme>"
+    special_handling_notes: >
+      Spend cap $6K-$8K/mo TOTAL incl. LSA while learning (search $150/day + LSA ~$800/wk).
+      Pest, weed, termite ONLY — never AC/HVAC/plumbing keywords, ads, or landing pages.
+      Weed = hyper-aggressive priority. Geo = East Valley/Pinal (AJ, Gold Canyon, STV, Florence, QC, Mesa 85212/85209, Gilbert, Chandler).
+      Jordan approves every write, landing page, hook and offer. Never count builder termite renewals as sales.
+    conversion_actions:
+      - {name: "BW - Website click-to-call", classification: primary, include_in_maturity: true, include_in_reporting: true, value: none, count: one}
+      - {name: "Request Service form (7692423296)", classification: primary, include_in_maturity: true, include_in_reporting: true, value: none, count: one}
+      - {name: "Calls from ads", classification: primary, include_in_maturity: true, include_in_reporting: true, value: none, count: one}
+      - {name: "GBP local actions (7173267538, 7178242551, 7185219265, 7468696756)", classification: micro, include_in_maturity: false, include_in_reporting: false, value: none, count: every}   # currently PRIMARY in account — Jordan to demote in UI
+    has_utm_tracking: true
+    utm_enforcement: recommended
+
+brand_terms:
+  global_protected: [bucksworth, bucks worth, get your bucksworth]
+  per_account:
+    bucksworth:
+      brand_terms: [bucksworth, bucksworth pest control, bucksworth home services]
+      competitor_terms: [greenleaf, action termite, green mango, responsible pest, blue sky pest, orange pest, aptive, spartan, all clear, arizona pest]
+
+negative_signals:
+  universal:
+    - {term: "ac repair", reason: "no AC/HVAC ads", match_type: phrase}
+    - {term: "hvac", reason: "no AC/HVAC ads", match_type: phrase}
+    - {term: "plumb", reason: "no plumbing ads", match_type: phrase}
+    - {term: "diy", reason: "not a buyer", match_type: phrase}
+    - {term: "jobs", reason: "job seekers", match_type: phrase}
+  per_account:
+    bucksworth: []   # 213 live negatives on all 5 campaigns: temp/ev/negs.json lineage; source of truth = account
+
+local_config:
+  bucksworth:
+    locations:
+      - name: Phoenix office (Apache Junction)
+        address: 2073 W Houston Ave Ste 101, Apache Junction, AZ 85120
+        gbp_id: locations/7629168100716232539
+        radius_miles: 25
+        service_area: true
+        timezone: America/Phoenix
+        operating_hours: {weekday: "ASSUMED 7-6", saturday: "ASSUMED", sunday: "closed"}
+        campaign_separation: true
+        tourism_relevant: false
+        feeder_markets: [Gold Canyon, San Tan Valley, Florence, Queen Creek, Mesa, Gilbert, Chandler]
+    offline_conversion_source: call_tracking   # Voice for Pest + FieldRoutes (manual match for now)
+    lsa_active: true
+
+reporting:
+  period: mon_sun
+  comparison_method: prior_period
+  output_path: "#bucksworth-digital (C0B5WFWFE92)"
+  include_cross_account_summary: false
+
+data_source:
+  method: mcp
+  mcp_server_name: google_ads (sdk.tools.mcp_google_ads)
+  login_customer_id: null
+
+merchant_center: {available: false, method: none}
+ga4: {available: true, method: mcp, mcp_server_name: google_analytics}
