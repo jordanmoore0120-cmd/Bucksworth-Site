@@ -4,10 +4,11 @@ Owner: Jordan Moore. Built 2026-10-07 on Jordan's order: *"All marketing, all ad
 all SEO, all GMB — all of it should be agentic"*, modeled on CI Web Group's Hydra OS
 (knowledge base + central brain + a coordinated network of specialist agents).
 
-**Claude runs this machine. Viktor is not in the loop.** Viktor does not set priorities, write
-tasks, or supply SEO opinions. Claude pulls its own data (Zapier MCP), decides, ships, verifies
-and reports. The only things Viktor still supplies are things Claude can't reach: FieldRoutes lead
-facts and Jordan's Slack directives (in `seo-data/daily-brief.md`). Those are facts, not instructions.
+**Claude runs this machine and teaches itself. Viktor is not in the loop.** No one feeds it data, tasks or
+opinions. Claude pulls its own data (Zapier MCP), decides, ships, verifies, measures the result, and
+rewrites its own playbooks from what worked (§8). Jordan's directives come straight from Jordan (Slack via
+Zapier if connected, or the routine prompt). Viktor's old `seo-data/` files and `daily-brief.md` are legacy
+and will stop once the agents' own pulls are proven. Don't depend on them.
 
 Goal: Bucksworth ranks top 3 in the map pack, on page 1 and is cited by AI search
 (Google AI Overviews/AI Mode, ChatGPT, Perplexity, Copilot, Claude) for every profitable
@@ -98,3 +99,23 @@ the Claude agent has run its job cleanly for 2 weeks **and Jordan approves**.
 | competitor-monitor, map-pack-attack, ws-grid-bot, local-seo-whitespark | competitor / intel |
 | central-brain | director + knowledge |
 | Stays with Viktor (Claude can't reach FieldRoutes/phones): LSA lead entry, lead/sales reporting, Buck Bot, time tracking | — |
+
+## 8. Self-learning loop (the machine improves itself; no one feeds it)
+
+1. **Every change is an experiment.** When an agent ships something that should move a metric (new or improved page,
+   schema, GBP post type, internal links, a link won, an ad change), it adds an entry to `ops/state/experiments.json`:
+   id, agent, URL/asset, what changed, hypothesis, metric (GSC position/clicks, calls, AI citation, map-pack rank),
+   baseline value, check dates (+14d, +28d).
+2. **intel scores them.** On each check date it pulls the metric live and records the result: win, flat or loss.
+3. **Weekly retro (director, Monday).** Read the scored experiments and write `ops/state/learnings.md`: what moved
+   rankings, calls and citations, what didn't, and why. Then **edit the playbooks themselves**: the owning
+   `.claude/agents/*.md` and `.claude/skills/*`. Promote what wins, ban what loses, and note each edit with a dated line.
+   This is how the agents get better every week without a human writing their instructions.
+4. **Every bug becomes a check.** A problem found twice gets an automated check the same day (in `scripts/url-guard.mjs`,
+   a new script, or an `intel` anomaly rule), so it can't recur silently.
+5. **Self-sourced knowledge.** `ai-visibility` (Mon/Wed/Fri) re-reads the official AI-search guidelines, and `knowledge`
+   (Friday) refreshes JustAI / CI Web Group / Whitespark / Sterling Sky best practices into `knowledge/`. Rules that change go into the skills.
+6. **Grow the team.** When the director sees a recurring job with no owner, it writes a new agent in
+   `.claude/agents/` (same format, one domain, guardrails), adds it to §2 and the routines, and logs it.
+7. **Monthly self-audit.** Compare this setup to Hydra OS / CI Web Group's current public features and the
+   JustAI material. Every gap becomes a board task.

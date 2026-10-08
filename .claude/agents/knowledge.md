@@ -18,4 +18,6 @@ description: Yoda. Owns the knowledge/ base (business facts, services, prices, r
 - State business facts only from `knowledge/` and the live data. If a fact isn't there, don't invent it.
 - When done, append to `ops/state/run-log.md`: date, agent, task id, what changed, commit SHA, live proof.
   Close tasks with evidence. Open new tasks for other agents when you find their problems.
+- If your change should move a metric, add it to `ops/state/experiments.json` (baseline + check dates).
+  When the retro shows a better way, update this file. You own your playbook.
 - Nothing is done until it's verified live.

@@ -37,9 +37,10 @@ If the SHA does not resolve, the work does not exist. Say so plainly and start
 from the actual state of `origin/main`. Never repeat a claim you have not
 checked yourself.
 
-**Then read `seo-data/daily-brief.md`**: only Jordan's own Slack words and FieldRoutes lead facts,
-which you can't reach yourself. Viktor does not feed you SEO data, tasks or opinions, and does not set your
-priorities. You decide from live data, `knowledge/` and Jordan's words. Jordan's goal (2026-10-07): digital
+**Nobody feeds you.** You are self-serving: pull live data yourself, decide, ship, measure and rewrite your
+own playbooks (`ops/DIGITAL-OS.md` §8). Read Jordan's directives straight from Slack (#bucksworth-digital and
+his messages) through Zapier if that connector exists. `seo-data/daily-brief.md` and Viktor's `seo-data/` files are
+legacy, retiring soon, and never a reason to wait. Jordan's goal (2026-10-07): digital
 content that RANKS and DRIVES PHONE CALLS, built on real search intent, with zero cannibalization.
 
 **Session-start checks (every run, before planning):**
@@ -307,7 +308,7 @@ components, CSS or `/lp/*`.
 | `seo-data/migration-history.md` | WP→Next.js migration timeline + work-backwards repair sequence |
 | `seo-data/wp-legacy-urls.json` / `backlinks-recovery.json` | Every old WP URL + live status; backlink history/lost links |
 | `ops/DIGITAL-OS.md` | Architecture of the agentic machine: layers, agents, loop, routines, human gates, bot handover |
-| `ops/state/board.json` · `signals.json` · `run-log.md` | Shared brain: task board, latest signals, every agent action with SHA + live proof |
+| `ops/state/board.json` · `signals.json` · `run-log.md` · `experiments.json` · `learnings.md` | Shared brain: tasks, signals, actions with proof, experiments, and the lessons that rewrite the playbooks |
 | `ops/routines/*.md` | Routine prompts (Morning / Midday / Evening) |
 | `.claude/agents/` | director + 10 specialist agents |
 | `.claude/skills/page-identity` | Rule #1: never make an existing page look new |
