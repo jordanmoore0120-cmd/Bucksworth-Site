@@ -1,61 +1,37 @@
-# Daily brief from Viktor → Claude — Wed 2026-10-07
+# Daily data feed (Viktor → Claude): Thu 2026-10-08
 
-Viktor writes this every morning (≈5:30am AZ). **Read it before anything else.** It has Jordan's current
-priorities and yesterday's real lead data. If it conflicts with an older file, this brief wins. CLAUDE.md rules
-and site-tasks.md rules still apply.
+**Facts only. You set your own priorities from CLAUDE.md and STRATEGY.md.**
+This file is legacy (see ops/DIGITAL-OS.md), so don't wait on it. Pulled 2026-10-08 05:35 AZ.
 
-## Jordan's word today (#bucksworth-digital, 10/6)
-- "make the phone ring. that should be job of you and claude." / "Claude is to eventually replace all your work flows."
-- "it should be making optimized changes to the site agentically… following aio, aeo, geo, Google and all ai search
-  tools and engines best practices." All of it has to be verified live.
-- "we advertise ac and plumbing organically… we should be creating content for it too just not all the time."
-  That means organic AC/plumbing content at about 1 in 6 pieces, and never as a paid ad (STRATEGY.md, 541ef22).
-- His standing rule: NEVER "no contract". That's site-task 17 (P0) below.
+## Jordan's words (#bucksworth-digital, last 24h, with threads)
+- No new messages written by Jordan. The one message from his account (10/7 09:18 AZ) is your own run summary ("Sent using Claude").
+- His 10/7 evening directives exist only as the commits on main listed below (3e61df3, 3bdff6d, 3646714, 0a27d02, d3c0c66).
 
-## What Claude did yesterday (10/6, first daily-routine run). All live, verified 200
-- `2b0b6b8`: fix-list cleared. The Tucson fruit-fly post was re-angled to drain flies; slug unchanged.
-- `bbaba5c`: site-tasks 11, 12, 1, 2, 3 and 6 done; 4, 5, 7 and 8 partial. Pest hub title/H1 changed, the
-  answer-first opener added, and hub links added. **6 site-tasks done, which meets the ≥3 target.**
-- `82b106b`: blog post "What Do Termites Look Like? A Mesa Homeowner's Identification Guide".
-- Gaps: no Lighthouse before/after was run, so Viktor's gatekeeper re-measures. Tasks 4 and 7 named 4 blog slugs that
-  don't exist. That was Viktor's data error; always check slugs against content/blog/index.json before linking.
+## Claude's commits since the last brief (2fb1bab, 10/7 12:33Z)
+- `bee9ed8` (10/7 16:15Z) site-tasks 17,7,4,5,9 + blog: remove 'no contract' wording (37 hits), nearest-city + sub-service descriptive cross-links on pest/weed hubs and sub pages, Gold Canyon scorpion blog -> AJ; blog: how to remove a wasp nest (Tempe)
+- `0e0330e` (10/7 16:15Z) site-tasks: mark 17,7,4,5,9 done (bee9ed8)
+- Other commits on main (author jordanmoore0120-cmd): 446cfe5, 820da78, e2c2a1b, 8634575, 977eb06, d3c0c66, 0a27d02, 3646714, 3bdff6d, 3e61df3.
 
-## Today's order (minimum 3 site-tasks before the blog post)
-1. `fix-list.md`: nothing open.
-2. **site-task 17 (P0): remove "no long-term contracts".** Replace that clause with "backed by our 100% Money Back
-   Guarantee *Terms and conditions apply." Grep the templates and content/blog/*.json for every hit, and report the
-   count in the commit. Do NOT touch the "$79/month" on the weed hub. Prices are Jordan's call, and he hasn't
-   decided yet. Just list where it appears in your Slack summary.
-3. **Finish 7 (weed control Queen Creek).** It fell out of the top 20, and weed/lawn leads are strong (see the demand
-   section). Add the nearby-city blocks and sub-service cross-links, and report whether it's in the sitemap and
-   self-canonical.
-4. **Finish 4 (scorpion control Mesa) and 5 (Gilbert pest/termite).** Leads are coming from Mesa ZIPs 85203,
-   85204, 85212 and 85213 and Gilbert 85234/85298. Make "termite control gilbert" (#5) link up with "termite
-   control in Gilbert". For the Gold Canyon scorpion blog, change its link to /apache-junction-az/pest-and-termite/
-   scorpion-control: Gold Canyon (85118) is next to Apache Junction, not Mesa. You flagged this one.
-5. **Then 9** (termite/roach anchors from every pest hub; termite is our top LSA lead type), then 8 and 13.
-6. **One blog post:** take the top blog-queue.json item not already in publish-log.json. Pest, termite and weed only
-   (an occasional AC/plumbing post is fine, about 1 in 6, but not today). Link it up to the matching striking-distance hub.
-Mark each task `[x]` with its SHA. URLs, tracking tags, prices and guarantee text stay as they are. Run Lighthouse if you can.
+## Leads yesterday, Wed 10/7 (Google Ads API, account 4486379637)
+- **LSA: 8 leads, all 8 charged.** $404.97 spend, 39 clicks.
+  - Lawn care: 6 (4 calls with no sub-service, plus weed control ×2: 1 call, 1 message)
+  - Pest control: 2 (mosquitoes ×1 message, rodents ×1 message)
+- **Search:** BW | Pest | Pinal + QC + SE Mesa: $31.26, 3 clicks, 0 conversions. No other Search campaign had impressions.
+- **ZIPs** (Ads geographic_view = searcher location, not job address. The API attributes a ZIP to only 4 of the 8 leads):
+  10/7: 85042, 85201, 85340, 85396.
+  10/1–10/7: 85120 ×3; 85028, 85212, 85339 ×2 each; 1 each: 85014, 85027, 85042, 85118, 85132, 85142, 85201,
+  85203, 85204, 85213, 85234, 85248, 85266, 85281, 85288, 85298, 85338, 85340, 85396.
 
-## Yesterday's demand (Google Ads API, account 4486379637, pulled 10/7 05:30 AZ)
-- **LSA 10/6: 5 leads, all charged.** Weed control ×2 (1 call, 1 message), lawn care ×1 (call), termite ×1
-  (message), general pest ×1 (call). Weed/lawn is 3 of 5. On 10/5 there were 9 charged leads, 5 of them termite.
-- **Search 10/6:** none. It only runs Wed–Fri 8–11am, and Termite Search plus the Rodents group were paused 10/6.
-- **Where leads came from** (Ads geo report, searcher location, not job address). 10/6: 85120 Apache Junction,
-  85118 Gold Canyon, 85142 Queen Creek, 85028 N Phoenix, 85288. Last 7 days: 85120 AJ ×4; 85212 SE Mesa ×2;
-  85339 Laveen ×2; 85028 ×2; then one each in Mesa 85203/85204/85213, Gilbert 85234/85298, Chandler 85248,
-  QC 85142, Florence 85132, Gold Canyon, Tempe, Scottsdale and Goodyear.
-- **Takeaway:** the East Valley and Pinal (AJ, Mesa, QC, Gilbert) bring the calls. Weed, lawn and termite are the hot services.
+## Data files and dates
+- seo-data/rankings.json: generated 2026-10-04 18:25Z (commit 68a7986). Not re-pulled.
+- seo-data/striking-distance.json: generated 2026-10-04 18:25Z (commit 68a7986). Not re-pulled.
+- seo-data/ai-visibility.json: last commit 2026-10-07 23:25Z (446cfe5).
 
-## Rankings (rankings.json + striking-distance.json, data from 2026-10-04, 3 days old, not re-pulled)
-- Not in the top 30: pest control mesa (880/mo), chandler (480), queen creek (320), maricopa (260), casa grande (260).
-- Close: rodent control san tan valley #15, rodent mesa #22, rodent chandler #21, pest control STV #24 (city page).
-- GSC striking distance: AJ pest hub at 20.3 (2,678 impr.), Mesa weed at 16.4, Gilbert scorpion at 18.3,
-  Marana pest at 16.7, and Tucson pest at 24.7 (7,692 impr.). Point new links at these.
+## URL guard (`node scripts/url-guard.mjs prod`, 10/8 05:40 AZ)
+- 6,510 URLs checked. 57 are not 200, and all 57 were already known broken (url-baseline.json). **0 new breaks.** fix-list.md unchanged.
 
-## Accountability
-Your 9:00am AZ routine runs daily now. Viktor's gatekeeper checks your commits live at 10:30am. If a run produces
-no commit or fewer than 3 site-tasks, Viktor tags Jordan the same morning. If you're blocked (permissions, auth,
-build, or the usage limit), write the reason on the first line of `seo-data/claude-status.md` and commit it.
-Don't stop silently.
+## Connector health
+- Daily routine: it ran 10/7. The commits landed 16:15Z (09:15 AZ). seo-data/claude-status.md doesn't exist, so no blocker has been reported.
+- Digital OS Morning/Midday/Evening routines: per Jordan's 10/7 Slack, setup is waiting on him being at a computer
+  (or approving an email-code sign-in). Not confirmed live.
+- Zapier apps: Viktor has no current test result. Your 10/7 summary said "Slack and Zapier GBP/Ads live pulls were not done this run."
