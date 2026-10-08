@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-05**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-08**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -58,8 +58,11 @@ Spam policies — https://developers.google.com/search/docs/essentials/spam-poli
 - DON'T use hidden text/links, keyword stuffing, sneaky redirects, or back-button hijacking
   (https://developers.google.com/search/blog/2026/04/back-button-hijacking).
 - DON'T buy/sell links or run link exchanges; PR/backlinks must be earned.
-- Spam updates: September 2026 spam update started 2026-09-24, second wave ~09-30, still rolling out on
-  2026-10-05 (https://status.search.google.com — Ranking). Don't react to rank swings until it completes.
+- Spam updates: September 2026 spam update ran 2026-09-24 → **completed 2026-10-08** (13 days 16 h;
+  https://developers.google.com/search/updates/ranking). Compare ranks from 2026-10-08 onward against the
+  pre-update baseline, not mid-rollout swings. SEOs report more manual actions since Sept (thin, pure spam,
+  scaled content), mostly on long-standing businesses (seroundtable.com/google-search-manual-action-spike-42258.html);
+  check Search Console → Manual actions when rankings drop.
   Google (Search Central Live, Oct 2026, via seroundtable.com/google-search-spam-updates-ai-42226.html):
   **scaled content is now a bigger problem than link spam**, spam is caught with AI, and quality is judged
   **per page, not per domain**. A template that's useful on 100 pages can be thin on 1,000. For our
@@ -161,3 +164,8 @@ updated 2026-07-31) ; https://support.google.com/google-ads/answer/17213585 (rea
   reports do not carry over. Name/address then sync one-way from GBP; a name/address change triggers a
   24–48h verification review during which the campaign can pause.
 - Missed calls: business-hours calls that ring >20 s unanswered are billable from 2026-10-01.
+- After migration (read 2026-10-08): the weekly budget becomes a **daily average budget**; monthly spend
+  can reach daily average × 30.4 (factor this into the $10K cap). Past leads, messages and call recordings
+  carry over; campaign performance reports do NOT (a download page is "coming soon", else screenshot first).
+  A change to GBP business name, storefront address or **primary category** triggers a 24–48 h review that
+  can pause the campaign. The new lead-email toggle opts all users in by default.
