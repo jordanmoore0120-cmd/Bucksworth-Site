@@ -505,7 +505,7 @@ function buildFaqs(
     },
     {
       q: `What ${cityName} neighborhoods does Bucksworth serve for ${svc}?`,
-      a: `We serve every neighborhood and zip code in ${cityName} as well as surrounding ${branch} metro communities — 33 cities total. Whether you are right in town or in a nearby area, our technicians are typically 30 minutes or less from your door.`,
+      a: `We serve every neighborhood and zip code in ${cityName} as well as surrounding ${branch} metro communities — 35 cities total. Whether you are right in town or in a nearby area, our technicians are typically 30 minutes or less from your door.`,
     },
     {
       q: `Do I need to be home for ${svc} service in ${cityName}?`,

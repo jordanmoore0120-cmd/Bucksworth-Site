@@ -24,18 +24,16 @@ export const metadata: Metadata = {
     template: "%s | Bucksworth Home Services",
   },
   description:
-    "Family-owned pest control, AC repair, plumbing & weed control serving 33 cities in Phoenix & Tucson AZ since 2013. Google Guaranteed. AZ ROC #343924. Call (480) 422-8388.",
+    "Family-owned pest control, termite and weed & lawn care company serving 35 cities in Phoenix & Tucson AZ since 2013. Google Guaranteed. AZ ROC #343924. Call (480) 422-8388.",
   keywords: [
     "pest control Phoenix",
     "pest control near me",
-    "AC repair Phoenix",
-    "plumbing Phoenix",
     "weed control Phoenix",
     "termite treatment Arizona",
-    "HVAC Tucson",
+    "pest control Tucson",
     "scorpion control Phoenix",
-    "air conditioning repair near me",
-    "plumber near me Phoenix",
+    "lawn care Arizona",
+    "weed control Tucson",
     "Bucksworth Home Services",
   ],
   openGraph: {
@@ -46,13 +44,13 @@ export const metadata: Metadata = {
     title:
       "Pest Control, HVAC & Plumbing | Bucksworth Home Services",
     description:
-      "Family-owned pest control, AC, plumbing & weed control serving 33 cities in Phoenix & Tucson AZ since 2013. Google Guaranteed.",
+      "Family-owned pest control, termite and weed & lawn care serving 35 cities in Phoenix & Tucson AZ since 2013. Google Guaranteed.",
     images: [
       {
         url: "/images/og-default.jpg",
         width: 1200,
         height: 630,
-        alt: "Bucksworth Home Services — Pest Control, HVAC, Plumbing & Weed Control in Arizona",
+        alt: "Bucksworth Home Services — Pest Control, Termite & Weed Control in Arizona",
       },
     ],
   },
@@ -60,7 +58,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bucksworth Home Services",
     description:
-      "Pest control, AC, plumbing & weed control in Phoenix & Tucson AZ. Family-owned since 2013.",
+      "Pest control, termite & weed control in Phoenix & Tucson AZ. Family-owned since 2013.",
     images: ["/images/og-default.jpg"],
   },
   robots: {
@@ -80,7 +78,7 @@ export const metadata: Metadata = {
   },
 };
 
-/* ── All 33 service area cities ── */
+/* ── All 35 service area cities ── */
 const ALL_CITIES = [
   "Phoenix","Scottsdale","Tempe","Mesa","Chandler","Gilbert","Glendale",
   "Peoria","Surprise","Goodyear","Buckeye","Avondale","Litchfield Park",
@@ -101,7 +99,7 @@ const orgSchema = {
   logo: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
   image: "https://getyourbucksworth.com/images/bucksworth-mascot-clean.jpg",
   description:
-    "Bucksworth Home Services is a family-owned home services company founded in 2013 by Jordan and Taylor Moore. We provide pest control, termite treatment, air conditioning repair and installation, plumbing, water heater services, and weed control across 33 cities in the Phoenix and Tucson metro areas of Arizona. We are Google Guaranteed, licensed by the Arizona Registrar of Contractors (ROC #343924) and the Arizona Department of Agriculture (License #9613).",
+    "Bucksworth Home Services is a family-owned home services company founded in 2013 by Jordan and Taylor Moore. We provide pest control, termite treatment, and weed and lawn care across 35 cities in the Phoenix and Tucson metro areas of Arizona. We are Google Guaranteed, licensed by the Arizona Registrar of Contractors (ROC #343924) and the Arizona Department of Agriculture (License #9613).",
   foundingDate: "2013",
   founder: [
     { "@type": "Person", name: "Jordan Moore", jobTitle: "Co-Founder & CEO" },
@@ -203,7 +201,7 @@ const websiteSchema = {
   name: "Bucksworth Home Services",
   url: "https://getyourbucksworth.com",
   description:
-    "Bucksworth Home Services provides pest control, HVAC, plumbing, and weed control across 33 cities in Phoenix and Tucson, Arizona.",
+    "Bucksworth Home Services provides pest control, termite, and weed and lawn care across 35 cities in Phoenix and Tucson, Arizona.",
   publisher: { "@id": "https://getyourbucksworth.com/#organization" },
   inLanguage: "en-US",
   potentialAction: {

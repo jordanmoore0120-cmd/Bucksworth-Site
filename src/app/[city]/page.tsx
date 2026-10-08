@@ -78,7 +78,7 @@ export default async function CityPage({ params }: CityPageProps) {
       q: `What home services does Bucksworth offer in ${city.name}?`,
       a:
         city.branch === "phoenix"
-          ? `In ${city.name}, we offer comprehensive pest & termite control, HVAC/air conditioning repair and installation, plumbing services, insulation, and weed control. All services include free inspections and same-day availability across all ${city.name} zip codes: ${city.zipCodes.join(", ")}.`
+          ? `In ${city.name}, we offer pest & termite control and weed & lawn care. All services include free inspections and same-day availability across all ${city.name} zip codes: ${city.zipCodes.join(", ")}.`
           : `In ${city.name}, we provide expert pest & termite control and weed control services. Both include free inspections and same-day availability across zip codes ${city.zipCodes.join(", ")}. Call ${phone} to schedule.`,
     },
     {

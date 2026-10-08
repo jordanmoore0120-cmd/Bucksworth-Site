@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Request Service | Bucksworth Home Services",
     description:
-      "Get a free estimate for pest control, HVAC, plumbing, or weed control. Serving 33 cities in Phoenix & Tucson AZ.",
+      "Get a free estimate for pest control, termite, or weed and lawn care. Serving 35 cities in Phoenix & Tucson AZ.",
   },
 };
 

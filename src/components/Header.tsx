@@ -203,7 +203,7 @@ export default function Header() {
         <div className="container">
           <span className="util-badge">&#10003; Google Guaranteed</span>
           <span className="util-text">
-            Serving 33 Cities Across Phoenix &amp; Tucson
+            Serving 35 Cities Across Phoenix &amp; Tucson
           </span>
           <div className="util-right">
             <span className="util-lic">AZ ROC #343924</span>
@@ -326,7 +326,7 @@ export default function Header() {
                         className="mega-city-chip mega-city-chip--all"
                         onClick={() => setServicesOpen(false)}
                       >
-                        All 33 Cities &darr;
+                        All 35 Cities &darr;
                       </Link>
                     </div>
                   </div>
