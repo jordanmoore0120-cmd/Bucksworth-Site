@@ -17,3 +17,5 @@ This is the MIDDAY run. Dispatch:
 2. `ads`: daily ads/LSA/Meta health; proposals go in the report for Jordan's Approve button.
 3. `authority`: link reclamation and local-link work (drafts for Jordan).
 4. `site-guardian`: re-check any morning deploy live (`node scripts/url-guard.mjs prod`).
+
+Two laws (ops/DIGITAL-OS.md §0): every task names its search demand, traffic or calls number, or it isn't worked; the obvious customer-visible fixes come first, done the simple way.

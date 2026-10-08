@@ -1,0 +1,761 @@
+{
+  "ran_at": "2026-10-08T02:50:28.334Z",
+  "base": "https://www.getyourbucksworth.com",
+  "static_only": false,
+  "fails": 7,
+  "warns": 87,
+  "findings": [
+    {
+      "sev": "FAIL",
+      "check": "service-truth(src)",
+      "where": "src/components/InstantEstimator.tsx:192",
+      "detail": "\"…{ label: \"Full Lawn Care\", value: \"lawn\", icon: \"🏡\" },…\" (Implies mowing/maintenance. Say weed control (and name the actual treatment).)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "FAIL",
+      "check": "service-truth(src)",
+      "where": "src/lib/nearest-cities.ts:33",
+      "detail": "\"…\"gravel-rock-yard-maintenance\": \"gravel and rock yard maintenance\",…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "FAIL",
+      "check": "service-truth(src)",
+      "where": "src/lib/services.ts:371",
+      "detail": "\"…sworth Home Services provides professional weed control and lawn care services for homes across Phoenix and Tucson, Ariz…\" (Implies mowing/maintenance. Say weed control (and name the actual treatment).)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "FAIL",
+      "check": "service-truth(src)",
+      "where": "src/lib/services.ts:390",
+      "detail": "\"…name: \"Gravel & Rock Yard Maintenance\",…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "FAIL",
+      "check": "service-truth(src)",
+      "where": "src/lib/services.ts:393",
+      "detail": "\"…shortDesc: \"Weed-free gravel & desert landscape care\",…\" (We are not a landscaping company.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "FAIL",
+      "check": "dead-cta",
+      "where": "/ [mobile] \"QUOTE\"",
+      "detail": "click adds DOM (play-overlay, ie-overlay, ie-modal) but it renders OFF-SCREEN or unstyled (missing CSS?), so the customer sees nothing",
+      "fix": "Make the button open something visible in the viewport (fix the modal CSS/positioning) or link it to the real page.",
+      "count": 1
+    },
+    {
+      "sev": "FAIL",
+      "check": "service-truth",
+      "where": "/ (nav/dropdowns)",
+      "detail": "\"…ontrol Post-Emergent Weed Treatment Gravel & Rock Yard Maintenance Lawn Fertilization Bermuda Grass …\" We don't do yard maintenance.",
+      "fix": "Reword; we only sell what's in knowledge/services-truth.json.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/app/[city]/[service]/page.tsx:140",
+      "detail": "\"…per irrigation timing (early morning, deep and infrequent), mowing height (2–3 inches), and fertilization keep lawns hea…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/app/[city]/[service]/page.tsx:175",
+      "detail": "\"…ing thin areas.`, solution: `We evaluate irrigation timing, mowing practices, and soil condition for ${cityName} lawns.…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/components/HomeClient.tsx:12",
+      "detail": "\"…mergent-treatment-keeps-picture-rocks-landscapes-cle\\\">Rock Yard Maintenance: The Desert Homeowner's Guide</a></li>\\n<li…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/components/HomeContent.tsx:9",
+      "detail": "\"…mergent-treatment-keeps-picture-rocks-landscapes-cle\\\">Rock Yard Maintenance: The Desert Homeowner's Guide</a></li>\\n<li…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/content-overrides.ts:946",
+      "detail": "\"…nclude removing rock and debris piles from your foundation, trimming vegetation away from exterior walls, sealing entry…\" (We don't trim.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/content-overrides.ts:1145",
+      "detail": "\"…f your home, reducing rock and debris near foundations, and trimming vegetation away from exterior walls. Our desert-edg…\" (We don't trim.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:35",
+      "detail": "\"…Pre-emergent prevention, post-emergent treatment, and rock yard maintenance for Estrella, Palm Valley, Canyon Trails &…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:70",
+      "detail": "\"…ryegrass. Combined with a fertilization program and proper mowing guidance, your Goodyear lawn stays thick, green, and…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:103",
+      "detail": "\"…re-emergent prevention, post-emergent treatment, and gravel yard maintenance for Surprise Farms, Marley Park, Sun City G…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:269",
+      "detail": "\"…Z. Pre-emergent barriers, post-emergent treatment, and rock yard maintenance for Continental Ranch, Dove Mountain, Gladd…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:396",
+      "detail": "\"…Pre-emergent barriers, post-emergent treatment, and gravel yard maintenance for Ocotillo, Sun Groves, Chandler Heights…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:423",
+      "detail": "\"…velopment around Chandler Fashion Center creates additional landscape maintenance challenges. Standard rock yard pre-eme…\" (We are not a landscaping company.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:724",
+      "detail": "\"…Pre-emergent barriers, post-emergent treatment, and gravel yard maintenance across Sam Hughes, Catalina Foothills, Midt…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:786",
+      "detail": "\"…mpetitors: WeedCo LLC (Sahuarita coverage confirmed), small landscapers…\" (We are not a landscaping company.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:861",
+      "detail": "\"…on (GVR) and dozens of individual HOAs — each with specific landscape maintenance requirements that include weed-free ya…\" (We are not a landscaping company.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:862",
+      "detail": "\"…s, and the specific HOA compliance requirements that govern yard maintenance throughout the community.\",…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "src/lib/service-hub-overrides.ts:887",
+      "detail": "\"…uire continuous compliance even when homeowners travel, and yard maintenance should be hassle-free.\",…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/blog/data-2026-03.json:1",
+      "detail": "\"…neral landscaper?</h3>\\n<p>Most landscapers focus on &#8220;mow and blow&#8221; or manual pulling. While that helps temp…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/blog/data-2026-04.json:1",
+      "detail": "\"…ng just beneath the surface, you’re essentially just &#8220;mowing&#8221; the weeds instead of killing them. That’s wher…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/blog/data-2026-05.json:1",
+      "detail": "\"…ong> home because it was supposed to be easy. Low water, no mowing, desert-friendly. But six months later, your <strong>…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/blog/data-2026-06.json:1",
+      "detail": "\"…dormant seeds in the soil germinating over time, new seeds blowing in from neighboring properties or undeveloped land n…\" (We don't do leaf blowing / yard cleanup.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/blog/data-2026-07.json:1",
+      "detail": "\"…strong> yard, the underground network is already extensive. Mowing it, pulling it, and even covering it with new rock wi…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/blog/data-2026-08.json:1",
+      "detail": "\"…ong> home because it was supposed to be low maintenance. No mowing, no watering, no fertilizing. Then the weeds showed u…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/blog/data-legacy.json:1",
+      "detail": "\"…r Your Tucson Neighborhood</a></li></ul></div>\\n\\n<ul>\\n<li>Mow your lawn, pull weeds, and trim shrubs that might provid…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/reviews.json:2034",
+      "detail": "\"…w. I initially started using their service because I needed yard work done immediately after purchasing my home as the o…\" (We don't do yard maintenance.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /phoenix-az/ → 308 /phoenix-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /scottsdale-az/ → 308 /scottsdale-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /mesa-az/ → 308 /mesa-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /gilbert-az/ → 308 /gilbert-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /chandler-az/ → 308 /chandler-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /tempe-az/ → 308 /tempe-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /tucson-az/ → 308 /tucson-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /surprise-az/ → 308 /surprise-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /peoria-az/ → 308 /peoria-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /ahwatukee-az/ → 308 /ahwatukee-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /anthem-az/ → 308 /anthem-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /apache-junction-az/ → 308 /apache-junction-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /buckeye-az/ → 308 /buckeye-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /casa-grande-az/ → 308 /casa-grande-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /catalina-foothills-az/ → 308 /catalina-foothills-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /coolidge-az/ → 308 /coolidge-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /florence-az/ → 308 /florence-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /fountain-hills-az/ → 308 /fountain-hills-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /gold-canyon-az/ → 308 /gold-canyon-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /goodyear-az/ → 308 /goodyear-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /green-valley-az/ → 308 /green-valley-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /laveen-az/ → 308 /laveen-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /litchfield-park-az/ → 308 /litchfield-park-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /marana-az/ → 308 /marana-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /maricopa-az/ → 308 /maricopa-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /oro-valley-az/ → 308 /oro-valley-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /paradise-valley-az/ → 308 /paradise-valley-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /queen-creek-az/ → 308 /queen-creek-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /red-rock-az/ → 308 /red-rock-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /sahuarita-az/ → 308 /sahuarita-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /san-tan-valley-az/ → 308 /san-tan-valley-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /vail-az/ → 308 /vail-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /valencia-west-az/ → 308 /valencia-west-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /blog/chandler-business-pest-control-keep-your-workspace-roach-free → 308 /chandler-az/pest-and-termite",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /blog/expert-ac-repair-phoenix-az → 308 /phoenix-az/air-conditioning-and-heating/ac-repair",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /blog/ac-tune-ups-in-phoenix-az-the-bucksworth-guide-to-energy-efficiency-insulation-ductwork-and-air-leakage → 308 /phoenix-az/air-conditioning-and-heating/ac-maintenance",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /blog/emergency-plumbing-apache-junction-local-help-when-you-need-it → 308 /apache-junction-az/plumbing-and-water-heaters",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /blog/trusted-mesa-plumbing-repairs-and-upgrades → 308 /mesa-az/plumbing-and-water-heaters",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /blog/red-rock-yard-care-how-pre-emergent-treatment-keeps-picture-rocks-landscapes-cle → 308 /red-rock-az/weed-and-lawn-care/pre-emergent-weed-control",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /phoenix/air-conditioning/ → 308 /phoenix/air-conditioning",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /phoenix/duct-work/ → 308 /phoenix/duct-work",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /phoenix/insulation/ → 308 /phoenix/insulation",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /phoenix/heating/ → 308 /phoenix/heating",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /phoenix/plumbing-services/ → 308 /phoenix/plumbing-services",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /phoenix/water-heater/ → 308 /phoenix/water-heater",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /pest-control-phoenix-az/ → 308 /pest-control-phoenix-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /termite-treatment-phoenix-az/ → 308 /termite-treatment-phoenix-az",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /about/ → 308 /about",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /reviews/ → 308 /reviews",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /careers/ → 308 /careers",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /financing/ → 308 /financing",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /specials/ → 308 /specials",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /contact/ → 308 /contact",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /job-site-work/ → 308 /job-site-work",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /blog/ → 308 /blog",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /termite-warranty-registration/ → 308 /termite-warranty-registration",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /privacy-policy/ → 308 /privacy-policy",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /terms/ → 308 /terms",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /pest-and-termite → 308 /phoenix-az/pest-and-termite",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /air-conditioning-and-heating → 308 /phoenix-az/air-conditioning-and-heating",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /plumbing-and-water-heaters → 308 /phoenix-az/plumbing-and-water-heaters",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/",
+      "detail": "links to /weed-and-lawn-care → 308 /phoenix-az/weed-and-lawn-care",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    }
+  ]
+}

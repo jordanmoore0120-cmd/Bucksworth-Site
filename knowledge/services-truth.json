@@ -1,0 +1,21 @@
+{
+  "_about": "What Bucksworth does and does NOT sell, per market. Source: Jordan Moore. scripts/site-qa.mjs enforces this on every nav, dropdown, form option, title, H1 and source file. Change it only on Jordan's word, and add a dated line to _changelog.",
+  "_changelog": [
+    "2026-10-07 created. Jordan: 'we do not provide mowing, blowing and trimming of lawn and landscape service but some drop downs make it feel like that.' Markets from company facts."
+  ],
+  "markets": {
+    "phoenix": { "offered": ["pest control", "termite", "weed control", "ac / heating", "plumbing", "snake away", "bird control", "bed bugs"] },
+    "tucson":  { "offered": ["pest control", "termite", "weed control"], "not_offered_service_slugs": ["ac-and-heating", "hvac", "plumbing"] }
+  },
+  "never_offered": [
+    { "pattern": "\\bmow(s|ing|er)?\\b", "why": "We don't mow." },
+    { "pattern": "\\bleaf blow(ing|er)?\\b|\\bblowing\\b(?![^.]{0,40}(air|vent|ac|warm|cold|hot))", "why": "We don't do leaf blowing / yard cleanup." },
+    { "pattern": "\\b(hedge|shrub|tree|lawn|grass|bush) trim(ming)?\\b|\\btrimming\\b", "why": "We don't trim." },
+    { "pattern": "\\blandscap(e|ing) (maintenance|service|services|company|crew|care)\\b|\\blandscaper", "why": "We are not a landscaping company." },
+    { "pattern": "\\byard (maintenance|cleanup|clean-up|work)\\b|\\bgardening\\b|\\bgardener", "why": "We don't do yard maintenance." },
+    { "pattern": "\\bfull lawn care\\b|\\blawn (maintenance|service)\\b|\\blawn care service", "why": "Implies mowing/maintenance. Say weed control (and name the actual treatment)." }
+  ],
+  "ambiguous_warn": [
+    { "pattern": "\\blawn care\\b", "why": "Reads as mowing to many people. Only OK inside the brand label 'Weed & Lawn Care' or when the same sentence says weed control/treatment." }
+  ]
+}

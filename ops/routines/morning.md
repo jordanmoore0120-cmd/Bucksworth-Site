@@ -13,9 +13,12 @@ Work unattended. Pull your own data through the Zapier connectors. Verify every 
 first; FAIL = do not push), and post the run report to Slack #bucksworth-digital.
 
 This is the MORNING run. Dispatch, in this order:
+0. `site-qa`: `node scripts/site-qa.mjs --pages 40`. Every FAIL (dead button, menu implying a service we don't sell, broken/redirected internal link) becomes a P0 task and is fixed before content work.
 1. `intel`: full signal pull and anomaly tasks.
 2. `site-guardian`: all P0 tasks (URL GUARD, identity leaks, migration 301s).
 3. `seo-content`: the highest-value 1–3 content tasks (money pages first).
 4. `ai-visibility`: on Mon/Wed/Fri, the guideline review; on Monday, the weekly AI citation measurement.
 5. `knowledge`: check that today's content claims trace to `knowledge/`.
 Monday only: include the weekly scorecard in the report.
+
+Two laws (ops/DIGITAL-OS.md §0): every task names its search demand, traffic or calls number, or it isn't worked; the obvious customer-visible fixes come first, done the simple way.

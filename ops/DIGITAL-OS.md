@@ -16,6 +16,20 @@ service × city, and that visibility turns into **phone calls**. East Valley/Pin
 
 ---
 
+## 0. The two laws (Jordan 2026-10-07). Read before anything else
+
+**Law 1: Demand and traffic, or it doesn't get done.** Every piece of work must name the search demand or
+traffic/call leak it serves. That means a DataForSEO keyword and its monthly volume (`Phoenix,Arizona,United States` or the
+city), GSC impressions/clicks for the page, or calls/bookings at stake. No number means no task, except P0 breakage that
+customers can see. Each keyword maps to exactly ONE URL (no cannibalization). The director ranks work by
+**expected calls = demand × how far we are from top 3 × close rate of the service**. A guideline, a best practice or
+a "nice idea" is never a reason on its own. It only shapes HOW a demand-backed task is done.
+
+**Law 2: The obvious first, keep it simple.** A dead button, a menu that implies a service we don't sell (mowing,
+blowing, trimming, landscaping), a broken or redirected internal link, a slow mobile page or a wrong phone number beats any
+clever SEO project. `site-qa` finds these every Morning and Evening (`scripts/site-qa.mjs`) and they are P0.
+Fix the smallest thing that solves the problem. Don't build frameworks or new systems when a one-line fix works.
+
 ## 1. The four layers (Hydra pattern, mapped to what we have)
 
 | Hydra layer | Bucksworth equivalent |
@@ -40,6 +54,7 @@ service × city, and that visibility turns into **phone calls**. East Valley/Pin
 | `ads` | (Pulse) | Google Ads, LSA, Meta: performance, search terms, waste, landing-page fit, tracking health | analysis and drafts. **Every write needs Jordan's Approve button** |
 | `competitor` | Vader | Competitor rankings, content, review counts, links and AI citations. Content gaps go to the board | board tasks |
 | `knowledge` | Yoda | `knowledge/` base, JustAI / CI Web Group best practices, Jordan's rules. Validates every agent's output against the business | knowledge files |
+| `site-qa` | (QA) | The customer's eyes: clicks every CTA on mobile + desktop, reads every menu/dropdown/form option against `knowledge/services-truth.json`, and runs the common-sense internal-link rules. FAILs become P0 tasks | board tasks, `scripts/site-qa.mjs` checks |
 | `cro-dev` | Neo | Conversion: call buttons, page speed, forms, A/B tests on hooks/deals/pages/photos (never on keyword demand) | UI changes that pass guards + perf budget |
 
 ## 3. Rule #1: never make an existing page look NEW (Jordan 2026-10-07)
@@ -55,8 +70,9 @@ mechanical parts, and a FAIL means do not push.
 
 1. **Verify state.** Follow CLAUDE.md §0: git state, URL GUARD items, connector health.
 2. **Sense.** `intel` pulls live data and updates `ops/state/signals.json`, then opens or updates tasks on `board.json`.
-3. **Decide.** `director` ranks open tasks: anything broken first (URL/identity, dark ads, tracking), then
-   money (calls and booked jobs by service×city), then growth. It picks what fits the run.
+3. **Decide.** `director` ranks open tasks by the two laws (§0): customer-visible breakage and URL/identity first
+   (site-qa FAILs, dark ads, tracking), then expected calls (demand × gap to top 3 × close rate) by service×city, East
+   Valley/Pinal first. Tasks without a demand/traffic/calls number are sent back to their owner, not worked.
 4. **Act.** Dispatch the owning agent for each task (Task tool → subagent). Agents ship directly where §2 allows.
    Where a human gate applies, they draft and post the ask.
 5. **Verify.** Every shipped change is checked live: page 200, rendered HTML correct, schema valid, post
@@ -118,4 +134,6 @@ the Claude agent has run its job cleanly for 2 weeks **and Jordan approves**.
 6. **Grow the team.** When the director sees a recurring job with no owner, it writes a new agent in
    `.claude/agents/` (same format, one domain, guardrails), adds it to §2 and the routines, and logs it.
 7. **Monthly self-audit.** Compare this setup to Hydra OS / CI Web Group's current public features and the
-   JustAI material. Every gap becomes a board task.
+   JustAI material. Every gap becomes a board task. Also benchmark 3 live home-service sites built on CI Web Group's
+   platform (find them via ciwebgroup.com case studies/portfolio). Compare their navigation, CTAs, service×city structure, internal
+   linking, schema, page speed and AI-search citations against ours, and open tasks for what they do better.

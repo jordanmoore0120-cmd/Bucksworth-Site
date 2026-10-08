@@ -1,5 +1,5 @@
 {
- "_how": "Shared task board for the Bucksworth Digital OS (ops/DIGITAL-OS.md). Agents add tasks with evidence, the director ranks them, and owners close them with a commit SHA and live proof. Priority: P0 broken, P1 money, P2 growth.",
+ "_how": "Shared task board for the Bucksworth Digital OS (ops/DIGITAL-OS.md). Agents add tasks with evidence, the director ranks them, and owners close them with a commit SHA and live proof. Priority: P0 broken, P1 money, P2 growth. Every task has a `demand` field (keyword + monthly volume, GSC impressions/clicks, or calls at stake); P0 customer-visible breakage may use 'customer-visible' instead. No demand = not worked (DIGITAL-OS §0).",
  "tasks": [
   {
    "id": "T001",
@@ -9,7 +9,8 @@
    "created": "2026-10-07",
    "title": "Stop build-time sitemap lastmod: sitemap.ts stamps every non-blog page with new Date() on every deploy, so all pages look changed/new",
    "evidence": "src/app/sitemap.ts lastModified: now (homepage, static, city, service, sub-service)",
-   "done": null
+   "done": null,
+   "demand": "URL/identity protection (P0)"
   },
   {
    "id": "T002",
@@ -19,7 +20,8 @@
    "created": "2026-10-07",
    "title": "Hard-coded schema dateModified 2026-06-28 on city and service pages; tie it to the real content change date",
    "evidence": "src/app/[city]/page.tsx:142, src/app/[city]/[service]/page.tsx:277",
-   "done": null
+   "done": null,
+   "demand": "URL/identity protection (P0)"
   },
   {
    "id": "T003",
@@ -28,8 +30,9 @@
    "status": "open",
    "created": "2026-10-07",
    "title": "Migration repair: single-hop 301 for the 332 legacy WP URLs that 404 plus the 57 GSC known-broken URLs; collapse chains",
-   "evidence": "seo-data/migration-history.md \u00a74, wp-legacy-urls.json, url-baseline.json known_broken_2026_10_07",
-   "done": null
+   "evidence": "seo-data/migration-history.md §4, wp-legacy-urls.json, url-baseline.json known_broken_2026_10_07",
+   "done": null,
+   "demand": "URL/identity protection (P0)"
   },
   {
    "id": "T004",
@@ -39,7 +42,8 @@
    "created": "2026-10-07",
    "title": "Build knowledge/ HBIS base from bucksworth-rules, company facts and the live site (public-safe facts while the repo is public)",
    "evidence": "knowledge/README.md",
-   "done": null
+   "done": null,
+   "demand": null
   },
   {
    "id": "T005",
@@ -49,7 +53,8 @@
    "created": "2026-10-07",
    "title": "Set the baseline AI visibility query set and run it (AIO cited 2/19, ChatGPT 0/11 on 2026-10-07)",
    "evidence": "seo-data/ai-visibility.json",
-   "done": null
+   "done": null,
+   "demand": null
   },
   {
    "id": "T006",
@@ -59,7 +64,8 @@
    "created": "2026-10-07",
    "title": "Lost-link reclamation starting with azmomsquad.com Arizona business directory (lost 2026-06-30); draft for Jordan",
    "evidence": "seo-data/backlinks-recovery.json",
-   "done": null
+   "done": null,
+   "demand": null
   },
   {
    "id": "T007",
@@ -69,6 +75,40 @@
    "created": "2026-10-07",
    "title": "Install scripts/url-guard.workflow.yml into .github/workflows (Viktor's GitHub app lacks workflows permission)",
    "evidence": "scripts/url-guard.workflow.yml",
+   "done": null,
+   "demand": null
+  },
+  {
+   "id": "T008",
+   "owner": "cro-dev",
+   "priority": "P0",
+   "status": "open",
+   "created": "2026-10-07",
+   "demand": "customer-visible: sticky mobile bar on every page",
+   "title": "Sticky 'QUOTE' button does nothing visible on mobile (every page). The estimator modal renders unstyled at the bottom of the page because src/styles/instant-estimator.css is imported only in src/app/instant-estimate/page.tsx, not where EstimatorProvider/InstantEstimator mount (layout). Fix: import the CSS in the component, then re-run site-qa.",
+   "evidence": "node scripts/site-qa.mjs: FAIL dead-cta / [mobile] 'QUOTE': ie-overlay/ie-modal position:static at y≈17,000px (live 2026-10-07)",
+   "done": null
+  },
+  {
+   "id": "T009",
+   "owner": "seo-content",
+   "priority": "P0",
+   "status": "open",
+   "created": "2026-10-07",
+   "demand": "customer-visible: Services mega-menu on every page",
+   "title": "Menus and estimator imply lawn/landscape maintenance we don't sell: 'Gravel & Rock Yard Maintenance' (menu), estimator 'Full Lawn Care' / 'Weed + Lawn Combo', meta 'lawn and landscape care'. Change the VISIBLE LABELS only (e.g. 'Gravel & Rock Yard Weed Control'); never the URL slugs. Lawn Fertilization / Overseeding / Weed & Feed labels: waiting for Jordan to confirm whether we sell them.",
+   "evidence": "site-qa service-truth FAILs (live nav + src/lib/services.ts:390, src/components/InstantEstimator.tsx:192)",
+   "done": null
+  },
+  {
+   "id": "T010",
+   "owner": "seo-content",
+   "priority": "P1",
+   "status": "open",
+   "created": "2026-10-07",
+   "demand": "internal link equity across every city hub",
+   "title": "Homepage and templates link to /{city}-az/ with a trailing slash, so every link is a 308 hop. Link the final URL. Then enforce the site-qa internal-link rules (hub ↔ children, 3–6 nearest same-service cities, blog → its money page).",
+   "evidence": "site-qa WARN internal-link: / links to /phoenix-az/ → 308 /phoenix-az (x40+)",
    "done": null
   }
  ]

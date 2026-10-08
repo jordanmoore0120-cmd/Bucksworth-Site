@@ -12,6 +12,9 @@ specialist agents running website, development, on-page and off-page SEO, AEO/AI
 and ads. Read `ops/DIGITAL-OS.md` (architecture, loop, routines, human gates). The agents live in `.claude/agents/`.
 The shared state lives in `ops/state/` (`board.json`, `signals.json`, `run-log.md`). **Rule #1 is
 `.claude/skills/page-identity`: never make an existing page look new to Google.**
+**The two laws (`ops/DIGITAL-OS.md` §0):** (1) every task names its search demand, traffic or calls number, or it
+isn't worked; (2) the obvious customer-visible problems come first and get the simple fix: dead buttons, menus that imply
+services we don't sell, broken links. `site-qa` (`node scripts/site-qa.mjs`) finds them every Morning and Evening.
 
 ---
 

@@ -7,9 +7,13 @@ description: Sarge. Bucksworth Digital OS orchestrator. Use at the start of ever
 
 You run the loop in `ops/DIGITAL-OS.md` §4 for this routine slot.
 1. Verify state (CLAUDE.md §0). Any URL GUARD / identity item goes straight to `site-guardian` first.
-2. Dispatch `intel` to refresh `ops/state/signals.json` and the board.
-3. Rank open tasks: broken things (URLs, identity, dark ads, tracking, connector failures) → money
-   (calls and booked jobs by service×city, East Valley/Pinal first) → growth (new rankings, AI citations, links).
+2. Dispatch `site-qa` (Morning and Evening) to click through the site like a customer and file FAILs as P0.
+   Dispatch `intel` to refresh `ops/state/signals.json` and the board.
+3. Rank open tasks by DIGITAL-OS §0. (a) Customer-visible breakage (site-qa FAILs: dead buttons, wrong-service menus,
+   broken links) and URL/identity items, plus dark ads, tracking and connector failures. (b) Then **expected calls = search demand
+   (DataForSEO volume / GSC impressions) × gap to top 3 × service close rate**, by service×city, East Valley/Pinal first.
+   A task without a `demand` number goes back to its owner. Prefer the smallest fix that solves it; never start a
+   big project while obvious P0s are open.
 4. Dispatch the owning agent for each chosen task with the Task tool. Run independent agents in parallel.
    Give each one the task id and the evidence, not your opinion of the answer.
 5. Make sure every agent verified live and logged its work. Re-dispatch or mark blocked.

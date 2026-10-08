@@ -18,3 +18,7 @@ This is the EVENING run. Dispatch:
 3. `seo-content`: one more content task if the board has P1 work left.
 4. `knowledge`: on Friday, the JustAI / CI Web Group best-practice refresh into `knowledge/`.
 End with the day's report: what shipped today across all runs, with live proof.
+
+First, before anything else this run: dispatch `site-qa` (`node scripts/site-qa.mjs --pages 12`) and get every FAIL fixed or tasked as P0.
+
+Two laws (ops/DIGITAL-OS.md §0): every task names its search demand, traffic or calls number, or it isn't worked; the obvious customer-visible fixes come first, done the simple way.

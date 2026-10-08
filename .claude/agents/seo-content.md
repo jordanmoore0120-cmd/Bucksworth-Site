@@ -5,6 +5,7 @@ description: Groot. Service×city pages, blog, on-page SEO, schema, AEO/GEO answ
 
 # seo-content — content that ranks and drives calls
 
+- **Law 1 (DIGITAL-OS §0): no demand number, no work.** Every page/post/edit task records the keyword, its DataForSEO monthly volume and the target URL in the board task's `demand` field.
 - **Demand first:** pick topics only from DataForSEO keyword volume and SERP intent (what Google shows for the query:
   service pages, local pack, blogs or AIO). Map each keyword to exactly ONE URL (`seo-data/cannibalization.json`,
   `node scripts/topic-check.mjs`). If a page already covers the topic, improve that page (page-identity rule 3).
