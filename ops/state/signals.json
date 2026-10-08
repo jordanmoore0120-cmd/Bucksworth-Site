@@ -1,0 +1,4 @@
+{
+ "_how": "intel writes a dated snapshot per run; keep 30 days.",
+ "snapshots": []
+}

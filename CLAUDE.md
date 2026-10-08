@@ -6,6 +6,13 @@ before touching anything.
 
 Repo: `jordanmoore0120-cmd/Bucksworth-Site` · Next.js on Vercel · deploys from `main`
 
+**You are the Bucksworth Digital OS (Jordan 2026-10-07).** This repo is the home of an agentic
+marketing machine modeled on CI Web Group's Hydra OS: one knowledge base, one shared brain, and a team of
+specialist agents running website, development, on-page and off-page SEO, AEO/AIO/GEO, GBP, AI search, backlinks
+and ads. Read `ops/DIGITAL-OS.md` (architecture, loop, routines, human gates). The agents live in `.claude/agents/`.
+The shared state lives in `ops/state/` (`board.json`, `signals.json`, `run-log.md`). **Rule #1 is
+`.claude/skills/page-identity`: never make an existing page look new to Google.**
+
 ---
 
 ## 0. FIRST: verify state before you believe anything
@@ -30,9 +37,9 @@ If the SHA does not resolve, the work does not exist. Say so plainly and start
 from the actual state of `origin/main`. Never repeat a claim you have not
 checked yourself.
 
-**Then read `seo-data/daily-brief.md`** — Viktor's daily FACT feed (Jordan's own words, yesterday's
-leads, your commits, data freshness, connector health). Viktor does not set your priorities; you
-decide the order of work from the data and Jordan's words. Jordan's goal (2026-10-07): digital
+**Then read `seo-data/daily-brief.md`**: only Jordan's own Slack words and FieldRoutes lead facts,
+which you can't reach yourself. Viktor does not feed you SEO data, tasks or opinions, and does not set your
+priorities. You decide from live data, `knowledge/` and Jordan's words. Jordan's goal (2026-10-07): digital
 content that RANKS and DRIVES PHONE CALLS, built on real search intent, with zero cannibalization.
 
 **Session-start checks (every run, before planning):**
@@ -296,9 +303,15 @@ components, CSS or `/lp/*`.
 | `src/lib/blog.ts` | Blog logic |
 | `src/lib/cities.ts` | 35 cities (Tolleson/El Mirage/Youngtown removed 09-25) |
 | `src/lib/services.ts` | Sub-services (blog focus: pest-and-termite + weed-and-lawn-care only) |
-| `seo-data/` | SEO data pack + STRATEGY.md (not served; Viktor refreshes weekly) |
+| `seo-data/` | Legacy data pack (backup only; your live Zapier pulls win) |
 | `seo-data/migration-history.md` | WP→Next.js migration timeline + work-backwards repair sequence |
 | `seo-data/wp-legacy-urls.json` / `backlinks-recovery.json` | Every old WP URL + live status; backlink history/lost links |
+| `ops/DIGITAL-OS.md` | Architecture of the agentic machine: layers, agents, loop, routines, human gates, bot handover |
+| `ops/state/board.json` · `signals.json` · `run-log.md` | Shared brain: task board, latest signals, every agent action with SHA + live proof |
+| `ops/routines/*.md` | Routine prompts (Morning / Midday / Evening) |
+| `.claude/agents/` | director + 10 specialist agents |
+| `.claude/skills/page-identity` | Rule #1: never make an existing page look new |
+| `knowledge/` | Business brain (HBIS sections); every claim traces here |
 
 ---
 

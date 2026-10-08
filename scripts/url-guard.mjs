@@ -3,6 +3,8 @@
 //
 //   node scripts/url-guard.mjs prepush   # run BEFORE every push. Fails if this branch removes a
 //                                        # blog slug, city, service, app route or redirect without a 301.
+//                                        # Also fails if an existing blog post's published date changes or
+//                                        # sitemap.ts gains more build-time lastmod (page-identity skill).
 //   node scripts/url-guard.mjs prod      # checks every URL in seo-data/url-baseline.json on the live
 //                                        # site. Fails on any NEW 404/410/5xx (known_broken excluded).
 //
@@ -58,8 +60,19 @@ function prepush() {
   for (const s of rb) if (!ra.has(s)) removed.push({ path: s, why: "redirect removed from next.config.mjs (old URL would 404)" });
 
   const bad = removed.filter((r) => r.why.startsWith("redirect removed") || r.path.startsWith("(service") || !hasRedirect(r.path, ra));
-  if (!bad.length) { console.log(`URL GUARD prepush: PASS (${removed.length} removals, all redirected)`); return 0; }
-  console.log(`URL GUARD prepush: FAIL — ${bad.length} URL(s) would break. Add a 301 in next.config.mjs in the SAME commit, or undo the removal:`);
+  // 5. page identity (page-identity skill): an existing page must never look new to Google
+  try {
+    const bDates = new Map(JSON.parse(sh(`git show ${ref}:content/blog/index.json`) || "[]").map((p) => [p.slug, p.date]));
+    for (const p of JSON.parse(fs.readFileSync("content/blog/index.json", "utf8")))
+      if (bDates.has(p.slug) && bDates.get(p.slug) !== p.date)
+        bad.push({ path: `/blog/${p.slug}`, why: `published date changed ${bDates.get(p.slug)} -> ${p.date} (never re-date an existing post)` });
+  } catch (e) { console.log("warn: blog date compare failed:", e.message); }
+  const smBefore = (sh(`git show ${ref}:src/app/sitemap.ts`).match(/new Date\(\)/g) || []).length;
+  const smNow = fs.existsSync("src/app/sitemap.ts") ? (fs.readFileSync("src/app/sitemap.ts", "utf8").match(/new Date\(\)/g) || []).length : 0;
+  if (smNow > smBefore) bad.push({ path: "src/app/sitemap.ts", why: "adds build-time lastmod (new Date()) — pages would look changed on every deploy" });
+  else if (smNow) console.log(`IDENTITY WARN: src/app/sitemap.ts still uses build-time lastmod (${smNow}x) — board task T001`);
+  if (!bad.length) { console.log(`URL GUARD prepush: PASS (${removed.length} removals, all redirected; identity checks passed)`); return 0; }
+  console.log(`URL GUARD prepush: FAIL — ${bad.length} problem(s). Fix in the SAME commit (301 in next.config.mjs, restore the date, etc.) or undo:`);
   for (const r of bad) console.log(`  ${r.path}  <- ${r.why}`);
   return 1;
 }
