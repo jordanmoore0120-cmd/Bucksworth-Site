@@ -38,3 +38,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env.production
+
+# url guard output
+url-guard-result.json
+guard.txt
+.worktrees/

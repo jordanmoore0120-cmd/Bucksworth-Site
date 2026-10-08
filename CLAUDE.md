@@ -30,9 +30,20 @@ If the SHA does not resolve, the work does not exist. Say so plainly and start
 from the actual state of `origin/main`. Never repeat a claim you have not
 checked yourself.
 
-**Then read `seo-data/daily-brief.md`** — Viktor's daily report to you (Jordan's latest
-priorities + yesterday's lead data). It sets today's order of work. Jordan (2026-10-06):
-"make the phone ring" — ranking fixes in `seo-data/site-tasks.md` come before new blog posts.
+**Then read `seo-data/daily-brief.md`** — Viktor's daily FACT feed (Jordan's own words, yesterday's
+leads, your commits, data freshness, connector health). Viktor does not set your priorities; you
+decide the order of work from the data and Jordan's words. Jordan's goal (2026-10-07): digital
+content that RANKS and DRIVES PHONE CALLS, built on real search intent, with zero cannibalization.
+
+**Session-start checks (every run, before planning):**
+1. Open GitHub issues labelled `url-guard` = live URLs that broke. Fix them FIRST (301 or restore).
+2. `seo-data/url-baseline.json` → `known_broken_*` lists indexed URLs that already 404. Every one
+   needs a 301 to the closest live page; clear them over the coming sessions.
+3. Connector health: call one read-only action on each Zapier app you have (GBP, Google Ads, GA4,
+   Facebook Pages, Instagram, DataForSEO). Record ok / error per app in your Slack run summary. A
+   broken connector is reported, never guessed around.
+4. Read `knowledge/` (business facts + JustAI/CI Web Group playbooks) — state facts only from there.
+
 Permissions for edits/commits are pre-approved in `.claude/settings.json`; work unattended.
 
 **Skills:** `.claude/skills/` holds Bucksworth's marketing skills (rules, Google Ads/LSA, GBP,
@@ -93,6 +104,7 @@ pushing and never force-push `main`:
 
 ```bash
 git pull --rebase origin main
+node scripts/url-guard.mjs prepush   # MUST print PASS. FAIL = add the 301s in the same commit first.
 git push origin main
 ```
 
@@ -136,6 +148,26 @@ haven't observed.
 **Do not break old URLs.** ~2,169 URLs are indexed and 335 redirects are live.
 Renaming or deleting a path without a 301 destroys existing rankings. If a URL
 must change, add the redirect in the same commit.
+URL protection is automated (Jordan 2026-10-07: "protect all urls"):
+- `node scripts/url-guard.mjs prepush` before EVERY push: fails if a blog slug, city, service,
+  route or redirect disappears without a 301. Never push on FAIL.
+- `.github/workflows/url-guard.yml` re-checks all ~6,500 known URLs (sitemap + every page with
+  Search Console impressions) on production after each push and daily; new breaks open an issue.
+- Never 404 or noindex a URL that has impressions. Consolidating = 301 the weaker URL into the
+  stronger one, never delete.
+
+**Search intent first (Jordan 2026-10-07).** Every new page/post/topic starts from a real
+DataForSEO keyword with Arizona volume, never from opinion. Before writing:
+1. `node scripts/topic-check.mjs "<target keyword>"` — exit 1 means one of our URLs already owns
+   that search: improve that URL instead of creating a new one.
+2. Pull the live Google SERP for the keyword (DataForSEO via Zapier, location
+   `Phoenix,Arizona,United States`). Match the dominant result type: service pages → improve the
+   money page; how-to/blog results → post; local pack only → GBP/landing work. Note who is cited
+   in the AI Overview.
+3. Record keyword, AZ volume, intent and the SERP type in `seo-data/publish-log.json`.
+`seo-data/cannibalization.json` lists every Google query where 2+ of our URLs already compete
+(Search Console, 90 days). Consolidate those (pick the winner, merge content, 301 or link up)
+— never add a third page to a split query.
 
 **Anti-cannibalization is rule #1.** Never publish a page targeting a keyword +
 city combination that an existing page already targets. Check before writing —
@@ -168,6 +200,13 @@ fine; GBP is deliberately pest + weed only.)
 
 **Never claim the site is new.** The domain has been active since 2013.
 
+**Domain authority (Jordan 2026-10-07: "get the domain authority up").** Baseline in
+`seo-data/authority.json` (DataForSEO domain rank + referring domains for us vs AZ competitors,
+refreshed weekly). Earning real links and mentions is part of the job: follow the `pr-backlinks`
+skill (outreach from info@, local partners, journalist queries, citations) and log every link
+won or pitched in `seo-data/backlinks-log.json` with its live URL. No paid link schemes, PBNs or
+link exchanges.
+
 ---
 
 ## 4. Blog post quality bar
@@ -194,7 +233,7 @@ picking a new topic, and mark each one done with the commit SHA.
 
 Before writing or changing any page, read `seo-data/reference/ai-search-guidelines.md`; its rules are part of this quality bar.
 
-After the fix-list, do **at least 3 open items** in `seo-data/site-tasks.md` (in the order the daily brief gives), mark each [x] with the commit SHA, then write the day's post.
+After the fix-list, do **at least 3 open items** in `seo-data/site-tasks.md` (in the order you judge best from the data), mark each [x] with the commit SHA, then write the day's post.
 
 **Topic selection is data-driven — read `seo-data/STRATEGY.md` first.** Pick the
 next post from `seo-data/blog-queue.json` (real DataForSEO AZ demand), check

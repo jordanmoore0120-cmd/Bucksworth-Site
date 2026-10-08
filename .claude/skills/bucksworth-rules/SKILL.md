@@ -62,7 +62,10 @@ Jordan in Slack. Don't work around it.
 ## 6. Systems and approvals
 - **Tracking tags** (GA4 `G-ZDL1V7HMVV`, Google Ads `AW-16665649274`, Meta pixel
   `1745744873282534`): never add, remove, defer or lazy-load them without Jordan's OK.
-- **URLs:** never delete a page or change a slug. Any move needs a 301 in the same commit.
+- **URLs:** never delete a page or change a slug. Any move needs a 301 in the same commit. Run
+  `node scripts/url-guard.mjs prepush` before every push; never leave an indexed URL on 404.
+- **No cannibalization, search intent first:** run `node scripts/topic-check.mjs "<keyword>"` before any
+  new page, post, GBP topic or ad landing page; match the live SERP's result type. One search = one URL.
 - **Google Ads/LSA:** any change to spend, bids, budgets, keywords, ads or status needs
   Jordan's approval of the exact change first. The $10K/month cap includes LSA. No
   "let's scale" pitch until tracking has been clean 2–3 weeks and cost per booked
