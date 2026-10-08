@@ -36,7 +36,8 @@ decide the order of work from the data and Jordan's words. Jordan's goal (2026-1
 content that RANKS and DRIVES PHONE CALLS, built on real search intent, with zero cannibalization.
 
 **Session-start checks (every run, before planning):**
-1. Open GitHub issues labelled `url-guard` = live URLs that broke. Fix them FIRST (301 or restore).
+1. URL breaks: `URL GUARD` items in `seo-data/fix-list.md` (and any GitHub issue labelled
+   `url-guard`) = live URLs that broke. Fix them FIRST (301 or restore).
 2. `seo-data/url-baseline.json` → `known_broken_*` lists indexed URLs that already 404. Every one
    needs a 301 to the closest live page; clear them over the coming sessions.
 3. Connector health: call one read-only action on each Zapier app you have (GBP, Google Ads, GA4,
@@ -151,8 +152,10 @@ must change, add the redirect in the same commit.
 URL protection is automated (Jordan 2026-10-07: "protect all urls"):
 - `node scripts/url-guard.mjs prepush` before EVERY push: fails if a blog slug, city, service,
   route or redirect disappears without a 301. Never push on FAIL.
-- `.github/workflows/url-guard.yml` re-checks all ~6,500 known URLs (sitemap + every page with
-  Search Console impressions) on production after each push and daily; new breaks open an issue.
+- The live check (`node scripts/url-guard.mjs prod`, all ~6,500 known URLs = sitemap + every page
+  with Search Console impressions) runs every morning in Viktor's data feed; any NEW break is
+  written to `seo-data/fix-list.md`, which you clear first. A GitHub Action version waiting to be
+  installed is in `scripts/url-guard.workflow.yml` (needs a token with `workflows` permission).
 - Never 404 or noindex a URL that has impressions. Consolidating = 301 the weaker URL into the
   stronger one, never delete.
 
