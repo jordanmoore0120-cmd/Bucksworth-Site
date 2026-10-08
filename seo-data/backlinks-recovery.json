@@ -1,0 +1,547 @@
+{
+ "generated": "2026-10-07",
+ "source": "DataForSEO Backlinks API (history/live, backlinks/live live+lost, domain_pages/live)",
+ "monthly_history": [
+  {
+   "month": "2024-01",
+   "domain_rank": 185,
+   "backlinks": 116,
+   "referring_domains": 50,
+   "new_rd": 0,
+   "lost_rd": 0
+  },
+  {
+   "month": "2024-02",
+   "domain_rank": 189,
+   "backlinks": 114,
+   "referring_domains": 51,
+   "new_rd": 3,
+   "lost_rd": 1
+  },
+  {
+   "month": "2024-03",
+   "domain_rank": 189,
+   "backlinks": 109,
+   "referring_domains": 51,
+   "new_rd": 1,
+   "lost_rd": 0
+  },
+  {
+   "month": "2024-04",
+   "domain_rank": 189,
+   "backlinks": 110,
+   "referring_domains": 51,
+   "new_rd": 1,
+   "lost_rd": 0
+  },
+  {
+   "month": "2024-05",
+   "domain_rank": 191,
+   "backlinks": 119,
+   "referring_domains": 51,
+   "new_rd": 1,
+   "lost_rd": 1
+  },
+  {
+   "month": "2024-06",
+   "domain_rank": 181,
+   "backlinks": 117,
+   "referring_domains": 49,
+   "new_rd": 1,
+   "lost_rd": 0
+  },
+  {
+   "month": "2024-07",
+   "domain_rank": 183,
+   "backlinks": 121,
+   "referring_domains": 49,
+   "new_rd": 3,
+   "lost_rd": 0
+  },
+  {
+   "month": "2024-08",
+   "domain_rank": 183,
+   "backlinks": 126,
+   "referring_domains": 50,
+   "new_rd": 1,
+   "lost_rd": 0
+  },
+  {
+   "month": "2024-09",
+   "domain_rank": 183,
+   "backlinks": 117,
+   "referring_domains": 46,
+   "new_rd": 3,
+   "lost_rd": 2
+  },
+  {
+   "month": "2024-10",
+   "domain_rank": 182,
+   "backlinks": 125,
+   "referring_domains": 60,
+   "new_rd": 15,
+   "lost_rd": 1
+  },
+  {
+   "month": "2024-11",
+   "domain_rank": 180,
+   "backlinks": 135,
+   "referring_domains": 65,
+   "new_rd": 7,
+   "lost_rd": 1
+  },
+  {
+   "month": "2024-12",
+   "domain_rank": 179,
+   "backlinks": 125,
+   "referring_domains": 73,
+   "new_rd": 9,
+   "lost_rd": 1
+  },
+  {
+   "month": "2025-01",
+   "domain_rank": 179,
+   "backlinks": 113,
+   "referring_domains": 73,
+   "new_rd": 2,
+   "lost_rd": 2
+  },
+  {
+   "month": "2025-02",
+   "domain_rank": 178,
+   "backlinks": 107,
+   "referring_domains": 71,
+   "new_rd": 3,
+   "lost_rd": 4
+  },
+  {
+   "month": "2025-03",
+   "domain_rank": 178,
+   "backlinks": 108,
+   "referring_domains": 73,
+   "new_rd": 3,
+   "lost_rd": 1
+  },
+  {
+   "month": "2025-04",
+   "domain_rank": 178,
+   "backlinks": 109,
+   "referring_domains": 75,
+   "new_rd": 4,
+   "lost_rd": 2
+  },
+  {
+   "month": "2025-05",
+   "domain_rank": 178,
+   "backlinks": 120,
+   "referring_domains": 82,
+   "new_rd": 9,
+   "lost_rd": 2
+  },
+  {
+   "month": "2025-06",
+   "domain_rank": 112,
+   "backlinks": 117,
+   "referring_domains": 82,
+   "new_rd": 1,
+   "lost_rd": 1
+  },
+  {
+   "month": "2025-07",
+   "domain_rank": 112,
+   "backlinks": 121,
+   "referring_domains": 86,
+   "new_rd": 6,
+   "lost_rd": 2
+  },
+  {
+   "month": "2025-08",
+   "domain_rank": 89,
+   "backlinks": 118,
+   "referring_domains": 85,
+   "new_rd": 4,
+   "lost_rd": 2
+  },
+  {
+   "month": "2025-09",
+   "domain_rank": 93,
+   "backlinks": 124,
+   "referring_domains": 86,
+   "new_rd": 5,
+   "lost_rd": 2
+  },
+  {
+   "month": "2025-10",
+   "domain_rank": 92,
+   "backlinks": 118,
+   "referring_domains": 77,
+   "new_rd": 3,
+   "lost_rd": 12
+  },
+  {
+   "month": "2025-11",
+   "domain_rank": 99,
+   "backlinks": 121,
+   "referring_domains": 77,
+   "new_rd": 7,
+   "lost_rd": 1
+  },
+  {
+   "month": "2025-12",
+   "domain_rank": 104,
+   "backlinks": 125,
+   "referring_domains": 78,
+   "new_rd": 4,
+   "lost_rd": 5
+  },
+  {
+   "month": "2026-01",
+   "domain_rank": 114,
+   "backlinks": 131,
+   "referring_domains": 82,
+   "new_rd": 5,
+   "lost_rd": 1
+  },
+  {
+   "month": "2026-02",
+   "domain_rank": 114,
+   "backlinks": 132,
+   "referring_domains": 82,
+   "new_rd": 6,
+   "lost_rd": 6
+  },
+  {
+   "month": "2026-03",
+   "domain_rank": 116,
+   "backlinks": 133,
+   "referring_domains": 83,
+   "new_rd": 5,
+   "lost_rd": 3
+  },
+  {
+   "month": "2026-04",
+   "domain_rank": 117,
+   "backlinks": 132,
+   "referring_domains": 83,
+   "new_rd": 4,
+   "lost_rd": 3
+  },
+  {
+   "month": "2026-05",
+   "domain_rank": 117,
+   "backlinks": 123,
+   "referring_domains": 78,
+   "new_rd": 1,
+   "lost_rd": 5
+  },
+  {
+   "month": "2026-06",
+   "domain_rank": 120,
+   "backlinks": 127,
+   "referring_domains": 79,
+   "new_rd": 6,
+   "lost_rd": 3
+  },
+  {
+   "month": "2026-07",
+   "domain_rank": 145,
+   "backlinks": 126,
+   "referring_domains": 75,
+   "new_rd": 2,
+   "lost_rd": 4
+  },
+  {
+   "month": "2026-08",
+   "domain_rank": 158,
+   "backlinks": 154,
+   "referring_domains": 87,
+   "new_rd": 19,
+   "lost_rd": 5
+  },
+  {
+   "month": "2026-09",
+   "domain_rank": 157,
+   "backlinks": 353,
+   "referring_domains": 283,
+   "new_rd": 198,
+   "lost_rd": 3
+  }
+ ],
+ "live_backlinks_now": 799,
+ "live_referring_domains_now": 751,
+ "live_links_tld_mix": {
+  "com": 115,
+  "site": 112,
+  "space": 108,
+  "website": 105,
+  "store": 101,
+  "online": 99,
+  "shop": 96,
+  "info": 17,
+  "link": 14,
+  "org": 7,
+  "eu": 3,
+  "wiki": 2
+ },
+ "live_links_first_seen_since_2026_08_15": 705,
+ "pages_with_backlinks": [
+  {
+   "page": "https://getyourbucksworth.com/",
+   "status_code_when_crawled": 301,
+   "referring_domains": 731,
+   "backlinks": 780,
+   "spam_score": 49
+  },
+  {
+   "page": "http://www.getyourbucksworth.com/",
+   "status_code_when_crawled": 301,
+   "referring_domains": 7,
+   "backlinks": 18,
+   "spam_score": 0
+  },
+  {
+   "page": "https://getyourbucksworth.com/about/",
+   "status_code_when_crawled": 404,
+   "referring_domains": 1,
+   "backlinks": 1,
+   "spam_score": 20
+  },
+  {
+   "page": "http://getyourbucksworth.com/",
+   "status_code_when_crawled": 308,
+   "referring_domains": 9,
+   "backlinks": 14,
+   "spam_score": 2
+  },
+  {
+   "page": "https://www.getyourbucksworth.com/",
+   "status_code_when_crawled": 200,
+   "referring_domains": 6,
+   "backlinks": 11,
+   "spam_score": 4
+  },
+  {
+   "page": "https://www.getyourbucksworth.com/chandler-az/weed-and-lawn-care",
+   "status_code_when_crawled": 200,
+   "referring_domains": 1,
+   "backlinks": 1,
+   "spam_score": 0
+  },
+  {
+   "page": "https://getyourbucksworth.com/phoenix-ac-tune-up-staying-cool-in-moon-valley-all-summer-long/",
+   "status_code_when_crawled": 301,
+   "referring_domains": 1,
+   "backlinks": 2,
+   "spam_score": 22
+  },
+  {
+   "page": "http://getyourbucksworth.com/?utm_campaign=gmb",
+   "status_code_when_crawled": 308,
+   "referring_domains": 3,
+   "backlinks": 6,
+   "spam_score": 0
+  },
+  {
+   "page": "https://getyourbucksworth.com/?utm_medium=organic&utm_source=google&utm_campaign=gbp_tucson",
+   "status_code_when_crawled": 301,
+   "referring_domains": 1,
+   "backlinks": 2,
+   "spam_score": 0
+  },
+  {
+   "page": "https://getyourbucksworth.com/phoenix/hvac-services/maintenance/",
+   "status_code_when_crawled": 200,
+   "referring_domains": 1,
+   "backlinks": 1,
+   "spam_score": 0
+  },
+  {
+   "page": "https://getyourbucksworth.com/best-pest-control-oro-valley-smart-prevention-for-local-pests/",
+   "status_code_when_crawled": 200,
+   "referring_domains": 1,
+   "backlinks": 1,
+   "spam_score": 0
+  },
+  {
+   "page": "https://getyourbucksworth.com/phoenix-plumbing-solutions-reliable-leak-detection-and-repairs/",
+   "status_code_when_crawled": 200,
+   "referring_domains": 1,
+   "backlinks": 1,
+   "spam_score": 0
+  },
+  {
+   "page": "https://getyourbucksworth.com/expert-plumbing-in-tempe-85283-home-solutions/",
+   "status_code_when_crawled": 200,
+   "referring_domains": 1,
+   "backlinks": 1,
+   "spam_score": 20
+  },
+  {
+   "page": "https://getyourbucksworth.com/tempe-plumbing-experts-serving-maple-ash/",
+   "status_code_when_crawled": 200,
+   "referring_domains": 1,
+   "backlinks": 1,
+   "spam_score": 20
+  },
+  {
+   "page": "https://getyourbucksworth.com/peoria-toilet-repair-guide-quick-fixes-and-when-to-call-the-experts/",
+   "status_code_when_crawled": 200,
+   "referring_domains": 1,
+   "backlinks": 1,
+   "spam_score": 0
+  },
+  {
+   "page": "https://getyourbucksworth.com/gilbert-plumbing-experts-reliable-service-for-your-water-heater/",
+   "status_code_when_crawled": 200,
+   "referring_domains": 1,
+   "backlinks": 1,
+   "spam_score": 20
+  }
+ ],
+ "lost_backlinks": [
+  {
+   "from": "https://www.salesjobs.com/sales-job/51111806",
+   "from_domain_rank": 228,
+   "to": "http://www.getyourbucksworth.com/",
+   "first_seen": "2025-06-20",
+   "last_seen": "2025-10-11",
+   "anchor": null
+  },
+  {
+   "from": "https://hvaclaboratory.com/hvac-repair-in-phoenix-arizona/",
+   "from_domain_rank": 162,
+   "to": "https://getyourbucksworth.com/phoenix/hvac-services/maintenance/",
+   "first_seen": "2026-04-21",
+   "last_seen": "2026-05-17",
+   "anchor": null
+  },
+  {
+   "from": "https://robuta.com/?q=plumbing+solutions",
+   "from_domain_rank": 193,
+   "to": "https://getyourbucksworth.com/phoenix-plumbing-solutions-reliable-leak-detection-and-repairs/",
+   "first_seen": "2026-06-24",
+   "last_seen": "2026-09-19",
+   "anchor": null
+  },
+  {
+   "from": "https://sites.jake.eu/share/110251",
+   "from_domain_rank": 252,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2026-02-24",
+   "last_seen": "2026-08-31",
+   "anchor": null
+  },
+  {
+   "from": "https://www.bestprosintown.com/az/apache-junction/bucksworth-services-/",
+   "from_domain_rank": 516,
+   "to": "http://getyourbucksworth.com/",
+   "first_seen": "2024-04-03",
+   "last_seen": "2026-08-19",
+   "anchor": null
+  },
+  {
+   "from": "https://www.way2check.cv/page-46ee0d3a3aa612c574d7102342b3b624.html",
+   "from_domain_rank": 188,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2026-06-11",
+   "last_seen": "2026-08-10",
+   "anchor": null
+  },
+  {
+   "from": "https://bye.fyi/report/110252",
+   "from_domain_rank": 316,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2025-11-17",
+   "last_seen": "2026-08-06",
+   "anchor": null
+  },
+  {
+   "from": "https://bye.fyi/report/110251",
+   "from_domain_rank": 317,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2026-06-04",
+   "last_seen": "2026-07-27",
+   "anchor": null
+  },
+  {
+   "from": "https://ready.pro/stats/110251",
+   "from_domain_rank": 210,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2026-06-22",
+   "last_seen": "2026-07-26",
+   "anchor": null
+  },
+  {
+   "from": "https://robuta.com/?q=pests",
+   "from_domain_rank": 190,
+   "to": "https://getyourbucksworth.com/best-pest-control-oro-valley-smart-prevention-for-local-pests/",
+   "first_seen": "2026-06-19",
+   "last_seen": "2026-07-25",
+   "anchor": null
+  },
+  {
+   "from": "https://robuta.com/?q=peoria",
+   "from_domain_rank": 190,
+   "to": "https://getyourbucksworth.com/peoria-toilet-repair-guide-quick-fixes-and-when-to-call-the-experts/",
+   "first_seen": "2026-06-18",
+   "last_seen": "2026-07-25",
+   "anchor": null
+  },
+  {
+   "from": "https://azmomsquad.com/arizona-business-directory/",
+   "from_domain_rank": 75,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2022-12-09",
+   "last_seen": "2026-06-30",
+   "anchor": null
+  },
+  {
+   "from": "https://way2check.cv/page-46ee0d3a3aa612c574d7102342b3b624.html",
+   "from_domain_rank": 181,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2026-01-28",
+   "last_seen": "2026-06-18",
+   "anchor": null
+  },
+  {
+   "from": "http://www.jazminsbeautysalon.be/best-white-dark-hat-linkbuilding-for-your-website-1188/",
+   "from_domain_rank": 288,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2024-11-18",
+   "last_seen": "2026-05-25",
+   "anchor": null
+  },
+  {
+   "from": "http://connect.releasewire.com/companies/?navletter=B&page=5",
+   "from_domain_rank": 663,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2025-11-10",
+   "last_seen": "2026-01-19",
+   "anchor": null
+  },
+  {
+   "from": "http://connect.releasewire.com/companies/professional-services?page=2",
+   "from_domain_rank": 664,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2025-09-22",
+   "last_seen": "2025-12-27",
+   "anchor": null
+  },
+  {
+   "from": "http://connect.releasewire.com/companies/professional-services/?page=3",
+   "from_domain_rank": 664,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2025-09-27",
+   "last_seen": "2025-12-25",
+   "anchor": null
+  },
+  {
+   "from": "https://connect.releasewire.com/companies/professional-services/",
+   "from_domain_rank": 664,
+   "to": "https://getyourbucksworth.com/",
+   "first_seen": "2025-09-04",
+   "last_seen": "2025-11-11",
+   "anchor": null
+  }
+ ]
+}

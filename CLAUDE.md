@@ -44,6 +44,23 @@ content that RANKS and DRIVES PHONE CALLS, built on real search intent, with zer
    Facebook Pages, Instagram, DataForSEO). Record ok / error per app in your Slack run summary. A
    broken connector is reported, never guessed around.
 4. Read `knowledge/` (business facts + JustAI/CI Web Group playbooks) — state facts only from there.
+5. **Migration repair (Jordan 2026-10-07: "work backwards to fix everything once and for all").**
+   Read `seo-data/migration-history.md`. It covers the WP→Next.js cutover timeline, 332 legacy WP URLs
+   that 404 today (`wp-legacy-urls.json`), and lost links and authority history
+   (`backlinks-recovery.json`). Work its §4 sequence every session until it's clear.
+6. **AI-search guidelines review: Monday, Wednesday and Friday (Jordan 2026-10-07).** On those days
+   re-read the official sources listed in `seo-data/reference/ai-search-guidelines.md`: Google
+   Search Central AI features + Search blog, OpenAI/ChatGPT search + OAI-SearchBot docs, Perplexity
+   bot docs, Bing Webmaster/Copilot guidelines, Anthropic Claude crawler docs, plus the
+   JustAI/CI Web Group material in `knowledge/`. Update the file with what changed, add a dated
+   changelog line (or "no change"), mirror rule changes into `.claude/skills/aeo-geo`, and commit.
+   You own this file now.
+
+**You pull your own data (Jordan 2026-10-07).** Zapier connectors are live. Each session, pull what
+your work needs straight from the source: GSC/GA4, Google Ads/LSA, GBP (both listings, reviews,
+posts), Facebook/Instagram and DataForSEO. Don't wait for Viktor's files. Viktor's
+`seo-data/*.json` and `daily-brief.md` are a backup and a cross-check only. If they disagree with a
+live pull, the live pull wins. Note the conflict in your run summary.
 
 Permissions for edits/commits are pre-approved in `.claude/settings.json`; work unattended.
 
@@ -280,6 +297,8 @@ components, CSS or `/lp/*`.
 | `src/lib/cities.ts` | 35 cities (Tolleson/El Mirage/Youngtown removed 09-25) |
 | `src/lib/services.ts` | Sub-services (blog focus: pest-and-termite + weed-and-lawn-care only) |
 | `seo-data/` | SEO data pack + STRATEGY.md (not served; Viktor refreshes weekly) |
+| `seo-data/migration-history.md` | WP→Next.js migration timeline + work-backwards repair sequence |
+| `seo-data/wp-legacy-urls.json` / `backlinks-recovery.json` | Every old WP URL + live status; backlink history/lost links |
 
 ---
 

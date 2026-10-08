@@ -37,7 +37,7 @@ description: AI-search visibility (AEO / AIO / GEO) for Bucksworth — how to ge
 - Every change you make for AI search should name the question it targets and be
   re-measured later.
 
-## Keep the rules current (this is a standing job)
+## Keep the rules current (standing job: every Monday, Wednesday and Friday, Jordan 2026-10-07)
 Check these primary sources for changes and update `ai-search-guidelines.md` (dated,
 cited, do/don't form, under ~250 lines, remove rules that are no longer true):
 - Google Search Central (AI features, helpful content, spam policies, structured data,

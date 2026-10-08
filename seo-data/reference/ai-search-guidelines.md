@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Maintained by Viktor's SEO-intel bot. Last full review: **2026-10-02**; updated **2026-10-05**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-05**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
