@@ -96,7 +96,7 @@
    "status": "open",
    "created": "2026-10-07",
    "demand": "customer-visible: Services mega-menu on every page",
-   "title": "Menus and estimator imply lawn/landscape maintenance we don't sell: 'Gravel & Rock Yard Maintenance' (menu), estimator 'Full Lawn Care' / 'Weed + Lawn Combo', meta 'lawn and landscape care'. Change the VISIBLE LABELS only (e.g. 'Gravel & Rock Yard Weed Control'); never the URL slugs. Lawn Fertilization / Overseeding / Weed & Feed labels: waiting for Jordan to confirm whether we sell them.",
+   "title": "Menus and estimator imply lawn/landscape MAINTENANCE we don't sell. Fix: 'Gravel & Rock Yard Maintenance' (menu label), estimator 'Full Lawn Care', and meta 'lawn and landscape care'. Change the VISIBLE LABELS only (e.g. 'Gravel & Rock Yard Weed Control', 'Lawn Fertilization & Weed Control'); never the URL slugs. KEEP Lawn Fertilization, Overseeding, Pre-Emergent and Weed & Feed: Jordan confirmed 2026-10-07 we sell them (TruGreen-style lawn treatment).",
    "evidence": "site-qa service-truth FAILs (live nav + src/lib/services.ts:390, src/components/InstantEstimator.tsx:192)",
    "done": null
   },
