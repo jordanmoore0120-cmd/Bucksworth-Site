@@ -53,5 +53,17 @@
   "az_volume": 590,
   "queue_rank": 2,
   "money_page_linked": "/tempe-az/pest-and-termite/bee-wasp-removal"
+ },
+ {
+  "date": "2026-10-09",
+  "slug": "how-long-can-mosquitoes-live-a-chandler-homeowners-guide-to-mosquito-lifespans",
+  "city": "chandler-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "mosquito-control",
+  "target_question": "how long can mosquitoes live",
+  "az_volume": 1600,
+  "queue_rank": 4,
+  "money_page_linked": "/chandler-az/pest-and-termite/mosquito-control",
+  "serp_type": "how-to/blog informational (queue data; live SERP not re-pulled, no Zapier DataForSEO in this run)"
  }
 ]

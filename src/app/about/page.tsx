@@ -4,11 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Bucksworth Home Services | Family-Owned Since 2013",
   description:
-    "Meet Jordan & Taylor Moore — the Arizona family behind Bucksworth Home Services. Pest control, HVAC, plumbing & weed control across 33 cities in Phoenix and Tucson since 2013. AZ ROC #343924. Google Guaranteed.",
+    "Meet Jordan & Taylor Moore — the Arizona family behind Bucksworth Home Services. Pest control, termite and weed & lawn care across 35 cities in Phoenix and Tucson since 2013. AZ ROC #343924. Google Guaranteed.",
   alternates: { canonical: "https://www.getyourbucksworth.com/about" },
   openGraph: {
     title: "About Bucksworth Home Services | Family-Owned Since 2013",
-    description: "Meet the Moores — the Arizona family behind Bucksworth Home Services. Serving 33 cities since 2013.",
+    description: "Meet the Moores — the Arizona family behind Bucksworth Home Services. Serving 35 cities since 2013.",
     url: "https://www.getyourbucksworth.com/about",
     type: "website",
     images: [{ url: "/images/photos/family-portrait.jpg", width: 1200, height: 630, alt: "Jordan and Taylor Moore, founders of Bucksworth Home Services" }],
@@ -21,7 +21,7 @@ const aboutSchema = {
   "@type": "AboutPage",
   "@id": "https://www.getyourbucksworth.com/about#aboutpage",
   name: "About Bucksworth Home Services",
-  description: "Family-owned pest control, HVAC, plumbing, and weed control company serving 33 cities in Phoenix and Tucson, Arizona since 2013. Founded by Jordan and Taylor Moore.",
+  description: "Family-owned pest control, termite and weed & lawn care company serving 35 cities in Phoenix and Tucson, Arizona since 2013. Founded by Jordan and Taylor Moore.",
   url: "https://www.getyourbucksworth.com/about",
   mainEntity: { "@id": "https://www.getyourbucksworth.com/#organization" },
 };
@@ -101,7 +101,7 @@ export default function AboutPage() {
                 So in 2013 we started Bucksworth. The idea was simple: people don&rsquo;t call us because they want to &mdash; they call because they have a problem. We get to fix it and make them happy. That&rsquo;s still what gets us up in the morning.
               </p>
               <p>
-                Not a franchise. Not a corporation. Just a real Arizona family taking care of real Arizona families &mdash; 33 cities and counting.
+                Not a franchise. Not a corporation. Just a real Arizona family taking care of real Arizona families &mdash; 35 cities and counting.
               </p>
             </div>
             <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}>
@@ -217,19 +217,19 @@ export default function AboutPage() {
             <Link href="/apache-junction-az/pest-and-termite">pest control in Apache Junction</Link>, Gold Canyon and the Superstition Foothills.
           </p>
           <p>
-            Bucksworth Home Services covers 33 cities across two Arizona metros:
+            Bucksworth Home Services covers 35 cities across two Arizona metros:
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px", margin: "16px 0 24px" }}>
             <div>
-              <h3 style={{ fontSize: "16px", fontWeight: 700, color: "var(--navy)", marginBottom: "8px" }}>Phoenix Metro (24 Cities)</h3>
+              <h3 style={{ fontSize: "16px", fontWeight: 700, color: "var(--navy)", marginBottom: "8px" }}>Phoenix Metro (26 Cities)</h3>
               <p style={{ fontSize: "14px", color: "var(--g600)", lineHeight: "1.8" }}>
-                Phoenix, Scottsdale, Tempe, Mesa, Chandler, Gilbert, Glendale, Peoria, Surprise, Goodyear, Buckeye, Avondale, Litchfield Park, Sun City, Sun City West, Ahwatukee, Fountain Hills, Cave Creek, Anthem, Queen Creek, San Tan Valley, Apache Junction, Gold Canyon, Maricopa
+                Phoenix, Scottsdale, Tempe, Mesa, Chandler, Gilbert, Glendale, Peoria, Surprise, Goodyear, Buckeye, Avondale, Litchfield Park, Ahwatukee, Fountain Hills, Paradise Valley, Anthem, Laveen, Queen Creek, San Tan Valley, Apache Junction, Gold Canyon, Maricopa, Casa Grande, Coolidge, Florence
               </p>
             </div>
             <div>
               <h3 style={{ fontSize: "16px", fontWeight: 700, color: "var(--navy)", marginBottom: "8px" }}>Tucson Metro (9 Cities)</h3>
               <p style={{ fontSize: "14px", color: "var(--g600)", lineHeight: "1.8" }}>
-                Tucson, Oro Valley, Marana, Sahuarita, Green Valley, Vail, Catalina Foothills, Casas Adobes, Tanque Verde
+                Tucson, Oro Valley, Marana, Sahuarita, Green Valley, Vail, Catalina Foothills, Red Rock, Valencia West
               </p>
             </div>
           </div>

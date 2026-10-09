@@ -61,7 +61,7 @@ export default function WebMCPTools() {
       mc.registerTool({
         name: "find_service_area",
         description:
-          "Navigate to a specific city's service page to see what Bucksworth offers there. Serves 33 cities across Phoenix and Tucson metro areas.",
+          "Navigate to a specific city's service page to see what Bucksworth offers there. Serves 35 cities across Phoenix and Tucson metro areas.",
         parameters: {
           type: "object",
           properties: {

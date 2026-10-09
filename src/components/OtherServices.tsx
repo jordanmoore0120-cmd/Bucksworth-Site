@@ -18,8 +18,12 @@ export default function OtherServices({
   city,
   currentServiceSlug,
 }: OtherServicesProps) {
+  // Pest and weed pages only cross-link each other (off-focus link cleanup, site-tasks #10).
+  const focusOnly =
+    currentServiceSlug === "pest-and-termite" ||
+    currentServiceSlug === "weed-and-lawn-care";
   const availableServices =
-    city.branch === "phoenix"
+    city.branch === "phoenix" && !focusOnly
       ? SERVICES
       : SERVICES.filter(
           (s) =>

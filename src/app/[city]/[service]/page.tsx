@@ -495,7 +495,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
           <div className="svc-hub-content-inner">
             <h2>Serving {city.name} &amp; the {metro} Metro Since 2013</h2>
             <p>
-              Bucksworth Home Services is a locally owned and operated company founded by Jordan and Taylor Moore in 2013. What started as a small pest control operation has grown into a full-service home services provider serving 33 cities across Phoenix and Tucson — including every neighborhood in {city.name} from {nhoods[0]?.name || "the city center"} to {nhoods[nhoods.length - 1]?.name || "the surrounding areas"}.{lmarks.length > 0 ? ` Whether you live near ${lmarks[0]} or in the ${city.zipCodes[0] || ""} zip code area, we treat your home like family.` : ""} We are proud to call Arizona home, and our commitment to the {city.name} community shows in everything we do.
+              Bucksworth Home Services is a locally owned and operated company founded by Jordan and Taylor Moore in 2013. What started as a small pest control operation has grown into a full-service home services provider serving 35 cities across Phoenix and Tucson — including every neighborhood in {city.name} from {nhoods[0]?.name || "the city center"} to {nhoods[nhoods.length - 1]?.name || "the surrounding areas"}.{lmarks.length > 0 ? ` Whether you live near ${lmarks[0]} or in the ${city.zipCodes[0] || ""} zip code area, we treat your home like family.` : ""} We are proud to call Arizona home, and our commitment to the {city.name} community shows in everything we do.
             </p>
             <p>
               Our credentials include:

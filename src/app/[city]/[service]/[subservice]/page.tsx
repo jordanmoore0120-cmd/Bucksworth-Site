@@ -15,6 +15,7 @@ import {
 import { getNeighborhoods } from "@/lib/neighborhoods";
 import { nearestCities, anchorFor } from "@/lib/nearest-cities";
 import { getContentOverride } from "@/lib/content-overrides";
+import { getLocalNote } from "@/lib/local-notes";
 import CityBar from "@/components/CityBar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import ProcessSteps from "@/components/ProcessSteps";
@@ -95,7 +96,9 @@ export default async function SubServicePage({
   const override = getContentOverride(cSlug, sSlug, ssSlug);
 
   // Build contextual content blocks — use override if available, else default 1200+ word template
-  const content = override?.content ?? buildContent(sub.name, sub.longDesc, city.name, branch, city.county, phone, service.name, city.zipCodes, city.population, nd.neighborhoods, nd.landmarks);
+  const baseContent = override?.content ?? buildContent(sub.name, sub.longDesc, city.name, branch, city.county, phone, service.name, city.zipCodes, city.population, nd.neighborhoods, nd.landmarks);
+  const localNote = override ? undefined : getLocalNote(cSlug, sSlug, ssSlug);
+  const content = localNote ? [...baseContent, localNote] : baseContent;
 
   // Related sub-services (same vertical, excluding current)
   const relatedSubs = service.subServices.filter((s) => s.slug !== ssSlug);
@@ -505,7 +508,7 @@ function buildFaqs(
     },
     {
       q: `What ${cityName} neighborhoods does Bucksworth serve for ${svc}?`,
-      a: `We serve every neighborhood and zip code in ${cityName} as well as surrounding ${branch} metro communities — 33 cities total. Whether you are right in town or in a nearby area, our technicians are typically 30 minutes or less from your door.`,
+      a: `We serve every neighborhood and zip code in ${cityName} as well as surrounding ${branch} metro communities — 35 cities total. Whether you are right in town or in a nearby area, our technicians are typically 30 minutes or less from your door.`,
     },
     {
       q: `Do I need to be home for ${svc} service in ${cityName}?`,

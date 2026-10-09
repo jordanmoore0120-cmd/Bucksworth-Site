@@ -133,7 +133,7 @@ export default function ReviewsPage() {
             {data && <span className="city-hero-badge">&#9733; {ratingLabel} Average Rating</span>}
             <span className="city-hero-badge">&#10003; Google Guaranteed</span>
             {data && <span className="city-hero-badge">{totalLabel} Reviews</span>}
-            <span className="city-hero-badge">33 Cities Served</span>
+            <span className="city-hero-badge">35 Cities Served</span>
           </div>
         </div>
       </section>
@@ -207,7 +207,7 @@ export default function ReviewsPage() {
         <div className="svc-hub-content-inner">
           <h2>Why Arizona Homeowners Trust Bucksworth</h2>
           <p>
-            Since 2013, Bucksworth Home Services has earned the trust of Arizona families across 33 cities in the Phoenix and Tucson metro areas. Our reputation is built on treating every home with care and never cutting corners on quality, communication, or customer service.
+            Since 2013, Bucksworth Home Services has earned the trust of Arizona families across 35 cities in the Phoenix and Tucson metro areas. Our reputation is built on treating every home with care and never cutting corners on quality, communication, or customer service.
           </p>
           <p>
             We are Google Guaranteed, meaning Google has independently verified our business licenses, insurance, and employee background checks. When you hire Bucksworth, you are hiring a company that Google trusts enough to back with their own guarantee.
