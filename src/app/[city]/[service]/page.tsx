@@ -514,6 +514,54 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
           </div>
         </section>
 
+        {/* ── HOW TO CHOOSE (pest hubs, task 13) ── */}
+        {svcSlug === "pest-and-termite" && (
+          <section className="svc-hub-content" style={{ background: "var(--g50)" }}>
+            <div className="svc-hub-content-inner">
+              <h2>How to Choose a Pest Control Company in {city.name}</h2>
+              <p>
+                Choose a pest control company in {city.name} that holds an Arizona Department of Agriculture pest management license, inspects before it treats, and explains exactly how it handles scorpions and termites. Ask for the license number, the method, and how fast they respond. Here is how Bucksworth answers each question.
+              </p>
+              <div style={{ overflowX: "auto" }}>
+                <table style={{ width: "100%", borderCollapse: "collapse", margin: "16px 0", fontSize: "15px", lineHeight: 1.5 }}>
+                  <thead>
+                    <tr>
+                      <th scope="col" style={{ textAlign: "left", padding: "10px", borderBottom: "2px solid var(--navy)" }}>What to ask</th>
+                      <th scope="col" style={{ textAlign: "left", padding: "10px", borderBottom: "2px solid var(--navy)" }}>Bucksworth in {city.name}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row" style={{ textAlign: "left", padding: "10px", borderBottom: "1px solid var(--g200)" }}>Licensed by the state?</th>
+                      <td style={{ padding: "10px", borderBottom: "1px solid var(--g200)" }}>Arizona Department of Agriculture pest management license #9613 (AZ ROC #343924)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" style={{ textAlign: "left", padding: "10px", borderBottom: "1px solid var(--g200)" }}>How do you handle scorpions?</th>
+                      <td style={{ padding: "10px", borderBottom: "1px solid var(--g200)" }}>UV blacklight inspection to find them, targeted residual treatment of harborage areas, and sealing of entry points at doors and the foundation</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" style={{ textAlign: "left", padding: "10px", borderBottom: "1px solid var(--g200)" }}>What kind of termite inspection?</th>
+                      <td style={{ padding: "10px", borderBottom: "1px solid var(--g200)" }}>A full inspection for mud tubes, damaged wood and entry points, then Sentricon baiting stations and Termidor liquid barrier where needed, with annual re-inspections</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" style={{ textAlign: "left", padding: "10px", borderBottom: "1px solid var(--g200)" }}>What if pests come back?</th>
+                      <td style={{ padding: "10px", borderBottom: "1px solid var(--g200)" }}>Backed by our 100% Money Back Guarantee *Terms and conditions apply</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" style={{ textAlign: "left", padding: "10px", borderBottom: "1px solid var(--g200)" }}>How fast can you come out?</th>
+                      <td style={{ padding: "10px", borderBottom: "1px solid var(--g200)" }}>Same-day service for urgent pest situations in {city.name}; call {phone}</td>
+                    </tr>
+                    <tr>
+                      <th scope="row" style={{ textAlign: "left", padding: "10px", }}>Can I see real reviews?</th>
+                      <td style={{ padding: "10px", }}>Yes. Read verified Google reviews from {metro}-area customers on our <Link href="/reviews">customer reviews page</Link></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* ── FAQ ── */}
         <FAQAccordion faqs={localFaqs} title={`${service.name} FAQ — ${city.name}, AZ`} />
 
