@@ -1,23 +1,29 @@
 {
- "generated": "2026-10-04T18:25:41.322913+00:00",
+ "generated": "2026-10-11T17:46:29.490794+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-07-04..2026-10-02"
+  "gsc": "Search Console query+page 2026-07-11..2026-10-09"
  },
  "note": "money/city pages ranking 8-25 in GSC: new posts should link UP to these with descriptive anchors",
  "striking_distance_pages": [
   {
    "page": "/phoenix-az/plumbing-and-water-heaters/drain-cleaning",
-   "impressions": 24992,
-   "clicks": 1,
-   "position": 21.7
+   "impressions": 27775,
+   "clicks": 2,
+   "position": 21.4
+  },
+  {
+   "page": "/mesa-az/pest-and-termite",
+   "impressions": 17512,
+   "clicks": 6,
+   "position": 23.6
   },
   {
    "page": "/tucson-az/pest-and-termite",
-   "impressions": 7692,
+   "impressions": 7222,
    "clicks": 9,
-   "position": 24.7
+   "position": 24.9
   },
   {
    "page": "https://getyourbucksworth.com/ac-repair-in-gilbert-az-expert-help-for-your-hvac-system/",
@@ -26,412 +32,448 @@
    "position": 12.2
   },
   {
-   "page": "/marana-az/pest-and-termite",
-   "impressions": 5089,
-   "clicks": 2,
-   "position": 16.7
-  },
-  {
    "page": "/sahuarita-az",
-   "impressions": 4120,
+   "impressions": 4186,
    "clicks": 4,
-   "position": 13.1
-  },
-  {
-   "page": "/san-tan-valley-az",
-   "impressions": 3189,
-   "clicks": 12,
-   "position": 17.4
+   "position": 13.3
   },
   {
    "page": "/apache-junction-az/plumbing-and-water-heaters",
-   "impressions": 3125,
+   "impressions": 3451,
    "clicks": 1,
-   "position": 15.0
+   "position": 15.1
   },
   {
    "page": "/vail-az",
-   "impressions": 3097,
+   "impressions": 3400,
    "clicks": 3,
-   "position": 22.8
-  },
-  {
-   "page": "/marana-az/weed-and-lawn-care",
-   "impressions": 3060,
-   "clicks": 12,
    "position": 22.7
   },
   {
    "page": "/green-valley-az",
-   "impressions": 2797,
+   "impressions": 3168,
    "clicks": 6,
-   "position": 18.5
+   "position": 17.9
   },
   {
-   "page": "/apache-junction-az/pest-and-termite",
-   "impressions": 2678,
-   "clicks": 3,
-   "position": 20.3
+   "page": "/san-tan-valley-az",
+   "impressions": 3089,
+   "clicks": 13,
+   "position": 17.4
   },
   {
-   "page": "/apache-junction-az",
-   "impressions": 2206,
-   "clicks": 4,
-   "position": 12.6
+   "page": "/marana-az/weed-and-lawn-care",
+   "impressions": 2931,
+   "clicks": 14,
+   "position": 23.3
+  },
+  {
+   "page": "/chandler-az/plumbing-and-water-heaters",
+   "impressions": 2839,
+   "clicks": 1,
+   "position": 20.9
   },
   {
    "page": "/scottsdale-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 2195,
+   "impressions": 2556,
    "clicks": 1,
-   "position": 21.6
+   "position": 21.2
   },
   {
-   "page": "/termite-warranty",
-   "impressions": 2187,
-   "clicks": 28,
-   "position": 15.5
+   "page": "/apache-junction-az/pest-and-termite",
+   "impressions": 2516,
+   "clicks": 3,
+   "position": 21.1
   },
   {
-   "page": "/marana-az",
-   "impressions": 2001,
-   "clicks": 2,
-   "position": 23.5
-  },
-  {
-   "page": "/gold-canyon-az",
-   "impressions": 1952,
-   "clicks": 1,
-   "position": 18.5
+   "page": "/apache-junction-az",
+   "impressions": 2198,
+   "clicks": 4,
+   "position": 12.0
   },
   {
    "page": "/scottsdale-az/pest-and-termite/scorpion-control",
-   "impressions": 1941,
+   "impressions": 2132,
    "clicks": 3,
-   "position": 24.6
+   "position": 24.3
   },
   {
    "page": "/tempe-az/plumbing-and-water-heaters",
-   "impressions": 1928,
+   "impressions": 2130,
    "clicks": 1,
    "position": 21.4
   },
   {
+   "page": "/termite-warranty",
+   "impressions": 2106,
+   "clicks": 30,
+   "position": 15.2
+  },
+  {
+   "page": "/marana-az",
+   "impressions": 1962,
+   "clicks": 2,
+   "position": 22.2
+  },
+  {
+   "page": "/gold-canyon-az",
+   "impressions": 1834,
+   "clicks": 1,
+   "position": 18.5
+  },
+  {
    "page": "/peoria-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 1675,
+   "impressions": 1765,
    "clicks": 2,
    "position": 17.1
   },
   {
    "page": "/buckeye-az/air-conditioning-and-heating",
-   "impressions": 1589,
+   "impressions": 1654,
    "clicks": 1,
-   "position": 24.1
+   "position": 24.0
   },
   {
    "page": "/ahwatukee-az/air-conditioning-and-heating",
-   "impressions": 1563,
+   "impressions": 1604,
    "clicks": 0,
-   "position": 16.4
-  },
-  {
-   "page": "/mesa-az/weed-and-lawn-care",
-   "impressions": 1494,
-   "clicks": 1,
    "position": 16.4
   },
   {
    "page": "/chandler-az",
-   "impressions": 1459,
+   "impressions": 1592,
    "clicks": 5,
-   "position": 9.4
+   "position": 8.3
   },
   {
    "page": "/gilbert-az/pest-and-termite/scorpion-control",
-   "impressions": 1451,
+   "impressions": 1572,
    "clicks": 6,
-   "position": 18.3
-  },
-  {
-   "page": "/phoenix-az/pest-and-termite/spider-prevention",
-   "impressions": 1418,
-   "clicks": 1,
-   "position": 17.2
-  },
-  {
-   "page": "/tucson-az/pest-and-termite/roach-elimination",
-   "impressions": 1296,
-   "clicks": 1,
-   "position": 22.1
-  },
-  {
-   "page": "https://getyourbucksworth.com/best-termite-company-tucson-az-experts-in-arizona-desert-protection/",
-   "impressions": 1288,
-   "clicks": 0,
-   "position": 14.2
-  },
-  {
-   "page": "/surprise-az",
-   "impressions": 1280,
-   "clicks": 1,
-   "position": 24.4
-  },
-  {
-   "page": "/tucson-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 1278,
-   "clicks": 1,
-   "position": 23.7
-  },
-  {
-   "page": "/san-tan-valley-az/air-conditioning-and-heating/ac-repair",
-   "impressions": 1258,
-   "clicks": 1,
-   "position": 21.4
-  },
-  {
-   "page": "/scottsdale-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 1236,
-   "clicks": 1,
-   "position": 14.0
+   "position": 18.0
   },
   {
    "page": "/tucson-az/pest-and-termite/scorpion-control",
-   "impressions": 1225,
-   "clicks": 6,
-   "position": 20.0
+   "impressions": 1427,
+   "clicks": 7,
+   "position": 19.4
   },
   {
-   "page": "https://getyourbucksworth.com/best-air-duct-cleaning-tempe-az-85281-breathe-easier-and-save-energy/",
-   "impressions": 1176,
+   "page": "/anthem-az/plumbing-and-water-heaters",
+   "impressions": 1427,
+   "clicks": 0,
+   "position": 15.8
+  },
+  {
+   "page": "/tucson-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 1389,
    "clicks": 1,
-   "position": 9.3
+   "position": 23.3
+  },
+  {
+   "page": "/phoenix-az/pest-and-termite/spider-prevention",
+   "impressions": 1349,
+   "clicks": 1,
+   "position": 16.2
+  },
+  {
+   "page": "/mesa-az/weed-and-lawn-care",
+   "impressions": 1336,
+   "clicks": 2,
+   "position": 17.7
+  },
+  {
+   "page": "/surprise-az",
+   "impressions": 1322,
+   "clicks": 2,
+   "position": 24.2
+  },
+  {
+   "page": "/scottsdale-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 1306,
+   "clicks": 1,
+   "position": 14.7
   },
   {
    "page": "/buckeye-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 1153,
+   "impressions": 1273,
    "clicks": 2,
    "position": 11.8
   },
   {
-   "page": "/anthem-az/plumbing-and-water-heaters",
-   "impressions": 1088,
+   "page": "/anthem-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 1090,
    "clicks": 0,
-   "position": 16.2
+   "position": 13.6
   },
   {
    "page": "/scottsdale-az/air-conditioning-and-heating/mini-split-systems",
-   "impressions": 1026,
+   "impressions": 1086,
    "clicks": 2,
-   "position": 22.1
+   "position": 21.9
   },
   {
    "page": "/buckeye-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 969,
+   "impressions": 1023,
    "clicks": 1,
-   "position": 19.2
-  },
-  {
-   "page": "/anthem-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 949,
-   "clicks": 0,
-   "position": 14.0
-  },
-  {
-   "page": "/florence-az",
-   "impressions": 944,
-   "clicks": 1,
-   "position": 11.3
+   "position": 18.8
   },
   {
    "page": "/casa-grande-az",
-   "impressions": 923,
+   "impressions": 1007,
    "clicks": 1,
-   "position": 19.6
+   "position": 19.5
   },
   {
-   "page": "/phoenix-az",
-   "impressions": 868,
-   "clicks": 3,
-   "position": 12.4
+   "page": "/fountain-hills-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 977,
+   "clicks": 1,
+   "position": 8.7
+  },
+  {
+   "page": "https://getyourbucksworth.com/best-air-duct-cleaning-tempe-az-85281-breathe-easier-and-save-energy/",
+   "impressions": 962,
+   "clicks": 1,
+   "position": 9.3
   },
   {
    "page": "/buckeye-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 867,
+   "impressions": 930,
    "clicks": 2,
-   "position": 10.7
+   "position": 10.9
   },
   {
-   "page": "/red-rock-az",
-   "impressions": 854,
-   "clicks": 4,
-   "position": 15.7
+   "page": "/san-tan-valley-az/air-conditioning-and-heating/ac-repair",
+   "impressions": 908,
+   "clicks": 1,
+   "position": 21.7
   },
   {
    "page": "/laveen-az/air-conditioning-and-heating/ac-installation",
-   "impressions": 851,
+   "impressions": 907,
    "clicks": 1,
    "position": 20.4
   },
   {
-   "page": "/fountain-hills-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 847,
-   "clicks": 1,
-   "position": 8.3
+   "page": "https://getyourbucksworth.com/best-termite-company-tucson-az-experts-in-arizona-desert-protection/",
+   "impressions": 874,
+   "clicks": 0,
+   "position": 14.4
+  },
+  {
+   "page": "/red-rock-az",
+   "impressions": 869,
+   "clicks": 3,
+   "position": 15.2
   },
   {
    "page": "/litchfield-park-az/air-conditioning-and-heating/ac-installation",
-   "impressions": 831,
+   "impressions": 854,
    "clicks": 1,
-   "position": 23.8
+   "position": 23.6
+  },
+  {
+   "page": "/phoenix-az",
+   "impressions": 831,
+   "clicks": 3,
+   "position": 12.0
   },
   {
    "page": "/ahwatukee-az",
-   "impressions": 807,
+   "impressions": 821,
    "clicks": 0,
-   "position": 18.7
-  },
-  {
-   "page": "/phoenix-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
-   "impressions": 788,
-   "clicks": 5,
-   "position": 22.3
+   "position": 19.1
   },
   {
    "page": "/queen-creek-az/pest-and-termite/scorpion-control",
-   "impressions": 695,
+   "impressions": 819,
+   "clicks": 2,
+   "position": 18.5
+  },
+  {
+   "page": "/phoenix-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
+   "impressions": 812,
+   "clicks": 6,
+   "position": 22.0
+  },
+  {
+   "page": "/scottsdale-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 812,
+   "clicks": 1,
+   "position": 21.3
+  },
+  {
+   "page": "/san-tan-valley-az/air-conditioning-and-heating",
+   "impressions": 702,
    "clicks": 2,
    "position": 18.7
   },
   {
-   "page": "/san-tan-valley-az/air-conditioning-and-heating",
-   "impressions": 691,
-   "clicks": 2,
-   "position": 18.8
-  },
-  {
-   "page": "/scottsdale-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 683,
-   "clicks": 1,
-   "position": 19.2
+   "page": "/marana-az/pest-and-termite/scorpion-control",
+   "impressions": 680,
+   "clicks": 5,
+   "position": 22.9
   },
   {
    "page": "/apache-junction-az/air-conditioning-and-heating/ac-installation",
-   "impressions": 589,
+   "impressions": 622,
    "clicks": 0,
-   "position": 23.9
+   "position": 24.0
   },
   {
-   "page": "https://getyourbucksworth.com/best-pest-control-near-chandler-az-85224/",
-   "impressions": 584,
+   "page": "/apache-junction-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 595,
    "clicks": 1,
-   "position": 15.6
+   "position": 14.8
   },
   {
    "page": "/ahwatukee-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 569,
+   "impressions": 590,
    "clicks": 1,
-   "position": 17.4
+   "position": 18.2
   },
   {
-   "page": "/gilbert-az",
-   "impressions": 568,
-   "clicks": 4,
-   "position": 15.4
+   "page": "/peoria-az/pest-and-termite/rodent-exclusion",
+   "impressions": 576,
+   "clicks": 1,
+   "position": 19.6
   },
   {
    "page": "/surprise-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 566,
+   "impressions": 576,
    "clicks": 1,
    "position": 10.6
   },
   {
-   "page": "/marana-az/pest-and-termite/scorpion-control",
-   "impressions": 559,
-   "clicks": 5,
-   "position": 23.0
-  },
-  {
    "page": "/mesa-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 550,
+   "impressions": 555,
    "clicks": 1,
    "position": 20.6
   },
   {
-   "page": "/apache-junction-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 538,
-   "clicks": 1,
-   "position": 14.5
-  },
-  {
-   "page": "https://getyourbucksworth.com/green-valley-az",
-   "impressions": 521,
-   "clicks": 0,
-   "position": 15.2
-  },
-  {
    "page": "/florence-az/air-conditioning-and-heating/mini-split-systems",
-   "impressions": 519,
+   "impressions": 543,
    "clicks": 2,
-   "position": 15.7
-  },
-  {
-   "page": "/peoria-az/pest-and-termite/rodent-exclusion",
-   "impressions": 518,
-   "clicks": 1,
-   "position": 19.8
-  },
-  {
-   "page": "/ahwatukee-az/plumbing-and-water-heaters",
-   "impressions": 512,
-   "clicks": 0,
-   "position": 22.4
-  },
-  {
-   "page": "/goodyear-az",
-   "impressions": 503,
-   "clicks": 5,
-   "position": 24.3
-  },
-  {
-   "page": "/mesa-az",
-   "impressions": 498,
-   "clicks": 3,
    "position": 16.1
   },
   {
-   "page": "/anthem-az",
-   "impressions": 489,
+   "page": "/ahwatukee-az/plumbing-and-water-heaters",
+   "impressions": 526,
    "clicks": 0,
+   "position": 23.1
+  },
+  {
+   "page": "/anthem-az",
+   "impressions": 526,
+   "clicks": 0,
+   "position": 23.4
+  },
+  {
+   "page": "/gilbert-az",
+   "impressions": 524,
+   "clicks": 4,
+   "position": 13.3
+  },
+  {
+   "page": "/mesa-az",
+   "impressions": 522,
+   "clicks": 5,
+   "position": 14.8
+  },
+  {
+   "page": "/goodyear-az",
+   "impressions": 507,
+   "clicks": 5,
    "position": 23.7
   },
   {
-   "page": "/fountain-hills-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 483,
-   "clicks": 1,
-   "position": 10.9
-  },
-  {
    "page": "/apache-junction-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 474,
+   "impressions": 486,
    "clicks": 0,
-   "position": 10.6
+   "position": 10.7
   },
   {
-   "page": "/tempe-az",
-   "impressions": 462,
-   "clicks": 2,
-   "position": 22.3
-  },
-  {
-   "page": "https://getyourbucksworth.com/best-termite-company-peoria-az-85381/",
-   "impressions": 452,
-   "clicks": 1,
-   "position": 14.3
+   "page": "/ahwatukee-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 471,
+   "clicks": 0,
+   "position": 15.5
   },
   {
    "page": "/scottsdale-az/air-conditioning-and-heating/smart-thermostat",
-   "impressions": 441,
+   "impressions": 462,
    "clicks": 2,
-   "position": 17.2
+   "position": 16.5
+  },
+  {
+   "page": "/anthem-az/pest-and-termite/scorpion-control",
+   "impressions": 462,
+   "clicks": 0,
+   "position": 18.0
+  },
+  {
+   "page": "/sahuarita-az/weed-and-lawn-care",
+   "impressions": 458,
+   "clicks": 6,
+   "position": 9.5
+  },
+  {
+   "page": "/phoenix-az/air-conditioning-and-heating/smart-thermostat",
+   "impressions": 452,
+   "clicks": 2,
+   "position": 19.1
+  },
+  {
+   "page": "/tempe-az",
+   "impressions": 444,
+   "clicks": 2,
+   "position": 21.5
+  },
+  {
+   "page": "/san-tan-valley-az/pest-and-termite/rodent-exclusion",
+   "impressions": 437,
+   "clicks": 2,
+   "position": 20.7
+  },
+  {
+   "page": "/vail-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 434,
+   "clicks": 1,
+   "position": 15.8
+  },
+  {
+   "page": "/apache-junction-az/weed-and-lawn-care",
+   "impressions": 431,
+   "clicks": 3,
+   "position": 13.4
+  },
+  {
+   "page": "/queen-creek-az",
+   "impressions": 419,
+   "clicks": 3,
+   "position": 14.4
+  },
+  {
+   "page": "/maricopa-az/weed-and-lawn-care",
+   "impressions": 417,
+   "clicks": 1,
+   "position": 13.6
+  },
+  {
+   "page": "/anthem-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 416,
+   "clicks": 0,
+   "position": 17.5
+  },
+  {
+   "page": "/surprise-az/plumbing-and-water-heaters/gas-line-services",
+   "impressions": 414,
+   "clicks": 2,
+   "position": 9.9
+  },
+  {
+   "page": "/casa-grande-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 413,
+   "clicks": 1,
+   "position": 9.5
   },
   {
    "page": "https://getyourbucksworth.com/queen-creek-az/weed-and-lawn-care",
@@ -440,16 +482,22 @@
    "position": 14.8
   },
   {
-   "page": "/anthem-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 406,
-   "clicks": 0,
-   "position": 17.0
+   "page": "/buckeye-az/air-conditioning-and-heating/mini-split-systems",
+   "impressions": 410,
+   "clicks": 1,
+   "position": 23.1
   },
   {
-   "page": "/phoenix-az/air-conditioning-and-heating/smart-thermostat",
-   "impressions": 404,
+   "page": "/apache-junction-az/pest-and-termite/bed-bug-treatment",
+   "impressions": 408,
+   "clicks": 1,
+   "position": 11.1
+  },
+  {
+   "page": "/goodyear-az/pest-and-termite/scorpion-control",
+   "impressions": 397,
    "clicks": 2,
-   "position": 19.7
+   "position": 11.6
   },
   {
    "page": "https://getyourbucksworth.com/scottsdale-az/pest-and-termite/bed-bug-treatment",
@@ -458,232 +506,202 @@
    "position": 10.9
   },
   {
-   "page": "/surprise-az/plumbing-and-water-heaters/gas-line-services",
-   "impressions": 391,
+   "page": "/buckeye-az/weed-and-lawn-care/lawn-fertilization",
+   "impressions": 396,
    "clicks": 2,
-   "position": 9.5
-  },
-  {
-   "page": "https://getyourbucksworth.com/phoenix-ac-tune-up-reliable-maintenance-for-record-heat/",
-   "impressions": 388,
-   "clicks": 0,
-   "position": 15.9
+   "position": 20.5
   },
   {
    "page": "/anthem-az/plumbing-and-water-heaters/drain-cleaning",
-   "impressions": 383,
+   "impressions": 388,
    "clicks": 0,
-   "position": 11.7
+   "position": 11.8
   },
   {
-   "page": "/vail-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 380,
+   "page": "/maricopa-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions": 368,
    "clicks": 1,
-   "position": 15.4
+   "position": 10.7
   },
   {
-   "page": "/ahwatukee-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 377,
-   "clicks": 0,
-   "position": 15.0
-  },
-  {
-   "page": "/scottsdale-az",
-   "impressions": 374,
+   "page": "/tempe-az/weed-and-lawn-care",
+   "impressions": 366,
    "clicks": 2,
-   "position": 21.1
-  },
-  {
-   "page": "/casa-grande-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 373,
-   "clicks": 1,
-   "position": 9.2
-  },
-  {
-   "page": "/queen-creek-az",
-   "impressions": 362,
-   "clicks": 3,
-   "position": 15.0
-  },
-  {
-   "page": "/maricopa-az/weed-and-lawn-care",
-   "impressions": 361,
-   "clicks": 1,
    "position": 13.4
   },
   {
-   "page": "/buckeye-az/air-conditioning-and-heating/mini-split-systems",
-   "impressions": 357,
+   "page": "https://getyourbucksworth.com/best-termite-company-peoria-az-85381/",
+   "impressions": 366,
    "clicks": 1,
-   "position": 23.1
-  },
-  {
-   "page": "https://getyourbucksworth.com/vail-az",
-   "impressions": 355,
-   "clicks": 0,
-   "position": 17.7
+   "position": 14.2
   },
   {
    "page": "/anthem-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 353,
+   "impressions": 355,
    "clicks": 0,
    "position": 18.9
   },
   {
-   "page": "/goodyear-az/pest-and-termite/scorpion-control",
-   "impressions": 342,
+   "page": "/phoenix-az/weed-and-lawn-care/overseeding",
+   "impressions": 346,
+   "clicks": 4,
+   "position": 13.0
+  },
+  {
+   "page": "/san-tan-valley-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 346,
    "clicks": 1,
-   "position": 12.1
+   "position": 19.2
   },
   {
    "page": "/ahwatukee-az/plumbing-and-water-heaters/drain-cleaning",
-   "impressions": 337,
+   "impressions": 346,
    "clicks": 0,
    "position": 21.5
   },
   {
-   "page": "/anthem-az/pest-and-termite/scorpion-control",
-   "impressions": 333,
-   "clicks": 0,
-   "position": 20.5
+   "page": "/surprise-az/weed-and-lawn-care",
+   "impressions": 341,
+   "clicks": 3,
+   "position": 13.4
   },
   {
-   "page": "/san-tan-valley-az/pest-and-termite/rodent-exclusion",
+   "page": "/goodyear-az/air-conditioning-and-heating/spray-foam-insulation",
    "impressions": 332,
    "clicks": 1,
-   "position": 21.0
-  },
-  {
-   "page": "/apache-junction-az/weed-and-lawn-care",
-   "impressions": 324,
-   "clicks": 3,
-   "position": 13.2
-  },
-  {
-   "page": "/tempe-az/weed-and-lawn-care",
-   "impressions": 318,
-   "clicks": 2,
-   "position": 12.4
-  },
-  {
-   "page": "https://getyourbucksworth.com/best-termite-company-gilbert-az-expert-protection-for-your-home/",
-   "impressions": 315,
-   "clicks": 1,
-   "position": 13.5
-  },
-  {
-   "page": "https://getyourbucksworth.com/catalina-foothills-az",
-   "impressions": 313,
-   "clicks": 0,
-   "position": 23
-  },
-  {
-   "page": "/apache-junction-az/pest-and-termite/bed-bug-treatment",
-   "impressions": 308,
-   "clicks": 1,
-   "position": 11.8
+   "position": 18.3
   },
   {
    "page": "/apache-junction-az/air-conditioning-and-heating",
-   "impressions": 305,
+   "impressions": 332,
    "clicks": 0,
-   "position": 19.3
+   "position": 19.2
   },
   {
-   "page": "/san-tan-valley-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 295,
+   "page": "https://getyourbucksworth.com/best-pest-control-near-chandler-az-85224/",
+   "impressions": 331,
    "clicks": 1,
-   "position": 19.3
+   "position": 14.2
   },
   {
-   "page": "/buckeye-az/weed-and-lawn-care/lawn-fertilization",
-   "impressions": 283,
-   "clicks": 2,
-   "position": 19.9
-  },
-  {
-   "page": "/casa-grande-az/air-conditioning-and-heating/ac-installation",
-   "impressions": 280,
-   "clicks": 1,
-   "position": 20.1
-  },
-  {
-   "page": "/mesa-az/air-conditioning-and-heating/smart-thermostat",
-   "impressions": 277,
-   "clicks": 1,
-   "position": 18.4
-  },
-  {
-   "page": "https://getyourbucksworth.com/best-termite-company-marana-az-peace-of-mind-for-your-home/",
-   "impressions": 272,
-   "clicks": 1,
-   "position": 11.1
-  },
-  {
-   "page": "/oro-valley-az/pest-and-termite/scorpion-control",
-   "impressions": 270,
-   "clicks": 4,
-   "position": 20.2
-  },
-  {
-   "page": "/surprise-az/weed-and-lawn-care",
-   "impressions": 270,
-   "clicks": 3,
-   "position": 12.3
-  },
-  {
-   "page": "/phoenix-az/weed-and-lawn-care/overseeding",
-   "impressions": 267,
-   "clicks": 3,
-   "position": 11.7
+   "page": "https://getyourbucksworth.com/phoenix-ac-tune-up-reliable-maintenance-for-record-heat/",
+   "impressions": 330,
+   "clicks": 0,
+   "position": 15.7
   },
   {
    "page": "/buckeye-az/pest-and-termite/rodent-exclusion",
-   "impressions": 261,
+   "impressions": 324,
+   "clicks": 4,
+   "position": 23.3
+  },
+  {
+   "page": "/buckeye-az/pest-and-termite/scorpion-control",
+   "impressions": 321,
    "clicks": 3,
-   "position": 23.8
-  },
-  {
-   "page": "https://getyourbucksworth.com/goodyear-plumbing-service-trusted-pros-for-85338/",
-   "impressions": 260,
-   "clicks": 1,
-   "position": 11.7
-  },
-  {
-   "page": "/coolidge-az/weed-and-lawn-care",
-   "impressions": 258,
-   "clicks": 3,
-   "position": 16.1
-  },
-  {
-   "page": "/anthem-az/plumbing-and-water-heaters/gas-line-services",
-   "impressions": 255,
-   "clicks": 2,
-   "position": 13.8
-  },
-  {
-   "page": "/peoria-az/pest-and-termite/ant-control",
-   "impressions": 254,
-   "clicks": 1,
-   "position": 18.4
-  },
-  {
-   "page": "https://getyourbucksworth.com/litchfield-park-az",
-   "impressions": 254,
-   "clicks": 0,
-   "position": 21.2
+   "position": 18.1
   },
   {
    "page": "/chandler-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 250,
+   "impressions": 314,
    "clicks": 1,
-   "position": 20.6
+   "position": 21.3
+  },
+  {
+   "page": "/coolidge-az/weed-and-lawn-care",
+   "impressions": 309,
+   "clicks": 3,
+   "position": 16.5
+  },
+  {
+   "page": "/sahuarita-az/pest-and-termite/rodent-exclusion",
+   "impressions": 303,
+   "clicks": 1,
+   "position": 22.3
+  },
+  {
+   "page": "/green-valley-az/pest-and-termite/scorpion-control",
+   "impressions": 302,
+   "clicks": 1,
+   "position": 20.7
+  },
+  {
+   "page": "/casa-grande-az/air-conditioning-and-heating/ac-installation",
+   "impressions": 301,
+   "clicks": 1,
+   "position": 20.7
+  },
+  {
+   "page": "/gold-canyon-az/pest-and-termite",
+   "impressions": 299,
+   "clicks": 2,
+   "position": 23.2
+  },
+  {
+   "page": "/scottsdale-az",
+   "impressions": 298,
+   "clicks": 2,
+   "position": 19.1
+  },
+  {
+   "page": "https://getyourbucksworth.com/green-valley-az",
+   "impressions": 290,
+   "clicks": 0,
+   "position": 15.5
+  },
+  {
+   "page": "/peoria-az/pest-and-termite/ant-control",
+   "impressions": 287,
+   "clicks": 1,
+   "position": 19.0
   },
   {
    "page": "/casa-grande-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 247,
+   "impressions": 284,
    "clicks": 1,
-   "position": 14.2
+   "position": 16.1
+  },
+  {
+   "page": "/oro-valley-az/pest-and-termite/scorpion-control",
+   "impressions": 281,
+   "clicks": 4,
+   "position": 19.7
+  },
+  {
+   "page": "/anthem-az/plumbing-and-water-heaters/gas-line-services",
+   "impressions": 279,
+   "clicks": 2,
+   "position": 14.4
+  },
+  {
+   "page": "/mesa-az/air-conditioning-and-heating/smart-thermostat",
+   "impressions": 279,
+   "clicks": 1,
+   "position": 18.3
+  },
+  {
+   "page": "/ahwatukee-az/plumbing-and-water-heaters/water-softener",
+   "impressions": 272,
+   "clicks": 0,
+   "position": 11.2
+  },
+  {
+   "page": "/apache-junction-az/pest-and-termite/scorpion-control",
+   "impressions": 266,
+   "clicks": 0,
+   "position": 21.1
+  },
+  {
+   "page": "/casa-grande-az/air-conditioning-and-heating/attic-insulation",
+   "impressions": 255,
+   "clicks": 3,
+   "position": 12.4
+  },
+  {
+   "page": "https://getyourbucksworth.com/best-termite-company-marana-az-peace-of-mind-for-your-home/",
+   "impressions": 245,
+   "clicks": 1,
+   "position": 9.3
   },
   {
    "page": "https://getyourbucksworth.com/air-duct-cleaning-in-gilbert-az-breathing-easier-and-saving-energy/",
@@ -692,58 +710,34 @@
    "position": 10.5
   },
   {
-   "page": "https://getyourbucksworth.com/top-rated-termite-control-in-apache-junction-protecting-your-arizona-home/",
-   "impressions": 242,
-   "clicks": 0,
-   "position": 9.6
-  },
-  {
-   "page": "/san-tan-valley-az/air-conditioning-and-heating/spray-foam-insulation",
+   "page": "/green-valley-az/weed-and-lawn-care/pre-emergent-weed-control",
    "impressions": 241,
    "clicks": 1,
-   "position": 16.6
+   "position": 16.0
   },
   {
-   "page": "https://getyourbucksworth.com/pure-water-in-tempe-reverse-osmosis-for-meyer-park-homes/",
-   "impressions": 235,
-   "clicks": 0,
-   "position": 9.2
-  },
-  {
-   "page": "https://getyourbucksworth.com/tucson-az/pest-and-termite/bed-bug-treatment",
-   "impressions": 234,
-   "clicks": 0,
-   "position": 21.5
-  },
-  {
-   "page": "/gold-canyon-az/pest-and-termite",
-   "impressions": 233,
-   "clicks": 2,
-   "position": 23.3
-  },
-  {
-   "page": "https://getyourbucksworth.com/best-weed-control-vail-az-targeted-prevention-for-arizona-yards/",
-   "impressions": 231,
-   "clicks": 0,
-   "position": 10.7
-  },
-  {
-   "page": "/casa-grande-az/air-conditioning-and-heating/attic-insulation",
-   "impressions": 229,
-   "clicks": 3,
-   "position": 12.9
-  },
-  {
-   "page": "https://getyourbucksworth.com/best-weed-control-scottsdale-targeted-prevention-for-arizona-yards/",
-   "impressions": 223,
-   "clicks": 2,
-   "position": 13.2
+   "page": "/catalina-foothills-az/pest-and-termite/scorpion-control",
+   "impressions": 230,
+   "clicks": 1,
+   "position": 13.4
   },
   {
    "page": "/maricopa-az/air-conditioning-and-heating/attic-insulation",
-   "impressions": 222,
+   "impressions": 229,
    "clicks": 2,
    "position": 16.6
+  },
+  {
+   "page": "/san-tan-valley-az/air-conditioning-and-heating/spray-foam-insulation",
+   "impressions": 227,
+   "clicks": 1,
+   "position": 17.0
+  },
+  {
+   "page": "/avondale-az/plumbing-and-water-heaters/water-heater-repair",
+   "impressions": 224,
+   "clicks": 0,
+   "position": 13.9
   },
   {
    "page": "https://getyourbucksworth.com/green-valley-az/pest-and-termite/bee-wasp-removal",
@@ -752,160 +746,124 @@
    "position": 8.6
   },
   {
-   "page": "https://getyourbucksworth.com/chandler-az/pest-and-termite/mosquito-control",
-   "impressions": 220,
-   "clicks": 0,
-   "position": 12.6
-  },
-  {
-   "page": "https://getyourbucksworth.com/tempe-az/plumbing-and-water-heaters/water-heater-repair",
-   "impressions": 220,
-   "clicks": 0,
-   "position": 17.9
-  },
-  {
-   "page": "https://getyourbucksworth.com/casa-grande-az",
-   "impressions": 219,
-   "clicks": 0,
-   "position": 10.8
-  },
-  {
-   "page": "/buckeye-az/pest-and-termite/scorpion-control",
-   "impressions": 216,
-   "clicks": 3,
-   "position": 16.9
-  },
-  {
    "page": "https://getyourbucksworth.com/tucson-az/pest-and-termite/mosquito-control",
    "impressions": 216,
    "clicks": 1,
    "position": 20.1
   },
   {
-   "page": "https://getyourbucksworth.com/fountain-hills-az/plumbing-and-water-heaters/water-heater-repair",
-   "impressions": 212,
-   "clicks": 0,
-   "position": 11.9
-  },
-  {
-   "page": "https://getyourbucksworth.com/gilbert-az/air-conditioning-and-heating/mini-split-systems",
-   "impressions": 208,
-   "clicks": 0,
-   "position": 18.0
-  },
-  {
-   "page": "https://getyourbucksworth.com/expert-scottsdale-scorpion-control-protecting-your-desert-oasis/",
-   "impressions": 207,
-   "clicks": 0,
-   "position": 8.8
-  },
-  {
-   "page": "/ahwatukee-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 207,
-   "clicks": 0,
-   "position": 8.4
-  },
-  {
-   "page": "https://getyourbucksworth.com/peoria-az/pest-and-termite/scorpion-control",
-   "impressions": 205,
-   "clicks": 0,
-   "position": 9.3
+   "page": "/queen-creek-az/pest-and-termite/ant-control",
+   "impressions": 216,
+   "clicks": 1,
+   "position": 10.0
   },
   {
    "page": "/surprise-az/air-conditioning-and-heating/attic-insulation",
-   "impressions": 204,
+   "impressions": 209,
    "clicks": 4,
-   "position": 10.3
+   "position": 10.2
   },
   {
-   "page": "https://getyourbucksworth.com/catalina-foothills-az/pest-and-termite",
-   "impressions": 200,
+   "page": "/apache-junction-az/air-conditioning-and-heating/mini-split-systems",
+   "impressions": 209,
    "clicks": 0,
-   "position": 14.0
+   "position": 12.1
   },
   {
-   "page": "/green-valley-az/weed-and-lawn-care/pre-emergent-weed-control",
-   "impressions": 198,
-   "clicks": 1,
-   "position": 15.2
-  },
-  {
-   "page": "https://getyourbucksworth.com/best-drain-cleaning-in-el-mirage-az-85335-trusted-local-pros/",
-   "impressions": 198,
+   "page": "https://getyourbucksworth.com/fountain-hills-az/plumbing-and-water-heaters/water-heater-repair",
+   "impressions": 206,
    "clicks": 0,
-   "position": 9.3
+   "position": 11.5
   },
   {
-   "page": "https://getyourbucksworth.com/peoria-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 197,
+   "page": "https://getyourbucksworth.com/tucson-az/pest-and-termite/bed-bug-treatment",
+   "impressions": 206,
    "clicks": 0,
-   "position": 13.3
-  },
-  {
-   "page": "https://getyourbucksworth.com/scottsdale-az/pest-and-termite/rodent-exclusion",
-   "impressions": 196,
-   "clicks": 0,
-   "position": 22.2
-  },
-  {
-   "page": "/avondale-az/plumbing-and-water-heaters/water-heater-repair",
-   "impressions": 194,
-   "clicks": 0,
-   "position": 14.4
-  },
-  {
-   "page": "https://getyourbucksworth.com/green-valley-az/",
-   "impressions": 192,
-   "clicks": 0,
-   "position": 17.2
-  },
-  {
-   "page": "/san-tan-valley-az/weed-and-lawn-care/weed-and-feed-program",
-   "impressions": 190,
-   "clicks": 1,
-   "position": 15.1
-  },
-  {
-   "page": "https://getyourbucksworth.com/gilbert-ac-tune-up-reliable-maintenance-for-arizonas-extreme-heat/",
-   "impressions": 190,
-   "clicks": 0,
-   "position": 9.9
-  },
-  {
-   "page": "https://getyourbucksworth.com/anthem-az/air-conditioning-and-heating/mini-split-systems",
-   "impressions": 189,
-   "clicks": 0,
-   "position": 8.4
-  },
-  {
-   "page": "https://getyourbucksworth.com/pure-water-in-queen-creek-reverse-osmosis-for-encanterra-homes/",
-   "impressions": 187,
-   "clicks": 0,
-   "position": 19.2
+   "position": 21.3
   },
   {
    "page": "/san-tan-valley-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 186,
+   "impressions": 204,
    "clicks": 1,
-   "position": 15.4
+   "position": 15.6
   },
   {
-   "page": "https://getyourbucksworth.com/paradise-valley-az/pest-and-termite/ant-control",
-   "impressions": 186,
+   "page": "/san-tan-valley-az/weed-and-lawn-care/weed-and-feed-program",
+   "impressions": 196,
+   "clicks": 1,
+   "position": 14.9
+  },
+  {
+   "page": "/chandler-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
+   "impressions": 195,
+   "clicks": 1,
+   "position": 20.1
+  },
+  {
+   "page": "/scottsdale-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "impressions": 194,
+   "clicks": 1,
+   "position": 22.9
+  },
+  {
+   "page": "https://getyourbucksworth.com/best-weed-control-vail-az-targeted-prevention-for-arizona-yards/",
+   "impressions": 193,
    "clicks": 0,
    "position": 10.7
   },
   {
+   "page": "https://getyourbucksworth.com/peoria-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 193,
+   "clicks": 0,
+   "position": 13.2
+  },
+  {
+   "page": "/buckeye-az/air-conditioning-and-heating/ductwork",
+   "impressions": 190,
+   "clicks": 1,
+   "position": 22.1
+  },
+  {
+   "page": "https://getyourbucksworth.com/top-rated-termite-control-in-apache-junction-protecting-your-arizona-home/",
+   "impressions": 190,
+   "clicks": 0,
+   "position": 10.2
+  },
+  {
+   "page": "/phoenix-az/weed-and-lawn-care/bermuda-grass-control",
+   "impressions": 189,
+   "clicks": 2,
+   "position": 8.4
+  },
+  {
    "page": "/tucson-az/weed-and-lawn-care/pre-emergent-weed-control",
-   "impressions": 185,
+   "impressions": 186,
    "clicks": 1,
    "position": 23.5
   },
   {
-   "page": "https://getyourbucksworth.com/chandler-az/air-conditioning-and-heating/heating-repair",
-   "impressions": 178,
+   "page": "https://getyourbucksworth.com/best-weed-control-scottsdale-targeted-prevention-for-arizona-yards/",
+   "impressions": 183,
+   "clicks": 2,
+   "position": 13.7
+  },
+  {
+   "page": "https://getyourbucksworth.com/gilbert-az/air-conditioning-and-heating/mini-split-systems",
+   "impressions": 183,
    "clicks": 0,
-   "position": 18.2
+   "position": 18.0
+  },
+  {
+   "page": "https://getyourbucksworth.com/chandler-az/pest-and-termite/mosquito-control",
+   "impressions": 182,
+   "clicks": 0,
+   "position": 12.1
+  },
+  {
+   "page": "https://getyourbucksworth.com/goodyear-plumbing-service-trusted-pros-for-85338/",
+   "impressions": 180,
+   "clicks": 1,
+   "position": 11.7
   },
   {
    "page": "/apache-junction-ac-repair-superstition-vistas-cooling",
@@ -914,46 +872,76 @@
    "position": 20.8
   },
   {
-   "page": "https://getyourbucksworth.com/mesa-az/plumbing-and-water-heaters/water-heater-installation",
+   "page": "https://getyourbucksworth.com/catalina-foothills-az/pest-and-termite",
    "impressions": 175,
    "clicks": 0,
-   "position": 20.1
+   "position": 12.9
   },
   {
-   "page": "https://getyourbucksworth.com/mesa-az/pest-and-termite/bed-bug-treatment",
-   "impressions": 174,
-   "clicks": 0,
-   "position": 17.7
-  },
-  {
-   "page": "/buckeye-az/air-conditioning-and-heating/ductwork",
+   "page": "/san-tan-valley-az/plumbing-and-water-heaters/re-piping",
    "impressions": 173,
    "clicks": 1,
-   "position": 23.0
+   "position": 17.3
   },
   {
-   "page": "/apache-junction-az/pest-and-termite/scorpion-control",
-   "impressions": 171,
+   "page": "https://getyourbucksworth.com/paradise-valley-az/pest-and-termite/ant-control",
+   "impressions": 173,
    "clicks": 0,
-   "position": 21.2
+   "position": 10.6
+  },
+  {
+   "page": "/catalina-foothills-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 171,
+   "clicks": 1,
+   "position": 21.8
+  },
+  {
+   "page": "/vail-az/pest-and-termite/scorpion-control",
+   "impressions": 170,
+   "clicks": 1,
+   "position": 12.6
+  },
+  {
+   "page": "/mesa-az/weed-and-lawn-care/overseeding",
+   "impressions": 169,
+   "clicks": 2,
+   "position": 13.0
+  },
+  {
+   "page": "https://getyourbucksworth.com/anthem-az/air-conditioning-and-heating/mini-split-systems",
+   "impressions": 169,
+   "clicks": 0,
+   "position": 8.4
+  },
+  {
+   "page": "https://getyourbucksworth.com/best-drain-cleaning-in-el-mirage-az-85335-trusted-local-pros/",
+   "impressions": 168,
+   "clicks": 0,
+   "position": 9.0
+  },
+  {
+   "page": "/apache-junction-az/pest-and-termite/rodent-exclusion",
+   "impressions": 166,
+   "clicks": 2,
+   "position": 22.9
   },
   {
    "page": "https://getyourbucksworth.com/surprise-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 167,
+   "impressions": 165,
    "clicks": 0,
    "position": 10.7
   },
   {
-   "page": "https://getyourbucksworth.com/sahuarita-az/pest-and-termite/ant-control",
-   "impressions": 165,
-   "clicks": 0,
-   "position": 16.3
-  },
-  {
-   "page": "/scottsdale-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "page": "/vail-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
    "impressions": 163,
    "clicks": 1,
-   "position": 23.2
+   "position": 9.1
+  },
+  {
+   "page": "/marana-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 162,
+   "clicks": 2,
+   "position": 8.5
   },
   {
    "page": "https://getyourbucksworth.com/goodyear-ac-maintenance-reliable-care-for-year-round-energy-efficiency/",
@@ -968,16 +956,10 @@
    "position": 16.0
   },
   {
-   "page": "/queen-creek-az/pest-and-termite/ant-control",
-   "impressions": 160,
-   "clicks": 1,
-   "position": 10.3
-  },
-  {
-   "page": "/phoenix-az/weed-and-lawn-care/bermuda-grass-control",
+   "page": "https://getyourbucksworth.com/sahuarita-az/pest-and-termite/ant-control",
    "impressions": 159,
-   "clicks": 2,
-   "position": 8.1
+   "clicks": 0,
+   "position": 16.4
   },
   {
    "page": "https://getyourbucksworth.com/coolidge-az/plumbing-and-water-heaters/sewer-line-services",
@@ -986,118 +968,142 @@
    "position": 17.6
   },
   {
-   "page": "/apache-junction-az/air-conditioning-and-heating/mini-split-systems",
-   "impressions": 155,
-   "clicks": 0,
-   "position": 11.5
-  },
-  {
-   "page": "https://getyourbucksworth.com/scottsdale-az/plumbing-and-water-heaters/re-piping",
+   "page": "https://getyourbucksworth.com/vail-az",
    "impressions": 154,
    "clicks": 0,
-   "position": 12.2
-  },
-  {
-   "page": "/casa-grande-az/weed-and-lawn-care",
-   "impressions": 152,
-   "clicks": 1,
-   "position": 14.8
-  },
-  {
-   "page": "/chandler-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
-   "impressions": 152,
-   "clicks": 1,
-   "position": 19.8
-  },
-  {
-   "page": "/marana-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 150,
-   "clicks": 2,
-   "position": 8.6
-  },
-  {
-   "page": "/vail-az/pest-and-termite/scorpion-control",
-   "impressions": 149,
-   "clicks": 1,
-   "position": 13.2
+   "position": 18.9
   },
   {
    "page": "/fountain-hills-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 147,
+   "impressions": 153,
    "clicks": 1,
-   "position": 19.4
-  },
-  {
-   "page": "/catalina-foothills-az/pest-and-termite/scorpion-control",
-   "impressions": 145,
-   "clicks": 1,
-   "position": 12.7
-  },
-  {
-   "page": "https://getyourbucksworth.com/mesa-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 141,
-   "clicks": 0,
-   "position": 18.8
-  },
-  {
-   "page": "/laveen-az/pest-and-termite/rodent-exclusion",
-   "impressions": 138,
-   "clicks": 1,
-   "position": 20.8
-  },
-  {
-   "page": "/vail-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
-   "impressions": 137,
-   "clicks": 1,
-   "position": 9.1
-  },
-  {
-   "page": "https://getyourbucksworth.com/peoria-water-quality-why-your-home-needs-a-reverse-osmosis-system/",
-   "impressions": 137,
-   "clicks": 0,
-   "position": 14.8
-  },
-  {
-   "page": "/catalina-foothills-az/pest-and-termite/mosquito-control",
-   "impressions": 129,
-   "clicks": 1,
-   "position": 16.9
+   "position": 19.6
   },
   {
    "page": "/ahwatukee-az/weed-and-lawn-care",
-   "impressions": 128,
+   "impressions": 147,
    "clicks": 3,
-   "position": 12.6
+   "position": 12.8
   },
   {
-   "page": "https://getyourbucksworth.com/tempe-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 127,
+   "page": "https://getyourbucksworth.com/chandler-az/air-conditioning-and-heating/heating-repair",
+   "impressions": 142,
    "clicks": 0,
-   "position": 11.6
+   "position": 17.5
   },
   {
-   "page": "/catalina-foothills-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 126,
+   "page": "https://getyourbucksworth.com/pure-water-in-tempe-reverse-osmosis-for-meyer-park-homes/",
+   "impressions": 141,
+   "clicks": 0,
+   "position": 8.3
+  },
+  {
+   "page": "/casa-grande-az/weed-and-lawn-care",
+   "impressions": 140,
    "clicks": 1,
-   "position": 22.3
+   "position": 13.6
   },
   {
-   "page": "https://getyourbucksworth.com/sahuarita-az/",
-   "impressions": 121,
+   "page": "/laveen-az/pest-and-termite/rodent-exclusion",
+   "impressions": 139,
+   "clicks": 1,
+   "position": 20.7
+  },
+  {
+   "page": "https://getyourbucksworth.com/scottsdale-az/pest-and-termite/rodent-exclusion",
+   "impressions": 139,
    "clicks": 0,
-   "position": 14.7
+   "position": 21.3
   },
   {
-   "page": "/mesa-az/weed-and-lawn-care/overseeding",
-   "impressions": 120,
-   "clicks": 2,
-   "position": 11.1
+   "page": "/avondale-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 137,
+   "clicks": 0,
+   "position": 20.8
+  },
+  {
+   "page": "/gilbert-az/weed-and-lawn-care/overseeding",
+   "impressions": 136,
+   "clicks": 4,
+   "position": 9.3
+  },
+  {
+   "page": "https://getyourbucksworth.com/tempe-az/plumbing-and-water-heaters/water-heater-repair",
+   "impressions": 135,
+   "clicks": 0,
+   "position": 17.9
+  },
+  {
+   "page": "/catalina-foothills-az/pest-and-termite/mosquito-control",
+   "impressions": 134,
+   "clicks": 1,
+   "position": 16.7
+  },
+  {
+   "page": "https://getyourbucksworth.com/green-valley-az/",
+   "impressions": 134,
+   "clicks": 0,
+   "position": 18.2
+  },
+  {
+   "page": "https://getyourbucksworth.com/catalina-foothills-az",
+   "impressions": 133,
+   "clicks": 0,
+   "position": 20.4
+  },
+  {
+   "page": "https://getyourbucksworth.com/litchfield-park-az",
+   "impressions": 132,
+   "clicks": 0,
+   "position": 22.7
+  },
+  {
+   "page": "/avondale-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 130,
+   "clicks": 0,
+   "position": 18.2
+  },
+  {
+   "page": "https://getyourbucksworth.com/peoria-water-quality-why-your-home-needs-a-reverse-osmosis-system/",
+   "impressions": 129,
+   "clicks": 0,
+   "position": 15.1
   },
   {
    "page": "/valencia-west-az",
-   "impressions": 120,
+   "impressions": 127,
    "clicks": 2,
-   "position": 18.4
+   "position": 18.8
+  },
+  {
+   "page": "https://getyourbucksworth.com/mesa-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 127,
+   "clicks": 0,
+   "position": 19.3
+  },
+  {
+   "page": "/ahwatukee-az/plumbing-and-water-heaters/gas-line-services",
+   "impressions": 122,
+   "clicks": 1,
+   "position": 24.1
+  },
+  {
+   "page": "https://getyourbucksworth.com/best-termite-company-gilbert-az-85233/",
+   "impressions": 122,
+   "clicks": 0,
+   "position": 20.5
+  },
+  {
+   "page": "/avondale-az/pest-and-termite/bed-bug-treatment",
+   "impressions": 122,
+   "clicks": 0,
+   "position": 10.4
+  },
+  {
+   "page": "/marana-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
+   "impressions": 121,
+   "clicks": 1,
+   "position": 9.5
   },
   {
    "page": "https://getyourbucksworth.com/best-pest-control-in-coolidge-az-reliable-protection-for-your-pinal-county-home/",
@@ -1106,16 +1112,16 @@
    "position": 14.3
   },
   {
-   "page": "/avondale-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 119,
+   "page": "https://getyourbucksworth.com/tempe-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 117,
    "clicks": 0,
-   "position": 19.4
+   "position": 11.4
   },
   {
-   "page": "/ahwatukee-az/plumbing-and-water-heaters/gas-line-services",
-   "impressions": 117,
-   "clicks": 1,
-   "position": 25.0
+   "page": "https://getyourbucksworth.com/mesa-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 116,
+   "clicks": 0,
+   "position": 19.6
   },
   {
    "page": "/anthem-az/plumbing-and-water-heaters/gas-line-services/",
@@ -1124,28 +1130,10 @@
    "position": 21.7
   },
   {
-   "page": "/avondale-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 111,
-   "clicks": 0,
-   "position": 22.8
-  },
-  {
-   "page": "https://getyourbucksworth.com/coolidge-az/plumbing-and-water-heaters/drain-cleaning",
-   "impressions": 110,
-   "clicks": 0,
-   "position": 16.4
-  },
-  {
-   "page": "https://getyourbucksworth.com/sahuarita-az/pest-and-termite/rodent-exclusion",
-   "impressions": 110,
-   "clicks": 0,
-   "position": 11.3
-  },
-  {
-   "page": "https://getyourbucksworth.com/coolidge-az/air-conditioning-and-heating/heating-repair",
-   "impressions": 109,
-   "clicks": 0,
-   "position": 19.4
+   "page": "/casa-grande-az/pest-and-termite/rodent-exclusion",
+   "impressions": 108,
+   "clicks": 1,
+   "position": 22.7
   },
   {
    "page": "https://getyourbucksworth.com/paradise-valley-az/air-conditioning-and-heating/spray-foam-insulation",
@@ -1154,22 +1142,28 @@
    "position": 10.7
   },
   {
-   "page": "https://getyourbucksworth.com/fountain-hills-az",
+   "page": "/chandler-az/weed-and-lawn-care/overseeding",
    "impressions": 107,
-   "clicks": 0,
-   "position": 17.6
+   "clicks": 3,
+   "position": 17.8
   },
   {
-   "page": "https://getyourbucksworth.com/queen-creek-az/weed-and-lawn-care/lawn-fertilization",
+   "page": "https://getyourbucksworth.com/coolidge-az/plumbing-and-water-heaters/drain-cleaning",
    "impressions": 107,
    "clicks": 0,
-   "position": 8.1
+   "position": 16.7
   },
   {
-   "page": "https://getyourbucksworth.com/best-pest-control-in-laveen-az-targeted-scorpion-and-pest-solutions/",
+   "page": "/coolidge-az/plumbing-and-water-heaters/water-softener",
+   "impressions": 106,
+   "clicks": 1,
+   "position": 12.1
+  },
+  {
+   "page": "https://getyourbucksworth.com/sahuarita-az/pest-and-termite/rodent-exclusion",
    "impressions": 106,
    "clicks": 0,
-   "position": 18.1
+   "position": 11.3
   },
   {
    "page": "/san-tan-valley-az/plumbing-and-water-heaters/gas-line-services",
@@ -1178,34 +1172,40 @@
    "position": 10.0
   },
   {
-   "page": "/apache-junction-az/pest-and-termite/rodent-exclusion",
-   "impressions": 101,
-   "clicks": 2,
-   "position": 21.7
+   "page": "/tucson-az/weed-and-lawn-care/lawn-fertilization",
+   "impressions": 105,
+   "clicks": 1,
+   "position": 23.3
   },
   {
-   "page": "https://getyourbucksworth.com/mesa-az/pest-and-termite/mosquito-control",
-   "impressions": 96,
-   "clicks": 0,
-   "position": 19.5
+   "page": "/mesa-az/air-conditioning-and-heating/radiant-barrier",
+   "impressions": 104,
+   "clicks": 1,
+   "position": 18.6
   },
   {
-   "page": "https://getyourbucksworth.com/vail-az/",
-   "impressions": 96,
+   "page": "https://getyourbucksworth.com/scottsdale-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 104,
    "clicks": 0,
-   "position": 23.6
+   "position": 10.4
   },
   {
-   "page": "https://getyourbucksworth.com/tempe-az/pest-and-termite/bed-bug-treatment",
-   "impressions": 95,
-   "clicks": 0,
-   "position": 9.8
+   "page": "/florence-az/air-conditioning-and-heating/attic-insulation",
+   "impressions": 102,
+   "clicks": 1,
+   "position": 18.5
   },
   {
-   "page": "https://getyourbucksworth.com/catalina-foothills-az/pest-and-termite/scorpion-control",
-   "impressions": 94,
-   "clicks": 0,
+   "page": "/casa-grande-az/air-conditioning-and-heating/ductwork",
+   "impressions": 100,
+   "clicks": 1,
    "position": 11.7
+  },
+  {
+   "page": "https://getyourbucksworth.com/mesa-az/pest-and-termite/bed-bug-treatment",
+   "impressions": 100,
+   "clicks": 0,
+   "position": 16.7
   }
  ]
 }

@@ -1,39 +1,11 @@
 {
- "generated": "2026-10-04T18:25:41.322913+00:00",
+ "generated": "2026-10-11T17:46:29.490794+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-07-04..2026-10-02"
+  "gsc": "Search Console query+page 2026-07-11..2026-10-09"
  },
  "queue": [
-  {
-   "city": "mesa-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "termite-treatment",
-   "question_keyword": "what to termites look like",
-   "question_az_volume": 1600,
-   "question_us_volume": 49500,
-   "city_money_keyword": "termite treatment mesa",
-   "city_money_volume_az": 70,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/mesa-az/pest-and-termite/termite-treatment",
-   "score": 274.52,
-   "question_cluster": "like look term"
-  },
-  {
-   "city": "tempe-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "bee-wasp-removal",
-   "question_keyword": "wasp nest how to remove",
-   "question_az_volume": 590,
-   "question_us_volume": 40500,
-   "city_money_keyword": "bee removal tempe",
-   "city_money_volume_az": 50,
-   "existing_posts_city_sub": 0,
-   "money_page_to_link": "/tempe-az/pest-and-termite/bee-wasp-removal",
-   "score": 262.87,
-   "question_cluster": "nest rid wasp"
-  },
   {
    "city": "phoenix-az",
    "vertical": "pest-and-termite",
@@ -63,48 +35,6 @@
    "question_cluster": "bedb chec"
   },
   {
-   "city": "chandler-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "mosquito-control",
-   "question_keyword": "how long can mosquitoes live",
-   "question_az_volume": 1600,
-   "question_us_volume": 22200,
-   "city_money_keyword": "mosquito control chandler",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/chandler-az/pest-and-termite/mosquito-control",
-   "score": 203.9,
-   "question_cluster": "live long mosq"
-  },
-  {
-   "city": "chandler-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "bee-wasp-removal",
-   "question_keyword": "do bumble bees stings",
-   "question_az_volume": 480,
-   "question_us_volume": 49500,
-   "city_money_keyword": "bee removal chandler",
-   "city_money_volume_az": 260,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/chandler-az/pest-and-termite/bee-wasp-removal",
-   "score": 183.53,
-   "question_cluster": "bees bumb stin"
-  },
-  {
-   "city": "mesa-az",
-   "vertical": "weed-and-lawn-care",
-   "sub_service": "post-emergent-weed-treatment",
-   "question_keyword": "best weed killer herbicide",
-   "question_az_volume": 720,
-   "question_us_volume": 18100,
-   "city_money_keyword": "weed control mesa",
-   "city_money_volume_az": 50,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/mesa-az/weed-and-lawn-care/post-emergent-weed-treatment",
-   "score": 176.87,
-   "question_cluster": "rid weed"
-  },
-  {
    "city": "mesa-az",
    "vertical": "pest-and-termite",
    "sub_service": "roach-elimination",
@@ -117,20 +47,6 @@
    "money_page_to_link": "/mesa-az/pest-and-termite/roach-elimination",
    "score": 171.06,
    "question_cluster": "cock germ rid"
-  },
-  {
-   "city": "mesa-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "bee-wasp-removal",
-   "question_keyword": "do wood boring bees sting",
-   "question_az_volume": 480,
-   "question_us_volume": 33100,
-   "city_money_keyword": "bee removal mesa",
-   "city_money_volume_az": 140,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/mesa-az/pest-and-termite/bee-wasp-removal",
-   "score": 167.75,
-   "question_cluster": "bees bori stin wood"
   },
   {
    "city": "phoenix-az",
@@ -315,6 +231,20 @@
    "question_cluster": "ants rid"
   },
   {
+   "city": "tempe-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "bee-wasp-removal",
+   "question_keyword": "how can i get rid of wood boring bees",
+   "question_az_volume": 50,
+   "question_us_volume": 22200,
+   "city_money_keyword": "bee removal tempe",
+   "city_money_volume_az": 50,
+   "existing_posts_city_sub": 0,
+   "money_page_to_link": "/tempe-az/pest-and-termite/bee-wasp-removal",
+   "score": 76.53,
+   "question_cluster": "bees carp rid"
+  },
+  {
    "city": "queen-creek-az",
    "vertical": "pest-and-termite",
    "sub_service": "scorpion-control",
@@ -397,20 +327,6 @@
    "money_page_to_link": "/glendale-az/pest-and-termite/rodent-exclusion",
    "score": 54.65,
    "question_cluster": "pack rats"
-  },
-  {
-   "city": "phoenix-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "bee-wasp-removal",
-   "question_keyword": "how to get rid of carpenter bees",
-   "question_az_volume": 50,
-   "question_us_volume": 22200,
-   "city_money_keyword": "bee removal phoenix",
-   "city_money_volume_az": 480,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/phoenix-az/pest-and-termite/bee-wasp-removal",
-   "score": 51.95,
-   "question_cluster": "bees carp rid"
   },
   {
    "city": "chandler-az",
