@@ -78,5 +78,18 @@
   "money_page_linked": "/chandler-az/pest-and-termite/bee-wasp-removal",
   "serp_type": "informational how-to/ID (queue data; live SERP not pulled, no DataForSEO via Zapier this run)",
   "gate": "topic-check pass; queue rank 2 fails topic-check, rank 3 overlaps the 2026-09-30 Mesa bed bug inspection post"
+ },
+ {
+  "date": "2026-10-11",
+  "slug": "best-weed-killer-for-mesa-yards-what-herbicide-works-on-desert-weeds-lawns-and-rock-beds",
+  "city": "mesa-az",
+  "vertical": "weed-and-lawn-care",
+  "sub_service": "post-emergent-weed-treatment",
+  "target_question": "best weed killer herbicide",
+  "az_volume": 720,
+  "queue_rank": 7,
+  "money_page_linked": "/mesa-az/weed-and-lawn-care/post-emergent-weed-treatment",
+  "serp_type": "informational product/how-to (queue data; live SERP not pulled, no DataForSEO via Zapier this run)",
+  "gate": "topic-check pass; rank 1 fails (Mesa termite post exists), rank 2/5 published, rank 3/4 bed bug cluster overlaps the 2026-09-30 Mesa bed bug post, rank 6 overlaps bumble bee post cluster; striking-distance pages linked: /mesa-az/weed-and-lawn-care, /mesa-az/weed-and-lawn-care/overseeding"
  }
 ]
