@@ -4,7 +4,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [x] **DONE 2026-10-12 (commit pending SHA below; 12 unique links, 10 H2s) · 2026-10-11 · Mesa weed-killer post: trim internal links + H2s** (commit 53edac3)
+- [x] **DONE 2026-10-12 (commit 1f91c68; 12 unique links, 10 H2s) · 2026-10-11 · Mesa weed-killer post: trim internal links + H2s** (commit 53edac3)
   - Post: `/blog/best-weed-killer-for-mesa-yards-what-herbicide-works-on-desert-weeds-lawns-and-rock-beds`
   - Internal links: 16 unique — cut to 10–12. Keep `/mesa-az/weed-and-lawn-care/post-emergent-weed-treatment` (money page), `/mesa-az/weed-and-lawn-care`, overseeding (striking distance). Drop the weakest other-city hubs (Apache Junction/Chandler/Gilbert/Tempe weed hubs) first.
   - H2s: 11 incl. FAQ — merge two (e.g. "Should You Spray It Yourself or Hire Someone" + "What Weed Control Do We Offer Near Mesa") to land at 10.
