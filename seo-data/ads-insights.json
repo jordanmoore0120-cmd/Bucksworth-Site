@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-05T14:04Z",
+ "generated": "2026-10-12T14:07Z",
  "period": [
-  "2026-09-05",
-  "2026-10-04"
+  "2026-09-12",
+  "2026-10-11"
  ],
  "source": "Google Ads account 4486379637 (read-only pull by Viktor's google-ads-bot). Conversions = Google-tracked lead actions; one visitor can fire click-to-call + form (count as 1 customer). Not yet matched to FieldRoutes booked jobs.",
  "how_to_use": "Paid-search demand + landing-page conversion evidence for /lp/* and service/city pages. Converting terms = proven buyer language for headlines/FAQ. Paid junk terms = DIY intent (blog/FAQ ideas, not LP copy). Zips with leads = where to deepen local content.",
  "landing_pages": [
   {
    "url": "https://www.getyourbucksworth.com/phoenix-az/weed-and-lawn-care",
-   "clicks": 43,
-   "cost": 1063.63,
+   "clicks": 21,
+   "cost": 639.08,
+   "lead_conversions": 0.0,
+   "conv_rate": 0.0
+  },
+  {
+   "url": "https://www.getyourbucksworth.com/phoenix-az/pest-and-termite/termite-treatment",
+   "clicks": 15,
+   "cost": 609.7,
    "lead_conversions": 0.0,
    "conv_rate": 0.0
   },
   {
    "url": "https://www.getyourbucksworth.com/phoenix-az/pest-and-termite",
-   "clicks": 49,
-   "cost": 983.49,
-   "lead_conversions": 1.0,
-   "conv_rate": 0.02
-  },
-  {
-   "url": "https://www.getyourbucksworth.com/phoenix-az/pest-and-termite/termite-treatment",
-   "clicks": 24,
-   "cost": 977.0,
+   "clicks": 23,
+   "cost": 502.18,
    "lead_conversions": 0.0,
    "conv_rate": 0.0
   },
@@ -65,8 +65,8 @@
   },
   {
    "url": "https://www.getyourbucksworth.com/lp/pest-control",
-   "clicks": 7,
-   "cost": 81.66,
+   "clicks": 8,
+   "cost": 83.1,
    "lead_conversions": 0.0,
    "conv_rate": 0.0
   },
@@ -113,6 +113,13 @@
    "conv_rate": 0.0
   },
   {
+   "url": "https://www.getyourbucksworth.com/lp/scorpion-control-b",
+   "clicks": 2,
+   "cost": 34.9,
+   "lead_conversions": 0.0,
+   "conv_rate": 0.0
+  },
+  {
    "url": "https://www.getyourbucksworth.com/lp/termite-control-b",
    "clicks": 2,
    "cost": 34.66,
@@ -127,9 +134,9 @@
    "conv_rate": 0.0
   },
   {
-   "url": "https://www.getyourbucksworth.com/request-service",
-   "clicks": 1,
-   "cost": 18.22,
+   "url": "https://www.getyourbucksworth.com/phoenix-az/pest-and-termite/scorpion-control",
+   "clicks": 2,
+   "cost": 30.72,
    "lead_conversions": 0.0,
    "conv_rate": 0.0
   },
@@ -137,20 +144,6 @@
    "url": "https://www.getyourbucksworth.com/lp/cockroach-control",
    "clicks": 1,
    "cost": 17.99,
-   "lead_conversions": 0.0,
-   "conv_rate": 0.0
-  },
-  {
-   "url": "https://www.getyourbucksworth.com/lp/scorpion-control-b",
-   "clicks": 1,
-   "cost": 17.94,
-   "lead_conversions": 0.0,
-   "conv_rate": 0.0
-  },
-  {
-   "url": "https://www.getyourbucksworth.com/phoenix-az/pest-and-termite/scorpion-control",
-   "clicks": 1,
-   "cost": 17.86,
    "lead_conversions": 0.0,
    "conv_rate": 0.0
   },
@@ -164,42 +157,18 @@
  ],
  "converting_search_terms": [
   {
-   "term": "bucksworth home services",
-   "clicks": 14.0,
-   "cost": 123.46,
-   "conversions": 1.0
-  },
-  {
    "term": "greenleaf pest control mesa",
    "clicks": 2.0,
    "cost": 83.74,
-   "conversions": 1.0
-  },
-  {
-   "term": "bucksworth pest control",
-   "clicks": 7.0,
-   "cost": 73.04,
    "conversions": 1.0
   }
  ],
  "top_paid_search_terms": [
   {
-   "term": "bucksworth home services",
-   "clicks": 14.0,
-   "cost": 123.46,
-   "conversions": 1.0
-  },
-  {
    "term": "greenleaf pest control mesa",
    "clicks": 2.0,
    "cost": 83.74,
    "conversions": 1.0
-  },
-  {
-   "term": "weed removal service",
-   "clicks": 2.0,
-   "cost": 82.16,
-   "conversions": 0.0
   },
   {
    "term": "how to get rid of spurge weeds",
@@ -208,39 +177,15 @@
    "conversions": 0.0
   },
   {
-   "term": "bucksworth pest control",
-   "clicks": 7.0,
-   "cost": 73.04,
-   "conversions": 1.0
-  },
-  {
-   "term": "pest control near me",
-   "clicks": 4.0,
-   "cost": 65.96,
-   "conversions": 0.0
-  },
-  {
-   "term": "yard maintenance near me",
-   "clicks": 4.0,
-   "cost": 64.99,
+   "term": "bucksworth home services",
+   "clicks": 9.0,
+   "cost": 69.5,
    "conversions": 0.0
   },
   {
    "term": "lawn and yard care",
    "clicks": 1.0,
    "cost": 63.19,
-   "conversions": 0.0
-  },
-  {
-   "term": "pechito weed killer",
-   "clicks": 2.0,
-   "cost": 60.44,
-   "conversions": 0.0
-  },
-  {
-   "term": "termite repellent homemade",
-   "clicks": 1.0,
-   "cost": 58.38,
    "conversions": 0.0
   },
   {
@@ -256,21 +201,21 @@
    "conversions": 0.0
   },
   {
-   "term": "termite damage repair",
-   "clicks": 1.0,
-   "cost": 53.86,
+   "term": "pest control near me",
+   "clicks": 3.0,
+   "cost": 48.36,
    "conversions": 0.0
   },
   {
-   "term": "termite treatment under slab",
+   "term": "weed removal service",
    "clicks": 1.0,
-   "cost": 49.33,
+   "cost": 46.27,
    "conversions": 0.0
   },
   {
-   "term": "how long does a termite treatment last",
-   "clicks": 1.0,
-   "cost": 45.7,
+   "term": "bucksworth pest control",
+   "clicks": 4.0,
+   "cost": 40.89,
    "conversions": 0.0
   },
   {
@@ -283,12 +228,6 @@
    "term": "termidor",
    "clicks": 1.0,
    "cost": 36.7,
-   "conversions": 0.0
-  },
-  {
-   "term": "best termite exterminator near me",
-   "clicks": 1.0,
-   "cost": 34.49,
    "conversions": 0.0
   },
   {
@@ -340,12 +279,6 @@
    "conversions": 0.0
   },
   {
-   "term": "yard clean up companies near me",
-   "clicks": 1.0,
-   "cost": 29.91,
-   "conversions": 0.0
-  },
-  {
    "term": "weed pulling service",
    "clicks": 2.0,
    "cost": 29.84,
@@ -388,12 +321,6 @@
    "conversions": 0.0
   },
   {
-   "term": "district pest control mesa az",
-   "clicks": 1.0,
-   "cost": 27.96,
-   "conversions": 0.0
-  },
-  {
    "term": "sofyre rodent repellent",
    "clicks": 1.0,
    "cost": 26.31,
@@ -403,12 +330,6 @@
    "term": "termite control reviews",
    "clicks": 1.0,
    "cost": 25.98,
-   "conversions": 0.0
-  },
-  {
-   "term": "snapshot 2.5 tg pre emergent herbicide",
-   "clicks": 1.0,
-   "cost": 25.84,
    "conversions": 0.0
   },
   {
@@ -422,29 +343,93 @@
    "clicks": 2.0,
    "cost": 24.92,
    "conversions": 0.0
+  },
+  {
+   "term": "i have termites in my house what do i do",
+   "clicks": 1.0,
+   "cost": 24.78,
+   "conversions": 0.0
+  },
+  {
+   "term": "termite poison",
+   "clicks": 1.0,
+   "cost": 24.18,
+   "conversions": 0.0
+  },
+  {
+   "term": "what does termite treatment cost",
+   "clicks": 1.0,
+   "cost": 23.74,
+   "conversions": 0.0
+  },
+  {
+   "term": "cricket pest control",
+   "clicks": 1.0,
+   "cost": 19.98,
+   "conversions": 0.0
+  },
+  {
+   "term": "when to add pre emergent to lawn",
+   "clicks": 2.0,
+   "cost": 19.72,
+   "conversions": 0.0
+  },
+  {
+   "term": "yard maintenance near me",
+   "clicks": 1.0,
+   "cost": 19.56,
+   "conversions": 0.0
+  },
+  {
+   "term": "ace hardware rat traps",
+   "clicks": 1.0,
+   "cost": 18.0,
+   "conversions": 0.0
+  },
+  {
+   "term": "how do i get rid of roaches in my house",
+   "clicks": 1.0,
+   "cost": 17.99,
+   "conversions": 0.0
+  },
+  {
+   "term": "what kill roaches",
+   "clicks": 1.0,
+   "cost": 17.98,
+   "conversions": 0.0
+  },
+  {
+   "term": "moth ball alternatives for mice",
+   "clicks": 1.0,
+   "cost": 17.77,
+   "conversions": 0.0
   }
  ],
  "leads_by_zip": [
   {
-   "zip": "85132",
-   "lsa_leads": 6.0,
-   "search_leads": 3.0
-  },
-  {
    "zip": "85120",
-   "lsa_leads": 7.0
+   "lsa_leads": 8.0
   },
   {
-   "zip": "85212",
-   "lsa_leads": 1.0,
+   "zip": "85132",
+   "lsa_leads": 2.0,
    "search_leads": 3.0
-  },
-  {
-   "zip": "85213",
-   "lsa_leads": 3.0
   },
   {
    "zip": "85028",
+   "lsa_leads": 3.0
+  },
+  {
+   "zip": "85212",
+   "lsa_leads": 2.0,
+   "search_leads": 1.0
+  },
+  {
+   "zip": "85339",
+   "lsa_leads": 3.0
+  },
+  {
+   "zip": "85042",
    "lsa_leads": 2.0
   },
   {
@@ -452,15 +437,11 @@
    "lsa_leads": 2.0
   },
   {
-   "zip": "85233",
+   "zip": "85213",
    "lsa_leads": 2.0
   },
   {
-   "zip": "85249",
-   "lsa_leads": 2.0
-  },
-  {
-   "zip": "85286",
+   "zip": "85251",
    "lsa_leads": 2.0
   },
   {
@@ -469,11 +450,15 @@
    "search_leads": 1.0
   },
   {
-   "zip": "85338",
-   "lsa_leads": 2.0
+   "zip": "85014",
+   "lsa_leads": 1.0
   },
   {
-   "zip": "85014",
+   "zip": "85024",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85027",
    "lsa_leads": 1.0
   },
   {
@@ -481,7 +466,31 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85207",
+   "zip": "85040",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85086",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85118",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85142",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85201",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85204",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85205",
    "lsa_leads": 1.0
   },
   {
@@ -489,7 +498,19 @@
    "lsa_leads": 1.0
   },
   {
+   "zip": "85233",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85234",
+   "lsa_leads": 1.0
+  },
+  {
    "zip": "85248",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85249",
    "lsa_leads": 1.0
   },
   {
@@ -505,18 +526,34 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85388",
+   "zip": "85338",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85340",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85383",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85396",
    "lsa_leads": 1.0
   },
   {
    "zip": "85140",
    "lsa_leads": 1.0
+  },
+  {
+   "zip": "85288",
+   "lsa_leads": 1.0
   }
  ],
  "lsa_leads_by_service": {
-  "pest_control/MESSAGE": 28,
-  "pest_control/PHONE_CALL": 19,
-  "lawn_care/MESSAGE": 11,
-  "lawn_care/PHONE_CALL": 15
+  "pest_control/PHONE_CALL": 14,
+  "pest_control/MESSAGE": 35,
+  "lawn_care/PHONE_CALL": 29,
+  "lawn_care/MESSAGE": 14
  }
 }
