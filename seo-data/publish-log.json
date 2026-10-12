@@ -91,5 +91,18 @@
   "money_page_linked": "/mesa-az/weed-and-lawn-care/post-emergent-weed-treatment",
   "serp_type": "informational product/how-to (queue data; live SERP not pulled, no DataForSEO via Zapier this run)",
   "gate": "topic-check pass; rank 1 fails (Mesa termite post exists), rank 2/5 published, rank 3/4 bed bug cluster overlaps the 2026-09-30 Mesa bed bug post, rank 6 overlaps bumble bee post cluster; striking-distance pages linked: /mesa-az/weed-and-lawn-care, /mesa-az/weed-and-lawn-care/overseeding"
+ },
+ {
+  "date": "2026-10-12",
+  "slug": "how-to-kill-german-cockroaches-a-mesa-homeowners-guide-to-getting-rid-of-german-roaches-for-good",
+  "city": "mesa-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "roach-elimination",
+  "target_question": "kill german cockroaches",
+  "az_volume": 880,
+  "queue_rank": 3,
+  "money_page_linked": "/mesa-az/pest-and-termite/roach-elimination",
+  "serp_type": "informational how-to/ID (queue data; live SERP not pulled, DataForSEO via Zapier unavailable this run)",
+  "gate": "topic-check pass; queue ranks 1-2 fail topic-check (existing bed bug pages); rank 3 passes; existing Mesa roach post targets general 'getting rid of cockroaches', not German-specific; striking-distance pages linked: /mesa-az/pest-and-termite, /mesa-az"
  }
 ]
