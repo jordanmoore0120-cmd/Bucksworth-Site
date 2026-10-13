@@ -104,5 +104,18 @@
   "money_page_linked": "/mesa-az/pest-and-termite/roach-elimination",
   "serp_type": "informational how-to/ID (queue data; live SERP not pulled, DataForSEO via Zapier unavailable this run)",
   "gate": "topic-check pass; queue ranks 1-2 fail topic-check (existing bed bug pages); rank 3 passes; existing Mesa roach post targets general 'getting rid of cockroaches', not German-specific; striking-distance pages linked: /mesa-az/pest-and-termite, /mesa-az"
+ },
+ {
+  "date": "2026-10-13",
+  "slug": "how-to-get-rid-of-bed-bugs-a-phoenix-homeowners-step-by-step-guide",
+  "city": "phoenix-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "bed-bug-treatment",
+  "target_question": "how to get rid of bed bugs",
+  "az_volume": 1900,
+  "queue_rank": 1,
+  "money_page_linked": "/phoenix-az/pest-and-termite/bed-bug-treatment",
+  "serp_type": "informational how-to (queue data; live SERP not pulled, DataForSEO via Zapier not checked this run)",
+  "gate": "topic-check on queue rank 1 flags only generic bed-bug service pages (city+service money pages, bed bug treatment posts); no existing post targets 'how to get rid of bed bugs'; Mesa post targets 'what do bed bugs look like' (different intent); striking-distance pages linked: /phoenix-az, /phoenix-az/pest-and-termite/spider-prevention"
  }
 ]

@@ -365,6 +365,8 @@ const nextConfig = {
         { source: "/blog/hidden-water-leaks-in-litchfield-park-how-85340-area-homeowners-can-detect-and-fix-them", destination: "/blog/hidden-water-leaks-in-litchfield-park-how-85340-area-homeowners-can-detect-and-f", permanent: true },
         { source: "/blog/ant-control-in-goodyear-az-getting-rid-of-persistent-pests-once-and-fo", destination: "/blog/ant-control-in-goodyear-az-getting-rid-of-persistent-pests-once-and-for-all", permanent: true },
         { source: "/blog/ahwatukee-plumbing-experts-reverse-osmosis-for-pure-water-in-the-footh", destination: "/blog/ahwatukee-plumbing-experts-reverse-osmosis-for-pure-water-in-the-foothills", permanent: true },
+        // 2026-10-13 URL GUARD: malformed doubled slug (from Search Console page data) -> the real post.
+        { source: "/blog/why-scottsdale-mosquito-problems-are-why-scottsdale-mosquito-problems-are-worse-than-you-think-tips-for-troon-north-r", destination: "/blog/why-scottsdale-mosquito-problems-are-worse-than-you-think-tips-for-troon-north-r", permanent: true },
         // Cross-post reference to a near-duplicate title under a different slug/wording.
         { source: "/blog/the-dangers-of-ignoring-termite-damage-in-your-arizona-home", destination: "/blog/the-dangers-of-ignoring-termite-damage-in-older-houses", permanent: true },
         // "Related articles" links to a companion city post that was never generated for that
