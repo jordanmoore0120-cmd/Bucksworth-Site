@@ -39044,5 +39044,292 @@
 "in_sitemap": false,
 "status_2026_10_07": 0
 }
+},
+"known_broken_2026_10_07": {
+"/phoenix/insulation/aeroseal-duct-sealing": {
+"status": 404,
+"final_url": "/phoenix-az/insulation/aeroseal-duct-sealing",
+"gsc_impressions_16mo": 2113
+},
+"/rat-pest-control": {
+"status": 404,
+"final_url": "/rat-pest-control",
+"gsc_impressions_16mo": 1721
+},
+"/phoenix/hvac-services/energy-efficiency/audits": {
+"status": 404,
+"final_url": "/phoenix-az/hvac-services/energy-efficiency/audits",
+"gsc_impressions_16mo": 1462
+},
+"/phoenix/hvac-services/thermostat-installation": {
+"status": 404,
+"final_url": "/phoenix-az/hvac-services/thermostat-installation",
+"gsc_impressions_16mo": 1132
+},
+"/phoenix/hvac-services/energy-efficiency/ventilation-systems": {
+"status": 404,
+"final_url": "/phoenix-az/hvac-services/energy-efficiency/ventilation-systems",
+"gsc_impressions_16mo": 935
+},
+"/residential__trashed/ant-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/ant-pest-control",
+"gsc_impressions_16mo": 909
+},
+"/residential__trashed/bird-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/bird-pest-control",
+"gsc_impressions_16mo": 710
+},
+"/residential__trashed/roach-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/roach-pest-control",
+"gsc_impressions_16mo": 696
+},
+"/residential__trashed/hornet-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/hornet-pest-control",
+"gsc_impressions_16mo": 639
+},
+"/phoenix/hvac-services/smart-thermostats": {
+"status": 404,
+"final_url": "/phoenix-az/hvac-services/smart-thermostats",
+"gsc_impressions_16mo": 611
+},
+"/heating-installation": {
+"status": 404,
+"final_url": "/heating-installation",
+"gsc_impressions_16mo": 590
+},
+"/residential__trashed/bee-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/bee-pest-control",
+"gsc_impressions_16mo": 548
+},
+"/residential__trashed/mouse-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/mouse-pest-control",
+"gsc_impressions_16mo": 492
+},
+"/phoenix/hvac-services/zone-control-systems": {
+"status": 404,
+"final_url": "/phoenix-az/hvac-services/zone-control-systems",
+"gsc_impressions_16mo": 451
+},
+"/mouse-pest-control": {
+"status": 404,
+"final_url": "/mouse-pest-control",
+"gsc_impressions_16mo": 319
+},
+"/news/signs-of-termite-damage": {
+"status": 404,
+"final_url": "/news/signs-of-termite-damage",
+"gsc_impressions_16mo": 303
+},
+"https://lp.getyourbucksworth.com": {
+"status": 0,
+"final_url": "<urlopen error [Errno -2] Name or service not known>",
+"gsc_impressions_16mo": 260
+},
+"/newhome": {
+"status": 404,
+"final_url": "/newhome",
+"gsc_impressions_16mo": 224
+},
+"/residential__trashed/spider-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/spider-pest-control",
+"gsc_impressions_16mo": 197
+},
+"/homenew": {
+"status": 404,
+"final_url": "/homenew",
+"gsc_impressions_16mo": 192
+},
+"/news/how-to-keep-commercial-refrigeration-running": {
+"status": 404,
+"final_url": "/news/how-to-keep-commercial-refrigeration-running",
+"gsc_impressions_16mo": 144
+},
+"/residential__trashed/rat-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/rat-pest-control",
+"gsc_impressions_16mo": 119
+},
+"/pest-control-litchfield-park-az": {
+"status": 404,
+"final_url": "/pest-control-litchfield-park-az",
+"gsc_impressions_16mo": 106
+},
+"/residential__trashed/millipede-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/millipede-pest-control",
+"gsc_impressions_16mo": 68
+},
+"/title": {
+"status": 404,
+"final_url": "/title",
+"gsc_impressions_16mo": 68
+},
+"/termite-pest-control": {
+"status": 404,
+"final_url": "/termite-pest-control",
+"gsc_impressions_16mo": 60
+},
+"/phoenix/insulation/blow-in": {
+"status": 404,
+"final_url": "/phoenix-az/insulation/blow-in",
+"gsc_impressions_16mo": 55
+},
+"/water-heater-services-in-sahuarita-az-keeping-your-showers-hot": {
+"status": 404,
+"final_url": "/blog/water-heater-services-in-sahuarita-az-keeping-your-showers-hot",
+"gsc_impressions_16mo": 43
+},
+"/mosquito-pest-control": {
+"status": 404,
+"final_url": "/mosquito-pest-control",
+"gsc_impressions_16mo": 26
+},
+"/residential__trashed/roof-rats-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/roof-rats-pest-control",
+"gsc_impressions_16mo": 7
+},
+"/ac-maintenance-in-tucson-az-reliable-service-for-your-cooling-needs": {
+"status": 404,
+"final_url": "/blog/ac-maintenance-in-tucson-az-reliable-service-for-your-cooling-needs",
+"gsc_impressions_16mo": 6
+},
+"/residential__trashed/scorpion-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/scorpion-pest-control",
+"gsc_impressions_16mo": 4
+},
+"/residential__trashed/squirrel-pest-control": {
+"status": 404,
+"final_url": "/residential__trashed/squirrel-pest-control",
+"gsc_impressions_16mo": 4
+},
+"/mesa-hvac": {
+"status": 404,
+"final_url": "/mesa-hvac",
+"gsc_impressions_16mo": 3
+},
+"/blog/why-scottsdale-mosquito-problems-are-worse-than-why-scottsdale-mosquito-problems-are-worse-than-you-think-tips-for-troon-north-r": {
+"status": 404,
+"final_url": "/blog/why-scottsdale-mosquito-problems-are-worse-than-why-scottsdale-mosquito-problems-are-worse-than-you-think-tips-for-troon-north-r",
+"gsc_impressions_16mo": 2
+},
+"/arizona-pest-control/goodyear-az": {
+"status": 404,
+"final_url": "/arizona-pest-control/goodyear-az",
+"gsc_impressions_16mo": 1
+},
+"/best-pest-control-in-casa-grande-az/reliable-protection-for-your-pinal-county-home": {
+"status": 404,
+"final_url": "/blog/best-pest-control-in-casa-grande-az/reliable-protection-for-your-pinal-county-home",
+"gsc_impressions_16mo": 1
+},
+"/best-pest-control-in-casagrande-az-reliable-protection-for-your-pinal-county-home": {
+"status": 404,
+"final_url": "/blog/best-pest-control-in-casagrande-az-reliable-protection-for-your-pinal-county-home",
+"gsc_impressions_16mo": 1
+},
+"/blog/9-Signs-of-bug-infestation-in-your-home": {
+"status": 404,
+"final_url": "/blog/9-Signs-of-bug-infestation-in-your-home",
+"gsc_impressions_16mo": 1
+},
+"/blog/9-signs-of-a-bug-infestation-in-your-home": {
+"status": 404,
+"final_url": "/blog/9-signs-of-a-bug-infestation-in-your-home",
+"gsc_impressions_16mo": 1
+},
+"/blog/9-signs-of-bug-infestation-in-home": {
+"status": 404,
+"final_url": "/blog/9-signs-of-bug-infestation-in-home",
+"gsc_impressions_16mo": 1
+},
+"/blog/is-your-ac-running-too-much-the-truth-about-energy-efficiency": {
+"status": 404,
+"final_url": "/blog/is-your-ac-running-too-much-the-truth-about-energy-efficiency",
+"gsc_impressions_16mo": 1
+},
+"/blog/phoenix-az-attic-insulation-faq": {
+"status": 404,
+"final_url": "/blog/phoenix-az-attic-insulation-faq",
+"gsc_impressions_16mo": 1
+},
+"/blog/re-piping-in-matching-avalon-village-homes": {
+"status": 404,
+"final_url": "/blog/re-piping-in-matching-avalon-village-homes",
+"gsc_impressions_16mo": 1
+},
+"/blog/roach-elimination-in-why-treating-just-the-kitchen-never-works": {
+"status": 404,
+"final_url": "/blog/roach-elimination-in-why-treating-just-the-kitchen-never-works",
+"gsc_impressions_16mo": 1
+},
+"/blog/roach-elimination-why-treating-just-the-kitchen-never-works": {
+"status": 404,
+"final_url": "/blog/roach-elimination-why-treating-just-the-kitchen-never-works",
+"gsc_impressions_16mo": 1
+},
+"/blog/signs-of-a-bug-infestation": {
+"status": 404,
+"final_url": "/blog/signs-of-a-bug-infestation",
+"gsc_impressions_16mo": 1
+},
+"/blog/signs-of-bug-infestation": {
+"status": 404,
+"final_url": "/blog/signs-of-bug-infestation",
+"gsc_impressions_16mo": 1
+},
+"/blog/signs-of-bug-infestation-in-your-home": {
+"status": 404,
+"final_url": "/blog/signs-of-bug-infestation-in-your-home",
+"gsc_impressions_16mo": 1
+},
+"/blog/the-mesa-homeowners-guide-to-overseeding-superstition-springs": {
+"status": 404,
+"final_url": "/blog/the-mesa-homeowners-guide-to-overseeding-superstition-springs",
+"gsc_impressions_16mo": 1
+},
+"/blog/the-p-scorpion-season-is-heretection-your-home-in-vistancia": {
+"status": 404,
+"final_url": "/blog/the-p-scorpion-season-is-heretection-your-home-in-vistancia",
+"gsc_impressions_16mo": 1
+},
+"/blog/the-phoenedix-homeowners-guide-to-overseeding-perfect-timing-for-desert-ridge-2": {
+"status": 404,
+"final_url": "/blog/the-phoenedix-homeowners-guide-to-overseeding-perfect-timing-for-desert-ridge-2",
+"gsc_impressions_16mo": 1
+},
+"/blog/water-heater-replacement-in-coolidge-expert-installation-near-casa-grounds-ruins-": {
+"status": 404,
+"final_url": "/blog/water-heater-replacement-in-coolidge-expert-installation-near-casa-grounds-ruins-",
+"gsc_impressions_16mo": 1
+},
+"/blog/why-invade-homes-in-fall": {
+"status": 404,
+"final_url": "/blog/why-invade-homes-in-fall",
+"gsc_impressions_16mo": 1
+},
+"/blog/why-phoenix-mosquito-problems-are-worse-than-ahwatukee-foothi": {
+"status": 404,
+"final_url": "/blog/why-phoenix-mosquito-problems-are-worse-than-ahwatukee-foothi",
+"gsc_impressions_16mo": 1
+},
+"/blog/why-scottsdale-mosquito-problems-are-worse-than-your-kind-tips-for-troon-north-r": {
+"status": 404,
+"final_url": "/blog/why-scottsdale-mosquito-problems-are-worse-than-your-kind-tips-for-troon-north-r",
+"gsc_impressions_16mo": 1
+},
+"/why-scorpions-love-phoenix-homes-and-how-to-stop-them-a-guide-for-ahwatukee-foot": {
+"status": 404,
+"final_url": "/why-scorpions-love-phoenix-homes-and-how-to-stop-them-a-guide-for-ahwatukee-foot",
+"gsc_impressions_16mo": 1
+}
 }
 }
