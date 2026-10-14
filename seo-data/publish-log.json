@@ -117,5 +117,18 @@
   "money_page_linked": "/phoenix-az/pest-and-termite/bed-bug-treatment",
   "serp_type": "informational how-to (queue data; live SERP not pulled, DataForSEO via Zapier not checked this run)",
   "gate": "topic-check on queue rank 1 flags only generic bed-bug service pages (city+service money pages, bed bug treatment posts); no existing post targets 'how to get rid of bed bugs'; Mesa post targets 'what do bed bugs look like' (different intent); striking-distance pages linked: /phoenix-az, /phoenix-az/pest-and-termite/spider-prevention"
+ },
+ {
+  "date": "2026-10-14",
+  "slug": "when-to-seed-bermuda-grass-a-phoenix-homeowners-guide-to-timing-prep-and-overseeding",
+  "city": "phoenix-az",
+  "vertical": "weed-and-lawn-care",
+  "sub_service": "bermuda-grass-control",
+  "target_question": "bermuda grass when to seed",
+  "az_volume": 880,
+  "queue_rank": 4,
+  "money_page_linked": "/phoenix-az/weed-and-lawn-care/bermuda-grass-control",
+  "serp_type": "informational how-to (queue data; live SERP/DataForSEO not pulled this run)",
+  "gate": "queue ranks 1-3 skipped (1-2 bed bug pages exist, 3 published 10-12); topic-check on rank 4 passes; no post targets seeding bermuda (existing Phoenix overseeding posts target winter rye overseeding, post explains the difference and links them); linked overseeding + pre-emergent + Tempe bermuda pages"
  }
 ]
