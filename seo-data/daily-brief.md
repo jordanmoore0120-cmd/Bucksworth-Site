@@ -1,27 +1,27 @@
-# Daily data feed (Viktor → Claude): Tue 2026-10-13
+# Daily data feed (Viktor → Claude): Wed 2026-10-14
 
 **Facts only. You set your own priorities from CLAUDE.md and STRATEGY.md.**
-This file is legacy (see ops/DIGITAL-OS.md), so don't wait on it. Pulled 2026-10-13 05:30 AZ.
+This file is legacy (see ops/DIGITAL-OS.md), so don't wait on it. Pulled 2026-10-14 05:30 AZ.
 
 ## Jordan's words (#bucksworth-digital, last 24h, with threads)
-- None. The 10/12 09:11 AZ message from his account was Claude's run summary ("Sent using Claude"), so it isn't quoted as Jordan.
+- 10/13 ~12:06 AZ: "please send all feed back to claude"
+  - It was posted right after Viktor's 10/13 site-check message. That message's "To watch" lines, verbatim:
+    "We already have an older post, "Downtown Bed Bug Treatment: What Every Phoenix Homeowner Needs to Know." The new post links to it, but they may compete for Phoenix bed bug searches. I'll check Search Console for overlap. Also, Claude didn't re-check live search results today; it worked from the topic list."
+- The 10/13 09:10 AZ message from his account was Claude's run summary ("Sent using Claude"), so it isn't quoted as Jordan.
 
 ## Claude's commits since the last brief (origin/main)
-- `1f91c68` (10/12 16:07Z) blog: how to kill German cockroaches (Mesa, queue rank 3, 880 AZ vol); fix-list: trim Mesa weed-killer post links/H2s
-- `087d770` (10/12 16:11Z) seo-data: fix-list mark Mesa weed-killer trim done (1f91c68)
-- Also on main from Viktor: `a65a090` seo-data: weekly ads-insights refresh (2026-10-12); `37ffccc` daily data feed 2026-10-12 + Monday guard data
+- `e18caa2` (10/13 16:08Z) blog: how to get rid of bed bugs (Phoenix, queue rank 1, 1,900 AZ vol); 301 for malformed Scottsdale mosquito slug (URL GUARD)
+- Also on main from Viktor: `2750cfc` daily data feed 2026-10-13
 
-## Leads yesterday (Mon 10/12, Google Ads 4486379637)
-- LSA: 9 leads, 9 charged. Spend $672.18, 638 impressions, 65 clicks.
-  - Termite: 4 (all message)
-  - Hornets/wasps: 2 (1 call, 1 message; the message lead is CONSUMER_DECLINED)
-  - Pest control (other): 1 (message)
-  - Weed control: 1 (message)
-  - Lawn care, no service set: 1 (call)
-- Search: 0 impressions on 10/12 (Pest Pinal runs Wed–Fri 8–11am only).
-- Lead ZIPs (SEARCHER location from Google's user-location report, not job address; it places 6 of the 9):
-  85020, 85040, 85041, 85142, 85201, 85254 (1 each).
-- Last 7 days, 2 each: 85040, 85042, 85120, 85142, 85201, 85251. 1 each: 85020, 85024, 85028, 85041, 85086, 85118, 85205, 85254, 85288, 85339, 85340, 85383, 85396.
+## Leads yesterday (Tue 10/13, Google Ads 4486379637)
+- LSA: 5 leads, 5 charged. Spend $241.72, 644 impressions, 39 clicks.
+  - Weed control: 2 (both calls)
+  - Termite: 2 (both message)
+  - Spiders: 1 (message)
+- Search: 0 impressions on 10/13 (Pest Pinal runs Wed–Fri 8–11am only).
+- Lead ZIPs (SEARCHER location from Google's user-location report, not job address; it places 3 of the 5):
+  85021, 85027, 85379 (1 each).
+- Last 7 days, 2 each: 85040, 85042, 85201, 85251. 1 each: 85020, 85021, 85024, 85027, 85041, 85086, 85120, 85142, 85205, 85254, 85339, 85340, 85379, 85383, 85396.
 
 ## Data files + dates (seo-data/)
 - rankings.json: generated 2026-10-11 17:46Z
@@ -29,13 +29,9 @@ This file is legacy (see ops/DIGITAL-OS.md), so don't wait on it. Pulled 2026-10
 - ai-visibility.json: date 2026-10-07
 
 ## URL guard (node scripts/url-guard.mjs prod)
-- 6,516 checked. 57 known broken (excluded), 1 NEW break, added to fix-list.md:
-  `/blog/why-scottsdale-mosquito-problems-are-why-scottsdale-mosquito-problems-are-worse-than-you-think-tips-for-troon-north-r` -> 404.
-  It entered url-baseline.json on 10/12 from Search Console page data (malformed, doubled slug), not from the sitemap.
-- Correction: Monday's guard-data rebuild (Viktor's script) dropped the `known_broken_2026_10_07` list from url-baseline.json,
-  so a first run today counted all 58 as NEW. The list is restored in this commit and the script is fixed.
+- 6,516 checked. 57 not 200, all 57 already known broken (excluded). 0 NEW breaks. Nothing added to fix-list.md.
 
 ## Connector health
 - Viktor has no Zapier connector check of its own. No current check, not guessed.
-- Claude's 10/12 run summary, its own words: "I did not pull live Zapier data (GSC, Ads, GBP, DataForSEO) or check connector health" and "I did not run the `site-qa` script (Playwright is unavailable), `npm run build` or Lighthouse."
-- Claude's routine ran on 10/12 (commits above).
+- Claude's 10/13 run summary, its own words: "I did not pull live Zapier data (GSC, Ads, GBP, DataForSEO) or check connector health, and did not run Lighthouse or site-qa." and "`npm run build` passed."
+- Claude's routine ran on 10/13 (commit above).
