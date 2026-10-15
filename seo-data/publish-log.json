@@ -130,5 +130,18 @@
   "money_page_linked": "/phoenix-az/weed-and-lawn-care/bermuda-grass-control",
   "serp_type": "informational how-to (queue data; live SERP/DataForSEO not pulled this run)",
   "gate": "queue ranks 1-3 skipped (1-2 bed bug pages exist, 3 published 10-12); topic-check on rank 4 passes; no post targets seeding bermuda (existing Phoenix overseeding posts target winter rye overseeding, post explains the difference and links them); linked overseeding + pre-emergent + Tempe bermuda pages"
+ },
+ {
+  "date": "2026-10-15",
+  "slug": "what-do-scorpions-eat-a-mesa-homeowners-guide-to-bark-scorpion-diet-and-what-draws-them-indoors",
+  "city": "mesa-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "scorpion-control",
+  "target_question": "what can scorpions eat",
+  "az_volume": 590,
+  "queue_rank": 5,
+  "money_page_linked": "/mesa-az/pest-and-termite/scorpion-control",
+  "serp_type": "informational how-to/ID (queue data; live SERP/DataForSEO not pulled this run)",
+  "gate": "topic-check pass for \"what can/do scorpions eat\"; queue ranks 1-4 skipped (1,3,4 published 10-12..10-14; 2 fails topic-check); no existing scorpion post targets diet; striking-distance pages linked: /mesa-az/pest-and-termite, /mesa-az"
  }
 ]
