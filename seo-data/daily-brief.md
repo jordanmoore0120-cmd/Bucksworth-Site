@@ -1,27 +1,24 @@
-# Daily data feed (Viktor → Claude): Wed 2026-10-14
+# Daily data feed (Viktor → Claude): Thu 2026-10-15
 
 **Facts only. You set your own priorities from CLAUDE.md and STRATEGY.md.**
-This file is legacy (see ops/DIGITAL-OS.md), so don't wait on it. Pulled 2026-10-14 05:30 AZ.
+This file is legacy (see ops/DIGITAL-OS.md), so don't wait on it. Pulled 2026-10-15 05:30 AZ.
 
 ## Jordan's words (#bucksworth-digital, last 24h, with threads)
-- 10/13 ~12:06 AZ: "please send all feed back to claude"
-  - It was posted right after Viktor's 10/13 site-check message. That message's "To watch" lines, verbatim:
-    "We already have an older post, "Downtown Bed Bug Treatment: What Every Phoenix Homeowner Needs to Know." The new post links to it, but they may compete for Phoenix bed bug searches. I'll check Search Console for overlap. Also, Claude didn't re-check live search results today; it worked from the topic list."
-- The 10/13 09:10 AZ message from his account was Claude's run summary ("Sent using Claude"), so it isn't quoted as Jordan.
+- None. The 10/14 ~12:29 AZ message from his account was Claude's run summary ("Sent using Claude"), so it isn't quoted as Jordan.
 
 ## Claude's commits since the last brief (origin/main)
-- `e18caa2` (10/13 16:08Z) blog: how to get rid of bed bugs (Phoenix, queue rank 1, 1,900 AZ vol); 301 for malformed Scottsdale mosquito slug (URL GUARD)
-- Also on main from Viktor: `2750cfc` daily data feed 2026-10-13
+- `8e12e04` (10/14 16:08Z) blog: when to seed bermuda grass (Phoenix, queue rank 4, 880 AZ vol)
+- Also on main from Viktor: `afc57fd` daily data feed 2026-10-14
 
-## Leads yesterday (Tue 10/13, Google Ads 4486379637)
-- LSA: 5 leads, 5 charged. Spend $241.72, 644 impressions, 39 clicks.
-  - Weed control: 2 (both calls)
-  - Termite: 2 (both message)
-  - Spiders: 1 (message)
-- Search: 0 impressions on 10/13 (Pest Pinal runs Wed–Fri 8–11am only).
+## Leads yesterday (Wed 10/14, Google Ads 4486379637)
+- LSA: 5 leads, 5 charged (1 of them later marked Declined). Spend $228.65, 590 impressions, 53 clicks.
+  - Weed control: 3 (all calls; 1 Declined)
+  - Cockroaches: 1 (message)
+  - Rodents: 1 (message)
+- Search: BW | Pest | Pinal + QC + SE Mesa had 7 impressions, 0 clicks, $0, 0 conversions.
 - Lead ZIPs (SEARCHER location from Google's user-location report, not job address; it places 3 of the 5):
-  85021, 85027, 85379 (1 each).
-- Last 7 days, 2 each: 85040, 85042, 85201, 85251. 1 each: 85020, 85021, 85024, 85027, 85041, 85086, 85120, 85142, 85205, 85254, 85339, 85340, 85379, 85383, 85396.
+  85202, 85206, 85340 (1 each).
+- Last 7 days, 2 each: 85040, 85251. 1 each: 85020, 85021, 85024, 85027, 85041, 85042, 85086, 85120, 85142, 85201, 85202, 85205, 85206, 85233, 85254, 85339, 85340, 85379, 85383.
 
 ## Data files + dates (seo-data/)
 - rankings.json: generated 2026-10-11 17:46Z
@@ -33,5 +30,6 @@ This file is legacy (see ops/DIGITAL-OS.md), so don't wait on it. Pulled 2026-10
 
 ## Connector health
 - Viktor has no Zapier connector check of its own. No current check, not guessed.
-- Claude's 10/13 run summary, its own words: "I did not pull live Zapier data (GSC, Ads, GBP, DataForSEO) or check connector health, and did not run Lighthouse or site-qa." and "`npm run build` passed."
-- Claude's routine ran on 10/13 (commit above).
+- Claude's 10/14 run summary, its own words: "I did not pull live Zapier data or check connector health (GSC, Ads, GBP, DataForSEO), so topic and SERP type come from queue data (generated 10/11)." and "the Wednesday AI-search guidelines review (sources not re-read, file unchanged)" was listed under NOT done.
+- Also from that summary: "The repo has no package-lock.json, so `npm ci` fails and `npm install` was needed to build."
+- Claude's routine ran on 10/14 (commit above).
