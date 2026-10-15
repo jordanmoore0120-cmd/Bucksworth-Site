@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-08**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-15**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -105,6 +105,9 @@ search summary 2026-10-02 — re-verify wording before quoting)
   (https://www.indexnow.org/documentation). The site has no IndexNow key yet (see site-tasks).
 - DON'T use `NOCACHE`/`NOARCHIVE` on pages we want cited — they limit Copilot answers/citations.
 - Bing Webmaster Tools has an **AI Performance** report (Copilot citations by URL) — check it monthly.
+- AI Performance now has **Topics Portfolio** (beta, 2026-10-13): groups the grounding queries we're cited for into
+  themes and lists queries in those themes where other sites are cited and we aren't. Source:
+  https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/
 
 ## 4. ChatGPT search (OpenAI)
 
@@ -113,7 +116,9 @@ Sources: https://platform.openai.com/docs/bots ; Publisher FAQ https://help.open
 
 - DO keep `OAI-SearchBot` and `ChatGPT-User` allowed in robots.txt and allowed by the CDN/firewall.
   `GPTBot` (training) is a separate choice and doesn't affect ChatGPT search.
-- ChatGPT referrals arrive with `utm_source=chatgpt.com` — read them in GA4; no tag changes needed.
+- ChatGPT referrals USED to arrive with `utm_source=chatgpt.com`. Since GPT-6 (~2026-10-07) links reportedly open
+  with no UTM and no referrer, so ChatGPT visits can show as **Direct** in GA4 (seroundtable.com/utm-parameters-missing-chatgpt-42299.html,
+  2026-10-14; not yet confirmed by OpenAI). Don't read a ChatGPT-referral drop since 10-07 as lost visibility; no tag changes.
 - ChatGPT local answers lean on third-party listings/reviews (Yelp, BBB, directories): keep NAP identical
   everywhere (Whitespark Listing Management).
 
@@ -169,3 +174,6 @@ updated 2026-07-31) ; https://support.google.com/google-ads/answer/17213585 (rea
   carry over; campaign performance reports do NOT (a download page is "coming soon", else screenshot first).
   A change to GBP business name, storefront address or **primary category** triggers a 24–48 h review that
   can pause the campaign. The new lead-email toggle opts all users in by default.
+- After migration (read 2026-10-15): budgets/bidding/locations/service types live in Google Ads → Campaigns →
+  Settings; photos + custom callouts in Campaigns → Assets; lead inbox + call recordings in Goals → Conversions → Leads.
+  Business name, address and hours are edited only in GBP (one-way sync).
