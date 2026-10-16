@@ -143,5 +143,18 @@
   "money_page_linked": "/mesa-az/pest-and-termite/scorpion-control",
   "serp_type": "informational how-to/ID (queue data; live SERP/DataForSEO not pulled this run)",
   "gate": "topic-check pass for \"what can/do scorpions eat\"; queue ranks 1-4 skipped (1,3,4 published 10-12..10-14; 2 fails topic-check); no existing scorpion post targets diet; striking-distance pages linked: /mesa-az/pest-and-termite, /mesa-az"
+ },
+ {
+  "date": "2026-10-16",
+  "slug": "can-cockroaches-bite-what-queen-creek-homeowners-should-know-about-roach-bites-and-what-to-do",
+  "city": "queen-creek-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "roach-elimination",
+  "target_question": "cockroaches can bite",
+  "az_volume": 880,
+  "queue_rank": 7,
+  "money_page_linked": "/queen-creek-az/pest-and-termite/roach-elimination",
+  "serp_type": "informational how-to/ID (queue data; live SERP/DataForSEO not pulled this run)",
+  "gate": "queue ranks 1-6 skipped (1-2 bed bug pages exist; 3-5 published; 6 fails topic-check on termite removal); topic-check pass for \"cockroaches can bite\"; no roach post targets bites; striking-distance pages linked: /queen-creek-az/pest-and-termite/scorpion-control, /queen-creek-az/pest-and-termite/ant-control, /queen-creek-az"
  }
 ]
