@@ -156,5 +156,18 @@
   "money_page_linked": "/queen-creek-az/pest-and-termite/roach-elimination",
   "serp_type": "informational how-to/ID (queue data; live SERP/DataForSEO not pulled this run)",
   "gate": "queue ranks 1-6 skipped (1-2 bed bug pages exist; 3-5 published; 6 fails topic-check on termite removal); topic-check pass for \"cockroaches can bite\"; no roach post targets bites; striking-distance pages linked: /queen-creek-az/pest-and-termite/scorpion-control, /queen-creek-az/pest-and-termite/ant-control, /queen-creek-az"
+ },
+ {
+  "date": "2026-10-17",
+  "slug": "bed-bug-bites-vs-mosquito-bites-how-queen-creek-homeowners-can-tell-the-difference-and-what-to-do",
+  "city": "queen-creek-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "mosquito-control",
+  "target_question": "bed bugs vs mosquitoes bites",
+  "az_volume": 880,
+  "queue_rank": 8,
+  "money_page_linked": "/queen-creek-az/pest-and-termite/mosquito-control",
+  "serp_type": "informational how-to/ID (queue data generated 10-11; live SERP/DataForSEO not pulled this run)",
+  "gate": "topic-check pass for \"bed bugs vs mosquitoes bites\" and \"bed bug bites vs mosquito bites\"; queue ranks 1-7 used or blocked; no existing post/title targets this comparison (roach-bite post has a small bite table but targets cockroach bites); striking-distance pages linked: /queen-creek-az/pest-and-termite/scorpion-control, /queen-creek-az/pest-and-termite/ant-control, /queen-creek-az"
  }
 ]
