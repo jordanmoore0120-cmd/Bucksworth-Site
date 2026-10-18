@@ -1,81 +1,11 @@
 {
- "generated": "2026-10-11T17:46:29.490794+00:00",
+ "generated": "2026-10-18T17:47:03.414617+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-07-11..2026-10-09"
+  "gsc": "Search Console query+page 2026-07-18..2026-10-16"
  },
  "queue": [
-  {
-   "city": "phoenix-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "bed-bug-treatment",
-   "question_keyword": "how to get rid of bed bed bugs",
-   "question_az_volume": 1900,
-   "question_us_volume": 90500,
-   "city_money_keyword": "bed bug treatment phoenix",
-   "city_money_volume_az": 20,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/phoenix-az/pest-and-termite/bed-bug-treatment",
-   "score": 243.9,
-   "question_cluster": "bedb rid"
-  },
-  {
-   "city": "chandler-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "bed-bug-treatment",
-   "question_keyword": "how can you check for bed bugs",
-   "question_az_volume": 1900,
-   "question_us_volume": 90500,
-   "city_money_keyword": "bed bug treatment chandler",
-   "city_money_volume_az": 0,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/chandler-az/pest-and-termite/bed-bug-treatment",
-   "score": 210.15,
-   "question_cluster": "bedb chec"
-  },
-  {
-   "city": "mesa-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "roach-elimination",
-   "question_keyword": "kill german cockroaches",
-   "question_az_volume": 880,
-   "question_us_volume": 40500,
-   "city_money_keyword": "cockroach exterminator mesa",
-   "city_money_volume_az": 0,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/mesa-az/pest-and-termite/roach-elimination",
-   "score": 171.06,
-   "question_cluster": "cock germ rid"
-  },
-  {
-   "city": "phoenix-az",
-   "vertical": "weed-and-lawn-care",
-   "sub_service": "bermuda-grass-control",
-   "question_keyword": "bermuda grass when to seed",
-   "question_az_volume": 880,
-   "question_us_volume": 40500,
-   "city_money_keyword": "bermuda grass removal phoenix",
-   "city_money_volume_az": 0,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/phoenix-az/weed-and-lawn-care/bermuda-grass-control",
-   "score": 162.71,
-   "question_cluster": "berm lawn seed"
-  },
-  {
-   "city": "mesa-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "scorpion-control",
-   "question_keyword": "what can scorpions eat",
-   "question_az_volume": 590,
-   "question_us_volume": 6600,
-   "city_money_keyword": "scorpion control mesa",
-   "city_money_volume_az": 40,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/mesa-az/pest-and-termite/scorpion-control",
-   "score": 156.56,
-   "question_cluster": "eat scor"
-  },
   {
    "city": "phoenix-az",
    "vertical": "pest-and-termite",
@@ -89,48 +19,6 @@
    "money_page_to_link": "/phoenix-az/pest-and-termite/termite-treatment",
    "score": 141.44,
    "question_cluster": "rid term"
-  },
-  {
-   "city": "queen-creek-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "roach-elimination",
-   "question_keyword": "cockroaches can bite",
-   "question_az_volume": 880,
-   "question_us_volume": 27100,
-   "city_money_keyword": "cockroach exterminator queen creek",
-   "city_money_volume_az": 0,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/queen-creek-az/pest-and-termite/roach-elimination",
-   "score": 127.02,
-   "question_cluster": "cock stin"
-  },
-  {
-   "city": "queen-creek-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "mosquito-control",
-   "question_keyword": "bed bugs vs mosquitoes bites",
-   "question_az_volume": 880,
-   "question_us_volume": 22200,
-   "city_money_keyword": "mosquito control queen creek",
-   "city_money_volume_az": 0,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/queen-creek-az/pest-and-termite/mosquito-control",
-   "score": 127.02,
-   "question_cluster": "bedb mosq stin vs"
-  },
-  {
-   "city": "mesa-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "spider-prevention",
-   "question_keyword": "can black widow spiders kill you",
-   "question_az_volume": 390,
-   "question_us_volume": 9900,
-   "city_money_keyword": "spider control mesa",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/mesa-az/pest-and-termite/spider-prevention",
-   "score": 117.57,
-   "question_cluster": "blac die spid wido"
   },
   {
    "city": "tempe-az",
@@ -154,10 +42,10 @@
    "question_az_volume": 720,
    "question_us_volume": 22200,
    "city_money_keyword": "mosquito control mesa",
-   "city_money_volume_az": 30,
+   "city_money_volume_az": 20,
    "existing_posts_city_sub": 2,
    "money_page_to_link": "/mesa-az/pest-and-termite/mosquito-control",
-   "score": 112.55,
+   "score": 109.62,
    "question_cluster": "mosq repe"
   },
   {
@@ -194,7 +82,7 @@
    "sub_service": "rodent-exclusion",
    "question_keyword": "how to get rid of mice in the house",
    "question_az_volume": 140,
-   "question_us_volume": 12100,
+   "question_us_volume": 14800,
    "city_money_keyword": "rodent control mesa",
    "city_money_volume_az": 880,
    "existing_posts_city_sub": 2,
@@ -221,13 +109,13 @@
    "vertical": "pest-and-termite",
    "sub_service": "ant-control",
    "question_keyword": "how to get rid ants in the house",
-   "question_az_volume": 390,
-   "question_us_volume": 22200,
+   "question_az_volume": 480,
+   "question_us_volume": 27100,
    "city_money_keyword": "ant control mesa",
    "city_money_volume_az": 10,
    "existing_posts_city_sub": 2,
    "money_page_to_link": "/mesa-az/pest-and-termite/ant-control",
-   "score": 78.38,
+   "score": 86.96,
    "question_cluster": "ants rid"
   },
   {
@@ -245,30 +133,30 @@
    "question_cluster": "bees carp rid"
   },
   {
-   "city": "queen-creek-az",
+   "city": "mesa-az",
    "vertical": "pest-and-termite",
    "sub_service": "scorpion-control",
    "question_keyword": "how do scorpions breed",
    "question_az_volume": 260,
    "question_us_volume": 8100,
-   "city_money_keyword": "scorpion control queen creek",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/queen-creek-az/pest-and-termite/scorpion-control",
-   "score": 74.75,
+   "city_money_keyword": "scorpion control mesa",
+   "city_money_volume_az": 70,
+   "existing_posts_city_sub": 2,
+   "money_page_to_link": "/mesa-az/pest-and-termite/scorpion-control",
+   "score": 73.77,
    "question_cluster": "bree scor"
   },
   {
-   "city": "san-tan-valley-az",
+   "city": "queen-creek-az",
    "vertical": "pest-and-termite",
    "sub_service": "scorpion-control",
    "question_keyword": "are scorpions arachnids",
    "question_az_volume": 260,
    "question_us_volume": 5400,
-   "city_money_keyword": "scorpion control san tan valley",
+   "city_money_keyword": "scorpion control queen creek",
    "city_money_volume_az": 10,
    "existing_posts_city_sub": 1,
-   "money_page_to_link": "/san-tan-valley-az/pest-and-termite/scorpion-control",
+   "money_page_to_link": "/queen-creek-az/pest-and-termite/scorpion-control",
    "score": 71.46,
    "question_cluster": "arac scor"
   },
@@ -287,31 +175,31 @@
    "question_cluster": "rats rid roof"
   },
   {
-   "city": "tempe-az",
+   "city": "san-tan-valley-az",
    "vertical": "pest-and-termite",
    "sub_service": "scorpion-control",
    "question_keyword": "how many legs do scorpions have",
    "question_az_volume": 210,
    "question_us_volume": 3600,
-   "city_money_keyword": "scorpion control tempe",
+   "city_money_keyword": "scorpion control san tan valley",
    "city_money_volume_az": 10,
    "existing_posts_city_sub": 1,
-   "money_page_to_link": "/tempe-az/pest-and-termite/scorpion-control",
-   "score": 61.48,
+   "money_page_to_link": "/san-tan-valley-az/pest-and-termite/scorpion-control",
+   "score": 64.22,
    "question_cluster": "legs scor"
   },
   {
-   "city": "scottsdale-az",
+   "city": "tempe-az",
    "vertical": "pest-and-termite",
    "sub_service": "scorpion-control",
    "question_keyword": "can you die from a scorpion sting",
    "question_az_volume": 210,
    "question_us_volume": 1300,
-   "city_money_keyword": "scorpion control scottsdale",
-   "city_money_volume_az": 40,
+   "city_money_keyword": "scorpion control tempe",
+   "city_money_volume_az": 10,
    "existing_posts_city_sub": 1,
-   "money_page_to_link": "/scottsdale-az/pest-and-termite/scorpion-control",
-   "score": 55.71,
+   "money_page_to_link": "/tempe-az/pest-and-termite/scorpion-control",
+   "score": 61.48,
    "question_cluster": "die scor stin"
   },
   {
@@ -322,25 +210,11 @@
    "question_az_volume": 90,
    "question_us_volume": 2400,
    "city_money_keyword": "rodent control glendale",
-   "city_money_volume_az": 30,
+   "city_money_volume_az": 40,
    "existing_posts_city_sub": 0,
    "money_page_to_link": "/glendale-az/pest-and-termite/rodent-exclusion",
-   "score": 54.65,
+   "score": 59.44,
    "question_cluster": "pack rats"
-  },
-  {
-   "city": "chandler-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "scorpion-control",
-   "question_keyword": "why drink milk after scorpion sting",
-   "question_az_volume": 170,
-   "question_us_volume": 590,
-   "city_money_keyword": "scorpion control chandler",
-   "city_money_volume_az": 20,
-   "existing_posts_city_sub": 2,
-   "money_page_to_link": "/chandler-az/pest-and-termite/scorpion-control",
-   "score": 46.44,
-   "question_cluster": "drin milk scor stin"
   },
   {
    "city": "scottsdale-az",
@@ -385,20 +259,6 @@
    "question_cluster": "ants sign whit"
   },
   {
-   "city": "phoenix-az",
-   "vertical": "weed-and-lawn-care",
-   "sub_service": "pre-emergent-weed-control",
-   "question_keyword": "what is a pre emergent herbicide",
-   "question_az_volume": 70,
-   "question_us_volume": 1900,
-   "city_money_keyword": "pre emergent weed control phoenix",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 2,
-   "money_page_to_link": "/phoenix-az/weed-and-lawn-care/pre-emergent-weed-control",
-   "score": 30.9,
-   "question_cluster": "emer pre"
-  },
-  {
    "city": "maricopa-az",
    "vertical": "weed-and-lawn-care",
    "sub_service": "bermuda-grass-control",
@@ -411,6 +271,20 @@
    "money_page_to_link": "/maricopa-az/weed-and-lawn-care/bermuda-grass-control",
    "score": 25.5,
    "question_cluster": "berm crab lawn vs"
+  },
+  {
+   "city": "phoenix-az",
+   "vertical": "weed-and-lawn-care",
+   "sub_service": "pre-emergent-weed-control",
+   "question_keyword": "what is a pre emergent herbicide",
+   "question_az_volume": 70,
+   "question_us_volume": 1900,
+   "city_money_keyword": "pre emergent weed control phoenix",
+   "city_money_volume_az": 10,
+   "existing_posts_city_sub": 3,
+   "money_page_to_link": "/phoenix-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "score": 23.18,
+   "question_cluster": "emer pre"
   },
   {
    "city": "mesa-az",
@@ -430,29 +304,29 @@
    "city": "avondale-az",
    "vertical": "weed-and-lawn-care",
    "sub_service": "weed-and-feed-program",
-   "question_keyword": "lawn care when to aerate",
-   "question_az_volume": 20,
-   "question_us_volume": 4400,
+   "question_keyword": "best lawn weed and feed",
+   "question_az_volume": 30,
+   "question_us_volume": 2900,
    "city_money_keyword": "weed and feed avondale",
    "city_money_volume_az": 0,
    "existing_posts_city_sub": 0,
    "money_page_to_link": "/avondale-az/weed-and-lawn-care/weed-and-feed-program",
-   "score": 16.69,
-   "question_cluster": "aera care lawn"
+   "score": 20.44,
+   "question_cluster": "and feed lawn weed"
   },
   {
    "city": "phoenix-az",
    "vertical": "weed-and-lawn-care",
    "sub_service": "weed-and-feed-program",
-   "question_keyword": "best lawn weed and feed",
+   "question_keyword": "lawn care when to aerate",
    "question_az_volume": 20,
-   "question_us_volume": 2900,
+   "question_us_volume": 3600,
    "city_money_keyword": "weed and feed phoenix",
    "city_money_volume_az": 0,
    "existing_posts_city_sub": 7,
    "money_page_to_link": "/phoenix-az/weed-and-lawn-care/weed-and-feed-program",
    "score": 6.13,
-   "question_cluster": "and feed lawn weed"
+   "question_cluster": "aera care lawn"
   },
   {
    "city": "tempe-az",
@@ -468,6 +342,5 @@
    "score": 5.65,
    "question_cluster": "care lawn me near serv"
   }
- ],
- "dedupe_note": "One city per question cluster; clusters already in publish-log.json removed. Never publish a question another post already targets, in any city."
+ ]
 }

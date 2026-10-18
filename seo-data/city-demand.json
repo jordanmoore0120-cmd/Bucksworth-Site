@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-11T17:46:29.490794+00:00",
+ "generated": "2026-10-18T17:47:03.414617+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-07-11..2026-10-09"
+  "gsc": "Search Console query+page 2026-07-18..2026-10-16"
  },
  "city_demand": {
   "ahwatukee-az": {
@@ -50,7 +50,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal ahwatukee",
     "volume": 10,
-    "cpc": 60.49
+    "cpc": null
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control ahwatukee",
@@ -90,12 +90,12 @@
    "pest control": {
     "keyword": "pest control ahwatukee",
     "volume": 30,
-    "cpc": 37.87
+    "cpc": 0.44
    },
    "exterminator": {
     "keyword": "exterminator ahwatukee",
     "volume": 30,
-    "cpc": 37.87
+    "cpc": 0.44
    }
   },
   "anthem-az": {
@@ -127,7 +127,7 @@
    "rodent-exclusion": {
     "keyword": "rodent control anthem",
     "volume": 10,
-    "cpc": 39.13
+    "cpc": 24.8
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment anthem",
@@ -182,12 +182,12 @@
    "pest control": {
     "keyword": "pest control anthem",
     "volume": 10,
-    "cpc": 39.13
+    "cpc": 24.8
    },
    "exterminator": {
     "keyword": "exterminator anthem",
     "volume": 10,
-    "cpc": 39.13
+    "cpc": 24.8
    }
   },
   "apache-junction-az": {
@@ -234,7 +234,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal apache junction",
     "volume": 20,
-    "cpc": 3.28
+    "cpc": null
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control apache junction",
@@ -274,12 +274,12 @@
    "pest control": {
     "keyword": "pest control apache junction",
     "volume": 90,
-    "cpc": 80.17
+    "cpc": 44.49
    },
    "exterminator": {
     "keyword": "exterminator apache junction",
     "volume": 90,
-    "cpc": 80.17
+    "cpc": 44.49
    }
   },
   "buckeye-az": {
@@ -291,7 +291,7 @@
    "termite-treatment": {
     "keyword": "termite treatment buckeye",
     "volume": 10,
-    "cpc": 7.12
+    "cpc": null
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator buckeye",
@@ -326,7 +326,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal buckeye",
     "volume": 10,
-    "cpc": 5.83
+    "cpc": 78.33
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control buckeye",
@@ -366,12 +366,12 @@
    "pest control": {
     "keyword": "pest control buckeye",
     "volume": 170,
-    "cpc": 38.01
+    "cpc": 58.42
    },
    "exterminator": {
     "keyword": "exterminator buckeye",
-    "volume": 10,
-    "cpc": 36.64
+    "volume": 20,
+    "cpc": null
    }
   },
   "casa-grande-az": {
@@ -383,7 +383,7 @@
    "termite-treatment": {
     "keyword": "termite treatment casa grande",
     "volume": 20,
-    "cpc": 6.39
+    "cpc": 46.64
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator casa grande",
@@ -418,7 +418,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal casa grande",
     "volume": 10,
-    "cpc": null
+    "cpc": 1.23
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control casa grande",
@@ -458,12 +458,12 @@
    "pest control": {
     "keyword": "pest control casa grande",
     "volume": 260,
-    "cpc": 37.34
+    "cpc": 33.49
    },
    "exterminator": {
     "keyword": "exterminator casa grande",
     "volume": 260,
-    "cpc": 37.34
+    "cpc": 33.49
    }
   },
   "chandler-az": {
@@ -475,7 +475,7 @@
    "termite-treatment": {
     "keyword": "termite treatment chandler",
     "volume": 20,
-    "cpc": 26.85
+    "cpc": 9.35
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator chandler",
@@ -494,8 +494,8 @@
    },
    "rodent-exclusion": {
     "keyword": "rodent control chandler",
-    "volume": 480,
-    "cpc": 49.42
+    "volume": 390,
+    "cpc": 28.81
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment chandler",
@@ -510,7 +510,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal chandler",
     "volume": 260,
-    "cpc": 5.85
+    "cpc": 45.08
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control chandler",
@@ -519,8 +519,8 @@
    },
    "post-emergent-weed-treatment": {
     "keyword": "weed control chandler",
-    "volume": 10,
-    "cpc": 18.25
+    "volume": 20,
+    "cpc": 82.22
    },
    "gravel-rock-yard-maintenance": {
     "keyword": "rock yard weed control chandler",
@@ -549,13 +549,13 @@
    },
    "pest control": {
     "keyword": "pest control chandler",
-    "volume": 480,
-    "cpc": 49.42
+    "volume": 390,
+    "cpc": 28.81
    },
    "exterminator": {
     "keyword": "exterminator chandler",
-    "volume": 480,
-    "cpc": 49.42
+    "volume": 390,
+    "cpc": 28.81
    }
   },
   "coolidge-az": {
@@ -733,8 +733,8 @@
    },
    "pest control": {
     "keyword": "pest control florence",
-    "volume": 30,
-    "cpc": null
+    "volume": 90,
+    "cpc": 72.12
    },
    "exterminator": {
     "keyword": "exterminator florence",
@@ -751,7 +751,7 @@
    "termite-treatment": {
     "keyword": "termite treatment fountain hills",
     "volume": 10,
-    "cpc": 70.8
+    "cpc": null
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator fountain hills",
@@ -771,7 +771,7 @@
    "rodent-exclusion": {
     "keyword": "rodent control fountain hills",
     "volume": 40,
-    "cpc": 37.85
+    "cpc": 9.29
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment fountain hills",
@@ -786,7 +786,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal fountain hills",
     "volume": 10,
-    "cpc": 37.73
+    "cpc": null
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control fountain hills",
@@ -826,24 +826,24 @@
    "pest control": {
     "keyword": "pest control fountain hills",
     "volume": 40,
-    "cpc": 37.85
+    "cpc": 9.29
    },
    "exterminator": {
     "keyword": "exterminator fountain hills",
     "volume": 40,
-    "cpc": 37.85
+    "cpc": 9.29
    }
   },
   "gilbert-az": {
    "scorpion-control": {
     "keyword": "scorpion control gilbert",
     "volume": 10,
-    "cpc": null
+    "cpc": 5.6
    },
    "termite-treatment": {
     "keyword": "termite treatment gilbert",
     "volume": 10,
-    "cpc": 79.29
+    "cpc": 79.17
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator gilbert",
@@ -863,7 +863,7 @@
    "rodent-exclusion": {
     "keyword": "rodent control gilbert",
     "volume": 10,
-    "cpc": null
+    "cpc": 160.16
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment gilbert",
@@ -878,7 +878,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal gilbert",
     "volume": 110,
-    "cpc": 11.68
+    "cpc": 15.75
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control gilbert",
@@ -918,12 +918,12 @@
    "pest control": {
     "keyword": "pest control gilbert",
     "volume": 110,
-    "cpc": 33.01
+    "cpc": 50.67
    },
    "exterminator": {
     "keyword": "exterminator gilbert",
     "volume": 10,
-    "cpc": null
+    "cpc": 160.16
    }
   },
   "gold-canyon-az": {
@@ -1010,12 +1010,12 @@
    "pest control": {
     "keyword": "pest control gold canyon",
     "volume": 10,
-    "cpc": 4.05
+    "cpc": 35.69
    },
    "exterminator": {
     "keyword": "exterminator gold canyon",
     "volume": 10,
-    "cpc": 4.05
+    "cpc": 35.69
    }
   },
   "goodyear-az": {
@@ -1027,7 +1027,7 @@
    "termite-treatment": {
     "keyword": "termite treatment goodyear",
     "volume": 10,
-    "cpc": 136.08
+    "cpc": 114.63
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator goodyear",
@@ -1102,12 +1102,12 @@
    "pest control": {
     "keyword": "pest control goodyear",
     "volume": 50,
-    "cpc": 74.56
+    "cpc": 32.83
    },
    "exterminator": {
     "keyword": "exterminator goodyear",
-    "volume": 10,
-    "cpc": 7.44
+    "volume": 20,
+    "cpc": 17.85
    }
   },
   "laveen-az": {
@@ -1194,12 +1194,12 @@
    "pest control": {
     "keyword": "pest control laveen",
     "volume": 30,
-    "cpc": 33.5
+    "cpc": 9.21
    },
    "exterminator": {
     "keyword": "exterminator laveen",
     "volume": 30,
-    "cpc": 33.5
+    "cpc": 9.21
    }
   },
   "litchfield-park-az": {
@@ -1285,13 +1285,13 @@
    },
    "pest control": {
     "keyword": "pest control litchfield park",
-    "volume": 30,
-    "cpc": 45.54
+    "volume": 40,
+    "cpc": 58.27
    },
    "exterminator": {
     "keyword": "exterminator litchfield park",
-    "volume": 30,
-    "cpc": 45.54
+    "volume": 40,
+    "cpc": 58.27
    }
   },
   "maricopa-az": {
@@ -1338,7 +1338,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal maricopa",
     "volume": 10,
-    "cpc": 17.86
+    "cpc": null
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control maricopa",
@@ -1378,7 +1378,7 @@
    "pest control": {
     "keyword": "pest control maricopa",
     "volume": 260,
-    "cpc": 24.78
+    "cpc": 38.22
    },
    "exterminator": {
     "keyword": "exterminator maricopa",
@@ -1389,13 +1389,13 @@
   "mesa-az": {
    "scorpion-control": {
     "keyword": "scorpion control mesa",
-    "volume": 40,
-    "cpc": 16.07
+    "volume": 70,
+    "cpc": null
    },
    "termite-treatment": {
     "keyword": "termite treatment mesa",
     "volume": 70,
-    "cpc": 42.32
+    "cpc": 18.42
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator mesa",
@@ -1415,7 +1415,7 @@
    "rodent-exclusion": {
     "keyword": "rodent control mesa",
     "volume": 880,
-    "cpc": 45.46
+    "cpc": 42.62
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment mesa",
@@ -1424,13 +1424,13 @@
    },
    "mosquito-control": {
     "keyword": "mosquito control mesa",
-    "volume": 30,
+    "volume": 20,
     "cpc": null
    },
    "bee-wasp-removal": {
     "keyword": "bee removal mesa",
     "volume": 140,
-    "cpc": 71.08
+    "cpc": 38.3
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control mesa",
@@ -1440,7 +1440,7 @@
    "post-emergent-weed-treatment": {
     "keyword": "weed control mesa",
     "volume": 50,
-    "cpc": 19.67
+    "cpc": 19.44
    },
    "gravel-rock-yard-maintenance": {
     "keyword": "rock yard weed control mesa",
@@ -1470,12 +1470,12 @@
    "pest control": {
     "keyword": "pest control mesa",
     "volume": 880,
-    "cpc": 45.46
+    "cpc": 42.62
    },
    "exterminator": {
     "keyword": "exterminator mesa",
     "volume": 880,
-    "cpc": 45.46
+    "cpc": 42.62
    }
   },
   "paradise-valley-az": {
@@ -1486,8 +1486,8 @@
    },
    "termite-treatment": {
     "keyword": "termite treatment paradise valley",
-    "volume": 0,
-    "cpc": null
+    "volume": 10,
+    "cpc": 9.8
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator paradise valley",
@@ -1561,13 +1561,13 @@
    },
    "pest control": {
     "keyword": "pest control paradise valley",
-    "volume": 10,
-    "cpc": 38.88
+    "volume": 30,
+    "cpc": null
    },
    "exterminator": {
     "keyword": "exterminator paradise valley",
-    "volume": 10,
-    "cpc": 38.88
+    "volume": 30,
+    "cpc": null
    }
   },
   "peoria-az": {
@@ -1579,7 +1579,7 @@
    "termite-treatment": {
     "keyword": "termite treatment peoria",
     "volume": 10,
-    "cpc": null
+    "cpc": 9.98
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator peoria",
@@ -1613,7 +1613,7 @@
    },
    "bee-wasp-removal": {
     "keyword": "bee removal peoria",
-    "volume": 10,
+    "volume": 20,
     "cpc": null
    },
    "pre-emergent-weed-control": {
@@ -1654,24 +1654,24 @@
    "pest control": {
     "keyword": "pest control peoria",
     "volume": 30,
-    "cpc": 72.95
+    "cpc": 15.1
    },
    "exterminator": {
     "keyword": "exterminator peoria",
     "volume": 10,
-    "cpc": null
+    "cpc": 13.09
    }
   },
   "phoenix-az": {
    "scorpion-control": {
     "keyword": "scorpion control phoenix",
     "volume": 140,
-    "cpc": 36.48
+    "cpc": 107.53
    },
    "termite-treatment": {
     "keyword": "termite treatment phoenix",
     "volume": 210,
-    "cpc": 33.3
+    "cpc": 19.35
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator phoenix",
@@ -1681,7 +1681,7 @@
    "ant-control": {
     "keyword": "ant control phoenix",
     "volume": 20,
-    "cpc": 69.39
+    "cpc": null
    },
    "spider-prevention": {
     "keyword": "spider control phoenix",
@@ -1691,32 +1691,32 @@
    "rodent-exclusion": {
     "keyword": "rodent control phoenix",
     "volume": 170,
-    "cpc": 47.62
+    "cpc": 38.77
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment phoenix",
     "volume": 20,
-    "cpc": 33.65
+    "cpc": 9.38
    },
    "mosquito-control": {
     "keyword": "mosquito control phoenix",
     "volume": 110,
-    "cpc": 10.67
+    "cpc": 33.31
    },
    "bee-wasp-removal": {
     "keyword": "bee removal phoenix",
     "volume": 480,
-    "cpc": 19.81
+    "cpc": 40.1
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control phoenix",
     "volume": 10,
-    "cpc": 0.04
+    "cpc": 21.29
    },
    "post-emergent-weed-treatment": {
     "keyword": "weed control phoenix",
     "volume": 110,
-    "cpc": 30.35
+    "cpc": 24.29
    },
    "gravel-rock-yard-maintenance": {
     "keyword": "rock yard weed control phoenix",
@@ -1746,19 +1746,19 @@
    "pest control": {
     "keyword": "pest control phoenix",
     "volume": 2900,
-    "cpc": 49.41
+    "cpc": 32.01
    },
    "exterminator": {
     "keyword": "exterminator phoenix",
     "volume": 2900,
-    "cpc": 49.41
+    "cpc": 32.01
    }
   },
   "queen-creek-az": {
    "scorpion-control": {
     "keyword": "scorpion control queen creek",
     "volume": 10,
-    "cpc": null
+    "cpc": 163.37
    },
    "termite-treatment": {
     "keyword": "termite treatment queen creek",
@@ -1798,7 +1798,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal queen creek",
     "volume": 40,
-    "cpc": 24.84
+    "cpc": 41.08
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control queen creek",
@@ -1808,7 +1808,7 @@
    "post-emergent-weed-treatment": {
     "keyword": "weed control queen creek",
     "volume": 10,
-    "cpc": null
+    "cpc": 74.29
    },
    "gravel-rock-yard-maintenance": {
     "keyword": "rock yard weed control queen creek",
@@ -1837,13 +1837,13 @@
    },
    "pest control": {
     "keyword": "pest control queen creek",
-    "volume": 320,
-    "cpc": 31.64
+    "volume": 260,
+    "cpc": 17.97
    },
    "exterminator": {
     "keyword": "exterminator queen creek",
-    "volume": 320,
-    "cpc": 31.64
+    "volume": 260,
+    "cpc": 17.97
    }
   },
   "san-tan-valley-az": {
@@ -1875,7 +1875,7 @@
    "rodent-exclusion": {
     "keyword": "rodent control san tan valley",
     "volume": 260,
-    "cpc": 35.48
+    "cpc": 36.3
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment san tan valley",
@@ -1890,7 +1890,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal san tan valley",
     "volume": 10,
-    "cpc": 116.57
+    "cpc": null
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control san tan valley",
@@ -1900,7 +1900,7 @@
    "post-emergent-weed-treatment": {
     "keyword": "weed control san tan valley",
     "volume": 20,
-    "cpc": null
+    "cpc": 22.4
    },
    "gravel-rock-yard-maintenance": {
     "keyword": "rock yard weed control san tan valley",
@@ -1930,24 +1930,24 @@
    "pest control": {
     "keyword": "pest control san tan valley",
     "volume": 260,
-    "cpc": 35.48
+    "cpc": 36.3
    },
    "exterminator": {
     "keyword": "exterminator san tan valley",
     "volume": 260,
-    "cpc": 35.48
+    "cpc": 36.3
    }
   },
   "scottsdale-az": {
    "scorpion-control": {
     "keyword": "scorpion control scottsdale",
-    "volume": 40,
-    "cpc": null
+    "volume": 50,
+    "cpc": 72.7
    },
    "termite-treatment": {
     "keyword": "termite treatment scottsdale",
     "volume": 50,
-    "cpc": 51.49
+    "cpc": 43.65
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator scottsdale",
@@ -1957,7 +1957,7 @@
    "ant-control": {
     "keyword": "ant control scottsdale",
     "volume": 10,
-    "cpc": null
+    "cpc": 0.81
    },
    "spider-prevention": {
     "keyword": "spider control scottsdale",
@@ -1967,7 +1967,7 @@
    "rodent-exclusion": {
     "keyword": "rodent control scottsdale",
     "volume": 480,
-    "cpc": 45.49
+    "cpc": 30.7
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment scottsdale",
@@ -1977,12 +1977,12 @@
    "mosquito-control": {
     "keyword": "mosquito control scottsdale",
     "volume": 20,
-    "cpc": 32.92
+    "cpc": 17.08
    },
    "bee-wasp-removal": {
     "keyword": "bee removal scottsdale",
     "volume": 140,
-    "cpc": 51.04
+    "cpc": 19.02
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control scottsdale",
@@ -1991,8 +1991,8 @@
    },
    "post-emergent-weed-treatment": {
     "keyword": "weed control scottsdale",
-    "volume": 30,
-    "cpc": 3.48
+    "volume": 40,
+    "cpc": 27.58
    },
    "gravel-rock-yard-maintenance": {
     "keyword": "rock yard weed control scottsdale",
@@ -2022,12 +2022,12 @@
    "pest control": {
     "keyword": "pest control scottsdale",
     "volume": 480,
-    "cpc": 45.49
+    "cpc": 30.7
    },
    "exterminator": {
     "keyword": "exterminator scottsdale",
     "volume": 480,
-    "cpc": 45.49
+    "cpc": 30.7
    }
   },
   "surprise-az": {
@@ -2074,7 +2074,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal surprise",
     "volume": 10,
-    "cpc": 5.7
+    "cpc": null
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control surprise",
@@ -2114,12 +2114,12 @@
    "pest control": {
     "keyword": "pest control surprise",
     "volume": 70,
-    "cpc": 16.98
+    "cpc": 11.99
    },
    "exterminator": {
     "keyword": "exterminator surprise",
     "volume": 70,
-    "cpc": 16.98
+    "cpc": 11.99
    }
   },
   "tempe-az": {
@@ -2131,7 +2131,7 @@
    "termite-treatment": {
     "keyword": "termite treatment tempe",
     "volume": 10,
-    "cpc": 21.61
+    "cpc": 50.25
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator tempe",
@@ -2151,12 +2151,12 @@
    "rodent-exclusion": {
     "keyword": "rodent control tempe",
     "volume": 210,
-    "cpc": 46.57
+    "cpc": 63.22
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment tempe",
     "volume": 10,
-    "cpc": 47.78
+    "cpc": null
    },
    "mosquito-control": {
     "keyword": "mosquito control tempe",
@@ -2166,7 +2166,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal tempe",
     "volume": 50,
-    "cpc": 45.71
+    "cpc": 5.64
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control tempe",
@@ -2206,19 +2206,19 @@
    "pest control": {
     "keyword": "pest control tempe",
     "volume": 210,
-    "cpc": 46.57
+    "cpc": 63.22
    },
    "exterminator": {
     "keyword": "exterminator tempe",
     "volume": 210,
-    "cpc": 46.57
+    "cpc": 63.22
    }
   },
   "glendale-az": {
    "scorpion-control": {
     "keyword": "scorpion control glendale",
     "volume": 10,
-    "cpc": null
+    "cpc": 356.51
    },
    "termite-treatment": {
     "keyword": "termite treatment glendale",
@@ -2242,8 +2242,8 @@
    },
    "rodent-exclusion": {
     "keyword": "rodent control glendale",
-    "volume": 30,
-    "cpc": 24.21
+    "volume": 40,
+    "cpc": 57.17
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment glendale",
@@ -2297,13 +2297,13 @@
    },
    "pest control": {
     "keyword": "pest control glendale",
-    "volume": 30,
-    "cpc": 24.21
+    "volume": 40,
+    "cpc": 57.17
    },
    "exterminator": {
     "keyword": "exterminator glendale",
-    "volume": 30,
-    "cpc": 24.21
+    "volume": 40,
+    "cpc": 57.17
    }
   },
   "avondale-az": {
@@ -2315,7 +2315,7 @@
    "termite-treatment": {
     "keyword": "termite treatment avondale",
     "volume": 10,
-    "cpc": 80.04
+    "cpc": 120.07
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator avondale",
@@ -2350,7 +2350,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal avondale",
     "volume": 20,
-    "cpc": 63
+    "cpc": null
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control avondale",
@@ -2390,12 +2390,12 @@
    "pest control": {
     "keyword": "pest control avondale",
     "volume": 70,
-    "cpc": 112.1
+    "cpc": 74.47
    },
    "exterminator": {
     "keyword": "exterminator avondale",
     "volume": 30,
-    "cpc": 33.18
+    "cpc": 70.34
    }
   },
   "catalina-foothills-az": {
@@ -2574,7 +2574,7 @@
    "pest control": {
     "keyword": "pest control green valley",
     "volume": 40,
-    "cpc": 81.44
+    "cpc": 11.26
    },
    "exterminator": {
     "keyword": "exterminator green valley",
@@ -2666,7 +2666,7 @@
    "pest control": {
     "keyword": "pest control marana",
     "volume": 70,
-    "cpc": 30.97
+    "cpc": 24.51
    },
    "exterminator": {
     "keyword": "exterminator marana",
@@ -2718,7 +2718,7 @@
    "bee-wasp-removal": {
     "keyword": "bee removal oro valley",
     "volume": 10,
-    "cpc": 29.65
+    "cpc": null
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control oro valley",
@@ -2758,7 +2758,7 @@
    "pest control": {
     "keyword": "pest control oro valley",
     "volume": 70,
-    "cpc": 34.53
+    "cpc": 25.87
    },
    "exterminator": {
     "keyword": "exterminator oro valley",
@@ -2942,7 +2942,7 @@
    "pest control": {
     "keyword": "pest control sahuarita",
     "volume": 30,
-    "cpc": 24.9
+    "cpc": 24.5
    },
    "exterminator": {
     "keyword": "exterminator sahuarita",
@@ -2953,13 +2953,13 @@
   "tucson-az": {
    "scorpion-control": {
     "keyword": "scorpion control tucson",
-    "volume": 480,
-    "cpc": null
+    "volume": 590,
+    "cpc": 3.24
    },
    "termite-treatment": {
     "keyword": "termite treatment tucson",
     "volume": 260,
-    "cpc": 29.78
+    "cpc": 20.44
    },
    "roach-elimination": {
     "keyword": "cockroach exterminator tucson",
@@ -2979,32 +2979,32 @@
    "rodent-exclusion": {
     "keyword": "rodent control tucson",
     "volume": 2400,
-    "cpc": 23.69
+    "cpc": 22.96
    },
    "bed-bug-treatment": {
     "keyword": "bed bug treatment tucson",
     "volume": 10,
-    "cpc": 1.79
+    "cpc": 11.74
    },
    "mosquito-control": {
     "keyword": "mosquito control tucson",
     "volume": 30,
-    "cpc": 0.67
+    "cpc": 14.33
    },
    "bee-wasp-removal": {
     "keyword": "bee removal tucson",
     "volume": 210,
-    "cpc": 19.03
+    "cpc": 9.97
    },
    "pre-emergent-weed-control": {
     "keyword": "pre emergent weed control tucson",
     "volume": 10,
-    "cpc": null
+    "cpc": 2.84
    },
    "post-emergent-weed-treatment": {
     "keyword": "weed control tucson",
     "volume": 170,
-    "cpc": 9.12
+    "cpc": 12.11
    },
    "gravel-rock-yard-maintenance": {
     "keyword": "rock yard weed control tucson",
@@ -3034,12 +3034,12 @@
    "pest control": {
     "keyword": "pest control tucson",
     "volume": 2400,
-    "cpc": 23.69
+    "cpc": 22.96
    },
    "exterminator": {
     "keyword": "exterminator tucson",
     "volume": 2400,
-    "cpc": 23.69
+    "cpc": 22.96
    }
   },
   "vail-az": {
@@ -3126,7 +3126,7 @@
    "pest control": {
     "keyword": "pest control vail",
     "volume": 10,
-    "cpc": 46.24
+    "cpc": 47.17
    },
    "exterminator": {
     "keyword": "exterminator vail",

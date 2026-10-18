@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-11T17:46:29.490794+00:00",
+ "generated": "2026-10-18T17:47:03.414617+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-07-11..2026-10-09"
+  "gsc": "Search Console query+page 2026-07-18..2026-10-16"
  },
  "questions": {
   "scorpion-control": [
@@ -152,14 +152,14 @@
     "az_volume": 170
    },
    {
-    "keyword": "why drink milk after scorpion sting",
-    "us_volume": 590,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
     "keyword": "what are scorpions",
     "us_volume": 3600,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "why drink milk after scorpion sting",
+    "us_volume": 480,
     "intent": "informational",
     "az_volume": 140
    },
@@ -224,6 +224,12 @@
     "az_volume": 50
    },
    {
+    "keyword": "how fast can you die from a scorpion sting",
+    "us_volume": 170,
+    "intent": "informational",
+    "az_volume": 40
+   },
+   {
     "keyword": "how bad is a scorpion sting",
     "us_volume": 260,
     "intent": "informational",
@@ -258,12 +264,6 @@
     "us_volume": 170,
     "intent": "informational",
     "az_volume": 20
-   },
-   {
-    "keyword": "is a scorpion sting dangerous",
-    "us_volume": 140,
-    "intent": "informational",
-    "az_volume": 20
    }
   ],
   "termite-treatment": [
@@ -271,19 +271,19 @@
     "keyword": "what to termites look like",
     "us_volume": 49500,
     "intent": "informational",
-    "az_volume": 1600
+    "az_volume": 1300
    },
    {
     "keyword": "what does termites look like",
     "us_volume": 49500,
     "intent": "informational",
-    "az_volume": 1600
+    "az_volume": 1300
    },
    {
     "keyword": "what do termites look like",
     "us_volume": 49500,
     "intent": "informational",
-    "az_volume": 1600
+    "az_volume": 1300
    },
    {
     "keyword": "termites treatment price",
@@ -484,24 +484,6 @@
     "az_volume": 210
    },
    {
-    "keyword": "termites vs flying ants",
-    "us_volume": 14800,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
-    "keyword": "termites-vs-flying-ants",
-    "us_volume": 14800,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
-    "keyword": "fly ants vs termites",
-    "us_volume": 14800,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
     "keyword": "flying termites vs flying ants",
     "us_volume": 14800,
     "intent": "informational",
@@ -514,8 +496,26 @@
     "az_volume": 170
    },
    {
+    "keyword": "termites vs flying ants",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "termites-vs-flying-ants",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "fly ants vs termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
     "keyword": "flying ants vs flying termites",
-    "us_volume": 14800,
+    "us_volume": 12100,
     "intent": "informational",
     "az_volume": 170
    },
@@ -540,6 +540,30 @@
   ],
   "roach-elimination": [
    {
+    "keyword": "cockroaches can bite",
+    "us_volume": 40500,
+    "intent": "informational",
+    "az_volume": 1000
+   },
+   {
+    "keyword": "do cockroaches bite",
+    "us_volume": 40500,
+    "intent": "informational",
+    "az_volume": 1000
+   },
+   {
+    "keyword": "does cockroaches bite",
+    "us_volume": 40500,
+    "intent": "informational",
+    "az_volume": 1000
+   },
+   {
+    "keyword": "can cockroaches bite",
+    "us_volume": 40500,
+    "intent": "informational",
+    "az_volume": 1000
+   },
+   {
     "keyword": "kill german cockroaches",
     "us_volume": 40500,
     "intent": "informational",
@@ -560,36 +584,6 @@
    {
     "keyword": "german cockroach kill",
     "us_volume": 40500,
-    "intent": "informational",
-    "az_volume": 880
-   },
-   {
-    "keyword": "cockroaches can bite",
-    "us_volume": 27100,
-    "intent": "informational",
-    "az_volume": 880
-   },
-   {
-    "keyword": "do cockroaches bite",
-    "us_volume": 27100,
-    "intent": "informational",
-    "az_volume": 880
-   },
-   {
-    "keyword": "does cockroaches bite",
-    "us_volume": 27100,
-    "intent": "informational",
-    "az_volume": 880
-   },
-   {
-    "keyword": "can cockroaches bite",
-    "us_volume": 27100,
-    "intent": "informational",
-    "az_volume": 880
-   },
-   {
-    "keyword": "do cockroaches bites",
-    "us_volume": 14800,
     "intent": "informational",
     "az_volume": 880
    },
@@ -768,6 +762,12 @@
     "az_volume": 320
    },
    {
+    "keyword": "german cockroach vs american",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
     "keyword": "water bugs vs cockroaches",
     "us_volume": 33100,
     "intent": "informational",
@@ -793,7 +793,7 @@
    },
    {
     "keyword": "best cockroaches killer",
-    "us_volume": 14800,
+    "us_volume": 12100,
     "intent": "commercial",
     "az_volume": 260
    },
@@ -813,103 +813,121 @@
   "ant-control": [
    {
     "keyword": "how to get rid ants in the house",
-    "us_volume": 22200,
+    "us_volume": 27100,
     "intent": "informational",
-    "az_volume": 390
+    "az_volume": 480
    },
    {
     "keyword": "how to get rid of ants in the house",
-    "us_volume": 22200,
+    "us_volume": 27100,
     "intent": "informational",
-    "az_volume": 390
+    "az_volume": 480
+   },
+   {
+    "keyword": "how get rid of ants in the house",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to get of rid of ants in the house",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to rid ants in the house",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to get rid of ants in house",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how get rid of ants in house",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how can i get rid of ants in the house",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to get rid of the ants in the house",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
    },
    {
     "keyword": "how do i get rid of ants in the house",
     "us_volume": 22200,
     "intent": "informational",
-    "az_volume": 390
-   },
-   {
-    "keyword": "how get rid of ants in the house",
-    "us_volume": 22200,
-    "intent": "informational",
-    "az_volume": 390
+    "az_volume": 480
    },
    {
     "keyword": "how to get rid ants in house",
     "us_volume": 22200,
     "intent": "informational",
-    "az_volume": 390
-   },
-   {
-    "keyword": "how to get of rid of ants in the house",
-    "us_volume": 22200,
-    "intent": "informational",
-    "az_volume": 390
-   },
-   {
-    "keyword": "how to rid ants in the house",
-    "us_volume": 22200,
-    "intent": "informational",
-    "az_volume": 390
+    "az_volume": 480
    },
    {
     "keyword": "how to rid of ants in house",
     "us_volume": 22200,
     "intent": "informational",
-    "az_volume": 390
-   },
-   {
-    "keyword": "how get rid of ants in house",
-    "us_volume": 22200,
-    "intent": "informational",
-    "az_volume": 390
-   },
-   {
-    "keyword": "how can i get rid of ants in the house",
-    "us_volume": 22200,
-    "intent": "informational",
-    "az_volume": 390
-   },
-   {
-    "keyword": "how to get rid of the ants in the house",
-    "us_volume": 22200,
-    "intent": "informational",
-    "az_volume": 390
-   },
-   {
-    "keyword": "how to get rid of ants in house",
-    "us_volume": 5400,
-    "intent": "informational",
-    "az_volume": 390
+    "az_volume": 480
    },
    {
     "keyword": "how can i get rid of sugar ants",
-    "us_volume": 9900,
+    "us_volume": 12100,
     "intent": "informational",
     "az_volume": 170
    },
    {
     "keyword": "how do you get rid of sugar ants",
-    "us_volume": 9900,
+    "us_volume": 12100,
     "intent": "informational",
     "az_volume": 170
    },
    {
     "keyword": "how to get rid of ants in sugar",
-    "us_volume": 9900,
+    "us_volume": 12100,
     "intent": "informational",
     "az_volume": 170
    },
    {
     "keyword": "how to get rid of ants from sugar",
-    "us_volume": 9900,
+    "us_volume": 12100,
     "intent": "informational",
     "az_volume": 170
    },
    {
     "keyword": "how do i get rid of sugar ants",
-    "us_volume": 9900,
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to get rid of sugar ants",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to rid of sugar ants",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "how to get rid sugar ants",
+    "us_volume": 12100,
     "intent": "informational",
     "az_volume": 170
    },
@@ -926,25 +944,7 @@
     "az_volume": 170
    },
    {
-    "keyword": "how to get rid of sugar ants",
-    "us_volume": 9900,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
-    "keyword": "how to rid of sugar ants",
-    "us_volume": 9900,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
     "keyword": "how get rid of sugar ants",
-    "us_volume": 9900,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
-    "keyword": "how to get rid sugar ants",
     "us_volume": 9900,
     "intent": "informational",
     "az_volume": 170
@@ -962,6 +962,12 @@
     "az_volume": 170
    },
    {
+    "keyword": "ants in house home remedy",
+    "us_volume": 8100,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
     "keyword": "ants in the house home remedy",
     "us_volume": 6600,
     "intent": "informational",
@@ -969,12 +975,6 @@
    },
    {
     "keyword": "home remedy for ants in the house",
-    "us_volume": 6600,
-    "intent": "informational",
-    "az_volume": 140
-   },
-   {
-    "keyword": "ants in house home remedy",
     "us_volume": 6600,
     "intent": "informational",
     "az_volume": 140
@@ -1070,16 +1070,16 @@
     "az_volume": 110
    },
    {
-    "keyword": "signs of carpenter ants in house",
-    "us_volume": 6600,
+    "keyword": "how to get rid of ants in the house quickly",
+    "us_volume": 4400,
     "intent": "informational",
     "az_volume": 90
    },
    {
-    "keyword": "how to repel ants in the house",
-    "us_volume": 5400,
+    "keyword": "signs of carpenter ants in house",
+    "us_volume": 6600,
     "intent": "informational",
-    "az_volume": 90
+    "az_volume": 70
    }
   ],
   "spider-prevention": [
@@ -1150,6 +1150,24 @@
     "az_volume": 390
    },
    {
+    "keyword": "are black widow deadly",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "are black widow bites deadly",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
+    "keyword": "are black widow spiders deadly",
+    "us_volume": 6600,
+    "intent": "informational",
+    "az_volume": 320
+   },
+   {
     "keyword": "what do black widow spider bites look like",
     "us_volume": 6600,
     "intent": "informational",
@@ -1168,31 +1186,13 @@
     "az_volume": 260
    },
    {
-    "keyword": "are black widow deadly",
-    "us_volume": 6600,
-    "intent": "informational",
-    "az_volume": 260
-   },
-   {
     "keyword": "what does black widow spider bite look like",
     "us_volume": 6600,
     "intent": "informational",
     "az_volume": 260
    },
    {
-    "keyword": "are black widow bites deadly",
-    "us_volume": 6600,
-    "intent": "informational",
-    "az_volume": 260
-   },
-   {
     "keyword": "what does a black widow spider bite look like",
-    "us_volume": 6600,
-    "intent": "informational",
-    "az_volume": 260
-   },
-   {
-    "keyword": "are black widow spiders deadly",
     "us_volume": 6600,
     "intent": "informational",
     "az_volume": 260
@@ -1342,14 +1342,14 @@
     "az_volume": 70
    },
    {
-    "keyword": "how to get rid of spiders in your house",
-    "us_volume": 1900,
+    "keyword": "where does a black widow spider live",
+    "us_volume": 4400,
     "intent": "informational",
-    "az_volume": 20
+    "az_volume": 70
    },
    {
-    "keyword": "how long do spiders live in a house",
-    "us_volume": 1300,
+    "keyword": "how to get rid of spiders in your house",
+    "us_volume": 1900,
     "intent": "informational",
     "az_volume": 20
    }
@@ -1357,36 +1357,48 @@
   "rodent-exclusion": [
    {
     "keyword": "how to get rid of mice in the house",
-    "us_volume": 12100,
+    "us_volume": 14800,
     "intent": "informational",
     "az_volume": 140
    },
    {
     "keyword": "how can i get rid of mice in my house",
-    "us_volume": 12100,
+    "us_volume": 14800,
     "intent": "informational",
     "az_volume": 140
    },
    {
     "keyword": "how get rid of mice in house",
-    "us_volume": 12100,
+    "us_volume": 14800,
     "intent": "informational",
     "az_volume": 140
    },
    {
     "keyword": "how to rid of mice in house",
-    "us_volume": 12100,
-    "intent": "informational",
-    "az_volume": 140
-   },
-   {
-    "keyword": "how to get rid of mice in house",
-    "us_volume": 12100,
+    "us_volume": 14800,
     "intent": "informational",
     "az_volume": 140
    },
    {
     "keyword": "how can you get rid of mice in the house",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how to get rid of mice in a house",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how can i get rid of mice in the house",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how to get rid of mice in house",
     "us_volume": 12100,
     "intent": "informational",
     "az_volume": 140
@@ -1404,19 +1416,7 @@
     "az_volume": 140
    },
    {
-    "keyword": "how to get rid of mice in a house",
-    "us_volume": 12100,
-    "intent": "informational",
-    "az_volume": 140
-   },
-   {
     "keyword": "how to get rid mice in house",
-    "us_volume": 12100,
-    "intent": "informational",
-    "az_volume": 140
-   },
-   {
-    "keyword": "how can i get rid of mice in the house",
     "us_volume": 12100,
     "intent": "informational",
     "az_volume": 140
@@ -1470,13 +1470,13 @@
     "az_volume": 70
    },
    {
-    "keyword": "how to get rid of the mice in your house",
-    "us_volume": 4400,
+    "keyword": "how to get rid of mice in your house",
+    "us_volume": 5400,
     "intent": "informational",
     "az_volume": 50
    },
    {
-    "keyword": "how to get rid of mice in your house",
+    "keyword": "how to get rid of the mice in your house",
     "us_volume": 4400,
     "intent": "informational",
     "az_volume": 50
@@ -1494,6 +1494,12 @@
     "az_volume": 20
    },
    {
+    "keyword": "best way to get rid of mice in the house",
+    "us_volume": 2400,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
     "keyword": "how do mice get in your house",
     "us_volume": 2400,
     "intent": "informational",
@@ -1506,7 +1512,7 @@
     "az_volume": 20
    },
    {
-    "keyword": "best way to get rid of mice in the house",
+    "keyword": "how to permanently get rid of mice in your house",
     "us_volume": 1900,
     "intent": "informational",
     "az_volume": 20
@@ -1536,8 +1542,20 @@
     "az_volume": 20
    },
    {
-    "keyword": "how to permanently get rid of mice in your house",
-    "us_volume": 1600,
+    "keyword": "home remedy to get rid of mice in house",
+    "us_volume": 1300,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "home remedies to get rid of mice in house",
+    "us_volume": 1300,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "home remedies to get rid of mice in the house",
+    "us_volume": 1300,
     "intent": "informational",
     "az_volume": 20
    }
@@ -1652,31 +1670,13 @@
     "az_volume": 1900
    },
    {
-    "keyword": "how can you check for bed bugs",
-    "us_volume": 90500,
-    "intent": "informational",
-    "az_volume": 1900
-   },
-   {
     "keyword": "how to get rid for bed bugs",
     "us_volume": 90500,
     "intent": "informational",
     "az_volume": 1900
    },
    {
-    "keyword": "how to check bed for bed bugs",
-    "us_volume": 90500,
-    "intent": "informational",
-    "az_volume": 1900
-   },
-   {
     "keyword": "what does bites from bed bugs look like",
-    "us_volume": 90500,
-    "intent": "informational",
-    "az_volume": 1900
-   },
-   {
-    "keyword": "how do you check a bed for bed bugs",
     "us_volume": 90500,
     "intent": "informational",
     "az_volume": 1900
@@ -1695,18 +1695,6 @@
    },
    {
     "keyword": "how to get get rid of bed bugs",
-    "us_volume": 90500,
-    "intent": "informational",
-    "az_volume": 1900
-   },
-   {
-    "keyword": "how check for bed bugs",
-    "us_volume": 90500,
-    "intent": "informational",
-    "az_volume": 1900
-   },
-   {
-    "keyword": "how to find the bed bugs",
     "us_volume": 90500,
     "intent": "informational",
     "az_volume": 1900
@@ -1736,19 +1724,7 @@
     "az_volume": 1900
    },
    {
-    "keyword": "how do i check for bed bugs",
-    "us_volume": 90500,
-    "intent": "informational",
-    "az_volume": 1900
-   },
-   {
     "keyword": "how to get rid of from bed bugs",
-    "us_volume": 90500,
-    "intent": "informational",
-    "az_volume": 1900
-   },
-   {
-    "keyword": "how to test bed bugs",
     "us_volume": 90500,
     "intent": "informational",
     "az_volume": 1900
@@ -1761,12 +1737,6 @@
    },
    {
     "keyword": "how to get rid of bed bugs from bed",
-    "us_volume": 90500,
-    "intent": "informational",
-    "az_volume": 1900
-   },
-   {
-    "keyword": "how to check beds for bed bugs",
     "us_volume": 90500,
     "intent": "informational",
     "az_volume": 1900
@@ -1790,12 +1760,6 @@
     "az_volume": 1900
    },
    {
-    "keyword": "how.to check for bed bugs",
-    "us_volume": 90500,
-    "intent": "informational",
-    "az_volume": 1900
-   },
-   {
     "keyword": "how to get rid of of bed bugs",
     "us_volume": 90500,
     "intent": "informational",
@@ -1812,6 +1776,60 @@
     "us_volume": 90500,
     "intent": "informational",
     "az_volume": 1900
+   },
+   {
+    "keyword": "how can you check for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "how to check bed for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "how do you check a bed for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "how check for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "how to find the bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "how do i check for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "how to test bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "how to check beds for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1600
+   },
+   {
+    "keyword": "how.to check for bed bugs",
+    "us_volume": 90500,
+    "intent": "informational",
+    "az_volume": 1600
    }
   ],
   "mosquito-control": [
@@ -2408,6 +2426,48 @@
     "az_volume": 70
    },
    {
+    "keyword": "best pre-emergent weed killer",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 70
+   },
+   {
+    "keyword": "best pre emergent herbicides",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 70
+   },
+   {
+    "keyword": "best pre-emergent herbicide",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 70
+   },
+   {
+    "keyword": "best pre emergent herbicide",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 70
+   },
+   {
+    "keyword": "best weed killer with pre emergent",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 70
+   },
+   {
+    "keyword": "best pre emergent weed killer",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 70
+   },
+   {
+    "keyword": "best pre-emergent herbicides",
+    "us_volume": 1300,
+    "intent": "commercial",
+    "az_volume": 70
+   },
+   {
     "keyword": "best pre emergent",
     "us_volume": 1900,
     "intent": "commercial",
@@ -2423,48 +2483,6 @@
     "keyword": "best pre-emergent",
     "us_volume": 1900,
     "intent": "informational",
-    "az_volume": 50
-   },
-   {
-    "keyword": "best pre-emergent weed killer",
-    "us_volume": 1300,
-    "intent": "commercial",
-    "az_volume": 50
-   },
-   {
-    "keyword": "best pre emergent herbicides",
-    "us_volume": 1300,
-    "intent": "commercial",
-    "az_volume": 50
-   },
-   {
-    "keyword": "best pre-emergent herbicide",
-    "us_volume": 1300,
-    "intent": "commercial",
-    "az_volume": 50
-   },
-   {
-    "keyword": "best pre emergent herbicide",
-    "us_volume": 1300,
-    "intent": "commercial",
-    "az_volume": 50
-   },
-   {
-    "keyword": "best weed killer with pre emergent",
-    "us_volume": 1300,
-    "intent": "commercial",
-    "az_volume": 50
-   },
-   {
-    "keyword": "best pre emergent weed killer",
-    "us_volume": 1300,
-    "intent": "commercial",
-    "az_volume": 50
-   },
-   {
-    "keyword": "best pre-emergent herbicides",
-    "us_volume": 1300,
-    "intent": "commercial",
     "az_volume": 50
    },
    {
@@ -3241,7 +3259,7 @@
    },
    {
     "keyword": "overseeding lawn how to",
-    "us_volume": 4400,
+    "us_volume": 3600,
     "intent": "informational",
     "az_volume": 30
    },
@@ -3260,56 +3278,56 @@
     "az_volume": 40
    },
    {
-    "keyword": "lawn care when to aerate",
-    "us_volume": 4400,
-    "intent": "informational",
-    "az_volume": 20
-   },
-   {
     "keyword": "best lawn weed and feed",
     "us_volume": 2900,
     "intent": "informational",
-    "az_volume": 20
+    "az_volume": 30
    },
    {
     "keyword": "best weed and feed for lawns",
     "us_volume": 2900,
     "intent": "informational",
-    "az_volume": 20
+    "az_volume": 30
    },
    {
     "keyword": "best feed and weed for lawns",
     "us_volume": 2900,
     "intent": "informational",
-    "az_volume": 20
+    "az_volume": 30
    },
    {
     "keyword": "best weed and feed for lawn",
     "us_volume": 2900,
     "intent": "informational",
-    "az_volume": 20
+    "az_volume": 30
    },
    {
     "keyword": "best weed and feed lawn",
     "us_volume": 2900,
     "intent": "commercial",
-    "az_volume": 20
+    "az_volume": 30
    },
    {
     "keyword": "best lawn feed and weed",
     "us_volume": 2900,
     "intent": "commercial",
-    "az_volume": 20
+    "az_volume": 30
    },
    {
     "keyword": "best feed and weed for grass",
     "us_volume": 2900,
     "intent": "informational",
-    "az_volume": 20
+    "az_volume": 30
    },
    {
     "keyword": "best grass weed and feed",
     "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 30
+   },
+   {
+    "keyword": "lawn care when to aerate",
+    "us_volume": 3600,
     "intent": "informational",
     "az_volume": 20
    },
