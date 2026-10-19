@@ -4,7 +4,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [ ] URL GUARD 2026-10-19: /blog/marana-scarana-navigating-scorpion-season-in-our-desert-oasis -> 404 (fix: 301 to closest live page or restore)
+- [x] **DONE 2026-10-19 (301 to /marana-az/pest-and-termite/scorpion-control in next.config.mjs; SHA in git log)** URL GUARD 2026-10-19: /blog/marana-scarana-navigating-scorpion-season-in-our-desert-oasis -> 404 (fix: 301 to closest live page or restore)
 
 - [x] **DONE 2026-10-13 (301 added in next.config.mjs; SHA below)** URL GUARD 2026-10-13: /blog/why-scottsdale-mosquito-problems-are-why-scottsdale-mosquito-problems-are-worse-than-you-think-tips-for-troon-north-r -> 404 (fix: 301 to closest live page or restore)
 

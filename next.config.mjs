@@ -371,6 +371,7 @@ const nextConfig = {
         { source: "/blog/the-dangers-of-ignoring-termite-damage-in-your-arizona-home", destination: "/blog/the-dangers-of-ignoring-termite-damage-in-older-houses", permanent: true },
         // "Related articles" links to a companion city post that was never generated for that
         // city — no matching post exists, so send to the real money page for that city+service.
+        { source: "/blog/marana-scarana-navigating-scorpion-season-in-our-desert-oasis", destination: "/marana-az/pest-and-termite/scorpion-control", permanent: true },
         { source: "/blog/best-termite-company-marana-az-expert-home-protection-you-can-trust", destination: "/marana-az/pest-and-termite/termite-treatment", permanent: true },
         { source: "/blog/maricopa-overseeding-service-lush-winter-lawns-for-the-85138-area", destination: "/maricopa-az/weed-and-lawn-care/overseeding", permanent: true },
         { source: "/blog/best-weed-control-maricopa-az-85138-smart-solutions-by-bucksworth-home-services", destination: "/maricopa-az/weed-and-lawn-care", permanent: true },

@@ -182,5 +182,18 @@
   "money_page_linked": "/mesa-az/pest-and-termite/spider-prevention",
   "serp_type": "informational medical/ID (queue data generated 10-11; live SERP/DataForSEO not pulled this run)",
   "gate": "topic-check pass for \"can black widow spiders kill you\" and \"black widow spider mesa\"; queue ranks 1-8 used or blocked; existing Mesa spider post targets control not bite danger; striking-distance pages linked: /mesa-az/pest-and-termite, /mesa-az/pest-and-termite/scorpion-control, /mesa-az"
+ },
+ {
+  "date": "2026-10-19",
+  "slug": "plants-to-prevent-mosquitoes-what-actually-works-in-a-tempe-yard-and-what-doesnt",
+  "city": "tempe-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "mosquito-control",
+  "target_question": "plants to prevent mosquitoes",
+  "az_volume": 720,
+  "queue_rank": 2,
+  "money_page_linked": "/tempe-az/pest-and-termite/mosquito-control",
+  "serp_type": "informational how-to/list (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
+  "gate": "topic-check pass for \"plants to prevent mosquitoes\"; rank 1 (termites) fails topic-check; only other Tempe mosquito post is monsoon season, different question; striking-distance pages linked: /mesa-az/pest-and-termite, /chandler-az/pest-and-termite, /tempe-az/pest-and-termite"
  }
 ]
