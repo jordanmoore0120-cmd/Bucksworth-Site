@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-15**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-19**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -27,6 +27,11 @@ Source: https://developers.google.com/search/docs/appearance/ai-features (read 2
   performance report** is live for all sites since 2026-08-31
   (https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports). Use it, not guesses,
   to judge AI visibility.
+- AI Mode/AI Overviews link changes (Google, 2026-10-15,
+  https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/): more
+  **inline links** shown higher in answers, and a test of a dedicated **"official websites"** section at the top
+  for tasks with only one or two official places. No new requirement: DO keep each page's main answer in a
+  clear, citable sentence near the top and the GBP website link pointing at the right page.
 
 Helpful content — https://developers.google.com/search/docs/fundamentals/creating-helpful-content
 - DO write people-first content showing first-hand experience (our techs, our jobs, local conditions).
@@ -177,3 +182,6 @@ updated 2026-07-31) ; https://support.google.com/google-ads/answer/17213585 (rea
 - After migration (read 2026-10-15): budgets/bidding/locations/service types live in Google Ads → Campaigns →
   Settings; photos + custom callouts in Campaigns → Assets; lead inbox + call recordings in Goals → Conversions → Leads.
   Business name, address and hours are edited only in GBP (one-way sync).
+- From Oct 2026 LSA ads no longer show "featured professionals"; headshots are optional and don't affect
+  serving (Google Ads account notice, reported seroundtable.com/google-ads-featured-professionals-headshots-42325.html,
+  2026-10-19). Photos and reviews still show, so keep real job/team photos current.
