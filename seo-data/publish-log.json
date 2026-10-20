@@ -195,5 +195,18 @@
   "money_page_linked": "/tempe-az/pest-and-termite/mosquito-control",
   "serp_type": "informational how-to/list (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
   "gate": "topic-check pass for \"plants to prevent mosquitoes\"; rank 1 (termites) fails topic-check; only other Tempe mosquito post is monsoon season, different question; striking-distance pages linked: /mesa-az/pest-and-termite, /chandler-az/pest-and-termite, /tempe-az/pest-and-termite"
+ },
+ {
+  "date": "2026-10-20",
+  "slug": "best-mosquito-repellents-what-works-for-a-mesa-backyard-and-what-doesnt",
+  "city": "mesa-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "mosquito-control",
+  "target_question": "best mosquitoes repellents",
+  "az_volume": 720,
+  "queue_rank": 3,
+  "money_page_linked": "/mesa-az/pest-and-termite/mosquito-control",
+  "serp_type": "informational list/product roundup (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
+  "gate": "topic-check pass for \"best mosquitoes repellents\"; rank 1 fails topic-check, rank 2 already published 10-19; no existing repellent title in index.json; Mesa mosquito posts cover 85208 control and fruit flies, different questions; striking-distance pages linked: /mesa-az/pest-and-termite"
  }
 ]
