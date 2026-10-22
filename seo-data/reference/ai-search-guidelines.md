@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-19**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-22**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -21,6 +21,9 @@ Source: https://developers.google.com/search/docs/appearance/ai-features (read 2
   machine-readable files, AI text files or special schema. Keep `llms.txt` accurate but don't spend effort on it.
 - DON'T add `nosnippet`, `data-nosnippet`, `max-snippet` limits or `noindex` to money pages — those are the
   controls that remove content from AI features.
+- Search Console now has a site-wide **Search generative AI control** that removes a site from AI Overviews/AI Mode
+  (https://developers.google.com/search/docs/crawling-indexing/control-what-you-share, updated 2026-10-21). DON'T
+  turn it on: it would take Bucksworth out of AI answers.
 - DO expect query fan-out: AI answers pull from pages that answer sub-questions (cost factors, how to
   choose, seasonality, what to expect). Cover those sub-questions on the money page or a linked post.
 - AI Overview traffic is reported inside Search Console "Web" performance; a dedicated **Generative AI
@@ -124,6 +127,9 @@ Sources: https://platform.openai.com/docs/bots ; Publisher FAQ https://help.open
 - ChatGPT referrals USED to arrive with `utm_source=chatgpt.com`. Since GPT-6 (~2026-10-07) links reportedly open
   with no UTM and no referrer, so ChatGPT visits can show as **Direct** in GA4 (seroundtable.com/utm-parameters-missing-chatgpt-42299.html,
   2026-10-14; not yet confirmed by OpenAI). Don't read a ChatGPT-referral drop since 10-07 as lost visibility; no tag changes.
+- ChatGPT Ads only: OpenAI requires `OAI-AdsBot` to reach ad landing pages and recommends `OAI-SearchBot` too
+  (https://help.openai.com/en/articles/20001243, 2026-10-19). Our robots.txt `User-Agent: * Allow: /` already allows it;
+  don't add a block if ChatGPT Ads are ever used.
 - ChatGPT local answers lean on third-party listings/reviews (Yelp, BBB, directories): keep NAP identical
   everywhere (Whitespark Listing Management).
 
@@ -154,6 +160,10 @@ Sources: https://support.google.com/google-ads/answer/16297775 ; https://support
 - Advanced Verification (https://support.google.com/adspolicy/answer/7167922): if an ad or landing page
   mentions a **guarantee or warranty, the same page must link to its terms, exclusions and how to claim**.
   Don't claim response times we can't always meet ("arrive in 30 minutes").
+- **Smart Bidding "Learning"** (https://support.google.com/google-ads/answer/13020501, rewritten 2026-10-21): the status
+  never lasts more than 7 days and ads keep serving. Only a new/reactivated strategy, adding/removing campaigns or keywords,
+  or a significant conversion-goal change triggers it; budget, target, creative and targeting changes never do. DO keep one
+  consistent primary conversion goal. DON'T delay a needed budget change out of fear of "resetting learning".
 - **Automated promotions (opt-out, starts 2026-10-12):** Google Ads will pull coupons/deals from our website
   into Search and PMax campaigns with location assets that have no promotion asset. That can put a site deal
   on an ad we didn't approve, or pair two deals. Keep it OFF: Assets → Account-level automated assets →
