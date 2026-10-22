@@ -208,5 +208,18 @@
   "money_page_linked": "/mesa-az/pest-and-termite/mosquito-control",
   "serp_type": "informational list/product roundup (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
   "gate": "topic-check pass for \"best mosquitoes repellents\"; rank 1 fails topic-check, rank 2 already published 10-19; no existing repellent title in index.json; Mesa mosquito posts cover 85208 control and fruit flies, different questions; striking-distance pages linked: /mesa-az/pest-and-termite"
+ },
+ {
+  "date": "2026-10-22",
+  "slug": "can-cockroaches-fly-what-maricopa-homeowners-should-know-about-flying-roaches",
+  "city": "maricopa-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "roach-elimination",
+  "target_question": "cockroaches that can fly",
+  "az_volume": 590,
+  "queue_rank": 4,
+  "money_page_linked": "/maricopa-az/pest-and-termite/roach-elimination",
+  "serp_type": "informational explainer (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
+  "gate": "topic-check pass for \"cockroaches that can fly\"; rank 1 fails topic-check (termite posts exist), ranks 2-3 already published; no flying-roach title in index.json; Maricopa roach post covers sewer roaches (different question); striking-distance page linked: /maricopa-az/weed-and-lawn-care"
  }
 ]
