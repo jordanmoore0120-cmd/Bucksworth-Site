@@ -4,6 +4,12 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **2026-10-23 · Avondale scorpion-sting post: trim internal links 13 -> 12** (commit ae55ec0)
+  - Post: `/blog/what-does-a-scorpion-sting-look-like-what-avondale-homeowners-should-know-about-bark-scorpion-stings`
+  - Problem: 13 unique internal links (rule is 10-12). Everything else passed QA.
+  - Fix: drop one weak link (e.g. `/mesa-az/pest-and-termite`, off-city for an Avondale post). Keep `/avondale-az/pest-and-termite/scorpion-control`.
+  - Keep URL/slug, title, date unchanged.
+
 - [x] **DONE 2026-10-19 (301 to /marana-az/pest-and-termite/scorpion-control in next.config.mjs; SHA in git log)** URL GUARD 2026-10-19: /blog/marana-scarana-navigating-scorpion-season-in-our-desert-oasis -> 404 (fix: 301 to closest live page or restore)
 
 - [x] **DONE 2026-10-13 (301 added in next.config.mjs; SHA below)** URL GUARD 2026-10-13: /blog/why-scottsdale-mosquito-problems-are-why-scottsdale-mosquito-problems-are-worse-than-you-think-tips-for-troon-north-r -> 404 (fix: 301 to closest live page or restore)
