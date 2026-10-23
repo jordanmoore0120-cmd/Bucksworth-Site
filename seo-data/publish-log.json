@@ -221,5 +221,18 @@
   "money_page_linked": "/maricopa-az/pest-and-termite/roach-elimination",
   "serp_type": "informational explainer (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
   "gate": "topic-check pass for \"cockroaches that can fly\"; rank 1 fails topic-check (termite posts exist), ranks 2-3 already published; no flying-roach title in index.json; Maricopa roach post covers sewer roaches (different question); striking-distance page linked: /maricopa-az/weed-and-lawn-care"
- }
+ },
+{
+ "date": "2026-10-23",
+ "slug": "what-does-a-scorpion-sting-look-like-what-avondale-homeowners-should-know-about-bark-scorpion-stings",
+ "city": "avondale-az",
+ "vertical": "pest-and-termite",
+ "sub_service": "scorpion-control",
+ "target_question": "what does scorpion sting look like",
+ "az_volume": 390,
+ "queue_rank": 5,
+ "money_page_linked": "/avondale-az/pest-and-termite/scorpion-control",
+ "serp_type": "informational explainer / medical-symptom answer (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
+ "gate": "topic-check pass for \"what does scorpion sting look like\"; rank 1 (termites, Phoenix) fails topic-check (termite posts exist), ranks 2-4 already published; no scorpion-sting title in index.json or publish-log; Avondale has 0 scorpion posts (only ant/spider/rodent/AC); striking-distance page linked: /mesa-az/pest-and-termite"
+}
 ]
