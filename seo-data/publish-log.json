@@ -234,5 +234,18 @@
  "money_page_linked": "/avondale-az/pest-and-termite/scorpion-control",
  "serp_type": "informational explainer / medical-symptom answer (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
  "gate": "topic-check pass for \"what does scorpion sting look like\"; rank 1 (termites, Phoenix) fails topic-check (termite posts exist), ranks 2-4 already published; no scorpion-sting title in index.json or publish-log; Avondale has 0 scorpion posts (only ant/spider/rodent/AC); striking-distance page linked: /mesa-az/pest-and-termite"
+},
+{
+ "date": "2026-10-24",
+ "slug": "how-to-get-rid-of-mice-in-the-house-what-mesa-homeowners-should-do-first",
+ "city": "mesa-az",
+ "vertical": "pest-and-termite",
+ "sub_service": "rodent-exclusion",
+ "target_question": "how to get rid of mice in the house",
+ "az_volume": 140,
+ "queue_rank": 6,
+ "money_page_linked": "/mesa-az/pest-and-termite/rodent-exclusion",
+ "serp_type": "informational how-to (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
+ "gate": "topic-check pass for \"how to get rid of mice in the house\"; ranks 1-5 fail topic-check or already published; existing Mesa rodent posts target rodent-proofing/exclusion, not the mice-removal question; no mice-removal title in index.json or publish-log; striking-distance page linked: /mesa-az/pest-and-termite"
 }
 ]
