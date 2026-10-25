@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-18T17:47:03.414617+00:00",
+ "generated": "2026-10-25T17:47:12.446575+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-07-18..2026-10-16"
+  "gsc": "Search Console query+page 2026-07-25..2026-10-23"
  },
  "queue": [
   {
@@ -21,90 +21,6 @@
    "question_cluster": "rid term"
   },
   {
-   "city": "tempe-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "mosquito-control",
-   "question_keyword": "plants to prevent mosquitoes",
-   "question_az_volume": 720,
-   "question_us_volume": 27100,
-   "city_money_keyword": "mosquito control tempe",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/tempe-az/pest-and-termite/mosquito-control",
-   "score": 113.84,
-   "question_cluster": "mosq plan prev"
-  },
-  {
-   "city": "mesa-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "mosquito-control",
-   "question_keyword": "best mosquitoes repellents",
-   "question_az_volume": 720,
-   "question_us_volume": 22200,
-   "city_money_keyword": "mosquito control mesa",
-   "city_money_volume_az": 20,
-   "existing_posts_city_sub": 2,
-   "money_page_to_link": "/mesa-az/pest-and-termite/mosquito-control",
-   "score": 109.62,
-   "question_cluster": "mosq repe"
-  },
-  {
-   "city": "maricopa-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "roach-elimination",
-   "question_keyword": "cockroaches that can fly",
-   "question_az_volume": 590,
-   "question_us_volume": 27100,
-   "city_money_keyword": "cockroach exterminator maricopa",
-   "city_money_volume_az": 0,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/maricopa-az/pest-and-termite/roach-elimination",
-   "score": 97.93,
-   "question_cluster": "cock fly"
-  },
-  {
-   "city": "avondale-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "scorpion-control",
-   "question_keyword": "what does scorpion sting look like",
-   "question_az_volume": 390,
-   "question_us_volume": 1900,
-   "city_money_keyword": "scorpion control avondale",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 0,
-   "money_page_to_link": "/avondale-az/pest-and-termite/scorpion-control",
-   "score": 94.0,
-   "question_cluster": "like look scor stin"
-  },
-  {
-   "city": "mesa-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "rodent-exclusion",
-   "question_keyword": "how to get rid of mice in the house",
-   "question_az_volume": 140,
-   "question_us_volume": 14800,
-   "city_money_keyword": "rodent control mesa",
-   "city_money_volume_az": 880,
-   "existing_posts_city_sub": 2,
-   "money_page_to_link": "/mesa-az/pest-and-termite/rodent-exclusion",
-   "score": 93.1,
-   "question_cluster": "mice rid"
-  },
-  {
-   "city": "phoenix-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "spider-prevention",
-   "question_keyword": "what do black widow spider bites look like",
-   "question_az_volume": 260,
-   "question_us_volume": 6600,
-   "city_money_keyword": "spider control phoenix",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/phoenix-az/pest-and-termite/spider-prevention",
-   "score": 89.34,
-   "question_cluster": "blac like look spid stin wido"
-  },
-  {
    "city": "mesa-az",
    "vertical": "pest-and-termite",
    "sub_service": "ant-control",
@@ -117,6 +33,20 @@
    "money_page_to_link": "/mesa-az/pest-and-termite/ant-control",
    "score": 86.96,
    "question_cluster": "ants rid"
+  },
+  {
+   "city": "mesa-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "rodent-exclusion",
+   "question_keyword": "how to get rid of roof rats",
+   "question_az_volume": 110,
+   "question_us_volume": 880,
+   "city_money_keyword": "rodent control mesa",
+   "city_money_volume_az": 880,
+   "existing_posts_city_sub": 2,
+   "money_page_to_link": "/mesa-az/pest-and-termite/rodent-exclusion",
+   "score": 82.53,
+   "question_cluster": "rats rid roof"
   },
   {
    "city": "tempe-az",
@@ -161,20 +91,6 @@
    "question_cluster": "arac scor"
   },
   {
-   "city": "scottsdale-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "rodent-exclusion",
-   "question_keyword": "how to get rid of roof rats",
-   "question_az_volume": 110,
-   "question_us_volume": 880,
-   "city_money_keyword": "rodent control scottsdale",
-   "city_money_volume_az": 480,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/scottsdale-az/pest-and-termite/rodent-exclusion",
-   "score": 68.82,
-   "question_cluster": "rats rid roof"
-  },
-  {
    "city": "san-tan-valley-az",
    "vertical": "pest-and-termite",
    "sub_service": "scorpion-control",
@@ -189,6 +105,20 @@
    "question_cluster": "legs scor"
   },
   {
+   "city": "scottsdale-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "rodent-exclusion",
+   "question_keyword": "what are pack rats",
+   "question_az_volume": 90,
+   "question_us_volume": 2400,
+   "city_money_keyword": "rodent control scottsdale",
+   "city_money_volume_az": 480,
+   "existing_posts_city_sub": 1,
+   "money_page_to_link": "/scottsdale-az/pest-and-termite/rodent-exclusion",
+   "score": 62.25,
+   "question_cluster": "pack rats"
+  },
+  {
    "city": "tempe-az",
    "vertical": "pest-and-termite",
    "sub_service": "scorpion-control",
@@ -201,20 +131,6 @@
    "money_page_to_link": "/tempe-az/pest-and-termite/scorpion-control",
    "score": 61.48,
    "question_cluster": "die scor stin"
-  },
-  {
-   "city": "glendale-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "rodent-exclusion",
-   "question_keyword": "what are pack rats",
-   "question_az_volume": 90,
-   "question_us_volume": 2400,
-   "city_money_keyword": "rodent control glendale",
-   "city_money_volume_az": 40,
-   "existing_posts_city_sub": 0,
-   "money_page_to_link": "/glendale-az/pest-and-termite/rodent-exclusion",
-   "score": 59.44,
-   "question_cluster": "pack rats"
   },
   {
    "city": "scottsdale-az",
@@ -236,7 +152,7 @@
    "sub_service": "ant-control",
    "question_keyword": "how to repel sugar ants",
    "question_az_volume": 170,
-   "question_us_volume": 9900,
+   "question_us_volume": 12100,
    "city_money_keyword": "ant control scottsdale",
    "city_money_volume_az": 10,
    "existing_posts_city_sub": 1,

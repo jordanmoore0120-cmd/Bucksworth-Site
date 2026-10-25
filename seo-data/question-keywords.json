@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-18T17:47:03.414617+00:00",
+ "generated": "2026-10-25T17:47:12.446575+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-07-18..2026-10-16"
+  "gsc": "Search Console query+page 2026-07-25..2026-10-23"
  },
  "questions": {
   "scorpion-control": [
@@ -484,18 +484,6 @@
     "az_volume": 210
    },
    {
-    "keyword": "flying termites vs flying ants",
-    "us_volume": 14800,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
-    "keyword": "termites vs flying ant",
-    "us_volume": 14800,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
     "keyword": "termites vs flying ants",
     "us_volume": 12100,
     "intent": "informational",
@@ -509,6 +497,18 @@
    },
    {
     "keyword": "fly ants vs termites",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "flying termites vs flying ants",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
+    "keyword": "termites vs flying ant",
     "us_volume": 12100,
     "intent": "informational",
     "az_volume": 170
@@ -787,7 +787,7 @@
    },
    {
     "keyword": "best to kill cockroaches",
-    "us_volume": 14800,
+    "us_volume": 12100,
     "intent": "informational",
     "az_volume": 260
    },
@@ -830,6 +830,12 @@
     "az_volume": 480
    },
    {
+    "keyword": "how to get rid ants in house",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
     "keyword": "how to get of rid of ants in the house",
     "us_volume": 27100,
     "intent": "informational",
@@ -843,6 +849,12 @@
    },
    {
     "keyword": "how to get rid of ants in house",
+    "us_volume": 27100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
+    "keyword": "how to rid of ants in house",
     "us_volume": 27100,
     "intent": "informational",
     "az_volume": 480
@@ -867,18 +879,6 @@
    },
    {
     "keyword": "how do i get rid of ants in the house",
-    "us_volume": 22200,
-    "intent": "informational",
-    "az_volume": 480
-   },
-   {
-    "keyword": "how to get rid ants in house",
-    "us_volume": 22200,
-    "intent": "informational",
-    "az_volume": 480
-   },
-   {
-    "keyword": "how to rid of ants in house",
     "us_volume": 22200,
     "intent": "informational",
     "az_volume": 480
@@ -932,6 +932,12 @@
     "az_volume": 170
    },
    {
+    "keyword": "how to repel sugar ants",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
     "keyword": "how can you get rid of sugar ants",
     "us_volume": 9900,
     "intent": "informational",
@@ -950,16 +956,16 @@
     "az_volume": 170
    },
    {
-    "keyword": "how to repel sugar ants",
-    "us_volume": 9900,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
     "keyword": "signs of white ants in house",
     "us_volume": 4400,
     "intent": "informational",
     "az_volume": 170
+   },
+   {
+    "keyword": "home remedy for ants in the house",
+    "us_volume": 8100,
+    "intent": "informational",
+    "az_volume": 140
    },
    {
     "keyword": "ants in house home remedy",
@@ -969,12 +975,6 @@
    },
    {
     "keyword": "ants in the house home remedy",
-    "us_volume": 6600,
-    "intent": "informational",
-    "az_volume": 140
-   },
-   {
-    "keyword": "home remedy for ants in the house",
     "us_volume": 6600,
     "intent": "informational",
     "az_volume": 140
@@ -1392,6 +1392,12 @@
     "az_volume": 140
    },
    {
+    "keyword": "how to get rid mice in house",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
     "keyword": "how can i get rid of mice in the house",
     "us_volume": 14800,
     "intent": "informational",
@@ -1411,12 +1417,6 @@
    },
    {
     "keyword": "how do i get rid of mice in my house",
-    "us_volume": 12100,
-    "intent": "informational",
-    "az_volume": 140
-   },
-   {
-    "keyword": "how to get rid mice in house",
     "us_volume": 12100,
     "intent": "informational",
     "az_volume": 140
@@ -1470,14 +1470,14 @@
     "az_volume": 70
    },
    {
-    "keyword": "how to get rid of mice in your house",
+    "keyword": "how to get rid of the mice in your house",
     "us_volume": 5400,
     "intent": "informational",
     "az_volume": 50
    },
    {
-    "keyword": "how to get rid of the mice in your house",
-    "us_volume": 4400,
+    "keyword": "how to get rid of mice in your house",
+    "us_volume": 5400,
     "intent": "informational",
     "az_volume": 50
    },
@@ -1512,6 +1512,12 @@
     "az_volume": 20
    },
    {
+    "keyword": "how kill mice in house",
+    "us_volume": 1900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
     "keyword": "how to permanently get rid of mice in your house",
     "us_volume": 1900,
     "intent": "informational",
@@ -1525,12 +1531,6 @@
    },
    {
     "keyword": "norway rats vs roof rats",
-    "us_volume": 1600,
-    "intent": "informational",
-    "az_volume": 20
-   },
-   {
-    "keyword": "how kill mice in house",
     "us_volume": 1600,
     "intent": "informational",
     "az_volume": 20
