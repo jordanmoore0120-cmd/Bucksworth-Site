@@ -247,5 +247,18 @@
  "money_page_linked": "/mesa-az/pest-and-termite/rodent-exclusion",
  "serp_type": "informational how-to (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
  "gate": "topic-check pass for \"how to get rid of mice in the house\"; ranks 1-5 fail topic-check or already published; existing Mesa rodent posts target rodent-proofing/exclusion, not the mice-removal question; no mice-removal title in index.json or publish-log; striking-distance page linked: /mesa-az/pest-and-termite"
+},
+{
+ "date": "2026-10-25",
+ "slug": "what-do-black-widow-spider-bites-look-like-what-phoenix-homeowners-should-know-about-widow-bites-and-first-steps",
+ "city": "phoenix-az",
+ "vertical": "pest-and-termite",
+ "sub_service": "spider-prevention",
+ "target_question": "what do black widow spider bites look like",
+ "az_volume": 260,
+ "queue_rank": 7,
+ "money_page_linked": "/phoenix-az/pest-and-termite/spider-prevention",
+ "serp_type": "informational medical-symptom explainer (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
+ "gate": "topic-check pass for \"what do black widow spider bites look like\"; ranks 1-6 fail topic-check (termite posts exist) or already published; Mesa black widow post targets 'can black widow spiders kill you' (different question, 2 cities max 3); no Phoenix bite-look post in index.json or gsc-ranking-map; striking-distance page linked: /chandler-az/pest-and-termite"
 }
 ]
