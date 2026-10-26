@@ -4,6 +4,12 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **2026-10-26 · Queen Creek are-scorpions-arachnids post: trim internal links 13 -> 12** (commit a74bce4)
+  - Post: `/blog/are-scorpions-arachnids-what-queen-creek-homeowners-should-know-about-bark-scorpions-and-their-eight-legs`
+  - Problem: 13 unique internal links (rule is 10-12). Everything else passed QA.
+  - Fix: drop one weak off-city link (e.g. `/chandler-az/pest-and-termite/scorpion-control`). Keep `/queen-creek-az/pest-and-termite/scorpion-control` (money page).
+  - Keep URL/slug, title, date unchanged.
+
 - [x] **DONE 2026-10-24 (dropped off-city Phoenix scorpion-control link; 12 unique links remain; Mesa link kept as the striking-distance page; SHA in git log) · 2026-10-23 · Avondale scorpion-sting post: trim internal links 13 -> 12** (commit ae55ec0)
   - Post: `/blog/what-does-a-scorpion-sting-look-like-what-avondale-homeowners-should-know-about-bark-scorpion-stings`
   - Problem: 13 unique internal links (rule is 10-12). Everything else passed QA.
