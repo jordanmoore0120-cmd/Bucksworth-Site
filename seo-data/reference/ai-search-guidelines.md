@@ -76,6 +76,10 @@ Spam policies — https://developers.google.com/search/docs/essentials/spam-poli
   **per page, not per domain**. A template that's useful on 100 pages can be thin on 1,000. For our
   /{city}-az/{vertical}/{sub} pages, every city page needs city-specific main content, not just the city name.
 
+URL structure — https://developers.google.com/search/docs/crawling-indexing/url-structure (updated 2026-10-23)
+- DO separate words in NEW URLs with hyphens (`termite-treatment`), not underscores or run-together words.
+  DON'T rename existing URLs to fix this (page-identity rule #1).
+
 Structured data — https://developers.google.com/search/docs/appearance/structured-data/sd-policies
 - DO mark up only what users can see on the page; DON'T mark up hidden, misleading or irrelevant content.
 - **FAQ rich results are no longer shown in Google Search (deprecated 2026-05-07)**
@@ -164,6 +168,9 @@ Sources: https://support.google.com/google-ads/answer/16297775 ; https://support
   never lasts more than 7 days and ads keep serving. Only a new/reactivated strategy, adding/removing campaigns or keywords,
   or a significant conversion-goal change triggers it; budget, target, creative and targeting changes never do. DO keep one
   consistent primary conversion goal. DON'T delay a needed budget change out of fear of "resetting learning".
+- **Review summaries** (Google Ads help "About Review summaries", reported seroundtable.com/google-ads-ai-review-summaries-doc-42370.html,
+  2026-10-26): Search ads in the US can show a positive-only AI summary of our reviews from across the web; no setup.
+  → Real reviews on GBP and third-party sites feed our ads too. Never seed or buy reviews.
 - **Automated promotions (opt-out, starts 2026-10-12):** Google Ads will pull coupons/deals from our website
   into Search and PMax campaigns with location assets that have no promotion asset. That can put a site deal
   on an ad we didn't approve, or pair two deals. Keep it OFF: Assets → Account-level automated assets →
