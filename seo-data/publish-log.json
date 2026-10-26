@@ -260,5 +260,18 @@
  "money_page_linked": "/phoenix-az/pest-and-termite/spider-prevention",
  "serp_type": "informational medical-symptom explainer (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
  "gate": "topic-check pass for \"what do black widow spider bites look like\"; ranks 1-6 fail topic-check (termite posts exist) or already published; Mesa black widow post targets 'can black widow spiders kill you' (different question, 2 cities max 3); no Phoenix bite-look post in index.json or gsc-ranking-map; striking-distance page linked: /chandler-az/pest-and-termite"
+},
+{
+ "date": "2026-10-26",
+ "slug": "are-scorpions-arachnids-what-queen-creek-homeowners-should-know-about-bark-scorpions-and-their-eight-legs",
+ "city": "queen-creek-az",
+ "vertical": "pest-and-termite",
+ "sub_service": "scorpion-control",
+ "target_question": "are scorpions arachnids",
+ "az_volume": 260,
+ "queue_rank": 6,
+ "money_page_linked": "/queen-creek-az/pest-and-termite/scorpion-control",
+ "serp_type": "informational definition/how-to (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
+ "gate": "topic-check pass for \"are scorpions arachnids\"; ranks 1,3,8 fail topic-check, rank 2 skipped (generic how-to-get-rid-of-ants + Mesa ant posts overlap), rank 4 low volume (50), rank 5 Mesa already has 2 scorpion posts; no arachnid title in index.json or publish-log; striking-distance page linked: /mesa-az/pest-and-termite"
 }
 ]
