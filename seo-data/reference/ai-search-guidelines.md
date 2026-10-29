@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-22**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-29**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -35,6 +35,12 @@ Source: https://developers.google.com/search/docs/appearance/ai-features (read 2
   **inline links** shown higher in answers, and a test of a dedicated **"official websites"** section at the top
   for tasks with only one or two official places. No new requirement: DO keep each page's main answer in a
   clear, citable sentence near the top and the GBP website link pointing at the right page.
+- Favicon (https://developers.google.com/search/docs/appearance/favicon-in-search, updated 2026-10-28): Googlebot must be
+  able to crawl the home page AND follow any redirects from it (our bare domain 301s to www) to the page that declares the
+  favicon, and Googlebot-Image must fetch the favicon file. DON'T block any of those URLs in robots.txt or the CDN.
+- Deleted URLs (Google "Non-Canonical Cabinet" 404 video, 2026-10-28, via seroundtable.com/google-404-errors-42405.html):
+  404s cause no penalty and don't drain crawl budget; 5xx and 429 errors are the real problem. DO 301 a dead URL to a
+  genuinely relevant replacement; DON'T redirect unrelated dead URLs to the homepage (keep 404/410 when nothing fits).
 
 Helpful content — https://developers.google.com/search/docs/fundamentals/creating-helpful-content
 - DO write people-first content showing first-hand experience (our techs, our jobs, local conditions).
@@ -140,7 +146,9 @@ Sources: https://platform.openai.com/docs/bots ; Publisher FAQ https://help.open
 ## 5. Perplexity
 
 Source: https://docs.perplexity.ai/guides/bots (read 2026-10-02)
-- DO allow `PerplexityBot` (search index, not training) and `Perplexity-User`; whitelist their IP ranges if a WAF is added.
+- DO allow `PerplexityBot` (search index, not training) and `Perplexity-User`; allow their IP ranges if a WAF is added.
+  IP lists moved (doc updated 2026-10-29): https://www.perplexity.ai/perplexitybot.json and https://www.perplexity.ai/perplexity-user.json
+  (old perplexity.com URLs). Match on user agent + those IPs; the UA version number may change.
 
 ## 6. Claude (Anthropic) and Apple
 
@@ -148,16 +156,20 @@ Sources: https://support.claude.com/en/articles/8896518 ; https://support.apple.
 - DO allow `Claude-SearchBot` and `Claude-User` (search visibility). `ClaudeBot` = training only.
 - DO allow `Applebot` (Siri/Spotlight search). `Applebot-Extended` only controls training use.
 
-Robots.txt status (live check 2026-10-05): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
+Robots.txt status (live check 2026-10-29): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
 Claude-SearchBot and Applebot are all allowed (only `/api/` disallowed). **Never add a blanket
 "block AI" rule or CDN setting** — Googlebot/Bingbot/Applebot are mixed-use crawlers and a hard block cuts search too.
 
 ## 7. Google Ads, AI Max, ads in AI Overviews
 
 Sources: https://support.google.com/google-ads/answer/16297775 ; https://support.google.com/google-ads/answer/15910366 (read 2026-10-02)
-- Ads can show above/below/inside AI Overviews in the US from existing Search/PMax campaigns; ads inside
-  the AI Overview must match both the query and the AI Overview content. → Landing pages should answer the
-  question directly (answer-first) so the ad and page match the AI context.
+- Ads in AI Overviews **and AI Mode** (doc rewritten ~2026-10-27, answer/16297775): existing Search, Shopping and PMax
+  campaigns are automatically eligible, incl. follow-up turns in AI Mode ("multiturn ads", US); no opt-out and no way to
+  target AI placements alone; results are folded into normal campaign/search-terms reports. **Exact and phrase match only
+  serve on direct commercial-intent queries**; broad match, AI Max and PMax can also match the AI response to exploratory
+  questions. Ads may carry Gemini-written **"AI explainers" drawn from our website** that we can't edit or turn off.
+  → DO keep site facts accurate and on-rule (services, areas, guarantee terms, never "no contract"), since Google can quote
+  them next to our ads; landing pages should answer the question directly. Negative keywords still apply.
 - AI Max (search-term matching, text customization, **final URL expansion**) can send traffic to pages we
   didn't choose and rewrite headlines. If enabled, exclude non-pest/weed URLs and review asset text against
   house rules (no "no contract", no AC/plumbing, no deal pairing). Changes need Jordan's approval.
