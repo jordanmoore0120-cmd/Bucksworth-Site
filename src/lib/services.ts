@@ -390,7 +390,7 @@ export const SERVICES: ServiceVertical[] = [
         name: "Gravel & Rock Yard Maintenance",
         slug: "gravel-rock-yard-maintenance",
         icon: "rock",
-        shortDesc: "Weed-free gravel & desert landscape care",
+        shortDesc: "Weed control for gravel & rock yards",
         longDesc:
           "Arizona gravel and rock yards look great when maintained but quickly become eyesores when weeds push through. Our gravel yard program combines pre-emergent barriers with targeted post-emergent sprays to keep your rock landscape clean. We treat driveways, walkways, and entire rock yards.",
       },

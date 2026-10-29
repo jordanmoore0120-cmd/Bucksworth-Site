@@ -1,5 +1,6 @@
 "use client";
 
+import "@/styles/instant-estimator.css";
 import { useState, useRef, useEffect, useCallback } from "react";
 
 /* ═══════════════════════════════════════════════════════════════
@@ -189,7 +190,7 @@ const QUESTIONS: Record<ServiceKey, Question[]> = {
       type: "single",
       options: [
         { label: "Weed Control", value: "weed", icon: "🌿" },
-        { label: "Full Lawn Care", value: "lawn", icon: "🏡" },
+        { label: "Lawn Fertilization & Weed Control", value: "lawn", icon: "🏡" },
         { label: "Weed + Lawn Combo", value: "combo", icon: "✨" },
       ],
     },
