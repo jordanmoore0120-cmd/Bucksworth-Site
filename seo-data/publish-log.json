@@ -286,5 +286,18 @@
  "money_page_linked": "/mesa-az/pest-and-termite/scorpion-control",
  "serp_type": "informational how-it-works (queue data generated 10-25; live SERP/DataForSEO not pulled this run, no Zapier)",
  "gate": "topic-check pass for \"how do scorpions breed\"; no breed/mating/reproduce title in index.json or publish-log; rank1 and rank3 fail topic-check, rank2 skipped (prior overlap with Mesa ant posts), rank4 low volume (50); striking-distance page linked: /mesa-az/pest-and-termite"
-}
+},
+ {
+  "date": "2026-10-30",
+  "slug": "can-you-die-from-a-scorpion-sting-what-tempe-homeowners-should-know-about-bark-scorpion-stings",
+  "city": "tempe-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "scorpion-control",
+  "target_question": "can you die from a scorpion sting",
+  "az_volume": 210,
+  "queue_rank": 9,
+  "money_page_linked": "/tempe-az/pest-and-termite/scorpion-control",
+  "serp_type": "informational health/safety question (queue data generated 10-25; live SERP/DataForSEO not pulled this run, Zapier not used)",
+  "gate": "topic-check pass for 'can you die from a scorpion sting'; rank1 fails topic-check (existing termite posts), rank2 skipped (ant overlap), rank3 fails (roof rat posts), rank4 low volume (50), rank5 and rank6 already published, rank7 'how many legs do scorpions have' skipped as near-variant of the QC arachnid post, rank8 fails (pack rat post); Avondale 'what does a scorpion sting look like' is different intent (appearance) and is linked; striking-distance pages linked: /mesa-az/pest-and-termite, /chandler-az/pest-and-termite/scorpion-control, /tempe-az/pest-and-termite"
+ }
 ]
