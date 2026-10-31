@@ -299,5 +299,18 @@
   "money_page_linked": "/tempe-az/pest-and-termite/scorpion-control",
   "serp_type": "informational health/safety question (queue data generated 10-25; live SERP/DataForSEO not pulled this run, Zapier not used)",
   "gate": "topic-check pass for 'can you die from a scorpion sting'; rank1 fails topic-check (existing termite posts), rank2 skipped (ant overlap), rank3 fails (roof rat posts), rank4 low volume (50), rank5 and rank6 already published, rank7 'how many legs do scorpions have' skipped as near-variant of the QC arachnid post, rank8 fails (pack rat post); Avondale 'what does a scorpion sting look like' is different intent (appearance) and is linked; striking-distance pages linked: /mesa-az/pest-and-termite, /chandler-az/pest-and-termite/scorpion-control, /tempe-az/pest-and-termite"
- }
+ },
+{
+ "date": "2026-10-31",
+ "slug": "how-to-repel-sugar-ants-what-scottsdale-homeowners-should-know-about-sugar-ant-trails-and-kitchen-invaders",
+ "city": "scottsdale-az",
+ "vertical": "pest-and-termite",
+ "sub_service": "ant-control",
+ "target_question": "how to repel sugar ants",
+ "az_volume": 170,
+ "queue_rank": 11,
+ "money_page_linked": "/scottsdale-az/pest-and-termite/ant-control",
+ "serp_type": "informational how-to question (queue data generated 10-25; live SERP/DataForSEO/Zapier not pulled this run)",
+ "gate": "topic-check pass for 'how to repel sugar ants' (no owning URL); ranks 1-4, 7-9 fail/skip per 10-30 gate or published; rank 10 lawn fertilizer lower volume (50). Existing Scottsdale ant post (Troon North, colony control service) and Glendale 'sugar ants keep coming back after spray' are different intents and are linked. Striking-distance pages linked: /mesa-az/pest-and-termite, /phoenix-az/pest-and-termite"
+}
 ]
