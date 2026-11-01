@@ -1,179 +1,209 @@
 {
- "generated": "2026-10-25T17:47:12.446575+00:00",
+ "generated": "2026-11-01T17:52:35.480143+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-07-25..2026-10-23"
+  "gsc": "Search Console query+page 2026-08-01..2026-10-30"
  },
  "note": "money/city pages ranking 8-25 in GSC: new posts should link UP to these with descriptive anchors",
  "striking_distance_pages": [
   {
    "page": "/phoenix-az/pest-and-termite",
-   "impressions": 719004,
-   "clicks": 13,
-   "position": 15.8
+   "impressions": 802580,
+   "clicks": 14,
+   "position": 15.4
   },
   {
    "page": "/mesa-az/pest-and-termite",
-   "impressions": 256365,
+   "impressions": 256040,
    "clicks": 9,
-   "position": 8.6
+   "position": 8.5
   },
   {
    "page": "/florence-az/pest-and-termite",
-   "impressions": 86161,
+   "impressions": 95294,
    "clicks": 0,
-   "position": 9.5
+   "position": 10.4
   },
   {
    "page": "/phoenix-az/plumbing-and-water-heaters/drain-cleaning",
-   "impressions": 30886,
+   "impressions": 29977,
    "clicks": 2,
-   "position": 20.5
+   "position": 20.2
   },
   {
    "page": "/mesa-az/plumbing-and-water-heaters",
-   "impressions": 11463,
+   "impressions": 12208,
    "clicks": 3,
-   "position": 24.8
+   "position": 24.3
   },
   {
    "page": "/tucson-az/pest-and-termite",
-   "impressions": 6993,
-   "clicks": 8,
-   "position": 24.7
+   "impressions": 6762,
+   "clicks": 9,
+   "position": 24.2
   },
   {
    "page": "/gilbert-az/plumbing-and-water-heaters/water-heater-repair",
-   "impressions": 5115,
+   "impressions": 4486,
    "clicks": 0,
-   "position": 19.8
-  },
-  {
-   "page": "https://getyourbucksworth.com/ac-repair-in-gilbert-az-expert-help-for-your-hvac-system/",
-   "impressions": 4814,
-   "clicks": 0,
-   "position": 12.2
+   "position": 19.5
   },
   {
    "page": "/marana-az/pest-and-termite",
-   "impressions": 4517,
+   "impressions": 4194,
    "clicks": 0,
-   "position": 15.9
+   "position": 15.6
   },
   {
    "page": "/apache-junction-az/plumbing-and-water-heaters",
-   "impressions": 4056,
+   "impressions": 4189,
    "clicks": 1,
    "position": 15.0
   },
   {
-   "page": "/sahuarita-az",
-   "impressions": 3933,
-   "clicks": 7,
-   "position": 13.4
-  },
-  {
    "page": "/chandler-az/pest-and-termite",
-   "impressions": 3810,
+   "impressions": 4188,
    "clicks": 2,
-   "position": 23.6
+   "position": 23.5
   },
   {
    "page": "/chandler-az/plumbing-and-water-heaters",
-   "impressions": 3649,
+   "impressions": 4098,
    "clicks": 1,
    "position": 20.6
   },
   {
+   "page": "https://getyourbucksworth.com/ac-repair-in-gilbert-az-expert-help-for-your-hvac-system/",
+   "impressions": 3911,
+   "clicks": 0,
+   "position": 12.3
+  },
+  {
+   "page": "/sahuarita-az",
+   "impressions": 3732,
+   "clicks": 7,
+   "position": 13.2
+  },
+  {
    "page": "/vail-az",
-   "impressions": 3620,
-   "clicks": 3,
+   "impressions": 3523,
+   "clicks": 2,
    "position": 23.4
   },
   {
    "page": "/green-valley-az",
-   "impressions": 3544,
-   "clicks": 8,
-   "position": 17.2
+   "impressions": 3500,
+   "clicks": 9,
+   "position": 16.7
   },
   {
-   "page": "/mesa-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 3523,
+   "page": "/peoria-az/plumbing-and-water-heaters",
+   "impressions": 3404,
    "clicks": 0,
-   "position": 24.4
+   "position": 15.1
   },
   {
-   "page": "/paradise-valley-az/pest-and-termite",
-   "impressions": 3092,
-   "clicks": 0,
-   "position": 15.5
+   "page": "/scottsdale-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 3258,
+   "clicks": 1,
+   "position": 20.3
   },
   {
    "page": "/fountain-hills-az/air-conditioning-and-heating/ac-repair",
-   "impressions": 3083,
+   "impressions": 3257,
    "clicks": 0,
    "position": 23.4
   },
   {
-   "page": "/san-tan-valley-az",
-   "impressions": 3080,
-   "clicks": 13,
-   "position": 17.1
-  },
-  {
-   "page": "/scottsdale-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 3051,
-   "clicks": 1,
-   "position": 20.1
-  },
-  {
    "page": "/scottsdale-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 2824,
+   "impressions": 3128,
    "clicks": 1,
-   "position": 16.4
+   "position": 17.0
+  },
+  {
+   "page": "/mesa-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 3088,
+   "clicks": 0,
+   "position": 24.8
+  },
+  {
+   "page": "/san-tan-valley-az",
+   "impressions": 3060,
+   "clicks": 13,
+   "position": 17.0
+  },
+  {
+   "page": "/tempe-az/plumbing-and-water-heaters/water-heater-repair",
+   "impressions": 2995,
+   "clicks": 0,
+   "position": 21.3
+  },
+  {
+   "page": "/paradise-valley-az/pest-and-termite",
+   "impressions": 2870,
+   "clicks": 0,
+   "position": 15.4
+  },
+  {
+   "page": "/maricopa-az/pest-and-termite",
+   "impressions": 2764,
+   "clicks": 0,
+   "position": 20.3
+  },
+  {
+   "page": "/tempe-az/air-conditioning-and-heating",
+   "impressions": 2633,
+   "clicks": 0,
+   "position": 19.6
+  },
+  {
+   "page": "/queen-creek-az/plumbing-and-water-heaters",
+   "impressions": 2446,
+   "clicks": 0,
+   "position": 21.4
   },
   {
    "page": "/green-valley-az/pest-and-termite",
-   "impressions": 2414,
+   "impressions": 2297,
    "clicks": 0,
    "position": 17.3
   },
   {
    "page": "/apache-junction-az/pest-and-termite",
-   "impressions": 2342,
+   "impressions": 2234,
    "clicks": 3,
-   "position": 21.7
+   "position": 20.7
   },
   {
-   "page": "/scottsdale-az/pest-and-termite/scorpion-control",
-   "impressions": 2206,
-   "clicks": 3,
-   "position": 23.5
+   "page": "/peoria-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 2174,
+   "clicks": 0,
+   "position": 10.4
   },
   {
    "page": "/tempe-az/plumbing-and-water-heaters",
-   "impressions": 2132,
+   "impressions": 2133,
    "clicks": 1,
    "position": 21.4
   },
   {
-   "page": "/apache-junction-az",
-   "impressions": 2126,
+   "page": "/mesa-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions": 2132,
+   "clicks": 0,
+   "position": 20.7
+  },
+  {
+   "page": "/scottsdale-az/pest-and-termite/scorpion-control",
+   "impressions": 2129,
    "clicks": 3,
-   "position": 11.1
+   "position": 23.0
   },
   {
-   "page": "/buckeye-az/plumbing-and-water-heaters/water-heater-repair",
-   "impressions": 2090,
-   "clicks": 0,
-   "position": 10.7
-  },
-  {
-   "page": "/maricopa-az/pest-and-termite",
-   "impressions": 2083,
-   "clicks": 0,
-   "position": 18.5
+   "page": "/apache-junction-az",
+   "impressions": 2091,
+   "clicks": 2,
+   "position": 11.2
   },
   {
    "page": "/el-mirage-az",
@@ -182,46 +212,40 @@
    "position": 13.7
   },
   {
-   "page": "/marana-az",
-   "impressions": 1976,
-   "clicks": 2,
-   "position": 22.1
+   "page": "/phoenix-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 1989,
+   "clicks": 0,
+   "position": 24.8
   },
   {
-   "page": "/fountain-hills-az/air-conditioning-and-heating/ac-installation",
-   "impressions": 1915,
+   "page": "/marana-az",
+   "impressions": 1914,
+   "clicks": 2,
+   "position": 21.0
+  },
+  {
+   "page": "/buckeye-az/plumbing-and-water-heaters/water-heater-repair",
+   "impressions": 1901,
    "clicks": 0,
-   "position": 24.2
+   "position": 10.8
+  },
+  {
+   "page": "/tucson-az/pest-and-termite/scorpion-control",
+   "impressions": 1832,
+   "clicks": 7,
+   "position": 19.4
   },
   {
    "page": "/termite-warranty",
-   "impressions": 1911,
-   "clicks": 24,
-   "position": 16.0
-  },
-  {
-   "page": "/mesa-az/plumbing-and-water-heaters/drain-cleaning",
-   "impressions": 1898,
-   "clicks": 0,
-   "position": 20.5
-  },
-  {
-   "page": "/gilbert-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 1772,
-   "clicks": 0,
-   "position": 15.7
+   "impressions": 1790,
+   "clicks": 22,
+   "position": 16.1
   },
   {
    "page": "/tucson-az/pest-and-termite/rodent-exclusion",
-   "impressions": 1718,
+   "impressions": 1756,
    "clicks": 4,
-   "position": 24.6
-  },
-  {
-   "page": "/gold-canyon-az",
-   "impressions": 1718,
-   "clicks": 1,
-   "position": 17.7
+   "position": 24.0
   },
   {
    "page": "/anthem-az/plumbing-and-water-heaters",
@@ -230,28 +254,10 @@
    "position": 15.3
   },
   {
-   "page": "/tucson-az/pest-and-termite/scorpion-control",
-   "impressions": 1692,
-   "clicks": 7,
-   "position": 19.6
-  },
-  {
-   "page": "/gilbert-az/pest-and-termite/scorpion-control",
-   "impressions": 1683,
-   "clicks": 7,
-   "position": 17.7
-  },
-  {
-   "page": "/peoria-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 1641,
-   "clicks": 2,
-   "position": 17.0
-  },
-  {
-   "page": "/buckeye-az/air-conditioning-and-heating",
-   "impressions": 1633,
-   "clicks": 1,
-   "position": 24.1
+   "page": "/scottsdale-az/air-conditioning-and-heating/ac-installation",
+   "impressions": 1640,
+   "clicks": 0,
+   "position": 24.2
   },
   {
    "page": "/ahwatukee-az/air-conditioning-and-heating",
@@ -260,268 +266,388 @@
    "position": 16.4
   },
   {
-   "page": "/mesa-az/pest-and-termite/scorpion-control",
-   "impressions": 1467,
-   "clicks": 1,
-   "position": 19.4
+   "page": "/gilbert-az/pest-and-termite/scorpion-control",
+   "impressions": 1600,
+   "clicks": 6,
+   "position": 17.7
   },
   {
-   "page": "/surprise-az",
-   "impressions": 1438,
+   "page": "/gold-canyon-az",
+   "impressions": 1585,
+   "clicks": 1,
+   "position": 17.5
+  },
+  {
+   "page": "/fountain-hills-az/air-conditioning-and-heating/ac-installation",
+   "impressions": 1567,
+   "clicks": 0,
+   "position": 24.2
+  },
+  {
+   "page": "/coolidge-az/air-conditioning-and-heating/ac-repair",
+   "impressions": 1562,
    "clicks": 2,
-   "position": 23.1
+   "position": 15.9
+  },
+  {
+   "page": "/peoria-az/plumbing-and-water-heaters/water-softener",
+   "impressions": 1541,
+   "clicks": 2,
+   "position": 17.1
+  },
+  {
+   "page": "/mesa-az/pest-and-termite/scorpion-control",
+   "impressions": 1523,
+   "clicks": 2,
+   "position": 20.2
+  },
+  {
+   "page": "/gilbert-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 1466,
+   "clicks": 0,
+   "position": 15.4
+  },
+  {
+   "page": "/buckeye-az/air-conditioning-and-heating",
+   "impressions": 1448,
+   "clicks": 1,
+   "position": 23.9
   },
   {
    "page": "/buckeye-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 1436,
+   "impressions": 1435,
    "clicks": 2,
-   "position": 11.3
+   "position": 11.4
+  },
+  {
+   "page": "/sahuarita-az/weed-and-lawn-care",
+   "impressions": 1424,
+   "clicks": 10,
+   "position": 14.2
   },
   {
    "page": "/goodyear-az/pest-and-termite",
-   "impressions": 1386,
+   "impressions": 1387,
    "clicks": 0,
    "position": 13.1
   },
   {
-   "page": "/scottsdale-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 1295,
+   "page": "/surprise-az",
+   "impressions": 1385,
    "clicks": 1,
-   "position": 14.8
+   "position": 22.8
   },
   {
-   "page": "/mesa-az/weed-and-lawn-care",
-   "impressions": 1291,
-   "clicks": 3,
-   "position": 17.2
-  },
-  {
-   "page": "/mesa-az/pest-and-termite/mosquito-control",
-   "impressions": 1291,
+   "page": "/scottsdale-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions": 1370,
    "clicks": 0,
-   "position": 21.4
+   "position": 19.2
+  },
+  {
+   "page": "/tucson-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 1326,
+   "clicks": 1,
+   "position": 18.6
   },
   {
    "page": "/goodyear-az/plumbing-and-water-heaters",
-   "impressions": 1278,
+   "impressions": 1301,
    "clicks": 0,
    "position": 20.7
   },
   {
    "page": "/chandler-az/pest-and-termite/scorpion-control",
-   "impressions": 1265,
+   "impressions": 1267,
    "clicks": 0,
-   "position": 18.3
+   "position": 18.5
   },
   {
-   "page": "/sahuarita-az/weed-and-lawn-care",
-   "impressions": 1236,
-   "clicks": 10,
-   "position": 12.2
-  },
-  {
-   "page": "/casa-grande-az",
-   "impressions": 1091,
-   "clicks": 1,
-   "position": 20.1
-  },
-  {
-   "page": "/buckeye-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 1079,
-   "clicks": 1,
-   "position": 18.4
-  },
-  {
-   "page": "/anthem-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 1065,
+   "page": "/coolidge-az",
+   "impressions": 1235,
    "clicks": 0,
-   "position": 13.5
+   "position": 24.1
+  },
+  {
+   "page": "/tempe-az/pest-and-termite/bed-bug-treatment",
+   "impressions": 1226,
+   "clicks": 0,
+   "position": 10.0
+  },
+  {
+   "page": "/peoria-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 1225,
+   "clicks": 0,
+   "position": 11.3
+  },
+  {
+   "page": "/scottsdale-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 1215,
+   "clicks": 1,
+   "position": 15.0
+  },
+  {
+   "page": "/mesa-az/pest-and-termite/mosquito-control",
+   "impressions": 1208,
+   "clicks": 0,
+   "position": 21.0
+  },
+  {
+   "page": "/mesa-az/weed-and-lawn-care",
+   "impressions": 1178,
+   "clicks": 4,
+   "position": 15.6
   },
   {
    "page": "/tempe-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 1052,
-   "clicks": 1,
+   "impressions": 1160,
+   "clicks": 2,
    "position": 13.1
   },
   {
-   "page": "/gilbert-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 1041,
+   "page": "/phoenix-az/pest-and-termite/spider-prevention",
+   "impressions": 1078,
    "clicks": 0,
-   "position": 14.6
-  },
-  {
-   "page": "/scottsdale-az/air-conditioning-and-heating/mini-split-systems",
-   "impressions": 1035,
-   "clicks": 2,
-   "position": 22.1
-  },
-  {
-   "page": "/scottsdale-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 1007,
-   "clicks": 1,
-   "position": 22.9
-  },
-  {
-   "page": "/catalina-foothills-az",
-   "impressions": 996,
-   "clicks": 0,
-   "position": 20.0
-  },
-  {
-   "page": "/buckeye-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 983,
-   "clicks": 2,
-   "position": 10.9
-  },
-  {
-   "page": "/goodyear-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 978,
-   "clicks": 0,
-   "position": 12.4
+   "position": 16.1
   },
   {
    "page": "/maricopa-az/air-conditioning-and-heating/ac-repair",
-   "impressions": 978,
+   "impressions": 1050,
    "clicks": 0,
-   "position": 19.6
+   "position": 19.4
   },
   {
    "page": "/queen-creek-az/pest-and-termite/scorpion-control",
-   "impressions": 977,
+   "impressions": 1015,
    "clicks": 2,
+   "position": 19.0
+  },
+  {
+   "page": "/casa-grande-az",
+   "impressions": 1004,
+   "clicks": 1,
+   "position": 19.0
+  },
+  {
+   "page": "/buckeye-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 982,
+   "clicks": 2,
+   "position": 11.0
+  },
+  {
+   "page": "/buckeye-az/plumbing-and-water-heaters/water-softener",
+   "impressions": 970,
+   "clicks": 0,
    "position": 18.3
   },
   {
-   "page": "/laveen-az/air-conditioning-and-heating/ac-installation",
-   "impressions": 931,
+   "page": "/scottsdale-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 955,
    "clicks": 1,
-   "position": 20.1
+   "position": 24.5
   },
   {
-   "page": "/florence-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 907,
+   "page": "/catalina-foothills-az",
+   "impressions": 943,
    "clicks": 0,
-   "position": 16.4
+   "position": 18.6
   },
   {
-   "page": "/litchfield-park-az",
-   "impressions": 892,
+   "page": "/surprise-az/air-conditioning-and-heating",
+   "impressions": 934,
    "clicks": 0,
-   "position": 20.1
+   "position": 23.0
   },
   {
-   "page": "/coolidge-az/plumbing-and-water-heaters/water-heater-repair",
-   "impressions": 880,
-   "clicks": 0,
-   "position": 14.5
-  },
-  {
-   "page": "/ahwatukee-az",
-   "impressions": 838,
-   "clicks": 0,
-   "position": 19.8
-  },
-  {
-   "page": "/red-rock-az",
-   "impressions": 830,
-   "clicks": 3,
-   "position": 14.4
-  },
-  {
-   "page": "/laveen-az/air-conditioning-and-heating/ac-repair",
-   "impressions": 808,
-   "clicks": 0,
-   "position": 18.4
-  },
-  {
-   "page": "/litchfield-park-az/air-conditioning-and-heating/ac-installation",
-   "impressions": 806,
-   "clicks": 1,
-   "position": 23.5
-  },
-  {
-   "page": "/marana-az/pest-and-termite/scorpion-control",
-   "impressions": 804,
-   "clicks": 5,
-   "position": 22.7
-  },
-  {
-   "page": "/phoenix-az",
-   "impressions": 801,
-   "clicks": 2,
-   "position": 12.5
-  },
-  {
-   "page": "/coolidge-az/plumbing-and-water-heaters",
-   "impressions": 799,
-   "clicks": 0,
-   "position": 15.4
-  },
-  {
-   "page": "/phoenix-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
-   "impressions": 770,
-   "clicks": 4,
-   "position": 22.1
-  },
-  {
-   "page": "/florence-az",
-   "impressions": 770,
-   "clicks": 1,
-   "position": 15.7
-  },
-  {
-   "page": "/maricopa-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 716,
-   "clicks": 0,
-   "position": 24.3
-  },
-  {
-   "page": "/green-valley-az/pest-and-termite/rodent-exclusion",
-   "impressions": 713,
+   "page": "/anthem-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 930,
    "clicks": 0,
    "position": 12.9
   },
   {
-   "page": "/coolidge-az/pest-and-termite/bed-bug-treatment",
-   "impressions": 710,
-   "clicks": 0,
+   "page": "/scottsdale-az/air-conditioning-and-heating/mini-split-systems",
+   "impressions": 918,
+   "clicks": 2,
    "position": 21.8
   },
   {
-   "page": "/maricopa-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 701,
+   "page": "/gilbert-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 894,
    "clicks": 0,
-   "position": 19.2
+   "position": 13.3
   },
   {
-   "page": "/marana-az/weed-and-lawn-care/pre-emergent-weed-control",
-   "impressions": 700,
-   "clicks": 0,
-   "position": 18.1
+   "page": "/casa-grande-az/plumbing-and-water-heaters/gas-line-services",
+   "impressions": 891,
+   "clicks": 1,
+   "position": 23.7
   },
   {
-   "page": "/gilbert-az/pest-and-termite/rodent-exclusion",
-   "impressions": 666,
+   "page": "/litchfield-park-az",
+   "impressions": 888,
    "clicks": 0,
-   "position": 21.2
+   "position": 19.6
+  },
+  {
+   "page": "/peoria-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions": 875,
+   "clicks": 0,
+   "position": 17.7
+  },
+  {
+   "page": "/goodyear-az/plumbing-and-water-heaters/water-softener",
+   "impressions": 867,
+   "clicks": 0,
+   "position": 12.5
+  },
+  {
+   "page": "/marana-az/pest-and-termite/scorpion-control",
+   "impressions": 862,
+   "clicks": 5,
+   "position": 23.4
+  },
+  {
+   "page": "/red-rock-az",
+   "impressions": 855,
+   "clicks": 3,
+   "position": 14.0
+  },
+  {
+   "page": "/laveen-az/air-conditioning-and-heating/ac-installation",
+   "impressions": 854,
+   "clicks": 1,
+   "position": 19.3
+  },
+  {
+   "page": "/coolidge-az/plumbing-and-water-heaters",
+   "impressions": 854,
+   "clicks": 0,
+   "position": 15.0
+  },
+  {
+   "page": "/laveen-az/air-conditioning-and-heating/ac-repair",
+   "impressions": 832,
+   "clicks": 0,
+   "position": 18.9
+  },
+  {
+   "page": "/florence-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 828,
+   "clicks": 0,
+   "position": 16.0
+  },
+  {
+   "page": "/phoenix-az",
+   "impressions": 799,
+   "clicks": 1,
+   "position": 12.5
+  },
+  {
+   "page": "/ahwatukee-az",
+   "impressions": 792,
+   "clicks": 0,
+   "position": 19.5
+  },
+  {
+   "page": "/phoenix-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
+   "impressions": 787,
+   "clicks": 4,
+   "position": 21.5
+  },
+  {
+   "page": "/queen-creek-az/weed-and-lawn-care/weed-and-feed-program",
+   "impressions": 765,
+   "clicks": 0,
+   "position": 16.7
+  },
+  {
+   "page": "/coolidge-az/plumbing-and-water-heaters/water-heater-repair",
+   "impressions": 742,
+   "clicks": 0,
+   "position": 14.8
+  },
+  {
+   "page": "/goodyear-az",
+   "impressions": 738,
+   "clicks": 3,
+   "position": 18.0
+  },
+  {
+   "page": "/florence-az",
+   "impressions": 720,
+   "clicks": 1,
+   "position": 17.4
+  },
+  {
+   "page": "/litchfield-park-az/air-conditioning-and-heating/ac-installation",
+   "impressions": 711,
+   "clicks": 1,
+   "position": 23.2
+  },
+  {
+   "page": "/vail-az/pest-and-termite/termite-treatment",
+   "impressions": 691,
+   "clicks": 0,
+   "position": 18.8
+  },
+  {
+   "page": "/queen-creek-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 679,
+   "clicks": 0,
+   "position": 10.4
+  },
+  {
+   "page": "/queen-creek-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 667,
+   "clicks": 0,
+   "position": 8.2
   },
   {
    "page": "/goodyear-az/plumbing-and-water-heaters/water-heater-repair",
-   "impressions": 655,
+   "impressions": 661,
    "clicks": 0,
    "position": 16.3
   },
   {
    "page": "/ahwatukee-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 654,
+   "impressions": 660,
    "clicks": 1,
    "position": 15.9
   },
   {
-   "page": "/san-tan-valley-az/air-conditioning-and-heating",
-   "impressions": 626,
-   "clicks": 2,
-   "position": 18.2
+   "page": "/marana-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "impressions": 655,
+   "clicks": 0,
+   "position": 18.0
+  },
+  {
+   "page": "/maricopa-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 653,
+   "clicks": 0,
+   "position": 17.6
+  },
+  {
+   "page": "/tempe-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions": 653,
+   "clicks": 0,
+   "position": 13.6
+  },
+  {
+   "page": "/green-valley-az/pest-and-termite/rodent-exclusion",
+   "impressions": 646,
+   "clicks": 0,
+   "position": 13.0
+  },
+  {
+   "page": "/red-rock-az/pest-and-termite",
+   "impressions": 634,
+   "clicks": 1,
+   "position": 24.5
+  },
+  {
+   "page": "/tempe-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 630,
+   "clicks": 0,
+   "position": 13.4
   },
   {
    "page": "/apache-junction-az/air-conditioning-and-heating/ac-installation",
@@ -530,340 +656,418 @@
    "position": 24.0
   },
   {
-   "page": "/casa-grande-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 611,
-   "clicks": 0,
-   "position": 10.8
-  },
-  {
-   "page": "/goodyear-az",
-   "impressions": 606,
-   "clicks": 4,
-   "position": 20.1
-  },
-  {
-   "page": "/casa-grande-az/plumbing-and-water-heaters/gas-line-services",
-   "impressions": 580,
-   "clicks": 0,
-   "position": 20.9
-  },
-  {
-   "page": "https://getyourbucksworth.com/best-air-duct-cleaning-tempe-az-85281-breathe-easier-and-save-energy/",
-   "impressions": 577,
+   "page": "/paradise-valley-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 621,
    "clicks": 0,
    "position": 8.9
   },
   {
-   "page": "/surprise-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 570,
-   "clicks": 1,
-   "position": 10.5
+   "page": "/gilbert-az/pest-and-termite/rodent-exclusion",
+   "impressions": 619,
+   "clicks": 0,
+   "position": 20.6
   },
   {
-   "page": "/ahwatukee-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 569,
+   "page": "/surprise-az/plumbing-and-water-heaters/drain-cleaning",
+   "impressions": 583,
+   "clicks": 0,
+   "position": 14.9
+  },
+  {
+   "page": "/casa-grande-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 575,
+   "clicks": 0,
+   "position": 11.4
+  },
+  {
+   "page": "/scottsdale-az/plumbing-and-water-heaters/water-softener",
+   "impressions": 575,
+   "clicks": 0,
+   "position": 17.4
+  },
+  {
+   "page": "/san-tan-valley-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 571,
+   "clicks": 0,
+   "position": 15.7
+  },
+  {
+   "page": "/coolidge-az/pest-and-termite/bed-bug-treatment",
+   "impressions": 568,
+   "clicks": 0,
+   "position": 22.3
+  },
+  {
+   "page": "/peoria-az/pest-and-termite/scorpion-control",
+   "impressions": 555,
    "clicks": 1,
-   "position": 17.7
+   "position": 8.8
+  },
+  {
+   "page": "/sahuarita-az/pest-and-termite",
+   "impressions": 552,
+   "clicks": 0,
+   "position": 21.8
   },
   {
    "page": "/apache-junction-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 561,
+   "impressions": 545,
    "clicks": 1,
    "position": 15.4
   },
   {
-   "page": "/florence-az/air-conditioning-and-heating/mini-split-systems",
-   "impressions": 547,
-   "clicks": 2,
-   "position": 16.0
+   "page": "/gold-canyon-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 545,
+   "clicks": 0,
+   "position": 13.3
   },
   {
-   "page": "/goodyear-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 547,
+   "page": "/gilbert-az/pest-and-termite/mosquito-control",
+   "impressions": 537,
+   "clicks": 0,
+   "position": 15.4
+  },
+  {
+   "page": "/buckeye-az/air-conditioning-and-heating/spray-foam-insulation",
+   "impressions": 536,
+   "clicks": 3,
+   "position": 9.5
+  },
+  {
+   "page": "/anthem-az",
+   "impressions": 530,
+   "clicks": 0,
+   "position": 21.5
+  },
+  {
+   "page": "/casa-grande-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 528,
+   "clicks": 1,
+   "position": 9.5
+  },
+  {
+   "page": "/goodyear-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 525,
    "clicks": 0,
    "position": 14.1
   },
   {
-   "page": "/anthem-az",
-   "impressions": 544,
-   "clicks": 0,
-   "position": 22.8
-  },
-  {
-   "page": "/mesa-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 536,
+   "page": "/surprise-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 520,
    "clicks": 1,
-   "position": 20.4
+   "position": 10.6
   },
   {
-   "page": "/peoria-az/pest-and-termite/rodent-exclusion",
-   "impressions": 531,
-   "clicks": 1,
-   "position": 18.6
-  },
-  {
-   "page": "/gilbert-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 531,
-   "clicks": 0,
-   "position": 16.1
-  },
-  {
-   "page": "/peoria-az/pest-and-termite/scorpion-control",
-   "impressions": 526,
-   "clicks": 1,
-   "position": 8.3
-  },
-  {
-   "page": "/gilbert-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 524,
-   "clicks": 1,
-   "position": 24.5
-  },
-  {
-   "page": "/mesa-az",
-   "impressions": 517,
-   "clicks": 4,
-   "position": 14.2
-  },
-  {
-   "page": "/gilbert-az",
-   "impressions": 508,
-   "clicks": 3,
-   "position": 12.0
-  },
-  {
-   "page": "/gilbert-az/pest-and-termite/mosquito-control",
-   "impressions": 508,
-   "clicks": 0,
-   "position": 15.1
-  },
-  {
-   "page": "/buckeye-az/air-conditioning-and-heating/spray-foam-insulation",
-   "impressions": 507,
-   "clicks": 0,
-   "position": 9.7
-  },
-  {
-   "page": "/casa-grande-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 500,
-   "clicks": 1,
-   "position": 9.4
-  },
-  {
-   "page": "/queen-creek-az",
-   "impressions": 499,
-   "clicks": 3,
-   "position": 13.5
-  },
-  {
-   "page": "/phoenix-az/air-conditioning-and-heating/smart-thermostat",
-   "impressions": 499,
+   "page": "/florence-az/air-conditioning-and-heating/mini-split-systems",
+   "impressions": 519,
    "clicks": 2,
-   "position": 19.0
-  },
-  {
-   "page": "/buckeye-az/air-conditioning-and-heating/mini-split-systems",
-   "impressions": 492,
-   "clicks": 1,
-   "position": 23.0
-  },
-  {
-   "page": "/apache-junction-az/pest-and-termite/bed-bug-treatment",
-   "impressions": 490,
-   "clicks": 1,
-   "position": 10.2
+   "position": 15.7
   },
   {
    "page": "/anthem-az/pest-and-termite/scorpion-control",
-   "impressions": 489,
+   "impressions": 518,
    "clicks": 0,
-   "position": 17.8
-  },
-  {
-   "page": "/apache-junction-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 487,
-   "clicks": 0,
-   "position": 10.7
-  },
-  {
-   "page": "/buckeye-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 482,
-   "clicks": 0,
-   "position": 15.3
-  },
-  {
-   "page": "/ahwatukee-az/plumbing-and-water-heaters",
-   "impressions": 478,
-   "clicks": 0,
-   "position": 24.7
-  },
-  {
-   "page": "/vail-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 475,
-   "clicks": 1,
-   "position": 15.3
-  },
-  {
-   "page": "/san-tan-valley-az/pest-and-termite/rodent-exclusion",
-   "impressions": 470,
-   "clicks": 2,
-   "position": 20.7
-  },
-  {
-   "page": "/maricopa-az/plumbing-and-water-heaters",
-   "impressions": 467,
-   "clicks": 0,
-   "position": 15.6
-  },
-  {
-   "page": "/goodyear-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 465,
-   "clicks": 0,
-   "position": 13.3
+   "position": 17.9
   },
   {
    "page": "/surprise-az/weed-and-lawn-care",
-   "impressions": 446,
-   "clicks": 4,
-   "position": 12.4
+   "impressions": 516,
+   "clicks": 5,
+   "position": 12.9
   },
   {
-   "page": "/goodyear-az/pest-and-termite/scorpion-control",
-   "impressions": 443,
-   "clicks": 2,
-   "position": 11.1
+   "page": "/gilbert-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 511,
+   "clicks": 0,
+   "position": 15.7
   },
   {
-   "page": "/maricopa-az/plumbing-and-water-heaters/water-heater-repair",
-   "impressions": 440,
+   "page": "/mesa-az/plumbing-and-water-heaters/water-softener",
+   "impressions": 510,
    "clicks": 0,
    "position": 20.1
   },
   {
-   "page": "/mesa-az/air-conditioning-and-heating/attic-insulation",
-   "impressions": 434,
-   "clicks": 0,
-   "position": 15.0
+   "page": "/apache-junction-az/pest-and-termite/bed-bug-treatment",
+   "impressions": 509,
+   "clicks": 1,
+   "position": 10.2
   },
   {
-   "page": "/apache-junction-az/weed-and-lawn-care",
-   "impressions": 428,
+   "page": "/goodyear-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 508,
+   "clicks": 0,
+   "position": 14.1
+  },
+  {
+   "page": "/gilbert-az",
+   "impressions": 502,
    "clicks": 3,
-   "position": 13.3
+   "position": 11.7
   },
   {
-   "page": "/scottsdale-az/air-conditioning-and-heating/smart-thermostat",
-   "impressions": 427,
+   "page": "/ahwatukee-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 501,
    "clicks": 1,
-   "position": 16.3
+   "position": 17.8
   },
   {
-   "page": "/anthem-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 425,
+   "page": "/san-tan-valley-az/air-conditioning-and-heating",
+   "impressions": 499,
+   "clicks": 2,
+   "position": 17.8
+  },
+  {
+   "page": "/tempe-az/air-conditioning-and-heating/indoor-air-quality",
+   "impressions": 499,
    "clicks": 0,
-   "position": 17.3
+   "position": 22.3
   },
   {
-   "page": "/maricopa-az/weed-and-lawn-care",
-   "impressions": 420,
+   "page": "/mesa-az",
+   "impressions": 496,
+   "clicks": 4,
+   "position": 12.9
+  },
+  {
+   "page": "/tucson-az/pest-and-termite/mosquito-control",
+   "impressions": 496,
+   "clicks": 0,
+   "position": 23.3
+  },
+  {
+   "page": "/san-tan-valley-az/pest-and-termite/rodent-exclusion",
+   "impressions": 493,
+   "clicks": 2,
+   "position": 21.1
+  },
+  {
+   "page": "/buckeye-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 484,
+   "clicks": 0,
+   "position": 15.2
+  },
+  {
+   "page": "/queen-creek-az",
+   "impressions": 478,
+   "clicks": 2,
+   "position": 13.5
+  },
+  {
+   "page": "/vail-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 476,
    "clicks": 1,
-   "position": 13.6
+   "position": 14.7
+  },
+  {
+   "page": "/phoenix-az/air-conditioning-and-heating/smart-thermostat",
+   "impressions": 470,
+   "clicks": 2,
+   "position": 18.0
+  },
+  {
+   "page": "/buckeye-az/air-conditioning-and-heating/mini-split-systems",
+   "impressions": 469,
+   "clicks": 1,
+   "position": 23.3
+  },
+  {
+   "page": "/apache-junction-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 465,
+   "clicks": 0,
+   "position": 10.7
+  },
+  {
+   "page": "/san-tan-valley-az/pest-and-termite/scorpion-control",
+   "impressions": 459,
+   "clicks": 0,
+   "position": 20.5
+  },
+  {
+   "page": "/peoria-az/pest-and-termite/rodent-exclusion",
+   "impressions": 451,
+   "clicks": 1,
+   "position": 17.9
+  },
+  {
+   "page": "/buckeye-az/pest-and-termite/termite-treatment",
+   "impressions": 448,
+   "clicks": 0,
+   "position": 17.4
+  },
+  {
+   "page": "/tempe-az/air-conditioning-and-heating/mini-split-systems",
+   "impressions": 447,
+   "clicks": 0,
+   "position": 22.2
+  },
+  {
+   "page": "/mesa-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 444,
+   "clicks": 0,
+   "position": 17.2
+  },
+  {
+   "page": "/buckeye-az/pest-and-termite/rodent-exclusion",
+   "impressions": 442,
+   "clicks": 4,
+   "position": 23.4
   },
   {
    "page": "/tempe-az/weed-and-lawn-care",
-   "impressions": 419,
+   "impressions": 440,
    "clicks": 3,
    "position": 13.2
   },
   {
-   "page": "/surprise-az/plumbing-and-water-heaters/gas-line-services",
-   "impressions": 418,
-   "clicks": 2,
-   "position": 9.8
+   "page": "/mesa-az/air-conditioning-and-heating/attic-insulation",
+   "impressions": 435,
+   "clicks": 0,
+   "position": 14.9
   },
   {
-   "page": "/coolidge-az/air-conditioning-and-heating",
-   "impressions": 418,
+   "page": "/peoria-az/plumbing-and-water-heaters/water-heater-installation",
+   "impressions": 434,
    "clicks": 0,
-   "position": 22.7
+   "position": 19.5
   },
   {
    "page": "/phoenix-az/weed-and-lawn-care/overseeding",
-   "impressions": 415,
+   "impressions": 432,
    "clicks": 5,
    "position": 12.6
   },
   {
-   "page": "/buckeye-az/pest-and-termite/rodent-exclusion",
-   "impressions": 413,
-   "clicks": 4,
-   "position": 22.8
+   "page": "/goodyear-az/pest-and-termite/scorpion-control",
+   "impressions": 428,
+   "clicks": 1,
+   "position": 11.5
   },
   {
-   "page": "/buckeye-az/weed-and-lawn-care/lawn-fertilization",
-   "impressions": 411,
-   "clicks": 2,
-   "position": 19.2
-  },
-  {
-   "page": "/gold-canyon-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 411,
+   "page": "/sahuarita-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 428,
    "clicks": 0,
-   "position": 13.1
+   "position": 19.9
   },
   {
-   "page": "/mesa-az/plumbing-and-water-heaters/gas-line-services",
-   "impressions": 408,
+   "page": "/scottsdale-az/plumbing-and-water-heaters/gas-line-services",
+   "impressions": 427,
    "clicks": 0,
    "position": 21.9
   },
   {
-   "page": "https://getyourbucksworth.com/oro-valley-az/",
-   "impressions": 404,
+   "page": "/goodyear-az/weed-and-lawn-care",
+   "impressions": 423,
    "clicks": 3,
-   "position": 24.4
+   "position": 19.1
   },
   {
-   "page": "/buckeye-az/pest-and-termite/termite-treatment",
-   "impressions": 402,
+   "page": "/maricopa-az/weed-and-lawn-care",
+   "impressions": 423,
+   "clicks": 1,
+   "position": 13.6
+  },
+  {
+   "page": "/gilbert-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 416,
+   "clicks": 1,
+   "position": 21.1
+  },
+  {
+   "page": "/green-valley-az/pest-and-termite/scorpion-control",
+   "impressions": 415,
+   "clicks": 1,
+   "position": 20
+  },
+  {
+   "page": "/mesa-az/pest-and-termite/ant-control",
+   "impressions": 415,
    "clicks": 0,
-   "position": 17.9
+   "position": 19.3
   },
   {
-   "page": "/tempe-az",
-   "impressions": 401,
+   "page": "/gold-canyon-az/air-conditioning-and-heating/ac-maintenance",
+   "impressions": 411,
+   "clicks": 0,
+   "position": 16.8
+  },
+  {
+   "page": "/scottsdale-az/air-conditioning-and-heating/smart-thermostat",
+   "impressions": 409,
+   "clicks": 1,
+   "position": 16.3
+  },
+  {
+   "page": "/buckeye-az/weed-and-lawn-care/lawn-fertilization",
+   "impressions": 406,
+   "clicks": 2,
+   "position": 17.7
+  },
+  {
+   "page": "/apache-junction-az/weed-and-lawn-care",
+   "impressions": 405,
    "clicks": 3,
-   "position": 19.0
+   "position": 12.7
+  },
+  {
+   "page": "/paradise-valley-az/plumbing-and-water-heaters/sewer-line-services",
+   "impressions": 397,
+   "clicks": 0,
+   "position": 12.5
   },
   {
    "page": "/anthem-az/plumbing-and-water-heaters/drain-cleaning",
-   "impressions": 393,
+   "impressions": 394,
    "clicks": 0,
    "position": 11.9
   },
   {
-   "page": "https://getyourbucksworth.com/scottsdale-az/pest-and-termite/bed-bug-treatment",
-   "impressions": 385,
+   "page": "/anthem-az/plumbing-and-water-heaters/leak-detection-repair",
+   "impressions": 389,
    "clicks": 0,
-   "position": 10.9
+   "position": 17.5
   },
   {
-   "page": "/green-valley-az/pest-and-termite/scorpion-control",
-   "impressions": 383,
-   "clicks": 1,
+   "page": "/sahuarita-az/pest-and-termite/scorpion-control",
+   "impressions": 388,
+   "clicks": 0,
    "position": 20.3
   },
   {
-   "page": "/mesa-az/pest-and-termite/ant-control",
-   "impressions": 383,
+   "page": "/san-tan-valley-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 382,
+   "clicks": 0,
+   "position": 18.5
+  },
+  {
+   "page": "/surprise-az/plumbing-and-water-heaters/gas-line-services",
+   "impressions": 380,
+   "clicks": 2,
+   "position": 9.7
+  },
+  {
+   "page": "/tucson-az/weed-and-lawn-care",
+   "impressions": 380,
+   "clicks": 0,
+   "position": 14.9
+  },
+  {
+   "page": "/queen-creek-az/pest-and-termite/bee-wasp-removal",
+   "impressions": 376,
    "clicks": 0,
    "position": 18.0
   },
   {
-   "page": "/anthem-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 378,
+   "page": "/maricopa-az/plumbing-and-water-heaters/water-heater-repair",
+   "impressions": 375,
    "clicks": 0,
-   "position": 17.9
+   "position": 17.7
+  },
+  {
+   "page": "/coolidge-az/weed-and-lawn-care",
+   "impressions": 373,
+   "clicks": 2,
+   "position": 14.4
   },
   {
    "page": "/maricopa-az/plumbing-and-water-heaters/drain-cleaning",
@@ -872,58 +1076,106 @@
    "position": 10.7
   },
   {
-   "page": "/coolidge-az/weed-and-lawn-care",
-   "impressions": 368,
-   "clicks": 3,
-   "position": 15.2
+   "page": "/sahuarita-az/pest-and-termite/rodent-exclusion",
+   "impressions": 371,
+   "clicks": 1,
+   "position": 23.1
   },
   {
-   "page": "/gilbert-az/air-conditioning-and-heating/spray-foam-insulation",
-   "impressions": 363,
+   "page": "/casa-grande-az/pest-and-termite/termite-treatment",
+   "impressions": 370,
    "clicks": 0,
-   "position": 24.0
-  },
-  {
-   "page": "/catalina-foothills-az/pest-and-termite",
-   "impressions": 355,
-   "clicks": 0,
-   "position": 20.2
-  },
-  {
-   "page": "/coolidge-az/air-conditioning-and-heating/ac-installation",
-   "impressions": 355,
-   "clicks": 0,
-   "position": 24.6
+   "position": 23.4
   },
   {
    "page": "/buckeye-az/pest-and-termite/scorpion-control",
-   "impressions": 348,
+   "impressions": 368,
    "clicks": 3,
-   "position": 18.2
+   "position": 20.5
   },
   {
    "page": "/gold-canyon-az/pest-and-termite",
-   "impressions": 347,
+   "impressions": 367,
    "clicks": 2,
    "position": 21.7
   },
   {
-   "page": "https://getyourbucksworth.com/queen-creek-az/weed-and-lawn-care",
-   "impressions": 346,
+   "page": "/catalina-foothills-az/pest-and-termite",
+   "impressions": 366,
+   "clicks": 0,
+   "position": 20.3
+  },
+  {
+   "page": "https://getyourbucksworth.com/best-air-duct-cleaning-tempe-az-85281-breathe-easier-and-save-energy/",
+   "impressions": 365,
+   "clicks": 0,
+   "position": 8.8
+  },
+  {
+   "page": "/tempe-az",
+   "impressions": 362,
+   "clicks": 3,
+   "position": 15.8
+  },
+  {
+   "page": "/chandler-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 360,
+   "clicks": 1,
+   "position": 20.3
+  },
+  {
+   "page": "/marana-az/pest-and-termite/mosquito-control",
+   "impressions": 357,
+   "clicks": 0,
+   "position": 16.9
+  },
+  {
+   "page": "/coolidge-az/air-conditioning-and-heating/ac-installation",
+   "impressions": 356,
+   "clicks": 0,
+   "position": 24.5
+  },
+  {
+   "page": "/youngtown-az",
+   "impressions": 356,
+   "clicks": 0,
+   "position": 21.0
+  },
+  {
+   "page": "/maricopa-az/plumbing-and-water-heaters",
+   "impressions": 355,
    "clicks": 0,
    "position": 15.1
   },
   {
-   "page": "/ahwatukee-az/plumbing-and-water-heaters/drain-cleaning",
-   "impressions": 341,
+   "page": "/anthem-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 353,
    "clicks": 0,
-   "position": 19.7
+   "position": 16.9
   },
   {
-   "page": "/chandler-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 340,
-   "clicks": 1,
-   "position": 20.9
+   "page": "/paradise-valley-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 346,
+   "clicks": 0,
+   "position": 14.7
+  },
+  {
+   "page": "/san-tan-valley-az/plumbing-and-water-heaters",
+   "impressions": 345,
+   "clicks": 0,
+   "position": 15.7
+  },
+  {
+   "page": "/tucson-az/pest-and-termite/spider-prevention",
+   "impressions": 345,
+   "clicks": 0,
+   "position": 13.9
+  },
+  {
+   "page": "/tempe-az/plumbing-and-water-heaters/water-softener",
+   "impressions": 343,
+   "clicks": 0,
+   "position": 13.5
   },
   {
    "page": "/florence-az/plumbing-and-water-heaters/water-heater-repair",
@@ -932,280 +1184,28 @@
    "position": 19.1
   },
   {
-   "page": "/mesa-az/plumbing-and-water-heaters/leak-detection-repair",
-   "impressions": 338,
-   "clicks": 0,
-   "position": 17.7
-  },
-  {
-   "page": "/casa-grande-az/pest-and-termite/termite-treatment",
-   "impressions": 337,
-   "clicks": 0,
-   "position": 24.6
-  },
-  {
    "page": "/litchfield-park-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 336,
+   "impressions": 339,
    "clicks": 0,
-   "position": 12.2
+   "position": 12.3
+  },
+  {
+   "page": "/litchfield-park-az/plumbing-and-water-heaters/re-piping",
+   "impressions": 337,
+   "clicks": 1,
+   "position": 22.5
+  },
+  {
+   "page": "/peoria-az",
+   "impressions": 335,
+   "clicks": 0,
+   "position": 19.7
   },
   {
    "page": "/apache-junction-az/air-conditioning-and-heating",
    "impressions": 334,
    "clicks": 0,
    "position": 19.1
-  },
-  {
-   "page": "/goodyear-az/air-conditioning-and-heating/spray-foam-insulation",
-   "impressions": 331,
-   "clicks": 1,
-   "position": 18.3
-  },
-  {
-   "page": "/sahuarita-az/pest-and-termite/rodent-exclusion",
-   "impressions": 330,
-   "clicks": 1,
-   "position": 22.5
-  },
-  {
-   "page": "/casa-grande-az/pest-and-termite/bee-wasp-removal",
-   "impressions": 314,
-   "clicks": 1,
-   "position": 15.5
-  },
-  {
-   "page": "/catalina-foothills-az/pest-and-termite/termite-treatment",
-   "impressions": 309,
-   "clicks": 0,
-   "position": 12.8
-  },
-  {
-   "page": "/casa-grande-az/air-conditioning-and-heating/ac-installation",
-   "impressions": 308,
-   "clicks": 1,
-   "position": 20.6
-  },
-  {
-   "page": "/buckeye-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 306,
-   "clicks": 1,
-   "position": 16.9
-  },
-  {
-   "page": "/gilbert-az/plumbing-and-water-heaters/gas-line-services",
-   "impressions": 305,
-   "clicks": 0,
-   "position": 15.8
-  },
-  {
-   "page": "/litchfield-park-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 302,
-   "clicks": 1,
-   "position": 24.1
-  },
-  {
-   "page": "/apache-junction-az/pest-and-termite/scorpion-control",
-   "impressions": 301,
-   "clicks": 0,
-   "position": 20.0
-  },
-  {
-   "page": "/catalina-foothills-az/pest-and-termite/bed-bug-treatment",
-   "impressions": 300,
-   "clicks": 0,
-   "position": 13.3
-  },
-  {
-   "page": "/gold-canyon-az/air-conditioning-and-heating/ac-maintenance",
-   "impressions": 300,
-   "clicks": 0,
-   "position": 16.9
-  },
-  {
-   "page": "/casa-grande-az/air-conditioning-and-heating/attic-insulation",
-   "impressions": 298,
-   "clicks": 2,
-   "position": 11.4
-  },
-  {
-   "page": "/green-valley-az/weed-and-lawn-care/pre-emergent-weed-control",
-   "impressions": 298,
-   "clicks": 1,
-   "position": 17.3
-  },
-  {
-   "page": "/ahwatukee-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 288,
-   "clicks": 0,
-   "position": 11.3
-  },
-  {
-   "page": "/apache-junction-az/air-conditioning-and-heating/mini-split-systems",
-   "impressions": 283,
-   "clicks": 0,
-   "position": 13.1
-  },
-  {
-   "page": "/catalina-foothills-az/pest-and-termite/scorpion-control",
-   "impressions": 282,
-   "clicks": 2,
-   "position": 13.4
-  },
-  {
-   "page": "/peoria-az/pest-and-termite/ant-control",
-   "impressions": 281,
-   "clicks": 1,
-   "position": 19.4
-  },
-  {
-   "page": "/coolidge-az/plumbing-and-water-heaters/water-heater-installation",
-   "impressions": 281,
-   "clicks": 0,
-   "position": 14.5
-  },
-  {
-   "page": "/anthem-az/plumbing-and-water-heaters/gas-line-services",
-   "impressions": 280,
-   "clicks": 3,
-   "position": 14.4
-  },
-  {
-   "page": "/gold-canyon-az/air-conditioning-and-heating/spray-foam-insulation",
-   "impressions": 272,
-   "clicks": 0,
-   "position": 10.2
-  },
-  {
-   "page": "/maricopa-az/plumbing-and-water-heaters/sewer-line-services",
-   "impressions": 266,
-   "clicks": 0,
-   "position": 8.9
-  },
-  {
-   "page": "/marana-az/pest-and-termite/ant-control",
-   "impressions": 262,
-   "clicks": 0,
-   "position": 13.5
-  },
-  {
-   "page": "/laveen-az/plumbing-and-water-heaters",
-   "impressions": 261,
-   "clicks": 0,
-   "position": 18.0
-  },
-  {
-   "page": "/avondale-az/plumbing-and-water-heaters/water-heater-repair",
-   "impressions": 254,
-   "clicks": 0,
-   "position": 13.2
-  },
-  {
-   "page": "/marana-az/pest-and-termite/mosquito-control",
-   "impressions": 248,
-   "clicks": 0,
-   "position": 17.8
-  },
-  {
-   "page": "/oro-valley-az/pest-and-termite/scorpion-control",
-   "impressions": 246,
-   "clicks": 4,
-   "position": 19.9
-  },
-  {
-   "page": "/el-mirage-az/pest-and-termite/rodent-exclusion",
-   "impressions": 243,
-   "clicks": 0,
-   "position": 22.9
-  },
-  {
-   "page": "/goodyear-az/weed-and-lawn-care",
-   "impressions": 242,
-   "clicks": 2,
-   "position": 12.3
-  },
-  {
-   "page": "/chandler-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
-   "impressions": 241,
-   "clicks": 1,
-   "position": 19.7
-  },
-  {
-   "page": "/maricopa-az/air-conditioning-and-heating/attic-insulation",
-   "impressions": 239,
-   "clicks": 1,
-   "position": 16.3
-  },
-  {
-   "page": "/tempe-az/air-conditioning-and-heating/attic-insulation",
-   "impressions": 239,
-   "clicks": 1,
-   "position": 20.1
-  },
-  {
-   "page": "/laveen-az/air-conditioning-and-heating/ac-maintenance",
-   "impressions": 239,
-   "clicks": 0,
-   "position": 16.1
-  },
-  {
-   "page": "/queen-creek-az/pest-and-termite/ant-control",
-   "impressions": 236,
-   "clicks": 1,
-   "position": 10.2
-  },
-  {
-   "page": "/coolidge-az/plumbing-and-water-heaters/re-piping",
-   "impressions": 236,
-   "clicks": 0,
-   "position": 20.2
-  },
-  {
-   "page": "/mesa-az/air-conditioning-and-heating/smart-thermostat",
-   "impressions": 235,
-   "clicks": 1,
-   "position": 17.8
-  },
-  {
-   "page": "/goodyear-az/plumbing-and-water-heaters/gas-line-services",
-   "impressions": 233,
-   "clicks": 0,
-   "position": 14.9
-  },
-  {
-   "page": "/scottsdale-az",
-   "impressions": 231,
-   "clicks": 1,
-   "position": 17.8
-  },
-  {
-   "page": "/litchfield-park-az/plumbing-and-water-heaters/water-softener",
-   "impressions": 227,
-   "clicks": 0,
-   "position": 17.8
-  },
-  {
-   "page": "/mesa-az/weed-and-lawn-care/overseeding",
-   "impressions": 226,
-   "clicks": 5,
-   "position": 14.9
-  },
-  {
-   "page": "/apache-junction-az/pest-and-termite/rodent-exclusion",
-   "impressions": 224,
-   "clicks": 2,
-   "position": 20.6
-  },
-  {
-   "page": "/buckeye-az/plumbing-and-water-heaters/drain-cleaning",
-   "impressions": 224,
-   "clicks": 0,
-   "position": 12.5
-  },
-  {
-   "page": "/maricopa-az/pest-and-termite/termite-treatment",
-   "impressions": 219,
-   "clicks": 0,
-   "position": 22.0
   }
  ]
 }

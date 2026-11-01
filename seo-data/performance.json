@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-25T17:47:12.446575+00:00",
+ "generated": "2026-11-01T17:52:35.480143+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-07-25..2026-10-23"
+  "gsc": "Search Console query+page 2026-08-01..2026-10-30"
  },
  "note": "GSC 90d results for posts in publish-log.json",
  "posts": [
@@ -104,9 +104,9 @@
    "money_page_linked": "/chandler-az/pest-and-termite/bee-wasp-removal",
    "serp_type": "informational how-to/ID (queue data; live SERP not pulled, no DataForSEO via Zapier this run)",
    "gate": "topic-check pass; queue rank 2 fails topic-check, rank 3 overlaps the 2026-09-30 Mesa bed bug inspection post",
-   "impressions": 79,
+   "impressions": 154,
    "clicks": 0,
-   "position": 17.9
+   "position": 17.7
   },
   {
    "date": "2026-10-11",
@@ -216,9 +216,9 @@
    "money_page_linked": "/queen-creek-az/pest-and-termite/mosquito-control",
    "serp_type": "informational how-to/ID (queue data generated 10-11; live SERP/DataForSEO not pulled this run)",
    "gate": "topic-check pass for \"bed bugs vs mosquitoes bites\" and \"bed bug bites vs mosquito bites\"; queue ranks 1-7 used or blocked; no existing post/title targets this comparison (roach-bite post has a small bite table but targets cockroach bites); striking-distance pages linked: /queen-creek-az/pest-and-termite/scorpion-control, /queen-creek-az/pest-and-termite/ant-control, /queen-creek-az",
-   "impressions": 50,
+   "impressions": 163,
    "clicks": 0,
-   "position": 15.9
+   "position": 12.3
   },
   {
    "date": "2026-10-18",
@@ -232,9 +232,9 @@
    "money_page_linked": "/mesa-az/pest-and-termite/spider-prevention",
    "serp_type": "informational medical/ID (queue data generated 10-11; live SERP/DataForSEO not pulled this run)",
    "gate": "topic-check pass for \"can black widow spiders kill you\" and \"black widow spider mesa\"; queue ranks 1-8 used or blocked; existing Mesa spider post targets control not bite danger; striking-distance pages linked: /mesa-az/pest-and-termite, /mesa-az/pest-and-termite/scorpion-control, /mesa-az",
-   "impressions": 9,
+   "impressions": 44,
    "clicks": 0,
-   "position": 7.3
+   "position": 10.8
   },
   {
    "date": "2026-10-19",
@@ -248,9 +248,9 @@
    "money_page_linked": "/tempe-az/pest-and-termite/mosquito-control",
    "serp_type": "informational how-to/list (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
    "gate": "topic-check pass for \"plants to prevent mosquitoes\"; rank 1 (termites) fails topic-check; only other Tempe mosquito post is monsoon season, different question; striking-distance pages linked: /mesa-az/pest-and-termite, /chandler-az/pest-and-termite, /tempe-az/pest-and-termite",
-   "impressions": 45,
+   "impressions": 120,
    "clicks": 0,
-   "position": 4.9
+   "position": 5.3
   },
   {
    "date": "2026-10-20",
@@ -264,9 +264,9 @@
    "money_page_linked": "/mesa-az/pest-and-termite/mosquito-control",
    "serp_type": "informational list/product roundup (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
    "gate": "topic-check pass for \"best mosquitoes repellents\"; rank 1 fails topic-check, rank 2 already published 10-19; no existing repellent title in index.json; Mesa mosquito posts cover 85208 control and fruit flies, different questions; striking-distance pages linked: /mesa-az/pest-and-termite",
-   "impressions": 16,
+   "impressions": 68,
    "clicks": 0,
-   "position": 6.3
+   "position": 6.8
   },
   {
    "date": "2026-10-22",
@@ -280,9 +280,9 @@
    "money_page_linked": "/maricopa-az/pest-and-termite/roach-elimination",
    "serp_type": "informational explainer (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
    "gate": "topic-check pass for \"cockroaches that can fly\"; rank 1 fails topic-check (termite posts exist), ranks 2-3 already published; no flying-roach title in index.json; Maricopa roach post covers sewer roaches (different question); striking-distance page linked: /maricopa-az/weed-and-lawn-care",
-   "impressions": 0,
+   "impressions": 60,
    "clicks": 0,
-   "position": null
+   "position": 6.0
   },
   {
    "date": "2026-10-23",
@@ -296,9 +296,9 @@
    "money_page_linked": "/avondale-az/pest-and-termite/scorpion-control",
    "serp_type": "informational explainer / medical-symptom answer (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
    "gate": "topic-check pass for \"what does scorpion sting look like\"; rank 1 (termites, Phoenix) fails topic-check (termite posts exist), ranks 2-4 already published; no scorpion-sting title in index.json or publish-log; Avondale has 0 scorpion posts (only ant/spider/rodent/AC); striking-distance page linked: /mesa-az/pest-and-termite",
-   "impressions": 0,
+   "impressions": 239,
    "clicks": 0,
-   "position": null
+   "position": 8.9
   },
   {
    "date": "2026-10-24",
@@ -328,6 +328,86 @@
    "money_page_linked": "/phoenix-az/pest-and-termite/spider-prevention",
    "serp_type": "informational medical-symptom explainer (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
    "gate": "topic-check pass for \"what do black widow spider bites look like\"; ranks 1-6 fail topic-check (termite posts exist) or already published; Mesa black widow post targets 'can black widow spiders kill you' (different question, 2 cities max 3); no Phoenix bite-look post in index.json or gsc-ranking-map; striking-distance page linked: /chandler-az/pest-and-termite",
+   "impressions": 0,
+   "clicks": 0,
+   "position": null
+  },
+  {
+   "date": "2026-10-26",
+   "slug": "are-scorpions-arachnids-what-queen-creek-homeowners-should-know-about-bark-scorpions-and-their-eight-legs",
+   "city": "queen-creek-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "scorpion-control",
+   "target_question": "are scorpions arachnids",
+   "az_volume": 260,
+   "queue_rank": 6,
+   "money_page_linked": "/queen-creek-az/pest-and-termite/scorpion-control",
+   "serp_type": "informational definition/how-to (queue data generated 10-18; live SERP/DataForSEO not pulled this run)",
+   "gate": "topic-check pass for \"are scorpions arachnids\"; ranks 1,3,8 fail topic-check, rank 2 skipped (generic how-to-get-rid-of-ants + Mesa ant posts overlap), rank 4 low volume (50), rank 5 Mesa already has 2 scorpion posts; no arachnid title in index.json or publish-log; striking-distance page linked: /mesa-az/pest-and-termite",
+   "impressions": 16,
+   "clicks": 0,
+   "position": 25.4
+  },
+  {
+   "date": "2026-10-27",
+   "slug": "how-do-scorpions-breed-what-mesa-homeowners-should-know-about-bark-scorpion-babies",
+   "city": "mesa-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "scorpion-control",
+   "target_question": "how do scorpions breed",
+   "az_volume": 260,
+   "queue_rank": 5,
+   "money_page_linked": "/mesa-az/pest-and-termite/scorpion-control",
+   "serp_type": "informational how-it-works (queue data generated 10-25; live SERP/DataForSEO not pulled this run, no Zapier)",
+   "gate": "topic-check pass for \"how do scorpions breed\"; no breed/mating/reproduce title in index.json or publish-log; rank1 and rank3 fail topic-check, rank2 skipped (prior overlap with Mesa ant posts), rank4 low volume (50); striking-distance page linked: /mesa-az/pest-and-termite",
+   "impressions": 0,
+   "clicks": 0,
+   "position": null
+  },
+  {
+   "date": "2026-10-30",
+   "slug": "can-you-die-from-a-scorpion-sting-what-tempe-homeowners-should-know-about-bark-scorpion-stings",
+   "city": "tempe-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "scorpion-control",
+   "target_question": "can you die from a scorpion sting",
+   "az_volume": 210,
+   "queue_rank": 9,
+   "money_page_linked": "/tempe-az/pest-and-termite/scorpion-control",
+   "serp_type": "informational health/safety question (queue data generated 10-25; live SERP/DataForSEO not pulled this run, Zapier not used)",
+   "gate": "topic-check pass for 'can you die from a scorpion sting'; rank1 fails topic-check (existing termite posts), rank2 skipped (ant overlap), rank3 fails (roof rat posts), rank4 low volume (50), rank5 and rank6 already published, rank7 'how many legs do scorpions have' skipped as near-variant of the QC arachnid post, rank8 fails (pack rat post); Avondale 'what does a scorpion sting look like' is different intent (appearance) and is linked; striking-distance pages linked: /mesa-az/pest-and-termite, /chandler-az/pest-and-termite/scorpion-control, /tempe-az/pest-and-termite",
+   "impressions": 0,
+   "clicks": 0,
+   "position": null
+  },
+  {
+   "date": "2026-10-31",
+   "slug": "how-to-repel-sugar-ants-what-scottsdale-homeowners-should-know-about-sugar-ant-trails-and-kitchen-invaders",
+   "city": "scottsdale-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "ant-control",
+   "target_question": "how to repel sugar ants",
+   "az_volume": 170,
+   "queue_rank": 11,
+   "money_page_linked": "/scottsdale-az/pest-and-termite/ant-control",
+   "serp_type": "informational how-to question (queue data generated 10-25; live SERP/DataForSEO/Zapier not pulled this run)",
+   "gate": "topic-check pass for 'how to repel sugar ants' (no owning URL); ranks 1-4, 7-9 fail/skip per 10-30 gate or published; rank 10 lawn fertilizer lower volume (50). Existing Scottsdale ant post (Troon North, colony control service) and Glendale 'sugar ants keep coming back after spray' are different intents and are linked. Striking-distance pages linked: /mesa-az/pest-and-termite, /phoenix-az/pest-and-termite",
+   "impressions": 0,
+   "clicks": 0,
+   "position": null
+  },
+  {
+   "date": "2026-11-01",
+   "slug": "best-grass-lawn-fertilizer-what-scottsdale-homeowners-should-know-about-feeding-bermuda-and-winter-ryegrass",
+   "city": "scottsdale-az",
+   "vertical": "weed-and-lawn-care",
+   "sub_service": "lawn-fertilization",
+   "target_question": "best grass lawn fertilizer",
+   "az_volume": 50,
+   "queue_rank": 10,
+   "money_page_linked": "/scottsdale-az/weed-and-lawn-care/lawn-fertilization",
+   "serp_type": "informational best-product question (queue data generated 10-25; live SERP/DataForSEO/Zapier not pulled this run)",
+   "gate": "topic-check pass for 'best grass lawn fertilizer'. Queue ranks 1-9, 11 published/skipped earlier; rank 12 'signs of white ants in house' skipped (termite-signs posts in ~10 cities, white ants = termites); rank 13 wood boring bees skipped (near-variant of Chandler carpenter bee post, 50 vol); rank 14 crabgrass vs bermuda fails topic-check. Overlap note: existing Scottsdale fertilization post (McDowell Sonoran) is service-angle; this post targets product/timing question and links to it. Striking-distance pages linked: /tempe-az/weed-and-lawn-care, /phoenix-az/weed-and-lawn-care/overseeding. Information gain: season-by-season Bermuda vs winter-rye table + pre-emergent/overseed conflict",
    "impressions": 0,
    "clicks": 0,
    "position": null

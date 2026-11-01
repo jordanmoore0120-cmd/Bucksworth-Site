@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-25T17:47:12.446575+00:00",
+ "generated": "2026-11-01T17:52:35.480143+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-07-25..2026-10-23"
+  "gsc": "Search Console query+page 2026-08-01..2026-10-30"
  },
  "queue": [
   {
@@ -63,34 +63,6 @@
    "question_cluster": "bees carp rid"
   },
   {
-   "city": "mesa-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "scorpion-control",
-   "question_keyword": "how do scorpions breed",
-   "question_az_volume": 260,
-   "question_us_volume": 8100,
-   "city_money_keyword": "scorpion control mesa",
-   "city_money_volume_az": 70,
-   "existing_posts_city_sub": 2,
-   "money_page_to_link": "/mesa-az/pest-and-termite/scorpion-control",
-   "score": 73.77,
-   "question_cluster": "bree scor"
-  },
-  {
-   "city": "queen-creek-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "scorpion-control",
-   "question_keyword": "are scorpions arachnids",
-   "question_az_volume": 260,
-   "question_us_volume": 5400,
-   "city_money_keyword": "scorpion control queen creek",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/queen-creek-az/pest-and-termite/scorpion-control",
-   "score": 71.46,
-   "question_cluster": "arac scor"
-  },
-  {
    "city": "san-tan-valley-az",
    "vertical": "pest-and-termite",
    "sub_service": "scorpion-control",
@@ -117,48 +89,6 @@
    "money_page_to_link": "/scottsdale-az/pest-and-termite/rodent-exclusion",
    "score": 62.25,
    "question_cluster": "pack rats"
-  },
-  {
-   "city": "tempe-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "scorpion-control",
-   "question_keyword": "can you die from a scorpion sting",
-   "question_az_volume": 210,
-   "question_us_volume": 1300,
-   "city_money_keyword": "scorpion control tempe",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/tempe-az/pest-and-termite/scorpion-control",
-   "score": 61.48,
-   "question_cluster": "die scor stin"
-  },
-  {
-   "city": "scottsdale-az",
-   "vertical": "weed-and-lawn-care",
-   "sub_service": "lawn-fertilization",
-   "question_keyword": "best grass lawn fertilizer",
-   "question_az_volume": 50,
-   "question_us_volume": 5400,
-   "city_money_keyword": "lawn fertilization scottsdale",
-   "city_money_volume_az": 0,
-   "existing_posts_city_sub": 0,
-   "money_page_to_link": "/scottsdale-az/weed-and-lawn-care/lawn-fertilization",
-   "score": 45.45,
-   "question_cluster": "fert lawn"
-  },
-  {
-   "city": "scottsdale-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "ant-control",
-   "question_keyword": "how to repel sugar ants",
-   "question_az_volume": 170,
-   "question_us_volume": 12100,
-   "city_money_keyword": "ant control scottsdale",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/scottsdale-az/pest-and-termite/ant-control",
-   "score": 44.31,
-   "question_cluster": "ants repe suga"
   },
   {
    "city": "phoenix-az",
