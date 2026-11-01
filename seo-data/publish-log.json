@@ -312,5 +312,18 @@
  "money_page_linked": "/scottsdale-az/pest-and-termite/ant-control",
  "serp_type": "informational how-to question (queue data generated 10-25; live SERP/DataForSEO/Zapier not pulled this run)",
  "gate": "topic-check pass for 'how to repel sugar ants' (no owning URL); ranks 1-4, 7-9 fail/skip per 10-30 gate or published; rank 10 lawn fertilizer lower volume (50). Existing Scottsdale ant post (Troon North, colony control service) and Glendale 'sugar ants keep coming back after spray' are different intents and are linked. Striking-distance pages linked: /mesa-az/pest-and-termite, /phoenix-az/pest-and-termite"
+},
+{
+ "date": "2026-11-01",
+ "slug": "best-grass-lawn-fertilizer-what-scottsdale-homeowners-should-know-about-feeding-bermuda-and-winter-ryegrass",
+ "city": "scottsdale-az",
+ "vertical": "weed-and-lawn-care",
+ "sub_service": "lawn-fertilization",
+ "target_question": "best grass lawn fertilizer",
+ "az_volume": 50,
+ "queue_rank": 10,
+ "money_page_linked": "/scottsdale-az/weed-and-lawn-care/lawn-fertilization",
+ "serp_type": "informational best-product question (queue data generated 10-25; live SERP/DataForSEO/Zapier not pulled this run)",
+ "gate": "topic-check pass for 'best grass lawn fertilizer'. Queue ranks 1-9, 11 published/skipped earlier; rank 12 'signs of white ants in house' skipped (termite-signs posts in ~10 cities, white ants = termites); rank 13 wood boring bees skipped (near-variant of Chandler carpenter bee post, 50 vol); rank 14 crabgrass vs bermuda fails topic-check. Overlap note: existing Scottsdale fertilization post (McDowell Sonoran) is service-angle; this post targets product/timing question and links to it. Striking-distance pages linked: /tempe-az/weed-and-lawn-care, /phoenix-az/weed-and-lawn-care/overseeding. Information gain: season-by-season Bermuda vs winter-rye table + pre-emergent/overseed conflict"
 }
 ]
