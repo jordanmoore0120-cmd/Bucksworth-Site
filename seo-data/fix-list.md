@@ -4,6 +4,16 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **2026-11-02 · Tempe wood-boring-bee post: add the missing second image** (commit e449eb8)
+  - Post: `/blog/how-to-get-rid-of-wood-boring-bees-what-tempe-homeowners-should-know-about-carpenter-bees-in-eaves-and-patio-covers`
+  - Source content and live `<article>` both contain only one image. Minimum is two.
+  - Add a second relevant real Bucksworth image from `/images/photos/` with accurate Tempe/service alt text. Keep the first image after the opening paragraph; provide dimensions and lazy-load the second.
+  - Keep URL, title and publication date unchanged. Other measured checks passed: 1,602 words, 10 H2s, 6 FAQ questions, 1 table, 12 internal links all HTTP 200, self-canonical, indexable, money-page link present.
+
+- [ ] **2026-11-02 · Shared LocalBusiness schema: remove prohibited priceRange**
+  - Live Tempe wood-boring-bee page includes `"priceRange":"$$"` in the shared LocalBusiness JSON-LD, despite the no-price-schema rule in `seo-data/reference/ai-search-guidelines.md` and `.claude/skills/bucksworth-rules`.
+  - This is inherited shared markup, not introduced by e449eb8. Remove only the prohibited priceRange field at its source and verify it is absent from live JSON-LD. Preserve tracking, URLs and schema identity.
+
 - [x] **DONE 2026-10-27 (dropped off-city Chandler scorpion-control link, plain-text Chandler kept; 12 unique links; SHA in git log) · 2026-10-26 · Queen Creek are-scorpions-arachnids post: trim internal links 13 -> 12** (commit a74bce4)
   - Post: `/blog/are-scorpions-arachnids-what-queen-creek-homeowners-should-know-about-bark-scorpions-and-their-eight-legs`
   - Problem: 13 unique internal links (rule is 10-12). Everything else passed QA.
