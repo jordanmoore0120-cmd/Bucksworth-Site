@@ -1,36 +1,38 @@
-# Daily Data Feed — Sun 2026-11-01 (Viktor → Claude)
+# Daily Data Feed — Mon 2026-11-02 (Viktor → Claude)
 
 Facts only. You set your own priorities from CLAUDE.md and STRATEGY.md.
-Window: since previous feed (2026-10-31 12:33Z). Times UTC unless noted.
+Window: since previous feed (2026-11-01 12:32:15Z). Times UTC unless noted.
 
 ## Jordan's words (verbatim, #bucksworth-digital, last 24h)
-- None. The only post from Jordan's account (10/31 16:14Z) is your own run summary ("Sent using Claude"), so it is not quoted.
-- Viktor-check feedback (per Jordan 10/13 "please send all feed back to claude"), gatekeeper site check 10/31 17:32Z, verbatim:
-  "Caveat: Claude's log says it didn't re-pull the live SERP this run."
+- None. The only post from Jordan's account (11/01 16:14Z) is your own run summary ("Sent using Claude"), so it is not quoted.
+- Viktor-check feedback (per Jordan 10/13 "please send all feed back to claude"), site check 11/01 17:53Z, verbatim:
+  "The topic queue is down to 13 ideas, and most of the lawn ones get very few searches."
 
 ## Claude's commits yesterday (origin/main)
-- `cdbe932` Claude, 2026-10-31 16:12Z — "blog: how to repel sugar ants (Scottsdale, queue rank 11, 170 AZ vol)"
-- Not Claude: `ae30f7c` (Viktor daily feed 10/31).
-- No branch-only commits outstanding (branch crrhuc head = cdbe932, also on main).
+- `497b138` Claude, 2026-11-01 16:13:04Z: "blog: best grass lawn fertilizer (Scottsdale, queue rank 10, 50 AZ vol)"
+- Not Claude: `bce9639` Viktor AI, 11/01 17:53:02Z: "seo-data: weekly refresh 2026-11-01".
+- No additional Claude commits found only on branches in yesterday's window.
 
-## Leads yesterday (Sat 2026-10-31, Google Ads 4486379637)
-- LSA: 0 leads, query returned no rows. LSA is paused on weekends, and the October limit was already used on 10/29.
-- Search: no campaign had impressions on 10/31.
+## Leads yesterday (Sun 2026-11-01, Google Ads 4486379637)
+- LSA: 0 leads, query returned no rows; weekend pause. LSA campaign: 0 impressions, $0 spend.
+- Search: all five campaigns returned 0 impressions, 0 clicks, 0 conversions and $0 spend.
 - Lead ZIPs (searcher location, not service address; only some leads get a ZIP):
-  - 10/31: none.
-  - 7 days: 85015, 85027, 85203, 85140 (1 each).
+  - 11/01: none.
+  - 10/26–11/01: 85015, 85027, 85203 (1 conversion each); 85140 (0.99915 attributed conversions).
 
-## Data files + dates (last commit on main)
-- rankings.json: generated 2026-10-25 17:47Z (weekly Sun refresh; next expected today)
-- striking-distance.json: generated 2026-10-25 17:47Z (weekly Sun refresh; next expected today)
-- ai-visibility.json: last commit 2026-10-07 (25 days). No Viktor cron refreshes it yet.
+## Data files + dates
+- rankings.json: generated 2026-11-01 17:52:35Z.
+- striking-distance.json: generated 2026-11-01 17:52:35Z.
+- ai-visibility.json: dated 2026-10-07 (26 days).
+- Monday rebuild 11/02: url-baseline.json grew 6,532 → 6,537; cannibalization.json and authority.json refreshed.
 
-## URL guard (prod, run 2026-11-01)
-- 6,532 URLs checked. 57 not 200, all 57 already known broken. 0 NEW breaks.
+## URL guard (prod, run 2026-11-02)
+- 6,537 URLs checked. 57 not 200, all 57 already known broken. 0 NEW breaks.
 - fix-list.md: nothing appended.
 
 ## Connector health
 - Zapier: Viktor has no current check of its own, so status is unknown.
-- Your routine: ran 10/31 and landed on main. The live URL returned 200 (your summary + gatekeeper).
-- Your 10/31 summary says `npm run build`/`tsc` were not run (no node_modules) and live SERP/DataForSEO/Zapier were not pulled.
-- LSA: weekend pause today; the monthly limit is expected to reset Mon 11/2.
+- Your routine: ran 11/01 and landed on main; live URL HTTP 200 reported by your summary and Viktor's site check.
+- Your 11/01 summary: "The live SERP, DataForSEO, Zapier, GBP and Ads pulls were not done this run; connector health is unchecked."
+- Your 11/01 summary says `npm run build` and `tsc` were not run (no node_modules).
+- Viktor's live Ads read and Monday GSC/DataForSEO rebuild succeeded 11/02; these do not test Claude's Zapier connectors.
