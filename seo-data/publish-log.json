@@ -325,5 +325,18 @@
  "money_page_linked": "/scottsdale-az/weed-and-lawn-care/lawn-fertilization",
  "serp_type": "informational best-product question (queue data generated 10-25; live SERP/DataForSEO/Zapier not pulled this run)",
  "gate": "topic-check pass for 'best grass lawn fertilizer'. Queue ranks 1-9, 11 published/skipped earlier; rank 12 'signs of white ants in house' skipped (termite-signs posts in ~10 cities, white ants = termites); rank 13 wood boring bees skipped (near-variant of Chandler carpenter bee post, 50 vol); rank 14 crabgrass vs bermuda fails topic-check. Overlap note: existing Scottsdale fertilization post (McDowell Sonoran) is service-angle; this post targets product/timing question and links to it. Striking-distance pages linked: /tempe-az/weed-and-lawn-care, /phoenix-az/weed-and-lawn-care/overseeding. Information gain: season-by-season Bermuda vs winter-rye table + pre-emergent/overseed conflict"
-}
+},
+ {
+  "date": "2026-11-02",
+  "slug": "how-to-get-rid-of-wood-boring-bees-what-tempe-homeowners-should-know-about-carpenter-bees-in-eaves-and-patio-covers",
+  "city": "tempe-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "bee-wasp-removal",
+  "target_question": "how can i get rid of wood boring bees",
+  "az_volume": 50,
+  "queue_rank": 4,
+  "money_page_linked": "/tempe-az/pest-and-termite/bee-wasp-removal",
+  "serp_type": "informational how-to question (queue data generated 11-01; live SERP/DataForSEO/Zapier not pulled this run)",
+  "gate": "topic-check pass (no owning URL). Rank 1 termites and rank 3 roof rats owned by existing posts; rank 2 near-variant of the 2023 'how-to-get-rid-of-ants' post; rank 5 near-variant of the Queen Creek 'are scorpions arachnids / eight legs' post. Chandler 'do bumble bees sting' is a different intent and is linked. Striking-distance pages linked: /mesa-az/pest-and-termite, /phoenix-az/pest-and-termite"
+ }
 ]
