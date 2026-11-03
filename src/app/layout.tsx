@@ -109,7 +109,6 @@ const orgSchema = {
   ],
   telephone: "(480) 422-8388",
   email: "info@getyourbucksworth.com",
-  priceRange: "$$",
   currenciesAccepted: "USD",
   paymentAccepted: "Cash, Credit Card, Debit Card, Check",
   address: [

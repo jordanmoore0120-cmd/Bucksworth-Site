@@ -137,7 +137,6 @@ export default async function SubServicePage({
         addressCountry: "US",
       },
       geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
-      priceRange: "$$",
       aggregateRating: aggregateRating(city.branch),
     },
     aggregateRating: aggregateRating(city.branch),

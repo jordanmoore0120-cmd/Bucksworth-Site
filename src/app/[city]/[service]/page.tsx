@@ -268,7 +268,6 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
       address: { "@type": "PostalAddress", addressLocality: city.name, addressRegion: "AZ", addressCountry: "US" },
       geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
       areaServed: [{ "@type": "City", name: city.name }, { "@type": "State", name: "Arizona" }],
-      priceRange: "$$",
       aggregateRating: aggregateRating(city.branch),
     },
     aggregateRating: aggregateRating(city.branch),

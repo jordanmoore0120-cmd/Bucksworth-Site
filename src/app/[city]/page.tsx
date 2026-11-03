@@ -131,7 +131,6 @@ export default async function CityPage({ params }: CityPageProps) {
       })),
     ],
     aggregateRating: aggregateRating(city.branch),
-    priceRange: "$$",
     openingHoursSpecification: [{
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
