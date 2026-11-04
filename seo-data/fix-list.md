@@ -4,6 +4,12 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **2026-11-04 · Phoenix lawn-aeration post: replace misleading photos and alt text** (commit 1d5eac1)
+  - Post: `/blog/when-to-aerate-a-lawn-what-phoenix-homeowners-should-know-about-aerating-bermuda-grass-in-the-desert`
+  - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
+  - Replace with two relevant real Bucksworth lawn-treatment photos and alt text that accurately describes what is visible. Do not invent a Phoenix location or a treatment type from a generic image.
+  - Keep URL, title and publication date unchanged. Other measured checks passed: 1,655 words, 10 H2s, 6 FAQ questions, 2 tables, 12 internal links all HTTP 200, money-page link present, self-canonical, indexable, valid JSON-LD without price fields. No aeration target/title overlap found in publish-log, index or GSC ranking map.
+
 - [x] **DONE 2026-11-03 (added second image tech-detail-work.jpg with Tempe alt, 1600x900, lazy-loaded; SHA in git log) · 2026-11-02 · Tempe wood-boring-bee post: add the missing second image** (commit e449eb8)
   - Post: `/blog/how-to-get-rid-of-wood-boring-bees-what-tempe-homeowners-should-know-about-carpenter-bees-in-eaves-and-patio-covers`
   - Source content and live `<article>` both contain only one image. Minimum is two.
