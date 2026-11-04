@@ -351,5 +351,18 @@
   "money_page_linked": "/phoenix-az/weed-and-lawn-care/pre-emergent-weed-control",
   "serp_type": "informational definition question (queue data generated 11-01; live SERP/DataForSEO/Zapier not pulled this run)",
   "gate": "topic-check pass for 'what is a pre emergent herbicide'. Queue rank 6 pack rats fails topic-check (Tucson rodent post), rank 7 white ants skipped earlier, rank 8 crabgrass vs bermuda fails earlier, rank 9 passes: no definitional pre-emergent post exists (existing pre-emergent posts are city timing/service angle; Mesa 'window most homeowners miss' is timing). Striking-distance page linked: /phoenix-az/pest-and-termite. Information gain: pre vs post vs weed-type tables plus fall/winter/late-winter action calendar including what to do if weeds are already up in early November"
+ },
+ {
+  "date": "2026-11-04",
+  "slug": "when-to-aerate-a-lawn-what-phoenix-homeowners-should-know-about-aerating-bermuda-grass-in-the-desert",
+  "city": "phoenix-az",
+  "vertical": "weed-and-lawn-care",
+  "sub_service": "weed-and-feed-program",
+  "target_question": "lawn care when to aerate",
+  "az_volume": 20,
+  "queue_rank": 12,
+  "money_page_linked": "/phoenix-az/weed-and-lawn-care/weed-and-feed-program",
+  "serp_type": "informational how-to question; live DataForSEO SERP pulled 2026-11-04 (Phoenix, desktop): AI Overview + extension/lawn-brand articles + People Also Ask + videos, no local pack, no service pages",
+  "gate": "topic-check pass for 'lawn care when to aerate' (no owning URL; no aeration posts in index.json, no aerat queries in gsc-ranking-map). Rank 10 overseeding and rank 11 weed-and-feed fail topic-check (dozens of existing posts/pages); rank 13 owned by /phoenix-az/weed-and-lawn-care (split query). Striking-distance pages linked: /phoenix-az/pest-and-termite. Information gain: aerate-vs-pre-emergent sequencing table (aeration breaks the barrier) + Phoenix Bermuda month-by-month aeration calendar; honest note that core aeration is not a Bucksworth service"
  }
 ]
