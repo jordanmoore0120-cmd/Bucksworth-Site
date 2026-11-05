@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-10-29**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-11-05**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -122,6 +122,11 @@ search summary 2026-10-02 — re-verify wording before quoting)
 - DO keep the XML sitemap complete with accurate `lastmod`; DO notify changes quickly via **IndexNow**
   (https://www.indexnow.org/documentation). The site has no IndexNow key yet (see site-tasks).
 - DON'T use `NOCACHE`/`NOARCHIVE` on pages we want cited — they limit Copilot answers/citations.
+- Announced 2026-10-30: Microsoft begins honoring separate AI Training and page-level AI Grounding
+  preferences on **2027-02-01**; `NoArchive`/`NoCache` stop controlling those uses on **2027-03-01**.
+  Grounding defaults to Allow; DON'T add `ai-grounding:disallow` or `disallowextended` to pages we want
+  cited across AI experiences. Training and grounding are independent; neither guarantees inclusion.
+  Source: https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/
 - Bing Webmaster Tools has an **AI Performance** report (Copilot citations by URL) — check it monthly.
 - AI Performance now has **Topics Portfolio** (beta, 2026-10-13): groups the grounding queries we're cited for into
   themes and lists queries in those themes where other sites are cited and we aren't. Source:
@@ -129,8 +134,9 @@ search summary 2026-10-02 — re-verify wording before quoting)
 
 ## 4. ChatGPT search (OpenAI)
 
-Sources: https://platform.openai.com/docs/bots ; Publisher FAQ https://help.openai.com/en/articles/12627856
-(FAQ blocks scripts; read via search summary 2026-10-02)
+Source: https://platform.openai.com/docs/bots (verified 2026-11-05).
+The former Publisher FAQ article 12627856 is not a verified publisher source: its current search result
+is an unrelated Atlas-retirement article. DON'T use that article to establish publisher rules.
 
 - DO keep `OAI-SearchBot` and `ChatGPT-User` allowed in robots.txt and allowed by the CDN/firewall.
   `GPTBot` (training) is a separate choice and doesn't affect ChatGPT search.
@@ -154,6 +160,11 @@ Source: https://docs.perplexity.ai/guides/bots (read 2026-10-02)
 
 Sources: https://support.claude.com/en/articles/8896518 ; https://support.apple.com/en-us/119829 (read 2026-10-02)
 - DO allow `Claude-SearchBot` and `Claude-User` (search visibility). `ClaudeBot` = training only.
+- Shared AI training control (official announcements 2026-10-30): Anthropic has begun recognizing
+  the draft IETF signal; explicit `ClaudeBot` rules take priority. Google plans support in **2027**,
+  interpreting a training opt-out as Google-Extended disallowed unless explicitly specified.
+  DON'T treat this draft training signal as a blanket search-crawler block or a citation requirement.
+  Sources: https://developers.google.com/search/blog/2026/10/ai-training-control and the Anthropic source above.
 - DO allow `Applebot` (Siri/Spotlight search). `Applebot-Extended` only controls training use.
 
 Robots.txt status (live check 2026-10-29): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
