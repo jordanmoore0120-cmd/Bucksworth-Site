@@ -4,7 +4,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [x] **DONE 2026-11-05 (swapped to tech-treating-home.jpg + tech-service-action.jpg with accurate alt; SHA in git log) · 2026-11-04 · Phoenix lawn-aeration post: replace misleading photos and alt text** (commit 1d5eac1)
+- [x] **DONE 2026-11-05 (swapped to tech-treating-home.jpg + tech-service-action.jpg with accurate alt; commit 58e04d7) · 2026-11-04 · Phoenix lawn-aeration post: replace misleading photos and alt text** (commit 1d5eac1)
   - Post: `/blog/when-to-aerate-a-lawn-what-phoenix-homeowners-should-know-about-aerating-bermuda-grass-in-the-desert`
   - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
   - Replace with two relevant real Bucksworth lawn-treatment photos and alt text that accurately describes what is visible. Do not invent a Phoenix location or a treatment type from a generic image.
