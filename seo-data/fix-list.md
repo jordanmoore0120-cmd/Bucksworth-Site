@@ -4,6 +4,13 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **2026-11-06 · Phoenix white-ants post: publish to main + add second image** (commit 0e7c683, side branch `claude/fervent-faraday-zh4ejw` only)
+  - Post: `/blog/signs-of-white-ants-in-a-phoenix-house-what-homeowners-should-know-about-termites-that-look-like-flying-ants` returns 404 live: the commit was pushed to the side branch, not `main`. Land it on `main` (keep URL, title and date) and confirm 200.
+  - Only 1 image (bar is >=2). Add a second relevant real photo (termite or inspection work, e.g. a mud-tube/termite job photo) with alt text describing exactly what is visible.
+  - Existing image `tech-pest-control.jpg` shows a technician standing in an open-framed new build (pre-construction setting), not an inspection at a finished home. Change its alt to match what is visible.
+  - Suggested (not required): link the Mesa post `/blog/what-do-termites-look-like-a-mesa-homeowners-identification-guide` so the two termite-identification posts reinforce rather than compete; stay at 10-12 internal links.
+  - Other measured checks passed: 1,664 words, 10 H2s, FAQ, 1 table, 11 internal links all 200, money page linked, phone (480) 422-8388 only, no prices/contract wording, no price fields in schema.
+
 - [ ] **PARTIAL 2026-11-05 (58e04d7 fixed misleading alt text; lawn-treatment photo relevance remains open) · 2026-11-04 · Phoenix lawn-aeration post: replace misleading photos and alt text** (commit 1d5eac1)
   - Post: `/blog/when-to-aerate-a-lawn-what-phoenix-homeowners-should-know-about-aerating-bermuda-grass-in-the-desert`
   - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
