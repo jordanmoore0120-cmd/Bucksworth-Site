@@ -4,7 +4,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [ ] **2026-11-06 · Phoenix white-ants post: publish to main + add second image** (commit 0e7c683, side branch `claude/fervent-faraday-zh4ejw` only)
+- [x] **DONE 2026-11-07 (landed on main via cherry-pick of 0e7c683; second image tech-residential-service.jpg added; first alt corrected; SHA in git log) · 2026-11-06 · Phoenix white-ants post: publish to main + add second image** (commit 0e7c683, side branch `claude/fervent-faraday-zh4ejw` only)
   - Post: `/blog/signs-of-white-ants-in-a-phoenix-house-what-homeowners-should-know-about-termites-that-look-like-flying-ants` returns 404 live: the commit was pushed to the side branch, not `main`. Land it on `main` (keep URL, title and date) and confirm 200.
   - Only 1 image (bar is >=2). Add a second relevant real photo (termite or inspection work, e.g. a mud-tube/termite job photo) with alt text describing exactly what is visible.
   - Existing image `tech-pest-control.jpg` shows a technician standing in an open-framed new build (pre-construction setting), not an inspection at a finished home. Change its alt to match what is visible.
