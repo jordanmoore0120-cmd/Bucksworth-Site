@@ -1,23 +1,37 @@
 {
- "generated": "2026-11-01T17:52:35.480143+00:00",
+ "generated": "2026-11-08T17:46:50.994136+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-08-01..2026-10-30"
+  "gsc": "Search Console query+page 2026-08-08..2026-11-06"
  },
  "queue": [
   {
-   "city": "phoenix-az",
+   "city": "mesa-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "bee-wasp-removal",
+   "question_keyword": "can wood borer bees sting",
+   "question_az_volume": 480,
+   "question_us_volume": 33100,
+   "city_money_keyword": "bee removal mesa",
+   "city_money_volume_az": 140,
+   "existing_posts_city_sub": 1,
+   "money_page_to_link": "/mesa-az/pest-and-termite/bee-wasp-removal",
+   "score": 167.75,
+   "question_cluster": "bees bore stin wood"
+  },
+  {
+   "city": "avondale-az",
    "vertical": "pest-and-termite",
    "sub_service": "termite-treatment",
    "question_keyword": "how can you get rid of termites",
    "question_az_volume": 480,
    "question_us_volume": 12100,
-   "city_money_keyword": "termite treatment phoenix",
-   "city_money_volume_az": 210,
-   "existing_posts_city_sub": 1,
-   "money_page_to_link": "/phoenix-az/pest-and-termite/termite-treatment",
-   "score": 141.44,
+   "city_money_keyword": "termite treatment avondale",
+   "city_money_volume_az": 10,
+   "existing_posts_city_sub": 0,
+   "money_page_to_link": "/avondale-az/pest-and-termite/termite-treatment",
+   "score": 104.29,
    "question_cluster": "rid term"
   },
   {
@@ -49,20 +63,6 @@
    "question_cluster": "rats rid roof"
   },
   {
-   "city": "tempe-az",
-   "vertical": "pest-and-termite",
-   "sub_service": "bee-wasp-removal",
-   "question_keyword": "how can i get rid of wood boring bees",
-   "question_az_volume": 50,
-   "question_us_volume": 22200,
-   "city_money_keyword": "bee removal tempe",
-   "city_money_volume_az": 50,
-   "existing_posts_city_sub": 0,
-   "money_page_to_link": "/tempe-az/pest-and-termite/bee-wasp-removal",
-   "score": 76.53,
-   "question_cluster": "bees carp rid"
-  },
-  {
    "city": "san-tan-valley-az",
    "vertical": "pest-and-termite",
    "sub_service": "scorpion-control",
@@ -91,18 +91,32 @@
    "question_cluster": "pack rats"
   },
   {
-   "city": "phoenix-az",
+   "city": "scottsdale-az",
    "vertical": "pest-and-termite",
-   "sub_service": "ant-control",
-   "question_keyword": "signs of white ants in house",
-   "question_az_volume": 170,
-   "question_us_volume": 4400,
-   "city_money_keyword": "ant control phoenix",
-   "city_money_volume_az": 20,
+   "sub_service": "scorpion-control",
+   "question_keyword": "why drink milk after scorpion sting",
+   "question_az_volume": 140,
+   "question_us_volume": 480,
+   "city_money_keyword": "scorpion control scottsdale",
+   "city_money_volume_az": 50,
+   "existing_posts_city_sub": 1,
+   "money_page_to_link": "/scottsdale-az/pest-and-termite/scorpion-control",
+   "score": 46.96,
+   "question_cluster": "drin milk scor stin"
+  },
+  {
+   "city": "mesa-az",
+   "vertical": "pest-and-termite",
+   "sub_service": "scorpion-control",
+   "question_keyword": "how long does a scorpion sting last",
+   "question_az_volume": 140,
+   "question_us_volume": 480,
+   "city_money_keyword": "scorpion control mesa",
+   "city_money_volume_az": 70,
    "existing_posts_city_sub": 3,
-   "money_page_to_link": "/phoenix-az/pest-and-termite/ant-control",
-   "score": 36.48,
-   "question_cluster": "ants sign whit"
+   "money_page_to_link": "/mesa-az/pest-and-termite/scorpion-control",
+   "score": 40.6,
+   "question_cluster": "last long scor stin"
   },
   {
    "city": "maricopa-az",
@@ -117,20 +131,6 @@
    "money_page_to_link": "/maricopa-az/weed-and-lawn-care/bermuda-grass-control",
    "score": 25.5,
    "question_cluster": "berm crab lawn vs"
-  },
-  {
-   "city": "phoenix-az",
-   "vertical": "weed-and-lawn-care",
-   "sub_service": "pre-emergent-weed-control",
-   "question_keyword": "what is a pre emergent herbicide",
-   "question_az_volume": 70,
-   "question_us_volume": 1900,
-   "city_money_keyword": "pre emergent weed control phoenix",
-   "city_money_volume_az": 10,
-   "existing_posts_city_sub": 3,
-   "money_page_to_link": "/phoenix-az/weed-and-lawn-care/pre-emergent-weed-control",
-   "score": 23.18,
-   "question_cluster": "emer pre"
   },
   {
    "city": "mesa-az",
@@ -159,20 +159,6 @@
    "money_page_to_link": "/avondale-az/weed-and-lawn-care/weed-and-feed-program",
    "score": 20.44,
    "question_cluster": "and feed lawn weed"
-  },
-  {
-   "city": "phoenix-az",
-   "vertical": "weed-and-lawn-care",
-   "sub_service": "weed-and-feed-program",
-   "question_keyword": "lawn care when to aerate",
-   "question_az_volume": 20,
-   "question_us_volume": 3600,
-   "city_money_keyword": "weed and feed phoenix",
-   "city_money_volume_az": 0,
-   "existing_posts_city_sub": 7,
-   "money_page_to_link": "/phoenix-az/weed-and-lawn-care/weed-and-feed-program",
-   "score": 6.13,
-   "question_cluster": "aera care lawn"
   },
   {
    "city": "tempe-az",

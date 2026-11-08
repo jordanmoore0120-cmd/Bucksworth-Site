@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-01T17:52:35.480143+00:00",
+ "generated": "2026-11-08T17:46:50.994136+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-08-01..2026-10-30"
+  "gsc": "Search Console query+page 2026-08-08..2026-11-06"
  },
  "note": "organic/map positions from DataForSEO live SERP geo-targeted to each city; null = not in top 30 (verify before claiming not ranking)",
  "rankings": [
@@ -33,8 +33,8 @@
    "keyword": "cockroach exterminator apache junction",
    "organic_position": null,
    "ranking_url": null,
-   "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_position": 1,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -61,8 +61,8 @@
    "city": "apache-junction-az",
    "sub_service": "post-emergent-weed-treatment",
    "keyword": "weed control apache junction",
-   "organic_position": 8,
-   "ranking_url": "https://www.getyourbucksworth.com/apache-junction-az/pest-and-termite/bee-wasp-removal",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": true,
    "az_volume": 0
@@ -71,8 +71,8 @@
    "city": "apache-junction-az",
    "sub_service": "pest control",
    "keyword": "pest control apache junction",
-   "organic_position": 21,
-   "ranking_url": "https://www.getyourbucksworth.com/apache-junction-az/pest-and-termite/termite-treatment",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": 1,
    "map_pack_shown": true,
    "az_volume": 90
@@ -84,7 +84,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -104,7 +104,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 0
   },
   {
@@ -114,7 +114,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -141,8 +141,8 @@
    "city": "gold-canyon-az",
    "sub_service": "pest control",
    "keyword": "pest control gold canyon",
-   "organic_position": 22,
-   "ranking_url": "https://www.getyourbucksworth.com/gold-canyon-az/pest-and-termite/bee-wasp-removal",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": true,
    "az_volume": 10
@@ -154,7 +154,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 10
   },
   {
@@ -171,8 +171,8 @@
    "city": "san-tan-valley-az",
    "sub_service": "roach-elimination",
    "keyword": "cockroach exterminator san tan valley",
-   "organic_position": 21,
-   "ranking_url": "https://www.getyourbucksworth.com/san-tan-valley-az",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": true,
    "az_volume": 0
@@ -194,7 +194,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -244,7 +244,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 0
   },
   {
@@ -264,15 +264,15 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 0
   },
   {
    "city": "queen-creek-az",
    "sub_service": "post-emergent-weed-treatment",
    "keyword": "weed control queen creek",
-   "organic_position": 20,
-   "ranking_url": "https://www.getyourbucksworth.com/queen-creek-az/weed-and-lawn-care/gravel-rock-yard-maintenance",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": true,
    "az_volume": 10
@@ -334,7 +334,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 0
   },
   {
@@ -401,8 +401,8 @@
    "city": "gilbert-az",
    "sub_service": "pre-emergent-weed-control",
    "keyword": "pre emergent weed control gilbert",
-   "organic_position": 5,
-   "ranking_url": "https://www.getyourbucksworth.com/blog/gilbert-weed-control-reclaiming-your-backyard-before-the-monsoon-season",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": true,
    "az_volume": 0
@@ -411,8 +411,8 @@
    "city": "gilbert-az",
    "sub_service": "post-emergent-weed-treatment",
    "keyword": "weed control gilbert",
-   "organic_position": 23,
-   "ranking_url": "https://www.getyourbucksworth.com/gilbert-az/weed-and-lawn-care/overseeding",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": true,
    "az_volume": 10
@@ -434,7 +434,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 20
   },
   {
@@ -454,7 +454,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 0
   },
   {
@@ -471,8 +471,8 @@
    "city": "chandler-az",
    "sub_service": "pre-emergent-weed-control",
    "keyword": "pre emergent weed control chandler",
-   "organic_position": 26,
-   "ranking_url": "https://www.getyourbucksworth.com/buckeye-az/weed-and-lawn-care/pre-emergent-weed-control",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": true,
    "az_volume": 0
@@ -491,8 +491,8 @@
    "city": "chandler-az",
    "sub_service": "pest control",
    "keyword": "pest control chandler",
-   "organic_position": 20,
-   "ranking_url": "https://www.getyourbucksworth.com/blog/best-pest-control-near-chandler-az-85224",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": true,
    "az_volume": 390
@@ -504,7 +504,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -524,7 +524,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -534,7 +534,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -594,7 +594,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -624,7 +624,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 10
   },
   {
@@ -644,7 +644,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 0
   },
   {
@@ -654,7 +654,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -664,7 +664,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 0
   },
   {
@@ -674,7 +674,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -714,7 +714,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -744,15 +744,15 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
    "city": "coolidge-az",
    "sub_service": "pre-emergent-weed-control",
    "keyword": "pre emergent weed control coolidge",
-   "organic_position": 20,
-   "ranking_url": "https://www.getyourbucksworth.com/surprise-az/weed-and-lawn-care",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": false,
    "az_volume": 0
@@ -764,7 +764,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 0
   },
   {
@@ -824,15 +824,15 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 0
   },
   {
    "city": "tempe-az",
    "sub_service": "post-emergent-weed-treatment",
    "keyword": "weed control tempe",
-   "organic_position": 12,
-   "ranking_url": "https://www.getyourbucksworth.com/tempe-az/weed-and-lawn-care",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": true,
    "az_volume": 10
@@ -854,7 +854,7 @@
    "organic_position": null,
    "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": false,
+   "map_pack_shown": true,
    "az_volume": 10
   },
   {
@@ -871,18 +871,18 @@
    "city": "ahwatukee-az",
    "sub_service": "roach-elimination",
    "keyword": "cockroach exterminator ahwatukee",
-   "organic_position": 7,
-   "ranking_url": "https://www.getyourbucksworth.com/ahwatukee-az/pest-and-termite/termite-treatment",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
-   "map_pack_shown": true,
+   "map_pack_shown": false,
    "az_volume": 0
   },
   {
    "city": "ahwatukee-az",
    "sub_service": "rodent-exclusion",
    "keyword": "rodent control ahwatukee",
-   "organic_position": 29,
-   "ranking_url": "https://www.getyourbucksworth.com/ahwatukee-az/pest-and-termite/roach-elimination",
+   "organic_position": null,
+   "ranking_url": null,
    "map_pack_position": null,
    "map_pack_shown": true,
    "az_volume": 0

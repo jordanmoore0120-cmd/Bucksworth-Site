@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-01T17:52:35.480143+00:00",
+ "generated": "2026-11-08T17:46:50.994136+00:00",
  "sources": {
   "demand": "DataForSEO google_ads search_volume, Arizona,United States",
   "questions": "DataForSEO Labs keyword_suggestions (US) re-measured with google_ads search_volume, Arizona,United States",
-  "gsc": "Search Console query+page 2026-08-01..2026-10-30"
+  "gsc": "Search Console query+page 2026-08-08..2026-11-06"
  },
  "questions": {
   "scorpion-control": [
@@ -110,25 +110,13 @@
     "az_volume": 170
    },
    {
+    "keyword": "are scorpions insect",
+    "us_volume": 4400,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
     "keyword": "can scorpions kill you",
-    "us_volume": 2900,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
-    "keyword": "will scorpions kill you",
-    "us_volume": 2900,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
-    "keyword": "scorpions that can kill you",
-    "us_volume": 2900,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
-    "keyword": "do scorpions kill you",
     "us_volume": 2900,
     "intent": "informational",
     "az_volume": 170
@@ -264,6 +252,18 @@
     "us_volume": 170,
     "intent": "informational",
     "az_volume": 20
+   },
+   {
+    "keyword": "is a scorpion sting dangerous",
+    "us_volume": 140,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "how painful is a scorpion sting",
+    "us_volume": 140,
+    "intent": "informational",
+    "az_volume": 20
    }
   ],
   "termite-treatment": [
@@ -340,15 +340,15 @@
     "az_volume": 720
    },
    {
-    "keyword": "termites exterminator cost",
+    "keyword": "cost to remove termites",
     "us_volume": 9900,
     "intent": "commercial",
     "az_volume": 720
    },
    {
-    "keyword": "cost to treat for termites",
+    "keyword": "termites exterminator cost",
     "us_volume": 9900,
-    "intent": "informational",
+    "intent": "commercial",
     "az_volume": 720
    },
    {
@@ -654,6 +654,12 @@
     "az_volume": 590
    },
    {
+    "keyword": "how do i get rid of cockroaches",
+    "us_volume": 22200,
+    "intent": "informational",
+    "az_volume": 590
+   },
+   {
     "keyword": "how to remove cockroaches",
     "us_volume": 22200,
     "intent": "informational",
@@ -757,12 +763,6 @@
    },
    {
     "keyword": "american cockroach vs german cockroach",
-    "us_volume": 12100,
-    "intent": "informational",
-    "az_volume": 320
-   },
-   {
-    "keyword": "german cockroach vs american",
     "us_volume": 12100,
     "intent": "informational",
     "az_volume": 320
@@ -926,6 +926,12 @@
     "az_volume": 170
    },
    {
+    "keyword": "how get rid of sugar ants",
+    "us_volume": 12100,
+    "intent": "informational",
+    "az_volume": 170
+   },
+   {
     "keyword": "how to get rid sugar ants",
     "us_volume": 12100,
     "intent": "informational",
@@ -945,12 +951,6 @@
    },
    {
     "keyword": "how to rid sugar ants",
-    "us_volume": 9900,
-    "intent": "informational",
-    "az_volume": 170
-   },
-   {
-    "keyword": "how get rid of sugar ants",
     "us_volume": 9900,
     "intent": "informational",
     "az_volume": 170
@@ -1380,7 +1380,19 @@
     "az_volume": 140
    },
    {
+    "keyword": "how do you get rid of mice in the house",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
     "keyword": "how can you get rid of mice in the house",
+    "us_volume": 14800,
+    "intent": "informational",
+    "az_volume": 140
+   },
+   {
+    "keyword": "how can you get rid of mice in your house",
     "us_volume": 14800,
     "intent": "informational",
     "az_volume": 140
@@ -1435,24 +1447,6 @@
    },
    {
     "keyword": "how to get rid of rats in roof",
-    "us_volume": 880,
-    "intent": "informational",
-    "az_volume": 110
-   },
-   {
-    "keyword": "how to get rid of rats on roof",
-    "us_volume": 880,
-    "intent": "informational",
-    "az_volume": 110
-   },
-   {
-    "keyword": "how to get rid of rats in the roof",
-    "us_volume": 880,
-    "intent": "informational",
-    "az_volume": 110
-   },
-   {
-    "keyword": "how to.get rid of roof rats",
     "us_volume": 880,
     "intent": "informational",
     "az_volume": 110
@@ -1569,6 +1563,12 @@
    },
    {
     "keyword": "what do bed bed bugs look like",
+    "us_volume": 110000,
+    "intent": "informational",
+    "az_volume": 2900
+   },
+   {
+    "keyword": "what do bed bugs look like on the bed",
     "us_volume": 110000,
     "intent": "informational",
     "az_volume": 2900
@@ -1767,12 +1767,6 @@
    },
    {
     "keyword": "what does bed bugs look like bites",
-    "us_volume": 90500,
-    "intent": "informational",
-    "az_volume": 1900
-   },
-   {
-    "keyword": "how to i get rid of bed bugs",
     "us_volume": 90500,
     "intent": "informational",
     "az_volume": 1900
@@ -2172,6 +2166,12 @@
     "az_volume": 480
    },
    {
+    "keyword": "can wood borer bees sting",
+    "us_volume": 33100,
+    "intent": "informational",
+    "az_volume": 480
+   },
+   {
     "keyword": "can carpenter bees bite",
     "us_volume": 33100,
     "intent": "informational",
@@ -2365,12 +2365,6 @@
    },
    {
     "keyword": "how do you get rid of wood boring bees",
-    "us_volume": 22200,
-    "intent": "informational",
-    "az_volume": 50
-   },
-   {
-    "keyword": "how to rid of carpenter bees",
     "us_volume": 22200,
     "intent": "informational",
     "az_volume": 50
@@ -2614,6 +2608,12 @@
     "az_volume": 720
    },
    {
+    "keyword": "weed killer safe pets",
+    "us_volume": 14800,
+    "intent": "commercial",
+    "az_volume": 720
+   },
+   {
     "keyword": "weed killer safe for animals",
     "us_volume": 14800,
     "intent": "transactional",
@@ -2653,12 +2653,6 @@
     "keyword": "diy weed killer recipe",
     "us_volume": 9900,
     "intent": "informational",
-    "az_volume": 320
-   },
-   {
-    "keyword": "diy weed killer",
-    "us_volume": 9900,
-    "intent": "transactional",
     "az_volume": 320
    },
    {
@@ -2984,6 +2978,12 @@
     "az_volume": 20
    },
    {
+    "keyword": "lawn seed vs fertilizer",
+    "us_volume": 2900,
+    "intent": "informational",
+    "az_volume": 20
+   },
+   {
     "keyword": "how to put fertilizer on lawn",
     "us_volume": 2400,
     "intent": "informational",
@@ -2991,18 +2991,6 @@
    },
    {
     "keyword": "how to lawn fertilizer",
-    "us_volume": 2400,
-    "intent": "informational",
-    "az_volume": 20
-   },
-   {
-    "keyword": "how to apply fertilizer lawn",
-    "us_volume": 2400,
-    "intent": "informational",
-    "az_volume": 20
-   },
-   {
-    "keyword": "how to apply fertilizer to lawn",
     "us_volume": 2400,
     "intent": "informational",
     "az_volume": 20
@@ -3383,6 +3371,12 @@
     "keyword": "best weed and feed",
     "us_volume": 2400,
     "intent": "informational",
+    "az_volume": 20
+   },
+   {
+    "keyword": "best feed and weed",
+    "us_volume": 2400,
+    "intent": "commercial",
     "az_volume": 20
    }
   ]
