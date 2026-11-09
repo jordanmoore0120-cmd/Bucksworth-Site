@@ -1,67 +1,67 @@
 {
- "generated": "2026-11-02T12:33:04Z",
+ "generated": "2026-11-09T12:35:11Z",
  "source": "DataForSEO backlinks/summary/live (rank = DataForSEO domain rank 0-1000)",
  "domains": {
   "getyourbucksworth.com": {
    "rank": 165,
-   "backlinks": 259,
-   "referring_domains": 124,
-   "referring_main_domains": 118,
-   "referring_ips": 105,
+   "backlinks": 268,
+   "referring_domains": 129,
+   "referring_main_domains": 123,
+   "referring_ips": 110,
    "broken_backlinks": 1,
    "broken_pages": 85
   },
   "azpest.com": {
    "rank": 252,
-   "backlinks": 4123,
-   "referring_domains": 793,
-   "referring_main_domains": 743,
-   "referring_ips": 490,
+   "backlinks": 4131,
+   "referring_domains": 808,
+   "referring_main_domains": 760,
+   "referring_ips": 533,
    "broken_backlinks": 1,
    "broken_pages": 6
   },
   "burnspestelimination.com": {
-   "rank": 221,
-   "backlinks": 1121,
-   "referring_domains": 439,
-   "referring_main_domains": 421,
+   "rank": 220,
+   "backlinks": 1108,
+   "referring_domains": 431,
+   "referring_main_domains": 415,
    "referring_ips": 273,
-   "broken_backlinks": 1,
-   "broken_pages": 26
+   "broken_backlinks": 0,
+   "broken_pages": 24
   },
   "truly-nolen.com": {
    "rank": 0,
-   "backlinks": 57,
-   "referring_domains": 52,
-   "referring_main_domains": 46,
-   "referring_ips": 37,
+   "backlinks": 62,
+   "referring_domains": 56,
+   "referring_main_domains": 50,
+   "referring_ips": 41,
    "broken_backlinks": 0,
    "broken_pages": 0
   },
   "bulwarkpestcontrol.com": {
-   "rank": 384,
-   "backlinks": 786271,
-   "referring_domains": 1755,
-   "referring_main_domains": 1709,
-   "referring_ips": 1055,
-   "broken_backlinks": 21,
-   "broken_pages": 52
+   "rank": 337,
+   "backlinks": 314947,
+   "referring_domains": 1696,
+   "referring_main_domains": 1647,
+   "referring_ips": 1064,
+   "broken_backlinks": 16,
+   "broken_pages": 49
   },
   "catseyepest.com": {
    "rank": 325,
-   "backlinks": 7705,
-   "referring_domains": 1763,
-   "referring_main_domains": 1700,
-   "referring_ips": 775,
-   "broken_backlinks": 19,
-   "broken_pages": 22
+   "backlinks": 7342,
+   "referring_domains": 1651,
+   "referring_main_domains": 1584,
+   "referring_ips": 777,
+   "broken_backlinks": 33,
+   "broken_pages": 28
   },
   "ecopest.com": {
    "rank": 0,
-   "backlinks": 67,
-   "referring_domains": 64,
-   "referring_main_domains": 60,
-   "referring_ips": 48,
+   "backlinks": 73,
+   "referring_domains": 70,
+   "referring_main_domains": 66,
+   "referring_ips": 54,
    "broken_backlinks": 0,
    "broken_pages": 0
   }
