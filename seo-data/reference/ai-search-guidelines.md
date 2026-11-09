@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-11-05**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-11-09**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -93,7 +93,11 @@ Structured data — https://developers.google.com/search/docs/appearance/structu
   sections because they help users and AI answers; FAQPage markup is optional and must match the visible
   Q&A exactly. Don't add FAQ blocks just for rich results.
 - LocalBusiness (https://developers.google.com/search/docs/appearance/structured-data/local-business):
-  name/address/phone/hours must match the GBP exactly; use the most specific type (PestControl).
+  name/address/phone/hours must match the GBP exactly; use "the most specific LocalBusiness sub-type possible"
+  (Google). Correction 2026-11-09: schema.org's current vocabulary defines NO `PestControl`,
+  `PestControlService` or `LandscapingBusiness` type (https://schema.org/version/latest/schemaorg-current-https.jsonld;
+  schema.org/PestControlService returns 404). For pest/weed work the nearest defined types are `LocalBusiness`
+  and `HomeAndConstructionBusiness`. DON'T invent @type values; check a type exists on schema.org before using it.
   DON'T add self-serving review/aggregateRating stars about our own business expecting rich results,
   and never put prices/priceRange values in schema (house rule).
 - Article markup: author must be a real person (Jordan Moore) with a `url`; dates must be honest.
@@ -110,6 +114,11 @@ Source: https://support.google.com/business/answer/3038177 (read 2026-10-02)
 - Use a local phone number per location (PHX (480) 422-8388, TUC (520) 284-9930) and a website URL that
   represents that location.
 - Description: services + history; no URLs, no promos/prices, no keyword lists.
+- Offers (https://support.google.com/business/answer/18888417, new help doc, read 2026-11-09): offers can show on the
+  profile and in AI Overviews. They come from authorized third-party partners, our own Offers posts, or offers Google
+  finds on linked social profiles. So every Offers post and social post must already follow house rules (e.g. never
+  "no contract"). An unauthorized/inaccurate third-party offer is removed via GBP Support
+  ("Remove Offers" → Fix Posts). Feature is limited to select regions/languages.
 - Content policy (https://support.google.com/contributionpolicy/answer/7400114): no fake engagement,
   no incentivized or gated reviews, no asking reviewers to name employees with rewards attached.
 
