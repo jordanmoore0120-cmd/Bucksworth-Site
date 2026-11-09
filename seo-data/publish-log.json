@@ -377,5 +377,18 @@
   "money_page_linked": "/phoenix-az/pest-and-termite/termite-treatment",
   "serp_type": "informational question (queue data generated 11-01; live SERP/DataForSEO/Zapier not pulled this run)",
   "gate": "topic-check pass (no owning URL). Rank 1 termites and rank 3 roof rats owned by existing posts; rank 2 near-variant of 2023 ants post; rank 4 published 11-02; rank 5 pack rats and ranks 7-10 owned. Striking-distance pages linked: /phoenix-az/pest-and-termite, /mesa-az/pest-and-termite"
+ },
+ {
+  "date": "2026-11-09",
+  "slug": "can-wood-borer-bees-sting-what-mesa-homeowners-should-know-about-carpenter-bee-stings",
+  "city": "mesa-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "bee-wasp-removal",
+  "target_question": "can wood borer bees sting",
+  "az_volume": 480,
+  "queue_rank": 1,
+  "money_page_linked": "/mesa-az/pest-and-termite/bee-wasp-removal",
+  "serp_type": "informational question (queue data generated 11-08; live SERP/DataForSEO/Zapier not pulled this run)",
+  "gate": "topic-check pass for 'can wood borer bees sting' (no owning URL; no gsc-ranking-map hit). Near neighbors checked: Tempe 'how to get rid of wood-boring bees' (removal intent) and Chandler 'do bumble bees sting' (bumble/carpenter/honey comparison); this post is sting-risk specific with a different outline. Ranks 2-4,6,9-12 fail topic-check; 5 near-duplicates the Queen Creek 'are scorpions arachnids' eight-legs post; 7-8 overlap Avondale sting-look post, deferred. Striking-distance pages linked: /mesa-az/pest-and-termite. Information gain: who-can-sting table (male/female carpenter, honey bee, paper wasp, bumble) + what-you-see-to-sting-risk identification table + DIY vs pro by situation"
  }
 ]
