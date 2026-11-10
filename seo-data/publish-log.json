@@ -390,5 +390,18 @@
   "money_page_linked": "/mesa-az/pest-and-termite/bee-wasp-removal",
   "serp_type": "informational question (queue data generated 11-08; live SERP/DataForSEO/Zapier not pulled this run)",
   "gate": "topic-check pass for 'can wood borer bees sting' (no owning URL; no gsc-ranking-map hit). Near neighbors checked: Tempe 'how to get rid of wood-boring bees' (removal intent) and Chandler 'do bumble bees sting' (bumble/carpenter/honey comparison); this post is sting-risk specific with a different outline. Ranks 2-4,6,9-12 fail topic-check; 5 near-duplicates the Queen Creek 'are scorpions arachnids' eight-legs post; 7-8 overlap Avondale sting-look post, deferred. Striking-distance pages linked: /mesa-az/pest-and-termite. Information gain: who-can-sting table (male/female carpenter, honey bee, paper wasp, bumble) + what-you-see-to-sting-risk identification table + DIY vs pro by situation"
+ },
+ {
+  "date": "2026-11-10",
+  "slug": "how-can-you-get-rid-of-termites-what-avondale-homeowners-should-know-about-treating-subterranean-termites",
+  "city": "avondale-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "termite-treatment",
+  "target_question": "how can you get rid of termites",
+  "az_volume": 480,
+  "queue_rank": 2,
+  "money_page_linked": "/avondale-az/pest-and-termite/termite-treatment",
+  "serp_type": "informational question (queue data generated 11-08; live SERP/DataForSEO/Zapier not pulled this run)",
+  "gate": "topic-check flags generic termite city posts only; no existing URL targets this question. Queue #1 already published 11-09."
  }
 ]
