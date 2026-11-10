@@ -4,6 +4,13 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **2026-11-10 · Avondale getting-rid-of-termites post: add second image and correct first photo description** (commit 7756f9c)
+  - Post: `/blog/how-can-you-get-rid-of-termites-what-avondale-homeowners-should-know-about-treating-subterranean-termites`
+  - Source and live article contain only one image. Add a second relevant real Bucksworth termite/inspection photo with accurate alt text and image dimensions.
+  - Visual QA: `tech-pest-control.jpg` shows a technician inside an open-framed new build, not the "home exterior during a termite and pest service visit in Avondale" claimed by its alt. Correct the alt to the visible setting without inventing a city or treatment event; the Phoenix white-ants post already uses an accurate description of this same asset.
+  - Search-intent check remains unverified: publish-log says no live SERP was pulled. The older Goodyear termite guide (`/blog/the-goodyear-homeowners-guide-to-termite-treatment-advice-for-estrella-mountain-`) already covers treatment methods, DIY and prevention. Compare intent on the live SERP and document why this new question is distinct; do not treat topic-check's pass as proof of no overlap.
+  - Keep URL, title and publication date unchanged. Other measured checks passed: 1,608 words, 10 H2s, 6 FAQ questions, 2 tables, 12 unique internal links all HTTP 200, money-page link, self-canonical, indexable, valid JSON-LD without prices, approved phone only.
+
 - [x] **DONE 2026-11-07 (landed on main via cherry-pick of 0e7c683; second image tech-residential-service.jpg added; first alt corrected; SHA in git log) · 2026-11-06 · Phoenix white-ants post: publish to main + add second image** (commit 0e7c683, side branch `claude/fervent-faraday-zh4ejw` only)
   - Post: `/blog/signs-of-white-ants-in-a-phoenix-house-what-homeowners-should-know-about-termites-that-look-like-flying-ants` returns 404 live: the commit was pushed to the side branch, not `main`. Land it on `main` (keep URL, title and date) and confirm 200.
   - Only 1 image (bar is >=2). Add a second relevant real photo (termite or inspection work, e.g. a mud-tube/termite job photo) with alt text describing exactly what is visible.
