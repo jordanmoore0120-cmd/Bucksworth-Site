@@ -75,7 +75,7 @@ export default function ServiceCard({
                 href={`/${city.slug}/${service.slug}/${sub.slug}`}
                 className="svc-sub-link"
               >
-                <span className="svc-sub-name">{sub.name}</span>
+                <span className="svc-sub-name">{sub.menuLabel ?? sub.name}</span>
                 <span className="svc-sub-desc">{sub.shortDesc}</span>
                 <span className="svc-sub-arrow" aria-hidden>
                   &rarr;

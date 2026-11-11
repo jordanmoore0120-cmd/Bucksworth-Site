@@ -13,6 +13,8 @@ export interface SubService {
   icon: string;
   shortDesc: string;
   longDesc: string;
+  /** Visible label in menus, cards and chips. Page title/H1/schema keep `name` (page identity). */
+  menuLabel?: string;
 }
 
 export interface ServiceVertical {
@@ -388,6 +390,7 @@ export const SERVICES: ServiceVertical[] = [
       },
       {
         name: "Gravel & Rock Yard Maintenance",
+        menuLabel: "Gravel & Rock Yard Weed Control",
         slug: "gravel-rock-yard-maintenance",
         icon: "rock",
         shortDesc: "Weed control for gravel & rock yards",

@@ -4,7 +4,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [ ] **2026-11-10 · Avondale getting-rid-of-termites post: add second image and correct first photo description** (commit 7756f9c)
+- [x] **DONE 2026-11-11 (SHA_PLACEHOLDER: second image tech-residential-service.jpg added with accurate alt + 1600x900 dims, lazy; first alt corrected to the open-framed new-build description; live SERP pulled via DataForSEO: "how can you get rid of termites" = national how-to guides, "termite treatment goodyear az" = local provider results, zero URL overlap, intent distinct; logged in publish-log) · 2026-11-10 · Avondale getting-rid-of-termites post: add second image and correct first photo description** (commit 7756f9c)
   - Post: `/blog/how-can-you-get-rid-of-termites-what-avondale-homeowners-should-know-about-treating-subterranean-termites`
   - Source and live article contain only one image. Add a second relevant real Bucksworth termite/inspection photo with accurate alt text and image dimensions.
   - Visual QA: `tech-pest-control.jpg` shows a technician inside an open-framed new build, not the "home exterior during a termite and pest service visit in Avondale" claimed by its alt. Correct the alt to the visible setting without inventing a city or treatment event; the Phoenix white-ants post already uses an accurate description of this same asset.
@@ -23,6 +23,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
   - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
   - Replace with two relevant real Bucksworth lawn-treatment photos and alt text that accurately describes what is visible. Do not invent a Phoenix location or a treatment type from a generic image.
   - Live visual re-check 2026-11-05: new `tech-treating-home.jpg` shows treatment beside a shrub/gravel bed; `tech-service-action.jpg` shows a backpack sprayer beside the home on gravel. The new alt text is accurate, but neither photo shows lawn treatment or turf. The original request for relevant lawn-treatment photos is not yet complete. Keep the accurate wording; replace with verified lawn-treatment photos when available, or report the asset gap rather than mark the whole item done.
+  - 2026-11-11 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-06 Claude: ASSET GAP. `public/images/photos/` has no lawn/turf treatment photo (26 files, all pest/HVAC/plumbing/truck). Needs Jordan/Viktor to upload a real lawn-treatment photo; item stays open.
   - Keep URL, title and publication date unchanged. Other measured checks passed: 1,655 words, 10 H2s, 6 FAQ questions, 2 tables, 12 internal links all HTTP 200, money-page link present, self-canonical, indexable, valid JSON-LD without price fields. No aeration target/title overlap found in publish-log, index or GSC ranking map.
 

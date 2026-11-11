@@ -2,12 +2,19 @@ import { MetadataRoute } from "next";
 import { CITIES } from "@/lib/cities";
 import { SERVICES } from "@/lib/services";
 import { getAllPostsMeta } from "@/lib/blog";
+import {
+  HOME_MODIFIED,
+  CITY_PAGE_MODIFIED,
+  STATIC_PAGE_MODIFIED,
+  serviceHubModified,
+  subServiceModified,
+} from "@/lib/content-dates";
 
 const BASE = "https://www.getyourbucksworth.com";
 
 /** Ensure date string has timezone for valid sitemap lastmod */
 function normalizeDate(d: string): string {
-  if (!d) return new Date().toISOString();
+  if (!d) return "";
   // Already has timezone (Z or +/- offset) → valid
   if (d.endsWith("Z") || /[+-]\d{2}:\d{2}$/.test(d)) return d;
   // Has time component but no timezone → append Z (UTC)
@@ -17,13 +24,13 @@ function normalizeDate(d: string): string {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const now = new Date().toISOString();
+  // lastmod = real content-change date (src/lib/content-dates.ts), never build time.
   const entries: MetadataRoute.Sitemap = [];
 
   /* ── Homepage ── */
   entries.push({
     url: BASE,
-    lastModified: now,
+    lastModified: HOME_MODIFIED,
     changeFrequency: "weekly",
     priority: 1.0,
   });
@@ -44,7 +51,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const pg of staticPages) {
     entries.push({
       url: `${BASE}${pg.path}`,
-      lastModified: now,
+      ...(STATIC_PAGE_MODIFIED[pg.path] ? { lastModified: STATIC_PAGE_MODIFIED[pg.path] } : {}),
       changeFrequency: pg.freq,
       priority: pg.p,
     });
@@ -54,7 +61,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const city of CITIES) {
     entries.push({
       url: `${BASE}/${city.slug}`,
-      lastModified: now,
+      lastModified: CITY_PAGE_MODIFIED,
       changeFrequency: "weekly",
       priority: 0.9,
     });
@@ -71,7 +78,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (const svc of verticals) {
       entries.push({
         url: `${BASE}/${city.slug}/${svc.slug}`,
-        lastModified: now,
+        lastModified: serviceHubModified(svc.slug),
         changeFrequency: "weekly",
         priority: 0.8,
       });
@@ -80,7 +87,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       for (const sub of svc.subServices) {
         entries.push({
           url: `${BASE}/${city.slug}/${svc.slug}/${sub.slug}`,
-          lastModified: now,
+          lastModified: subServiceModified(city.slug, svc.slug, sub.slug),
           changeFrequency: "monthly",
           priority: 0.7,
         });

@@ -320,7 +320,7 @@ export default function RequestServiceClient() {
                 className={`rs-sub-chip ${selectedSub === sub.slug ? "rs-sub-chip--active" : ""}`}
                 onClick={() => setSelectedSub(selectedSub === sub.slug ? null : sub.slug)}
               >
-                {sub.name}
+                {sub.menuLabel ?? sub.name}
               </button>
             ))}
           </div>

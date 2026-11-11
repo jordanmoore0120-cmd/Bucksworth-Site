@@ -17,6 +17,7 @@ import NearbyCities from "@/components/NearbyCities";
 import ReviewsSection from "@/components/ReviewsSection";
 import { aggregateRating, REVIEW_TOTALS } from "@/lib/reviews";
 import { getCityMetaOverride } from "@/lib/city-meta-overrides";
+import { CITY_PAGE_MODIFIED } from "@/lib/content-dates";
 
 
 interface CityPageProps {
@@ -138,7 +139,7 @@ export default async function CityPage({ params }: CityPageProps) {
       closes: "18:00",
     }],
     parentOrganization: { "@id": "https://www.getyourbucksworth.com/#organization" },
-    dateModified: "2026-06-28",
+    dateModified: CITY_PAGE_MODIFIED,
   };
 
   // BreadcrumbList schema

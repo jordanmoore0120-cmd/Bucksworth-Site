@@ -5,22 +5,22 @@
    "id": "T001",
    "owner": "site-guardian",
    "priority": "P0",
-   "status": "open",
+   "status": "done",
    "created": "2026-10-07",
    "title": "Stop build-time sitemap lastmod: sitemap.ts stamps every non-blog page with new Date() on every deploy, so all pages look changed/new",
    "evidence": "src/app/sitemap.ts lastModified: now (homepage, static, city, service, sub-service)",
-   "done": null,
+   "done": "2026-11-11 SHA_PLACEHOLDER: sitemap lastmod now from src/lib/content-dates.ts (real content-change dates from git history); static pages without a verified date carry no lastmod; build time no longer used",
    "demand": "URL/identity protection (P0)"
   },
   {
    "id": "T002",
    "owner": "site-guardian",
    "priority": "P0",
-   "status": "open",
+   "status": "done",
    "created": "2026-10-07",
    "title": "Hard-coded schema dateModified 2026-06-28 on city and service pages; tie it to the real content change date",
    "evidence": "src/app/[city]/page.tsx:142, src/app/[city]/[service]/page.tsx:277",
-   "done": null,
+   "done": "2026-11-11 SHA_PLACEHOLDER: city + service hub schema dateModified read from src/lib/content-dates.ts (city 2026-10-09, pest hubs 2026-10-10, other hubs 2026-10-07)",
    "demand": "URL/identity protection (P0)"
   },
   {
@@ -82,23 +82,23 @@
    "id": "T008",
    "owner": "cro-dev",
    "priority": "P0",
-   "status": "open",
+   "status": "done",
    "created": "2026-10-07",
    "demand": "customer-visible: sticky mobile bar on every page",
    "title": "Sticky 'QUOTE' button does nothing visible on mobile (every page). The estimator modal renders unstyled at the bottom of the page because src/styles/instant-estimator.css is imported only in src/app/instant-estimate/page.tsx, not where EstimatorProvider/InstantEstimator mount (layout). Fix: import the CSS in the component, then re-run site-qa.",
    "evidence": "node scripts/site-qa.mjs: FAIL dead-cta / [mobile] 'QUOTE': ie-overlay/ie-modal position:static at y≈17,000px (live 2026-10-07)",
-   "done": null
+   "done": "2026-10-29 aafd013: estimator CSS imported in InstantEstimator.tsx (verified in code 2026-11-11)"
   },
   {
    "id": "T009",
    "owner": "seo-content",
    "priority": "P0",
-   "status": "open",
+   "status": "done",
    "created": "2026-10-07",
    "demand": "customer-visible: Services mega-menu on every page",
    "title": "Menus and estimator imply lawn/landscape MAINTENANCE we don't sell. Fix: 'Gravel & Rock Yard Maintenance' (menu label), estimator 'Full Lawn Care', and meta 'lawn and landscape care'. Change the VISIBLE LABELS only (e.g. 'Gravel & Rock Yard Weed Control', 'Lawn Fertilization & Weed Control'); never the URL slugs. KEEP Lawn Fertilization, Overseeding, Pre-Emergent and Weed & Feed: Jordan confirmed 2026-10-07 we sell them (TruGreen-style lawn treatment).",
    "evidence": "site-qa service-truth FAILs (live nav + src/lib/services.ts:390, src/components/InstantEstimator.tsx:192)",
-   "done": null
+   "done": "2026-11-11 SHA_PLACEHOLDER: visible label now \"Gravel & Rock Yard Weed Control\" in header mega-menu, footer, service cards, hub cards, request form, HTML sitemap (menuLabel); page title/H1/URL unchanged per page-identity. Estimator relabel + gravel blurb done in aafd013; no \"lawn and landscape care\" meta left in src"
   },
   {
    "id": "T010",

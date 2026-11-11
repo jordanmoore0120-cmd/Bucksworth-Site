@@ -401,7 +401,20 @@
   "az_volume": 480,
   "queue_rank": 2,
   "money_page_linked": "/avondale-az/pest-and-termite/termite-treatment",
-  "serp_type": "informational question (queue data generated 11-08; live SERP/DataForSEO/Zapier not pulled this run)",
+  "serp_type": "informational how-to (live DataForSEO SERP pulled 2026-11-11, Phoenix mobile: AI Overview + national how-to guides EPA, Home Depot, Orkin, UK Entomology). Goodyear termite guide's query 'termite treatment goodyear az' returns local-provider/commercial results with zero URL overlap, so intents are distinct (verified 2026-11-11).",
   "gate": "topic-check flags generic termite city posts only; no existing URL targets this question. Queue #1 already published 11-09."
+ },
+ {
+  "date": "2026-11-11",
+  "slug": "crabgrass-vs-bermuda-grass-how-maricopa-homeowners-can-tell-them-apart-and-treat-each-one",
+  "city": "maricopa-az",
+  "vertical": "weed-and-lawn-care",
+  "sub_service": "bermuda-grass-control",
+  "target_question": "crabgrass vs bermuda grass",
+  "az_volume": 40,
+  "queue_rank": 9,
+  "money_page_linked": "/maricopa-az/weed-and-lawn-care/bermuda-grass-control",
+  "serp_type": "identification / comparison (live DataForSEO SERP 2026-11-11, Phoenix mobile: AI Overview, images, PAA, video; ID guides from greengroupcompanies, UC IPM, lawn forums). getyourbucksworth.com not in top 20.",
+  "gate": "topic-check pass except core-word 'bermuda grass' match to the Phoenix when-to-seed post (different question: seeding timing, now linked). No title/target with 'crabgrass' in index or publish-log. Ranks 3 (2023 ants post owns it), 4/6 (owned per 11-06 gate), 5 (near-variant of QC 'are scorpions arachnids' eight-legs post), 7 (live SERP = sting first-aid, already served by Avondale + Tempe sting posts), 8 (H3 already in both sting posts) skipped. Striking-distance pages linked: /maricopa-az/pest-and-termite (pos 20.2), /san-tan-valley-az (pos 17.0)."
  }
 ]

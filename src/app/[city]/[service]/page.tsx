@@ -20,6 +20,7 @@ import { aggregateRating, tagForService } from "@/lib/reviews";
 import { getRelatedBlogPostsForServiceHub } from "@/lib/blog-links";
 import { getServiceHubOverride } from "@/lib/service-hub-overrides";
 import { nearestCities, anchorFor } from "@/lib/nearest-cities";
+import { serviceHubModified } from "@/lib/content-dates";
 
 interface ServiceHubProps {
   params: Promise<{ city: string; service: string }>;
@@ -273,7 +274,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
     aggregateRating: aggregateRating(city.branch),
     areaServed: { "@type": "City", name: city.name },
     serviceType: service.name,
-    dateModified: "2026-06-28",
+    dateModified: serviceHubModified(service.slug),
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: `${service.name} Services`,
@@ -377,7 +378,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
             <div className="svc-hub-grid">
               {service.subServices.map((sub) => (
                 <Link key={sub.slug} href={`/${city.slug}/${service.slug}/${sub.slug}`} className="svc-hub-card">
-                  <h3>{sub.name}</h3>
+                  <h3>{sub.menuLabel ?? sub.name}</h3>
                   <p>{sub.longDesc}</p>
                   <span className="svc-hub-card-link">Learn More &rarr;</span>
                 </Link>

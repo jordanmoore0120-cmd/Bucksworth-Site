@@ -55,7 +55,7 @@ export default function Footer() {
                     href={`/phoenix-az/${svc.slug}/${sub.slug}`}
                     className="footer-sub-link"
                   >
-                    {sub.name}
+                    {sub.menuLabel ?? sub.name}
                   </Link>
                 ))}
               </div>

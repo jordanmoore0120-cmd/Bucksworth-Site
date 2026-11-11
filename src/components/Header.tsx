@@ -278,7 +278,7 @@ export default function Header() {
                             className="mega-sub-link"
                             onClick={() => setServicesOpen(false)}
                           >
-                            {sub.name}
+                            {sub.menuLabel ?? sub.name}
                           </Link>
                         ))}
                         {svc.subServices.length > 6 && (

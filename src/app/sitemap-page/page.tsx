@@ -52,7 +52,7 @@ export default function SitemapPage() {
                 {svc.subServices.map((sub) => (
                   <li key={sub.slug}>
                     <Link href={`/phoenix-az/${svc.slug}/${sub.slug}`} style={{ color: "var(--g600)", fontSize: "14px" }}>
-                      {sub.name}
+                      {sub.menuLabel ?? sub.name}
                     </Link>
                   </li>
                 ))}
