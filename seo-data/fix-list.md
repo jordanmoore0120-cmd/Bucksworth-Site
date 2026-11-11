@@ -4,6 +4,13 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **2026-11-11 · Maricopa crabgrass-versus-Bermuda post: correct identification advice and county wording** (commit cd47321)
+  - Post: `/blog/crabgrass-vs-bermuda-grass-how-maricopa-homeowners-can-tell-them-apart-and-treat-each-one`
+  - The pull-test section, removal steps and final FAQ imply crabgrass has no runners and that a trailing/rooted stem proves Bermuda. UC IPM says both smooth and large crabgrass can root at stem nodes: https://ipm.ucanr.edu/home-and-landscape/crabgrass/ (opened and checked 2026-11-11). Correct all three passages; describe the pull test as one clue, not a definitive identification, and retain multiple visible ID traits.
+  - Under "How Do You Get Rid of Bermuda Grass Where You Don't Want It?", "other Pinal County cities" groups Casa Grande and Sahuarita together. Sahuarita is in Pima County (also recorded in src/lib/cities.ts). Remove the county grouping or distinguish the counties; keep both useful links and the 10-12-link total.
+  - Photos show general residential treatment, not an identifiable weed species or turf. Their visible-setting descriptions are accurate, but remove the unverified "weed control" service attribution from both alt texts unless a job record supports it.
+  - Keep URL, title and publication date unchanged. Technical checks passed live: 1,939 words, 9 H2s, 6 FAQs, 2 images, 2 tables, 12 internal links all 200, money-page link, self-canonical, indexable, valid price-free JSON-LD, approved phone. Comparison intent is distinct from the existing Bermuda treatment/seeding posts; no crabgrass title or prior target-question match found.
+
 - [x] **DONE 2026-11-11 (cd47321: second image tech-residential-service.jpg added with accurate alt + 1600x900 dims, lazy; first alt corrected to the open-framed new-build description; live SERP pulled via DataForSEO: "how can you get rid of termites" = national how-to guides, "termite treatment goodyear az" = local provider results, zero URL overlap, intent distinct; logged in publish-log) · 2026-11-10 · Avondale getting-rid-of-termites post: add second image and correct first photo description** (commit 7756f9c)
   - Post: `/blog/how-can-you-get-rid-of-termites-what-avondale-homeowners-should-know-about-treating-subterranean-termites`
   - Source and live article contain only one image. Add a second relevant real Bucksworth termite/inspection photo with accurate alt text and image dimensions.
