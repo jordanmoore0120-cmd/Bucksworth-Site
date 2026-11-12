@@ -16,3 +16,11 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - Board T009: menu/card/form label "Gravel & Rock Yard Weed Control" (menuLabel); sub-page title, H1, URL unchanged. T008 verified already fixed in aafd013.
 - Blog: crabgrass vs bermuda grass (Maricopa, bermuda-grass-control), queue #9, AZ vol 40. Ranks 3-8 failed the gate (see publish-log).
 - Connectors: DataForSEO ok (3 live SERPs), GBP ok (Phoenix reviews read). Slack read ok.
+
+## 2026-11-12 daily run (Claude)
+- Fix-list: crabgrass-vs-Bermuda (Maricopa) corrected per Viktor QA: pull test = one clue (crabgrass roots at nodes, UC IPM), removal step + gravel FAQ fixed, Casa Grande (Pinal) vs Sahuarita (Pima), "weed control" removed from both photo alts. Lawn-aeration photo item still ASSET GAP.
+- Board T010 done: homepage linked 35 cities with a trailing slash (308 each) and 17 other links through 1-2 redirect hops; all now point at the final URL.
+- Board T003 (P0) progress: 45 one-hop 301s for the still-404 known_broken_2026_10_07 URLs (pest URLs -> matching Phoenix sub-service, typo blog slugs -> real post, /newhome,/homenew,/title -> /). Every target verified 200 before commit.
+- site-qa (ran today, Playwright): 7 FAIL service-truth. Fixed: nearest-cities anchor label "gravel and rock yard weed control", weed vertical description (no "lawn care services"), Fountain Hills rock-yard blog title/excerpt/alt/body ("Rock Yard Weed Control", slug + date unchanged, no GSC impressions). Left on purpose: services.ts sub-service name "Gravel & Rock Yard Maintenance" (page title/H1 identity, menuLabel already shows Weed Control since T009).
+- Blog: water bugs vs cockroaches (Gilbert, roach-elimination), AZ 260, from question-keywords.json because blog-queue ranks 1-12 are published/owned.
+- Connectors: DataForSEO ok (1 live SERP), GBP ok (Phoenix reviews: 2,026, 4.9, newest 11-11, replied), Slack ok.

@@ -1,18 +1,10 @@
 {
-  "ran_at": "2026-10-08T02:50:28.334Z",
+  "ran_at": "2026-11-12T16:16:50.854Z",
   "base": "https://www.getyourbucksworth.com",
   "static_only": false,
   "fails": 7,
-  "warns": 87,
+  "warns": 92,
   "findings": [
-    {
-      "sev": "FAIL",
-      "check": "service-truth(src)",
-      "where": "src/components/InstantEstimator.tsx:192",
-      "detail": "\"…{ label: \"Full Lawn Care\", value: \"lawn\", icon: \"🏡\" },…\" (Implies mowing/maintenance. Say weed control (and name the actual treatment).)",
-      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
-      "count": 1
-    },
     {
       "sev": "FAIL",
       "check": "service-truth(src)",
@@ -24,7 +16,7 @@
     {
       "sev": "FAIL",
       "check": "service-truth(src)",
-      "where": "src/lib/services.ts:371",
+      "where": "src/lib/services.ts:373",
       "detail": "\"…sworth Home Services provides professional weed control and lawn care services for homes across Phoenix and Tucson, Ariz…\" (Implies mowing/maintenance. Say weed control (and name the actual treatment).)",
       "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
       "count": 1
@@ -32,39 +24,47 @@
     {
       "sev": "FAIL",
       "check": "service-truth(src)",
-      "where": "src/lib/services.ts:390",
+      "where": "src/lib/services.ts:392",
       "detail": "\"…name: \"Gravel & Rock Yard Maintenance\",…\" (We don't do yard maintenance.)",
       "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
       "count": 1
     },
     {
       "sev": "FAIL",
-      "check": "service-truth(src)",
-      "where": "src/lib/services.ts:393",
-      "detail": "\"…shortDesc: \"Weed-free gravel & desert landscape care\",…\" (We are not a landscaping company.)",
-      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
-      "count": 1
-    },
-    {
-      "sev": "FAIL",
-      "check": "dead-cta",
-      "where": "/ [mobile] \"QUOTE\"",
-      "detail": "click adds DOM (play-overlay, ie-overlay, ie-modal) but it renders OFF-SCREEN or unstyled (missing CSS?), so the customer sees nothing",
-      "fix": "Make the button open something visible in the viewport (fix the modal CSS/positioning) or link it to the real page.",
+      "check": "service-truth",
+      "where": "/blog/rock-yard-maintenance-in-fountain-hills-protecting-your-firerock-landscape-inves (title)",
+      "detail": "\"…Rock Yard Maintenance in Fountain Hills: Protecting You…\" We don't do yard maintenance.",
+      "fix": "Reword; we only sell what's in knowledge/services-truth.json.",
       "count": 1
     },
     {
       "sev": "FAIL",
       "check": "service-truth",
-      "where": "/ (nav/dropdowns)",
-      "detail": "\"…ontrol Post-Emergent Weed Treatment Gravel & Rock Yard Maintenance Lawn Fertilization Bermuda Grass …\" We don't do yard maintenance.",
+      "where": "/blog/rock-yard-maintenance-in-fountain-hills-protecting-your-firerock-landscape-inves (h1)",
+      "detail": "\"…Rock Yard Maintenance in Fountain Hills: Protecting You…\" We don't do yard maintenance.",
+      "fix": "Reword; we only sell what's in knowledge/services-truth.json.",
+      "count": 1
+    },
+    {
+      "sev": "FAIL",
+      "check": "service-truth",
+      "where": "/blog/rock-yard-maintenance-in-fountain-hills-protecting-your-firerock-landscape-inves (meta)",
+      "detail": "\"…Expert gravel & rock yard maintenance services in Fountain Hills, AZ. S…\" We don't do yard maintenance.",
+      "fix": "Reword; we only sell what's in knowledge/services-truth.json.",
+      "count": 1
+    },
+    {
+      "sev": "FAIL",
+      "check": "service-truth",
+      "where": "/blog/rock-yard-maintenance-in-fountain-hills-protecting-your-firerock-landscape-inves (nav/dropdowns)",
+      "detail": "\"…0) 422-8388Pay BillRequest Service Home/Blog/Rock Yard Maintenance in Fountain Hills: Protectin... H…\" We don't do yard maintenance.",
       "fix": "Reword; we only sell what's in knowledge/services-truth.json.",
       "count": 1
     },
     {
       "sev": "WARN",
       "check": "service-truth(src)",
-      "where": "src/app/[city]/[service]/page.tsx:140",
+      "where": "src/app/[city]/[service]/page.tsx:141",
       "detail": "\"…per irrigation timing (early morning, deep and infrequent), mowing height (2–3 inches), and fertilization keep lawns hea…\" (We don't mow.)",
       "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
       "count": 1
@@ -72,7 +72,7 @@
     {
       "sev": "WARN",
       "check": "service-truth(src)",
-      "where": "src/app/[city]/[service]/page.tsx:175",
+      "where": "src/app/[city]/[service]/page.tsx:176",
       "detail": "\"…ing thin areas.`, solution: `We evaluate irrigation timing, mowing practices, and soil condition for ${cityName} lawns.…\" (We don't mow.)",
       "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
       "count": 1
@@ -242,6 +242,22 @@
       "check": "service-truth(src)",
       "where": "content/blog/data-2026-08.json:1",
       "detail": "\"…ong> home because it was supposed to be low maintenance. No mowing, no watering, no fertilizing. Then the weeds showed u…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/blog/data-2026-09.json:1",
+      "detail": "\"…is in range, and that any waiting period before seeding or mowing is met. Hot afternoons are a poor time to spray a law…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/blog/data-2026-10.json:1",
+      "detail": "\"…strong>We tell you what to change.</strong> Watering depth, mowing height and timing matter as much as the product.</li>…\" (We don't mow.)",
       "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
       "count": 1
     },
@@ -731,7 +747,7 @@
       "where": "/",
       "detail": "links to /pest-and-termite → 308 /phoenix-az/pest-and-termite",
       "fix": "Link the final URL directly (no redirect hops).",
-      "count": 1
+      "count": 18
     },
     {
       "sev": "WARN",
@@ -739,7 +755,7 @@
       "where": "/",
       "detail": "links to /air-conditioning-and-heating → 308 /phoenix-az/air-conditioning-and-heating",
       "fix": "Link the final URL directly (no redirect hops).",
-      "count": 1
+      "count": 18
     },
     {
       "sev": "WARN",
@@ -747,13 +763,37 @@
       "where": "/",
       "detail": "links to /plumbing-and-water-heaters → 308 /phoenix-az/plumbing-and-water-heaters",
       "fix": "Link the final URL directly (no redirect hops).",
-      "count": 1
+      "count": 18
     },
     {
       "sev": "WARN",
       "check": "internal-link",
       "where": "/",
       "detail": "links to /weed-and-lawn-care → 308 /phoenix-az/weed-and-lawn-care",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 18
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/duct-sealing-and-repair-in-laveen-improving-comfort-in-dobbins-village-homes",
+      "detail": "links to /blog/the-complete-guide-to-ac-repair-in-paradise-valley-from-lincoln-drive-corridor-t → 308 /paradise-valley-az/air-conditioning-and-heating/ac-repair",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/duct-sealing-and-repair-in-laveen-improving-comfort-in-dobbins-village-homes",
+      "detail": "links to /blog/expert-ac-repair-gilbert-az-cool-comfort-you-can-count-on → 308 /gilbert-az/air-conditioning-and-heating/ac-repair",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/bermuda-grass-in-your-gilbert-gravel-how-morrison-ranch-homeowners-fight-back",
+      "detail": "links to /contact → 308 /request-service",
       "fix": "Link the final URL directly (no redirect hops).",
       "count": 1
     }

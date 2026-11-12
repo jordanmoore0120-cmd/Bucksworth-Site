@@ -370,7 +370,7 @@ export const SERVICES: ServiceVertical[] = [
     color: "#b91c1c",
     phone: { phoenix: "(480) 422-8388", tucson: "(520) 284-9930" },
     description:
-      "Bucksworth Home Services provides professional weed control and lawn care services for homes across Phoenix and Tucson, Arizona. Desert weeds like spurge, puncture vine, and bermuda grass invade Arizona yards year-round, damaging curb appeal and property value. Our licensed technicians use targeted pre-emergent barriers, post-emergent treatments, and ongoing lawn care programs that keep your yard looking clean and weed-free all year.",
+      "Bucksworth Home Services provides professional weed control and lawn treatment for homes across Phoenix and Tucson, Arizona. Desert weeds like spurge, puncture vine, and bermuda grass invade Arizona yards year-round, damaging curb appeal and property value. Our licensed technicians use targeted pre-emergent barriers, post-emergent treatments, and lawn fertilization programs that keep your yard looking clean and weed-free all year.",
     subServices: [
       {
         name: "Pre-Emergent Weed Control",

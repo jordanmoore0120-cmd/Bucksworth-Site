@@ -30,7 +30,7 @@ export function anchorFor(serviceSlug: string, subSlug: string | null, cityName:
     "bermuda-grass-control": "Bermuda grass control",
     "overseeding": "overseeding",
     "weed-and-feed-program": "weed and feed",
-    "gravel-rock-yard-maintenance": "gravel and rock yard maintenance",
+    "gravel-rock-yard-maintenance": "gravel and rock yard weed control",
   };
   if (subSlug) return `${sub[subSlug] ?? subSlug.replace(/-/g, " ")} in ${cityName}`;
   return `${serviceSlug === "weed-and-lawn-care" ? "weed control" : "pest control"} in ${cityName}`;

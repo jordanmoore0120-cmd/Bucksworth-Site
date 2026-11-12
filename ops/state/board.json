@@ -32,7 +32,8 @@
    "title": "Migration repair: single-hop 301 for the 332 legacy WP URLs that 404 plus the 57 GSC known-broken URLs; collapse chains",
    "evidence": "seo-data/migration-history.md §4, wp-legacy-urls.json, url-baseline.json known_broken_2026_10_07",
    "done": null,
-   "demand": "URL/identity protection (P0)"
+   "demand": "URL/identity protection (P0)",
+   "progress": " 2026-11-12 SHA_PENDING: 45 one-hop 301s added for known_broken_2026_10_07 (every still-404 entry except lp.getyourbucksworth.com DNS). Remaining: wp-legacy-urls broken list (step 3) + chain collapse (step 4)."
   },
   {
    "id": "T004",
@@ -104,12 +105,12 @@
    "id": "T010",
    "owner": "seo-content",
    "priority": "P1",
-   "status": "open",
+   "status": "done",
    "created": "2026-10-07",
    "demand": "internal link equity across every city hub",
    "title": "Homepage and templates link to /{city}-az/ with a trailing slash, so every link is a 308 hop. Link the final URL. Then enforce the site-qa internal-link rules (hub ↔ children, 3–6 nearest same-service cities, blog → its money page).",
    "evidence": "site-qa WARN internal-link: / links to /phoenix-az/ → 308 /phoenix-az (x40+)",
-   "done": null
+   "done": "2026-11-12 SHA_PENDING: homepage (HomeClient+HomeContent) 35 city links now /{city}-az without trailing slash, 17 other homepage links point at final URLs (no 308/2-hop chains). Other site-qa internal-link rules (hub<->children, nearest cities, blog->money page) were done in bbaba5c/bee9ed8/86d1433; live site-qa 2026-11-12 showed only the homepage hops."
   }
  ]
 }
