@@ -4,6 +4,18 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **P0 · URL GUARD 2026-11-12 · Newly added case-only redirect loops the bug-infestation article** (0193066)
+  - `/blog/9-signs-of-bug-infestation-in-your-home` returns HTTP 308 with Location pointing to itself. A live curl following redirects reaches its redirect limit. Five other newly added aliases also lead into this loop.
+  - `next.config.mjs` adds source `/blog/9-Signs-of-bug-infestation-in-your-home` targeting the lowercase URL. Next.js matches that source case-insensitively, so the lowercase destination matches it again.
+  - Correct the case-only redirect without deleting or renaming the real article. If uppercase normalization is needed, use an exact-case mechanism that does not match the lowercase destination. Keep the other useful alias redirects.
+  - Verify the lowercase article returns 200 without redirecting, and each of the six aliases reaches a 200 article without a loop. Of 45 newly added redirect rules, 39 reach their intended target in one hop; these six fail destination validation.
+
+- [ ] **2026-11-12 · Fountain Hills rock-yard article still promises landscaping despite today's weed-control wording edits** (0193066)
+  - Post: `/blog/rock-yard-maintenance-in-fountain-hills-protecting-your-firerock-landscape-inves`
+  - Live "Our Gravel Yard Maintenance Process" still promises "clear accumulated debris", "redistribute rock" and "clean up storm debris". The first FAQ now says "Our Bucksworth weed control plans include all three", referring to weed treatment, gravel redistribution and topping off rock.
+  - Limit Bucksworth's service promises to weed treatment. Separate any homeowner/landscaper maintenance advice from what Bucksworth performs; remove promises of cleanup, gravel redistribution and rock top-offs from our plans. Keep URL and publication date unchanged.
+  - This is an inherited body-copy problem left unresolved by today's title/excerpt/alt/closing-link edits, not a new landscaping service. The article also retains unsupported HOA fine figures ($50–$200 and $500+); remove those figures unless explicitly approved and sourced.
+
 - [x] **DONE 2026-11-12 (0193066: pull test rewritten as one clue, not proof, with UC IPM node-rooting caveat and the other ID traits; ID intro + table now say crabgrass can root at nodes and Bermuda has rhizomes; removal step 2 and gravel FAQ no longer claim crabgrass has no runners/pull test decides; Casa Grande = Pinal, Sahuarita = Pima; "weed control" removed from both alts; URL/title/date unchanged) · 2026-11-11 · Maricopa crabgrass-versus-Bermuda post: correct identification advice and county wording** (commit cd47321)
   - Post: `/blog/crabgrass-vs-bermuda-grass-how-maricopa-homeowners-can-tell-them-apart-and-treat-each-one`
   - The pull-test section, removal steps and final FAQ imply crabgrass has no runners and that a trailing/rooted stem proves Bermuda. UC IPM says both smooth and large crabgrass can root at stem nodes: https://ipm.ucanr.edu/home-and-landscape/crabgrass/ (opened and checked 2026-11-11). Correct all three passages; describe the pull test as one clue, not a definitive identification, and retain multiple visible ID traits.
