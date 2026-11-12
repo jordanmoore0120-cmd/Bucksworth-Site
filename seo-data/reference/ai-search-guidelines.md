@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-11-09**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-11-12**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -41,6 +41,12 @@ Source: https://developers.google.com/search/docs/appearance/ai-features (read 2
 - Deleted URLs (Google "Non-Canonical Cabinet" 404 video, 2026-10-28, via seroundtable.com/google-404-errors-42405.html):
   404s cause no penalty and don't drain crawl budget; 5xx and 429 errors are the real problem. DO 301 a dead URL to a
   genuinely relevant replacement; DON'T redirect unrelated dead URLs to the homepage (keep 404/410 when nothing fits).
+- CDN/WAF (Google, 2026-11-11, https://developers.google.com/search/blog/2026/11/crawling-cdn):
+  DO exempt verified crawlers from CAPTCHA/blanket bot challenges and pre-warm caches at a controlled pace.
+  Cold caches still hit the origin. For urgent overload, use temporary 429/503 responses for hours or at most 1–2 days,
+  not persistent 403/challenge walls. This is configuration guidance, not a reason to change our URLs or tags.
+- November 2026 core update began **2026-11-10**; the ranking dashboard lists no completion yet (checked 2026-11-12,
+  https://developers.google.com/search/updates/ranking). DON'T attribute a particular Bucksworth rank change to it without evidence.
 
 Helpful content — https://developers.google.com/search/docs/fundamentals/creating-helpful-content
 - DO write people-first content showing first-hand experience (our techs, our jobs, local conditions).
