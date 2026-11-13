@@ -31,3 +31,4 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - Board T011 (footer sitemap service links -> /phoenix-az/{service}), T012 (8 homepage links through redirects, incl. roach + rock-yard anchors that opened the wrong page), T013 (6 weed hub meta descriptions: "yard maintenance" -> "weed control").
 - site-qa (Playwright, live): 1 FAIL (services.ts name, left on purpose - page-identity), 45 WARN before fixes.
 - Blog: "Is Weed Killer Safe for Pets?" (Queen Creek, post-emergent-weed-treatment), AZ 720, from question-keywords.json (queue exhausted).
+- Commit 5ec1aac on main. GBP ok (Phoenix: 2,026 reviews, 4.9, newest 11-11, replied). DataForSEO ok (1 live SERP). Slack read ok.
