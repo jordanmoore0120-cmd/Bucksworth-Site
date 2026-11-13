@@ -315,8 +315,22 @@ const REMOVED_CITY_REDIRECTS: Record<string, string> = {
   "youngtown-az": "surprise-az",
 };
 
+/**
+ * Case-only aliases (exact, case-sensitive match). next.config.mjs redirects
+ * match case-insensitively, so a case-only rule there loops onto its own
+ * lowercase destination (URL GUARD 2026-11-12). Keep them here instead.
+ * scripts/url-guard.mjs reads the source entries below as redirects.
+ */
+const EXACT_CASE_REDIRECTS: { source: string; destination: string }[] = [
+  { source: "/blog/9-Signs-of-bug-infestation-in-your-home", destination: "/blog/9-signs-of-bug-infestation-in-your-home" },
+];
+
 export function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname;
+
+  for (const r of EXACT_CASE_REDIRECTS) {
+    if (path === r.source) return NextResponse.redirect(new URL(r.destination, request.url), 301);
+  }
 
   // Removed city pages: /{old-city}[/service[/subservice]] -> /{real-city}/...
   const citySegments = path.match(/^\/([^\/]+)((?:\/[^\/]+)*)\/?$/);

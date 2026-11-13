@@ -115,7 +115,7 @@ export default function Footer() {
           <div className="footer-sitemap-links">
             <Link href="/">Home</Link>
             {SERVICES.map((svc) => (
-              <Link key={svc.slug} href={`/${svc.slug}`}>
+              <Link key={svc.slug} href={`/phoenix-az/${svc.slug}`}>
                 {svc.name}
               </Link>
             ))}

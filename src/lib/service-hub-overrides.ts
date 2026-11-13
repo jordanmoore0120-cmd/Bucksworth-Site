@@ -32,7 +32,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "goodyear-az/weed-and-lawn-care": {
     metaTitle: "Weed Control Goodyear AZ — #1 Rated Desert Yard Treatment | Bucksworth",
-    metaDescription: "Professional weed control in Goodyear, AZ. Pre-emergent prevention, post-emergent treatment, and rock yard maintenance for Estrella, Palm Valley, Canyon Trails & Pebble Creek. Call (480) 422-8388.",
+    metaDescription: "Professional weed control in Goodyear, AZ. Pre-emergent prevention, post-emergent treatment, and rock yard weed control for Estrella, Palm Valley, Canyon Trails & Pebble Creek. Call (480) 422-8388.",
     heroHeadline: "Goodyear Weed Control — Desert Yard Specialists Since 2013",
     heroDescription: "Goodyear's explosive growth along the I-10 corridor means thousands of homes built directly on raw desert — and that desert fights back with relentless weed pressure year-round. Bucksworth Home Services provides professional weed control and lawn care for every Goodyear community, from Estrella Mountain Ranch to Palm Valley, Canyon Trails, and Pebble Creek. Licensed applicators, commercial-grade herbicides, and pre-emergent programs that actually prevent weeds instead of chasing them.",
     introContent: [
@@ -100,7 +100,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "surprise-az/weed-and-lawn-care": {
     metaTitle: "Weed Control Surprise AZ — Pre-Emergent & Desert Yard Pros | Bucksworth",
-    metaDescription: "Professional weed control in Surprise, AZ. Pre-emergent prevention, post-emergent treatment, and gravel yard maintenance for Surprise Farms, Marley Park, Sun City Grand & Asante. Call (480) 422-8388.",
+    metaDescription: "Professional weed control in Surprise, AZ. Pre-emergent prevention, post-emergent treatment, and gravel yard weed control for Surprise Farms, Marley Park, Sun City Grand & Asante. Call (480) 422-8388.",
     heroHeadline: "Surprise Weed Control — Pre-Emergent Experts for Desert Yards",
     heroDescription: "Surprise is the fastest-growing community in the northwest Valley, with new construction pushing deeper into raw Sonoran Desert every year. That growth creates intense weed pressure — from puncturevine in Surprise Farms to Bermuda grass invasion in Sun City Grand's established landscapes. Bucksworth Home Services delivers professional weed control across all Surprise neighborhoods with licensed applicators, commercial-grade pre-emergent barriers, and targeted post-emergent treatments.",
     introContent: [
@@ -166,7 +166,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "peoria-az/weed-and-lawn-care": {
     metaTitle: "Weed Control Peoria AZ — Pre-Emergent & Lawn Care Experts | Bucksworth",
-    metaDescription: "Professional weed control in Peoria, AZ. Pre-emergent prevention, gravel yard maintenance, and Bermuda lawn care for Vistancia, Westwing, Old Town & Terramar. Call (480) 422-8388.",
+    metaDescription: "Professional weed control in Peoria, AZ. Pre-emergent prevention, gravel yard weed control, and Bermuda lawn care for Vistancia, Westwing, Old Town & Terramar. Call (480) 422-8388.",
     heroHeadline: "Peoria Weed Control — From Lake Pleasant to Old Town, We Keep Yards Clean",
     heroDescription: "Peoria stretches from the established neighborhoods of Old Town Peoria at 83rd Avenue all the way north to the desert foothills near Lake Pleasant — a range of terrain, soil types, and weed challenges that no generic spray-and-pray service can handle. Bucksworth Home Services provides expert weed control across every Peoria community with licensed applicators, neighborhood-specific treatment plans, and pre-emergent programs that prevent weeds before they germinate.",
     introContent: [
@@ -266,7 +266,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "marana-az/weed-and-lawn-care": {
     metaTitle: "Weed Control Marana AZ — Pre-Emergent & Post-Emergent Treatment | Bucksworth",
-    metaDescription: "Professional weed control in Marana, AZ. Pre-emergent barriers, post-emergent treatment, and rock yard maintenance for Continental Ranch, Dove Mountain, Gladden Farms & Saguaro Ranch. Call (520) 284-9930.",
+    metaDescription: "Professional weed control in Marana, AZ. Pre-emergent barriers, post-emergent treatment, and rock yard weed control for Continental Ranch, Dove Mountain, Gladden Farms & Saguaro Ranch. Call (520) 284-9930.",
     heroHeadline: "Marana Weed Control — Desert Landscape Specialists",
     heroDescription: "Marana's rapid expansion northwest of Tucson pushes master-planned communities directly into raw Sonoran Desert — where dormant weed seeds sit waiting for irrigation to trigger explosive growth. Bucksworth Home Services provides professional weed control for every Marana neighborhood, from Continental Ranch and Dove Mountain to Gladden Farms and Saguaro Ranch. Licensed applicators, commercial-grade herbicides, and year-round programs that keep your yard clean.",
     introContent: [
@@ -393,7 +393,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "chandler-az/weed-and-lawn-care": {
     metaTitle: "Weed Control Chandler AZ — Pre-Emergent & Desert Yard Treatment | Bucksworth",
-    metaDescription: "Professional weed control in Chandler, AZ. Pre-emergent barriers, post-emergent treatment, and gravel yard maintenance for Ocotillo, Sun Groves, Chandler Heights & Clemente Ranch. Call (480) 422-8388.",
+    metaDescription: "Professional weed control in Chandler, AZ. Pre-emergent barriers, post-emergent treatment, and gravel yard weed control for Ocotillo, Sun Groves, Chandler Heights & Clemente Ranch. Call (480) 422-8388.",
     heroHeadline: "Chandler Weed Control — East Valley Yard Specialists Since 2013",
     heroDescription: "Chandler's diverse landscape — from irrigated turf in Ocotillo to vast rock yards in Sun Groves and Chandler Heights — demands weed control expertise that adapts to every yard type. Bucksworth Home Services provides professional pre-emergent barriers, post-emergent treatment, and ongoing weed management for every Chandler community. Licensed applicators. Commercial-grade products. Results you can see.",
     introContent: [
@@ -721,7 +721,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "tucson-az/weed-and-lawn-care": {
     metaTitle: "Weed Control Tucson AZ — Pre-Emergent & Desert Yard Treatment | Bucksworth",
-    metaDescription: "Professional weed control in Tucson, AZ. Pre-emergent barriers, post-emergent treatment, and gravel yard maintenance across Sam Hughes, Catalina Foothills, Midtown & Eastside Tucson. Call (520) 284-9930.",
+    metaDescription: "Professional weed control in Tucson, AZ. Pre-emergent barriers, post-emergent treatment, and gravel yard weed control across Sam Hughes, Catalina Foothills, Midtown & Eastside Tucson. Call (520) 284-9930.",
     heroHeadline: "Tucson Weed Control — Licensed Desert Yard Specialists Since 2013",
     heroDescription: "Tucson's five surrounding mountain ranges push Sonoran Desert vegetation directly into residential neighborhoods — from the Catalina Foothills to the Santa Cruz River corridor. Bucksworth Home Services provides professional weed control and lawn care engineered for Tucson's unique environment: extreme UV, monsoon surge, caliche soil, and an 11-month growing season that never gives weeds a true dormancy window. Licensed Pima County applicators, commercial-grade herbicides, and year-round treatment programs that keep your yard HOA-compliant and weed-free.",
     introContent: [

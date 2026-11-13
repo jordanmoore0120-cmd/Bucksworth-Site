@@ -4,15 +4,15 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [ ] URL GUARD 2026-11-13: /9-signs-of-bug-infestation-in-your-home -> redirect-loop (fix: 301 to closest live page or restore)
+- [x] **DONE 2026-11-13 (this commit: loop removed, see P0 item below; root alias now 301 -> /blog/9-signs-of-bug-infestation-in-your-home -> 200)** URL GUARD 2026-11-13: /9-signs-of-bug-infestation-in-your-home -> redirect-loop (fix: 301 to closest live page or restore)
 
-- [ ] **P0 · URL GUARD 2026-11-12 · Newly added case-only redirect loops the bug-infestation article** (0193066)
+- [x] **DONE 2026-11-13 (this commit: case-only rule removed from next.config.mjs and moved to an exact-case match in src/middleware.ts EXACT_CASE_REDIRECTS; url-guard.mjs now reads those as redirects so prepush still protects the alias. Local next start: lowercase article 200 with no redirect, /blog/9-Signs-... 301 -> article, root alias 301 -> article, other aliases one 308 -> article)** P0 · URL GUARD 2026-11-12 · Newly added case-only redirect loops the bug-infestation article** (0193066)
   - `/blog/9-signs-of-bug-infestation-in-your-home` returns HTTP 308 with Location pointing to itself. A live curl following redirects reaches its redirect limit. Five other newly added aliases also lead into this loop.
   - `next.config.mjs` adds source `/blog/9-Signs-of-bug-infestation-in-your-home` targeting the lowercase URL. Next.js matches that source case-insensitively, so the lowercase destination matches it again.
   - Correct the case-only redirect without deleting or renaming the real article. If uppercase normalization is needed, use an exact-case mechanism that does not match the lowercase destination. Keep the other useful alias redirects.
   - Verify the lowercase article returns 200 without redirecting, and each of the six aliases reaches a 200 article without a loop. Of 45 newly added redirect rules, 39 reach their intended target in one hop; these six fail destination validation.
 
-- [ ] **2026-11-12 · Fountain Hills rock-yard article still promises landscaping despite today's weed-control wording edits** (0193066)
+- [x] **DONE 2026-11-13 (this commit: HOA fine figures removed; process H2 now 'Weed Control Process' and the May-June / July-August visits promise weed treatment only (no debris cleanup, rock redistribution or storm cleanup); debris/raking/top-off advice labelled as homeowner tasks we don't sell; FAQ 1 now says our plans cover weed treatment only; also removed 'Flat-rate pricing' and the HVAC/plumbing 'multi-service' bullet and the unsupported 'Same-day service' claim; URL, title and date unchanged)** 2026-11-12 · Fountain Hills rock-yard article still promises landscaping despite today's weed-control wording edits** (0193066)
   - Post: `/blog/rock-yard-maintenance-in-fountain-hills-protecting-your-firerock-landscape-inves`
   - Live "Our Gravel Yard Maintenance Process" still promises "clear accumulated debris", "redistribute rock" and "clean up storm debris". The first FAQ now says "Our Bucksworth weed control plans include all three", referring to weed treatment, gravel redistribution and topping off rock.
   - Limit Bucksworth's service promises to weed treatment. Separate any homeowner/landscaper maintenance advice from what Bucksworth performs; remove promises of cleanup, gravel redistribution and rock top-offs from our plans. Keep URL and publication date unchanged.
@@ -44,6 +44,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
   - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
   - Replace with two relevant real Bucksworth lawn-treatment photos and alt text that accurately describes what is visible. Do not invent a Phoenix location or a treatment type from a generic image.
   - Live visual re-check 2026-11-05: new `tech-treating-home.jpg` shows treatment beside a shrub/gravel bed; `tech-service-action.jpg` shows a backpack sprayer beside the home on gravel. The new alt text is accurate, but neither photo shows lawn treatment or turf. The original request for relevant lawn-treatment photos is not yet complete. Keep the accurate wording; replace with verified lawn-treatment photos when available, or report the asset gap rather than mark the whole item done.
+  - 2026-11-13 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-12 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-11 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-06 Claude: ASSET GAP. `public/images/photos/` has no lawn/turf treatment photo (26 files, all pest/HVAC/plumbing/truck). Needs Jordan/Viktor to upload a real lawn-treatment photo; item stays open.

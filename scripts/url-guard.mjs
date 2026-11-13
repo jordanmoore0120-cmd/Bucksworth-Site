@@ -55,8 +55,9 @@ function prepush() {
       removed.push({ path: "/" + f.replace(/^src\/app\/?/, "").replace(/\/?page\.(t|j)sx?$/, ""), why: `route file ${st === "D" ? "deleted" : "renamed"}: ${f}` });
   }
   // 4. redirects removed
-  const srcNow = fs.readFileSync("next.config.mjs", "utf8");
-  const rb = redirectSources(sh(`git show ${ref}:next.config.mjs`)), ra = redirectSources(srcNow);
+  // next.config.mjs redirects + exact-case aliases in src/middleware.ts (EXACT_CASE_REDIRECTS)
+  const srcNow = fs.readFileSync("next.config.mjs", "utf8") + "\n" + (fs.existsSync("src/middleware.ts") ? fs.readFileSync("src/middleware.ts", "utf8") : "");
+  const rb = redirectSources(sh(`git show ${ref}:next.config.mjs`) + "\n" + sh(`git show ${ref}:src/middleware.ts`)), ra = redirectSources(srcNow);
   for (const s of rb) if (!ra.has(s)) removed.push({ path: s, why: "redirect removed from next.config.mjs (old URL would 404)" });
 
   const bad = removed.filter((r) => r.why.startsWith("redirect removed") || r.path.startsWith("(service") || !hasRedirect(r.path, ra));

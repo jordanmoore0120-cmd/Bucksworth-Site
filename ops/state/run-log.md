@@ -24,3 +24,10 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - site-qa (ran today, Playwright): 7 FAIL service-truth. Fixed: nearest-cities anchor label "gravel and rock yard weed control", weed vertical description (no "lawn care services"), Fountain Hills rock-yard blog title/excerpt/alt/body ("Rock Yard Weed Control", slug + date unchanged, no GSC impressions). Left on purpose: services.ts sub-service name "Gravel & Rock Yard Maintenance" (page title/H1 identity, menuLabel already shows Weed Control since T009).
 - Blog: water bugs vs cockroaches (Gilbert, roach-elimination), AZ 260, from question-keywords.json because blog-queue ranks 1-12 are published/owned.
 - Connectors: DataForSEO ok (1 live SERP), GBP ok (Phoenix reviews: 2,026, 4.9, newest 11-11, replied), Slack ok.
+
+## 2026-11-13 daily run (Claude)
+- Fix-list P0: bug-infestation redirect loop fixed. The case-only rule in next.config.mjs matched its own lowercase destination (Next matches sources case-insensitively); moved to an exact-case match in src/middleware.ts (EXACT_CASE_REDIRECTS) and taught url-guard.mjs to read it. Root alias + 5 other aliases now reach the article.
+- Fix-list: Fountain Hills rock-yard post now promises weed treatment only (no cleanup/rock redistribution/top-offs), HOA fine figures removed, pricing/HVAC/plumbing/same-day bullets removed. Lawn-aeration photo item still ASSET GAP.
+- Board T011 (footer sitemap service links -> /phoenix-az/{service}), T012 (8 homepage links through redirects, incl. roach + rock-yard anchors that opened the wrong page), T013 (6 weed hub meta descriptions: "yard maintenance" -> "weed control").
+- site-qa (Playwright, live): 1 FAIL (services.ts name, left on purpose - page-identity), 45 WARN before fixes.
+- Blog: "Is Weed Killer Safe for Pets?" (Queen Creek, post-emergent-weed-treatment), AZ 720, from question-keywords.json (queue exhausted).

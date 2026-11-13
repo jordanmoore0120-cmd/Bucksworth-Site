@@ -111,6 +111,42 @@
    "title": "Homepage and templates link to /{city}-az/ with a trailing slash, so every link is a 308 hop. Link the final URL. Then enforce the site-qa internal-link rules (hub ↔ children, 3–6 nearest same-service cities, blog → its money page).",
    "evidence": "site-qa WARN internal-link: / links to /phoenix-az/ → 308 /phoenix-az (x40+)",
    "done": "2026-11-12 0193066: homepage (HomeClient+HomeContent) 35 city links now /{city}-az without trailing slash, 17 other homepage links point at final URLs (no 308/2-hop chains). Other site-qa internal-link rules (hub<->children, nearest cities, blog->money page) were done in bbaba5c/bee9ed8/86d1433; live site-qa 2026-11-12 showed only the homepage hops."
+  },
+  {
+   "id": "T011",
+   "owner": "site-qa",
+   "priority": "P1",
+   "status": "done",
+   "created": "2026-11-13",
+   "title": "Footer sitemap bar on every page linked /pest-and-termite, /weed-and-lawn-care, /air-conditioning-and-heating, /plumbing-and-water-heaters (308 hop each); link /phoenix-az/{service} directly",
+   "evidence": "site-qa 2026-11-13 internal-link WARN x18 per page",
+   "demand": "site-wide internal link equity to the 4 Phoenix service hubs (/phoenix-az/pest-and-termite is a money hub)",
+   "done": "2026-11-13 this commit",
+   "progress": "src/components/Footer.tsx"
+  },
+  {
+   "id": "T012",
+   "owner": "site-qa",
+   "priority": "P1",
+   "status": "done",
+   "created": "2026-11-13",
+   "title": "Homepage resources/footer links that hopped through redirects (8 links); roach guide link went to the Chandler pest hub, rock-yard guide link went to a Red Rock service page",
+   "evidence": "site-qa 2026-11-13 internal-link WARNs on /",
+   "demand": "homepage is the highest-authority page; 'How to Keep Roaches Out of Your Phoenix Home' now opens the Phoenix cockroach guide (customer-visible mismatch)",
+   "done": "2026-11-13 this commit",
+   "progress": "HomeClient.tsx + HomeContent.tsx: roach anchor -> /blog/getting-rid-of-cockroaches-in-phoenix-a-south-mountain-homeowners-guide; rock-yard anchor renamed 'Rock Yard Weed Control' -> /blog/why-mesa-gravel-yards-need-professional-weed-control-a-85201-area-guide; AC/plumbing/pest/termite links -> their final URLs"
+  },
+  {
+   "id": "T013",
+   "owner": "seo-content",
+   "priority": "P2",
+   "status": "done",
+   "created": "2026-11-13",
+   "title": "Weed hub meta descriptions (Goodyear, Surprise, Peoria, Marana, Chandler, Tucson) said 'rock/gravel yard maintenance'; now 'weed control' (services-truth)",
+   "evidence": "site-qa 2026-11-13 service-truth WARNs src/lib/service-hub-overrides.ts",
+   "demand": "SERP snippet for 'weed control {city}' hubs (Chandler weed hub, Tucson weed hub); titles/H1/URLs unchanged",
+   "done": "2026-11-13 this commit",
+   "progress": "src/lib/service-hub-overrides.ts metaDescription only"
   }
  ]
 }

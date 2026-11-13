@@ -430,5 +430,20 @@
   "money_page_linked": "/gilbert-az/pest-and-termite/roach-elimination",
   "serp_type": "identification / comparison (live DataForSEO SERP 2026-11-12, Phoenix mobile: AI Overview, images, PAA, video, short videos; national pest-company guides westernexterminator, orkin, prevention.com, prestox, reddit). getyourbucksworth.com not in top 20.",
   "gate": "topic-check pass (exit 0). Zero titles/target_questions/GSC queries containing 'water bug'; no blog body mentions it twice. Queue: #1/#2/#9 published, #3-#8 failed 11-11 gate, #10 Mesa overseeding owned by /blog/the-mesa-homeowners-guide-to-overseeding-perfect-timing-for-superstition-springs, #11/#12 owned by city weed-and-feed pages (11-07 gate). Gilbert chosen: East Valley, 1 prior Gilbert roach post (Morrison Ranch, general elimination, linked). Striking-distance pages linked: /mesa-az/pest-and-termite (pos 8.4), /chandler-az/pest-and-termite (pos 23.6)."
+ },
+ {
+  "date": "2026-11-13",
+  "slug": "is-weed-killer-safe-for-pets-what-queen-creek-homeowners-should-know-before-spraying",
+  "city": "queen-creek-az",
+  "vertical": "weed-and-lawn-care",
+  "sub_service": "post-emergent-weed-treatment",
+  "target_question": "weed killer safe for pets",
+  "az_volume": 720,
+  "queue_rank": null,
+  "source": "seo-data/question-keywords.json (post-emergent-weed-treatment, AZ 720; cluster 'weed killer that is safe for pets/animals', 'pet safe weed killer'); blog-queue.json #1-12 exhausted or owned (see 11-11/11-12 gates)",
+  "money_page_linked": "/queen-creek-az/weed-and-lawn-care/post-emergent-weed-treatment",
+  "serp_type": "informational + product mix (live DataForSEO SERP 2026-11-13, Phoenix mobile: AI Overview, PAA, popular products, perspectives; guides from bhg, lanaturo, plantwise, lawnphix, reddit/forums, retailer product pages). getyourbucksworth.com not in top 20. Blog matches the dominant guide intent.",
+  "gate": "topic-check exit 0. No title/target_question/GSC query with 'pet safe'/'safe for pets'. Closest: /blog/best-weed-killer-for-mesa-yards-... (target 'best weed killer', one H2 on spraying around pets) - different SERP, now linked from this post as the product guide. Rejected: german vs american cockroaches (topic-check exit 1, Mesa german roach post), termites vs ants (Phoenix white-ants post), how to eradicate bermuda grass (owned), where black widows live (Mesa black widow post). Striking-distance pages linked: /queen-creek-az/weed-and-lawn-care/weed-and-feed-program (pos 15.9), /san-tan-valley-az (pos 17.0).",
+  "information_gain": "EPA label rules ban 'safe/non-toxic' claims, so 'pet safe' is marketing; local dog hazards are the weeds themselves (foxtail barley awns, puncturevine burrs) and pre-emergent cuts spray days for pet owners."
  }
 ]

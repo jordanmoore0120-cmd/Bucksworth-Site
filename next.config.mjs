@@ -284,7 +284,8 @@ const nextConfig = {
         { source: "/homenew", destination: "/", permanent: true },
         { source: "/title", destination: "/", permanent: true },
         { source: "/news/how-to-keep-commercial-refrigeration-running", destination: "/blog", permanent: true },
-        { source: "/blog/9-Signs-of-bug-infestation-in-your-home", destination: "/blog/9-signs-of-bug-infestation-in-your-home", permanent: true },
+        // Case-only alias /blog/9-Signs-of-bug-infestation-in-your-home lives in src/middleware.ts EXACT_CASE_REDIRECTS:
+        // Next.js matches redirect sources case-insensitively, so here it looped onto its own lowercase destination.
         { source: "/blog/9-signs-of-a-bug-infestation-in-your-home", destination: "/blog/9-signs-of-bug-infestation-in-your-home", permanent: true },
         { source: "/blog/9-signs-of-bug-infestation-in-home", destination: "/blog/9-signs-of-bug-infestation-in-your-home", permanent: true },
         { source: "/blog/signs-of-a-bug-infestation", destination: "/blog/9-signs-of-bug-infestation-in-your-home", permanent: true },
