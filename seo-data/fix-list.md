@@ -4,6 +4,8 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] URL GUARD 2026-11-13: /9-signs-of-bug-infestation-in-your-home -> redirect-loop (fix: 301 to closest live page or restore)
+
 - [ ] **P0 · URL GUARD 2026-11-12 · Newly added case-only redirect loops the bug-infestation article** (0193066)
   - `/blog/9-signs-of-bug-infestation-in-your-home` returns HTTP 308 with Location pointing to itself. A live curl following redirects reaches its redirect limit. Five other newly added aliases also lead into this loop.
   - `next.config.mjs` adds source `/blog/9-Signs-of-bug-infestation-in-your-home` targeting the lowercase URL. Next.js matches that source case-insensitively, so the lowercase destination matches it again.
