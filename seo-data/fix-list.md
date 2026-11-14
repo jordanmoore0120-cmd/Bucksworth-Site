@@ -4,7 +4,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [ ] **2026-11-13 · Queen Creek pet-safe weed-killer post: substantiate health comparisons and correct photo attribution** (5ec1aac)
+- [x] **DONE 2026-11-14 (SHA_TODAY: 'more vet visits than the products' and 'cause the most problems' removed, H2 now 'Can Weeds Themselves Hurt Pets in Queen Creek?' with foxtail/puncturevine described as examples only; 'risk drops sharply' replaced by label-specific re-entry guidance incl. granular 24h+ and a link to NPIC's pet page; 'Vets in desert towns see these cases' removed; both alts now describe only the visible setting, no weed-service/city/pet attribution; URL, title, date unchanged; modified 2026-11-14) · 2026-11-13 · Queen Creek pet-safe weed-killer post: substantiate health comparisons and correct photo attribution** (5ec1aac)
   - Post: `/blog/is-weed-killer-safe-for-pets-what-queen-creek-homeowners-should-know-before-spraying`
   - Remove or substantiate "the weeds themselves often cause more vet visits than the products" and the FAQ's "Foxtail barley and puncturevine (goatheads) cause the most problems." Neither the post nor its publish-log supplies comparative veterinary evidence. Describe these as examples of hazards instead of ranking their incidence or implying pesticides are less hazardous.
   - Qualify "Once a properly applied product has dried, the risk drops sharply" with product-specific label directions rather than an unsupported general risk reduction. Retain the veterinarian/poison-control advice and the label-first guidance. NPIC confirms pets should stay out until dry, with additional label-specific restrictions; granular products may require 24 hours or longer: https://npic.orst.edu/health/pets.html (opened 2026-11-13). Link an appropriate authority for the safety advice.
@@ -51,6 +51,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
   - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
   - Replace with two relevant real Bucksworth lawn-treatment photos and alt text that accurately describes what is visible. Do not invent a Phoenix location or a treatment type from a generic image.
   - Live visual re-check 2026-11-05: new `tech-treating-home.jpg` shows treatment beside a shrub/gravel bed; `tech-service-action.jpg` shows a backpack sprayer beside the home on gravel. The new alt text is accurate, but neither photo shows lawn treatment or turf. The original request for relevant lawn-treatment photos is not yet complete. Keep the accurate wording; replace with verified lawn-treatment photos when available, or report the asset gap rather than mark the whole item done.
+  - 2026-11-14 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-13 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-12 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-11 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.

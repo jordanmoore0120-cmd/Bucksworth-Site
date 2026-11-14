@@ -445,5 +445,24 @@
   "serp_type": "informational + product mix (live DataForSEO SERP 2026-11-13, Phoenix mobile: AI Overview, PAA, popular products, perspectives; guides from bhg, lanaturo, plantwise, lawnphix, reddit/forums, retailer product pages). getyourbucksworth.com not in top 20. Blog matches the dominant guide intent.",
   "gate": "topic-check exit 0. No title/target_question/GSC query with 'pet safe'/'safe for pets'. Closest: /blog/best-weed-killer-for-mesa-yards-... (target 'best weed killer', one H2 on spraying around pets) - different SERP, now linked from this post as the product guide. Rejected: german vs american cockroaches (topic-check exit 1, Mesa german roach post), termites vs ants (Phoenix white-ants post), how to eradicate bermuda grass (owned), where black widows live (Mesa black widow post). Striking-distance pages linked: /queen-creek-az/weed-and-lawn-care/weed-and-feed-program (pos 15.9), /san-tan-valley-az (pos 17.0).",
   "information_gain": "EPA label rules ban 'safe/non-toxic' claims, so 'pet safe' is marketing; local dog hazards are the weeds themselves (foxtail barley awns, puncturevine burrs) and pre-emergent cuts spray days for pet owners."
+ },
+ {
+  "date": "2026-11-14",
+  "slug": "diy-weed-killer-recipes-what-apache-junction-homeowners-should-know-before-mixing-vinegar-and-salt",
+  "city": "apache-junction-az",
+  "vertical": "weed-and-lawn-care",
+  "sub_service": "post-emergent-weed-treatment",
+  "target_question": "diy weed killer recipe",
+  "az_volume": 320,
+  "queue_rank": null,
+  "source": "seo-data/question-keywords.json (post-emergent-weed-treatment, AZ 320, US 9,900); blog-queue.json #1-12 exhausted/owned since 11-12",
+  "money_page_linked": "/apache-junction-az/weed-and-lawn-care/post-emergent-weed-treatment",
+  "serp_type": "informational how-to/recipe (live DataForSEO SERP 2026-11-14, Phoenix mobile/iOS: AI Overview, video, PAA, short videos, perspectives; recipe blogs prettyhandygirl, tipnut, hgtv, realsimple, marthastewart, thespruce + Colorado State Pueblo Extension + YouTube). getyourbucksworth.com not in top 20. Blog matches the dominant intent.",
+  "gate": "topic-check exit 0 for 'diy weed killer recipe'. No title/target_question/GSC query with diy/homemade/vinegar/recipe + weed. No post body with 4+ vinegar/homemade mentions besides the QC pets post (one vinegar FAQ, different question) and the Mesa best-weed-killer post (product choice). Rejected today (owned): do cockroaches bite (QC), can cockroaches fly (Maricopa), what do scorpions eat (Mesa), how long do mosquitoes live (Chandler), plants that repel mosquitoes (Tempe 'plants that prevent mosquitoes' - topic-check missed it), how to remove a wasp nest (Tempe), black widow (Mesa), how do scorpions mate (publish-log 'how do scorpions breed'), do termites fly (near-variant of Phoenix white-ants post), sugar ants (Scottsdale).",
+  "striking_distance_linked": [
+   "/apache-junction-az/weed-and-lawn-care (pos 12.8)",
+   "/mesa-az/weed-and-lawn-care (pos 16.0)"
+  ],
+  "information_gain": "Contact-only mechanism explained per ingredient (Epsom salt is a nutrient, soap only a surfactant); salt lingers in low-rainfall caliche soils; weed-by-weed table of how a vinegar recipe does on Apache Junction winter and monsoon weeds; cites University of Illinois Extension."
  }
 ]

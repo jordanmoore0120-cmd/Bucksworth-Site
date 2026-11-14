@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-11-13T16:28:29.499Z",
+  "ran_at": "2026-11-14T16:18:14.555Z",
   "base": "https://www.getyourbucksworth.com",
-  "static_only": true,
+  "static_only": false,
   "fails": 1,
-  "warns": 20,
+  "warns": 36,
   "findings": [
     {
       "sev": "FAIL",
@@ -171,6 +171,134 @@
       "where": "content/reviews.json:2034",
       "detail": "\"…w. I initially started using their service because I needed yard work done immediately after purchasing my home as the o…\" (We don't do yard maintenance.)",
       "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/ant-removal-near-asarco-mineral-discovery-center-effective-solutions-for-sahuari",
+      "detail": "links to /blog/apache-junction-termite-inspection-protecting-your-superstition-home → 308 /apache-junction-az/pest-and-termite/termite-treatment",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/ant-removal-near-asarco-mineral-discovery-center-effective-solutions-for-sahuari",
+      "detail": "links to /blog/termite-swarming-season-in-tempe-what-every-south-tempe-family-needs-to-know → 308 /tempe-az/pest-and-termite/termite-treatment",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/ant-removal-near-asarco-mineral-discovery-center-effective-solutions-for-sahuari",
+      "detail": "links to /blog/termite-treatment-in-queen-creek-protecting-hastings-farms-homes-from-silent-dam → 308 /queen-creek-az/pest-and-termite/termite-treatment",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/ant-removal-near-asarco-mineral-discovery-center-effective-solutions-for-sahuari",
+      "detail": "links to /blog/ahwatukee-pest-control-protecting-your-foothills-home-from-scorpions → 308 /ahwatukee-az/pest-and-termite",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/overseeding-in-green-valley-expert-solutions-for-desert-hills-yards",
+      "detail": "links to /contact → 308 /request-service",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 2
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/energy-efficiency-in-buckeye-the-truth-about-insulation",
+      "detail": "links to /blog/buckeye-ac-maintenance-preventing-summer-breakdowns-with-honest-service → 308 /buckeye-az/air-conditioning-and-heating/ac-maintenance",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/energy-efficiency-in-buckeye-the-truth-about-insulation",
+      "detail": "links to /blog/buckeye-plumbing-services-quality-repairs-for-your-desert-oasis → 308 /buckeye-az/plumbing-and-water-heaters",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/tucson-scorpion-control-protecting-your-catalina-foothills-sanctuary",
+      "detail": "links to /blog/best-pest-control-in-tucson-az-bucksworth-home-services → 308 /tucson-az/pest-and-termite",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/tucson-scorpion-control-protecting-your-catalina-foothills-sanctuary",
+      "detail": "links to /blog/catalina-foothills-pest-control-premium-protection-for-your-home-estate → 308 /catalina-foothills-az/pest-and-termite",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/tucson-scorpion-control-protecting-your-catalina-foothills-sanctuary",
+      "detail": "links to /blog/catalina-foothills-scorpion-control-smart-prevention-for-high-desert-living → 308 /catalina-foothills-az/pest-and-termite/scorpion-control",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/tucson-scorpion-control-protecting-your-catalina-foothills-sanctuary",
+      "detail": "links to /blog/best-pest-control-in-oro-valley-az-expert-protection-for-your-pima-county-home → 308 /oro-valley-az/pest-and-termite",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/tucson-scorpion-control-protecting-your-catalina-foothills-sanctuary",
+      "detail": "links to /blog/best-pest-control-in-vail-az-reliable-desert-pest-prevention-and-defense → 308 /vail-az/pest-and-termite",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/tucson-scorpion-control-protecting-your-catalina-foothills-sanctuary",
+      "detail": "links to /blog/best-pest-control-in-sahuarita-az-professional-protection-for-your-family-home → 308 /sahuarita-az/pest-and-termite",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/spider-control-in-glendale-az-winning-the-war-against-creepy-crawlies",
+      "detail": "links to /pest-control-peoria-az → 308 /peoria-az/pest-and-termite",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/spider-control-in-glendale-az-winning-the-war-against-creepy-crawlies",
+      "detail": "links to /pest-control-surprise-az → 308 /surprise-az/pest-and-termite",
+      "fix": "Link the final URL directly (no redirect hops).",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "internal-link",
+      "where": "/blog/expert-spider-prevention-strategies-for-goodyear-homes-near-litchfield-road",
+      "detail": "links to /free-estimate → 308 /request-service",
+      "fix": "Link the final URL directly (no redirect hops).",
       "count": 1
     }
   ]
