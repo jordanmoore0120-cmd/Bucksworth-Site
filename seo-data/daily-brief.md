@@ -1,42 +1,41 @@
-# Daily Data Feed · Fri 2026-11-13 (Viktor → Claude)
+# Daily Data Feed · Sat 2026-11-14 (Viktor → Claude)
 
 Facts only. You set your own priorities from CLAUDE.md and STRATEGY.md.
-Commits since previous feed (2026-11-12 12:41:12Z). Times UTC unless noted.
+Commits since previous feed (2026-11-13 12:35:20Z). Times UTC unless noted.
 
 ## Jordan's words (verbatim, #bucksworth-digital, last 24h)
-- None. No post from Jordan himself in the window (the 11/12 16:26Z post from his account is your "Sent using Claude" run summary).
-- Viktor-check feedback (per Jordan 10/13 "please send all feed back to claude"), site gatekeeper 11/12 17:48–17:49Z, verbatim excerpts:
-  "Site QA found a live redirect loop in the bug-infestation guide."
-  "Five other links also feed into it."
-  "Today’s Gilbert water-bugs comparison passed QA; I recorded the redirect fix and remaining Fountain Hills service-copy issues for the next site session."
-  "The first FAQ now says "Our Bucksworth weed control plans include all three", referring to weed treatment, gravel redistribution and topping off rock."
+- None. The 11/13 16:33Z post from his account is your "Sent using Claude" run summary, not Jordan's own words.
+- Viktor-check feedback (per Jordan 10/13 "please send all feed back to claude"), site gatekeeper 11/13 17:47Z, verbatim:
+  "The redirect loop is fixed; today’s pet-safety post needs corrections."
+  "Fountain Hills’ landscaping promises are also corrected live."
+  "I added the new article’s health-claim and photo-attribution fixes to Claude’s fix list."
 
-## Claude's commits yesterday (Thu 2026-11-12)
-- origin/main: `0193066` 16:24:46Z "site: T010 homepage final-URL links, T003 45 one-hop 301s, site-qa service-truth fixes; fix-list: crabgrass ID + county corrections; blog: water bugs vs cockroaches (Gilbert, AZ 260)"
-- origin/main: `dd5c3e5` 16:24:56Z "seo-data: record SHA 0193066 for fix-list + board T003/T010"
+## Claude's commits yesterday (Fri 2026-11-13)
+- origin/main: `5ec1aac` 16:29:17Z "site: fix bug-infestation redirect loop, Fountain Hills service-truth copy, footer/homepage redirect-hop links, weed hub metas; blog: is weed killer safe for pets (Queen Creek, AZ 720)"
+- origin/main: `d6629a8` 16:32:52Z "seo-data: record SHA 5ec1aac for fix-list + board T011-T013 + run-log"
 - All branches: no other Claude commits in the window.
-- Other commits: `dfa26ad` 13:16:40Z "seo-data: ai-search guidelines update 2026-11-12" (Viktor intel); `1a24f2a` 17:47:59Z "seo-data: QA redirect loop and remaining rock-yard service claims" (Viktor gatekeeper).
+- Other commit: `cd16afc` 17:46:05Z "seo-data: QA pet-health claims and photo provenance 2026-11-13" (Viktor gatekeeper).
 
-## Leads yesterday (Thu 2026-11-12, Google Ads 4486379637)
-- LSA: 2 leads, both marked charged: 1 lawn-care weed-control message; 1 pest-control rodents message.
-- LSA campaign: 428 impr, 31 clicks, $88.76, 2 conversions.
-- Search conversions by campaign: BW | Pest | Pinal + QC + SE Mesa: 0 (10 impr, 1 click, $4.63); BW | Termite | East Valley: 0; BW | Weed | Pinal + QC + SE Mesa: 0; BW | Pest | Mesa-Gilbert-Chandler: 0; BW | Weed | Mesa-Gilbert-Chandler: 0. The latter four returned 0 impressions, clicks and spend.
+## Leads yesterday (Fri 2026-11-13, Google Ads 4486379637)
+- LSA: 4 leads, all marked charged; 3 phone calls, 1 message.
+- Services: lawn-care weed control 2 (1 phone, 1 message); lawn-care, no service given 1 phone; pest-control, no service given 1 phone.
+- LSA campaign: 378 impr, 29 clicks, $274.56, 4 conversions.
+- Search conversions by campaign: BW | Pest | Pinal + QC + SE Mesa: 1 (5 impr, 1 click, $4.51); BW | Termite | East Valley: 0; BW | Weed | Pinal + QC + SE Mesa: 0; BW | Pest | Mesa-Gilbert-Chandler: 0; BW | Weed | Mesa-Gilbert-Chandler: 0. The latter four returned 0 impressions, clicks and spend.
 - Lead ZIPs (searcher location, not service address; partial attributed conversions, not a ZIP for every inquiry):
-  - 11/12: 85044 (1).
-  - 7 days to 11/12: 85044 (2), 85388 (2); 85016, 85022, 85027, 85032, 85339, 85382 (1 each).
+  - 11/13: 85132, 85209, 85382 (1 each).
+  - 7 days to 11/13: 85044, 85382 (2 each); 85016, 85022, 85032, 85132, 85209, 85339, 85388 (1 each).
 
 ## Data files + dates
 - rankings.json: last commit 2026-11-08 17:48:25Z (weekly refresh, `7ac2ff4`).
 - striking-distance.json: last commit 2026-11-08 17:48:25Z (weekly refresh, `7ac2ff4`).
-- ai-visibility.json: last commit 2026-10-07 23:25:38Z (37 calendar days). No Viktor cron refreshes it.
+- ai-visibility.json: last commit 2026-10-07 23:25:38Z (38 calendar days). No Viktor cron refreshes it.
 
-## URL guard (prod, run 2026-11-13)
-- 6,597 URLs checked. 20 not 200: 18 already known broken, 2 NEW breaks (redirect-loop).
-- Paths: `/9-signs-of-bug-infestation-in-your-home`; `/blog/9-signs-of-bug-infestation-in-your-home`.
-- fix-list.md: 1 URL GUARD line added for the root alias; the blog destination is already listed in the 11/12 gatekeeper item.
+## URL guard (prod, run 2026-11-14)
+- 6,597 URLs checked. 12 not 200, all already known broken; 0 NEW breaks.
+- No URL GUARD lines added. Yesterday's two redirect-loop paths are no longer reported broken.
 
 ## Connector health
 - Zapier: Viktor has no current check of its own.
-- Your 11/12 run summary, verbatim: "DataForSEO ok (1 live SERP)"; "GBP ok: Phoenix reviews read, 2,026 reviews, 4.9, newest 11-11, replied"; "Slack ok"; "Google Ads, GA4, Facebook and Instagram are connected but I didn't test them this run."
-- Your routine: ran 11/12 (summary posted 16:26Z), both commits on main; summary says site-qa ran (7 FAIL).
-- Viktor's live Ads read succeeded 11/13; it does not test Claude's Zapier connectors.
+- Your 11/13 run summary, verbatim: "DataForSEO ok (1 live SERP)"; "GBP ok: Phoenix reviews read, 2,026 reviews, 4.9, newest 11-11, replied"; "Slack ok"; "Google Ads, GA4, Facebook and Instagram are connected but I didn't test them this run."
+- Your routine: ran 11/13 (summary posted 16:33Z), both commits on main; summary says site-qa ran (1 FAIL).
+- Viktor's live Ads read succeeded 11/14; it does not test Claude's Zapier connectors.
