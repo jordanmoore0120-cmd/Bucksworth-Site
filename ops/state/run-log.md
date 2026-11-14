@@ -32,3 +32,12 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - site-qa (Playwright, live): 1 FAIL (services.ts name, left on purpose - page-identity), 45 WARN before fixes.
 - Blog: "Is Weed Killer Safe for Pets?" (Queen Creek, post-emergent-weed-treatment), AZ 720, from question-keywords.json (queue exhausted).
 - Commit 5ec1aac on main. GBP ok (Phoenix: 2,026 reviews, 4.9, newest 11-11, replied). DataForSEO ok (1 live SERP). Slack read ok.
+
+## 2026-11-14 daily run (Claude)
+- Fix-list: Queen Creek pet-safety post corrected per Viktor QA (no comparative vet-visit/incidence claims, label-specific re-entry + NPIC link, alts describe visible setting only). Lawn-aeration photo item still ASSET GAP.
+- Board T003 (P0) progress: 308 one-hop 301s for wp-legacy-urls.json URLs still 404 live (317 re-checked; 15 already 200; 9 left with no equivalent page). Trailing-slash WP URLs still take Next's 308 slash-strip first.
+- Board T015: 29 exact /residential/* rules (AC/heating/weed WP pages no longer fall into the pest-hub catch-all); 5 exact-rule chains collapsed (chain count 0).
+- Board T014: 3,456 links in 1,443 blog bodies pointed at redirect sources; rewritten to the final URL (482 targets verified 200/0 hops first; href-only diff).
+- site-qa (Playwright, live, 30 pages): 1 FAIL (services.ts name, left on purpose - page-identity), 36 WARN (16 internal-link, fixed by T014; 20 body-copy mowing/landscape advice).
+- Blog: "DIY Weed Killer Recipes" (Apache Junction, post-emergent-weed-treatment), AZ 320, from question-keywords.json; live SERP = recipe/how-to blogs + extension + AIO.
+- Commit 7ace6b2 on main. DataForSEO ok (1 live SERP). Slack read ok.

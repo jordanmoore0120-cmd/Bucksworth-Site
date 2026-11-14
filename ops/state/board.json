@@ -33,7 +33,7 @@
    "evidence": "seo-data/migration-history.md §4, wp-legacy-urls.json, url-baseline.json known_broken_2026_10_07",
    "done": null,
    "demand": "URL/identity protection (P0)",
-   "progress": " 2026-11-12 0193066: 45 one-hop 301s added for known_broken_2026_10_07 (every still-404 entry except lp.getyourbucksworth.com DNS). Remaining: wp-legacy-urls broken list (step 3) + chain collapse (step 4). 2026-11-14 SHA_TODAY: 308 one-hop 301s for wp-legacy-urls.json broken (317 still 404 on live re-check; 15 already 200); 9 left on purpose with no equivalent page (/city/other, /commercial, /residential, /plans-pricing, /promo/brand-name, promo confirmation, /readme.html, /tracking, remodeling post). 29 exact /residential/* rules so AC/weed WP pages no longer fall into the pest-hub catch-all. 5 redirect chains collapsed (exact-rule chain count now 0). Note: WP URLs with a trailing slash still take Next's 308 slash-strip first (2 hops)."
+   "progress": " 2026-11-12 0193066: 45 one-hop 301s added for known_broken_2026_10_07 (every still-404 entry except lp.getyourbucksworth.com DNS). Remaining: wp-legacy-urls broken list (step 3) + chain collapse (step 4). 2026-11-14 7ace6b2: 308 one-hop 301s for wp-legacy-urls.json broken (317 still 404 on live re-check; 15 already 200); 9 left on purpose with no equivalent page (/city/other, /commercial, /residential, /plans-pricing, /promo/brand-name, promo confirmation, /readme.html, /tracking, remodeling post). 29 exact /residential/* rules so AC/weed WP pages no longer fall into the pest-hub catch-all. 5 redirect chains collapsed (exact-rule chain count now 0). Note: WP URLs with a trailing slash still take Next's 308 slash-strip first (2 hops)."
   },
   {
    "id": "T004",
@@ -156,7 +156,7 @@
    "created": "2026-11-14",
    "title": "Blog bodies link through redirects: rewrite internal hrefs to the final URL",
    "evidence": "site-qa 2026-11-14 internal-link WARNs (16 in a 30-page sample); sitewide scan: 3,456 links in 1,443 posts pointed at a redirect source (pruned posts, WP paths, trailing slashes)",
-   "done": "2026-11-14 SHA_TODAY",
+   "done": "2026-11-14 7ace6b2",
    "demand": "crawl efficiency + link equity to money pages (every hop is a 308 before the real page)",
    "progress": "href-only change, visible text and dates untouched (diff check: 0 non-href changes); all 482 targets verified 200 with 0 redirects live before rewrite"
   },
@@ -168,7 +168,7 @@
    "created": "2026-11-14",
    "title": "WP /residential/* catch-all sent AC, heating and weed pages to the pest hub; 5 exact redirects chained through a second redirect",
    "evidence": "next.config.mjs /residential/:sub -> /phoenix-az/pest-and-termite; wp-legacy-urls.json ok list (36 /residential/* URLs); chain scan of exact rules",
-   "done": "2026-11-14 SHA_TODAY",
+   "done": "2026-11-14 7ace6b2",
    "demand": "legacy WP URLs with backlinks/GSC history (migration-history §4 steps 3-4)",
    "progress": "29 exact /residential/* rules to the matching sub-service (AC/heating/IAQ, ant, bed bug, bee/wasp, mosquito, rodent, roach, scorpion, spider, termite, weed); catch-all kept for the rest. /pest-control-phoenix(/) and 3 typo blog slugs now 301 straight to the final page."
   }
