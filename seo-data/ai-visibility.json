@@ -205,7 +205,7 @@
     {
      "domain": "www.terro.com",
      "url": "https://www.terro.com/terro-scorpion-killer-spray-t2102-6?srsltid=AU7gw4VbVGSKIIgBzwzKnMacsdU3gm6ai5eBPhkd_vOKuO9MxYPtVxjT",
-     "title": "TERRO\u00ae Scorpion Killer Spray, 16 oz"
+     "title": "TERRO® Scorpion Killer Spray, 16 oz"
     }
    ],
    "our_organic_rank": 15,
@@ -319,7 +319,7 @@
     {
      "domain": "www.mosquitosquad.com",
      "url": "https://www.mosquitosquad.com/blog/other-insects-pests/7-tips-for-getting-rid-of-scorpions/",
-     "title": "Deter Scorpions \u2013 7 Tips for Getting Rid of Scorpions"
+     "title": "Deter Scorpions – 7 Tips for Getting Rid of Scorpions"
     },
     {
      "domain": "budgetbrotherstermite.com",
@@ -898,7 +898,7 @@
     {
      "domain": "www.instagram.com",
      "url": "https://www.instagram.com/reel/DZKs11gh7tm/",
-     "title": "June is when Arizona pest activity really starts to ramp up \u2600\ufe0f\ud83d\udc1c ..."
+     "title": "June is when Arizona pest activity really starts to ramp up ☀️🐜 ..."
     }
    ],
    "our_organic_rank": 14,
@@ -978,12 +978,12 @@
     {
      "domain": "www.reddit.com",
      "url": "https://www.reddit.com/r/ChandlerAZ/comments/1jwqgr1/tell_me_your_best_scorpion_get_rid_of_hacks/",
-     "title": "Tell me your best scorpion get rid of hacks\u2026\u2026\u2026. : r/ChandlerAZ - Reddit"
+     "title": "Tell me your best scorpion get rid of hacks………. : r/ChandlerAZ - Reddit"
     },
     {
      "domain": "www.facebook.com",
      "url": "https://www.facebook.com/ryancomstockrealtorAZ/videos/-monthly-pest-service-for-scorpions-in-tucson-oro-valley-arizona-is-it-worth-itl/1034067109523226/",
-     "title": "\ud83e\udd82 Monthly Pest Service for Scorpions in Tucson & Oro Valley, Arizona \u2013 Is It ..."
+     "title": "🦂 Monthly Pest Service for Scorpions in Tucson & Oro Valley, Arizona – Is It ..."
     },
     {
      "domain": "www.reddit.com",
@@ -1018,7 +1018,7 @@
     {
      "domain": "www.terro.com",
      "url": "https://www.terro.com/terro-scorpion-killer-spray-t2102-6?srsltid=AU7gw4VmfkBNH3e8GT_Un0lnqCYijs5Q3WKs_J6eTkPjf7RN9Cwdlmih",
-     "title": "TERRO\u00ae Scorpion Killer Spray, 16 oz"
+     "title": "TERRO® Scorpion Killer Spray, 16 oz"
     }
    ],
    "our_organic_rank": 1,
@@ -1317,5 +1317,52 @@
     "https://www.azpest.com/"
    ]
   }
- ]
+ ],
+ "llm_mentions_refresh_2026_11_15": {
+  "source": "DataForSEO AI Optimization llm_mentions (aggregated_metrics + top_pages), location United States, English, target domain getyourbucksworth.com; pulled by Claude 2026-11-15 via Zapier",
+  "note": "Different method from the 2026-10-07 baseline (that one ran 30 live Phoenix/Tucson SERPs + 11 ChatGPT prompts). This is DataForSEO's crawled AI-answer index, so it shows which pages AI answers cite, not per-query local ranks. Re-run the 2026-10-07 query set for a like-for-like comparison.",
+  "google_ai": {
+   "mentions_as_source": 45,
+   "ai_search_volume": 165420,
+   "top_cited_pages": [
+    {
+     "url": "/blog/9-signs-of-bug-infestation-in-your-home",
+     "mentions": 12,
+     "ai_search_volume": 2050
+    },
+    {
+     "url": "/phoenix-az/pest-and-termite/scorpion-control",
+     "mentions": 5,
+     "ai_search_volume": 1230
+    },
+    {
+     "url": "/blog/what-do-scorpions-eat-a-mesa-homeowners-guide-to-bark-scorpion-diet-and-what-draws-them-indoors",
+     "mentions": 3,
+     "ai_search_volume": 4800
+    }
+   ],
+   "co_cited_domains": [
+    "youtube.com (23)",
+    "facebook.com (12)",
+    "reddit.com (12)",
+    "terminix.com (8)",
+    "quora.com (8)",
+    "mirapest.com (6)",
+    "yelp.com (5)",
+    "orkin.com (5)"
+   ]
+  },
+  "chatgpt": {
+   "mentions_total": 5,
+   "in_search_results": "www.getyourbucksworth.com 3 + getyourbucksworth.com 2",
+   "cited_as_source": 0,
+   "note": "ChatGPT retrieved our pages 5 times (scorpion topics; co-retrieved acis.cals.arizona.edu, scorpionalert.com, scorpioncontrolmesa.com) but did not cite us as a source in those answers. Baseline 2026-10-07 was 0/11 prompts mentioning us."
+  },
+  "cost_usd": 0.3,
+  "takeaways": [
+   "The bug-infestation guide (the one with the 11-13 redirect-loop fix) is our most-cited page in Google AI answers: protect its URL and keep it current.",
+   "Scorpion content is what both Google AI and ChatGPT pull; answer-first scorpion pages are working.",
+   "ChatGPT sees us but doesn't cite us: needs more third-party mentions (local news, directories) per the pr-backlinks skill."
+  ]
+ }
 }

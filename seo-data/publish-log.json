@@ -464,5 +464,25 @@
    "/mesa-az/weed-and-lawn-care (pos 16.0)"
   ],
   "information_gain": "Contact-only mechanism explained per ingredient (Epsom salt is a nutrient, soap only a surfactant); salt lingers in low-rainfall caliche soils; weed-by-weed table of how a vinegar recipe does on Apache Junction winter and monsoon weeds; cites University of Illinois Extension."
+ },
+ {
+  "date": "2026-11-15",
+  "slug": "does-borax-and-sugar-kill-ants-what-san-tan-valley-homeowners-should-know-before-mixing-a-homemade-ant-bait",
+  "city": "san-tan-valley-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "ant-control",
+  "target_question": "kill ants with borax and sugar",
+  "az_volume": 110,
+  "queue_rank": null,
+  "source": "seo-data/question-keywords.json (ant-control: 'kill ants with borax and sugar' AZ 110; related 'home remedy for ants in the house' AZ 140). blog-queue.json exhausted/owned since 11-12; higher-volume question keywords all owned (see gate)",
+  "money_page_linked": "/san-tan-valley-az/pest-and-termite/ant-control",
+  "serp_type": "informational how-to/recipe (live DataForSEO SERP 2026-11-15, Phoenix mobile/iOS: AI Overview, video, PAA, perspectives, images; Facebook recipe posts, On Demand Pest Control blog, selfsufficientprojects, Reddit, Pinterest, pestzero, theantvault). getyourbucksworth.com not in top 20. Blog matches the dominant intent.",
+  "gate": "topic-check exit 0 for 'kill ants with borax and sugar' and 'home remedy for ants in the house'. No post body mentions borax 2+ times; no title/target_question with borax/home remedy + ants. Closest: Scottsdale 'how to repel sugar ants' (repelling + clean-up, one home-remedy H2 about repellents) and Glendale 'sugar ants keep coming back after spray' - both linked, different primary question. Rejected today (owned / topic-check fail or synonym): how to check for bed bugs (Phoenix get-rid-of + Mesa inspection posts), signs of termites (city posts), what does a scorpion sting look like (Avondale), will a black widow kill you (Mesa), can scorpions kill you (Tempe 'can you die from a scorpion sting' - topic-check missed it), how many legs do scorpions have (QC arachnids post - missed by topic-check), carpenter bees sting (Chandler + Mesa), fire ants (city posts), pack rats / roof rats (existing posts), termite cost (price topic, banned).",
+  "striking_distance_linked": [
+   "/san-tan-valley-az (pos 17.0)",
+   "/florence-az/pest-and-termite (pos 9.2, 167,794 impressions)",
+   "/san-tan-valley-az/pest-and-termite/scorpion-control (pos 21.6)"
+  ],
+  "information_gain": "Explains why a homemade bait must be slow (UC IPM) and the 4 failure modes (too strong, dries out in desert air, colony switched to protein, multi-queen colonies); species table for STV ants with foods from UC IPM and whether a sugar bait helps; borax safety facts from NPIC (eye/skin, infants, pets within 2 hours) + Poison Control number; STV-specific causes (graded desert lots, irrigation, monsoon, slider/expansion-joint entries)."
  }
 ]
