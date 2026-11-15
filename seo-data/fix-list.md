@@ -4,6 +4,14 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **2026-11-15 · URL guard workflow can hide a failed production crawl behind `tee`** (6ab0add)
+  - `.github/workflows/url-guard.yml` runs `node scripts/url-guard.mjs prod | tee guard.txt` with no explicit shell or `pipefail`. The actual Actions log for run 43734945220 confirms `/usr/bin/bash -e {0}`. In that shell `false | tee /dev/null` exits 0; with `bash -eo pipefail` it exits 1. A future nonzero guard exit can therefore leave this step green and skip the `if: failure()` issue step.
+  - Add explicit `shell: bash` to the crawl step (GitHub's bash shell includes pipefail), or set `set -o pipefail` before the pipeline. Test a deliberately failing producer and confirm the step fails and the issue path executes. Today's crawl itself reported zero NEW breaks; this is a failure-detection defect, not evidence of new broken URLs today.
+
+- [ ] **2026-11-15 · City weed hubs retain a weed-fabric installation service promise after the treatment-only copy fix** (1efed20)
+  - In `src/app/[city]/[service]/page.tsx`, the neighboring “HOA Weed Violations” solution still says “We also offer weed fabric installation for long-term prevention.” Verified in the full live Phoenix and San Tan Valley weed hubs on 2026-11-15.
+  - Remove or correct that installation promise to match the treatment-only service scope. Keep URLs, titles and page identity unchanged. The Bermuda-decline aeration/dethatching/mowing corrections are already live; the remaining promise is inherited, not newly introduced.
+
 - [x] **DONE 2026-11-15 (1efed20: first H2 now limits non-translocation to acetic acid (vinegar/soap/boiling water are contact); salt described separately as soluble and mobile in soil, reaching the root zone of the weed and nearby plants; FAQ line narrowed to "vinegar or soap mix"; table foxtail barley = "Perennial or annual (cool-season grass)" per UC IPM; URL, title, date unchanged, modified 2026-11-15) · 2026-11-14 · Apache Junction DIY weed-killer post: distinguish salt's soil effects and qualify foxtail-barley life cycle** (7ace6b2)
   - Post: `/blog/diy-weed-killer-recipes-what-apache-junction-homeowners-should-know-before-mixing-vinegar-and-salt`
   - The first H2 groups "Vinegar, salt, soap and boiling water" as contact treatments and says "They do not travel down into the roots". Limit the non-translocation explanation to acetic acid; distinguish salt's soil mobility/root-zone damage. The article's own cited Illinois Extension source explicitly says salt is soluble, highly mobile in soil and can damage nearby desirable plants: https://extension.illinois.edu/blogs/good-growing/2020-05-22-home-horticultural-remedies (opened 2026-11-14). The later salt warning is useful, but does not correct this earlier blanket explanation.
