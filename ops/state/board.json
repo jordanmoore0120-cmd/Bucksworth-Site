@@ -55,29 +55,32 @@
    "title": "Set the baseline AI visibility query set and run it (AIO cited 2/19, ChatGPT 0/11 on 2026-10-07)",
    "evidence": "seo-data/ai-visibility.json",
    "done": null,
-   "demand": null
+   "demand": null,
+   "progress": " 2026-11-15 1efed20: DataForSEO LLM-mentions refresh in ai-visibility.json (llm_mentions_refresh_2026_11_15): Google AI cites us as a source 45x (top: 9-signs-of-bug-infestation 12, Phoenix scorpion-control 5, Mesa scorpion-diet 3); ChatGPT retrieved our pages 5x, cited 0x. Like-for-like re-run of the 10-07 query set still open."
   },
   {
    "id": "T006",
    "owner": "authority",
    "priority": "P1",
-   "status": "open",
+   "status": "done",
    "created": "2026-10-07",
    "title": "Lost-link reclamation starting with azmomsquad.com Arizona business directory (lost 2026-06-30); draft for Jordan",
    "evidence": "seo-data/backlinks-recovery.json",
-   "done": null,
-   "demand": null
+   "done": "2026-11-15",
+   "demand": null,
+   "progress": "2026-11-15 1efed20: ops/drafts/link-reclamation-2026-11-15.md. azmomsquad.com now 301s to a gambling site (dead, dropped). bestprosintown.com listing needs a manual browser check/claim (Cloudflare blocks bots). ReleaseWire = paid only; rest are auto-generated spam or HVAC. Real authority gains = new local links (pr-backlinks)."
   },
   {
    "id": "T007",
    "owner": "director",
    "priority": "P1",
-   "status": "open",
+   "status": "done",
    "created": "2026-10-07",
    "title": "Install scripts/url-guard.workflow.yml into .github/workflows (Viktor's GitHub app lacks workflows permission)",
    "evidence": "scripts/url-guard.workflow.yml",
-   "done": null,
-   "demand": null
+   "done": "2026-11-15",
+   "demand": null,
+   "progress": "2026-11-15 6ab0add: .github/workflows/url-guard.yml installed (copy of scripts/url-guard.workflow.yml); push to main accepted."
   },
   {
    "id": "T008",

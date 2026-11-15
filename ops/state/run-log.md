@@ -41,3 +41,11 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - site-qa (Playwright, live, 30 pages): 1 FAIL (services.ts name, left on purpose - page-identity), 36 WARN (16 internal-link, fixed by T014; 20 body-copy mowing/landscape advice).
 - Blog: "DIY Weed Killer Recipes" (Apache Junction, post-emergent-weed-treatment), AZ 320, from question-keywords.json; live SERP = recipe/how-to blogs + extension + AIO.
 - Commit 7ace6b2 on main. DataForSEO ok (1 live SERP). Slack read ok.
+
+## 2026-11-15 daily run (Claude)
+- Fix-list: AJ DIY weed-killer post corrected per Viktor QA (acetic acid = non-translocating contact; salt separated as soil-mobile, reaches root zones; foxtail barley "perennial or annual"). Lawn-aeration photo item still ASSET GAP.
+- Service truth (law #2): weed-hub template "Bermuda Grass Lawn Decline" solution claimed core aeration, dethatching and evaluating mowing on every city weed hub; now lists only sold treatments (fertilization, Bermuda-safe weed control, overseeding). Summer guide mowing-height line removed.
+- Board T005 progress (DataForSEO LLM mentions: Google AI 45 source citations, ChatGPT 5 retrievals / 0 citations), T006 done (draft; azmomsquad.com hijacked by a gambling site), T007 done (url-guard workflow installed, 6ab0add).
+- site-qa (Playwright, live, 30 pages + CTAs): 0 live findings; static 1 FAIL (services.ts name, left on purpose - page-identity), 20 WARN body copy (homeowner-advice mowing wording).
+- Blog: "Does Borax and Sugar Kill Ants?" (San Tan Valley, ant-control), AZ 110, question-keywords.json; live SERP = recipe/how-to + Reddit + AIO.
+- Commits 1efed20 + 6ab0add on main. GBP ok (Tucson: 398 reviews, 4.9, newest 11-14, replied). DataForSEO ok (1 SERP + 3 LLM-mention calls). Slack read ok.

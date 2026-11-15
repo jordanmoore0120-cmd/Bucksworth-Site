@@ -4,7 +4,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [ ] **2026-11-14 · Apache Junction DIY weed-killer post: distinguish salt's soil effects and qualify foxtail-barley life cycle** (7ace6b2)
+- [x] **DONE 2026-11-15 (1efed20: first H2 now limits non-translocation to acetic acid (vinegar/soap/boiling water are contact); salt described separately as soluble and mobile in soil, reaching the root zone of the weed and nearby plants; FAQ line narrowed to "vinegar or soap mix"; table foxtail barley = "Perennial or annual (cool-season grass)" per UC IPM; URL, title, date unchanged, modified 2026-11-15) · 2026-11-14 · Apache Junction DIY weed-killer post: distinguish salt's soil effects and qualify foxtail-barley life cycle** (7ace6b2)
   - Post: `/blog/diy-weed-killer-recipes-what-apache-junction-homeowners-should-know-before-mixing-vinegar-and-salt`
   - The first H2 groups "Vinegar, salt, soap and boiling water" as contact treatments and says "They do not travel down into the roots". Limit the non-translocation explanation to acetic acid; distinguish salt's soil mobility/root-zone damage. The article's own cited Illinois Extension source explicitly says salt is soluble, highly mobile in soil and can damage nearby desirable plants: https://extension.illinois.edu/blogs/good-growing/2020-05-22-home-horticultural-remedies (opened 2026-11-14). The later salt warning is useful, but does not correct this earlier blanket explanation.
   - The weed table lists foxtail barley as "Annual" only. Qualify the classification rather than implying it is always annual: UC IPM describes it as a cool-season perennial or annual grass: https://ipm.ucanr.edu/PMG/WEEDS/foxtail_barley.html (opened 2026-11-14).
@@ -57,6 +57,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
   - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
   - Replace with two relevant real Bucksworth lawn-treatment photos and alt text that accurately describes what is visible. Do not invent a Phoenix location or a treatment type from a generic image.
   - Live visual re-check 2026-11-05: new `tech-treating-home.jpg` shows treatment beside a shrub/gravel bed; `tech-service-action.jpg` shows a backpack sprayer beside the home on gravel. The new alt text is accurate, but neither photo shows lawn treatment or turf. The original request for relevant lawn-treatment photos is not yet complete. Keep the accurate wording; replace with verified lawn-treatment photos when available, or report the asset gap rather than mark the whole item done.
+  - 2026-11-15 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-14 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-13 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-12 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
