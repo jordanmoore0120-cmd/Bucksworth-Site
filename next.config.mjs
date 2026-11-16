@@ -755,6 +755,9 @@ const nextConfig = {
         { source: "/blog/why-scottsdale-mosquito-problems-are-why-scottsdale-mosquito-problems-are-worse-than-you-think-tips-for-troon-north-r", destination: "/blog/why-scottsdale-mosquito-problems-are-worse-than-you-think-tips-for-troon-north-r", permanent: true },
         // Cross-post reference to a near-duplicate title under a different slug/wording.
         { source: "/blog/the-dangers-of-ignoring-termite-damage-in-your-arizona-home", destination: "/blog/the-dangers-of-ignoring-termite-damage-in-older-houses", permanent: true },
+        // 2026-11-16 migration repair (T003): Casa Grande pest legacy WP URLs still 404ing live (same intent as the Casa Grande pest hub).
+        { source: "/best-pest-control-in-casa-grande-az/reliable-protection-for-your-pinal-county-home", destination: "/casa-grande-az/pest-and-termite", permanent: true },
+        { source: "/best-pest-control-in-casagrande-az-reliable-protection-for-your-pinal-county-home", destination: "/casa-grande-az/pest-and-termite", permanent: true },
         // "Related articles" links to a companion city post that was never generated for that
         // city — no matching post exists, so send to the real money page for that city+service.
         { source: "/blog/marana-scarana-navigating-scorpion-season-in-our-desert-oasis", destination: "/marana-az/pest-and-termite/scorpion-control", permanent: true },

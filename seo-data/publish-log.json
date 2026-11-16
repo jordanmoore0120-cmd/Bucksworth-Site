@@ -484,5 +484,24 @@
    "/san-tan-valley-az/pest-and-termite/scorpion-control (pos 21.6)"
   ],
   "information_gain": "Explains why a homemade bait must be slow (UC IPM) and the 4 failure modes (too strong, dries out in desert air, colony switched to protein, multi-queen colonies); species table for STV ants with foods from UC IPM and whether a sugar bait helps; borax safety facts from NPIC (eye/skin, infants, pets within 2 hours) + Poison Control number; STV-specific causes (graded desert lots, irrigation, monsoon, slider/expansion-joint entries)."
+ },
+ {
+  "date": "2026-11-16",
+  "slug": "what-do-cockroaches-look-like-a-chandler-homeowners-guide-to-identifying-arizona-roaches",
+  "city": "chandler-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "roach-elimination",
+  "target_question": "what do cockroaches look like",
+  "az_volume": 170,
+  "queue_rank": null,
+  "source": "seo-data/question-keywords.json (roach-elimination: 'what do cockroaches look like' AZ 170). blog-queue.json exhausted/owned since 11-12 (re-checked 11-16: #1/#2/#9 published, #3-#8 rejected 11-11, #10-#12 owned).",
+  "money_page_linked": "/chandler-az/pest-and-termite/roach-elimination",
+  "serp_type": "informational identification guide (live DataForSEO SERP 2026-11-16, Phoenix mobile/iOS: AI Overview, images, PAA, perspectives; whatsthatbug identification guide, Shutterstock species images, a roach-types guide, a pest-company American-cockroach ID page). Blog post matches.",
+  "gate": "topic-check 'what do cockroaches look like' only matched the Mesa termite-ID post on the generic words 'look like' (different insect). No title/target_question/GSC query asks what roaches look like or how to identify them. Closest: Gilbert water-bugs-vs-cockroaches (comparison; linked) and Anthem german-vs-sewer roaches (two-species comparison). Rejected today (owned): bed bug vs mosquito bites (QC), do bumble bees sting (Chandler), mice in the house (Mesa), black widow bites (Phoenix), what is a pre emergent herbicide (Phoenix), spiders in house (existing why-so-many-spiders post), carpenter ant signs (white-ants post, and weak desert fit).",
+  "striking_distance_linked": [
+   "/chandler-az/pest-and-termite (pos 23.6)",
+   "/mesa-az/pest-and-termite (pos 8.4)"
+  ],
+  "information_gain": "Five-species East Valley ID table (size, markings, where found), nymph and egg-case identification, desert look-alikes (darkling/ground beetles, crickets, fig beetles, true water bugs), sighting-pattern diagnosis by Chandler ZIP; cites UC IPM cockroach pest note."
  }
 ]
