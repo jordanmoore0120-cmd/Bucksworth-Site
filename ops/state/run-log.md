@@ -49,3 +49,9 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - site-qa (Playwright, live, 30 pages + CTAs): 0 live findings; static 1 FAIL (services.ts name, left on purpose - page-identity), 20 WARN body copy (homeowner-advice mowing wording).
 - Blog: "Does Borax and Sugar Kill Ants?" (San Tan Valley, ant-control), AZ 110, question-keywords.json; live SERP = recipe/how-to + Reddit + AIO.
 - Commits 1efed20 + 6ab0add on main. GBP ok (Tucson: 398 reviews, 4.9, newest 11-14, replied). DataForSEO ok (1 SERP + 3 LLM-mention calls). Slack read ok.
+
+## 2026-11-16 daily run (Claude)
+- Fix-list: url-guard workflow pipefail (shell: bash + set -o pipefail, tested locally) and weed-fabric installation promise removed from every city weed hub + Green Valley override. Both in bbb82e3. Phoenix aeration photo still ASSET GAP.
+- site-tasks.md: only B1 open (blocked on Jordan's guarantee terms). Board T003: live re-check of 389 legacy/known-broken URLs; 2 Casa Grande pest WP URLs 301'd; 9 intentional 404s and 2-hop slash chains documented.
+- Blog: "What Do Cockroaches Look Like? A Chandler Homeowner's Guide to Identifying Arizona Roaches" (roach-elimination, AZ 170, question-keywords.json; live SERP = identification guides + AIO + images + PAA).
+- Connectors: DataForSEO ok (1 SERP). Slack read ok. GBP/Ads/GA4/Meta not tested this run.

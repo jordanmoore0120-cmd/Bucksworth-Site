@@ -4,11 +4,11 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [ ] **2026-11-15 · URL guard workflow can hide a failed production crawl behind `tee`** (6ab0add)
+- [x] **DONE 2026-11-16 (bbb82e3: crawl step now `shell: bash` + `set -o pipefail`; tested locally: `false | tee` exits 0 under bash -e and 1 with pipefail, same for a `node -e process.exit(1)` producer; live Actions run on the push to be confirmed) · 2026-11-15 · URL guard workflow can hide a failed production crawl behind `tee`** (6ab0add)
   - `.github/workflows/url-guard.yml` runs `node scripts/url-guard.mjs prod | tee guard.txt` with no explicit shell or `pipefail`. The actual Actions log for run 43734945220 confirms `/usr/bin/bash -e {0}`. In that shell `false | tee /dev/null` exits 0; with `bash -eo pipefail` it exits 1. A future nonzero guard exit can therefore leave this step green and skip the `if: failure()` issue step.
   - Add explicit `shell: bash` to the crawl step (GitHub's bash shell includes pipefail), or set `set -o pipefail` before the pipeline. Test a deliberately failing producer and confirm the step fails and the issue path executes. Today's crawl itself reported zero NEW breaks; this is a failure-detection defect, not evidence of new broken URLs today.
 
-- [ ] **2026-11-15 · City weed hubs retain a weed-fabric installation service promise after the treatment-only copy fix** (1efed20)
+- [x] **DONE 2026-11-16 (bbb82e3: HOA solution now ends 'Weeds that already broke through are spot-treated with post-emergent on the same visits.'; also removed the Green Valley override's 'landscape fabric replacement' recommendation; no other fabric service promise found in src/; URLs/titles/H1s unchanged) · 2026-11-15 · City weed hubs retain a weed-fabric installation service promise after the treatment-only copy fix** (1efed20)
   - In `src/app/[city]/[service]/page.tsx`, the neighboring “HOA Weed Violations” solution still says “We also offer weed fabric installation for long-term prevention.” Verified in the full live Phoenix and San Tan Valley weed hubs on 2026-11-15.
   - Remove or correct that installation promise to match the treatment-only service scope. Keep URLs, titles and page identity unchanged. The Bermuda-decline aeration/dethatching/mowing corrections are already live; the remaining promise is inherited, not newly introduced.
 
@@ -65,6 +65,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
   - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
   - Replace with two relevant real Bucksworth lawn-treatment photos and alt text that accurately describes what is visible. Do not invent a Phoenix location or a treatment type from a generic image.
   - Live visual re-check 2026-11-05: new `tech-treating-home.jpg` shows treatment beside a shrub/gravel bed; `tech-service-action.jpg` shows a backpack sprayer beside the home on gravel. The new alt text is accurate, but neither photo shows lawn treatment or turf. The original request for relevant lawn-treatment photos is not yet complete. Keep the accurate wording; replace with verified lawn-treatment photos when available, or report the asset gap rather than mark the whole item done.
+  - 2026-11-16 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-15 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-14 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-13 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
