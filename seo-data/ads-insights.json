@@ -1,16 +1,15 @@
 {
- "generated": "2026-11-09T14:06Z",
+ "generated": "2026-11-16T14:11Z",
  "period": [
-  "2026-10-10",
-  "2026-11-08"
+  "2026-10-17",
+  "2026-11-15"
  ],
- "source": "Google Ads account 4486379637 (read-only pull by Viktor's google-ads-bot). Conversions = Google-tracked lead actions; one visitor can fire click-to-call + form (count as 1 customer). Not yet matched to FieldRoutes booked jobs.",
- "how_to_use": "Paid-search demand + landing-page conversion evidence for /lp/* and service/city pages. Converting terms = proven buyer language for headlines/FAQ. Paid junk terms = DIY intent (blog/FAQ ideas, not LP copy). Zips with leads = where to deepen local content.",
+ "source": "Google Ads account 4486379637 (read-only pull by Viktor's google-ads-bot). Conversions are tracked actions, not unique customers or verified sales. One visitor may trigger multiple actions. Not matched to FieldRoutes booked jobs. LSA inquiry counts use creation dates within the stated period; geographic counts use Google's conversion attribution.",
  "landing_pages": [
   {
    "url": "https://www.getyourbucksworth.com/lp/pest-control",
-   "clicks": 4,
-   "cost": 27.37,
+   "clicks": 5,
+   "cost": 32.0,
    "lead_conversions": 0.0,
    "conv_rate": 0.0
   },
@@ -23,6 +22,12 @@
   }
  ],
  "converting_search_terms": [
+  {
+   "term": "bucksworth home services",
+   "clicks": 4.0,
+   "cost": 16.02,
+   "conversions": 1.0
+  },
   {
    "term": "bucksworth pest control",
    "clicks": 2.0,
@@ -39,9 +44,9 @@
   },
   {
    "term": "bucksworth home services",
-   "clicks": 2.0,
-   "cost": 6.88,
-   "conversions": 0.0
+   "clicks": 4.0,
+   "cost": 16.02,
+   "conversions": 1.0
   },
   {
    "term": "bucksworth pest control",
@@ -52,19 +57,19 @@
  ],
  "leads_by_zip": [
   {
-   "zip": "85120",
-   "lsa_leads": 3.5
-  },
-  {
-   "zip": "85027",
+   "zip": "85388",
    "lsa_leads": 3.0
   },
   {
-   "zip": "85142",
+   "zip": "85016",
    "lsa_leads": 2.0
   },
   {
-   "zip": "85254",
+   "zip": "85027",
+   "lsa_leads": 2.0
+  },
+  {
+   "zip": "85044",
    "lsa_leads": 2.0
   },
   {
@@ -72,12 +77,12 @@
    "lsa_leads": 2.0
   },
   {
-   "zip": "85340",
+   "zip": "85382",
    "lsa_leads": 2.0
   },
   {
-   "zip": "85388",
-   "lsa_leads": 2.0
+   "zip": "85120",
+   "lsa_leads": 1.5
   },
   {
    "zip": "85213",
@@ -88,43 +93,19 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85012",
-   "lsa_leads": 1.0
-  },
-  {
    "zip": "85015",
    "lsa_leads": 1.0
   },
   {
-   "zip": "85016",
+   "zip": "85022",
    "lsa_leads": 1.0
   },
   {
-   "zip": "85020",
+   "zip": "85032",
    "lsa_leads": 1.0
   },
   {
-   "zip": "85021",
-   "lsa_leads": 1.0
-  },
-  {
-   "zip": "85037",
-   "lsa_leads": 1.0
-  },
-  {
-   "zip": "85040",
-   "lsa_leads": 1.0
-  },
-  {
-   "zip": "85041",
-   "lsa_leads": 1.0
-  },
-  {
-   "zip": "85201",
-   "lsa_leads": 1.0
-  },
-  {
-   "zip": "85202",
+   "zip": "85142",
    "lsa_leads": 1.0
   },
   {
@@ -132,11 +113,11 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85206",
+   "zip": "85209",
    "lsa_leads": 1.0
   },
   {
-   "zip": "85233",
+   "zip": "85254",
    "lsa_leads": 1.0
   },
   {
@@ -152,10 +133,6 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85295",
-   "lsa_leads": 1.0
-  },
-  {
    "zip": "85296",
    "lsa_leads": 1.0
   },
@@ -164,15 +141,11 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85345",
+   "zip": "85339",
    "lsa_leads": 1.0
   },
   {
-   "zip": "85374",
-   "lsa_leads": 1.0
-  },
-  {
-   "zip": "85379",
+   "zip": "85340",
    "lsa_leads": 1.0
   },
   {
@@ -184,14 +157,18 @@
    "lsa_leads": 1.0
   },
   {
+   "zip": "85132",
+   "search_leads": 1.0
+  },
+  {
    "zip": "85140",
    "search_leads": 1.0
   }
  ],
  "lsa_leads_by_service": {
-  "pest_control/MESSAGE": 38,
-  "pest_control/PHONE_CALL": 8,
-  "lawn_care/MESSAGE": 10,
+  "pest_control/MESSAGE": 29,
+  "pest_control/PHONE_CALL": 7,
+  "lawn_care/MESSAGE": 14,
   "lawn_care/PHONE_CALL": 23
  }
 }
