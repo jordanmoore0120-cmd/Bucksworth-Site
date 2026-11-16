@@ -1,6 +1,6 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
 
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; updated **2026-11-12**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; factual-reference update **2026-11-16**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -45,8 +45,12 @@ Source: https://developers.google.com/search/docs/appearance/ai-features (read 2
   DO exempt verified crawlers from CAPTCHA/blanket bot challenges and pre-warm caches at a controlled pace.
   Cold caches still hit the origin. For urgent overload, use temporary 429/503 responses for hours or at most 1–2 days,
   not persistent 403/challenge walls. This is configuration guidance, not a reason to change our URLs or tags.
-- November 2026 core update began **2026-11-10**; the ranking dashboard lists no completion yet (checked 2026-11-12,
-  https://developers.google.com/search/updates/ranking). DON'T attribute a particular Bucksworth rank change to it without evidence.
+- November 2026 core update began **2026-11-10** and remains Active (checked 2026-11-16,
+  https://status.search.google.com/). DON'T attribute a particular Bucksworth rank change to it without evidence.
+- Traffic identification (Google's new 2026-11-12 documentation, read 2026-11-16,
+  https://developers.google.com/search/docs/monitor-debug/identify-google-search-traffic):
+  DO distinguish Search Console clicks from analytics sessions. Search referrers contain origin only, not the query;
+  privacy settings may suppress them. DON'T equate Direct traffic with no search discovery or expect counts to match 1:1.
 
 Helpful content — https://developers.google.com/search/docs/fundamentals/creating-helpful-content
 - DO write people-first content showing first-hand experience (our techs, our jobs, local conditions).
@@ -130,10 +134,11 @@ Source: https://support.google.com/business/answer/3038177 (read 2026-10-02)
 
 ## 3. Microsoft Bing / Copilot
 
-Source: https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a (page is JS-only; read via
-search summary 2026-10-02 — re-verify wording before quoting)
-
+Source: https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a (full primary text read in browser 2026-11-16; publication/change date unverified).
 - Bing + Copilot use the same crawl/index/rank foundation; normal SEO = Copilot eligibility.
+- DO make each URL focused, independently understandable and explicit about facts/entities. DON'T add prompt
+  injection or language engineered to manipulate AI answers; Bing names this as abuse. Structured data and GEO
+  do not guarantee citations. These are verified current rules, not evidence of a new November policy rollout.
 - DO keep the XML sitemap complete with accurate `lastmod`; DO notify changes quickly via **IndexNow**
   (https://www.indexnow.org/documentation). The site has no IndexNow key yet (see site-tasks).
 - DON'T use `NOCACHE`/`NOARCHIVE` on pages we want cited — they limit Copilot answers/citations.
@@ -182,7 +187,7 @@ Sources: https://support.claude.com/en/articles/8896518 ; https://support.apple.
   Sources: https://developers.google.com/search/blog/2026/10/ai-training-control and the Anthropic source above.
 - DO allow `Applebot` (Siri/Spotlight search). `Applebot-Extended` only controls training use.
 
-Robots.txt status (live check 2026-10-29): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
+Robots.txt status (live check 2026-11-16): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
 Claude-SearchBot and Applebot are all allowed (only `/api/` disallowed). **Never add a blanket
 "block AI" rule or CDN setting** — Googlebot/Bingbot/Applebot are mixed-use crawlers and a hard block cuts search too.
 
@@ -199,6 +204,9 @@ Sources: https://support.google.com/google-ads/answer/16297775 ; https://support
 - AI Max (search-term matching, text customization, **final URL expansion**) can send traffic to pages we
   didn't choose and rewrite headlines. If enabled, exclude non-pest/weed URLs and review asset text against
   house rules (no "no contract", no AC/plumbing, no deal pairing). Changes need Jordan's approval.
+- User-based Conversion Lift (read 2026-11-16, https://support.google.com/google-ads/answer/12005564):
+  GA4-imported web conversions and click-ID-only offline imports are unsupported for this study type.
+  DON'T mistake that restriction for broken normal conversion reporting or change tags/imports without Jordan's approval.
 - Advanced Verification (https://support.google.com/adspolicy/answer/7167922): if an ad or landing page
   mentions a **guarantee or warranty, the same page must link to its terms, exclusions and how to claim**.
   Don't claim response times we can't always meet ("arrive in 30 minutes").
