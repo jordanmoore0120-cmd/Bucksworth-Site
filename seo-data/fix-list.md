@@ -4,6 +4,14 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **2026-11-17 · Apache Junction flying-termite opening: separate worker feeding from soldier defense** (797292c)
+  - `/blog/do-termites-fly-what-apache-junction-homeowners-should-know-about-termite-swarmers` opens with "Workers and soldiers, the termites that eat wood, never grow wings." Keep the wingless explanation but attribute wood feeding to workers, not soldiers. UC IPM distinguishes worker foraging/feeding from soldier defense: https://ipm.ucanr.edu/PMG/PESTNOTES/pn7415.html (opened 2026-11-17).
+  - Keep URL, title and publication date unchanged. Technical checks passed live: 2,102 words, 9 H2s, 6 FAQ questions, 2 accurately described photos, 1 table, 12 unique internal links all 200 including the money page, self-canonical, indexable, valid price-free JSON-LD and approved phone.
+
+- [ ] **2026-11-17 · Green Valley weed hub: qualify inherited pet re-entry advice** (797292c + 7fe0411)
+  - `/green-valley-az/weed-and-lawn-care` still says "We recommend keeping pets off treated areas until dry — about 30–60 minutes." The snowbird/yard-maintenance/photo-update corrections are live, but this adjacent safety recommendation remains a blanket drying-time rule.
+  - Make the product label and technician's product-specific re-entry instructions govern, including any longer restriction. NPIC says some granular lawn products require 24 hours or longer; do not imply all Bucksworth treatments are safe for pet re-entry after 30–60 minutes: https://npic.orst.edu/health/pets.html (opened 2026-11-17). This is inherited copy, not introduced by today's edits. Preserve page identity.
+
 - [x] **DONE 2026-11-16 (bbb82e3: crawl step now `shell: bash` + `set -o pipefail`; tested locally: `false | tee` exits 0 under bash -e and 1 with pipefail, same for a `node -e process.exit(1)` producer; live Actions run on the push to be confirmed) · 2026-11-15 · URL guard workflow can hide a failed production crawl behind `tee`** (6ab0add)
   - `.github/workflows/url-guard.yml` runs `node scripts/url-guard.mjs prod | tee guard.txt` with no explicit shell or `pipefail`. The actual Actions log for run 43734945220 confirms `/usr/bin/bash -e {0}`. In that shell `false | tee /dev/null` exits 0; with `bash -eo pipefail` it exits 1. A future nonzero guard exit can therefore leave this step green and skip the `if: failure()` issue step.
   - Add explicit `shell: bash` to the crawl step (GitHub's bash shell includes pipefail), or set `set -o pipefail` before the pipeline. Test a deliberately failing producer and confirm the step fails and the issue path executes. Today's crawl itself reported zero NEW breaks; this is a failure-detection defect, not evidence of new broken URLs today.
