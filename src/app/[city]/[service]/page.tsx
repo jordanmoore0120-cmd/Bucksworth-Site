@@ -58,7 +58,10 @@ export async function generateMetadata({ params }: ServiceHubProps): Promise<Met
 
   const phone = getPhoneForBranch(city.branch);
   const isAJ = citySlug === "apache-junction-az";
-  const metaDescription = isAJ
+  const fixedMeta = svcSlug === "pest-and-termite" ? PEST_HUB_META[citySlug] : undefined;
+  const metaDescription = fixedMeta
+    ? fixedMeta
+    : isAJ
     ? `${service.name} in ${city.name}, AZ — headquartered locally at 2073 W Houston Ave. ${service.tagline}. Same-day service, free inspections. Call ${phone}.`
     : `${service.name} in ${city.name}, AZ. ${service.tagline}. Same-day service, free inspections. Call ${phone}.`;
   return {
@@ -70,6 +73,15 @@ export async function generateMetadata({ params }: ServiceHubProps): Promise<Met
 
 /* ─── Pest hub title / H1 / answer-first opener (site-tasks 11 + 12) ─── */
 
+/* Pest hub meta descriptions for high-impression striking-distance hubs (GSC 2026-11-08:
+   Mesa pos 8.4 / 255K imp / 9 clicks, Florence pos 9.2 / 168K imp / 6 clicks, Maricopa pos 20.2 / 2.8K imp / 0 clicks).
+   The generic template description was identical on every city; these name the pests and local areas searchers look for. */
+const PEST_HUB_META: Record<string, string> = {
+  "mesa-az": "Pest control in Mesa, AZ for bark scorpions, termites, roaches, ants and rodents, from Las Sendas and Red Mountain to Downtown Mesa. Free inspection: (480) 422-8388.",
+  "florence-az": "Pest control in Florence, AZ 85132 for bark scorpions, termites and rodents in Anthem at Merrill Ranch, Magic Ranch and Historic Florence. Free inspection: (480) 422-8388.",
+  "maricopa-az": "Pest control in Maricopa, AZ 85138 and 85139 for bark scorpions, termites and rodents in Rancho El Dorado, Province, Tortosa and Alterra. Free inspection: (480) 422-8388.",
+};
+
 function pestHubTitle(cityName: string) {
   return `Pest Control in ${cityName}, AZ | Scorpion & Termite`;
 }
@@ -80,6 +92,8 @@ const PEST_HUB_OPENERS: Record<string, string> = {
   "san-tan-valley-az": "Bucksworth treats scorpions, termites, ants, roaches and rodents across San Tan Valley, including Johnson Ranch, Bella Via and Pecan Creek. Newer homes built on former desert floor near San Tan Mountain Regional Park tend to see bark scorpions first. Call (480) 422-8388 for a free inspection.",
   "mesa-az": "We treat scorpions, termites, roaches, ants and rodents in every part of Mesa. Las Sendas and Red Mountain sit beside desert preserve and see steady bark scorpion pressure, while older homes in Downtown Mesa call for termite inspections. Call (480) 422-8388 for a free inspection.",
   "gilbert-az": "Bucksworth handles termites, scorpions, roaches, ants and rodents in Gilbert. Older areas like Cooley Station and former farmland around Higley and Agritopia tend to need termite and rodent attention, while Power Ranch and Seville at the desert edge see scorpions. Call (480) 422-8388 for a free inspection.",
+  "florence-az": "Bucksworth treats scorpions, termites, ants, roaches and rodents for Florence homes in 85132. Anthem at Merrill Ranch and Magic Ranch sit beside open desert and see bark scorpions most from spring through fall, while older homes in Historic Florence near the Gila River call for termite inspections. Call (480) 422-8388 for a free inspection.",
+  "maricopa-az": "We treat scorpions, termites, ants, roaches and rodents for Maricopa homes in 85138 and 85139. Newer neighborhoods like Alterra and Tortosa were built on open desert and former farm fields, so bark scorpions and rodents keep moving toward homes as building continues, while termites work underground all year. Call (480) 422-8388 for a free inspection.",
   "tucson-az": "We treat scorpions, termites, roaches, ants and rodents across Tucson. Older homes in Sam Hughes and Midtown call for termite inspections, while the foothills around Catalina Foothills, Tanque Verde and Rita Ranch see bark scorpions and pack rats. Call (520) 284-9930 for a free inspection.",
 };
 

@@ -503,5 +503,24 @@
    "/mesa-az/pest-and-termite (pos 8.4)"
   ],
   "information_gain": "Five-species East Valley ID table (size, markings, where found), nymph and egg-case identification, desert look-alikes (darkling/ground beetles, crickets, fig beetles, true water bugs), sighting-pattern diagnosis by Chandler ZIP; cites UC IPM cockroach pest note."
+ },
+ {
+  "date": "2026-11-17",
+  "slug": "do-termites-fly-what-apache-junction-homeowners-should-know-about-termite-swarmers",
+  "city": "apache-junction-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "termite-treatment",
+  "target_question": "do termites fly",
+  "az_volume": 320,
+  "queue_rank": null,
+  "source": "seo-data/question-keywords.json (termite-treatment: 'do termites fly' / 'termites can fly' AZ 320). blog-queue.json still exhausted (generated 2026-11-08).",
+  "money_page_linked": "/apache-junction-az/pest-and-termite/termite-treatment",
+  "serp_type": "informational explainer (live DataForSEO SERP 2026-11-17, Phoenix mobile/android: AI Overview, PAA, images, short videos; pest-company 'flying termites/swarmers' explainers, Reddit). Blog post matches.",
+  "gate": "topic-check exit 0 (no URL owns 'do termites fly'). No GSC query in gsc-ranking-map/cannibalization contains termite + fly/swarm/wing. Closest: Phoenix white-ants post (target 'signs of white ants in house', identification) - linked, ant-vs-termite section kept short and points to it; June template 'termite swarming season in Florence/Maricopa/Sahuarita/Peoria' posts are city-specific season posts, different city (AJ), linked none. Rejected today: bermuda grass when to seed (owned by when-to-seed-bermuda post), roof rats / pack rats (owned by rodent posts), termites vs flying ants (white-ants post), scorpion sting duration (Avondale/Tempe sting posts), ants in house (2023 how-to-get-rid-of-ants).",
+  "striking_distance_linked": [
+   "/apache-junction-az/pest-and-termite (pos 20.0)",
+   "/florence-az/pest-and-termite (pos 9.2)"
+  ],
+  "information_gain": "Caste explanation (only alates fly), AZ species swarm-season table (Heterotermes monsoon dusk swarms, Reticulitermes spring daytime, Gnathamitermes, drywood), indoor vs outdoor swarm diagnosis, first-hour checklist, AJ-specific risk factors (Superstition desert edge, monsoon runoff, manufactured + site-built housing mix); cites UC IPM termite pest note and UA Extension."
  }
 ]
