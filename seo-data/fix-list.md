@@ -65,6 +65,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
   - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
   - Replace with two relevant real Bucksworth lawn-treatment photos and alt text that accurately describes what is visible. Do not invent a Phoenix location or a treatment type from a generic image.
   - Live visual re-check 2026-11-05: new `tech-treating-home.jpg` shows treatment beside a shrub/gravel bed; `tech-service-action.jpg` shows a backpack sprayer beside the home on gravel. The new alt text is accurate, but neither photo shows lawn treatment or turf. The original request for relevant lawn-treatment photos is not yet complete. Keep the accurate wording; replace with verified lawn-treatment photos when available, or report the asset gap rather than mark the whole item done.
+  - 2026-11-17 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-16 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-15 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-14 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.

@@ -174,6 +174,18 @@
    "done": "2026-11-14 7ace6b2",
    "demand": "legacy WP URLs with backlinks/GSC history (migration-history §4 steps 3-4)",
    "progress": "29 exact /residential/* rules to the matching sub-service (AC/heating/IAQ, ant, bed bug, bee/wasp, mosquito, rodent, roach, scorpion, spider, termite, weed); catch-all kept for the rest. /pest-control-phoenix(/) and 3 typo blog slugs now 301 straight to the final page."
+  },
+  {
+   "id": "T016",
+   "owner": "seo-content",
+   "priority": "P1",
+   "status": "done",
+   "created": "2026-11-17",
+   "title": "Striking-distance pest hubs (Mesa, Florence, Maricopa) shared one generic meta description; Florence/Maricopa had a generic opener",
+   "evidence": "seo-data/striking-distance.json 2026-11-08; live meta on /florence-az/pest-and-termite and /maricopa-az/pest-and-termite 2026-11-17",
+   "done": "2026-11-17 797292c",
+   "demand": "GSC 90d: Mesa pest hub 255,419 imp pos 8.4 (9 clicks); Florence 167,794 imp pos 9.2 (6 clicks); Maricopa 2,815 imp pos 20.2 (0 clicks)",
+   "progress": "City-specific meta descriptions (all 3) + answer-first openers (Florence, Maricopa). Watch CTR in GSC from 2026-11-24."
   }
  ]
 }

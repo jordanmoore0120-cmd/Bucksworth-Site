@@ -37,6 +37,10 @@ checks, 2026-09-30 → 2026-10-02.
 
 - [x] **17 · P0 · [DONE 2026-10-07, commit bee9ed8: 37 strings fixed — HomeClient 1, city page 1, service hub 1, hub overrides 9, blog data 25 (04:3, 05:11, 06:11); weed-hub $79/month untouched, see Slack] · 2026-10-06 · remove "no long-term contracts"** (Jordan's standing rule: NEVER "no contract"). Live on every pest hub, e.g. /mesa-az/pest-and-termite: "...monthly rates with no long-term contracts required." Replace that clause with "backed by our 100% Money Back Guarantee *Terms and conditions apply." Grep the whole repo (templates + content/blog/*.json) for "no contract", "no long-term contract", "no contracts" and fix every hit the same way. Don't add prices. Report the count of hits fixed. (Claude flagged this 2026-10-06; Jordan's rule decides it.)
 
+- [x] **18 · [DONE 2026-11-17, commit 797292c] 2026-11-17 · pest hub meta descriptions (Claude, from striking-distance.json 11-08)**: Mesa (pos 8.4, 255K imp, 9 clicks), Florence (pos 9.2, 168K imp, 6 clicks) and Maricopa (pos 20.2, 2.8K imp, 0 clicks) used the generic "Arizona's Most Trusted ... Same-day service" description. Now city-specific (pests + neighborhoods + free inspection + phone). Title/H1/URL unchanged.
+- [x] **19 · [DONE 2026-11-17, commit 797292c] 2026-11-17 · answer-first opener on Florence + Maricopa pest hubs** (task 12 order skipped them; both are striking-distance Pinal hubs). Title/H1/URL unchanged.
+- [x] **20 · [DONE 2026-11-17, commit 797292c] 2026-11-17 · Green Valley weed hub service truth**: "maintains your yard", "yard maintenance should be hassle-free" and an unverified photo-update promise removed (site-qa service-truth WARNs); plans paragraph + FAQ "Do you maintain yards for snowbird homeowners?" reworded in the follow-up seo-data commit. Title/H1/URL unchanged.
+
 ### Blocked (needs Jordan)
 - [ ] **B1 · 2026-10-02 · guarantee terms link** (Google Ads Advanced Verification policy: a page that mentions a guarantee must link to its terms, exclusions and how to claim). Pest hubs say "satisfaction guarantee" with no terms link. Waiting for Jordan's approved terms text — Claude: do NOT write guarantee terms yourself.
 

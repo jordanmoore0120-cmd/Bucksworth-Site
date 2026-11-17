@@ -55,3 +55,10 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - site-tasks.md: only B1 open (blocked on Jordan's guarantee terms). Board T003: live re-check of 389 legacy/known-broken URLs; 2 Casa Grande pest WP URLs 301'd; 9 intentional 404s and 2-hop slash chains documented.
 - Blog: "What Do Cockroaches Look Like? A Chandler Homeowner's Guide to Identifying Arizona Roaches" (roach-elimination, AZ 170, question-keywords.json; live SERP = identification guides + AIO + images + PAA).
 - Connectors: DataForSEO ok (1 SERP). Slack read ok. GBP/Ads/GA4/Meta not tested this run.
+
+## 2026-11-17 daily run (Claude)
+- Fix-list: no new items. Phoenix aeration photo still ASSET GAP.
+- site-tasks.md 18-20 (797292c): Mesa/Florence/Maricopa pest hub meta descriptions (generic template -> city-specific; Florence pos 9.2 on 168K imp with 6 clicks is the CTR target), Florence + Maricopa answer-first openers, Green Valley weed hub service truth (rest of the snowbird "maintain yard / photo updates" promise removed in the follow-up commit, plans paragraph + FAQ). Board T016.
+- site-qa (Playwright, live, 30 pages + CTAs): 0 live findings; static 1 FAIL (services.ts name, left on purpose - page-identity), 18 WARN body copy.
+- Blog: "Do Termites Fly? What Apache Junction Homeowners Should Know About Termite Swarmers" (termite-treatment, AZ 320, question-keywords.json; live SERP = AIO + PAA + pest-company swarmer explainers + Reddit).
+- Connectors: DataForSEO ok (1 SERP), GBP ok (Phoenix: 2,026 reviews, 4.9, newest 11-16, replied). Slack read ok.
