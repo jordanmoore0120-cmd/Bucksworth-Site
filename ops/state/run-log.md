@@ -62,3 +62,11 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - site-qa (Playwright, live, 30 pages + CTAs): 0 live findings; static 1 FAIL (services.ts name, left on purpose - page-identity), 18 WARN body copy.
 - Blog: "Do Termites Fly? What Apache Junction Homeowners Should Know About Termite Swarmers" (termite-treatment, AZ 320, question-keywords.json; live SERP = AIO + PAA + pest-company swarmer explainers + Reddit).
 - Connectors: DataForSEO ok (1 SERP), GBP ok (Phoenix: 2,026 reviews, 4.9, newest 11-16, replied). Slack read ok.
+
+## 2026-11-18 daily run (Claude)
+- Fix-list (43a64e7): AJ do-termites-fly opener now separates worker feeding from soldier defense; Green Valley weed hub pet re-entry advice now follows the product label and the technician's instructions (min. until dry, longer per label, some granular 24h+). The same blanket "30-60 minutes" rule was fixed on the Peoria, Gilbert and Sahuarita hubs and the shared weed FAQ. Phoenix aeration photo still ASSET GAP.
+- site-tasks 21-23 (43a64e7): "save 20-30%" deal claims removed from 9 weed hubs + 6 FAQs; HVAC/plumbing promotion removed from 4 weed-hub pest FAQs; unsourced HOA fine figures removed (Surprise, Scottsdale). Titles/H1s/URLs unchanged. All verified live.
+- Blog: "How to Get Rid of Crickets: What Florence Homeowners Should Know Before They Draw In Scorpions". The topic came from a live DataForSEO search-volume pull because the queue and question-keywords are exhausted (AZ 880/mo, $0.09 for 50 keywords). Live SERP = AIO + video + PAA + pest-company how-tos. Links to the Florence pest hub (pos 9.2, 168K imp).
+- Gate rejections today: bed-bug check (Mesa inspection guide), do scorpions hibernate (legacy winter-nights post answers it; improve that URL), what eats scorpions (Mesa diet post), sting first aid, exterminate cockroaches, black widow deadly.
+- Static site-qa: 1 FAIL (services.ts name, left on purpose - page-identity); no new findings. Build + url-guard prepush PASS.
+- Connectors: DataForSEO ok (1 volume + 1 SERP), GBP ok (Tucson 398 reviews, 4.9, newest 11-14, replied), Slack read ok. Ads/GA4/Meta not tested.

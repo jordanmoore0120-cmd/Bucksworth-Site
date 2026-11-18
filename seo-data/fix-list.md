@@ -4,11 +4,11 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [ ] **2026-11-17 · Apache Junction flying-termite opening: separate worker feeding from soldier defense** (797292c)
+- [x] **DONE 2026-11-18 (43a64e7: opener now 'Workers, the termites that chew and eat the wood, and soldiers, which guard the colony, never grow wings.'; no other soldier/feeding line in the post; URL, title, date unchanged, modified 2026-11-18) · 2026-11-17 · Apache Junction flying-termite opening: separate worker feeding from soldier defense** (797292c)
   - `/blog/do-termites-fly-what-apache-junction-homeowners-should-know-about-termite-swarmers` opens with "Workers and soldiers, the termites that eat wood, never grow wings." Keep the wingless explanation but attribute wood feeding to workers, not soldiers. UC IPM distinguishes worker foraging/feeding from soldier defense: https://ipm.ucanr.edu/PMG/PESTNOTES/pn7415.html (opened 2026-11-17).
   - Keep URL, title and publication date unchanged. Technical checks passed live: 2,102 words, 9 H2s, 6 FAQ questions, 2 accurately described photos, 1 table, 12 unique internal links all 200 including the money page, self-canonical, indexable, valid price-free JSON-LD and approved phone.
 
-- [ ] **2026-11-17 · Green Valley weed hub: qualify inherited pet re-entry advice** (797292c + 7fe0411)
+- [x] **DONE 2026-11-18 (43a64e7: Green Valley text now says the product label and the technician's re-entry instructions decide when pets go back, at minimum until dry and longer when the label says so, some granular lawn products 24h+; the same blanket '30-60 minutes' rule was also fixed on the Peoria FAQ (incl. 'not a risk to pets or children'), Gilbert and Sahuarita weed hubs and the shared weed sub-service FAQ in services.ts; 0 '30-60 minute' pet lines left in src/lib; URLs/titles/H1s unchanged) · 2026-11-17 · Green Valley weed hub: qualify inherited pet re-entry advice** (797292c + 7fe0411)
   - `/green-valley-az/weed-and-lawn-care` still says "We recommend keeping pets off treated areas until dry — about 30–60 minutes." The snowbird/yard-maintenance/photo-update corrections are live, but this adjacent safety recommendation remains a blanket drying-time rule.
   - Make the product label and technician's product-specific re-entry instructions govern, including any longer restriction. NPIC says some granular lawn products require 24 hours or longer; do not imply all Bucksworth treatments are safe for pet re-entry after 30–60 minutes: https://npic.orst.edu/health/pets.html (opened 2026-11-17). This is inherited copy, not introduced by today's edits. Preserve page identity.
 
@@ -73,6 +73,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
   - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
   - Replace with two relevant real Bucksworth lawn-treatment photos and alt text that accurately describes what is visible. Do not invent a Phoenix location or a treatment type from a generic image.
   - Live visual re-check 2026-11-05: new `tech-treating-home.jpg` shows treatment beside a shrub/gravel bed; `tech-service-action.jpg` shows a backpack sprayer beside the home on gravel. The new alt text is accurate, but neither photo shows lawn treatment or turf. The original request for relevant lawn-treatment photos is not yet complete. Keep the accurate wording; replace with verified lawn-treatment photos when available, or report the asset gap rather than mark the whole item done.
+  - 2026-11-18 Claude: still ASSET GAP (26 photos, none show turf; Viktor's GBP report says no new tech photos since Nov 16). Item stays open.
   - 2026-11-17 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-16 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
   - 2026-11-15 Claude: still ASSET GAP (26 photos, none show turf). Item stays open.
