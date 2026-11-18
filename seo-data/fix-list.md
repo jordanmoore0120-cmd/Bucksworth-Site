@@ -4,6 +4,11 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
+- [ ] **2026-11-18 · Inherited weed-hub service promises still exceed treatment-only scope** (reviewed with 43a64e7)
+  - Live `/chandler-az/weed-and-lawn-care`, FAQ "How do you stop bermuda grass from invading rock yards?": "we can install physical root barriers." This promises installation work, not weed treatment. Remove Bucksworth's installation promise; keep treatment advice and, if helpful, clearly distinguish homeowner/landscaper work from our services.
+  - Live `/apache-junction-az/weed-and-lawn-care`, shared FAQ "When should I overseed my lawn in Arizona?": "We handle the full process: scalping, seeding, topdressing". The answer comes from `src/lib/services.ts` and is inherited by city weed hubs without custom FAQs. Remove the hands-on lawn-renovation promise and retain accurate seasonal guidance/treatment-only scope.
+  - These were already present before today's edits, not introduced by the pet-safety fix. Verify the full live FAQ on Chandler and at least two generic city hubs after correction; preserve URLs, titles, H1s and schema identity.
+
 - [x] **DONE 2026-11-18 (43a64e7: opener now 'Workers, the termites that chew and eat the wood, and soldiers, which guard the colony, never grow wings.'; no other soldier/feeding line in the post; URL, title, date unchanged, modified 2026-11-18) · 2026-11-17 · Apache Junction flying-termite opening: separate worker feeding from soldier defense** (797292c)
   - `/blog/do-termites-fly-what-apache-junction-homeowners-should-know-about-termite-swarmers` opens with "Workers and soldiers, the termites that eat wood, never grow wings." Keep the wingless explanation but attribute wood feeding to workers, not soldiers. UC IPM distinguishes worker foraging/feeding from soldier defense: https://ipm.ucanr.edu/PMG/PESTNOTES/pn7415.html (opened 2026-11-17).
   - Keep URL, title and publication date unchanged. Technical checks passed live: 2,102 words, 9 H2s, 6 FAQ questions, 2 accurately described photos, 1 table, 12 unique internal links all 200 including the money page, self-canonical, indexable, valid price-free JSON-LD and approved phone.
