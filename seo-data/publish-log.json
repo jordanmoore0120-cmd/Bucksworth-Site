@@ -522,5 +522,24 @@
    "/florence-az/pest-and-termite (pos 9.2)"
   ],
   "information_gain": "Caste explanation (only alates fly), AZ species swarm-season table (Heterotermes monsoon dusk swarms, Reticulitermes spring daytime, Gnathamitermes, drywood), indoor vs outdoor swarm diagnosis, first-hour checklist, AJ-specific risk factors (Superstition desert edge, monsoon runoff, manufactured + site-built housing mix); cites UC IPM termite pest note and UA Extension."
+ },
+ {
+  "date": "2026-11-18",
+  "slug": "how-to-get-rid-of-crickets-what-florence-homeowners-should-know-before-they-draw-in-scorpions",
+  "city": "florence-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "general-pest-control (crickets; supports scorpion-control)",
+  "target_question": "how to get rid of crickets",
+  "az_volume": 880,
+  "queue_rank": null,
+  "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-18 (50 candidate questions, $0.09): 'how to get rid of crickets' AZ 880/mo avg (Jun 1,900, Dec 170); 'how to get rid of crickets in house' 480. blog-queue.json exhausted since 11-12 and question-keywords.json has no uncovered pest/weed question >=40 AZ that passes the gate.",
+  "money_page_linked": "/florence-az/pest-and-termite",
+  "serp_type": "informational how-to (live DataForSEO SERP 2026-11-18, Phoenix mobile/android: AI Overview, video, PAA, forums; pest-company how-to articles incl. a Phoenix pest company 'keep crickets out' guide). Blog post matches.",
+  "gate": "topic-check exit 0 (core word 'cricket', no owner). 0 blog titles/slugs contain 'cricket'; no GSC query in gsc-ranking-map contains 'cricket'; no publish-log target_question about crickets. Rejected today: how to check for bed bugs (Mesa 'what do bed bugs look like on a bed ... inspection guide' owns inspection intent), do scorpions hibernate (legacy /blog/safe-scorpion-prevention-during-winter-nights already answers it; improve that URL instead), what eats scorpions (topic-check exit 1 vs Mesa scorpion-diet post), scorpion sting first aid (Avondale + Tempe sting posts have 'what to do' sections), how to exterminate cockroaches (near-variant of 'kill german cockroaches'), black widow deadly (Mesa post).",
+  "striking_distance_linked": [
+   "/florence-az/pest-and-termite (pos 9.2, 168K imp)",
+   "/san-tan-valley-az/pest-and-termite"
+  ],
+  "information_gain": "Cricket -> bark scorpion food-chain angle with Florence-specific causes (field edges drying, Gila River corridor, new-build coach lights in Anthem at Merrill Ranch / Magic Ranch); real Arizona month-by-month search-demand table from DataForSEO; honest DIY-remedy table; cites UC IPM crickets page."
  }
 ]
