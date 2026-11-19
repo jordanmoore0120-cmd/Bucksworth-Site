@@ -128,7 +128,7 @@ export const SERVICES: ServiceVertical[] = [
     ],
     faqs: [
       { q: "How often should I get pest control in Arizona?", a: "We recommend monthly or bi-monthly service in Arizona due to year-round pest pressure. Scorpions, roaches, and ants are active in every season, with peak activity during monsoon (July-September) and spring warm-up (March-May)." },
-      { q: "Is pest control safe for kids and pets?", a: "Yes. We use EPA-approved products and apply them strategically in cracks, crevices, and exterior perimeters. We recommend staying off treated exterior areas for 30 minutes after service. Interior treatments are placed in areas away from children and pets." },
+      { q: "Is pest control safe for kids and pets?", a: "Yes. We use EPA-approved products and apply them strategically in cracks, crevices, and exterior perimeters. Keep people and pets off treated exterior areas at least until the product dries, and longer if the product label or your technician says so; your technician tells you the re-entry time for the exact product used. Interior treatments are placed in areas away from children and pets." },
       { q: "Do you offer free pest inspections?", a: "Absolutely. Every new customer receives a free, no-obligation inspection. Our technician will identify current pest activity, potential entry points, and risk factors, then recommend a customized treatment plan." },
       { q: "How quickly can you respond to a pest emergency?", a: "We offer same-day and next-day service for urgent pest situations including scorpion infestations, bee/wasp nests near doorways, and rodent sightings. Call us and we will get a technician to your home as quickly as possible." },
       { q: "What is your termite warranty?", a: "Our termite treatments include a renewable warranty. We perform annual re-inspections and retreatments as needed at no additional cost during the warranty period. We also offer termite warranties for new construction pre-treatments that can be transferred when you buy a home." },
@@ -411,7 +411,7 @@ export const SERVICES: ServiceVertical[] = [
         icon: "grass",
         shortDesc: "Stop bermuda grass from invading flower beds",
         longDesc:
-          "Bermuda grass is Arizona's most aggressive turf invader. It sends runners into flower beds, rock yards, and pavement cracks, and standard mowing only makes it spread faster. Our bermuda grass control program uses selective herbicides and root barrier treatments to contain or eliminate bermuda from areas where it does not belong.",
+          "Bermuda grass is Arizona's most aggressive turf invader. It sends runners into flower beds, rock yards, and pavement cracks, and standard mowing only makes it spread faster. Our bermuda grass control program uses selective and systemic herbicide treatments to contain or eliminate bermuda from areas where it does not belong.",
       },
       {
         name: "Overseeding",
@@ -419,7 +419,7 @@ export const SERVICES: ServiceVertical[] = [
         icon: "seed",
         shortDesc: "Winter rye grass for year-round green lawn",
         longDesc:
-          "Arizona bermuda grass goes dormant and turns brown in winter. Overseeding with perennial ryegrass in October gives you a lush green lawn through March. Our overseeding service includes scalping, seeding, topdressing, and a watering schedule that ensures even germination and a beautiful winter lawn.",
+          "Arizona bermuda grass goes dormant and turns brown in winter. Overseeding with perennial ryegrass in October gives you a lush green lawn through March. We spread the ryegrass seed and give you a watering schedule for even germination. Before we seed, the bermuda should be cut very short (scalped). That cut is done by you or whoever cuts your grass; we tell you how low and when.",
       },
       {
         name: "Weed & Feed Program",
@@ -439,7 +439,7 @@ export const SERVICES: ServiceVertical[] = [
     faqs: [
       { q: "How often do I need weed control in Arizona?", a: "We recommend service every 6-8 weeks year-round. Arizona weeds grow in every season \u2014 winter weeds like London rocket and prickly lettuce, summer weeds like spurge and puncture vine. Consistent pre-emergent applications are the key to long-term weed prevention." },
       { q: "Can you treat weeds in gravel yards?", a: "Absolutely. Gravel and rock yards are our specialty. We apply pre-emergent barriers that prevent germination in rock landscapes and targeted post-emergent sprays for any weeds that break through. Most gravel yards stay clean with bi-monthly service." },
-      { q: "When should I overseed my lawn in Arizona?", a: "The ideal overseeding window in the Phoenix metro is October 1-20. In Tucson, it is slightly later due to warmer fall temps. We handle the full process: scalping, seeding, topdressing, and provide a watering schedule for successful germination." },
+      { q: "When should I overseed my lawn in Arizona?", a: "The ideal overseeding window in the Phoenix metro is October 1-20. In Tucson, it is slightly later due to warmer fall temps. We seed with perennial ryegrass and give you a watering schedule for successful germination. Scalping (cutting the bermuda very short) beforehand is done by you or whoever cuts your grass, and we tell you how low to cut and when." },
       { q: "Is weed control safe for kids and pets?", a: "We use EPA-registered herbicides and apply them carefully to targeted areas, following each product's label. Keep kids and pets off treated areas at least until the product dries, and longer if the label or your technician gives a longer re-entry time; some products, including some granular treatments, need 24 hours or more." },
       { q: "Do you offer free weed control estimates?", a: "Yes. Every new customer receives a free yard assessment where we identify weed species, assess your landscape, and recommend a treatment plan with transparent pricing. Call us or use our online estimator to get started." },
     ],

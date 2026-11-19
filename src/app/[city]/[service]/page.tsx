@@ -376,7 +376,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
               <p>{service.description}</p>
               <p>{city.description}</p>
               <p>
-                Whether you live in {nhoods.length > 0 ? nhoods.slice(0, 3).map(n => `${n.name} (${n.zips[0] || ""})`).join(", ") : city.name} or anywhere else in the {city.zipCodes.join(", ")} zip code{city.zipCodes.length > 1 ? "s" : ""}, our {service.name.toLowerCase()} team is ready to help.{nhoods[0]?.desc ? ` In ${nhoods[0].name}, ${nhoods[0].desc.toLowerCase()}` : ""} We serve every neighborhood across {city.name}&apos;s {city.population ? `${Number(city.population).toLocaleString()}-person community` : "community"} and provide same-day service for urgent situations. Call {phone} to schedule your free inspection today.
+                Whether you live in {nhoods.length > 0 ? nhoods.slice(0, 3).map(n => `${n.name} (${n.zips[0] || ""})`).join(", ") : city.name} or anywhere else in the {city.zipCodes.join(", ")} zip code{city.zipCodes.length > 1 ? "s" : ""}, our {service.name.toLowerCase()} team is ready to help.{nhoods[0]?.desc ? ` In ${nhoods[0].name}, ${nhoods[0].desc.toLowerCase()}` : ""} We serve every neighborhood across {city.name}&apos;s {city.population ? `community of roughly ${city.population} residents` : "community"} and provide same-day service for urgent situations. Call {phone} to schedule your free inspection today.
               </p>
             </div>
           </section>

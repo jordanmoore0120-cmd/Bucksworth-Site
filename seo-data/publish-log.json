@@ -541,5 +541,25 @@
    "/san-tan-valley-az/pest-and-termite"
   ],
   "information_gain": "Cricket -> bark scorpion food-chain angle with Florence-specific causes (field edges drying, Gila River corridor, new-build coach lights in Anthem at Merrill Ranch / Magic Ranch); real Arizona month-by-month search-demand table from DataForSEO; honest DIY-remedy table; cites UC IPM crickets page."
+ },
+ {
+  "date": "2026-11-19",
+  "slug": "what-are-harvester-ants-what-queen-creek-homeowners-should-know-about-bare-dirt-circles-and-painful-stings",
+  "city": "queen-creek-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "ant-control",
+  "target_question": "what are harvester ants (harvester ants)",
+  "az_volume": 880,
+  "queue_rank": null,
+  "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-19 (50 candidate pest/weed keywords, $0.09): 'harvester ants' AZ 880/mo avg (Apr 1,600; Jun/Sep 1,300; Dec/Jan 260), CPC $2.77. blog-queue.json and question-keywords.json exhausted.",
+  "money_page_linked": "/queen-creek-az/pest-and-termite/ant-control",
+  "serp_type": "informational (live DataForSEO SERP 2026-11-19, Phoenix mobile/android: AI Overview, knowledge graph, short videos, PAA, forums, perspectives; pest-company ID/control articles + a Maricopa harvester ant explainer). Blog post matches.",
+  "gate": "topic-check exit 0 (core words harvester+ant, no owner). 0 blog titles/slugs contain 'harvester'; no GSC query in gsc-ranking-map contains 'harvester'; no publish-log target_question about harvester ants. Body mentions in 34 legacy posts, only one H2 ('Harvester Ants' inside an Avondale ant-control post, not its target). Rejected today: 'brown recluse arizona' (AZ 1,600, topic-check 0, but ~20 templated spider posts carry the H3 'How do I know if I have brown recluse spiders in my <city> home?' plus a Glendale H2 - city-swap duplicates of the same question; consolidate those first), 'termite mud tubes' (AZ 320, overlaps the 'signs of termites in <city>' series + Mesa termite ID H3 'What do termite mud tubes look like?').",
+  "striking_distance_linked": [
+   "/mesa-az/pest-and-termite (pos 8.4, 255K imp)",
+   "/apache-junction-az/pest-and-termite (pos 20.0)",
+   "/san-tan-valley-az/pest-and-termite"
+  ],
+  "information_gain": "UA Cooperative Extension BYG #16 facts (size, cleared disc, 3-ft nests, barbed stingers, horned lizards up to 90% of diet, treat only nests near people/pets, hydramethylnon baits); harvester vs fire vs sugar vs carpenter ant ID table; real AZ month-by-month search-demand table; Queen Creek desert-edge/acreage/new-build nest locations; why sugar/borax baits and sprays fail on seed-eating ants."
  }
 ]
