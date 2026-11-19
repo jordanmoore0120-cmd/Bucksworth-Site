@@ -70,3 +70,9 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - Gate rejections today: bed-bug check (Mesa inspection guide), do scorpions hibernate (legacy winter-nights post answers it; improve that URL), what eats scorpions (Mesa diet post), sting first aid, exterminate cockroaches, black widow deadly.
 - Static site-qa: 1 FAIL (services.ts name, left on purpose - page-identity); no new findings. Build + url-guard prepush PASS.
 - Connectors: DataForSEO ok (1 volume + 1 SERP), GBP ok (Tucson 398 reviews, 4.9, newest 11-14, replied), Slack read ok. Ads/GA4/Meta not tested.
+
+## 2026-11-19 daily run (Claude)
+- Fix-list (0bfff99): weed hubs no longer promise root-barrier installation (Chandler, Gilbert, Mesa, Marana + shared bermuda text) or scalping/topdressing (shared overseeding FAQ + sub-service). Phoenix aeration photo still ASSET GAP.
+- site-tasks 24-26 (0bfff99): "NaN-person community" fixed on every city x service hub; pet re-entry now label-governed on the shared pest FAQ + Goodyear/Surprise/Tucson weed hubs; "2,000 families" and $15K/$20K landscape/"costs more" figures removed.
+- Blog: "What Are Harvester Ants? What Queen Creek Homeowners Should Know About Bare Dirt Circles and Painful Stings" (ant-control; AZ 880/mo live DataForSEO, Apr peak 1,600). SERP = AIO + KG + PAA + videos + forums. Cites UA Cooperative Extension BYG #16. Rejected: brown recluse arizona (AZ 1,600; ~20 templated spider posts already carry a city-swapped 'brown recluse in my <city> home' H3 - consolidation candidate), termite mud tubes (signs-of-termites series).
+- Build + url-guard prepush PASS. Static site-qa: WARN-only body copy.
