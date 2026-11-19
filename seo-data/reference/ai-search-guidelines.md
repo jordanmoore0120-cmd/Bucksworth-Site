@@ -1,17 +1,12 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
-
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; factual-reference update **2026-11-16**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; factual-reference update **2026-11-19**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
 AC/HVAC/plumbing, don't break URLs, don't touch tracking tags.
-
 ---
-
 ## 1. Google — AI Overviews / AI Mode / Search
-
 Source: https://developers.google.com/search/docs/appearance/ai-features (read 2026-10-02)
-
 - DO treat AI Overviews/AI Mode as normal SEO. Google: "no additional requirements … nor other special
   optimizations necessary." A page must be indexed and snippet-eligible to be a supporting link.
 - DO make pages easy to reach through **internal links**, keep important content as **text** (not only in
@@ -45,13 +40,16 @@ Source: https://developers.google.com/search/docs/appearance/ai-features (read 2
   DO exempt verified crawlers from CAPTCHA/blanket bot challenges and pre-warm caches at a controlled pace.
   Cold caches still hit the origin. For urgent overload, use temporary 429/503 responses for hours or at most 1–2 days,
   not persistent 403/challenge walls. This is configuration guidance, not a reason to change our URLs or tags.
-- November 2026 core update began **2026-11-10** and remains Active (checked 2026-11-16,
+- November 2026 core update began **2026-11-10** and remains Active (checked 2026-11-19,
   https://status.search.google.com/). DON'T attribute a particular Bucksworth rank change to it without evidence.
 - Traffic identification (Google's new 2026-11-12 documentation, read 2026-11-16,
   https://developers.google.com/search/docs/monitor-debug/identify-google-search-traffic):
   DO distinguish Search Console clicks from analytics sessions. Search referrers contain origin only, not the query;
   privacy settings may suppress them. DON'T equate Direct traffic with no search discovery or expect counts to match 1:1.
-
+- Search Analytics API (Google, 2026-11-16; https://developers.google.com/webmaster-tools/v1/searchanalytics/query):
+  `brandedClassification` is only available for eligible top-level properties; an empty response does NOT establish zero brand demand.
+  It cannot be combined with a query filter. `type=webMultimodal` covers Lens, Circle to Search and image uploads, not all AI traffic.
+  Multi-country/device filters use `dimensionFilterGroups[].filterLists`; never filter the same dimension in both `filters` and `filterLists`.
 Helpful content — https://developers.google.com/search/docs/fundamentals/creating-helpful-content
 - DO write people-first content showing first-hand experience (our techs, our jobs, local conditions).
 - DO answer "Who/How/Why": clear author (Jordan Moore byline), how it was made, made to help customers.
@@ -66,7 +64,6 @@ Helpful content — https://developers.google.com/search/docs/fundamentals/creat
   - **Talent/skill**: clear writing, real photos, working page tools.
   - **Accuracy**: pest/termite/chemical-safety claims touch health and home value, so treat them as YMYL:
     must be accurate and match expert consensus (AZ Dept of Ag, UA Extension). No invented stats.
-
 Generative AI content — https://developers.google.com/search/docs/fundamentals/using-gen-ai-content
 - DO manually fact-check and review **all** AI-drafted content before publishing: body claims, `<title>`,
   meta description, alt text and structured data (Google calls this "critical", doc updated 2026-10-02).
@@ -74,7 +71,6 @@ Generative AI content — https://developers.google.com/search/docs/fundamentals
 - DO consider a short "how this was made" note where automation was used (e.g. "written with AI assistance,
   reviewed by our licensed team"), only if it's true.
 - DON'T generate many pages without added value — that is **scaled content abuse**.
-
 Spam policies — https://developers.google.com/search/docs/essentials/spam-policies
 - DON'T create city-swap pages/posts that differ only by the city name (doorway + scaled content abuse).
   This is why one question = one post (CLAUDE.md §3).
@@ -91,11 +87,9 @@ Spam policies — https://developers.google.com/search/docs/essentials/spam-poli
   **scaled content is now a bigger problem than link spam**, spam is caught with AI, and quality is judged
   **per page, not per domain**. A template that's useful on 100 pages can be thin on 1,000. For our
   /{city}-az/{vertical}/{sub} pages, every city page needs city-specific main content, not just the city name.
-
 URL structure — https://developers.google.com/search/docs/crawling-indexing/url-structure (updated 2026-10-23)
 - DO separate words in NEW URLs with hyphens (`termite-treatment`), not underscores or run-together words.
   DON'T rename existing URLs to fix this (page-identity rule #1).
-
 Structured data — https://developers.google.com/search/docs/appearance/structured-data/sd-policies
 - DO mark up only what users can see on the page; DON'T mark up hidden, misleading or irrelevant content.
 - **FAQ rich results are no longer shown in Google Search (deprecated 2026-05-07)**
@@ -152,6 +146,11 @@ Source: https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a (full
   themes and lists queries in those themes where other sites are cited and we aren't. Source:
   https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/
 
+- Microsoft Advertising automated bidding (2026-11-18;
+  https://about.ads.microsoft.com/en/blog/post/november-2026/building-the-next-generation-of-automated-bidding-at-microsoft-advertising):
+  DO evaluate at campaign/portfolio level over sufficient conversions and 1–2 conversion cycles after major changes. Vendor uplift
+  averages are not Bucksworth forecasts; bidding, budget or tracking changes still require approval. This is not a reason to launch ads.
+
 ## 4. ChatGPT search (OpenAI)
 
 Source: https://platform.openai.com/docs/bots (verified 2026-11-05).
@@ -187,7 +186,7 @@ Sources: https://support.claude.com/en/articles/8896518 ; https://support.apple.
   Sources: https://developers.google.com/search/blog/2026/10/ai-training-control and the Anthropic source above.
 - DO allow `Applebot` (Siri/Spotlight search). `Applebot-Extended` only controls training use.
 
-Robots.txt status (live check 2026-11-16): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
+Robots.txt status (live check 2026-11-19): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
 Claude-SearchBot and Applebot are all allowed (only `/api/` disallowed). **Never add a blanket
 "block AI" rule or CDN setting** — Googlebot/Bingbot/Applebot are mixed-use crawlers and a hard block cuts search too.
 
@@ -239,7 +238,8 @@ updated 2026-07-31) ; https://support.google.com/google-ads/answer/17213585 (rea
 - Missed calls: business-hours calls that ring >20 s unanswered are billable from 2026-10-01.
 - After migration (read 2026-10-08): the weekly budget becomes a **daily average budget**; monthly spend
   can reach daily average × 30.4 (factor this into the $10K cap). Past leads, messages and call recordings
-  carry over; campaign performance reports do NOT (a download page is "coming soon", else screenshot first).
+  carry over; campaign performance reports do NOT. As of 2026-11-19, the redirection page offers a download of total lead spend
+  and charged leads split by phone/message/booking, NOT impressions, clicks or other report data. Preserve excluded metrics separately.
   A change to GBP business name, storefront address or **primary category** triggers a 24–48 h review that
   can pause the campaign. The new lead-email toggle opts all users in by default.
 - After migration (read 2026-10-15): budgets/bidding/locations/service types live in Google Ads → Campaigns →
