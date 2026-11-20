@@ -76,3 +76,10 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - site-tasks 24-26 (0bfff99): "NaN-person community" fixed on every city x service hub; pet re-entry now label-governed on the shared pest FAQ + Goodyear/Surprise/Tucson weed hubs; "2,000 families" and $15K/$20K landscape/"costs more" figures removed.
 - Blog: "What Are Harvester Ants? What Queen Creek Homeowners Should Know About Bare Dirt Circles and Painful Stings" (ant-control; AZ 880/mo live DataForSEO, Apr peak 1,600). SERP = AIO + KG + PAA + videos + forums. Cites UA Cooperative Extension BYG #16. Rejected: brown recluse arizona (AZ 1,600; ~20 templated spider posts already carry a city-swapped 'brown recluse in my <city> home' H3 - consolidation candidate), termite mud tubes (signs-of-termites series).
 - Build + url-guard prepush PASS. Static site-qa: WARN-only body copy.
+
+## 2026-11-20 daily run (Claude)
+- Fix-list (db6aaf3): undefined Schema.org types PestControlService/LandscapingBusiness replaced with HomeAndConstructionBusiness in all 5 templates (HVACBusiness/Plumber kept). Phoenix aeration photo still ASSET GAP.
+- site-tasks 27-29 (db6aaf3): city-specific meta on 5 striking-distance pest hubs (Phoenix 804K imp), answer-first openers on 5 hubs still on the generic fallback, weed meta service-truth wording (Oro Valley, Peoria, Sahuarita, Green Valley).
+- Blog: "What Are Kissing Bugs? What Gold Canyon Homeowners Should Know About Conenose Bugs, Bites and Pack Rat Nests" (rodent-exclusion; 'kissing bug' AZ 4,400/mo live DataForSEO, May peak 8,100). SERP = AIO + PAA + news + forums. Cites UA Extension AZ1992. Money page /gold-canyon-az/pest-and-termite.
+- site-qa live crawl: 43 FAIL were all Vercel 403 rate-limits (curl 200). Static: 1 FAIL (services.ts name, left on purpose - page-identity). Build + tsc + url-guard prepush PASS.
+- Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok.
