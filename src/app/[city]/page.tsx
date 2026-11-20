@@ -104,12 +104,12 @@ export default async function CityPage({ params }: CityPageProps) {
 
   // Schema.org LocalBusiness with multiple types
   const businessTypes: Record<string, string[]> = {
-    phoenix: ["PestControlService", "HVACBusiness", "Plumber", "LandscapingBusiness"],
-    tucson: ["PestControlService", "LandscapingBusiness"],
+    phoenix: ["HomeAndConstructionBusiness", "HVACBusiness", "Plumber"],
+    tucson: ["HomeAndConstructionBusiness"],
   };
   const schema = {
     "@context": "https://schema.org",
-    "@type": businessTypes[city.branch] || ["PestControlService"],
+    "@type": businessTypes[city.branch] || ["HomeAndConstructionBusiness"],
     "@id": `https://www.getyourbucksworth.com/${slug}#localbusiness`,
     name: `Bucksworth Home Services – ${city.name}`,
     description: city.description,

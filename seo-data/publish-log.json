@@ -561,5 +561,24 @@
    "/san-tan-valley-az/pest-and-termite"
   ],
   "information_gain": "UA Cooperative Extension BYG #16 facts (size, cleared disc, 3-ft nests, barbed stingers, horned lizards up to 90% of diet, treat only nests near people/pets, hydramethylnon baits); harvester vs fire vs sugar vs carpenter ant ID table; real AZ month-by-month search-demand table; Queen Creek desert-edge/acreage/new-build nest locations; why sugar/borax baits and sprays fail on seed-eating ants."
+ },
+ {
+  "date": "2026-11-20",
+  "slug": "what-are-kissing-bugs-what-gold-canyon-homeowners-should-know-about-conenose-bugs-bites-and-pack-rat-nests",
+  "city": "gold-canyon-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "rodent-exclusion",
+  "target_question": "what are kissing bugs (kissing bug / kissing bugs arizona)",
+  "az_volume": 4400,
+  "queue_rank": null,
+  "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-20 (40 candidate pest/weed keywords, $0.09): 'kissing bug' AZ 4,400/mo avg (May 8,100; Jun 6,600; Jan 2,400), 'kissing bugs arizona' 1,000, 'kissing bug bite' 1,000. blog-queue.json and question-keywords.json exhausted.",
+  "money_page_linked": "/gold-canyon-az/pest-and-termite",
+  "serp_type": "informational (live DataForSEO SERP 2026-11-20, 'kissing bugs arizona', Phoenix mobile/android: AI Overview, PAA, images, forums; news (AP, Fox), Facebook/Reddit ID threads, one pest-company conenose explainer). Blog post matches.",
+  "gate": "topic-check 'kissing bugs' exit 0 (no owner). 0 blog titles/slugs contain kissing/conenose; 0 GSC queries in gsc-ranking-map contain 'kissing' or 'conenose'; no publish-log target_question. Body mentions only in 13 templated July rodent posts ('their nests attract kissing bugs and rattlesnakes'), none as a heading or target. Also considered: 'sun spiders' 9,900 (low service fit), 'earwigs' 4,400 (9 GSC queries already map to existing pages - check owner first), 'tarantula hawk' 8,100 (low service fit), 'palo verde beetle' 8,100 (seasonal, low service fit).",
+  "striking_distance_linked": [
+   "/apache-junction-az/pest-and-termite (pos 20.0)",
+   "/mesa-az/pest-and-termite (pos 8.4, 255K imp)"
+  ],
+  "information_gain": "UA Cooperative Extension AZ1992 (Sep 2025) facts: 7 AZ species, T. rubida in Phoenix/Tucson foothills, May-July dispersal, allergy as main risk, >40% Tucson bugs carry T. cruzi yet 28 US autochthonous cases 1955-2015, remove nests within 350 ft; look-alike ID table; real AZ month-by-month search-demand table; Gold Canyon pack rat/cholla/Superstition Wilderness angle; DIY vs pro table; hantavirus caution on nest removal."
  }
 ]

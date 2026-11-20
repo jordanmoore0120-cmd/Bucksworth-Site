@@ -80,6 +80,13 @@ const PEST_HUB_META: Record<string, string> = {
   "mesa-az": "Pest control in Mesa, AZ for bark scorpions, termites, roaches, ants and rodents, from Las Sendas and Red Mountain to Downtown Mesa. Free inspection: (480) 422-8388.",
   "florence-az": "Pest control in Florence, AZ 85132 for bark scorpions, termites and rodents in Anthem at Merrill Ranch, Magic Ranch and Historic Florence. Free inspection: (480) 422-8388.",
   "maricopa-az": "Pest control in Maricopa, AZ 85138 and 85139 for bark scorpions, termites and rodents in Rancho El Dorado, Province, Tortosa and Alterra. Free inspection: (480) 422-8388.",
+  /* 2026-11-20 (site-task 27, GSC 2026-11-08): Phoenix pos 15.4 / 804K imp / 15 clicks, Tucson pos 24.7 / 6.4K imp,
+     Chandler pos 23.6 / 4.7K imp, Paradise Valley pos 15.4 / 2.7K imp / 0 clicks, Green Valley pos 18.5 / 2.3K imp / 0 clicks. */
+  "phoenix-az": "Pest control in Phoenix, AZ for bark scorpions, termites, roaches, ants and rodents, from Arcadia and Ahwatukee Foothills to North Phoenix and Desert Ridge. Free inspection: (480) 422-8388.",
+  "tucson-az": "Pest control in Tucson, AZ for bark scorpions, termites, roaches, pack rats and ants, from Sam Hughes and Midtown to Rita Ranch and Tanque Verde. Free inspection: (520) 284-9930.",
+  "chandler-az": "Pest control in Chandler, AZ for bark scorpions, termites, roaches, ants and rodents in Ocotillo, Sun Groves, Chandler Heights and Downtown Chandler. Free inspection: (480) 422-8388.",
+  "paradise-valley-az": "Pest control in Paradise Valley, AZ 85253 for bark scorpions, termites, roof rats and ants around Mummy Mountain, Lincoln Drive and Camelback Mountain. Free inspection: (480) 422-8388.",
+  "green-valley-az": "Pest control in Green Valley, AZ 85614 for bark scorpions, termites, pack rats and ants, from Green Valley Recreation communities to Continental. Free inspection: (520) 284-9930.",
 };
 
 function pestHubTitle(cityName: string) {
@@ -94,6 +101,13 @@ const PEST_HUB_OPENERS: Record<string, string> = {
   "gilbert-az": "Bucksworth handles termites, scorpions, roaches, ants and rodents in Gilbert. Older areas like Cooley Station and former farmland around Higley and Agritopia tend to need termite and rodent attention, while Power Ranch and Seville at the desert edge see scorpions. Call (480) 422-8388 for a free inspection.",
   "florence-az": "Bucksworth treats scorpions, termites, ants, roaches and rodents for Florence homes in 85132. Anthem at Merrill Ranch and Magic Ranch sit beside open desert and see bark scorpions most from spring through fall, while older homes in Historic Florence near the Gila River call for termite inspections. Call (480) 422-8388 for a free inspection.",
   "maricopa-az": "We treat scorpions, termites, ants, roaches and rodents for Maricopa homes in 85138 and 85139. Newer neighborhoods like Alterra and Tortosa were built on open desert and former farm fields, so bark scorpions and rodents keep moving toward homes as building continues, while termites work underground all year. Call (480) 422-8388 for a free inspection.",
+  /* 2026-11-20 (site-task 28): striking-distance hubs that still used the generic fallback opener
+     (Chandler's read "desert conditions near Chandler Fashion Center"). Facts from src/lib/neighborhoods.ts. */
+  "phoenix-az": "We treat scorpions, termites, roaches, ants and rodents across Phoenix. Homes in North Phoenix, Desert Ridge and Ahwatukee Foothills border open desert and South Mountain Preserve and see bark scorpions first, while older homes in Encanto-Palmcroft call for termite inspections. Call (480) 422-8388 for a free inspection.",
+  "chandler-az": "Bucksworth treats scorpions, termites, roaches, ants and rodents for Chandler homes. South Chandler neighborhoods like Sun Groves and Chandler Heights sit near open desert and the Gila River Indian Community and see scorpion activity, while older homes in Downtown Chandler call for termite inspections. Call (480) 422-8388 for a free inspection.",
+  "paradise-valley-az": "We treat scorpions, termites, roof rats, ants and rodents for Paradise Valley homes in 85253. Estates on Mummy Mountain and along Lincoln Drive sit against desert hillside, and the large lots with citrus in Paradise Valley Ranchos give roof rats cover. Call (480) 422-8388 for a free inspection.",
+  "green-valley-az": "Bucksworth treats scorpions, termites, pack rats, ants and roaches for Green Valley homes in 85614. Homes near Continental and the foothills toward Madera Canyon and the Santa Rita Mountains sit beside open desert, so scorpions and pack rats move in from the edges. Call (520) 284-9930 for a free inspection.",
+  "marana-az": "We treat scorpions, termites, pack rats, ants and roaches for Marana homes. Continental Ranch borders desert washes, Dove Mountain sits in the Tortolita Mountain foothills and Gladden Farms backs onto farm fields and desert, so pests move in from every edge. Call (520) 284-9930 for a free inspection.",
   "tucson-az": "We treat scorpions, termites, roaches, ants and rodents across Tucson. Older homes in Sam Hughes and Midtown call for termite inspections, while the foothills around Catalina Foothills, Tanque Verde and Rita Ranch see bark scorpions and pack rats. Call (520) 284-9930 for a free inspection.",
 };
 
@@ -276,7 +290,7 @@ export default async function ServiceHubPage({ params }: ServiceHubProps) {
     name: `${service.name} - ${city.name}, AZ`,
     description: service.description,
     provider: {
-      "@type": ({"pest-and-termite":"PestControlService","air-conditioning-and-heating":"HVACBusiness","plumbing-and-water-heaters":"Plumber","weed-and-lawn-care":"LandscapingBusiness"} as Record<string,string>)[service.slug] || "LocalBusiness",
+      "@type": ({"pest-and-termite":"HomeAndConstructionBusiness","air-conditioning-and-heating":"HVACBusiness","plumbing-and-water-heaters":"Plumber","weed-and-lawn-care":"HomeAndConstructionBusiness"} as Record<string,string>)[service.slug] || "LocalBusiness",
       name: "Bucksworth Home Services",
       telephone: phone,
       url: "https://www.getyourbucksworth.com",

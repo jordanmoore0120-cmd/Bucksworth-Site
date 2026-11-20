@@ -93,7 +93,7 @@ const ALL_CITIES = [
 /* ── Organization + LocalBusiness JSON-LD (site-wide) ── */
 const orgSchema = {
   "@context": "https://schema.org",
-  "@type": ["LocalBusiness", "PestControlService", "HVACBusiness", "Plumber"],
+  "@type": ["LocalBusiness", "HomeAndConstructionBusiness", "HVACBusiness", "Plumber"],
   "@id": "https://getyourbucksworth.com/#organization",
   name: "Bucksworth Home Services",
   legalName: "Bucksworth Home Services LLC",

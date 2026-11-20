@@ -166,7 +166,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "peoria-az/weed-and-lawn-care": {
     metaTitle: "Weed Control Peoria AZ — Pre-Emergent & Lawn Care Experts | Bucksworth",
-    metaDescription: "Professional weed control in Peoria, AZ. Pre-emergent prevention, gravel yard weed control, and Bermuda lawn care for Vistancia, Westwing, Old Town & Terramar. Call (480) 422-8388.",
+    metaDescription: "Professional weed control in Peoria, AZ. Pre-emergent prevention, gravel yard weed control, and Bermuda lawn weed treatment for Vistancia, Westwing, Old Town & Terramar. Call (480) 422-8388.",
     heroHeadline: "Peoria Weed Control — From Lake Pleasant to Old Town, We Keep Yards Clean",
     heroDescription: "Peoria stretches from the established neighborhoods of Old Town Peoria at 83rd Avenue all the way north to the desert foothills near Lake Pleasant — a range of terrain, soil types, and weed challenges that no generic spray-and-pray service can handle. Bucksworth Home Services provides expert weed control across every Peoria community with licensed applicators, neighborhood-specific treatment plans, and pre-emergent programs that prevent weeds before they germinate.",
     introContent: [
@@ -330,7 +330,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "oro-valley-az/weed-and-lawn-care": {
     metaTitle: "Weed Control Oro Valley AZ — Pre-Emergent & Lawn Care Pros | Bucksworth",
-    metaDescription: "Professional weed control in Oro Valley, AZ. Pre-emergent barriers, post-emergent treatment, and lawn care for Rancho Vistoso, Sun City, Steam Pump Village & Canada Hills. Call (520) 284-9930.",
+    metaDescription: "Professional weed control in Oro Valley, AZ. Pre-emergent barriers, post-emergent treatment, and lawn fertilization for Rancho Vistoso, Sun City, Steam Pump Village & Canada Hills. Call (520) 284-9930.",
     heroHeadline: "Oro Valley Weed Control — Catalina Foothill Yard Experts",
     heroDescription: "Oro Valley's premium communities sit at the base of the Santa Catalina Mountains, where elevation, rocky soil, and seasonal monsoons create weed challenges unlike anywhere else in the Tucson metro. Bucksworth Home Services provides professional weed control and lawn care for Rancho Vistoso, Sun City Oro Valley, Steam Pump Village, and Canada Hills — keeping desert yards clean and HOA-compliant year-round.",
     introContent: [
@@ -787,7 +787,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "sahuarita-az/weed-and-lawn-care": {
     metaTitle: "Weed Control Sahuarita AZ — Desert Yard & Rock Landscape Treatment | Bucksworth",
-    metaDescription: "Professional weed control in Sahuarita, AZ 85629. Pre-emergent barriers, post-emergent treatment, and gravel yard care for Rancho Sahuarita, Quail Creek & Las Campanas. Call (520) 284-9930.",
+    metaDescription: "Professional weed control in Sahuarita, AZ 85629. Pre-emergent barriers and post-emergent treatment for gravel yards in Rancho Sahuarita, Quail Creek & Las Campanas. Call (520) 284-9930.",
     heroHeadline: "Sahuarita Weed Control — Desert Community Yard Specialists",
     heroDescription: "Sahuarita is one of southern Arizona's fastest-growing communities — and every new subdivision built on raw desert soil creates another neighborhood where dormant weed seeds activate the moment irrigation turns on. Bucksworth Home Services provides professional weed control for Rancho Sahuarita, Quail Creek, Las Campanas, and every Sahuarita community in the 85629 zip code. Licensed applicators, commercial-grade herbicides, and pre-emergent programs designed for Sahuarita's unique desert-meets-agriculture soil profile.",
     introContent: [
@@ -851,7 +851,7 @@ const OVERRIDES: Record<string, ServiceHubOverride> = {
      ═══════════════════════════════════════════════════════════════ */
   "green-valley-az/weed-and-lawn-care": {
     metaTitle: "Weed Control Green Valley AZ — Desert & Golf Community Treatment | Bucksworth",
-    metaDescription: "Professional weed control in Green Valley, AZ 85614/85622. Pre-emergent barriers and gravel yard care for GVR communities, Continental, and Desert Hills. Licensed Pima County applicators. Call (520) 284-9930.",
+    metaDescription: "Professional weed control in Green Valley, AZ 85614/85622. Pre-emergent barriers and post-emergent treatment for gravel yards in GVR communities, Continental, and Desert Hills. Call (520) 284-9930.",
     heroHeadline: "Green Valley Weed Control — Retirement Community Yard Specialists",
     heroDescription: "Green Valley's 22,000 residents enjoy an active retirement lifestyle surrounded by the Santa Rita Mountains and pristine Sonoran Desert — but that desert proximity means relentless weed pressure in every rock yard, golf course perimeter, and common area throughout the community. Bucksworth Home Services provides professional weed control designed specifically for Green Valley's established desert landscapes, HOA-governed communities, and the unique needs of active-adult homeowners who want beautiful yards without the hassle.",
     introContent: [

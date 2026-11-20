@@ -126,7 +126,7 @@ export default async function SubServicePage({
     description: sub.longDesc,
     serviceType: sub.name,
     provider: {
-      "@type": ({"pest-and-termite":"PestControlService","air-conditioning-and-heating":"HVACBusiness","plumbing-and-water-heaters":"Plumber","weed-and-lawn-care":"LandscapingBusiness"} as Record<string,string>)[service.slug] || "LocalBusiness",
+      "@type": ({"pest-and-termite":"HomeAndConstructionBusiness","air-conditioning-and-heating":"HVACBusiness","plumbing-and-water-heaters":"Plumber","weed-and-lawn-care":"HomeAndConstructionBusiness"} as Record<string,string>)[service.slug] || "LocalBusiness",
       name: "Bucksworth Home Services",
       telephone: phone,
       url: "https://www.getyourbucksworth.com",
