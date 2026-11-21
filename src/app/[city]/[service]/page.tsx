@@ -87,6 +87,12 @@ const PEST_HUB_META: Record<string, string> = {
   "chandler-az": "Pest control in Chandler, AZ for bark scorpions, termites, roaches, ants and rodents in Ocotillo, Sun Groves, Chandler Heights and Downtown Chandler. Free inspection: (480) 422-8388.",
   "paradise-valley-az": "Pest control in Paradise Valley, AZ 85253 for bark scorpions, termites, roof rats and ants around Mummy Mountain, Lincoln Drive and Camelback Mountain. Free inspection: (480) 422-8388.",
   "green-valley-az": "Pest control in Green Valley, AZ 85614 for bark scorpions, termites, pack rats and ants, from Green Valley Recreation communities to Continental. Free inspection: (520) 284-9930.",
+  /* 2026-11-21 (site-task 30, GSC 2026-11-08): Goodyear pos 13.1 / 1.4K imp / 0 clicks, Sahuarita pos 21.9 / 547 imp / 0 clicks,
+     Catalina Foothills pos 19.9 / 391 imp / 0 clicks, Gold Canyon pos 23.7 / 398 imp (East Valley home market). */
+  "goodyear-az": "Pest control in Goodyear, AZ 85338 and 85395 for bark scorpions, termites, roof rats and ants in Estrella Mountain Ranch, Palm Valley, Canyon Trails and Pebble Creek. Free inspection: (480) 422-8388.",
+  "gold-canyon-az": "Pest control in Gold Canyon, AZ 85118 for bark scorpions, termites, pack rats and ants near the Superstition Mountains, Mountainbrook Village and Peralta Trail. Free inspection: (480) 422-8388.",
+  "sahuarita-az": "Pest control in Sahuarita, AZ 85629 for bark scorpions, termites, pack rats and ants in Rancho Sahuarita, Quail Creek and Las Campanas. Free inspection: (520) 284-9930.",
+  "catalina-foothills-az": "Pest control in the Catalina Foothills, AZ 85718 and 85750 for bark scorpions, termites, pack rats and ants around Skyline Country Club, Ventana Canyon and Canyon View. Free inspection: (520) 284-9930.",
 };
 
 function pestHubTitle(cityName: string) {
@@ -109,6 +115,12 @@ const PEST_HUB_OPENERS: Record<string, string> = {
   "green-valley-az": "Bucksworth treats scorpions, termites, pack rats, ants and roaches for Green Valley homes in 85614. Homes near Continental and the foothills toward Madera Canyon and the Santa Rita Mountains sit beside open desert, so scorpions and pack rats move in from the edges. Call (520) 284-9930 for a free inspection.",
   "marana-az": "We treat scorpions, termites, pack rats, ants and roaches for Marana homes. Continental Ranch borders desert washes, Dove Mountain sits in the Tortolita Mountain foothills and Gladden Farms backs onto farm fields and desert, so pests move in from every edge. Call (520) 284-9930 for a free inspection.",
   "tucson-az": "We treat scorpions, termites, roaches, ants and rodents across Tucson. Older homes in Sam Hughes and Midtown call for termite inspections, while the foothills around Catalina Foothills, Tanque Verde and Rita Ranch see bark scorpions and pack rats. Call (520) 284-9930 for a free inspection.",
+  /* 2026-11-21 (site-task 31): the same four striking-distance hubs were on the generic fallback opener.
+     Facts from src/lib/neighborhoods.ts and src/lib/cities.ts. */
+  "goodyear-az": "We treat scorpions, termites, roof rats, ants and roaches for Goodyear homes in 85338 and 85395. Estrella Mountain Ranch and Canyon Trails back onto desert at the foot of Estrella Mountain, while the mature palms in Palm Valley give roof rats cover. Call (480) 422-8388 for a free inspection.",
+  "gold-canyon-az": "Bucksworth treats scorpions, termites, pack rats, ants and roaches for Gold Canyon homes in 85118, next door to our home base in Apache Junction. Mountainbrook Village and the Peralta Trail area sit at the base of the Superstition Mountains, so desert wildlife and bark scorpions move in from every side. Call (480) 422-8388 for a free inspection.",
+  "sahuarita-az": "We treat scorpions, termites, pack rats, ants and roaches for Sahuarita homes in 85629. Rancho Sahuarita borders open desert, and Quail Creek is surrounded by desert and farm land, so pests move toward homes from the edges. Call (520) 284-9930 for a free inspection.",
+  "catalina-foothills-az": "Bucksworth treats scorpions, termites, pack rats, ants and roaches for Catalina Foothills homes in 85718 and 85750. Skyline Country Club, Ventana Canyon and Canyon View sit at the base of the Santa Catalina Mountains, where bark scorpions and pack rats come down from the foothill desert. Call (520) 284-9930 for a free inspection.",
 };
 
 function pestHubOpener(citySlug: string, cityName: string, nhoods: Neighborhood[], landmarks: string[], phone: string) {

@@ -580,5 +580,25 @@
    "/mesa-az/pest-and-termite (pos 8.4, 255K imp)"
   ],
   "information_gain": "UA Cooperative Extension AZ1992 (Sep 2025) facts: 7 AZ species, T. rubida in Phoenix/Tucson foothills, May-July dispersal, allergy as main risk, >40% Tucson bugs carry T. cruzi yet 28 US autochthonous cases 1955-2015, remove nests within 350 ft; look-alike ID table; real AZ month-by-month search-demand table; Gold Canyon pack rat/cholla/Superstition Wilderness angle; DIY vs pro table; hantavirus caution on nest removal."
+ },
+ {
+  "date": "2026-11-21",
+  "slug": "what-are-earwigs-what-mesa-homeowners-should-know-about-pincher-bugs-in-bathrooms-patios-and-planters",
+  "city": "mesa-az",
+  "vertical": "pest-and-termite",
+  "sub_service": "general pest (occasional invaders)",
+  "target_question": "what are earwigs (earwigs / earwigs arizona)",
+  "az_volume": 4400,
+  "queue_rank": null,
+  "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-21 (40 candidate pest/weed keywords, $0.09): 'earwigs' AZ 4,400/mo avg (Jun 8,100; Jul-Aug 6,600; Dec-Feb 2,400), 'earwigs arizona' 320, 'how to get rid of earwigs' 110. blog-queue.json and question-keywords.json exhausted.",
+  "money_page_linked": "/mesa-az/pest-and-termite",
+  "serp_type": "informational (live DataForSEO SERP 2026-11-21, 'earwigs', Phoenix desktop: AI Overview, knowledge graph, PAA, videos, images; Wikipedia, UC IPM, UMN/PSU/Ohio extension, WebMD, PestWorld, pest-company explainers, Orkin how-to). Blog post matches.",
+  "gate": "topic-check 'earwigs' and 'how to get rid of earwigs' exit 0. 0 blog titles/slugs contain earwig; no publish-log target_question. gsc-ranking-map: 11 commercial queries ('earwig extermination phoenix az', 'arizona earwig family pest service' etc., pos 16-57) map to /phoenix-az/pest-and-termite - different (transactional) intent; the post links that hub with 'Phoenix pest control' so it supports rather than competes. Rejected: silverfish (AZ 8,100; topic-check exit 1, legacy /silverfish-pest-control owns it - improve/redirect that URL), tumbleweeds and wolf spider arizona (topic-check exit 1), tarantula hawk / palo verde beetle (low service fit).",
+  "striking_distance_linked": [
+   "/mesa-az/pest-and-termite (pos 8.4, 255K imp)",
+   "/phoenix-az/pest-and-termite (pos 15.4, 804K imp; owns earwig extermination queries)",
+   "/gilbert-az/pest-and-termite"
+  ],
+  "information_gain": "UC IPM Pest Note 74102 facts (European earwig introduced early 1900s, 3/4 inch, male vs female cerci, not dangerous, enter homes when outdoors too dry/hot/cold, no indoor spraying, yellow/sodium bulbs, newspaper/cardboard traps, spinosad baits weak when other food present); real AZ month-by-month search-demand table showing June peak; earwig vs silverfish/cricket/roach/pill bug ID table; DIY vs pro table; Mesa angle (Downtown Mesa/Dobson Ranch irrigated yards vs Eastmark/Las Sendas gravel, AC condensate, potted plants); scorpion food-chain link."
  }
 ]

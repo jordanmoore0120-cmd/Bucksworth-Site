@@ -55,6 +55,15 @@ export async function generateStaticParams() {
 }
 
 /* ── Meta ── */
+/* 2026-11-21 (site-task 32, GSC striking-distance 2026-11-08): sub-service pages near page 1 with 0 clicks that
+   still used the generic template description. City-specific wording from src/lib/neighborhoods.ts; no prices. */
+const SUB_META: Record<string, string> = {
+  "tempe-az/pest-and-termite/bed-bug-treatment": "Bed bug treatment in Tempe, AZ for homes, apartments and rentals near ASU, The Lakes and South Tempe. We inspect first, then treat. Call (480) 422-8388 for a free inspection.",
+  "apache-junction-az/pest-and-termite/bed-bug-treatment": "Bed bug treatment in Apache Junction, AZ 85119 and 85120 from our local office on W Houston Ave. We inspect first, then treat homes and rentals. Call (480) 422-8388 for a free inspection.",
+  "green-valley-az/pest-and-termite/rodent-exclusion": "Rodent and pack rat exclusion in Green Valley, AZ 85614. We remove rats and mice, then seal entry points on homes near Continental and Madera Canyon. Call (520) 284-9930 for a free inspection.",
+  "tucson-az/pest-and-termite/spider-prevention": "Spider control in Tucson, AZ for black widows and other spiders around block walls, garages and patios, from Midtown to Rita Ranch. Call (520) 284-9930 for a free inspection.",
+};
+
 export async function generateMetadata({
   params,
 }: SubServicePageProps): Promise<Metadata> {
@@ -68,7 +77,7 @@ export async function generateMetadata({
   const override = getContentOverride(cSlug, sSlug, ssSlug);
   return {
     title: override?.metaTitle ?? `${sub.name} in ${city.name}, AZ — Trusted Local Pros`,
-    description: override?.metaDescription ?? `${sub.name} in ${city.name}, AZ. ${sub.shortDesc} Licensed & insured. Same-day service available. Call ${phone} for a free estimate.`,
+    description: override?.metaDescription ?? SUB_META[`${cSlug}/${sSlug}/${ssSlug}`] ?? `${sub.name} in ${city.name}, AZ. ${sub.shortDesc} Licensed & insured. Same-day service available. Call ${phone} for a free estimate.`,
     alternates: {
       canonical: `https://www.getyourbucksworth.com/${cSlug}/${sSlug}/${ssSlug}`,
     },
