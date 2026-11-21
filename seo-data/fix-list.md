@@ -4,7 +4,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
 
 ## Open
 
-- [ ] **2026-11-20 · Gold Canyon kissing-bug guide: correct common-name/species pairing** (db6aaf3)
+- [x] **DONE 2026-11-21 (94154f6: rubida bullet now just '*Triatoma rubida*' with its own description; 'Western bloodsucking kissing bug' label moved to the *T. protracta* bullet per AZ1992 Fig. 3; the FAQ 'Are kissing bugs common in Arizona?' no longer says 'the western bloodsucking conenose is common' (now '*Triatoma rubida* is the species most common in the foothills'); 0 'bloodsucking conenose' left; URL, title, date unchanged, modified 2026-11-21) · 2026-11-20 · Gold Canyon kissing-bug guide: correct common-name/species pairing** (db6aaf3)
   - `/blog/what-are-kissing-bugs-what-gold-canyon-homeowners-should-know-about-conenose-bugs-bites-and-pack-rat-nests`, first species list: "Western bloodsucking conenose (Triatoma rubida)" pairs the common name with the wrong species. The cited UA Cooperative Extension AZ1992 identifies the western bloodsucking kissing bug as **T. protracta** in Figure 3; Figure 2 is T. rubida. Remove the incorrect common-name label from the rubida bullet or use a verified name, keeping the species-specific descriptions distinct.
   - Primary source opened 2026-11-20: https://extension.arizona.edu/publication/what-you-should-know-about-kissing-bugs . Preserve URL, title and publication date. Other checks passed: live 200, self-canonical, indexable; 2,410 words, 10 H2s, 6 FAQs, 2 visually reviewed photos, 3 tables, 11 internal targets all 200 including the money page; valid price-free JSON-LD. No competing target/title/ranking-map query found.
 
@@ -87,6 +87,7 @@ Mark an item done by changing `[ ]` to `[x]` and adding the commit SHA. Viktor r
   - Visual QA of the live images: `tech-pretreat-framing.jpg` shows a technician spraying exposed construction framing, not the lawn weed barrier described in its alt text. `tech-backyard-service.jpg` shows a technician on a paved patio with no visible lawn, despite alt text claiming work on a lawn.
   - Replace with two relevant real Bucksworth lawn-treatment photos and alt text that accurately describes what is visible. Do not invent a Phoenix location or a treatment type from a generic image.
   - Live visual re-check 2026-11-05: new `tech-treating-home.jpg` shows treatment beside a shrub/gravel bed; `tech-service-action.jpg` shows a backpack sprayer beside the home on gravel. The new alt text is accurate, but neither photo shows lawn treatment or turf. The original request for relevant lawn-treatment photos is not yet complete. Keep the accurate wording; replace with verified lawn-treatment photos when available, or report the asset gap rather than mark the whole item done.
+  - 2026-11-21 Claude: still ASSET GAP (26 photos, none show turf; Viktor's 11-21 GBP report: no new work photos since 11/16). Item stays open.
   - 2026-11-20 Claude: still ASSET GAP (26 photos, none show turf; Viktor's 11-20 GBP report: no new Tucson photos, one STV termite tube photo). Item stays open.
   - 2026-11-19 Claude: still ASSET GAP (26 photos, none show turf; Viktor's 11-19 GBP report: no new work photos). Item stays open.
   - 2026-11-18 Claude: still ASSET GAP (26 photos, none show turf; Viktor's GBP report says no new tech photos since Nov 16). Item stays open.

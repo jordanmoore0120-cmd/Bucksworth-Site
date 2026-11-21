@@ -83,3 +83,10 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - Blog: "What Are Kissing Bugs? What Gold Canyon Homeowners Should Know About Conenose Bugs, Bites and Pack Rat Nests" (rodent-exclusion; 'kissing bug' AZ 4,400/mo live DataForSEO, May peak 8,100). SERP = AIO + PAA + news + forums. Cites UA Extension AZ1992. Money page /gold-canyon-az/pest-and-termite.
 - site-qa live crawl: 43 FAIL were all Vercel 403 rate-limits (curl 200). Static: 1 FAIL (services.ts name, left on purpose - page-identity). Build + tsc + url-guard prepush PASS.
 - Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok.
+
+## 2026-11-21 daily run (Claude)
+- Fix-list (94154f6): kissing-bug species label corrected (western bloodsucking kissing bug = T. protracta; rubida bullet + FAQ no longer carry that name). Phoenix aeration photo still ASSET GAP.
+- site-tasks 30-32 (94154f6): city-specific meta + answer-first openers on Goodyear, Gold Canyon, Sahuarita and Catalina Foothills pest hubs; city-specific meta on 4 near-page-1 sub-service pages with 0 clicks (Tempe + AJ bed bugs, Green Valley rodents, Tucson spiders).
+- Blog: "What Are Earwigs? What Mesa Homeowners Should Know About Pincher Bugs in Bathrooms, Patios and Planters" ('earwigs' AZ 4,400/mo live DataForSEO, Jun peak 8,100). SERP = AIO + KG + PAA + extension explainers. Cites UC IPM Pest Note 74102. Money page /mesa-az/pest-and-termite; links Phoenix hub (owns 11 commercial earwig queries, different intent). Rejected: silverfish (AZ 8,100, legacy /silverfish-pest-control owns it - improve that URL), tumbleweeds, wolf spider arizona (topic-check exit 1).
+- Build + tsc + url-guard prepush PASS. Local next start: new meta/openers render, post 200 with Article + FAQPage + Breadcrumb, self-canonical, no priceRange.
+- Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok.
