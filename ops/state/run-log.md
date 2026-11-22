@@ -90,3 +90,10 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - Blog: "What Are Earwigs? What Mesa Homeowners Should Know About Pincher Bugs in Bathrooms, Patios and Planters" ('earwigs' AZ 4,400/mo live DataForSEO, Jun peak 8,100). SERP = AIO + KG + PAA + extension explainers. Cites UC IPM Pest Note 74102. Money page /mesa-az/pest-and-termite; links Phoenix hub (owns 11 commercial earwig queries, different intent). Rejected: silverfish (AZ 8,100, legacy /silverfish-pest-control owns it - improve that URL), tumbleweeds, wolf spider arizona (topic-check exit 1).
 - Build + tsc + url-guard prepush PASS. Local next start: new meta/openers render, post 200 with Article + FAQPage + Breadcrumb, self-canonical, no priceRange.
 - Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok.
+
+## 2026-11-22 daily run (Claude)
+- Fix-list: Phoenix aeration photo still ASSET GAP (no turf photos). Nothing else open.
+- site-tasks 33-35 (9471ac1): city-specific meta on 6 East Valley/Pinal pest hubs (Gilbert, Queen Creek, San Tan Valley, Casa Grande, Tempe, Scottsdale), 8 weed hubs (new WEED_HUB_META: AJ, QC, STV, Coolidge, Florence, Maricopa, Gold Canyon, Tempe) and 6 near-page-1 sub-service pages (Vail termite, Anthem scorpion, Gilbert mosquito, Coolidge bed bug, QC weed & feed, Marana pre-emergent).
+- Blog: "What Are Goatheads? What San Tan Valley Homeowners Should Know About Puncture Vine Burrs in Gravel Yards" ('goatheads' AZ 720/mo, 'goat heads' 1,000, Mar peak 1,300; live DataForSEO). SERP = mixed (images, AIO, PAA, products, video); weed meaning informational. Cites UC IPM Pest Notes 74128. Money page /san-tan-valley-az/weed-and-lawn-care.
+- Build + tsc + url-guard prepush PASS. Static site-qa: 1 FAIL (services.ts name, kept on purpose - page-identity).
+- Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok.
