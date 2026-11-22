@@ -600,5 +600,24 @@
    "/gilbert-az/pest-and-termite"
   ],
   "information_gain": "UC IPM Pest Note 74102 facts (European earwig introduced early 1900s, 3/4 inch, male vs female cerci, not dangerous, enter homes when outdoors too dry/hot/cold, no indoor spraying, yellow/sodium bulbs, newspaper/cardboard traps, spinosad baits weak when other food present); real AZ month-by-month search-demand table showing June peak; earwig vs silverfish/cricket/roach/pill bug ID table; DIY vs pro table; Mesa angle (Downtown Mesa/Dobson Ranch irrigated yards vs Eastmark/Las Sendas gravel, AC condensate, potted plants); scorpion food-chain link."
- }
+ },
+  {
+    "date": "2026-11-22",
+    "slug": "what-are-goatheads-what-san-tan-valley-homeowners-should-know-about-puncture-vine-burrs-in-gravel-yards",
+    "city": "san-tan-valley-az",
+    "vertical": "weed-and-lawn-care",
+    "sub_service": "pre-emergent-weed-control / post-emergent-weed-treatment (puncturevine)",
+    "target_question": "what are goatheads (goatheads / goat heads / puncture vine)",
+    "az_volume": 720,
+    "queue_rank": null,
+    "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-22 (15 keywords, $0.09): 'goatheads' / 'goathead' / 'puncture vine' / 'puncturevine' AZ 720/mo avg (Mar 880, Jun 480); 'goat heads' 1,000 (Mar 1,300); 'goathead weed' 320; 'how to get rid of goatheads' 10. blog-queue.json and question-keywords.json exhausted (dated 11-08).",
+    "money_page_linked": "/san-tan-valley-az/weed-and-lawn-care",
+    "serp_type": "mixed/informational (live DataForSEO SERP 2026-11-22, 'goat heads', Phoenix mobile: images, AI Overview, PAA, popular products, short videos, video; dictionary, stock images, forum and explainer results). Weed meaning is informational; blog post matches.",
+    "gate": "topic-check 'puncture vine', 'puncturevine', 'goatheads', 'goathead weed', 'how to get rid of goatheads' all exit 0. 0 blog titles/slugs contain goathead/puncture/tribulus; no publish-log target_question. gsc-ranking-map: 1 query 'goathead and tumbleweed removal marana' (29 imp) maps to /marana-az/weed-and-lawn-care - commercial, different city; no conflict.",
+    "striking_distance_linked": [
+      "/apache-junction-az/weed-and-lawn-care (pos 12.8, 396 imp)",
+      "/queen-creek-az/weed-and-lawn-care (QC weed & feed sub page pos 15.9, 721 imp)"
+    ],
+    "information_gain": "UC IPM Pest Notes: Puncturevine (Pub 74128) facts (summer annual, 2-5 ft mats, 4-8 leaflet pairs, 1/2-inch yellow 5-petal flowers, 5 burr sections up to 5 seeds each, 200-5,000 seeds/plant, flowers ~3 weeks after germination, seed viable up to 5 years, frost-killed, carpet-pat burr pickup, mowing/deep tilling ineffective, pre-emergent partial control late winter-midspring); real AZ month-by-month demand table; goathead vs spurge/sandbur/Bermuda ID table; San Tan Valley angle (DG yards, open desert edges at Johnson Ranch/Bella Via/Ironwood Drive, drip leaks, trailhead burrs)."
+  }
 ]

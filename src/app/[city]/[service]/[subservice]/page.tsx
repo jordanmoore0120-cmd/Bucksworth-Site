@@ -62,6 +62,15 @@ const SUB_META: Record<string, string> = {
   "apache-junction-az/pest-and-termite/bed-bug-treatment": "Bed bug treatment in Apache Junction, AZ 85119 and 85120 from our local office on W Houston Ave. We inspect first, then treat homes and rentals. Call (480) 422-8388 for a free inspection.",
   "green-valley-az/pest-and-termite/rodent-exclusion": "Rodent and pack rat exclusion in Green Valley, AZ 85614. We remove rats and mice, then seal entry points on homes near Continental and Madera Canyon. Call (520) 284-9930 for a free inspection.",
   "tucson-az/pest-and-termite/spider-prevention": "Spider control in Tucson, AZ for black widows and other spiders around block walls, garages and patios, from Midtown to Rita Ranch. Call (520) 284-9930 for a free inspection.",
+  /* 2026-11-22 (site-task 35, GSC striking-distance 2026-11-08, all 0 clicks): Vail termite pos 18.1 / 660 imp, Anthem scorpion
+     pos 18.0 / 535 imp, Gilbert mosquito pos 15.7 / 529 imp, Coolidge bed bug pos 20.9 / 529 imp, Queen Creek weed & feed
+     pos 15.9 / 721 imp, Marana pre-emergent pos 18.1 / 588 imp. Bed bugs only on Phoenix-branch pages (services-truth.json). */
+  "vail-az/pest-and-termite/termite-treatment": "Termite inspection and treatment in Vail, AZ 85641 for homes in Del Lago, Rocking K Ranch and near Colossal Cave Mountain Park. Call (520) 284-9930 for a free termite inspection.",
+  "anthem-az/pest-and-termite/scorpion-control": "Bark scorpion control in Anthem, AZ 85086 for homes in Anthem Country Club, Anthem Parkside and below Daisy Mountain. We treat and seal entry points. Call (480) 422-8388 for a free inspection.",
+  "gilbert-az/pest-and-termite/mosquito-control": "Mosquito control in Gilbert, AZ for yards near Val Vista Lakes, the Riparian Preserve and Agritopia. We find standing water and treat where mosquitoes rest. Call (480) 422-8388 for a free inspection.",
+  "coolidge-az/pest-and-termite/bed-bug-treatment": "Bed bug treatment in Coolidge, AZ 85128 for homes and rentals, from Downtown Coolidge to Coolidge Estates. We inspect first, then treat. Call (480) 422-8388 for a free inspection.",
+  "queen-creek-az/weed-and-lawn-care/weed-and-feed-program": "Weed & feed in Queen Creek, AZ 85142 and 85140: weed control plus lawn fertilization for Bermuda lawns in Hastings Farms and Sossaman Estates. Call (480) 422-8388 for a free estimate.",
+  "marana-az/weed-and-lawn-care/pre-emergent-weed-control": "Pre-emergent weed control in Marana, AZ 85653 and 85658 for gravel yards in Continental Ranch, Dove Mountain and Gladden Farms. Stop weeds before they sprout. Call (520) 284-9930.",
 };
 
 export async function generateMetadata({

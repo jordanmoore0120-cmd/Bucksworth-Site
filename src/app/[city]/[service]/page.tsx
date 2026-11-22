@@ -58,7 +58,8 @@ export async function generateMetadata({ params }: ServiceHubProps): Promise<Met
 
   const phone = getPhoneForBranch(city.branch);
   const isAJ = citySlug === "apache-junction-az";
-  const fixedMeta = svcSlug === "pest-and-termite" ? PEST_HUB_META[citySlug] : undefined;
+  const fixedMeta =
+    svcSlug === "pest-and-termite" ? PEST_HUB_META[citySlug] : svcSlug === "weed-and-lawn-care" ? WEED_HUB_META[citySlug] : undefined;
   const metaDescription = fixedMeta
     ? fixedMeta
     : isAJ
@@ -93,6 +94,30 @@ const PEST_HUB_META: Record<string, string> = {
   "gold-canyon-az": "Pest control in Gold Canyon, AZ 85118 for bark scorpions, termites, pack rats and ants near the Superstition Mountains, Mountainbrook Village and Peralta Trail. Free inspection: (480) 422-8388.",
   "sahuarita-az": "Pest control in Sahuarita, AZ 85629 for bark scorpions, termites, pack rats and ants in Rancho Sahuarita, Quail Creek and Las Campanas. Free inspection: (520) 284-9930.",
   "catalina-foothills-az": "Pest control in the Catalina Foothills, AZ 85718 and 85750 for bark scorpions, termites, pack rats and ants around Skyline Country Club, Ventana Canyon and Canyon View. Free inspection: (520) 284-9930.",
+  /* 2026-11-22 (site-task 33): East Valley + Pinal home-market hubs still on the generic "Arizona's Most Trusted" template.
+     rankings.json 2026-11-08: "pest control queen creek" and "pest control san tan valley" 260 AZ/mo, "pest control gilbert" 110,
+     none in the top 100. Facts from src/lib/neighborhoods.ts and src/lib/cities.ts; no prices. */
+  "gilbert-az": "Pest control in Gilbert, AZ for bark scorpions, termites, roaches, ants and rodents in Val Vista Lakes, Agritopia, Power Ranch, Seville and Higley. Free inspection: (480) 422-8388.",
+  "queen-creek-az": "Pest control in Queen Creek, AZ 85142 and 85140 for bark scorpions, termites, roaches and rodents in Hastings Farms, Sossaman Estates and Queen Creek Crossing. Free inspection: (480) 422-8388.",
+  "san-tan-valley-az": "Pest control in San Tan Valley, AZ 85140, 85142 and 85143 for bark scorpions, termites, roaches and rodents in Johnson Ranch, Pecan Creek and Bella Via. Free inspection: (480) 422-8388.",
+  "casa-grande-az": "Pest control in Casa Grande, AZ 85122 and 85194 for bark scorpions, termites, roaches and rodents in Mission Royale, Coyote Ranch and Downtown Casa Grande. Free inspection: (480) 422-8388.",
+  "tempe-az": "Pest control in Tempe, AZ for roaches, bark scorpions, termites, ants and bed bugs, from the ASU campus area and Papago Park to The Lakes and South Tempe. Free inspection: (480) 422-8388.",
+  "scottsdale-az": "Pest control in Scottsdale, AZ for bark scorpions, termites, roof rats and ants, from Old Town and McCormick Ranch to Grayhawk, DC Ranch and North Scottsdale. Free inspection: (480) 422-8388.",
+};
+
+/* 2026-11-22 (site-task 34): weed hubs in the East Valley + Pinal home market still used the generic
+   "Arizona Yards That Look as Good as They Should" description. GSC striking-distance 2026-11-08: Apache Junction
+   pos 12.8 / 396 imp, Coolidge pos 13.6 / 378 imp, Maricopa pos 13.6 / 425 imp, Tempe pos 15.1 / 498 imp.
+   Service wording follows knowledge/services-truth.json (treatment, not mowing or yard maintenance). */
+const WEED_HUB_META: Record<string, string> = {
+  "apache-junction-az": "Weed control in Apache Junction, AZ 85119 and 85120 from our local office on W Houston Ave. Pre-emergent and post-emergent treatment for gravel yards near the Superstition Mountains. Call (480) 422-8388.",
+  "queen-creek-az": "Weed control in Queen Creek, AZ 85142 and 85140: pre-emergent, post-emergent and weed & feed for gravel yards and Bermuda lawns in Hastings Farms and Sossaman Estates. Call (480) 422-8388.",
+  "san-tan-valley-az": "Weed control in San Tan Valley, AZ 85140 and 85143: pre-emergent and post-emergent treatment for gravel yards and lawns in Johnson Ranch, Pecan Creek and Bella Via. Call (480) 422-8388.",
+  "coolidge-az": "Weed control in Coolidge, AZ 85128: pre-emergent and post-emergent treatment for gravel yards and lawns, from Downtown Coolidge to Coolidge Estates. Call (480) 422-8388.",
+  "florence-az": "Weed control in Florence, AZ 85132: pre-emergent and post-emergent treatment for gravel yards and lawns in Anthem at Merrill Ranch, Magic Ranch and Historic Florence. Call (480) 422-8388.",
+  "maricopa-az": "Weed control in Maricopa, AZ 85138 and 85139: pre-emergent, post-emergent and lawn fertilization in Rancho El Dorado, Province, Tortosa and Alterra. Call (480) 422-8388.",
+  "gold-canyon-az": "Weed control in Gold Canyon, AZ 85118: pre-emergent and post-emergent treatment for desert gravel yards in Mountainbrook Village and the Peralta Trail area. Call (480) 422-8388.",
+  "tempe-az": "Weed control in Tempe, AZ: pre-emergent, post-emergent, lawn fertilization and overseeding for Bermuda lawns and gravel yards in The Lakes, South Tempe and Tempe Royal Palms. Call (480) 422-8388.",
 };
 
 function pestHubTitle(cityName: string) {
