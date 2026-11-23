@@ -103,6 +103,15 @@ const PEST_HUB_META: Record<string, string> = {
   "casa-grande-az": "Pest control in Casa Grande, AZ 85122 and 85194 for bark scorpions, termites, roaches and rodents in Mission Royale, Coyote Ranch and Downtown Casa Grande. Free inspection: (480) 422-8388.",
   "tempe-az": "Pest control in Tempe, AZ for roaches, bark scorpions, termites, ants and bed bugs, from the ASU campus area and Papago Park to The Lakes and South Tempe. Free inspection: (480) 422-8388.",
   "scottsdale-az": "Pest control in Scottsdale, AZ for bark scorpions, termites, roof rats and ants, from Old Town and McCormick Ranch to Grayhawk, DC Ranch and North Scottsdale. Free inspection: (480) 422-8388.",
+  /* 2026-11-23 (site-task 36): hubs still on the generic "Arizona's Most Trusted" template that have Search Console
+     queries (gsc-ranking-map 2026-11-08: Vail 59 imp, Laveen 35, Buckeye 32) plus the remaining East Valley hubs
+     (Ahwatukee, Fountain Hills) and Oro Valley. Facts from src/lib/neighborhoods.ts and src/lib/cities.ts; no prices. */
+  "ahwatukee-az": "Pest control in Ahwatukee, AZ 85044, 85045 and 85048 for bark scorpions, termites, roaches and rodents in Ahwatukee Foothills, Mountain Park Ranch and Club West below South Mountain. Free inspection: (480) 422-8388.",
+  "fountain-hills-az": "Pest control in Fountain Hills, AZ 85268 for bark scorpions, termites, pack rats and ants in Eagle Mountain, SunRidge Canyon and Firerock near McDowell Mountain. Free inspection: (480) 422-8388.",
+  "vail-az": "Pest control in Vail, AZ 85641 for bark scorpions, termites, pack rats and ants in Del Lago, Rocking K Ranch and Civano near Saguaro National Park East. Free inspection: (520) 284-9930.",
+  "laveen-az": "Pest control in Laveen, AZ 85339 for bark scorpions, termites, roaches and rodents in Laveen Meadows, Laveen Farms and Rogers Ranch near South Mountain. Free inspection: (480) 422-8388.",
+  "buckeye-az": "Pest control in Buckeye, AZ 85326 and 85396 for bark scorpions, termites, roaches and rodents in Verrado, Tartesso, Sundance and Festival Ranch. Free inspection: (480) 422-8388.",
+  "oro-valley-az": "Pest control in Oro Valley, AZ 85737 and 85755 for bark scorpions, termites, pack rats and ants in Rancho Vistoso, Sun City Oro Valley and Canada Hills. Free inspection: (520) 284-9930.",
 };
 
 /* 2026-11-22 (site-task 34): weed hubs in the East Valley + Pinal home market still used the generic
@@ -118,6 +127,17 @@ const WEED_HUB_META: Record<string, string> = {
   "maricopa-az": "Weed control in Maricopa, AZ 85138 and 85139: pre-emergent, post-emergent and lawn fertilization in Rancho El Dorado, Province, Tortosa and Alterra. Call (480) 422-8388.",
   "gold-canyon-az": "Weed control in Gold Canyon, AZ 85118: pre-emergent and post-emergent treatment for desert gravel yards in Mountainbrook Village and the Peralta Trail area. Call (480) 422-8388.",
   "tempe-az": "Weed control in Tempe, AZ: pre-emergent, post-emergent, lawn fertilization and overseeding for Bermuda lawns and gravel yards in The Lakes, South Tempe and Tempe Royal Palms. Call (480) 422-8388.",
+  /* 2026-11-23 (site-task 37): weed hubs still on "Arizona Yards That Look as Good as They Should". GSC: Buckeye pos 11.6 /
+     351 imp / 3 clicks (striking-distance 2026-11-08), Phoenix 338 imp on 6 queries (gsc-ranking-map 2026-11-08); plus the
+     Pinal (Casa Grande) and East Valley (Ahwatukee, Fountain Hills, Paradise Valley) hubs and Catalina Foothills.
+     Treatment wording per knowledge/services-truth.json. */
+  "phoenix-az": "Weed control in Phoenix, AZ: pre-emergent, post-emergent, weed & feed and lawn fertilization for gravel yards and Bermuda lawns, from Arcadia and Biltmore to North Phoenix and Desert Ridge. Call (480) 422-8388.",
+  "buckeye-az": "Weed control in Buckeye, AZ 85326 and 85396: pre-emergent and post-emergent treatment for gravel yards and lawns in Verrado, Tartesso, Sundance and Festival Ranch. Call (480) 422-8388.",
+  "casa-grande-az": "Weed control in Casa Grande, AZ 85122 and 85194: pre-emergent and post-emergent treatment for gravel yards and lawns in Mission Royale, Coyote Ranch and Downtown Casa Grande. Call (480) 422-8388.",
+  "ahwatukee-az": "Weed control in Ahwatukee, AZ 85044, 85045 and 85048: pre-emergent, post-emergent and lawn fertilization in Ahwatukee Foothills, Ahwatukee Lakes, Mountain Park Ranch and Club West. Call (480) 422-8388.",
+  "fountain-hills-az": "Weed control in Fountain Hills, AZ 85268: pre-emergent and post-emergent treatment for desert gravel yards in Eagle Mountain, SunRidge Canyon and Firerock. Call (480) 422-8388.",
+  "paradise-valley-az": "Weed control in Paradise Valley, AZ 85253: pre-emergent, post-emergent and lawn fertilization for large lots around Mummy Mountain, Lincoln Drive and Paradise Valley Ranchos. Call (480) 422-8388.",
+  "catalina-foothills-az": "Weed control in the Catalina Foothills, AZ 85718 and 85750: pre-emergent and post-emergent treatment for desert gravel yards in Skyline Country Club, Ventana Canyon and Canyon View. Call (520) 284-9930.",
 };
 
 function pestHubTitle(cityName: string) {
@@ -146,6 +166,14 @@ const PEST_HUB_OPENERS: Record<string, string> = {
   "gold-canyon-az": "Bucksworth treats scorpions, termites, pack rats, ants and roaches for Gold Canyon homes in 85118, next door to our home base in Apache Junction. Mountainbrook Village and the Peralta Trail area sit at the base of the Superstition Mountains, so desert wildlife and bark scorpions move in from every side. Call (480) 422-8388 for a free inspection.",
   "sahuarita-az": "We treat scorpions, termites, pack rats, ants and roaches for Sahuarita homes in 85629. Rancho Sahuarita borders open desert, and Quail Creek is surrounded by desert and farm land, so pests move toward homes from the edges. Call (520) 284-9930 for a free inspection.",
   "catalina-foothills-az": "Bucksworth treats scorpions, termites, pack rats, ants and roaches for Catalina Foothills homes in 85718 and 85750. Skyline Country Club, Ventana Canyon and Canyon View sit at the base of the Santa Catalina Mountains, where bark scorpions and pack rats come down from the foothill desert. Call (520) 284-9930 for a free inspection.",
+  /* 2026-11-23 (site-task 38): the same six hubs were on the generic fallback opener.
+     Facts from src/lib/neighborhoods.ts and src/lib/cities.ts. */
+  "ahwatukee-az": "We treat scorpions, termites, roaches, ants and rodents for Ahwatukee homes in 85044, 85045 and 85048. Ahwatukee Foothills and Mountain Park Ranch back onto South Mountain Park, so bark scorpions move in from the preserve, while the lakes in Ahwatukee Lakes draw mosquitoes. Call (480) 422-8388 for a free inspection.",
+  "fountain-hills-az": "Bucksworth treats scorpions, termites, pack rats, ants and roaches for Fountain Hills homes in 85268. Eagle Mountain, SunRidge Canyon and Firerock are built into the desert below McDowell Mountain, so scorpions and pack rats reach yards from every side. Call (480) 422-8388 for a free inspection.",
+  "vail-az": "We treat scorpions, termites, pack rats, ants and roaches for Vail homes in 85641. Del Lago and Rocking K Ranch sit at the desert edge near Saguaro National Park East and the Rincon Mountains, so scorpions and pack rats move toward homes. Call (520) 284-9930 for a free inspection.",
+  "laveen-az": "Bucksworth treats scorpions, termites, roaches, ants and rodents for Laveen homes in 85339. Laveen Meadows and Laveen Farms were built on former farmland, which keeps rodents and termites close, and Rogers Ranch sits near the western edge of South Mountain. Call (480) 422-8388 for a free inspection.",
+  "buckeye-az": "We treat scorpions, termites, roaches, ants and rodents for Buckeye homes in 85326 and 85396. Verrado sits in the White Tank Mountain foothills and Tartesso is expanding into raw desert, so bark scorpions are displaced toward new homes. Call (480) 422-8388 for a free inspection.",
+  "oro-valley-az": "Bucksworth treats scorpions, termites, pack rats, ants and roaches for Oro Valley homes in 85737 and 85755. Rancho Vistoso and Canada Hills sit beside desert near Catalina State Park and Pusch Ridge, where bark scorpions and pack rats come down from the foothills. Call (520) 284-9930 for a free inspection.",
 };
 
 function pestHubOpener(citySlug: string, cityName: string, nhoods: Neighborhood[], landmarks: string[], phone: string) {

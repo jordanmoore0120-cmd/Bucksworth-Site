@@ -619,5 +619,24 @@
       "/queen-creek-az/weed-and-lawn-care (QC weed & feed sub page pos 15.9, 721 imp)"
     ],
     "information_gain": "UC IPM Pest Notes: Puncturevine (Pub 74128) facts (summer annual, 2-5 ft mats, 4-8 leaflet pairs, 1/2-inch yellow 5-petal flowers, 5 burr sections up to 5 seeds each, 200-5,000 seeds/plant, flowers ~3 weeks after germination, seed viable up to 5 years, frost-killed, carpet-pat burr pickup, mowing/deep tilling ineffective, pre-emergent partial control late winter-midspring); real AZ month-by-month demand table; goathead vs spurge/sandbur/Bermuda ID table; San Tan Valley angle (DG yards, open desert edges at Johnson Ranch/Bella Via/Ironwood Drive, drip leaks, trailhead burrs)."
+  },
+  {
+    "date": "2026-11-23",
+    "slug": "what-is-a-camel-spider-what-casa-grande-homeowners-should-know-about-sun-spiders",
+    "city": "casa-grande-az",
+    "vertical": "pest-and-termite",
+    "sub_service": "spider-prevention",
+    "target_question": "what is a camel spider (camel spider / sun spider / solpugid)",
+    "az_volume": 9900,
+    "queue_rank": null,
+    "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-23 (35 keywords, $0.09): 'camel spider' AZ 9,900/mo avg (Apr + Sep 14,800, Dec-Feb 4,400); 'sun spider' 2,900. Higher-volume 'pack rats' (2,900, CPC $10.60), 'roof rats', 'carpenter ants', 'subterranean termites' and 'centipede arizona' failed topic-check (existing URLs own them). blog-queue.json and question-keywords.json exhausted (dated 11-08).",
+    "money_page_linked": "/casa-grande-az/pest-and-termite",
+    "serp_type": "informational (live DataForSEO SERP 2026-11-23, 'camel spider', Phoenix mobile: knowledge graph, AI Overview, PAA, carousel, short videos, video, images; explainer/fact/forum results, no service pages). Blog post matches.",
+    "gate": "topic-check 'camel spider', 'sun spider' exit 0 (no owner). 0 blog titles/slugs contain camel spider/sun spider/solifug/solpugid/tarantula; 63 older templated spider posts mention camel spiders in passing body text only (0 H2/H3, 0 titles). No publish-log target_question. gsc-ranking-map: 0 camel/sun spider queries. cannibalization.json: no camel spider query.",
+    "striking_distance_linked": [
+      "/florence-az/pest-and-termite (pos 9.2, 168K imp)",
+      "/maricopa-az/pest-and-termite (pos 20.2, 2.8K imp)"
+    ],
+    "information_gain": "University of Arizona Cooperative Extension Backyard Gardener #8 'Solpugids or Sun Spiders' (Schalau, 2022) facts: 15-45 mm in western U.S., tan to brown, pedipalps with sticky tips, two pairs of vertical chelicerae, no venom, no stinger, mostly nocturnal, >50 SW U.S. / >120 N. American species, indoors = following prey or lost, firewood hitchhikers, pesticides not recommended, exclusion list; myth vs fact table; real AZ month-by-month demand table; camel spider vs bark scorpion vs wolf spider ID table; Casa Grande angle (85122/85194, Villago, Mission Royale, desert + farm edge). Honest service angle: we don't treat sun spiders, we treat the crickets/roaches/scorpions feeding them."
   }
 ]
