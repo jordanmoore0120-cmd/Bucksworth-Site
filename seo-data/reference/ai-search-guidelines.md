@@ -1,5 +1,5 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; factual-reference update **2026-11-19**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; factual-reference update **2026-11-23**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -50,6 +50,10 @@ Source: https://developers.google.com/search/docs/appearance/ai-features (read 2
   `brandedClassification` is only available for eligible top-level properties; an empty response does NOT establish zero brand demand.
   It cannot be combined with a query filter. `type=webMultimodal` covers Lens, Circle to Search and image uploads, not all AI traffic.
   Multi-country/device filters use `dimensionFilterGroups[].filterLists`; never filter the same dimension in both `filters` and `filterLists`.
+- Recrawl safety (verified 2026-11-23): DON'T use Google's Indexing API for ordinary service/FAQ pages: it supports only
+  `JobPosting` or `BroadcastEvent` embedded in `VideoObject` (https://developers.google.com/search/apis/indexing-api/v3/using-api).
+  URL Inspection/sitemaps request discovery, not instant or guaranteed indexing, citations or corrected AI answers
+  (https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl). Schema does not guarantee a citation or hallucination correction.
 Helpful content — https://developers.google.com/search/docs/fundamentals/creating-helpful-content
 - DO write people-first content showing first-hand experience (our techs, our jobs, local conditions).
 - DO answer "Who/How/Why": clear author (Jordan Moore byline), how it was made, made to help customers.
@@ -105,11 +109,8 @@ Structured data — https://developers.google.com/search/docs/appearance/structu
   DON'T add self-serving review/aggregateRating stars about our own business expecting rich results,
   and never put prices/priceRange values in schema (house rule).
 - Article markup: author must be a real person (Jordan Moore) with a `url`; dates must be honest.
-
 ## 2. Google Business Profile
-
 Source: https://support.google.com/business/answer/3038177 (read 2026-10-02)
-
 - DO use the real-world name only ("Bucksworth Home Services"). DON'T add keywords or cities to the name.
 - Service-area business: hide the address unless the location is staffed and receives customers during
   posted hours. Virtual offices aren't eligible; a co-working/exec-suite office needs permanent signage,
@@ -125,9 +126,7 @@ Source: https://support.google.com/business/answer/3038177 (read 2026-10-02)
   ("Remove Offers" → Fix Posts). Feature is limited to select regions/languages.
 - Content policy (https://support.google.com/contributionpolicy/answer/7400114): no fake engagement,
   no incentivized or gated reviews, no asking reviewers to name employees with rewards attached.
-
 ## 3. Microsoft Bing / Copilot
-
 Source: https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a (full primary text read in browser 2026-11-16; publication/change date unverified).
 - Bing + Copilot use the same crawl/index/rank foundation; normal SEO = Copilot eligibility.
 - DO make each URL focused, independently understandable and explicit about facts/entities. DON'T add prompt
@@ -145,17 +144,18 @@ Source: https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a (full
 - AI Performance now has **Topics Portfolio** (beta, 2026-10-13): groups the grounding queries we're cited for into
   themes and lists queries in those themes where other sites are cited and we aren't. Source:
   https://blogs.bing.com/webmaster/2026/10/introducing-topics-portfolio-beta-in-ai-performance/
-
 - Microsoft Advertising automated bidding (2026-11-18;
   https://about.ads.microsoft.com/en/blog/post/november-2026/building-the-next-generation-of-automated-bidding-at-microsoft-advertising):
   DO evaluate at campaign/portfolio level over sufficient conversions and 1–2 conversion cycles after major changes. Vendor uplift
   averages are not Bucksworth forecasts; bidding, budget or tracking changes still require approval. This is not a reason to launch ads.
-
+- Microsoft AI ad surfaces (2026-11-19, verified 2026-11-23): Bing AI Overview ads use existing campaigns with no separate setup,
+  in all markets except China. Microsoft AI Max URL inclusions are rolling out for final URL expansion, text customization and matching.
+  DON'T confuse these with Google AI Max controls or treat Microsoft's Copilot purchase uplift as Bucksworth/placement performance.
+  Source: https://about.ads.microsoft.com/en/blog/post/november-2026/put-ai-to-work-engaging-customers-in-more-places-whats-new-in-microsoft-advertising-this-november
 ## 4. ChatGPT search (OpenAI)
-
 Source: https://platform.openai.com/docs/bots (verified 2026-11-05).
 The former Publisher FAQ article 12627856 is not a verified publisher source: its current search result
-is an unrelated Atlas-retirement article. DON'T use that article to establish publisher rules.
+and directly fetched page are an unrelated Atlas-retirement article (verified 2026-11-23). DON'T use that article to establish publisher rules.
 
 - DO keep `OAI-SearchBot` and `ChatGPT-User` allowed in robots.txt and allowed by the CDN/firewall.
   `GPTBot` (training) is a separate choice and doesn't affect ChatGPT search.
