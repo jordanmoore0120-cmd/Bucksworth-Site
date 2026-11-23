@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-11-15T16:16:16.637Z",
+  "ran_at": "2026-11-23T16:18:11.714Z",
   "base": "https://www.getyourbucksworth.com",
-  "static_only": false,
+  "static_only": true,
   "fails": 1,
-  "warns": 20,
+  "warns": 18,
   "findings": [
     {
       "sev": "FAIL",
@@ -16,16 +16,8 @@
     {
       "sev": "WARN",
       "check": "service-truth(src)",
-      "where": "src/app/[city]/[service]/page.tsx:141",
-      "detail": "\"…per irrigation timing (early morning, deep and infrequent), mowing height (2–3 inches), and fertilization keep lawns hea…\" (We don't mow.)",
-      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
-      "count": 1
-    },
-    {
-      "sev": "WARN",
-      "check": "service-truth(src)",
-      "where": "src/app/[city]/[service]/page.tsx:176",
-      "detail": "\"…ing thin areas.`, solution: `We evaluate irrigation timing, mowing practices, and soil condition for ${cityName} lawns.…\" (We don't mow.)",
+      "where": "src/app/[city]/[service]/page.tsx:120",
+      "detail": "\"…rding follows knowledge/services-truth.json (treatment, not mowing or yard maintenance). */…\" (We don't mow.)",
       "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
       "count": 1
     },
@@ -74,22 +66,6 @@
       "check": "service-truth(src)",
       "where": "src/lib/service-hub-overrides.ts:861",
       "detail": "\"…on (GVR) and dozens of individual HOAs — each with specific landscape maintenance requirements that include weed-free ya…\" (We are not a landscaping company.)",
-      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
-      "count": 1
-    },
-    {
-      "sev": "WARN",
-      "check": "service-truth(src)",
-      "where": "src/lib/service-hub-overrides.ts:862",
-      "detail": "\"…s, and the specific HOA compliance requirements that govern yard maintenance throughout the community.\",…\" (We don't do yard maintenance.)",
-      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
-      "count": 1
-    },
-    {
-      "sev": "WARN",
-      "check": "service-truth(src)",
-      "where": "src/lib/service-hub-overrides.ts:887",
-      "detail": "\"…uire continuous compliance even when homeowners travel, and yard maintenance should be hassle-free.\",…\" (We don't do yard maintenance.)",
       "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
       "count": 1
     },
@@ -154,6 +130,14 @@
       "check": "service-truth(src)",
       "where": "content/blog/data-2026-10.json:1",
       "detail": "\"…strong>We tell you what to change.</strong> Watering depth, mowing height and timing matter as much as the product.</li>…\" (We don't mow.)",
+      "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
+      "count": 1
+    },
+    {
+      "sev": "WARN",
+      "check": "service-truth(src)",
+      "where": "content/blog/data-2026-11.json:1",
+      "detail": "\"…ul>\\n\\n<h3>What doesn't work well</h3>\\n\\n<ul>\\n<li><strong>Mowing:</strong> the plant grows too flat for a mower to rea…\" (We don't mow.)",
       "fix": "Labels/menus/options: reword to the real service (weed control / treatment). Body copy: OK only as homeowner advice, never as something we do. NEVER change the URL slug (page-identity Rule #1); change the visible label only.",
       "count": 1
     },

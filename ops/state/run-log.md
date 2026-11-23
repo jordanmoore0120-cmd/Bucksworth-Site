@@ -97,3 +97,10 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - Blog: "What Are Goatheads? What San Tan Valley Homeowners Should Know About Puncture Vine Burrs in Gravel Yards" ('goatheads' AZ 720/mo, 'goat heads' 1,000, Mar peak 1,300; live DataForSEO). SERP = mixed (images, AIO, PAA, products, video); weed meaning informational. Cites UC IPM Pest Notes 74128. Money page /san-tan-valley-az/weed-and-lawn-care.
 - Build + tsc + url-guard prepush PASS. Static site-qa: 1 FAIL (services.ts name, kept on purpose - page-identity).
 - Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok.
+
+## 2026-11-23 daily run (Claude)
+- Fix-list (2de983b): goathead guide alt text no longer claims "weed control technician" (photos show general residential treatment). Phoenix aeration photo still ASSET GAP.
+- site-tasks 36-38 (2de983b): city-specific meta on 6 pest hubs (Ahwatukee, Fountain Hills, Vail, Laveen, Buckeye, Oro Valley) + answer-first openers on the same 6; city-specific meta on 7 weed hubs (Phoenix, Buckeye pos 11.6, Casa Grande, Ahwatukee, Fountain Hills, Paradise Valley, Catalina Foothills).
+- Blog: "What Is a Camel Spider? What Casa Grande Homeowners Should Know About Sun Spiders" ('camel spider' AZ 9,900/mo live DataForSEO, Apr/Sep peak 14,800; 'sun spider' 2,900). SERP = KG + AIO + PAA + videos, no service pages. Cites UA Cooperative Extension Backyard Gardener #8. Money page /casa-grande-az/pest-and-termite. Rejected by topic-check: pack rats (Tucson roof/pack rat post owns it), roof rats, carpenter ants, subterranean termites, centipede arizona (legacy /centipede-pest-control - improve that URL).
+- Build + tsc + url-guard prepush PASS. Static site-qa: 1 FAIL (services.ts name, kept on purpose - page-identity), 18 WARN body copy.
+- Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok. GBP/Ads/GA4/Meta not tested.
