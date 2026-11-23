@@ -1,65 +1,54 @@
 {
- "generated": "2026-11-16T14:11Z",
+ "generated": "2026-11-23T14:09Z",
  "period": [
-  "2026-10-17",
-  "2026-11-15"
+  "2026-10-24",
+  "2026-11-22"
  ],
  "source": "Google Ads account 4486379637 (read-only pull by Viktor's google-ads-bot). Conversions are tracked actions, not unique customers or verified sales. One visitor may trigger multiple actions. Not matched to FieldRoutes booked jobs. LSA inquiry counts use creation dates within the stated period; geographic counts use Google's conversion attribution.",
  "landing_pages": [
   {
    "url": "https://www.getyourbucksworth.com/lp/pest-control",
-   "clicks": 5,
-   "cost": 32.0,
-   "lead_conversions": 0.0,
-   "conv_rate": 0.0
-  },
-  {
-   "url": "https://www.getyourbucksworth.com/lp/cockroach-control-b",
-   "clicks": 1,
-   "cost": 17.88,
-   "lead_conversions": 0.0,
-   "conv_rate": 0.0
+   "clicks": 7,
+   "cost": 40.21,
+   "lead_conversions": 1.0,
+   "conv_rate": 0.143
   }
  ],
  "converting_search_terms": [
   {
    "term": "bucksworth home services",
    "clicks": 4.0,
-   "cost": 16.02,
+   "cost": 17.74,
    "conversions": 1.0
   },
   {
    "term": "bucksworth pest control",
-   "clicks": 2.0,
-   "cost": 5.0,
-   "conversions": 1.0
+   "clicks": 3.0,
+   "cost": 6.57,
+   "conversions": 2.0
   }
  ],
  "top_paid_search_terms": [
   {
-   "term": "combat max roach killing bait",
-   "clicks": 1.0,
-   "cost": 17.88,
-   "conversions": 0.0
-  },
-  {
    "term": "bucksworth home services",
    "clicks": 4.0,
-   "cost": 16.02,
+   "cost": 17.74,
    "conversions": 1.0
   },
   {
    "term": "bucksworth pest control",
-   "clicks": 2.0,
-   "cost": 5.0,
-   "conversions": 1.0
+   "clicks": 3.0,
+   "cost": 6.57,
+   "conversions": 2.0
+  },
+  {
+   "term": "bucksworth services",
+   "clicks": 1.0,
+   "cost": 4.92,
+   "conversions": 0.0
   }
  ],
  "leads_by_zip": [
-  {
-   "zip": "85388",
-   "lsa_leads": 3.0
-  },
   {
    "zip": "85016",
    "lsa_leads": 2.0
@@ -73,6 +62,19 @@
    "lsa_leads": 2.0
   },
   {
+   "zip": "85132",
+   "lsa_leads": 1.0,
+   "search_leads": 1.0
+  },
+  {
+   "zip": "85205",
+   "lsa_leads": 2.0
+  },
+  {
+   "zip": "85248",
+   "lsa_leads": 2.0
+  },
+  {
    "zip": "85338",
    "lsa_leads": 2.0
   },
@@ -81,12 +83,12 @@
    "lsa_leads": 2.0
   },
   {
-   "zip": "85120",
-   "lsa_leads": 1.5
+   "zip": "85388",
+   "lsa_leads": 2.0
   },
   {
-   "zip": "85213",
-   "lsa_leads": 1.5
+   "zip": "85288",
+   "lsa_leads": 2.0
   },
   {
    "zip": "85009",
@@ -94,6 +96,10 @@
   },
   {
    "zip": "85015",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85021",
    "lsa_leads": 1.0
   },
   {
@@ -105,7 +111,11 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85142",
+   "zip": "85041",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85120",
    "lsa_leads": 1.0
   },
   {
@@ -117,15 +127,23 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85254",
+   "zip": "85212",
+   "search_leads": 1.0
+  },
+  {
+   "zip": "85213",
    "lsa_leads": 1.0
   },
   {
-   "zip": "85255",
+   "zip": "85251",
    "lsa_leads": 1.0
   },
   {
-   "zip": "85258",
+   "zip": "85260",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85266",
    "lsa_leads": 1.0
   },
   {
@@ -133,11 +151,11 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85296",
+   "zip": "85286",
    "lsa_leads": 1.0
   },
   {
-   "zip": "85326",
+   "zip": "85296",
    "lsa_leads": 1.0
   },
   {
@@ -145,7 +163,15 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85340",
+   "zip": "85345",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85383",
+   "lsa_leads": 1.0
+  },
+  {
+   "zip": "85396",
    "lsa_leads": 1.0
   },
   {
@@ -153,22 +179,14 @@
    "lsa_leads": 1.0
   },
   {
-   "zip": "85288",
-   "lsa_leads": 1.0
-  },
-  {
-   "zip": "85132",
-   "search_leads": 1.0
-  },
-  {
    "zip": "85140",
    "search_leads": 1.0
   }
  ],
  "lsa_leads_by_service": {
-  "pest_control/MESSAGE": 29,
-  "pest_control/PHONE_CALL": 7,
-  "lawn_care/MESSAGE": 14,
-  "lawn_care/PHONE_CALL": 23
+  "lawn_care/MESSAGE": 19,
+  "pest_control/MESSAGE": 32,
+  "lawn_care/PHONE_CALL": 26,
+  "pest_control/PHONE_CALL": 8
  }
 }
