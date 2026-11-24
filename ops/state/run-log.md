@@ -104,3 +104,10 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - Blog: "What Is a Camel Spider? What Casa Grande Homeowners Should Know About Sun Spiders" ('camel spider' AZ 9,900/mo live DataForSEO, Apr/Sep peak 14,800; 'sun spider' 2,900). SERP = KG + AIO + PAA + videos, no service pages. Cites UA Cooperative Extension Backyard Gardener #8. Money page /casa-grande-az/pest-and-termite. Rejected by topic-check: pack rats (Tucson roof/pack rat post owns it), roof rats, carpenter ants, subterranean termites, centipede arizona (legacy /centipede-pest-control - improve that URL).
 - Build + tsc + url-guard prepush PASS. Static site-qa: 1 FAIL (services.ts name, kept on purpose - page-identity), 18 WARN body copy.
 - Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok. GBP/Ads/GA4/Meta not tested.
+
+## 2026-11-24 daily run (Claude)
+- Fix-list: Phoenix aeration photo still ASSET GAP (no turf photos; none since 11/16). Nothing else open.
+- site-tasks 39-41 (9b8c757): city-specific meta + answer-first openers on 6 pest hubs ranked by DataForSEO AZ demand (Surprise 70/mo, Avondale 70, Litchfield Park 40, Glendale 40, Peoria 30, Anthem 10); weed hub meta on Anthem, Glendale, Avondale (10/mo each). 0/mo hubs left generic (law 1).
+- Blog: "What Is a Stink Bug? What Maricopa Homeowners Should Know About Bagrada Bugs and Garden Stink Bugs" ('stink bug' AZ 2,400/mo live DataForSEO, Apr/Oct peak 3,600). SERP = KG + AIO + PAA + videos, explainers. Cites UA Extension AZ1588 (bagrada, confirmed in Pinal County) + UC IPM. Money page /maricopa-az/pest-and-termite (pos 20.2) + Florence hub (pos 9.2).
+- Build + url-guard prepush PASS. Local next start: new meta/openers render, post 200 with Article + FAQPage + Breadcrumb, self-canonical, no priceRange.
+- Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok, GBP ok (Phoenix reviews GET: 4.9 avg, 2,028 reviews; 1-star 11/23 already replied). Google Ads, GA4, Facebook, Instagram not tested.
