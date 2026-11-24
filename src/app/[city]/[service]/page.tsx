@@ -112,6 +112,16 @@ const PEST_HUB_META: Record<string, string> = {
   "laveen-az": "Pest control in Laveen, AZ 85339 for bark scorpions, termites, roaches and rodents in Laveen Meadows, Laveen Farms and Rogers Ranch near South Mountain. Free inspection: (480) 422-8388.",
   "buckeye-az": "Pest control in Buckeye, AZ 85326 and 85396 for bark scorpions, termites, roaches and rodents in Verrado, Tartesso, Sundance and Festival Ranch. Free inspection: (480) 422-8388.",
   "oro-valley-az": "Pest control in Oro Valley, AZ 85737 and 85755 for bark scorpions, termites, pack rats and ants in Rancho Vistoso, Sun City Oro Valley and Canada Hills. Free inspection: (520) 284-9930.",
+  /* 2026-11-24 (site-task 39): the West Valley + Anthem hubs still on the generic "Arizona's Most Trusted" template,
+     ranked by DataForSEO AZ demand (city-demand.json 2026-11-08): "pest control surprise" 70/mo, "pest control avondale" 70,
+     "pest control litchfield park" 40, "pest control glendale" 40, "pest control peoria" 30, "pest control anthem" 10.
+     Facts from src/lib/neighborhoods.ts and src/lib/cities.ts; no prices. Valencia West (0/mo) and Red Rock left as is. */
+  "surprise-az": "Pest control in Surprise, AZ 85374, 85379, 85387 and 85388 for bark scorpions, termites, roaches and rodents in Marley Park, Surprise Farms, Sun City Grand and Asante. Free inspection: (480) 422-8388.",
+  "avondale-az": "Pest control in Avondale, AZ 85323 and 85392 for ants, roaches, rodents, bark scorpions and termites along the Agua Fria River, where canals and farm fields push pests toward homes. Free inspection: (480) 422-8388.",
+  "litchfield-park-az": "Pest control in Litchfield Park, AZ 85340 for bark scorpions, termites, roaches and ants in the Historic Core, Village at Litchfield Park and Wigwam Creek near The Wigwam. Free inspection: (480) 422-8388.",
+  "glendale-az": "Pest control in Glendale, AZ for bark scorpions, termites, roaches and rodents, from historic downtown homes to newer neighborhoods near State Farm Stadium. Free inspection: (480) 422-8388.",
+  "peoria-az": "Pest control in Peoria, AZ 85345, 85382 and 85383 for bark scorpions, termites, roaches and rodents in Vistancia, Westwing Mountain, Terramar and Old Town Peoria. Free inspection: (480) 422-8388.",
+  "anthem-az": "Pest control in Anthem, AZ 85086 for bark scorpions, termites, pack rats and ants in Anthem Country Club, Anthem Parkside and the desert trails below Daisy Mountain. Free inspection: (480) 422-8388.",
 };
 
 /* 2026-11-22 (site-task 34): weed hubs in the East Valley + Pinal home market still used the generic
@@ -138,6 +148,12 @@ const WEED_HUB_META: Record<string, string> = {
   "fountain-hills-az": "Weed control in Fountain Hills, AZ 85268: pre-emergent and post-emergent treatment for desert gravel yards in Eagle Mountain, SunRidge Canyon and Firerock. Call (480) 422-8388.",
   "paradise-valley-az": "Weed control in Paradise Valley, AZ 85253: pre-emergent, post-emergent and lawn fertilization for large lots around Mummy Mountain, Lincoln Drive and Paradise Valley Ranchos. Call (480) 422-8388.",
   "catalina-foothills-az": "Weed control in the Catalina Foothills, AZ 85718 and 85750: pre-emergent and post-emergent treatment for desert gravel yards in Skyline Country Club, Ventana Canyon and Canyon View. Call (520) 284-9930.",
+  /* 2026-11-24 (site-task 41): weed hubs still on "Arizona Yards That Look as Good as They Should" with measurable AZ
+     demand (city-demand.json 2026-11-08: "weed control anthem", "weed control glendale", "weed control avondale" 10/mo each).
+     Treatment wording per knowledge/services-truth.json. Laveen, Litchfield Park, Vail, Valencia West = 0/mo, left as is. */
+  "anthem-az": "Weed control in Anthem, AZ 85086: pre-emergent and post-emergent treatment for desert gravel yards and lawns in Anthem Country Club and Anthem Parkside below Daisy Mountain. Call (480) 422-8388.",
+  "glendale-az": "Weed control in Glendale, AZ: pre-emergent, post-emergent and lawn fertilization for gravel yards and Bermuda lawns, from historic downtown homes to neighborhoods near State Farm Stadium. Call (480) 422-8388.",
+  "avondale-az": "Weed control in Avondale, AZ 85323 and 85392: pre-emergent and post-emergent treatment for gravel yards and lawns along the Agua Fria River and the canal-side neighborhoods. Call (480) 422-8388.",
 };
 
 function pestHubTitle(cityName: string) {
@@ -174,6 +190,14 @@ const PEST_HUB_OPENERS: Record<string, string> = {
   "laveen-az": "Bucksworth treats scorpions, termites, roaches, ants and rodents for Laveen homes in 85339. Laveen Meadows and Laveen Farms were built on former farmland, which keeps rodents and termites close, and Rogers Ranch sits near the western edge of South Mountain. Call (480) 422-8388 for a free inspection.",
   "buckeye-az": "We treat scorpions, termites, roaches, ants and rodents for Buckeye homes in 85326 and 85396. Verrado sits in the White Tank Mountain foothills and Tartesso is expanding into raw desert, so bark scorpions are displaced toward new homes. Call (480) 422-8388 for a free inspection.",
   "oro-valley-az": "Bucksworth treats scorpions, termites, pack rats, ants and roaches for Oro Valley homes in 85737 and 85755. Rancho Vistoso and Canada Hills sit beside desert near Catalina State Park and Pusch Ridge, where bark scorpions and pack rats come down from the foothills. Call (520) 284-9930 for a free inspection.",
+  /* 2026-11-24 (site-task 40): the same six West Valley + Anthem hubs were on the generic fallback opener.
+     Facts from src/lib/neighborhoods.ts and src/lib/cities.ts. */
+  "surprise-az": "We treat scorpions, termites, roaches, ants and rodents for Surprise homes in 85374, 85379, 85387 and 85388. Asante sits at the desert's edge where bark scorpions are active, and Surprise Farms was built on former farmland that keeps rodents close. Call (480) 422-8388 for a free inspection.",
+  "avondale-az": "Bucksworth treats ants, roaches, rodents, scorpions and termites for Avondale homes in 85323 and 85392. Avondale sits along the Agua Fria River, where irrigation canals and farm fields push ants, roaches and rodents toward houses. Call (480) 422-8388 for a free inspection.",
+  "litchfield-park-az": "We treat scorpions, termites, roaches, ants and rodents for Litchfield Park homes in 85340. The Historic Core has mature trees and older homes, and Wigwam Creek's manicured grounds near The Wigwam resort hold the moisture pests look for. Call (480) 422-8388 for a free inspection.",
+  "glendale-az": "Bucksworth treats scorpions, termites, roaches, ants and rodents for Glendale homes from 85301 to 85310. Historic downtown houses with mature landscaping sit alongside newer neighborhoods near State Farm Stadium, and each draws different pests. Call (480) 422-8388 for a free inspection.",
+  "peoria-az": "We treat scorpions, termites, roaches, ants and rodents for Peoria homes in 85345, 85382 and 85383. Vistancia and Westwing Mountain are built into the desert near Lake Pleasant, so bark scorpions are displaced toward homes, and Old Town Peoria's older houses need termite checks. Call (480) 422-8388 for a free inspection.",
+  "anthem-az": "Bucksworth treats scorpions, termites, pack rats, ants and roaches for Anthem homes in 85086. Anthem Country Club and Anthem Parkside connect to Sonoran Desert trails below Daisy Mountain, so scorpions and pack rats reach yards from the desert edge. Call (480) 422-8388 for a free inspection.",
 };
 
 function pestHubOpener(citySlug: string, cityName: string, nhoods: Neighborhood[], landmarks: string[], phone: string) {

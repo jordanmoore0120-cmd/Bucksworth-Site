@@ -638,5 +638,24 @@
       "/maricopa-az/pest-and-termite (pos 20.2, 2.8K imp)"
     ],
     "information_gain": "University of Arizona Cooperative Extension Backyard Gardener #8 'Solpugids or Sun Spiders' (Schalau, 2022) facts: 15-45 mm in western U.S., tan to brown, pedipalps with sticky tips, two pairs of vertical chelicerae, no venom, no stinger, mostly nocturnal, >50 SW U.S. / >120 N. American species, indoors = following prey or lost, firewood hitchhikers, pesticides not recommended, exclusion list; myth vs fact table; real AZ month-by-month demand table; camel spider vs bark scorpion vs wolf spider ID table; Casa Grande angle (85122/85194, Villago, Mission Royale, desert + farm edge). Honest service angle: we don't treat sun spiders, we treat the crickets/roaches/scorpions feeding them."
+  },
+  {
+    "date": "2026-11-24",
+    "slug": "what-is-a-stink-bug-what-maricopa-homeowners-should-know-about-bagrada-bugs-and-garden-stink-bugs",
+    "city": "maricopa-az",
+    "vertical": "pest-and-termite",
+    "sub_service": "general pest (occasional invaders); supports weed-and-lawn-care pre/post-emergent (mustard-family weed hosts)",
+    "target_question": "what is a stink bug (stink bug / stink bugs)",
+    "az_volume": 2400,
+    "queue_rank": null,
+    "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-24 (40 keywords, $0.09): 'stink bug' AZ 2,400/mo avg (Apr + Oct 2026 3,600; Dec-Feb 1,600-1,900). Higher-volume candidates failed topic-check: 'bed bug bites' 18,100 (Queen Creek bites post owns it), 'wolf spider' 12,100 and 'black widow spider' 5,400 (existing widow/wolf posts), 'silverfish' 8,100 (/silverfish-pest-control legacy page), 'german cockroach' 2,400 (Mesa post). 'brown recluse arizona' 1,600 passes topic-check but ~20 templated spider posts carry a brown-recluse H3 (rejected 11-19 for the same reason). 'flea bites' 2,900 skipped: fleas are not listed in knowledge/services-truth.json. blog-queue.json and question-keywords.json exhausted (dated 11-08).",
+    "money_page_linked": "/maricopa-az/pest-and-termite",
+    "serp_type": "informational (live DataForSEO SERP 2026-11-24, 'stink bug', Phoenix mobile: knowledge graph, AI Overview, PAA, short videos, video, perspectives; organic = pest-company and bug-ID explainers, mostly about the brown marmorated stink bug). Blog post matches.",
+    "gate": "topic-check 'stink bug' and 'stink bugs' exit 0 (no owner). 0 blog titles/slugs contain stink/bagrada; no publish-log target_question; gsc-ranking-map: 0 stink-bug queries; cannibalization.json: none.",
+    "striking_distance_linked": [
+      "/maricopa-az/pest-and-termite (pos 20.2, 2.8K imp)",
+      "/florence-az/pest-and-termite (pos 9.2, 168K imp)"
+    ],
+    "information_gain": "University of Arizona Cooperative Extension AZ1588 'Bagrada Bug: A New Pest for Arizona Gardeners' (Dec 2012): first CA June 2008, Yuma Sept 2009, confirmed La Paz/Maricopa/Pima/Pinal counties; 5-7 mm black with orange and white; eggs mostly in soil; 100 eggs in 2-3 weeks; fall (Sep-Oct) and spring (May-Jun) peaks; brassica hosts + alyssum; 'blind head'; non-chemical home-garden steps; soapy water short-term only. UC IPM stink bug page: shield shape, species size/color table, overwinter in leaf litter, fly in from weedy areas, remove weeds early spring, insecticides generally not recommended, beneficial predatory stink bugs. Real AZ month-by-month demand table; stink bug vs kissing bug ID list; Maricopa angle (85138/85139, Rancho El Dorado, Tortosa, Province, Alterra, UA Maricopa Agricultural Center, Ak-Chin). Honest service angle: we don't spray vegetable gardens; perimeter pest control keeps occasional invaders out and weed control removes mustard-family weed hosts."
   }
 ]
