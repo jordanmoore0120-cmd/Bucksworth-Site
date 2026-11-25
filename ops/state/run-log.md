@@ -111,3 +111,10 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - Blog: "What Is a Stink Bug? What Maricopa Homeowners Should Know About Bagrada Bugs and Garden Stink Bugs" ('stink bug' AZ 2,400/mo live DataForSEO, Apr/Oct peak 3,600). SERP = KG + AIO + PAA + videos, explainers. Cites UA Extension AZ1588 (bagrada, confirmed in Pinal County) + UC IPM. Money page /maricopa-az/pest-and-termite (pos 20.2) + Florence hub (pos 9.2).
 - Build + url-guard prepush PASS. Local next start: new meta/openers render, post 200 with Article + FAQPage + Breadcrumb, self-canonical, no priceRange.
 - Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok, GBP ok (Phoenix reviews GET: 4.9 avg, 2,028 reviews; 1-star 11/23 already replied). Google Ads, GA4, Facebook, Instagram not tested.
+
+## 2026-11-25 daily run (Claude)
+- Start: git fetch returned 503 (GitHub credential service) for ~10 min; synced the 4 new origin/main commits from raw.githubusercontent at e3174a5 via the GitHub connector, then git recovered and the work was rebased onto real origin/main before commit.
+- Fix-list (6e70c08): Maricopa stink-bug guide corrections (body-shape comparison, "most species" plant diet, unsupported "work better" claim removed). Phoenix aeration photo still ASSET GAP.
+- site-tasks 42-44 (6e70c08): SUB_META + city "What We See" sections on Tucson/Chandler/Gilbert rodent exclusion, Mesa mosquito, Mesa ant, Phoenix spider (GSC 465-1,894 imp, pos 16-25).
+- Blog: "What Is a Tarantula Hawk? What Apache Junction Homeowners Should Know About the Orange-Winged Wasp" ('tarantula hawk' AZ 8,100/mo live DataForSEO, Apr-Jun 18,100). SERP = KG + AIO + PAA + videos + forums. Money page /apache-junction-az/pest-and-termite/bee-wasp-removal (pos 15.3).
+- Build + url-guard prepush PASS.
