@@ -71,6 +71,12 @@ const SUB_META: Record<string, string> = {
   "coolidge-az/pest-and-termite/bed-bug-treatment": "Bed bug treatment in Coolidge, AZ 85128 for homes and rentals, from Downtown Coolidge to Coolidge Estates. We inspect first, then treat. Call (480) 422-8388 for a free inspection.",
   "queen-creek-az/weed-and-lawn-care/weed-and-feed-program": "Weed & feed in Queen Creek, AZ 85142 and 85140: weed control plus lawn fertilization for Bermuda lawns in Hastings Farms and Sossaman Estates. Call (480) 422-8388 for a free estimate.",
   "marana-az/weed-and-lawn-care/pre-emergent-weed-control": "Pre-emergent weed control in Marana, AZ 85653 and 85658 for gravel yards in Continental Ranch, Dove Mountain and Gladden Farms. Stop weeds before they sprout. Call (520) 284-9930.",
+  "tucson-az/pest-and-termite/rodent-exclusion": "Rodent and pack rat exclusion in Tucson, AZ. We remove rats and mice, then seal entry points on homes from Sam Hughes to Tanque Verde. Call (520) 284-9930 for a free inspection.",
+  "chandler-az/pest-and-termite/rodent-exclusion": "Rodent exclusion in Chandler, AZ for homes in Ocotillo, Andersen Springs and Chandler Heights. We remove rats and mice, then seal the gaps they use. Call (480) 422-8388 for a free inspection.",
+  "gilbert-az/pest-and-termite/rodent-exclusion": "Rodent exclusion in Gilbert, AZ for homes in Val Vista Lakes, Cooley Station and Power Ranch. We remove rats and mice, then seal the gaps they use. Call (480) 422-8388 for a free inspection.",
+  "mesa-az/pest-and-termite/mosquito-control": "Mosquito control in Mesa, AZ for yards near Dobson Ranch Lake, Red Mountain Park and Superstition Springs. We find standing water and treat where mosquitoes rest. Call (480) 422-8388.",
+  "mesa-az/pest-and-termite/ant-control": "Ant control in Mesa, AZ from Dobson Ranch to Las Sendas and Eastmark. We find the colony and treat trails, nests and entry points. Call (480) 422-8388 for a free inspection.",
+  "phoenix-az/pest-and-termite/spider-prevention": "Spider control in Phoenix, AZ for black widows and other spiders in block walls, garages and patios, from Arcadia to Desert Ridge. Call (480) 422-8388 for a free inspection.",
 };
 
 export async function generateMetadata({

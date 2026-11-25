@@ -657,5 +657,25 @@
       "/florence-az/pest-and-termite (pos 9.2, 168K imp)"
     ],
     "information_gain": "University of Arizona Cooperative Extension AZ1588 'Bagrada Bug: A New Pest for Arizona Gardeners' (Dec 2012): first CA June 2008, Yuma Sept 2009, confirmed La Paz/Maricopa/Pima/Pinal counties; 5-7 mm black with orange and white; eggs mostly in soil; 100 eggs in 2-3 weeks; fall (Sep-Oct) and spring (May-Jun) peaks; brassica hosts + alyssum; 'blind head'; non-chemical home-garden steps; soapy water short-term only. UC IPM stink bug page: shield shape, species size/color table, overwinter in leaf litter, fly in from weedy areas, remove weeds early spring, insecticides generally not recommended, beneficial predatory stink bugs. Real AZ month-by-month demand table; stink bug vs kissing bug ID list; Maricopa angle (85138/85139, Rancho El Dorado, Tortosa, Province, Alterra, UA Maricopa Agricultural Center, Ak-Chin). Honest service angle: we don't spray vegetable gardens; perimeter pest control keeps occasional invaders out and weed control removes mustard-family weed hosts."
+  },
+  {
+    "date": "2026-11-25",
+    "slug": "what-is-a-tarantula-hawk-what-apache-junction-homeowners-should-know-about-the-orange-winged-wasp",
+    "city": "apache-junction-az",
+    "vertical": "pest-and-termite",
+    "sub_service": "bee-wasp-removal",
+    "target_question": "what is a tarantula hawk (tarantula hawk / tarantula hawk sting)",
+    "az_volume": 8100,
+    "queue_rank": null,
+    "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-25 (60 keywords in 2 pulls, $0.18): 'tarantula hawk' AZ 8,100/mo avg (Apr-Jun 2026 18,100; Dec-Jan 2,900), CPC $2.83; 'tarantula hawk sting' 320. Other candidates: 'palo verde beetle' 8,100 and 'cicada' 8,100 (no service fit), 'tarantula' 6,600 (spider-ID intent, ~63 spider posts nearby), 'dandelion' 5,400 (generic; 'how to get rid of dandelions' 10/mo AZ), 'june bug' 2,900, 'assassin bug' 1,900 (overlaps the Gold Canyon kissing-bug post), 'purslane' 1,600 (edible-plant intent), 'velvet ant' 1,300. Earlier runs passed on tarantula hawk for low service fit; chosen today because it is a wasp (bee & wasp removal sub-service) and the queue is exhausted. blog-queue.json and question-keywords.json exhausted (dated 11-08).",
+    "money_page_linked": "/apache-junction-az/pest-and-termite/bee-wasp-removal",
+    "serp_type": "informational (live DataForSEO SERP 2026-11-25, 'tarantula hawk', Phoenix mobile: knowledge graph, AI Overview, short videos, carousel, PAA, video, discussions/forums, perspectives; organic includes a pest-control company's sting explainer). Blog post matches.",
+    "gate": "topic-check 'tarantula hawk' and 'tarantula hawk sting' exit 0 (no owner). 0 blog titles/slugs contain 'tarantula'; no publish-log target_question (only mentioned as a rejected candidate on 11-20/11-21); gsc-ranking-map and cannibalization.json: 0 tarantula queries.",
+    "striking_distance_linked": [
+      "/apache-junction-az/pest-and-termite/bee-wasp-removal (pos 15.3, 543 imp)",
+      "/san-tan-valley-az/pest-and-termite/bee-wasp-removal (pos 19.1, 393 imp)",
+      "/mesa-az/pest-and-termite (pos 8.4, 255K imp)"
+    ],
+    "information_gain": "Pepsis/Hemipepsis spider wasps (Pompilidae), 18 Pepsis + 3 Hemipepsis US species mostly in Southwest deserts; up to 2.5 in; adults nectar-feed on milkweed, western soapberry, mesquite; female life cycle (paralyze, drag to burrow, single egg, larva feeds on live spider); males hill-top on tall plants; docile; Schmidt pain scale near top (second to bullet ant), pain ~5 min, redness up to a week, not dangerous unless allergic. Real AZ month-by-month demand table; stinging-insect comparison table (tarantula hawk, velvet ant, paper wasp, yellowjacket, honey bee). Apache Junction angle: 85119/85120/85118, Superstition Foothills, Apache Trail, Lost Dutchman State Park, Goldfield Ghost Town, W Houston Ave office. Honest service angle: single tarantula hawks need no treatment; we remove nesting paper wasps, yellowjackets and bees."
   }
 ]
