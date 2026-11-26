@@ -1,5 +1,5 @@
 # AI-search + ads guidelines (official sources) — Bucksworth
-Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; factual-reference update **2026-11-23**. Every rule below comes from an
+Owned by Claude (reviewed every Monday, Wednesday and Friday per CLAUDE.md §0 check 6). Last full review: **2026-10-02**; factual-reference update **2026-11-26**. Every rule below comes from an
 official engine/ads document (URL given). **Official docs outrank blog tactics**: if a blog or
 community tip contradicts a rule here, this file wins. Jordan's house rules (CLAUDE.md §3) still sit
 above everything: no prices/deals/contract terms in site copy, never "no contract", don't promote
@@ -19,8 +19,15 @@ Source: https://developers.google.com/search/docs/appearance/ai-features (read 2
 - Search Console now has a site-wide **Search generative AI control** that removes a site from AI Overviews/AI Mode
   (https://developers.google.com/search/docs/crawling-indexing/control-what-you-share, updated 2026-10-21). DON'T
   turn it on: it would take Bucksworth out of AI answers.
-- DO expect query fan-out: AI answers pull from pages that answer sub-questions (cost factors, how to
-  choose, seasonality, what to expect). Cover those sub-questions on the money page or a linked post.
+- Google controls (2026-11-24; https://developers.google.com/search/docs/fundamentals/gen-ai-controls):
+  DO distinguish Search Console's Search generative AI control (Search/Discover grounding and links, not training)
+  from Google-Extended (covered training and non-Search grounding, not Search inclusion/ranking).
+  Google-Extended is a downstream-use token, NOT a separate crawler; it cannot prevent mentions sourced from other sites.
+  Source: https://developers.google.com/crawling/docs/google-extended . No crawler/tag setting change is authorized here.
+- Attribution (2026-11-24; https://developers.google.com/search/docs/fundamentals/gen-ai-attribution-factuality):
+  AI features retrieve indexed results, may run related searches (query fan-out), and corroborate responses against sources.
+  DO preserve indexed/snippet eligibility, accurate text, clear sourcing and real authorship; DON'T fake updated dates.
+  Link selection balances relevance, quality, layout and source diversity; no markup or placement guarantees a citation.
 - AI Overview traffic is reported inside Search Console "Web" performance; a dedicated **Generative AI
   performance report** is live for all sites since 2026-08-31
   (https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports). Use it, not guesses,
@@ -40,8 +47,9 @@ Source: https://developers.google.com/search/docs/appearance/ai-features (read 2
   DO exempt verified crawlers from CAPTCHA/blanket bot challenges and pre-warm caches at a controlled pace.
   Cold caches still hit the origin. For urgent overload, use temporary 429/503 responses for hours or at most 1–2 days,
   not persistent 403/challenge walls. This is configuration guidance, not a reason to change our URLs or tags.
-- November 2026 core update began **2026-11-10** and remains Active (checked 2026-11-19,
-  https://status.search.google.com/). DON'T attribute a particular Bucksworth rank change to it without evidence.
+- November core update completed **2026-11-24** (https://status.search.google.com/incidents/WLxcJyC6jMWMfryxsKMc).
+  December core update is preannounced, scheduled for December, with no start date yet (checked 2026-11-26,
+  https://status.search.google.com/incidents/AXrqxXXdtSjj3672ux7X). DON'T mistake the incident creation date for rollout start.
 - Traffic identification (Google's new 2026-11-12 documentation, read 2026-11-16,
   https://developers.google.com/search/docs/monitor-debug/identify-google-search-traffic):
   DO distinguish Search Console clicks from analytics sessions. Search referrers contain origin only, not the query;
@@ -81,16 +89,12 @@ Spam policies — https://developers.google.com/search/docs/essentials/spam-poli
 - DON'T host third-party content to borrow our domain's reputation (site reputation abuse).
 - DON'T use hidden text/links, keyword stuffing, sneaky redirects, or back-button hijacking
   (https://developers.google.com/search/blog/2026/04/back-button-hijacking).
+- Back-button FAQ (2026-11-23, spam-policy source above): browser hijacking is prohibited even after non-Search arrivals;
+  Discover is covered too. Third-party ad code itself is not banned; hijacking behavior is. App navigation is outside this policy.
 - DON'T buy/sell links or run link exchanges; PR/backlinks must be earned.
 - Spam updates: September 2026 spam update ran 2026-09-24 → **completed 2026-10-08** (13 days 16 h;
   https://developers.google.com/search/updates/ranking). Compare ranks from 2026-10-08 onward against the
-  pre-update baseline, not mid-rollout swings. SEOs report more manual actions since Sept (thin, pure spam,
-  scaled content), mostly on long-standing businesses (seroundtable.com/google-search-manual-action-spike-42258.html);
-  check Search Console → Manual actions when rankings drop.
-  Google (Search Central Live, Oct 2026, via seroundtable.com/google-search-spam-updates-ai-42226.html):
-  **scaled content is now a bigger problem than link spam**, spam is caught with AI, and quality is judged
-  **per page, not per domain**. A template that's useful on 100 pages can be thin on 1,000. For our
-  /{city}-az/{vertical}/{sub} pages, every city page needs city-specific main content, not just the city name.
+  pre-update baseline, not mid-rollout swings. DON'T attribute Bucksworth changes to an update without evidence.
 URL structure — https://developers.google.com/search/docs/crawling-indexing/url-structure (updated 2026-10-23)
 - DO separate words in NEW URLs with hyphens (`termite-treatment`), not underscores or run-together words.
   DON'T rename existing URLs to fix this (page-identity rule #1).
@@ -156,7 +160,6 @@ Source: https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a (full
 Source: https://platform.openai.com/docs/bots (verified 2026-11-05).
 The former Publisher FAQ article 12627856 is not a verified publisher source: its current search result
 and directly fetched page are an unrelated Atlas-retirement article (verified 2026-11-23). DON'T use that article to establish publisher rules.
-
 - DO keep `OAI-SearchBot` and `ChatGPT-User` allowed in robots.txt and allowed by the CDN/firewall.
   `GPTBot` (training) is a separate choice and doesn't affect ChatGPT search.
 - ChatGPT referrals USED to arrive with `utm_source=chatgpt.com`. Since GPT-6 (~2026-10-07) links reportedly open
@@ -167,31 +170,22 @@ and directly fetched page are an unrelated Atlas-retirement article (verified 20
   don't add a block if ChatGPT Ads are ever used.
 - ChatGPT local answers lean on third-party listings/reviews (Yelp, BBB, directories): keep NAP identical
   everywhere (Whitespark Listing Management).
-
 ## 5. Perplexity
-
 Source: https://docs.perplexity.ai/guides/bots (read 2026-10-02)
 - DO allow `PerplexityBot` (search index, not training) and `Perplexity-User`; allow their IP ranges if a WAF is added.
   IP lists moved (doc updated 2026-10-29): https://www.perplexity.ai/perplexitybot.json and https://www.perplexity.ai/perplexity-user.json
   (old perplexity.com URLs). Match on user agent + those IPs; the UA version number may change.
-
 ## 6. Claude (Anthropic) and Apple
-
 Sources: https://support.claude.com/en/articles/8896518 ; https://support.apple.com/en-us/119829 (read 2026-10-02)
 - DO allow `Claude-SearchBot` and `Claude-User` (search visibility). `ClaudeBot` = training only.
-- Shared AI training control (official announcements 2026-10-30): Anthropic has begun recognizing
-  the draft IETF signal; explicit `ClaudeBot` rules take priority. Google plans support in **2027**,
-  interpreting a training opt-out as Google-Extended disallowed unless explicitly specified.
-  DON'T treat this draft training signal as a blanket search-crawler block or a citation requirement.
+- Shared training signal: Anthropic recognizes it with explicit ClaudeBot precedence; Google plans early-2027 support
+  for `__usage_ai-training`. DON'T treat training preference as a blanket search-crawler block or citation requirement.
   Sources: https://developers.google.com/search/blog/2026/10/ai-training-control and the Anthropic source above.
 - DO allow `Applebot` (Siri/Spotlight search). `Applebot-Extended` only controls training use.
-
-Robots.txt status (live check 2026-11-19): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
+Robots.txt status (live check 2026-11-26): Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
 Claude-SearchBot and Applebot are all allowed (only `/api/` disallowed). **Never add a blanket
 "block AI" rule or CDN setting** — Googlebot/Bingbot/Applebot are mixed-use crawlers and a hard block cuts search too.
-
 ## 7. Google Ads, AI Max, ads in AI Overviews
-
 Sources: https://support.google.com/google-ads/answer/16297775 ; https://support.google.com/google-ads/answer/15910366 (read 2026-10-02)
 - Ads in AI Overviews **and AI Mode** (doc rewritten ~2026-10-27, answer/16297775): existing Search, Shopping and PMax
   campaigns are automatically eligible, incl. follow-up turns in AI Mode ("multiturn ads", US); no opt-out and no way to
@@ -203,8 +197,9 @@ Sources: https://support.google.com/google-ads/answer/16297775 ; https://support
 - AI Max (search-term matching, text customization, **final URL expansion**) can send traffic to pages we
   didn't choose and rewrite headlines. If enabled, exclude non-pest/weed URLs and review asset text against
   house rules (no "no contract", no AC/plumbing, no deal pairing). Changes need Jordan's approval.
-- User-based Conversion Lift (read 2026-11-16, https://support.google.com/google-ads/answer/12005564):
-  GA4-imported web conversions and click-ID-only offline imports are unsupported for this study type.
+- User-based Conversion Lift (read 2026-11-26, https://support.google.com/google-ads/answer/12005564):
+  Account eligibility requires at least 1,000 observed conversions **per month**, excluding supplementary data;
+  study campaign budget at least $5,000 USD. GA4 web imports and click-ID-only offline imports are unsupported.
   DON'T mistake that restriction for broken normal conversion reporting or change tags/imports without Jordan's approval.
 - Advanced Verification (https://support.google.com/adspolicy/answer/7167922): if an ad or landing page
   mentions a **guarantee or warranty, the same page must link to its terms, exclusions and how to claim**.
@@ -221,9 +216,7 @@ Sources: https://support.google.com/google-ads/answer/16297775 ; https://support
   on an ad we didn't approve, or pair two deals. Keep it OFF: Assets → Account-level automated assets →
   Advanced settings → turn off Automated Promotions (needs Jordan's OK). Source:
   https://support.google.com/google-ads/answer/16049135 + seroundtable.com/google-ads-automated-promotions-october-12-42223.html
-
 ## 8. Local Services Ads
-
 Sources: https://support.google.com/localservices/answer/6245891 (now "Local Services Ads requirements",
 updated 2026-07-31) ; https://support.google.com/google-ads/answer/17213585 (read 2026-10-02)
 - Bucksworth is Google Guaranteed via LSA. Keep "Google Guaranteed" wording consistent and true; don't
