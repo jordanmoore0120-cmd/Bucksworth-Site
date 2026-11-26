@@ -118,3 +118,11 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - site-tasks 42-44 (6e70c08): SUB_META + city "What We See" sections on Tucson/Chandler/Gilbert rodent exclusion, Mesa mosquito, Mesa ant, Phoenix spider (GSC 465-1,894 imp, pos 16-25).
 - Blog: "What Is a Tarantula Hawk? What Apache Junction Homeowners Should Know About the Orange-Winged Wasp" ('tarantula hawk' AZ 8,100/mo live DataForSEO, Apr-Jun 18,100). SERP = KG + AIO + PAA + videos + forums. Money page /apache-junction-az/pest-and-termite/bee-wasp-removal (pos 15.3).
 - Build + url-guard prepush PASS.
+
+## 2026-11-26 daily run (Claude)
+- Fix-list (8d5494c): tarantula-hawk guide sting-safety wording (no implied wait; emergency-vet escalation for breathing trouble, head/neck swelling, vomiting, weakness; reactions can be delayed for hours; VCA link). Phoenix aeration photo still ASSET GAP.
+- site-tasks 45-47 (8d5494c): SUB_META on Tucson/AJ bee-wasp, Tucson mosquito, STV rodent exclusion, Buckeye termite, Phoenix gravel weed (GSC 497-1,257 imp, pos 15-24); "What We See" sections on the 5 pest pages.
+- Blog: "What Is a Vinegaroon? What Vail Homeowners Should Know About Whip Scorpions" ('vinegaroon' AZ 3,600/mo live DataForSEO, Sep 8,100; 'whip scorpion' 1,000). SERP = AIO + KG + PAA + videos + images. Arizona species M. tohono is SE Arizona (Cochise core), so Vail (Tucson basin SE edge) was chosen over an East Valley city. Money page /vail-az/pest-and-termite. Rejected: yellow jacket 9,900 (legacy URL owns), bark scorpion (owned/split), millipedes (legacy URL), africanized bees (~40 city-swapped H3s), paper wasp/mud dauber (40+ posts).
+- Build + url-guard prepush PASS. Local next start: 8 changed URLs 200, new meta + sections render; post has Article + FAQPage + Breadcrumb, self-canonical, no priceRange, 11 internal links 200.
+- Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok.
+
