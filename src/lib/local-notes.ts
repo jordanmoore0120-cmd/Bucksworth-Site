@@ -55,6 +55,36 @@ const NOTES: Record<string, ContentBlock> = {
       "Ant problems in Mesa change with the setting. In Dobson Ranch (85202) and Alta Mesa (85204), mature landscaping and irrigated yards keep ant colonies close to the house, and trails show up along patios, kitchens and bathrooms. In Las Sendas, Red Mountain and Eastmark, where homes sit next to open desert, we see more harvester ant mounds in gravel yards and along sidewalks. Before we treat, our technicians identify the ant, because baits that work on one species can be ignored by another. Then we follow the trails back toward the nest and treat the colony, the trails and the entry points.",
     ],
   },
+  "tucson-az/pest-and-termite/bee-wasp-removal": {
+    heading: "What We See on Bee and Wasp Calls in Tucson",
+    paragraphs: [
+      "Bee and wasp calls in Tucson come from two kinds of homes. In older central neighborhoods like Sam Hughes (85716), Midtown (85711, 85712) and South Tucson, older construction has more gaps, so bees often move into wall voids, attics and eaves. On the desert edge, in Rita Ranch (85747), Tanque Verde (85749) and the Catalina Foothills (85718), we find hives in meter boxes, irrigation valve boxes, sheds and block walls, and paper wasp nests under patio covers. Bees in Arizona can be defensive, so don't spray or seal a hive yourself. We find where the bees go in, remove the hive or nest, and treat the spot so a new colony is less likely to move in.",
+    ],
+  },
+  "apache-junction-az/pest-and-termite/bee-wasp-removal": {
+    heading: "What We See on Bee and Wasp Calls in Apache Junction",
+    paragraphs: [
+      "Apache Junction sits against open desert, and that shapes our bee and wasp calls. Homes in the Superstition Foothills (85119) and along the Apache Trail (85120) have more sheds, outbuildings and block walls, and those are where we find most hives and wasp nests. Water draws bees in summer, so leaking hose bibs, pool edges and drip lines near the house are common trouble spots. Paper wasps build under eaves and patio covers. If you see bees going in and out of one opening, keep people and pets back and call us. We remove the hive or nest, treat the spot, and point out the openings that should be sealed so bees don't move back in.",
+    ],
+  },
+  "tucson-az/pest-and-termite/mosquito-control": {
+    heading: "What We See on Mosquito Calls in Tucson",
+    paragraphs: [
+      "Most Tucson mosquito calls come after monsoon storms, when water sits for days in places homeowners don't check. In Sam Hughes (85716) and Midtown (85711, 85712), shaded yards with older trees and irrigated beds keep mosquitoes close to patios. In Rita Ranch (85747), Tanque Verde (85749) and the Catalina Foothills (85718), we find standing water in plant saucers, pool covers, rain barrels, clogged yard drains and low spots in gravel. On every visit we walk the yard for water first and show you what to dump or fix, then treat the shaded plants and walls where adult mosquitoes rest during the day.",
+    ],
+  },
+  "san-tan-valley-az/pest-and-termite/rodent-exclusion": {
+    heading: "What We See on Rodent Calls in San Tan Valley",
+    paragraphs: [
+      "San Tan Valley is mostly newer homes built on former desert floor, so rodent calls usually start at the edge of the desert. In Johnson Ranch (85143), homes back onto desert washes that rodents use as travel routes. In Pecan Creek (85140) on the east side, and on lots near San Tan Mountain Regional Park and Goldmine Mountain, pack rats nest in brush and landscape rock, then move into garages and engine bays. On newer homes the gaps we find most are at garage door seals, utility and plumbing penetrations and roof vents. We trap and remove the rodents first, then seal the entry points so they can't get back in.",
+    ],
+  },
+  "buckeye-az/pest-and-termite/termite-treatment": {
+    heading: "What We See on Termite Calls in Buckeye",
+    paragraphs: [
+      "Much of Buckeye is newer construction pushing into raw desert, in communities like Verrado in the White Tank Mountain foothills (85396), Tartesso (85396), Sundance (85326) and Festival Ranch (85326). Subterranean termites already live in that soil, and on newer homes we often find mud tubes on the slab edge, along block walls and in the garage. If your builder hired Bucksworth for the pre-construction treatment, your home may already have warranty coverage, so check that before paying for a new treatment. We inspect the whole home first, then recommend a treatment for what we actually find, and every treatment includes a warranty and an annual re-inspection.",
+    ],
+  },
 };
 
 export function getLocalNote(

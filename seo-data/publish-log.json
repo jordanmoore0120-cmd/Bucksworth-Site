@@ -677,5 +677,25 @@
       "/mesa-az/pest-and-termite (pos 8.4, 255K imp)"
     ],
     "information_gain": "Pepsis/Hemipepsis spider wasps (Pompilidae), 18 Pepsis + 3 Hemipepsis US species mostly in Southwest deserts; up to 2.5 in; adults nectar-feed on milkweed, western soapberry, mesquite; female life cycle (paralyze, drag to burrow, single egg, larva feeds on live spider); males hill-top on tall plants; docile; Schmidt pain scale near top (second to bullet ant), pain ~5 min, redness up to a week, not dangerous unless allergic. Real AZ month-by-month demand table; stinging-insect comparison table (tarantula hawk, velvet ant, paper wasp, yellowjacket, honey bee). Apache Junction angle: 85119/85120/85118, Superstition Foothills, Apache Trail, Lost Dutchman State Park, Goldfield Ghost Town, W Houston Ave office. Honest service angle: single tarantula hawks need no treatment; we remove nesting paper wasps, yellowjackets and bees."
+  },
+  {
+    "date": "2026-11-26",
+    "slug": "what-is-a-vinegaroon-what-vail-homeowners-should-know-about-whip-scorpions",
+    "city": "vail-az",
+    "vertical": "pest-and-termite",
+    "sub_service": "scorpion-control",
+    "target_question": "what is a vinegaroon (vinegaroon / whip scorpion)",
+    "az_volume": 3600,
+    "queue_rank": null,
+    "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-26 (40 keywords, $0.09): 'vinegaroon' AZ 3,600/mo avg (Sep 2026 8,100; Jul-Aug 4,400; Jan 1,900); 'whip scorpion' 1,000. Other candidates: 'yellow jacket' 9,900 (legacy /yellow-jackets-pest-control owns it, topic-check), 'palo verde beetle' 8,100 (no service fit), 'bark scorpion' 6,600 (owned; already split across 3 scorpion pages), 'grasshoppers' 5,400 (no service fit), 'millipedes' 2,900 (legacy /millipede-pest-control owns it), 'africanized bees' 1,900 (~40 city-swapped bee posts already carry 'Are Africanized bees dangerous in <city>?' headings - consolidation candidate), 'paper wasp'/'mud dauber' 1,300 (40+ posts already cover them). blog-queue.json exhausted (dated 11-08).",
+    "money_page_linked": "/vail-az/pest-and-termite",
+    "serp_type": "informational (live DataForSEO SERP 2026-11-26, 'vinegaroon', Phoenix desktop: AI Overview, knowledge graph, PAA, short videos, video, images, product considerations; organic = photo/explainer pages, no local service pages). Blog post matches.",
+    "gate": "topic-check 'vinegaroon' exit 0 (no owner). 0 blog posts mention vinegaroon or whip scorpion; no publish-log target_question; gsc-ranking-map and cannibalization.json: 0 vinegaroon/whip scorpion queries; no legacy URL.",
+    "striking_distance_linked": [
+      "/vail-az (pos 23.1, 3,409 imp)",
+      "/tucson-az/pest-and-termite (pos 24.7, 6,425 imp)",
+      "/green-valley-az/pest-and-termite (pos 18.5, 2,271 imp)"
+    ],
+    "information_gain": "Arizona species is Mastigoproctus tohono (Barrales-Alcalá, Francke & Prendini 2018, type locality Portal, Cochise County; World Arachnid Catalog), split from M. giganteus; 2.2-2.3 in excl. tail; walks on six legs, front pair sensory, poor vision; acetic-acid spray from tail base; no venom/stinger; 'classic first monsoon animals' (Justin Schmidt via HCN), burrow through dry season, hunt humid nights; eats crickets, roaches, bark scorpions. City chosen by range: Vail is the SE edge of the Tucson basin (Rincons, Cienega Creek), not East Valley where it would be inaccurate. Vinegaroon vs bark scorpion vs camel spider ID table; real AZ monthly demand table. Honest service angle: no treatment for vinegaroons; we fix entry points and the crickets/roaches/scorpions they hunt."
   }
 ]

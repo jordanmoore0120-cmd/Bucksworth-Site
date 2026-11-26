@@ -77,6 +77,12 @@ const SUB_META: Record<string, string> = {
   "mesa-az/pest-and-termite/mosquito-control": "Mosquito control in Mesa, AZ for yards near Dobson Ranch Lake, Red Mountain Park and Superstition Springs. We find standing water and treat where mosquitoes rest. Call (480) 422-8388.",
   "mesa-az/pest-and-termite/ant-control": "Ant control in Mesa, AZ from Dobson Ranch to Las Sendas and Eastmark. We find the colony and treat trails, nests and entry points. Call (480) 422-8388 for a free inspection.",
   "phoenix-az/pest-and-termite/spider-prevention": "Spider control in Phoenix, AZ for black widows and other spiders in block walls, garages and patios, from Arcadia to Desert Ridge. Call (480) 422-8388 for a free inspection.",
+  "tucson-az/pest-and-termite/bee-wasp-removal": "Bee and wasp removal in Tucson, AZ: hives in walls, eaves and meter boxes, paper wasp and yellowjacket nests, from Midtown to Rita Ranch and Tanque Verde. Call (520) 284-9930.",
+  "phoenix-az/weed-and-lawn-care/gravel-rock-yard-maintenance": "Gravel and rock yard weed control in Phoenix, AZ: pre-emergent to stop new weeds plus post-emergent sprays on what's already up, from Arcadia to Desert Ridge. Call (480) 422-8388.",
+  "tucson-az/pest-and-termite/mosquito-control": "Mosquito control in Tucson, AZ after monsoon rains. We find standing water and treat where mosquitoes rest, from Sam Hughes and Midtown to Tanque Verde. Call (520) 284-9930.",
+  "apache-junction-az/pest-and-termite/bee-wasp-removal": "Bee and wasp removal in Apache Junction, AZ 85119 and 85120: hives in walls, eaves and sheds, plus wasp nests, near the Superstitions and the Apache Trail. Call (480) 422-8388.",
+  "san-tan-valley-az/pest-and-termite/rodent-exclusion": "Rodent and pack rat exclusion in San Tan Valley, AZ 85140 and 85143, from Johnson Ranch to Pecan Creek. We remove rodents, then seal the gaps they use. Call (480) 422-8388.",
+  "buckeye-az/pest-and-termite/termite-treatment": "Termite treatment in Buckeye, AZ 85326 and 85396 for homes in Verrado, Tartesso, Sundance and Festival Ranch. Inspection first, then a treatment plan. Call (480) 422-8388.",
 };
 
 export async function generateMetadata({
