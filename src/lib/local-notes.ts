@@ -85,6 +85,31 @@ const NOTES: Record<string, ContentBlock> = {
       "Much of Buckeye is newer construction pushing into raw desert, in communities like Verrado in the White Tank Mountain foothills (85396), Tartesso (85396), Sundance (85326) and Festival Ranch (85326). Subterranean termites already live in that soil, and on newer homes we often find mud tubes on the slab edge, along block walls and in the garage. If your builder hired Bucksworth for the pre-construction treatment, your home may already have warranty coverage, so check that before paying for a new treatment. We inspect the whole home first, then recommend a treatment for what we actually find, and every treatment includes a warranty and an annual re-inspection.",
     ],
   },
+  /* 2026-11-27 (site-tasks 49-50): facts from neighborhoods.ts (Vail, Sahuarita) only. */
+  "vail-az/pest-and-termite/bee-wasp-removal": {
+    heading: "What We See on Bee and Wasp Calls in Vail",
+    paragraphs: [
+      "Vail sits on the southeast edge of the Tucson basin, against the Rincon Mountains, and our bee and wasp calls there follow the open desert. Newer homes in Del Lago border undeveloped land, so bees scouting for a hive site find block walls, meter boxes and irrigation valve boxes first. Larger, semi-rural lots around Rocking K Ranch and toward Colossal Cave Mountain Park have more sheds, outbuildings and stacked material, and that's where we find many hives and paper wasp nests. Water pulls bees in during the hot months, so dripping hose bibs and pool edges matter. If bees are flying in and out of one opening, keep people and pets back and call us. We remove the hive or nest, treat the spot and show you which openings to seal.",
+    ],
+  },
+  "sahuarita-az/pest-and-termite/bee-wasp-removal": {
+    heading: "What We See on Bee and Wasp Calls in Sahuarita",
+    paragraphs: [
+      "In Sahuarita, bee calls follow water. Rancho Sahuarita (85629) is built around Sahuarita Lake, parks and irrigated common areas, so bees and wasps have water close by all summer. On the desert edge in Quail Creek and on the newer south side in Las Campanas, we find hives in block walls, meter boxes, irrigation valve boxes and the roof eaves of newer homes, and paper wasp nests under patio covers and in garage corners. Bees in Arizona can be defensive, so don't spray, plug or knock down a hive yourself. We find where the bees go in, remove the hive or nest, treat the spot and point out the gaps to seal so a new swarm is less likely to move in.",
+    ],
+  },
+  "sahuarita-az/pest-and-termite/rodent-exclusion": {
+    heading: "What We See on Rodent Calls in Sahuarita",
+    paragraphs: [
+      "Sahuarita's newer neighborhoods sit next to open desert and farmland, and that's where most of our rodent calls start. Quail Creek borders open desert and agricultural land, and pack rats and roof rats move from brush, fields and landscape rock into garages, attics and engine bays. In Rancho Sahuarita (85629), mature landscaping and fruit trees near the lake and parks give rodents food and cover close to the house. On Las Campanas and other newer streets on the south side, the gaps we find most are at garage door seals, utility and plumbing penetrations and roof vents. We trap and remove the rodents first, then seal the entry points so they can't get back in.",
+    ],
+  },
+  "sahuarita-az/pest-and-termite/spider-prevention": {
+    heading: "What We See on Spider Calls in Sahuarita",
+    paragraphs: [
+      "Most spider calls in Sahuarita are black widows, and we find them in the same places on almost every home: block wall gaps, meter boxes, garage corners, patio furniture and the space under pool equipment. Rancho Sahuarita (85629) has irrigated yards and lake-side parks that keep insects, and the spiders that eat them, close to the house. In Quail Creek and Las Campanas, homes border open desert, so spiders and their prey move in from the edge, especially once nights cool down in fall. We treat the perimeter, eaves and wall voids, knock down webs and egg sacs we can reach, and show you the clutter and gaps that let spiders settle back in.",
+    ],
+  },
 };
 
 export function getLocalNote(

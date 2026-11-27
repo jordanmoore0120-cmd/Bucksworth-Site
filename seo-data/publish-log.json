@@ -697,5 +697,28 @@
       "/green-valley-az/pest-and-termite (pos 18.5, 2,271 imp)"
     ],
     "information_gain": "Arizona species is Mastigoproctus tohono (Barrales-Alcalá, Francke & Prendini 2018, type locality Portal, Cochise County; World Arachnid Catalog), split from M. giganteus; 2.2-2.3 in excl. tail; walks on six legs, front pair sensory, poor vision; acetic-acid spray from tail base; no venom/stinger; 'classic first monsoon animals' (Justin Schmidt via HCN), burrow through dry season, hunt humid nights; eats crickets, roaches, bark scorpions. City chosen by range: Vail is the SE edge of the Tucson basin (Rincons, Cienega Creek), not East Valley where it would be inaccurate. Vinegaroon vs bark scorpion vs camel spider ID table; real AZ monthly demand table. Honest service angle: no treatment for vinegaroons; we fix entry points and the crickets/roaches/scorpions they hunt."
+  },
+  {
+    "date": "2026-11-27",
+    "slug": "what-are-pill-bugs-what-gilbert-homeowners-should-know-about-roly-polies-in-yards-and-garages",
+    "city": "gilbert-az",
+    "vertical": "pest-and-termite",
+    "sub_service": "general pest (occasional invaders)",
+    "target_question": "what are pill bugs (pill bugs / roly poly / sow bug)",
+    "az_volume": 590,
+    "queue_rank": null,
+    "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-27 (30 keywords, $0.09): 'pill bugs' AZ 590/mo avg (Mar 2026 880), 'roly poly' 1,000 (Mar-Apr 1,300), 'sow bug' 110. Rejected: 'silverfish' 8,100 (topic-check exit 1: legacy /silverfish-pest-control + /residential/silverfish-pest-control), 'fleas' 5,400 and 'ticks in arizona' 1,000 (fleas/ticks not in knowledge/ or services.ts as a service), 'grasshoppers' 5,400 and 'june bugs' 2,900 (no service fit), 'house centipede' 1,600 (legacy /centipede-pest-control 301s exist), 'fungus gnats' 1,600 (indoor plant intent). blog-queue.json exhausted (dated 11-08).",
+    "money_page_linked": "/gilbert-az/pest-and-termite",
+    "serp_type": "informational (live DataForSEO SERP 2026-11-27, 'pill bugs', Phoenix mobile: knowledge graph, AI Overview, PAA, perspectives, video; organic = Reddit, explainer/ID pages, one pest company ID page). Blog post matches.",
+    "gate": "topic-check 'pill bugs' and 'roly poly' exit 0. 0 blog titles contain pill bug/roly/sow bug; nothing in gsc-ranking-map or cannibalization.json; no legacy WP URL. Distinct from the Mesa earwig post (different species/question).",
+    "information_gain": "Arizona monthly demand table for 'roly poly' vs 'pill bugs' + 5-way ID table (pill bug, sow bug, millipede, earwig, cricket) + Gilbert neighborhood-by-neighborhood moisture sources; UC IPM cited.",
+    "words": 2160,
+    "internal_links": 11,
+    "striking_distance_linked": [
+      "/gilbert-az (pos 11.3)",
+      "/gilbert-az/pest-and-termite/scorpion-control (pos 17.4)",
+      "/gilbert-az/pest-and-termite/mosquito-control (pos 15.7)",
+      "/mesa-az/pest-and-termite (pos 8.4)"
+    ]
   }
 ]

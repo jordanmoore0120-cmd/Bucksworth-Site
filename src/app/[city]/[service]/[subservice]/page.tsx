@@ -83,6 +83,15 @@ const SUB_META: Record<string, string> = {
   "apache-junction-az/pest-and-termite/bee-wasp-removal": "Bee and wasp removal in Apache Junction, AZ 85119 and 85120: hives in walls, eaves and sheds, plus wasp nests, near the Superstitions and the Apache Trail. Call (480) 422-8388.",
   "san-tan-valley-az/pest-and-termite/rodent-exclusion": "Rodent and pack rat exclusion in San Tan Valley, AZ 85140 and 85143, from Johnson Ranch to Pecan Creek. We remove rodents, then seal the gaps they use. Call (480) 422-8388.",
   "buckeye-az/pest-and-termite/termite-treatment": "Termite treatment in Buckeye, AZ 85326 and 85396 for homes in Verrado, Tartesso, Sundance and Festival Ranch. Inspection first, then a treatment plan. Call (480) 422-8388.",
+  /* 2026-11-27 (site-task 48, GSC striking-distance 2026-11-08): Vail bee-wasp pos 15.4 / 476 imp / 0 clicks, Phoenix
+     overseeding pos 12.5 / 436 imp / 5 clicks, Sahuarita rodent exclusion pos 22.5 / 429 imp, spider prevention pos 24.6 /
+     428 imp, bee-wasp pos 20.3 / 406 imp (all 0-1 clicks). Sahuarita scorpion skipped: its content override has its own meta.
+     Overseeding facts from services.ts (Oct 1-20 Phoenix window, perennial ryegrass, watering schedule); no prices. */
+  "vail-az/pest-and-termite/bee-wasp-removal": "Bee and wasp removal in Vail, AZ: hives in walls, sheds and meter boxes, plus paper wasp nests, for homes in Del Lago, Rocking K Ranch and near Colossal Cave. Call (520) 284-9930.",
+  "phoenix-az/weed-and-lawn-care/overseeding": "Winter lawn overseeding in Phoenix, AZ with perennial ryegrass. Best window is October 1-20; we seed and give you a watering schedule for germination. Call (480) 422-8388 for a free estimate.",
+  "sahuarita-az/pest-and-termite/rodent-exclusion": "Rodent and pack rat exclusion in Sahuarita, AZ for homes in Rancho Sahuarita, Quail Creek and Las Campanas. We remove rats and mice, then seal entry points. Call (520) 284-9930.",
+  "sahuarita-az/pest-and-termite/spider-prevention": "Spider control in Sahuarita, AZ for black widows and other spiders in block walls, garages and patios, from Rancho Sahuarita to Quail Creek and Las Campanas. Call (520) 284-9930.",
+  "sahuarita-az/pest-and-termite/bee-wasp-removal": "Bee and wasp removal in Sahuarita, AZ: hives in walls, eaves and irrigation boxes, plus wasp nests, in Rancho Sahuarita, Quail Creek and Las Campanas. Call (520) 284-9930.",
 };
 
 export async function generateMetadata({
