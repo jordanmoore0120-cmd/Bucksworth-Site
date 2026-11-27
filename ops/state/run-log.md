@@ -126,3 +126,9 @@ One line per agent action: `YYYY-MM-DD HH:MM | agent | task | what changed | com
 - Build + url-guard prepush PASS. Local next start: 8 changed URLs 200, new meta + sections render; post has Article + FAQPage + Breadcrumb, self-canonical, no priceRange, 11 internal links 200.
 - Connectors: DataForSEO ok (1 volume pull, 1 SERP), Slack read ok.
 
+## 2026-11-27 daily run (Claude)
+- Fix-list (361273f): Vail vinegaroon guide - removed "(all 85641)" grouping, dropped unsupported "once-or-twice-a-summer" frequency, range aligned with the 2018 revision (NE Sonora + southern Arizona), demand stated as searches/month. Phoenix aeration photo still ASSET GAP.
+- site-tasks 48-50 (361273f): SUB_META on Vail bee-wasp, Phoenix overseeding, Sahuarita rodent/spider/bee-wasp (GSC 406-476 imp, pos 12-25); "What We See" sections on the 4 pest pages.
+- Blog: "What Are Pill Bugs? What Gilbert Homeowners Should Know About Roly Polies in Yards and Garages" ('pill bugs' AZ 590/mo + 'roly poly' 1,000 live DataForSEO, Mar peak). SERP = KG + AIO + PAA + perspectives + video. Money page /gilbert-az/pest-and-termite. Rejected: silverfish 8,100 (legacy URLs, topic-check exit 1), fleas 5,400/ticks 1,000 (not a listed service), grasshoppers/june bugs (no service fit), house centipede (legacy centipede 301s).
+- Build + url-guard prepush PASS. Local next start: 6 changed URLs 200, new meta/sections render; post has Article + FAQPage + Breadcrumb, self-canonical, no priceRange, 11 internal links 200.
+- Connectors: DataForSEO ok (1 volume pull, 1 SERP) · Slack read ok · GBP ok (Tucson reviews: 4.9 avg, 400 reviews; new 4-star 11/27 mentions price increases, already replied). Google Ads, GA4, Facebook, Instagram not tested.
