@@ -720,5 +720,28 @@
       "/gilbert-az/pest-and-termite/mosquito-control (pos 15.7)",
       "/mesa-az/pest-and-termite (pos 8.4)"
     ]
+  },
+  {
+    "date": "2026-11-28",
+    "slug": "what-is-stinknet-what-queen-creek-homeowners-should-know-about-globe-chamomile-before-it-blooms",
+    "city": "queen-creek-az",
+    "vertical": "weed-and-lawn-care",
+    "sub_service": "pre-emergent-weed-control",
+    "target_question": "what is stinknet (stinknet / globe chamomile / stinknet arizona)",
+    "az_volume": 1300,
+    "queue_rank": null,
+    "source": "Live DataForSEO Google Ads search volume, location Arizona, pulled 2026-11-28 (40 keywords, $0.09): 'stinknet' AZ 1,300/mo avg (Feb-Mar 2026 3,600, Nov 2025 590), 'stinknet arizona' 210, 'globe chamomile' 210. Weed vertical chosen (last weed post 11-22) and timing (Dec-Mar peak, germination Oct-Nov). Other strong candidates not taken today: 'palo verde beetle' 8,100 (no service fit), 'wolf spider' 12,100 (5 existing black widow/wolf spider posts), 'pack rats' 2,900, 'yellow jackets' 9,900, 'brown recluse arizona' 1,600, 'dandelions' 5,400, 'purslane' 1,600. blog-queue.json exhausted (dated 11-08).",
+    "money_page_linked": "/queen-creek-az/weed-and-lawn-care/pre-emergent-weed-control",
+    "serp_type": "informational (live DataForSEO SERP 2026-11-28, 'stinknet', Phoenix mobile: AI Overview, images, PAA, short videos, video; organic = weed-control company explainer (wekillweeds.com #1), House Digest, Facebook, Reddit, Pima County, UA CALS). Blog post matches.",
+    "gate": "topic-check 'stinknet' and 'globe chamomile' exit 0. 0 blog titles/slugs contain stinknet/globe chamomile; only passing mentions in two weed-hub overrides (service-hub-overrides.ts) and one June gravel post body; nothing in gsc-ranking-map or cannibalization.json.",
+    "information_gain": "Arizona month-by-month search table for 'stinknet' (DataForSEO) showing people search after flowering, paired with a Queen Creek month-by-month action calendar from UA AZ1827 lifecycle data; look-alike ID table (pineappleweed, Australian waterbuttons); Maricopa-Pinal county line local angle.",
+    "primary_source": "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1827-2023.pdf (opened and read in full 2026-11-28)",
+    "words": 2170,
+    "internal_links": 12,
+    "striking_distance_linked": [
+      "/queen-creek-az (pos 12.3)",
+      "/queen-creek-az/weed-and-lawn-care/weed-and-feed-program (pos 15.9)",
+      "/mesa-az/weed-and-lawn-care (pos 16.0)"
+    ]
   }
 ]

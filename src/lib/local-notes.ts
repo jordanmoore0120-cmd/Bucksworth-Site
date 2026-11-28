@@ -110,6 +110,44 @@ const NOTES: Record<string, ContentBlock> = {
       "Most spider calls in Sahuarita are black widows, and we find them in the same places on almost every home: block wall gaps, meter boxes, garage corners, patio furniture and the space under pool equipment. Rancho Sahuarita (85629) has irrigated yards and lake-side parks that keep insects, and the spiders that eat them, close to the house. In Quail Creek and Las Campanas, homes border open desert, so spiders and their prey move in from the edge, especially once nights cool down in fall. We treat the perimeter, eaves and wall voids, knock down webs and egg sacs we can reach, and show you the clutter and gaps that let spiders settle back in.",
     ],
   },
+  /* 2026-11-28 (site-tasks 52-53): facts from neighborhoods.ts (Marana, Buckeye, Goodyear, Casa Grande, San Tan Valley)
+     and services.ts only. No neighborhood-level ZIPs (fix-list 11-27 lesson: a ZIP pairing needs a source). */
+  "marana-az/pest-and-termite/mosquito-control": {
+    heading: "What We See on Mosquito Calls in Marana",
+    paragraphs: [
+      "In Marana, mosquito season follows the monsoon. Continental Ranch is a large master-planned community where homes border desert washes, and after a summer storm those washes, plus yard drains, pots and pool covers, can hold water for days. Gladden Farms sits on the western edge next to agricultural land, and irrigated fields and yards keep moisture close to homes. Up in Dove Mountain, in the Tortolita Mountain foothills, we check the same spots, plus planters and decorative water features. On every visit we walk the yard for standing water first, show you what to dump or fix, then treat the shaded plants and walls where adult mosquitoes rest during the day.",
+    ],
+  },
+  "buckeye-az/pest-and-termite/bee-wasp-removal": {
+    heading: "What We See on Bee and Wasp Calls in Buckeye",
+    paragraphs: [
+      "Buckeye keeps growing into raw desert, and bees go where they find shelter and water. In Verrado, in the White Tank Mountain foothills, and in Tartesso, where new streets push into open desert, we find hives in block wall gaps, meter boxes and the roof eaves of newer homes. In Sundance and Festival Ranch, paper wasps build under patio covers, in garage corners and behind light fixtures, and drip lines and pools give both of them water all summer. Bees in Arizona can be defensive, so don't spray, plug or knock down a hive yourself. We find where the bees go in, remove the hive or nest, treat the spot and point out the gaps to seal so a new swarm is less likely to move in.",
+    ],
+  },
+  "buckeye-az/pest-and-termite/rodent-exclusion": {
+    heading: "What We See on Rodent Calls in Buckeye",
+    paragraphs: [
+      "Most rodent calls in Buckeye start at the desert edge. Verrado sits in the White Tank Mountain foothills and Tartesso is expanding into raw desert, so pack rats nest in brush and landscape rock, then move into garages and engine bays. In Sundance, south of I-10, and in Festival Ranch on the eastern edge, newer construction keeps disturbing rodents that were already living on the land. On newer homes the gaps we find most are at garage door seals, utility and plumbing penetrations and roof vents. We trap and remove the rodents first, then seal the entry points so they can't get back in.",
+    ],
+  },
+  "goodyear-az/pest-and-termite/bee-wasp-removal": {
+    heading: "What We See on Bee and Wasp Calls in Goodyear",
+    paragraphs: [
+      "Goodyear bee calls split by neighborhood. In Estrella Mountain Ranch, backed against Estrella Mountain, and in Canyon Trails on the south side where new construction meets the desert, we find hives in block walls, meter boxes and irrigation valve boxes. Palm Valley is more established, and its mature palm trees and roof lines give bees and paper wasps plenty of places to build. In Pebble Creek, golf courses and lakes keep water close all summer. Bees in Arizona can be defensive, so don't spray, plug or knock down a hive yourself. We find where the bees go in, remove the hive or nest, treat the spot and point out the gaps to seal so a new swarm is less likely to move in.",
+    ],
+  },
+  "casa-grande-az/pest-and-termite/termite-treatment": {
+    heading: "What We See on Termite Calls in Casa Grande",
+    paragraphs: [
+      "Termite calls in Casa Grande look different across town. In Downtown Casa Grande, the historic core, older buildings have had decades of exposure, so we look closely at wood near the ground, door frames and any spot where soil touches the structure. In Coyote Ranch on the east side and in Mission Royale, on homes built on slab, we find subterranean termite mud tubes running up the slab edge, along block walls and in the garage. If your builder hired Bucksworth for the pre-construction treatment, your home may already have warranty coverage, so check that first. We inspect the whole home, then recommend a treatment for what we actually find, and every treatment includes a warranty and an annual re-inspection.",
+    ],
+  },
+  "san-tan-valley-az/pest-and-termite/bee-wasp-removal": {
+    heading: "What We See on Bee and Wasp Calls in San Tan Valley",
+    paragraphs: [
+      "San Tan Valley is mostly newer homes built on former desert floor, and bees move in wherever they find a dry cavity and water nearby. In Johnson Ranch and Bella Via, we find hives in block wall gaps, meter boxes and the roof eaves of newer homes. In Pecan Creek on the east side, and on lots near San Tan Mountain Regional Park and Goldmine Mountain, swarms come in from the open desert in spring, and paper wasps build under patio covers and in garage corners all summer. Bees in Arizona can be defensive, so don't spray, plug or knock down a hive yourself. We find where the bees go in, remove the hive or nest, treat the spot and point out the gaps to seal so a new swarm is less likely to move in.",
+    ],
+  },
 };
 
 export function getLocalNote(

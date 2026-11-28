@@ -92,6 +92,16 @@ const SUB_META: Record<string, string> = {
   "sahuarita-az/pest-and-termite/rodent-exclusion": "Rodent and pack rat exclusion in Sahuarita, AZ for homes in Rancho Sahuarita, Quail Creek and Las Campanas. We remove rats and mice, then seal entry points. Call (520) 284-9930.",
   "sahuarita-az/pest-and-termite/spider-prevention": "Spider control in Sahuarita, AZ for black widows and other spiders in block walls, garages and patios, from Rancho Sahuarita to Quail Creek and Las Campanas. Call (520) 284-9930.",
   "sahuarita-az/pest-and-termite/bee-wasp-removal": "Bee and wasp removal in Sahuarita, AZ: hives in walls, eaves and irrigation boxes, plus wasp nests, in Rancho Sahuarita, Quail Creek and Las Campanas. Call (520) 284-9930.",
+  /* 2026-11-28 (site-task 51, GSC striking-distance 2026-11-08, all 0 clicks except Buckeye rodent 4): Marana mosquito
+     pos 19.0 / 495 imp, Buckeye bee-wasp pos 15.2 / 485 imp, Buckeye rodent exclusion pos 23.3 / 479 imp, Goodyear bee-wasp
+     pos 14.2 / 457 imp, Casa Grande termite pos 22.5 / 399 imp, San Tan Valley bee-wasp pos 19.1 / 393 imp. Neighborhoods and
+     landmarks from neighborhoods.ts; neighborhood-level ZIPs left out (fix-list 11-27 lesson: a ZIP pairing needs a source). */
+  "marana-az/pest-and-termite/mosquito-control": "Mosquito control in Marana, AZ after monsoon rains, for yards in Continental Ranch, Dove Mountain and Gladden Farms. We find standing water and treat where mosquitoes rest. Call (520) 284-9930.",
+  "buckeye-az/pest-and-termite/bee-wasp-removal": "Bee and wasp removal in Buckeye, AZ: hives in block walls, eaves and meter boxes, plus wasp nests, for homes in Verrado, Tartesso, Sundance and Festival Ranch. Call (480) 422-8388.",
+  "buckeye-az/pest-and-termite/rodent-exclusion": "Rodent and pack rat exclusion in Buckeye, AZ for homes in Verrado, Tartesso, Sundance and Festival Ranch. We remove rats and mice, then seal the gaps they use. Call (480) 422-8388.",
+  "goodyear-az/pest-and-termite/bee-wasp-removal": "Bee and wasp removal in Goodyear, AZ: hives in walls, eaves and meter boxes, plus wasp nests, from Estrella Mountain Ranch and Canyon Trails to Palm Valley. Call (480) 422-8388.",
+  "casa-grande-az/pest-and-termite/termite-treatment": "Termite inspection and treatment in Casa Grande, AZ, from older homes Downtown to Mission Royale and Coyote Ranch. Inspection first, then a treatment plan. Call (480) 422-8388.",
+  "san-tan-valley-az/pest-and-termite/bee-wasp-removal": "Bee and wasp removal in San Tan Valley, AZ: hives in block walls, meter boxes and eaves, plus wasp nests, from Johnson Ranch and Bella Via to Pecan Creek. Call (480) 422-8388.",
 };
 
 export async function generateMetadata({
